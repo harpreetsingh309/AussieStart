@@ -1,0 +1,9 @@
+/* Localizable */
+"app.name" = "AussieStart";
+"app.tagline" = "ਤੁਹਾਡੀ ਆਸਟ੍ਰੇਲੀਆ ਸਟਾਰਟਰ ਗਾਈਡ";
+"tab.home" = "ਘਰ";
+"tab.search" = "ਖੋਜ";
+"tab.topics" = "ਵਿਸ਼ੇ";
+"tab.saved" = "ਸੇਵਡ";
+"tab.settings" = "ਸੈਟਿੰਗਾਂ";
+"disclaimer.short" = "ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਲਈ — ਇਹ ਕਾਨੂੰਨੀ, ਮਾਈਗ੍ਰੇਸ਼ਨ, ਵਿੱਤੀ ਜਾਂ ਮੈਡੀਕਲ ਸਲਾਹ ਨਹੀਂ ਹੈ।";

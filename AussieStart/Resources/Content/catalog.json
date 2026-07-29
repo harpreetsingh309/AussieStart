@@ -1,0 +1,674 @@
+{
+  "version": "1.0.0-mvp",
+  "lastReviewed": "2026-07-28",
+  "articles": [
+    {
+      "id": "arrival-airport",
+      "title": "Airport arrival checklist",
+      "subtitle": "Immigration, bags, biosecurity, and getting into the city",
+      "category": "arrival",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "airport",
+        "immigration",
+        "customs",
+        "biosecurity",
+        "landing"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "sim-setup",
+        "transport-card",
+        "banking-open-account"
+      ],
+      "file": "arrival-airport.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 1
+    },
+    {
+      "id": "sim-setup",
+      "title": "Get a local SIM or eSIM",
+      "subtitle": "Local number for banks, deliveries, and codes",
+      "category": "sim",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "sim",
+        "esim",
+        "optus",
+        "telstra",
+        "vodafone",
+        "phone",
+        "mobile"
+      ],
+      "estimatedReadingMinutes": 5,
+      "relatedArticles": [
+        "banking-open-account",
+        "tfn-apply"
+      ],
+      "file": "sim-setup.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 2
+    },
+    {
+      "id": "banking-open-account",
+      "title": "Open a bank account",
+      "subtitle": "BSB, debit card, PayID, and Osko basics",
+      "category": "banking",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "bank",
+        "bsb",
+        "payid",
+        "osko",
+        "debit",
+        "account"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "tfn-apply",
+        "jobs-basics"
+      ],
+      "file": "banking-open-account.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 3
+    },
+    {
+      "id": "tfn-apply",
+      "title": "Apply for a TFN",
+      "subtitle": "Tax File Number without the stress",
+      "category": "taxes",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "tfn",
+        "tax",
+        "ato",
+        "mygov",
+        "tax file number"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "jobs-basics",
+        "medicare-gp"
+      ],
+      "file": "tfn-apply.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 4
+    },
+    {
+      "id": "transport-card",
+      "title": "Public transport card",
+      "subtitle": "Myki, Opal, go card, and other state cards",
+      "category": "transport",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "myki",
+        "opal",
+        "go card",
+        "smartrider",
+        "metrocard",
+        "transport",
+        "train",
+        "tram",
+        "bus"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "housing-rent",
+        "driving-licence"
+      ],
+      "file": "transport-card.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 5
+    },
+    {
+      "id": "medicare-gp",
+      "title": "Medicare & seeing a GP",
+      "subtitle": "Bulk billing, chemists, and when to call 000",
+      "category": "healthcare",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "medicare",
+        "gp",
+        "doctor",
+        "hospital",
+        "bulk billing",
+        "health",
+        "medical",
+        "chemist",
+        "pharmacy"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "emergency-contacts",
+        "students-oshc"
+      ],
+      "file": "medicare-gp.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 6
+    },
+    {
+      "id": "housing-rent",
+      "title": "Renting your first place",
+      "subtitle": "Inspections, bond, leases, and scam checks",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "rent",
+        "bond",
+        "lease",
+        "inspection",
+        "housing",
+        "flatmates"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "shopping-essentials",
+        "transport-card"
+      ],
+      "file": "housing-rent.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 7
+    },
+    {
+      "id": "jobs-basics",
+      "title": "Finding a job the Australian way",
+      "subtitle": "Resume, Seek, Fair Work, and payslips",
+      "category": "jobs",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "job",
+        "seek",
+        "indeed",
+        "linkedin",
+        "resume",
+        "fair work",
+        "payslip",
+        "wage"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "tfn-apply",
+        "banking-open-account"
+      ],
+      "file": "jobs-basics.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 8
+    },
+    {
+      "id": "driving-licence",
+      "title": "Driving & licence conversion",
+      "subtitle": "Road rules, CTP, tolls, and overseas licences",
+      "category": "driving",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "licence",
+        "license",
+        "driving",
+        "car",
+        "toll",
+        "hook turn",
+        "insurance"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "transport-card",
+        "emergency-contacts"
+      ],
+      "file": "driving-licence.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 9
+    },
+    {
+      "id": "emergency-contacts",
+      "title": "Emergency contacts",
+      "subtitle": "000, poisons, SES, and roadside help",
+      "category": "emergency",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "emergency",
+        "000",
+        "police",
+        "ambulance",
+        "fire",
+        "ses",
+        "poison"
+      ],
+      "estimatedReadingMinutes": 4,
+      "relatedArticles": [
+        "medicare-gp"
+      ],
+      "file": "emergency-contacts.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 10
+    },
+    {
+      "id": "shopping-essentials",
+      "title": "Shopping for essentials",
+      "subtitle": "Groceries, furniture, returns, and plugs",
+      "category": "shopping",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "shopping",
+        "groceries",
+        "furniture",
+        "marketplace",
+        "coles",
+        "woolworths"
+      ],
+      "estimatedReadingMinutes": 5,
+      "relatedArticles": [
+        "housing-rent"
+      ],
+      "file": "shopping-essentials.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 11
+    },
+    {
+      "id": "students-oshc",
+      "title": "OSHC for international students",
+      "subtitle": "Visa-required health cover explained simply",
+      "category": "students",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "oshc",
+        "student",
+        "health cover",
+        "university",
+        "visa"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "medicare-gp",
+        "jobs-basics"
+      ],
+      "file": "students-oshc.md",
+      "lastUpdated": "2026-07-28",
+      "popularRank": 12
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip-sim",
+      "title": "Get a local number today",
+      "description": "Banks and deliveries often need SMS codes. A prepaid SIM on Day 1 unblocks almost everything else.",
+      "category": "sim",
+      "priority": 1,
+      "articleID": "sim-setup"
+    },
+    {
+      "id": "tip-tfn",
+      "title": "Apply for your TFN early",
+      "description": "Waiting can mean higher tax withholding on your first payslips.",
+      "category": "taxes",
+      "priority": 2,
+      "articleID": "tfn-apply"
+    },
+    {
+      "id": "tip-000",
+      "title": "Remember: emergency is 000",
+      "description": "Australia does not use 911. Save 000 and your home address in your phone.",
+      "category": "emergency",
+      "priority": 3,
+      "articleID": "emergency-contacts"
+    },
+    {
+      "id": "tip-bond",
+      "title": "Photograph everything at move-in",
+      "description": "Condition reports plus photos protect your bond when you leave.",
+      "category": "housing",
+      "priority": 4,
+      "articleID": "housing-rent"
+    },
+    {
+      "id": "tip-bulk",
+      "title": "Ask about bulk billing",
+      "description": "Not every GP is free. Ask about fees when you book.",
+      "category": "healthcare",
+      "priority": 5,
+      "articleID": "medicare-gp"
+    }
+  ],
+  "journey": [
+    {
+      "id": "d1",
+      "day": 1,
+      "week": 1,
+      "title": "SIM & connectivity",
+      "summary": "Buy a local SIM/eSIM and make sure mobile data works.",
+      "taskIDs": [
+        "task-sim"
+      ],
+      "articleIDs": [
+        "sim-setup",
+        "arrival-airport"
+      ]
+    },
+    {
+      "id": "d2",
+      "day": 2,
+      "week": 1,
+      "title": "Open a bank account",
+      "summary": "Get BSB/account details ready for work and rent.",
+      "taskIDs": [
+        "task-bank"
+      ],
+      "articleIDs": [
+        "banking-open-account"
+      ]
+    },
+    {
+      "id": "d3",
+      "day": 3,
+      "week": 1,
+      "title": "Apply for TFN",
+      "summary": "Start your Tax File Number application with a local address and phone.",
+      "taskIDs": [
+        "task-tfn"
+      ],
+      "articleIDs": [
+        "tfn-apply"
+      ]
+    },
+    {
+      "id": "d4",
+      "day": 4,
+      "week": 1,
+      "title": "Transport card",
+      "summary": "Set up your state's public transport card or app and top up.",
+      "taskIDs": [
+        "task-transport"
+      ],
+      "articleIDs": [
+        "transport-card"
+      ]
+    },
+    {
+      "id": "d5",
+      "day": 5,
+      "week": 1,
+      "title": "Emergency prep",
+      "summary": "Save 000 and key contacts; know your exact address.",
+      "taskIDs": [
+        "task-emergency"
+      ],
+      "articleIDs": [
+        "emergency-contacts"
+      ]
+    },
+    {
+      "id": "d8",
+      "day": 8,
+      "week": 2,
+      "title": "Housing search",
+      "summary": "Shortlist suburbs, book inspections, prepare application docs.",
+      "taskIDs": [
+        "task-rent-docs"
+      ],
+      "articleIDs": [
+        "housing-rent"
+      ]
+    },
+    {
+      "id": "d10",
+      "day": 10,
+      "week": 2,
+      "title": "Essentials shop",
+      "summary": "Buy only what you need for the first weeks.",
+      "taskIDs": [
+        "task-shop"
+      ],
+      "articleIDs": [
+        "shopping-essentials"
+      ]
+    },
+    {
+      "id": "d15",
+      "day": 15,
+      "week": 3,
+      "title": "Healthcare setup",
+      "summary": "Check Medicare/OSHC and find a nearby GP.",
+      "taskIDs": [
+        "task-gp"
+      ],
+      "articleIDs": [
+        "medicare-gp",
+        "students-oshc"
+      ]
+    },
+    {
+      "id": "d18",
+      "day": 18,
+      "week": 3,
+      "title": "Job ready",
+      "summary": "Australian resume + Seek/LinkedIn alerts.",
+      "taskIDs": [
+        "task-resume"
+      ],
+      "articleIDs": [
+        "jobs-basics"
+      ]
+    },
+    {
+      "id": "d25",
+      "day": 25,
+      "week": 4,
+      "title": "Driving check",
+      "summary": "Confirm licence rules before buying or driving a car.",
+      "taskIDs": [
+        "task-licence"
+      ],
+      "articleIDs": [
+        "driving-licence"
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "checklist-first-week",
+      "title": "First week essentials",
+      "subtitle": "The must-do list after landing",
+      "category": "arrival",
+      "tasks": [
+        {
+          "id": "task-sim",
+          "title": "Buy and activate a local SIM/eSIM",
+          "articleID": "sim-setup"
+        },
+        {
+          "id": "task-bank",
+          "title": "Open a transaction bank account",
+          "articleID": "banking-open-account"
+        },
+        {
+          "id": "task-tfn",
+          "title": "Submit TFN application",
+          "articleID": "tfn-apply"
+        },
+        {
+          "id": "task-transport",
+          "title": "Set up public transport card",
+          "articleID": "transport-card"
+        },
+        {
+          "id": "task-emergency",
+          "title": "Save emergency contacts",
+          "articleID": "emergency-contacts"
+        }
+      ]
+    },
+    {
+      "id": "checklist-home",
+      "title": "Home setup",
+      "subtitle": "Renting and settling your place",
+      "category": "housing",
+      "tasks": [
+        {
+          "id": "task-rent-docs",
+          "title": "Prepare rental application documents",
+          "articleID": "housing-rent"
+        },
+        {
+          "id": "task-shop",
+          "title": "Buy first-week household essentials",
+          "articleID": "shopping-essentials"
+        },
+        {
+          "id": "task-gp",
+          "title": "Find a GP / confirm health cover",
+          "articleID": "medicare-gp"
+        },
+        {
+          "id": "task-resume",
+          "title": "Update resume for Australian employers",
+          "articleID": "jobs-basics"
+        },
+        {
+          "id": "task-licence",
+          "title": "Check overseas licence validity",
+          "articleID": "driving-licence"
+        }
+      ]
+    }
+  ],
+  "synonyms": {
+    "doctor": [
+      "gp",
+      "medical",
+      "physician",
+      "clinic"
+    ],
+    "gp": [
+      "doctor",
+      "medical",
+      "bulk billing",
+      "health"
+    ],
+    "hospital": [
+      "emergency",
+      "ed",
+      "medical",
+      "ambulance"
+    ],
+    "bulk billing": [
+      "medicare",
+      "gp",
+      "free doctor",
+      "medical"
+    ],
+    "sim": [
+      "esim",
+      "phone",
+      "mobile",
+      "telstra",
+      "optus",
+      "vodafone"
+    ],
+    "myki": [
+      "transport",
+      "opal",
+      "go card",
+      "tram",
+      "train"
+    ],
+    "opal": [
+      "transport",
+      "myki",
+      "train",
+      "bus"
+    ],
+    "tfn": [
+      "tax",
+      "tax file number",
+      "ato"
+    ],
+    "tax": [
+      "tfn",
+      "ato",
+      "payg",
+      "return"
+    ],
+    "bank": [
+      "bsb",
+      "payid",
+      "osko",
+      "debit"
+    ],
+    "rent": [
+      "bond",
+      "lease",
+      "housing",
+      "flat"
+    ],
+    "job": [
+      "work",
+      "seek",
+      "career",
+      "payslip"
+    ],
+    "licence": [
+      "license",
+      "driving",
+      "car"
+    ],
+    "emergency": [
+      "000",
+      "police",
+      "ambulance",
+      "fire"
+    ]
+  },
+  "emergencyContacts": [
+    {
+      "id": "triple-zero",
+      "name": "Triple Zero",
+      "number": "000",
+      "detail": "Police, Fire, Ambulance \u2014 life-threatening emergencies only.",
+      "isTripleZero": true
+    },
+    {
+      "id": "poisons",
+      "name": "Poisons Information",
+      "number": "13 11 26",
+      "detail": "24/7 advice for poisonings and suspected poisonings.",
+      "isTripleZero": false
+    },
+    {
+      "id": "healthdirect",
+      "name": "healthdirect",
+      "number": "1800 022 222",
+      "detail": "24/7 nurse-backed health advice for non-emergency questions.",
+      "isTripleZero": false
+    },
+    {
+      "id": "ses",
+      "name": "SES",
+      "number": "132 500",
+      "detail": "State Emergency Service for floods, storms, and similar assistance.",
+      "isTripleZero": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+/* Localizable */
+"app.name" = "AussieStart";
+"app.tagline" = "Your Australia starter guide";
+"tab.home" = "Home";
+"tab.search" = "Search";
+"tab.topics" = "Topics";
+"tab.saved" = "Saved";
+"tab.settings" = "Settings";
+"disclaimer.short" = "Informational only — not legal, migration, financial, or medical advice.";

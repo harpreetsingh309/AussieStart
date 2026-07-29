@@ -1,0 +1,9 @@
+/* Localizable */
+"app.name" = "AussieStart";
+"app.tagline" = "आपकी ऑस्ट्रेलिया स्टार्टर गाइड";
+"tab.home" = "होम";
+"tab.search" = "खोज";
+"tab.topics" = "विषय";
+"tab.saved" = "सेव्ड";
+"tab.settings" = "सेटिंग्स";
+"disclaimer.short" = "केवल जानकारी के लिए — यह कानूनी, माइग्रेशन, वित्तीय या चिकित्सा सलाह नहीं है।";

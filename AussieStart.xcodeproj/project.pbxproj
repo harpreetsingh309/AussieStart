@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FBD3EB8E0F4902BF3032F8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7859EC978602447EADB4443C /* AboutView.swift */; };
+		0C55BAFF591E46EFBA02C2E1 /* transport-card.md in Resources */ = {isa = PBXBuildFile; fileRef = 48DDC2C823CE4DE1908DDD38 /* transport-card.md */; };
+		0CDFA6F7F9AD4018802886FF /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09DCF6A32D453A8EDF7080 /* UserPreferences.swift */; };
+		0CE69E6166324D6B80BE629B /* housing-rent.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D170B6EDD44F5A799C234 /* housing-rent.md */; };
+		216ADA793CAE4F7BBF69846F /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0853CFD1BE544DF882581C56 /* Repositories.swift */; };
+		2F5B701301B3442095B9879D /* AussieStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A09102D524E619CB06FCF /* AussieStartApp.swift */; };
+		3015A72690E047CC821F1338 /* arrival-airport.md in Resources */ = {isa = PBXBuildFile; fileRef = FE48986E7DA942DEA44EE2A2 /* arrival-airport.md */; };
+		351BDEA5E07644E0BE381349 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA6DEB41B9465CBE652475 /* SwiftDataModels.swift */; };
+		3A38A255B6CC432E980F62CF /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033AEECBC6B45128F7D7458 /* AppEnums.swift */; };
+		480FA2A3DF054FB5885CABBF /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A606249AF454BC8863A1F7C /* BookmarksView.swift */; };
+		4911A038C50A4AA1A0BE1834 /* jobs-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 166BA6E2D2AC47F285CBA509 /* jobs-basics.md */; };
+		4F5E45962CCB425FAC4EB0CD /* emergency-contacts.md in Resources */ = {isa = PBXBuildFile; fileRef = 9708794F318D4C15A3A3D1BC /* emergency-contacts.md */; };
+		5865A3EAEFB54C918DC4114C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243E56AAA064B5D90FA0B83 /* RootView.swift */; };
+		5FD47B3415F84E22823F8852 /* Foundation+AussieStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F30438CB104ECC8E855EF5 /* Foundation+AussieStart.swift */; };
+		6CD076185C1F4C8A8BA124EA /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A7E896CA8C4ABC848BA8DB /* ArticleDetailView.swift */; };
+		7230EB0A6BD74BE1A31FA920 /* sim-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B2DACCD87694C029832FEED /* sim-setup.md */; };
+		86E0211601EB450093395108 /* LocalSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A02F6607946A6B7AB2791 /* LocalSearchEngine.swift */; };
+		8E1FD02B53D446D8AD3E7D9D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7687185D480490291B4F77D /* HomeView.swift */; };
+		ABF5061CD037460FB099CE56 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD36E31358041E6A01411C2 /* SettingsView.swift */; };
+		C48EB77E0158411591081733 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B706F584C0AD4D71BC48A3C6 /* SharedComponents.swift */; };
+		C717B9F004BC4AF984B287DA /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E7EF0BF01A420FA99B6D56 /* ChecklistView.swift */; };
+		C907FC771605441FBF9E03FD /* tfn-apply.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B19E706DC3F4087B038692F /* tfn-apply.md */; };
+		C9EE213564694EC2A4EF5E42 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 17E9D55AB2694C1584B81B58 /* PrivacyInfo.xcprivacy */; };
+		CAD56659174A4E17997054BC /* students-oshc.md in Resources */ = {isa = PBXBuildFile; fileRef = 5370E21427EF4A629F307AD5 /* students-oshc.md */; };
+		CBCDE0277FBA416089650140 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751AF20BBA4BCFA70DC2B6 /* SearchView.swift */; };
+		CEB8ADE7C8E24C9DBD77463C /* banking-open-account.md in Resources */ = {isa = PBXBuildFile; fileRef = 44FCE468BBA54CA4A88AB187 /* banking-open-account.md */; };
+		CF6BA677DBB8451B835C6577 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E57A9F97F9479A97BB3A18 /* JourneyView.swift */; };
+		D0DCB2400BEE44A2B42AE583 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 56DCE7738A054CA79332A9A2 /* catalog.json */; };
+		D8F7B54D61A847A8B0ABDA8F /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9143700032564AC6A01DB9EE /* MarkdownDocumentView.swift */; };
+		DE1D89AA11BE424CA91F9703 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424973FC3404F989906B51F /* CategoriesView.swift */; };
+		E46940EDADC749FFB9BAF3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D387E70DE1654260BFDEDF39 /* Assets.xcassets */; };
+		EA3B9B493977487AB129D5B1 /* AppCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF9A92BA7BC45A79EC13DBA /* AppCopy.swift */; };
+		EA9CE758D92D440B9CB0979A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE2762FA9444C59F47D2D2 /* Localizable.strings */; };
+		EBD22345F49E4ED0B874E7CD /* ContentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70985609701642A1886EC646 /* ContentModels.swift */; };
+		EC20ACF4DD014630B2600C36 /* driving-licence.md in Resources */ = {isa = PBXBuildFile; fileRef = A428F7C07ACB4A26A9D52646 /* driving-licence.md */; };
+		F26C6C5EE7904449ACD68E42 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB34CB1C554846DD9BC49F2E /* AppTheme.swift */; };
+		F3603387E81E485EA99D8CD9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51DDB486DE174943AC6B582E /* Localizable.strings */; };
+		F5C1C445D2FA4BE2B69C48B2 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F5E1EAAD74524862C1733 /* ContentLoader.swift */; };
+		F69B4CBED771414781E18D56 /* medicare-gp.md in Resources */ = {isa = PBXBuildFile; fileRef = A1ADF2CD2E854FCFB70D8414 /* medicare-gp.md */; };
+		F6B2D16354CA415795216ED1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEBF12A9C76A4F62AB563CE3 /* Localizable.strings */; };
+		F8EE4A142EA94B7C961DA813 /* shopping-essentials.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6E457C2DCC4C1E92A26E0E /* shopping-essentials.md */; };
+		F9B654DF6FC94001A1A15393 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695F5769A41B4659AA1267E4 /* OnboardingFlowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0033AEECBC6B45128F7D7458 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		0853CFD1BE544DF882581C56 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		09751AF20BBA4BCFA70DC2B6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0A09DCF6A32D453A8EDF7080 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		0B19E706DC3F4087B038692F /* tfn-apply.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.md"; sourceTree = "<group>"; };
+		161F5E1EAAD74524862C1733 /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
+		166BA6E2D2AC47F285CBA509 /* jobs-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.md"; sourceTree = "<group>"; };
+		17E9D55AB2694C1584B81B58 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		22E7EF0BF01A420FA99B6D56 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		2424973FC3404F989906B51F /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		2CAA6DEB41B9465CBE652475 /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		40F30438CB104ECC8E855EF5 /* Foundation+AussieStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+AussieStart.swift"; sourceTree = "<group>"; };
+		413A09102D524E619CB06FCF /* AussieStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AussieStartApp.swift; sourceTree = "<group>"; };
+		44FCE468BBA54CA4A88AB187 /* banking-open-account.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.md"; sourceTree = "<group>"; };
+		48DDC2C823CE4DE1908DDD38 /* transport-card.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.md"; sourceTree = "<group>"; };
+		4DEE2762FA9444C59F47D2D2 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		51DDB486DE174943AC6B582E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5243E56AAA064B5D90FA0B83 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5370E21427EF4A629F307AD5 /* students-oshc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.md"; sourceTree = "<group>"; };
+		56DCE7738A054CA79332A9A2 /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
+		695F5769A41B4659AA1267E4 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		70985609701642A1886EC646 /* ContentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModels.swift; sourceTree = "<group>"; };
+		776A02F6607946A6B7AB2791 /* LocalSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEngine.swift; sourceTree = "<group>"; };
+		7859EC978602447EADB4443C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		789493A17C424DF281CF8C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2DACCD87694C029832FEED /* sim-setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.md"; sourceTree = "<group>"; };
+		87E869779458426AAF44CDA3 /* AussieStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3D170B6EDD44F5A799C234 /* housing-rent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.md"; sourceTree = "<group>"; };
+		9143700032564AC6A01DB9EE /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
+		9708794F318D4C15A3A3D1BC /* emergency-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.md"; sourceTree = "<group>"; };
+		9A606249AF454BC8863A1F7C /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		9CF9A92BA7BC45A79EC13DBA /* AppCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopy.swift; sourceTree = "<group>"; };
+		A1ADF2CD2E854FCFB70D8414 /* medicare-gp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.md"; sourceTree = "<group>"; };
+		A428F7C07ACB4A26A9D52646 /* driving-licence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.md"; sourceTree = "<group>"; };
+		AD6E457C2DCC4C1E92A26E0E /* shopping-essentials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.md"; sourceTree = "<group>"; };
+		B706F584C0AD4D71BC48A3C6 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		CAD36E31358041E6A01411C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D387E70DE1654260BFDEDF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A7E896CA8C4ABC848BA8DB /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		EEBF12A9C76A4F62AB563CE3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F2E57A9F97F9479A97BB3A18 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		F7687185D480490291B4F77D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB34CB1C554846DD9BC49F2E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		FE48986E7DA942DEA44EE2A2 /* arrival-airport.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		999EF2FEDCAB4CC39FD04664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F56E8B36854A1382121F73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		075796FE8C8241A99FB4AAD3 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				D4A7E896CA8C4ABC848BA8DB /* ArticleDetailView.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		1A954A9EC5A94B7699EE03A6 /* pa.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				51DDB486DE174943AC6B582E /* Localizable.strings */,
+			);
+			path = pa.lproj;
+			sourceTree = "<group>";
+		};
+		1B4453C34B7D4553A92E90A2 /* AussieStart */ = {
+			isa = PBXGroup;
+			children = (
+				96B8373722C24EB0A1E7E929 /* App */,
+				D387E70DE1654260BFDEDF39 /* Assets.xcassets */,
+				2871AC6BBADE4762A646C81F /* Components */,
+				04F56E8B36854A1382121F73 /* Core */,
+				8D4C18961C8542B2A25F0EF3 /* Extensions */,
+				7147AA3766B04A02ABCF4A11 /* Features */,
+				90E106004836425398020FD7 /* Models */,
+				FD2FB217445948738D23D9C8 /* Repositories */,
+				956A836B250A47F5A7CB76E6 /* Resources */,
+				8C403ED592ED43E9A7497EEC /* Services */,
+				83034FB890914CC9BA4323E5 /* Utilities */,
+				789493A17C424DF281CF8C40 /* Info.plist */,
+				17E9D55AB2694C1584B81B58 /* PrivacyInfo.xcprivacy */,
+			);
+			path = AussieStart;
+			sourceTree = "<group>";
+		};
+		25889D380C974693A8841A4D /* articles */ = {
+			isa = PBXGroup;
+			children = (
+				FE48986E7DA942DEA44EE2A2 /* arrival-airport.md */,
+				44FCE468BBA54CA4A88AB187 /* banking-open-account.md */,
+				A428F7C07ACB4A26A9D52646 /* driving-licence.md */,
+				9708794F318D4C15A3A3D1BC /* emergency-contacts.md */,
+				8E3D170B6EDD44F5A799C234 /* housing-rent.md */,
+				166BA6E2D2AC47F285CBA509 /* jobs-basics.md */,
+				A1ADF2CD2E854FCFB70D8414 /* medicare-gp.md */,
+				AD6E457C2DCC4C1E92A26E0E /* shopping-essentials.md */,
+				7B2DACCD87694C029832FEED /* sim-setup.md */,
+				5370E21427EF4A629F307AD5 /* students-oshc.md */,
+				0B19E706DC3F4087B038692F /* tfn-apply.md */,
+				48DDC2C823CE4DE1908DDD38 /* transport-card.md */,
+			);
+			path = articles;
+			sourceTree = "<group>";
+		};
+		274C58B3CB114761AC59715B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2424973FC3404F989906B51F /* CategoriesView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2871AC6BBADE4762A646C81F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9143700032564AC6A01DB9EE /* MarkdownDocumentView.swift */,
+				B706F584C0AD4D71BC48A3C6 /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		28EB5F024C374331985DB63D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				25889D380C974693A8841A4D /* articles */,
+				9B2956D59A4647E8B98FF446 /* states */,
+				56DCE7738A054CA79332A9A2 /* catalog.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		3E3533A22AF84A09BC4E8EE6 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				9A606249AF454BC8863A1F7C /* BookmarksView.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		4F238E865F68457AA39F71D2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				695F5769A41B4659AA1267E4 /* OnboardingFlowView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		69234EA5F759476FB2F0D233 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				22E7EF0BF01A420FA99B6D56 /* ChecklistView.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		7147AA3766B04A02ABCF4A11 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A311D65FF33E4FB0AB3BE6E2 /* About */,
+				075796FE8C8241A99FB4AAD3 /* Article */,
+				3E3533A22AF84A09BC4E8EE6 /* Bookmarks */,
+				274C58B3CB114761AC59715B /* Categories */,
+				69234EA5F759476FB2F0D233 /* Checklist */,
+				B02D70FF01364AE483826D30 /* Home */,
+				9B1953CD6D274DAE96142CA9 /* Journey */,
+				4F238E865F68457AA39F71D2 /* Onboarding */,
+				9024954772F74CA99D2C6825 /* Search */,
+				8F0AA72145794D8EA3F74296 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		83034FB890914CC9BA4323E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9CF9A92BA7BC45A79EC13DBA /* AppCopy.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8C403ED592ED43E9A7497EEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				161F5E1EAAD74524862C1733 /* ContentLoader.swift */,
+				776A02F6607946A6B7AB2791 /* LocalSearchEngine.swift */,
+				0A09DCF6A32D453A8EDF7080 /* UserPreferences.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D4C18961C8542B2A25F0EF3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40F30438CB104ECC8E855EF5 /* Foundation+AussieStart.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F0AA72145794D8EA3F74296 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CAD36E31358041E6A01411C2 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9024954772F74CA99D2C6825 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				09751AF20BBA4BCFA70DC2B6 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		90E106004836425398020FD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0033AEECBC6B45128F7D7458 /* AppEnums.swift */,
+				70985609701642A1886EC646 /* ContentModels.swift */,
+				2CAA6DEB41B9465CBE652475 /* SwiftDataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92D895C74E554EBEAB2238B8 = {
+			isa = PBXGroup;
+			children = (
+				1B4453C34B7D4553A92E90A2 /* AussieStart */,
+				A25420E122614125A80E4AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956A836B250A47F5A7CB76E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28EB5F024C374331985DB63D /* Content */,
+				C563F05028BF4D0EBC281DDD /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96B8373722C24EB0A1E7E929 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB34CB1C554846DD9BC49F2E /* AppTheme.swift */,
+				413A09102D524E619CB06FCF /* AussieStartApp.swift */,
+				5243E56AAA064B5D90FA0B83 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9B1953CD6D274DAE96142CA9 /* Journey */ = {
+			isa = PBXGroup;
+			children = (
+				F2E57A9F97F9479A97BB3A18 /* JourneyView.swift */,
+			);
+			path = Journey;
+			sourceTree = "<group>";
+		};
+		9B2956D59A4647E8B98FF446 /* states */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = states;
+			sourceTree = "<group>";
+		};
+		A25420E122614125A80E4AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E869779458426AAF44CDA3 /* AussieStart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A311D65FF33E4FB0AB3BE6E2 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				7859EC978602447EADB4443C /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		B02D70FF01364AE483826D30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F7687185D480490291B4F77D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C563F05028BF4D0EBC281DDD /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB788B8BAC4EB398678CF6 /* en.lproj */,
+				FFE2B0A293D54342AFE4ADA3 /* hi.lproj */,
+				1A954A9EC5A94B7699EE03A6 /* pa.lproj */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E8AB788B8BAC4EB398678CF6 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE2762FA9444C59F47D2D2 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		FD2FB217445948738D23D9C8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0853CFD1BE544DF882581C56 /* Repositories.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FFE2B0A293D54342AFE4ADA3 /* hi.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF12A9C76A4F62AB563CE3 /* Localizable.strings */,
+			);
+			path = hi.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B21BA9DE98C249CB9B4CA19A /* AussieStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6239A6B0CA83459ABFC11022 /* Build configuration list for PBXNativeTarget "AussieStart" */;
+			buildPhases = (
+				9920BF2860A742CEAF6B5FD5 /* Sources */,
+				999EF2FEDCAB4CC39FD04664 /* Frameworks */,
+				E5FF3E38B6CC44818DF14BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AussieStart;
+			productName = AussieStart;
+			productReference = 87E869779458426AAF44CDA3 /* AussieStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66045F6290D04BDABD00ED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B21BA9DE98C249CB9B4CA19A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 055B8C8D91DD415DA5BEDF32 /* Build configuration list for PBXProject "AussieStart" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hi,
+				pa,
+			);
+			mainGroup = 92D895C74E554EBEAB2238B8;
+			productRefGroup = A25420E122614125A80E4AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B21BA9DE98C249CB9B4CA19A /* AussieStart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5FF3E38B6CC44818DF14BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46940EDADC749FFB9BAF3D7 /* Assets.xcassets in Resources */,
+				C9EE213564694EC2A4EF5E42 /* PrivacyInfo.xcprivacy in Resources */,
+				D0DCB2400BEE44A2B42AE583 /* catalog.json in Resources */,
+				3015A72690E047CC821F1338 /* arrival-airport.md in Resources */,
+				CEB8ADE7C8E24C9DBD77463C /* banking-open-account.md in Resources */,
+				EC20ACF4DD014630B2600C36 /* driving-licence.md in Resources */,
+				4F5E45962CCB425FAC4EB0CD /* emergency-contacts.md in Resources */,
+				0CE69E6166324D6B80BE629B /* housing-rent.md in Resources */,
+				4911A038C50A4AA1A0BE1834 /* jobs-basics.md in Resources */,
+				F69B4CBED771414781E18D56 /* medicare-gp.md in Resources */,
+				F8EE4A142EA94B7C961DA813 /* shopping-essentials.md in Resources */,
+				7230EB0A6BD74BE1A31FA920 /* sim-setup.md in Resources */,
+				CAD56659174A4E17997054BC /* students-oshc.md in Resources */,
+				C907FC771605441FBF9E03FD /* tfn-apply.md in Resources */,
+				0C55BAFF591E46EFBA02C2E1 /* transport-card.md in Resources */,
+				EA9CE758D92D440B9CB0979A /* Localizable.strings in Resources */,
+				F6B2D16354CA415795216ED1 /* Localizable.strings in Resources */,
+				F3603387E81E485EA99D8CD9 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9920BF2860A742CEAF6B5FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26C6C5EE7904449ACD68E42 /* AppTheme.swift in Sources */,
+				2F5B701301B3442095B9879D /* AussieStartApp.swift in Sources */,
+				5865A3EAEFB54C918DC4114C /* RootView.swift in Sources */,
+				D8F7B54D61A847A8B0ABDA8F /* MarkdownDocumentView.swift in Sources */,
+				C48EB77E0158411591081733 /* SharedComponents.swift in Sources */,
+				5FD47B3415F84E22823F8852 /* Foundation+AussieStart.swift in Sources */,
+				07FBD3EB8E0F4902BF3032F8 /* AboutView.swift in Sources */,
+				6CD076185C1F4C8A8BA124EA /* ArticleDetailView.swift in Sources */,
+				480FA2A3DF054FB5885CABBF /* BookmarksView.swift in Sources */,
+				DE1D89AA11BE424CA91F9703 /* CategoriesView.swift in Sources */,
+				C717B9F004BC4AF984B287DA /* ChecklistView.swift in Sources */,
+				8E1FD02B53D446D8AD3E7D9D /* HomeView.swift in Sources */,
+				CF6BA677DBB8451B835C6577 /* JourneyView.swift in Sources */,
+				F9B654DF6FC94001A1A15393 /* OnboardingFlowView.swift in Sources */,
+				CBCDE0277FBA416089650140 /* SearchView.swift in Sources */,
+				ABF5061CD037460FB099CE56 /* SettingsView.swift in Sources */,
+				3A38A255B6CC432E980F62CF /* AppEnums.swift in Sources */,
+				EBD22345F49E4ED0B874E7CD /* ContentModels.swift in Sources */,
+				351BDEA5E07644E0BE381349 /* SwiftDataModels.swift in Sources */,
+				216ADA793CAE4F7BBF69846F /* Repositories.swift in Sources */,
+				F5C1C445D2FA4BE2B69C48B2 /* ContentLoader.swift in Sources */,
+				86E0211601EB450093395108 /* LocalSearchEngine.swift in Sources */,
+				0CDFA6F7F9AD4018802886FF /* UserPreferences.swift in Sources */,
+				EA3B9B493977487AB129D5B1 /* AppCopy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		492EBEAAF47548A5AD212651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD0DE582208D4316A2E0BB87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC160B25B034419BD9F3157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6757XQF27Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AussieStart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AussieStart;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F916B6C2FF1A4B28A1DC464C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6757XQF27Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AussieStart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AussieStart;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055B8C8D91DD415DA5BEDF32 /* Build configuration list for PBXProject "AussieStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492EBEAAF47548A5AD212651 /* Debug */,
+				CD0DE582208D4316A2E0BB87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6239A6B0CA83459ABFC11022 /* Build configuration list for PBXNativeTarget "AussieStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F916B6C2FF1A4B28A1DC464C /* Debug */,
+				DAC160B25B034419BD9F3157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66045F6290D04BDABD00ED55 /* Project object */;
+}
