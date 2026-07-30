@@ -7,7 +7,8 @@ struct SectionHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(title)
-                .font(.title3.weight(.semibold))
+                .font(.system(.title3, design: .rounded).weight(.bold))
+                .foregroundStyle(AppTheme.title)
             if let subtitle {
                 Text(subtitle)
                     .font(.subheadline)
@@ -21,14 +22,24 @@ struct SectionHeader: View {
 
 struct ArticleRowView: View {
     let article: ArticleMeta
+    /// Hide when used inside a `List` `NavigationLink` (system already shows a chevron).
+    var showsChevron: Bool = true
+    var cardStyle: Bool = false
 
     var body: some View {
         HStack(spacing: 14) {
             Image(systemName: article.category.symbolName)
-                .font(.title3)
+                .font(.title3.weight(.semibold))
                 .foregroundStyle(article.category.tint)
-                .frame(width: 40, height: 40)
-                .background(article.category.tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 10))
+                .frame(width: 44, height: 44)
+                .background(
+                    LinearGradient(
+                        colors: [article.category.tint.opacity(0.22), article.category.tint.opacity(0.08)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    in: RoundedRectangle(cornerRadius: 12, style: .continuous)
+                )
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(article.title)
@@ -40,15 +51,24 @@ struct ArticleRowView: View {
                     .foregroundStyle(.secondary)
                     .lineLimit(2)
                 Text("\(article.estimatedReadingMinutes) min · \(article.category.displayName)")
-                    .font(.caption)
-                    .foregroundStyle(.tertiary)
+                    .font(.caption.weight(.medium))
+                    .foregroundStyle(article.category.tint.opacity(0.9))
             }
             Spacer(minLength: 0)
-            Image(systemName: "chevron.right")
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(.tertiary)
+            if showsChevron {
+                Image(systemName: "chevron.right")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.tertiary)
+            }
         }
-        .padding(.vertical, 4)
+        .padding(cardStyle ? 14 : 0)
+        .padding(.vertical, cardStyle ? 0 : 4)
+        .background {
+            if cardStyle {
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .fill(AppTheme.card)
+            }
+        }
         .contentShape(Rectangle())
     }
 }
@@ -58,28 +78,56 @@ struct CategoryTile: View {
     var count: Int? = nil
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Image(systemName: category.symbolName)
-                .font(.title2)
-                .foregroundStyle(category.tint)
-            Text(category.displayName)
-                .font(.headline)
-                .foregroundStyle(.primary)
-            if let count {
-                Text("\(count) guides")
+        VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                Image(systemName: category.symbolName)
+                    .font(.title2.weight(.semibold))
+                    .foregroundStyle(.white)
+                    .frame(width: 42, height: 42)
+                    .background(
+                        LinearGradient(
+                            colors: [category.tint, category.tint.opacity(0.7)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        in: RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    )
+                Spacer(minLength: 0)
+                if let count {
+                    Text("\(count)")
+                        .font(.caption.weight(.bold))
+                        .foregroundStyle(category.tint)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(category.tint.opacity(0.15), in: Capsule())
+                }
+            }
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(category.displayName)
+                    .font(.system(.headline, design: .rounded).weight(.bold))
+                    .foregroundStyle(AppTheme.title)
+                Text(count == 0 ? "Coming soon" : "\(count ?? 0) guides")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
         }
-        .frame(maxWidth: .infinity, minHeight: 110, alignment: .topLeading)
+        .frame(maxWidth: .infinity, minHeight: 118, alignment: .topLeading)
         .padding(16)
         .background(
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .fill(category.tint.opacity(0.1))
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(AppTheme.card)
         )
         .overlay(
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .strokeBorder(category.tint.opacity(0.18), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .strokeBorder(
+                    LinearGradient(
+                        colors: [category.tint.opacity(0.35), category.tint.opacity(0.08)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 1
+                )
         )
     }
 }
@@ -94,7 +142,13 @@ struct ProgressRing: View {
                 .stroke(AppTheme.mist, lineWidth: lineWidth)
             Circle()
                 .trim(from: 0, to: min(max(progress, 0), 1))
-                .stroke(AppTheme.brandGreen, style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
+                .stroke(
+                    AngularGradient(
+                        colors: [AppTheme.brandGreen, AppTheme.brandGold, AppTheme.brandGreen],
+                        center: .center
+                    ),
+                    style: StrokeStyle(lineWidth: lineWidth, lineCap: .round)
+                )
                 .rotationEffect(.degrees(-90))
             Text("\(Int((progress * 100).rounded()))%")
                 .font(.caption.weight(.bold))
@@ -106,12 +160,17 @@ struct ProgressRing: View {
 
 struct DisclaimerBanner: View {
     var body: some View {
-        Text("Informational only — not legal, migration, financial, or medical advice. Always verify with official Australian Government sources.")
-            .font(.caption2)
-            .foregroundStyle(.secondary)
-            .padding(12)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(AppTheme.mist, in: RoundedRectangle(cornerRadius: 12))
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: "info.circle.fill")
+                .foregroundStyle(AppTheme.brandGreen)
+            Text("Informational only — not legal, migration, financial, or medical advice. Always verify with official Australian Government sources.")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(AppTheme.mist, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 
@@ -126,5 +185,23 @@ struct EmptyStateView: View {
         } description: {
             Text(message)
         }
+    }
+}
+
+struct SoftCardBackground: ViewModifier {
+    var cornerRadius: CGFloat = 18
+
+    func body(content: Content) -> some View {
+        content
+            .background(
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .fill(AppTheme.card)
+            )
+    }
+}
+
+extension View {
+    func softCard(_ cornerRadius: CGFloat = 18) -> some View {
+        modifier(SoftCardBackground(cornerRadius: cornerRadius))
     }
 }

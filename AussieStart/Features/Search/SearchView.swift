@@ -34,7 +34,7 @@ struct SearchView: View {
                             NavigationLink {
                                 ArticleDetailView(articleID: article.id)
                             } label: {
-                                ArticleRowView(article: article)
+                                ArticleRowView(article: article, showsChevron: false)
                             }
                         }
                     }
@@ -48,7 +48,7 @@ struct SearchView: View {
                                 NavigationLink {
                                     ArticleDetailView(articleID: hit.article.id)
                                 } label: {
-                                    ArticleRowView(article: hit.article)
+                                    ArticleRowView(article: hit.article, showsChevron: false)
                                 }
                             }
                         }

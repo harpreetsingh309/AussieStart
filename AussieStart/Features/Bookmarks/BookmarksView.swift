@@ -22,7 +22,7 @@ struct BookmarksView: View {
                                 NavigationLink {
                                     ArticleDetailView(articleID: meta.id)
                                 } label: {
-                                    ArticleRowView(article: meta)
+                                    ArticleRowView(article: meta, showsChevron: false)
                                 }
                             }
                         }
@@ -39,7 +39,7 @@ struct BookmarksView: View {
                                 NavigationLink {
                                     ArticleDetailView(articleID: meta.id)
                                 } label: {
-                                    ArticleRowView(article: meta)
+                                    ArticleRowView(article: meta, showsChevron: false)
                                 }
                             }
                         }

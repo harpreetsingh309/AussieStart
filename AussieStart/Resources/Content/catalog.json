@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-mvp",
-  "lastReviewed": "2026-07-28",
+  "version": "1.1.0-mvp",
+  "lastReviewed": "2026-07-30",
   "articles": [
     {
       "id": "arrival-airport",
@@ -308,6 +308,111 @@
       "file": "students-oshc.md",
       "lastUpdated": "2026-07-28",
       "popularRank": 12
+    },
+    {
+      "id": "family-schools",
+      "title": "Enrolling kids in school",
+      "subtitle": "Catchments, documents, and first-week school setup",
+      "category": "family",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "school",
+        "enrolment",
+        "kids",
+        "children",
+        "education",
+        "prep",
+        "kindergarten"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "family-childcare",
+        "family-immunisation",
+        "family-centrelink"
+      ],
+      "file": "family-schools.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 13
+    },
+    {
+      "id": "family-childcare",
+      "title": "Childcare & Child Care Subsidy",
+      "subtitle": "Finding care, waitlists, and CCS basics",
+      "category": "family",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "childcare",
+        "daycare",
+        "ccs",
+        "child care subsidy",
+        "oshc",
+        "kids"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "family-schools",
+        "family-centrelink",
+        "family-immunisation"
+      ],
+      "file": "family-childcare.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 14
+    },
+    {
+      "id": "family-immunisation",
+      "title": "Kids\u2019 immunisation catch-up",
+      "subtitle": "AIR records for school and childcare enrolment",
+      "category": "family",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "vaccination",
+        "immunisation",
+        "vaccine",
+        "air",
+        "kids",
+        "medicare"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "family-schools",
+        "medicare-gp",
+        "family-childcare"
+      ],
+      "file": "family-immunisation.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 15
+    },
+    {
+      "id": "family-centrelink",
+      "title": "Centrelink basics for families",
+      "subtitle": "myGov, CRN, and eligibility awareness",
+      "category": "family",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "centrelink",
+        "services australia",
+        "family tax benefit",
+        "crn",
+        "mygov",
+        "payments"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "family-childcare",
+        "tfn-apply",
+        "banking-open-account"
+      ],
+      "file": "family-centrelink.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 16
     }
   ],
   "tips": [
@@ -639,6 +744,30 @@
       "police",
       "ambulance",
       "fire"
+    ],
+    "school": [
+      "enrolment",
+      "education",
+      "prep",
+      "kindergarten",
+      "kids"
+    ],
+    "childcare": [
+      "daycare",
+      "ccs",
+      "child care",
+      "oshc"
+    ],
+    "vaccination": [
+      "immunisation",
+      "vaccine",
+      "air"
+    ],
+    "centrelink": [
+      "services australia",
+      "crn",
+      "family tax benefit",
+      "payments"
     ]
   },
   "emergencyContacts": [

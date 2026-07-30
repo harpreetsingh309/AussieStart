@@ -11,9 +11,10 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading, spacing: 22) {
                     greeting
                     tipCard
+                    quickTopics
                     journeyCard
                     continueReading
                     popular
@@ -22,50 +23,125 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .background(AppTheme.page)
+            .background {
+                LinearGradient(
+                    colors: [AppTheme.sand.opacity(0.85), AppTheme.page, AppTheme.page],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+                .ignoresSafeArea()
+            }
             .navigationTitle("AussieStart")
         }
     }
 
     private var greeting: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Text(greetingText)
-                .font(AppTheme.headlineFont)
-                .foregroundStyle(AppTheme.title)
-            Text("Settling in \(preferences.state.displayName) · \(preferences.persona.displayName)")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+        HStack(alignment: .top, spacing: 14) {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(greetingText)
+                    .font(.system(.title, design: .rounded).weight(.bold))
+                    .foregroundStyle(AppTheme.title)
+                Text("Settling in \(preferences.state.displayName)")
+                    .font(.subheadline.weight(.medium))
+                    .foregroundStyle(.secondary)
+                Text(preferences.persona.displayName)
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(AppTheme.brandGreen)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
+                    .background(AppTheme.mist, in: Capsule())
+            }
+            Spacer(minLength: 0)
+            ZStack {
+                Circle()
+                    .fill(
+                        LinearGradient(
+                            colors: [AppTheme.brandGreen, AppTheme.brandNavy],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .frame(width: 56, height: 56)
+                Image(systemName: "leaf.fill")
+                    .font(.title2)
+                    .foregroundStyle(.white)
+            }
         }
+        .padding(18)
+        .softCard(22)
     }
 
     private var tipCard: some View {
         Group {
             if let tip = articles.tipOfTheDay() {
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 12) {
                     Label("Today's tip", systemImage: "lightbulb.fill")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(AppTheme.brandGold)
                     Text(tip.title)
-                        .font(.headline)
+                        .font(.system(.title3, design: .rounded).weight(.bold))
                     Text(tip.description)
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(.white.opacity(0.88))
+                        .fixedSize(horizontal: false, vertical: true)
                     if let articleID = tip.articleID {
-                        NavigationLink("Read guide") {
+                        NavigationLink {
                             ArticleDetailView(articleID: articleID)
+                        } label: {
+                            Text("Read guide")
+                                .font(.subheadline.weight(.bold))
+                                .padding(.horizontal, 14)
+                                .padding(.vertical, 8)
+                                .background(.white.opacity(0.18), in: Capsule())
                         }
-                        .font(.subheadline.weight(.semibold))
+                        .padding(.top, 2)
                     }
                 }
-                .padding()
+                .padding(18)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(
-                    LinearGradient(colors: [AppTheme.brandNavy, AppTheme.brandGreen], startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 18)
+                    LinearGradient(
+                        colors: [AppTheme.brandNavy, AppTheme.brandGreenFixed.opacity(0.95)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    in: RoundedRectangle(cornerRadius: 22, style: .continuous)
                 )
                 .foregroundStyle(.white)
             }
         }
+    }
+
+    private var quickTopics: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            SectionHeader(title: "Quick topics")
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 10) {
+                    ForEach(quickCategories) { category in
+                        NavigationLink {
+                            CategoryDetailView(category: category)
+                        } label: {
+                            HStack(spacing: 8) {
+                                Image(systemName: category.symbolName)
+                                Text(category.displayName)
+                                    .fontWeight(.semibold)
+                            }
+                            .font(.subheadline)
+                            .foregroundStyle(category.tint)
+                            .padding(.horizontal, 14)
+                            .padding(.vertical, 10)
+                            .background(category.tint.opacity(0.12), in: Capsule())
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(.vertical, 2)
+            }
+        }
+    }
+
+    private var quickCategories: [ContentCategory] {
+        [.family, .healthcare, .transport, .banking, .housing, .emergency]
     }
 
     private var journeyCard: some View {
@@ -80,21 +156,24 @@ struct HomeView: View {
         } label: {
             HStack(spacing: 16) {
                 ProgressRing(progress: ratio)
-                    .frame(width: 64, height: 64)
-                VStack(alignment: .leading, spacing: 4) {
+                    .frame(width: 68, height: 68)
+                VStack(alignment: .leading, spacing: 6) {
                     Text("First 30 Days")
-                        .font(.headline)
-                        .foregroundStyle(.primary)
-                    Text("\(completed)/\(total) milestones · Keep going")
+                        .font(.system(.headline, design: .rounded).weight(.bold))
+                        .foregroundStyle(AppTheme.title)
+                    Text("\(completed)/\(total) milestones completed")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
+                    Text("Tap to continue your roadmap")
+                        .font(.caption.weight(.medium))
+                        .foregroundStyle(AppTheme.brandGreen)
                 }
-                Spacer()
+                Spacer(minLength: 0)
                 Image(systemName: "chevron.right")
                     .foregroundStyle(.tertiary)
             }
-            .padding()
-            .background(AppTheme.card, in: RoundedRectangle(cornerRadius: 16))
+            .padding(16)
+            .softCard(20)
         }
         .buttonStyle(.plain)
     }
@@ -110,7 +189,7 @@ struct HomeView: View {
                             NavigationLink {
                                 ArticleDetailView(articleID: meta.id)
                             } label: {
-                                ArticleRowView(article: meta)
+                                ArticleRowView(article: meta, cardStyle: true)
                             }
                             .buttonStyle(.plain)
                         }
@@ -123,11 +202,11 @@ struct HomeView: View {
     private var popular: some View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Most popular", subtitle: "Start with these for \(preferences.state.shortName)")
-            ForEach(articles.popular(state: preferences.state)) { article in
+            ForEach(articles.popular(state: preferences.state).prefix(5)) { article in
                 NavigationLink {
                     ArticleDetailView(articleID: article.id)
                 } label: {
-                    ArticleRowView(article: article)
+                    ArticleRowView(article: article, cardStyle: true)
                 }
                 .buttonStyle(.plain)
             }
@@ -138,21 +217,33 @@ struct HomeView: View {
         NavigationLink {
             EmergencyView()
         } label: {
-            HStack {
+            HStack(spacing: 14) {
                 Image(systemName: "exclamationmark.triangle.fill")
+                    .font(.title2)
                     .foregroundStyle(.white)
-                VStack(alignment: .leading) {
+                    .frame(width: 44, height: 44)
+                    .background(.white.opacity(0.18), in: RoundedRectangle(cornerRadius: 12))
+                VStack(alignment: .leading, spacing: 4) {
                     Text("Emergency contacts")
                         .font(.headline)
                         .foregroundStyle(.white)
-                    Text("000 · Poisons · SES · Roadside")
+                    Text("000 · Poisons · SES · healthdirect")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.9))
                 }
-                Spacer()
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right")
+                    .foregroundStyle(.white.opacity(0.7))
             }
-            .padding()
-            .background(AppTheme.danger, in: RoundedRectangle(cornerRadius: 16))
+            .padding(16)
+            .background(
+                LinearGradient(
+                    colors: [AppTheme.danger, Color(hex: "7F1D1D")],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                ),
+                in: RoundedRectangle(cornerRadius: 20, style: .continuous)
+            )
         }
         .buttonStyle(.plain)
     }
