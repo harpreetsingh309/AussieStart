@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 struct HomeView: View {
     @Environment(UserPreferences.self) private var preferences
@@ -15,6 +16,7 @@ struct HomeView: View {
                     greeting
                     tipCard
                     quickTopics
+                    destinations
                     journeyCard
                     continueReading
                     popular
@@ -141,7 +143,82 @@ struct HomeView: View {
     }
 
     private var quickCategories: [ContentCategory] {
-        [.family, .healthcare, .transport, .banking, .housing, .emergency]
+        [.explore, .family, .healthcare, .transport, .banking, .housing, .emergency]
+    }
+
+    private var destinations: some View {
+        let items = articles.articles(in: .explore, state: preferences.state)
+        return Group {
+            if !items.isEmpty {
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack {
+                        SectionHeader(
+                            title: "Popular destinations",
+                            subtitle: "Fees, short itineraries, and stops along the way"
+                        )
+                        Spacer(minLength: 8)
+                        NavigationLink("See all") {
+                            CategoryDetailView(category: .explore)
+                        }
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(AppTheme.brandGreen)
+                    }
+
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 12) {
+                            ForEach(items.prefix(6)) { article in
+                                NavigationLink {
+                                    ArticleDetailView(articleID: article.id)
+                                } label: {
+                                    VStack(alignment: .leading, spacing: 10) {
+                                        if let hero = (article.images ?? []).first(where: { UIImage(named: $0) != nil }) {
+                                            Image(hero)
+                                                .resizable()
+                                                .scaledToFill()
+                                                .frame(height: 96)
+                                                .frame(maxWidth: .infinity)
+                                                .clipped()
+                                                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                                        } else {
+                                            Image(systemName: "binoculars.fill")
+                                                .font(.title3.weight(.semibold))
+                                                .foregroundStyle(.white)
+                                                .frame(width: 40, height: 40)
+                                                .background(
+                                                    LinearGradient(
+                                                        colors: [Color(hex: "0E7490"), AppTheme.brandGreenFixed],
+                                                        startPoint: .topLeading,
+                                                        endPoint: .bottomTrailing
+                                                    ),
+                                                    in: RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                                )
+                                        }
+                                        Text(article.title)
+                                            .font(.headline)
+                                            .foregroundStyle(AppTheme.title)
+                                            .lineLimit(2)
+                                            .multilineTextAlignment(.leading)
+                                        Text(article.subtitle)
+                                            .font(.caption)
+                                            .foregroundStyle(.secondary)
+                                            .lineLimit(3)
+                                            .multilineTextAlignment(.leading)
+                                        Text("\(article.estimatedReadingMinutes) min read")
+                                            .font(.caption2.weight(.semibold))
+                                            .foregroundStyle(Color(hex: "0E7490"))
+                                    }
+                                    .padding(14)
+                                    .frame(width: 220, alignment: .leading)
+                                    .softCard(18)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                        .padding(.vertical, 2)
+                    }
+                }
+            }
+        }
     }
 
     private var journeyCard: some View {

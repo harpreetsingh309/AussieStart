@@ -110,7 +110,7 @@ enum UserPersona: String, CaseIterable, Identifiable, Codable {
 
 enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
     case arrival, sim, banking, healthcare, transport, driving
-    case taxes, housing, jobs, shopping, family, emergency, students
+    case taxes, housing, jobs, shopping, family, explore, emergency, students
 
     var id: String { rawValue }
 
@@ -127,6 +127,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .jobs: "Jobs"
         case .shopping: "Shopping"
         case .family: "Family"
+        case .explore: "Explore"
         case .emergency: "Emergency"
         case .students: "Students"
         }
@@ -145,6 +146,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .jobs: "briefcase.fill"
         case .shopping: "cart.fill"
         case .family: "figure.2.and.child.holdinghands"
+        case .explore: "binoculars.fill"
         case .emergency: "exclamationmark.triangle.fill"
         case .students: "graduationcap.fill"
         }
@@ -163,6 +165,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .jobs: "0369A1"
         case .shopping: "BE185D"
         case .family: "9333EA"
+        case .explore: "0E7490"
         case .emergency: "B91C1C"
         case .students: "4338CA"
         }

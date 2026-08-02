@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-mvp",
+  "version": "1.3.0-mvp",
   "lastReviewed": "2026-07-30",
   "articles": [
     {
@@ -413,6 +413,333 @@
       "file": "family-centrelink.md",
       "lastUpdated": "2026-07-30",
       "popularRank": 16
+    },
+    {
+      "id": "explore-great-ocean-road",
+      "title": "Great Ocean Road",
+      "subtitle": "Fees, 1\u20132 day itinerary, and coastal stops from Melbourne",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "great ocean road",
+        "twelve apostles",
+        "melbourne",
+        "road trip",
+        "lorne",
+        "apollo bay",
+        "visit",
+        "travel",
+        "destination"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "explore-phillip-island",
+        "driving-licence",
+        "transport-card"
+      ],
+      "file": "explore-great-ocean-road.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 17,
+      "images": [
+        "explore-great-ocean-road-1",
+        "explore-great-ocean-road-2",
+        "explore-great-ocean-road-3",
+        "explore-great-ocean-road-4",
+        "explore-great-ocean-road-5"
+      ]
+    },
+    {
+      "id": "explore-blue-mountains",
+      "title": "Blue Mountains day trip",
+      "subtitle": "Train itinerary, lookout fees, and village stops from Sydney",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "blue mountains",
+        "katoomba",
+        "three sisters",
+        "sydney",
+        "day trip",
+        "visit",
+        "travel"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "explore-sydney-harbour",
+        "transport-card"
+      ],
+      "file": "explore-blue-mountains.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 18,
+      "images": [
+        "explore-blue-mountains-1",
+        "explore-blue-mountains-2",
+        "explore-blue-mountains-3",
+        "explore-blue-mountains-4",
+        "explore-blue-mountains-5"
+      ]
+    },
+    {
+      "id": "explore-sydney-harbour",
+      "title": "Sydney Harbour icons",
+      "subtitle": "Opera House, ferries, Manly, and what each stop costs",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "sydney",
+        "opera house",
+        "harbour bridge",
+        "manly",
+        "ferry",
+        "visit",
+        "destination"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "explore-blue-mountains",
+        "transport-card"
+      ],
+      "file": "explore-sydney-harbour.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 19,
+      "images": [
+        "explore-sydney-harbour-1",
+        "explore-sydney-harbour-2",
+        "explore-sydney-harbour-3",
+        "explore-sydney-harbour-4",
+        "explore-sydney-harbour-5"
+      ]
+    },
+    {
+      "id": "explore-gold-coast",
+      "title": "Gold Coast beaches & hinterland",
+      "subtitle": "Theme parks, Burleigh, and 2-day itinerary costs",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "gold coast",
+        "surfers paradise",
+        "burleigh",
+        "theme park",
+        "queensland",
+        "beach",
+        "visit"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "explore-great-barrier-reef",
+        "transport-card"
+      ],
+      "file": "explore-gold-coast.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 20,
+      "images": [
+        "explore-gold-coast-1",
+        "explore-gold-coast-2",
+        "explore-gold-coast-3",
+        "explore-gold-coast-4",
+        "explore-gold-coast-5"
+      ]
+    },
+    {
+      "id": "explore-great-barrier-reef",
+      "title": "Great Barrier Reef (Cairns)",
+      "subtitle": "Cruise fees, 2\u20133 day plan, and nearby stops",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "great barrier reef",
+        "cairns",
+        "snorkel",
+        "port douglas",
+        "queensland",
+        "reef"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "explore-gold-coast",
+        "emergency-contacts"
+      ],
+      "file": "explore-great-barrier-reef.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 21,
+      "images": [
+        "explore-great-barrier-reef-1",
+        "explore-great-barrier-reef-2",
+        "explore-great-barrier-reef-3",
+        "explore-great-barrier-reef-4",
+        "explore-great-barrier-reef-5"
+      ]
+    },
+    {
+      "id": "explore-uluru",
+      "title": "Uluru & Kata Tjuta",
+      "subtitle": "Park fees, respectful itinerary, and Yulara tips",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "uluru",
+        "ayers rock",
+        "kata tjuta",
+        "red centre",
+        "northern territory",
+        "visit"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "explore-tasmania-hobart",
+        "emergency-contacts"
+      ],
+      "file": "explore-uluru.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 22,
+      "images": [
+        "explore-uluru-1",
+        "explore-uluru-2",
+        "explore-uluru-3",
+        "explore-uluru-4",
+        "explore-uluru-5"
+      ]
+    },
+    {
+      "id": "explore-phillip-island",
+      "title": "Phillip Island penguins",
+      "subtitle": "Parade fees, day plan, and stops from Melbourne",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "phillip island",
+        "penguins",
+        "nobbies",
+        "melbourne",
+        "wildlife",
+        "day trip"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "explore-great-ocean-road",
+        "driving-licence"
+      ],
+      "file": "explore-phillip-island.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 23,
+      "images": [
+        "explore-phillip-island-1",
+        "explore-phillip-island-2",
+        "explore-phillip-island-3",
+        "explore-phillip-island-4",
+        "explore-phillip-island-5"
+      ]
+    },
+    {
+      "id": "explore-rottnest",
+      "title": "Rottnest Island (Perth)",
+      "subtitle": "Ferry prices, bike day itinerary, and bay stops",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "rottnest",
+        "perth",
+        "quokka",
+        "ferry",
+        "western australia",
+        "wadjemup"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "explore-barossa-adelaide",
+        "transport-card"
+      ],
+      "file": "explore-rottnest.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 24,
+      "images": [
+        "explore-rottnest-1",
+        "explore-rottnest-2",
+        "explore-rottnest-3",
+        "explore-rottnest-4",
+        "explore-rottnest-5"
+      ]
+    },
+    {
+      "id": "explore-tasmania-hobart",
+      "title": "Hobart & southern Tasmania",
+      "subtitle": "MONA, kunanyi, and 3-day weekend costs",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "hobart",
+        "tasmania",
+        "mona",
+        "bruny",
+        "port arthur",
+        "weekend"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "explore-uluru",
+        "banking-open-account"
+      ],
+      "file": "explore-tasmania-hobart.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 25,
+      "images": [
+        "explore-tasmania-hobart-1",
+        "explore-tasmania-hobart-2",
+        "explore-tasmania-hobart-3",
+        "explore-tasmania-hobart-4",
+        "explore-tasmania-hobart-5"
+      ]
+    },
+    {
+      "id": "explore-barossa-adelaide",
+      "title": "Adelaide, Glenelg & Barossa",
+      "subtitle": "City-coast-wine weekend with tasting fees",
+      "category": "explore",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "adelaide",
+        "barossa",
+        "glenelg",
+        "wine",
+        "south australia",
+        "cellar door"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "explore-rottnest",
+        "transport-card"
+      ],
+      "file": "explore-barossa-adelaide.md",
+      "lastUpdated": "2026-07-30",
+      "popularRank": 26,
+      "images": [
+        "explore-barossa-adelaide-1",
+        "explore-barossa-adelaide-2",
+        "explore-barossa-adelaide-3",
+        "explore-barossa-adelaide-4",
+        "explore-barossa-adelaide-5"
+      ]
     }
   ],
   "tips": [
@@ -455,6 +782,14 @@
       "category": "healthcare",
       "priority": 5,
       "articleID": "medicare-gp"
+    },
+    {
+      "id": "tip-explore",
+      "title": "Plan one weekend escape",
+      "description": "Once SIM, bank, and transport are sorted, book a simple day trip \u2014 Blue Mountains, Phillip Island, or Glenelg are easy first wins.",
+      "category": "explore",
+      "priority": 6,
+      "articleID": "explore-blue-mountains"
     }
   ],
   "journey": [
@@ -768,6 +1103,39 @@
       "crn",
       "family tax benefit",
       "payments"
+    ],
+    "travel": [
+      "visit",
+      "trip",
+      "destination",
+      "tour",
+      "holiday"
+    ],
+    "destination": [
+      "travel",
+      "visit",
+      "explore",
+      "trip"
+    ],
+    "great ocean road": [
+      "twelve apostles",
+      "apollo bay",
+      "lorne"
+    ],
+    "uluru": [
+      "ayers rock",
+      "kata tjuta",
+      "red centre"
+    ],
+    "reef": [
+      "great barrier reef",
+      "cairns",
+      "snorkel"
+    ],
+    "rottnest": [
+      "quokka",
+      "perth",
+      "wadjemup"
     ]
   },
   "emergencyContacts": [

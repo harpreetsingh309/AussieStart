@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct SectionHeader: View {
     let title: String
@@ -25,21 +26,37 @@ struct ArticleRowView: View {
     /// Hide when used inside a `List` `NavigationLink` (system already shows a chevron).
     var showsChevron: Bool = true
     var cardStyle: Bool = false
+    /// Prefer first destination photo as the leading thumbnail when available.
+    var prefersPhotoThumbnail: Bool = true
+
+    private var thumbnailName: String? {
+        guard prefersPhotoThumbnail else { return nil }
+        return (article.images ?? []).first(where: { UIImage(named: $0) != nil })
+    }
 
     var body: some View {
         HStack(spacing: 14) {
-            Image(systemName: article.category.symbolName)
-                .font(.title3.weight(.semibold))
-                .foregroundStyle(article.category.tint)
-                .frame(width: 44, height: 44)
-                .background(
-                    LinearGradient(
-                        colors: [article.category.tint.opacity(0.22), article.category.tint.opacity(0.08)],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    ),
-                    in: RoundedRectangle(cornerRadius: 12, style: .continuous)
-                )
+            if let thumbnailName {
+                Image(thumbnailName)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 64, height: 64)
+                    .clipped()
+                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+            } else {
+                Image(systemName: article.category.symbolName)
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(article.category.tint)
+                    .frame(width: 44, height: 44)
+                    .background(
+                        LinearGradient(
+                            colors: [article.category.tint.opacity(0.22), article.category.tint.opacity(0.08)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        in: RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    )
+            }
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(article.title)

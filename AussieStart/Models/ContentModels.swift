@@ -23,6 +23,8 @@ struct ArticleMeta: Codable, Identifiable, Hashable {
     let file: String
     let lastUpdated: String
     let popularRank: Int?
+    /// Asset catalog image set names, e.g. `explore-uluru-1`.
+    let images: [String]?
 
     var appliesToAllStates: Bool {
         states.map { $0.lowercased() }.contains("all")

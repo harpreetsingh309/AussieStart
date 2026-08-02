@@ -80,6 +80,7 @@ extension ContentCategory {
         case .jobs: "38BDF8"
         case .shopping: "F472B6"
         case .family: "C084FC"
+        case .explore: "22D3EE"
         case .emergency: "F87171"
         case .students: "818CF8"
         }

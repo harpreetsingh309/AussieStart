@@ -18,6 +18,11 @@ struct ArticleDetailView: View {
             if let article = articles.resolve(articleID, state: preferences.state) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
+                        DestinationPhotoGallery(
+                            imageNames: article.meta.images ?? [],
+                            title: article.category == .explore ? "Destination photos" : "Photos"
+                        )
+
                         header(article)
 
                         MarkdownDocumentView(markdown: article.markdown)
