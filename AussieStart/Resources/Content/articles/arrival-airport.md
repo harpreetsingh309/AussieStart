@@ -35,6 +35,31 @@ Trains, rideshare, and buses serve Sydney Airport. Opal cards work on public tra
 Airtrain, buses, and rideshare are common. go card works on Translink services.
 <!-- /state -->
 
+<!-- state:sa -->
+## Getting into Adelaide
+Buses, rideshare, and taxis serve Adelaide Airport. metroCARD works on Adelaide Metro once you reach the city network.
+<!-- /state -->
+
+<!-- state:wa -->
+## Getting into Perth
+The Airport Line train, buses, and rideshare serve Perth Airport. SmartRider works on Transperth.
+<!-- /state -->
+
+<!-- state:tas -->
+## Getting into Hobart
+Airport buses, rideshare, and taxis serve Hobart Airport. Greencard is used on Metro Tasmania.
+<!-- /state -->
+
+<!-- state:act -->
+## Getting into Canberra
+Buses and rideshare serve Canberra Airport. MyWay+ works on Transport Canberra.
+<!-- /state -->
+
+<!-- state:nt -->
+## Getting into Darwin
+Buses, taxis, and rideshare serve Darwin Airport. Public transport is more limited — plan a pickup or taxi for late arrivals.
+<!-- /state -->
+
 # Common mistakes
 - Packing fresh food or seeds without declaring them
 - Leaving the airport without a working phone number

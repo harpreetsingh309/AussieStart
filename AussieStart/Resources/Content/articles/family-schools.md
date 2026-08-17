@@ -33,6 +33,36 @@ Use the Victorian government school finder and contact your designated neighbour
 NSW public schools generally enrol based on catchment. Check School Finder and speak to the local primary/high school office early.
 <!-- /state -->
 
+<!-- state:qld -->
+## Queensland tip
+Use the Queensland Government school finder and contact the local state school. Enrolment is usually by catchment.
+<!-- /state -->
+
+<!-- state:sa -->
+## South Australia tip
+Find your local Department for Education school and ask the front office about vacancies and zoned enrolment.
+<!-- /state -->
+
+<!-- state:wa -->
+## Western Australia tip
+Use the WA school finder (Department of Education) and contact your local intake school as soon as you have an address.
+<!-- /state -->
+
+<!-- state:tas -->
+## Tasmania tip
+Contact the local Department for Education, Children and Young People school. Smaller towns may have fewer vacancies — call early.
+<!-- /state -->
+
+<!-- state:act -->
+## ACT tip
+Use the Education Directorate school finder. Many Canberra schools are PEA (Priority Enrolment Area) based.
+<!-- /state -->
+
+<!-- state:nt -->
+## Northern Territory tip
+Contact the NT Department of Education and the nearest government school. Remote enrolments may need extra lead time.
+<!-- /state -->
+
 # Common mistakes
 - Waiting until after term starts without contacting the school
 - Assuming every school has open places

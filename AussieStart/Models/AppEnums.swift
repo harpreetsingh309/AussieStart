@@ -120,6 +120,22 @@ enum UserPersona: String, CaseIterable, Identifiable, Codable {
         case .citizen: "flag.fill"
         }
     }
+
+    /// Home “quick topics” ordered for this arrival type.
+    var suggestedCategories: [ContentCategory] {
+        switch self {
+        case .student:
+            [.students, .healthcare, .transport, .banking, .jobs, .housing, .emergency]
+        case .worker:
+            [.jobs, .taxes, .housing, .healthcare, .transport, .driving, .emergency]
+        case .family:
+            [.family, .healthcare, .housing, .transport, .shopping, .emergency, .taxes]
+        case .tourist:
+            [.explore, .sim, .transport, .emergency, .shopping, .driving]
+        case .pr, .citizen:
+            [.healthcare, .housing, .jobs, .taxes, .family, .driving, .emergency]
+        }
+    }
 }
 
 enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {

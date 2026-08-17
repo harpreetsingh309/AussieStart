@@ -20,6 +20,46 @@ Before buying a car — usually after weeks 2–4 once other basics are done.
 4. Arrange compulsory third party (CTP) / comprehensive insurance before driving.
 5. Learn toll road tag/account requirements in your city.
 
+<!-- state:vic -->
+## Victoria
+Check VicRoads for how long an overseas licence is valid and whether you must convert. Learn hook turns before driving in Melbourne.
+<!-- /state -->
+
+<!-- state:nsw -->
+## NSW
+Check Transport for NSW (Service NSW) for overseas licence rules, camera-detected offences, and toll accounts (e.g. Linkt).
+<!-- /state -->
+
+<!-- state:qld -->
+## Queensland
+Check TMR (Department of Transport and Main Roads) for licence conversion and Queensland road rules.
+<!-- /state -->
+
+<!-- state:sa -->
+## South Australia
+Check mySAGOV / Department for Infrastructure and Transport for licence validity and conversion steps.
+<!-- /state -->
+
+<!-- state:wa -->
+## Western Australia
+Check the Department of Transport (DoT) for overseas licence recognition and driving assessment requirements.
+<!-- /state -->
+
+<!-- state:tas -->
+## Tasmania
+Check Consumer, Building and Occupational Services / registrar of motor vehicles for licence conversion.
+<!-- /state -->
+
+<!-- state:act -->
+## ACT
+Check Access Canberra for overseas licence rules before you drive in Canberra.
+<!-- /state -->
+
+<!-- state:nt -->
+## Northern Territory
+Check MVR NT for how long you can drive on an overseas licence and when to convert.
+<!-- /state -->
+
 # Common mistakes
 - Assuming international driving permits replace a licence forever
 - Ignoring toll invoices until they escalate

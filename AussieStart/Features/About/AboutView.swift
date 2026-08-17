@@ -23,6 +23,11 @@ struct AboutView: View {
                 Text(preferences.t("about.verify"))
                     .font(.footnote)
                     .foregroundStyle(.secondary)
+
+                NavigationLink(preferences.t("privacy.title")) {
+                    PrivacyPolicyView()
+                }
+                .font(.subheadline.weight(.semibold))
             }
             .padding()
         }

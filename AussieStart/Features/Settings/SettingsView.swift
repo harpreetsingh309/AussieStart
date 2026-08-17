@@ -2,6 +2,8 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(UserPreferences.self) private var preferences
+    @Environment(StoreManager.self) private var store
+    @State private var showPaywall = false
 
     var body: some View {
         @Bindable var preferences = preferences
@@ -42,6 +44,25 @@ struct SettingsView: View {
                         .foregroundStyle(.secondary)
                 }
 
+                Section(preferences.t("pro.title")) {
+                    if store.isPro {
+                        Label(preferences.t("pro.active"), systemImage: "checkmark.seal.fill")
+                            .foregroundStyle(AppTheme.brandGreen)
+                    } else {
+                        Button {
+                            showPaywall = true
+                        } label: {
+                            Label(preferences.t("pro.unlock_cta"), systemImage: "star.circle.fill")
+                        }
+                    }
+                    Button(preferences.t("pro.restore")) {
+                        Task { await store.restore() }
+                    }
+                    Text(preferences.t("pro.settings_blurb"))
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
                 Section(preferences.t("settings.offline")) {
                     LabeledContent(preferences.t("settings.content_pack"), value: ContentLoader.shared.catalog.version)
                     LabeledContent(preferences.t("settings.last_reviewed"), value: ContentLoader.shared.catalog.lastReviewed)
@@ -51,7 +72,7 @@ struct SettingsView: View {
                 }
 
                 Section(preferences.t("settings.privacy")) {
-                    Toggle(preferences.t("settings.analytics"), isOn: $preferences.analyticsOptIn)
+                    NavigationLink(preferences.t("privacy.title")) { PrivacyPolicyView() }
                     Text(preferences.t("settings.privacy_blurb"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
@@ -71,6 +92,9 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle(preferences.t("settings.title"))
+            .sheet(isPresented: $showPaywall) {
+                PaywallView()
+            }
         }
     }
 }

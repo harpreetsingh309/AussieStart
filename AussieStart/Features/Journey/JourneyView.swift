@@ -10,7 +10,7 @@ struct JourneyView: View {
     private var progress: ProgressRepository { ProgressRepository(context: modelContext) }
 
     var body: some View {
-        let days = catalog.journey.sorted { $0.day < $1.day }
+        let days = catalog.journey.filter { $0.applies(to: preferences.persona) }.sorted { $0.day < $1.day }
         let doneCount = days.filter { completed.contains($0.id) }.count
         let ratio = days.isEmpty ? 0 : Double(doneCount) / Double(days.count)
 
@@ -53,10 +53,15 @@ struct JourneyView: View {
                         .foregroundStyle(completed.contains(day.id) ? AppTheme.brandGreen : .secondary)
                         .padding(.top, 2)
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(preferences.t("journey.day", day.day, day.localizedTitle(for: preferences.language)))
-                            .font(.headline)
-                            .foregroundStyle(.primary)
-                            .strikethrough(completed.contains(day.id))
+                        HStack {
+                            Text(preferences.t("journey.day", day.day, day.localizedTitle(for: preferences.language)))
+                                .font(.headline)
+                                .foregroundStyle(.primary)
+                                .strikethrough(completed.contains(day.id))
+                            if day.requiresPro {
+                                ProBadge()
+                            }
+                        }
                         Text(day.localizedSummary(for: preferences.language))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)

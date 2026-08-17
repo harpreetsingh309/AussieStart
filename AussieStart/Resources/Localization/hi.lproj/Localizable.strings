@@ -308,3 +308,86 @@
 "settings.aus_gov" = "ऑस्ट्रेलियाई सरकार";
 "common.min" = "%d मिनट";
 "common.progress_percent" = "प्रगति %d प्रतिशत";
+
+"home.for_you" = "आपके लिए";
+"home.for_you_subtitle" = "%@ के पहले हफ़्तों के लिए प्राथमिकता";
+
+"onboarding.task_more_student" = "OSHC, वीज़ा घंटे और आवास";
+"onboarding.task_more_family" = "स्कूल, स्वास्थ्य और आवास";
+"onboarding.task_more_tourist" = "ट्रांसपोर्ट, सुरक्षा और वीकेंड ट्रिप";
+
+"article.share" = "यह गाइड साझा करें";
+"article.mark_done" = "यह कदम पूरा चिह्नित करें";
+"article.completed" = "पूरा चिह्नित";
+"article.mark_done_hint" = "मैचिंग चेकलिस्ट और पहले 30 दिन के आइटम भी टिक होंगे";
+
+"emergency.call" = "%@ को %@ पर कॉल करें";
+
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "ज़रूरी सेटलमेंट गाइड अनलॉक करें";
+"pro.subtitle" = "एक बार खरीद · %@ · सब कुछ इस iPhone पर ऑफ़लाइन";
+"pro.benefit_guides" = "myGov सेटअप, वीज़ा वर्क राइट्स, सुपर, आधिकारिक बॉन्ड, यूटिलिटीज़, स्कैम, पहले महीने का बजट, और ABN बनाम कर्मचारी।";
+"pro.benefit_offline" = "गाइड फ़ोन पर रहती हैं। कोई अकाउंट नहीं। हम सरकारी साइटों में आपके लिए लॉगिन नहीं करते।";
+"pro.benefit_persona" = "होम और पहले 30 दिन पहले से छात्र, कर्मचारी, परिवार या विज़िटर के अनुसार छँटते हैं।";
+"pro.legal" = "AussieStart सरकारी ऐप नहीं है और ऑस्ट्रेलियाई सरकार से संबद्ध नहीं है। खरीदारी Apple प्रोसेस करता है। केवल जानकारी — हम वीज़ा, टैक्स, Medicare, myGov या बॉन्ड आपके बदले दाखिल नहीं करते।";
+"pro.buy" = "Pro अनलॉक करें · %@";
+"pro.restore" = "खरीदारी पुनर्स्थापित करें";
+"pro.unlock_cta" = "AussieStart Pro अनलॉक करें";
+"pro.unlock_this" = "यह गाइड Pro में है: %@";
+"pro.locked_title" = "यह ज़रूरी गाइड AussieStart Pro का हिस्सा है";
+"pro.active" = "इस Apple ID पर Pro अनलॉक है";
+"pro.settings_blurb" = "Pro एक बार का अनलॉक है। दोबारा इंस्टॉल या नया iPhone हो तो Restore करें।";
+
+"privacy.title" = "गोपनीयता नीति";
+"privacy.updated" = "अंतिम अपडेट 17 अगस्त 2026";
+"privacy.collect_title" = "हम क्या रखते हैं";
+"privacy.collect_body" = "AussieStart को अकाउंट की ज़रूरत नहीं। बुकमार्क, इतिहास, सर्च, चेकलिस्ट और 30-दिन प्रगति इसी डिवाइस पर रहती है। हम आपका सेटलमेंट डेटा लेने वाला सर्वर नहीं चलाते।";
+"privacy.purchases_title" = "खरीदारी";
+"privacy.purchases_body" = "Pro खरीदने पर भुगतान Apple प्रोसेस करता है। इस डिवाइस पर अनलॉक के लिए App Store एंटाइटेलमेंट मिलता है। हमें आपका कार्ड नंबर नहीं मिलता।";
+"privacy.notgov_title" = "सरकारी सेवा नहीं";
+"privacy.notgov_body" = "AussieStart स्वतंत्र जानकारी ऐप है। हम वीज़ा, myGov, TFN, Medicare, Centrelink, लाइसेंस या बॉन्ड नहीं देख/बदल/आवेदन कर सकते। वे कदम आधिकारिक .gov.au साइटों पर करें।";
+"privacy.contact_title" = "सवाल";
+"privacy.contact_body" = "कंटेंट सुधार के लिए प्रकाशित App Store लिस्टिंग का संपर्क इस्तेमाल करें। महत्वपूर्ण कदम आधिकारिक स्रोतों से जाँचें।";
+
+"article.mygov-basics.title" = "myGov आधिकारिक तरीके से सेट करें";
+"article.mygov-basics.subtitle" = "myGov खाता आमतौर पर कैसे बनाते और सुरक्षित रखते हैं";
+"article.scams-safety.title" = "किराया, नौकरी और myGov स्कैम पहचानें";
+"article.scams-safety.subtitle" = "पैसे या कोड देने से पहले रुकें";
+"article.visa-work-rights.title" = "अपने वीज़ा वर्क राइट्स जाँचें";
+"article.visa-work-rights.subtitle" = "आधिकारिक VEVO इस्तेमाल करें — AussieStart वीज़ा नहीं देख सकता";
+"article.super-basics.title" = "पहली नौकरी पर सुपरएनुएशन";
+"article.super-basics.subtitle" = "पेस्लिप पर super लाइन का मतलब";
+"article.utilities-connect.title" = "बिजली, गैस और इंटरनेट कनेक्ट करें";
+"article.utilities-connect.subtitle" = "रिटेलर, मीटर और NBN — साइन-अप आप करते हैं";
+"article.rental-bond.title" = "रेंटल बॉन्ड आधिकारिक तरीके से जमा करें";
+"article.rental-bond.subtitle" = "राज्य बॉन्ड अथॉरिटी — रैंडम निजी खाता नहीं";
+"article.first-month-budget.title" = "पहले महीने की पैसे की सूची";
+"article.first-month-budget.subtitle" = "SIM, बॉन्ड, खाना और ट्रांसपोर्ट — योजना सूची";
+"article.abn-contracting.title" = "ABN बनाम कर्मचारी — मिलाएँ नहीं";
+"article.abn-contracting.subtitle" = "ABN कब सच में चाहिए, और कब नहीं";
+
+"tip.tip-scam.title" = "निजी चैट में बॉन्ड न भेजें";
+"tip.tip-scam.description" = "असली बॉन्ड राज्य अथॉरिटी के पास जमा होता है। WhatsApp पर पहले ट्रांसफर माँगे तो रुकें।";
+"tip.tip-mygov.title" = "केवल my.gov.au इस्तेमाल करें";
+"tip.tip-mygov.description" = "नकली साइटें कोड चुराती हैं। पता खुद टाइप करें और .gov.au जाँचें।";
+
+"journey.d6.title" = "myGov खाता";
+"journey.d6.summary" = "myGov केवल आधिकारिक साइट पर बनाएँ — हम लॉगिन नहीं करते।";
+"journey.d7.title" = "स्कैम जाँच";
+"journey.d7.summary" = "किराया, नौकरी और नकली-सरकार पैटर्न सीखें, पैसे देने से पहले।";
+"journey.d12.title" = "यूटिलिटीज़";
+"journey.d12.summary" = "असली लीज़ के बाद बिजली और इंटरनेट अपने नाम पर कनेक्ट करें।";
+"journey.d20.title" = "सुपर और पेस्लिप";
+"journey.d20.summary" = "पहली पेस्लिप की super लाइन पढ़ें और फंड के पास TFN रखें।";
+
+"checklist.checklist-work.title" = "काम के अतिरिक्त कदम";
+"checklist.checklist-work.subtitle" = "अधिकार, सुपर और कॉन्ट्रैक्टिंग — केवल जानकारी";
+"task.task-scam.title" = "स्कैम पहचान गाइड पढ़ें";
+"task.task-mygov.title" = "आधिकारिक साइट पर myGov बनाएँ (ATO/Medicare हो तो)";
+"task.task-utilities.title" = "बिजली / इंटरनेट व्यवस्थित करें";
+"task.task-bond.title" = "राज्य अथॉरिटी के पास बॉन्ड जमा करें";
+"task.task-visa-rights.title" = "आधिकारिक VEVO पर वर्क शर्तें जाँचें";
+"task.task-super.title" = "पेस्लिप पर super लाइन ढूँढें";
+"task.task-budget.title" = "पहले महीने की पैसे की सूची लिखें";
+"task.task-abn.title" = "ABN लेने से पहले पुष्टि करें कि आप कर्मचारी हैं";

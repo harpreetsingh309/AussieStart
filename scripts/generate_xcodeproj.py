@@ -28,6 +28,8 @@ def file_type(path: Path) -> str:
         return "text.xml"
     if path.name.endswith(".xcassets"):
         return "folder.assetcatalog"
+    if path.suffix == ".storekit":
+        return "wrapper.storekit"
     return "text"
 
 
@@ -76,7 +78,7 @@ def main() -> None:
     resource_paths += sorted((APP / "Resources" / "Content" / "articles").glob("*.md"))
     resource_paths += sorted((APP / "Resources" / "Localization").rglob("*.strings"))
 
-    extras = [APP / "Info.plist"]
+    extras = [APP / "Info.plist", APP / "Configuration" / "Products.storekit"]
 
     for path in swifts + resource_paths + extras:
         ensure_ref(path)
@@ -440,6 +442,13 @@ def main() -> None:
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+   </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -460,7 +469,24 @@ def main() -> None:
             ReferencedContainer = "container:AussieStart.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../AussieStart/Configuration/Products.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
 </Scheme>
 """
     )

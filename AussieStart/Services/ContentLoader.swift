@@ -17,7 +17,16 @@ enum ContentLoaderError: LocalizedError {
 final class ContentLoader {
     static let shared = ContentLoader()
 
-    private(set) var catalog: ContentCatalog!
+    private(set) var catalog: ContentCatalog = ContentCatalog(
+        version: "0",
+        lastReviewed: "unknown",
+        articles: [],
+        tips: [],
+        journey: [],
+        checklists: [],
+        synonyms: [:],
+        emergencyContacts: []
+    )
     private var markdownCache: [String: String] = [:]
 
     private init() {
@@ -25,16 +34,6 @@ final class ContentLoader {
             try loadCatalog()
         } catch {
             assertionFailure("Failed to load catalog: \(error)")
-            catalog = ContentCatalog(
-                version: "0",
-                lastReviewed: "unknown",
-                articles: [],
-                tips: [],
-                journey: [],
-                checklists: [],
-                synonyms: [:],
-                emergencyContacts: []
-            )
         }
     }
 
@@ -56,17 +55,26 @@ final class ContentLoader {
         return ResolvedArticle(meta: meta, markdown: resolved)
     }
 
-    func articles(for state: AustralianState) -> [ArticleMeta] {
-        catalog.articles.filter { $0.applies(to: state) }
-            .sorted { ($0.popularRank ?? 999) < ($1.popularRank ?? 999) }
+    func articles(for state: AustralianState, persona: UserPersona? = nil) -> [ArticleMeta] {
+        catalog.articles.filter { article in
+            article.applies(to: state) && (persona.map { article.applies(to: $0) } ?? true)
+        }
+        .sorted { ($0.popularRank ?? 999) < ($1.popularRank ?? 999) }
     }
 
-    func articles(in category: ContentCategory, state: AustralianState) -> [ArticleMeta] {
-        articles(for: state).filter { $0.category == category }
+    func articles(in category: ContentCategory, state: AustralianState, persona: UserPersona? = nil) -> [ArticleMeta] {
+        articles(for: state, persona: persona).filter { $0.category == category }
     }
 
-    func popularArticles(state: AustralianState, limit: Int = 6) -> [ArticleMeta] {
-        Array(articles(for: state).prefix(limit))
+    func popularArticles(state: AustralianState, persona: UserPersona? = nil, limit: Int = 6) -> [ArticleMeta] {
+        Array(articles(for: state, persona: persona).prefix(limit))
+    }
+
+    func recommended(for persona: UserPersona, state: AustralianState, limit: Int = 6) -> [ArticleMeta] {
+        let ranked = articles(for: state, persona: persona)
+        let essentials = ranked.filter { $0.requiresPro }
+        let rest = ranked.filter { !$0.requiresPro }
+        return Array((essentials + rest).prefix(limit))
     }
 
     func tipOfTheDay(for date: Date = .now) -> DailyTipMeta? {

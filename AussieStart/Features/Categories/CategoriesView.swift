@@ -11,6 +11,12 @@ struct CategoriesView: View {
         GridItem(.flexible(), spacing: 12)
     ]
 
+    private var visibleCategories: [ContentCategory] {
+        ContentCategory.allCases.filter {
+            articles.articles(in: $0, state: preferences.state, persona: preferences.persona).count > 0
+        }
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -25,8 +31,8 @@ struct CategoriesView: View {
                     }
 
                     LazyVGrid(columns: columns, spacing: 12) {
-                        ForEach(Array(ContentCategory.allCases.enumerated()), id: \.element.id) { index, category in
-                            let count = articles.articles(in: category, state: preferences.state).count
+                        ForEach(Array(visibleCategories.enumerated()), id: \.element.id) { index, category in
+                            let count = articles.articles(in: category, state: preferences.state, persona: preferences.persona).count
                             NavigationLink {
                                 CategoryDetailView(category: category)
                             } label: {
@@ -65,7 +71,7 @@ struct CategoryDetailView: View {
     private var articles: ArticleRepository { ArticleRepository() }
 
     private var items: [ArticleMeta] {
-        articles.articles(in: category, state: preferences.state)
+        articles.articles(in: category, state: preferences.state, persona: preferences.persona)
     }
 
     var body: some View {

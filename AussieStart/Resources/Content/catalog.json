@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0-mvp",
-  "lastReviewed": "2026-07-30",
+  "version": "1.4.0-essentials",
+  "lastReviewed": "2026-08-17",
   "articles": [
     {
       "id": "arrival-airport",
@@ -72,7 +72,9 @@
       "estimatedReadingMinutes": 7,
       "relatedArticles": [
         "tfn-apply",
-        "jobs-basics"
+        "jobs-basics",
+        "scams-safety",
+        "mygov-basics"
       ],
       "file": "banking-open-account.md",
       "lastUpdated": "2026-07-28",
@@ -96,7 +98,8 @@
       "estimatedReadingMinutes": 6,
       "relatedArticles": [
         "jobs-basics",
-        "medicare-gp"
+        "medicare-gp",
+        "mygov-basics"
       ],
       "file": "tfn-apply.md",
       "lastUpdated": "2026-07-28",
@@ -152,7 +155,8 @@
       "estimatedReadingMinutes": 8,
       "relatedArticles": [
         "emergency-contacts",
-        "students-oshc"
+        "students-oshc",
+        "mygov-basics"
       ],
       "file": "medicare-gp.md",
       "lastUpdated": "2026-07-28",
@@ -177,7 +181,10 @@
       "estimatedReadingMinutes": 8,
       "relatedArticles": [
         "shopping-essentials",
-        "transport-card"
+        "transport-card",
+        "rental-bond",
+        "scams-safety",
+        "utilities-connect"
       ],
       "file": "housing-rent.md",
       "lastUpdated": "2026-07-28",
@@ -204,7 +211,10 @@
       "estimatedReadingMinutes": 7,
       "relatedArticles": [
         "tfn-apply",
-        "banking-open-account"
+        "banking-open-account",
+        "visa-work-rights",
+        "super-basics",
+        "abn-contracting"
       ],
       "file": "jobs-basics.md",
       "lastUpdated": "2026-07-28",
@@ -255,7 +265,8 @@
       ],
       "estimatedReadingMinutes": 4,
       "relatedArticles": [
-        "medicare-gp"
+        "medicare-gp",
+        "scams-safety"
       ],
       "file": "emergency-contacts.md",
       "lastUpdated": "2026-07-28",
@@ -279,7 +290,8 @@
       ],
       "estimatedReadingMinutes": 5,
       "relatedArticles": [
-        "housing-rent"
+        "housing-rent",
+        "first-month-budget"
       ],
       "file": "shopping-essentials.md",
       "lastUpdated": "2026-07-28",
@@ -303,11 +315,15 @@
       "estimatedReadingMinutes": 6,
       "relatedArticles": [
         "medicare-gp",
-        "jobs-basics"
+        "jobs-basics",
+        "visa-work-rights"
       ],
       "file": "students-oshc.md",
       "lastUpdated": "2026-07-28",
-      "popularRank": 12
+      "popularRank": 12,
+      "personas": [
+        "student"
+      ]
     },
     {
       "id": "family-schools",
@@ -334,7 +350,14 @@
       ],
       "file": "family-schools.md",
       "lastUpdated": "2026-07-30",
-      "popularRank": 13
+      "popularRank": 13,
+      "personas": [
+        "family",
+        "worker",
+        "pr",
+        "citizen",
+        "student"
+      ]
     },
     {
       "id": "family-childcare",
@@ -360,11 +383,18 @@
       ],
       "file": "family-childcare.md",
       "lastUpdated": "2026-07-30",
-      "popularRank": 14
+      "popularRank": 14,
+      "personas": [
+        "family",
+        "worker",
+        "pr",
+        "citizen",
+        "student"
+      ]
     },
     {
       "id": "family-immunisation",
-      "title": "Kids\u2019 immunisation catch-up",
+      "title": "Kids’ immunisation catch-up",
       "subtitle": "AIR records for school and childcare enrolment",
       "category": "family",
       "states": [
@@ -386,7 +416,14 @@
       ],
       "file": "family-immunisation.md",
       "lastUpdated": "2026-07-30",
-      "popularRank": 15
+      "popularRank": 15,
+      "personas": [
+        "family",
+        "worker",
+        "pr",
+        "citizen",
+        "student"
+      ]
     },
     {
       "id": "family-centrelink",
@@ -412,12 +449,17 @@
       ],
       "file": "family-centrelink.md",
       "lastUpdated": "2026-07-30",
-      "popularRank": 16
+      "popularRank": 16,
+      "personas": [
+        "family",
+        "pr",
+        "citizen"
+      ]
     },
     {
       "id": "explore-great-ocean-road",
       "title": "Great Ocean Road",
-      "subtitle": "Fees, 1\u20132 day itinerary, and coastal stops from Melbourne",
+      "subtitle": "Fees, 1–2 day itinerary, and coastal stops from Melbourne",
       "category": "explore",
       "states": [
         "all"
@@ -552,7 +594,7 @@
     {
       "id": "explore-great-barrier-reef",
       "title": "Great Barrier Reef (Cairns)",
-      "subtitle": "Cruise fees, 2\u20133 day plan, and nearby stops",
+      "subtitle": "Cruise fees, 2–3 day plan, and nearby stops",
       "category": "explore",
       "states": [
         "all"
@@ -740,6 +782,270 @@
         "explore-barossa-adelaide-4",
         "explore-barossa-adelaide-5"
       ]
+    },
+    {
+      "id": "mygov-basics",
+      "title": "Set up myGov (the official way)",
+      "subtitle": "How people usually create and protect a myGov account",
+      "category": "taxes",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "mygov",
+        "my gov",
+        "digital",
+        "ato",
+        "services australia",
+        "login"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "tfn-apply",
+        "scams-safety",
+        "medicare-gp"
+      ],
+      "file": "mygov-basics.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 6,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "scams-safety",
+      "title": "Spot rental, job, and myGov scams",
+      "subtitle": "Pause before you pay or share codes",
+      "category": "emergency",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "scam",
+        "phishing",
+        "fake",
+        "fraud",
+        "whatsapp",
+        "bond scam"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "housing-rent",
+        "rental-bond",
+        "mygov-basics",
+        "emergency-contacts"
+      ],
+      "file": "scams-safety.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 7,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "visa-work-rights",
+      "title": "Check your visa work rights",
+      "subtitle": "Use official VEVO — AussieStart cannot view visas",
+      "category": "jobs",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "vevo",
+        "visa",
+        "work rights",
+        "hours",
+        "student visa",
+        "whv"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "jobs-basics",
+        "students-oshc",
+        "tfn-apply"
+      ],
+      "file": "visa-work-rights.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 8,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist"
+      ]
+    },
+    {
+      "id": "super-basics",
+      "title": "Superannuation on your first job",
+      "subtitle": "What the super line on a payslip means",
+      "category": "taxes",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "super",
+        "superannuation",
+        "ato",
+        "fund",
+        "payslip"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "jobs-basics",
+        "tfn-apply",
+        "mygov-basics"
+      ],
+      "file": "super-basics.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 9,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "utilities-connect",
+      "title": "Connect power, gas, and internet",
+      "subtitle": "Retailers, meters, and NBN — you sign up yourself",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "electricity",
+        "gas",
+        "nbn",
+        "internet",
+        "synergy",
+        "energy"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "housing-rent",
+        "first-month-budget",
+        "shopping-essentials"
+      ],
+      "file": "utilities-connect.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 10,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "rental-bond",
+      "title": "Lodge your rental bond the official way",
+      "subtitle": "State bond authorities — never a random personal account",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "bond",
+        "rtba",
+        "rta",
+        "deposit",
+        "lease",
+        "tenancy"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "housing-rent",
+        "scams-safety",
+        "first-month-budget"
+      ],
+      "file": "rental-bond.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 11,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "first-month-budget",
+      "title": "First-month money checklist",
+      "subtitle": "SIM, bond, food, and transport — a planning list",
+      "category": "shopping",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "budget",
+        "cost",
+        "money",
+        "rent",
+        "groceries",
+        "expenses"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "shopping-essentials",
+        "housing-rent",
+        "sim-setup"
+      ],
+      "file": "first-month-budget.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 12,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "abn-contracting",
+      "title": "ABN vs employee — don't mix them up",
+      "subtitle": "When you actually need an ABN, and when you don't",
+      "category": "jobs",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "abn",
+        "contractor",
+        "gst",
+        "invoice",
+        "abr",
+        "cash job"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "jobs-basics",
+        "visa-work-rights",
+        "tfn-apply"
+      ],
+      "file": "abn-contracting.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 13,
+      "isPremium": true,
+      "personas": [
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ]
     }
   ],
   "tips": [
@@ -786,10 +1092,26 @@
     {
       "id": "tip-explore",
       "title": "Plan one weekend escape",
-      "description": "Once SIM, bank, and transport are sorted, book a simple day trip \u2014 Blue Mountains, Phillip Island, or Glenelg are easy first wins.",
+      "description": "Once SIM, bank, and transport are sorted, book a simple day trip — Blue Mountains, Phillip Island, or Glenelg are easy first wins.",
       "category": "explore",
       "priority": 6,
       "articleID": "explore-blue-mountains"
+    },
+    {
+      "id": "tip-scam",
+      "title": "Never pay bond to a personal chat",
+      "description": "Genuine bonds are lodged with a state authority. If someone on WhatsApp wants a transfer first, stop.",
+      "category": "emergency",
+      "priority": 7,
+      "articleID": "scams-safety"
+    },
+    {
+      "id": "tip-mygov",
+      "title": "Only use my.gov.au",
+      "description": "Lookalike sites steal codes. Type the address yourself and check it ends in .gov.au.",
+      "category": "taxes",
+      "priority": 8,
+      "articleID": "mygov-basics"
     }
   ],
   "journey": [
@@ -831,6 +1153,14 @@
       ],
       "articleIDs": [
         "tfn-apply"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
       ]
     },
     {
@@ -870,6 +1200,13 @@
       ],
       "articleIDs": [
         "housing-rent"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
       ]
     },
     {
@@ -910,6 +1247,14 @@
       ],
       "articleIDs": [
         "jobs-basics"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
       ]
     },
     {
@@ -924,6 +1269,87 @@
       "articleIDs": [
         "driving-licence"
       ]
+    },
+    {
+      "id": "d6",
+      "day": 6,
+      "week": 1,
+      "title": "myGov account",
+      "summary": "Create myGov on the official site only — we never log in for you.",
+      "taskIDs": [
+        "task-mygov"
+      ],
+      "articleIDs": [
+        "mygov-basics",
+        "scams-safety"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d7",
+      "day": 7,
+      "week": 1,
+      "title": "Scam check",
+      "summary": "Learn the rental, job, and fake-government patterns before you pay anyone.",
+      "taskIDs": [
+        "task-scam"
+      ],
+      "articleIDs": [
+        "scams-safety"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d12",
+      "day": 12,
+      "week": 2,
+      "title": "Utilities",
+      "summary": "Connect electricity and internet in your name after the lease is real.",
+      "taskIDs": [
+        "task-utilities"
+      ],
+      "articleIDs": [
+        "utilities-connect",
+        "housing-rent"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d20",
+      "day": 20,
+      "week": 3,
+      "title": "Super & payslips",
+      "summary": "Read the super line on your first payslip and keep your TFN with the fund.",
+      "taskIDs": [
+        "task-super"
+      ],
+      "articleIDs": [
+        "super-basics",
+        "jobs-basics"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
     }
   ],
   "checklists": [
@@ -957,6 +1383,16 @@
           "id": "task-emergency",
           "title": "Save emergency contacts",
           "articleID": "emergency-contacts"
+        },
+        {
+          "id": "task-scam",
+          "title": "Read the scam-spotting guide",
+          "articleID": "scams-safety"
+        },
+        {
+          "id": "task-mygov",
+          "title": "Create myGov on the official site (if you need ATO/Medicare)",
+          "articleID": "mygov-basics"
         }
       ]
     },
@@ -990,6 +1426,59 @@
           "id": "task-licence",
           "title": "Check overseas licence validity",
           "articleID": "driving-licence"
+        },
+        {
+          "id": "task-utilities",
+          "title": "Arrange electricity / internet",
+          "articleID": "utilities-connect"
+        },
+        {
+          "id": "task-bond",
+          "title": "Lodge bond with the state authority",
+          "articleID": "rental-bond"
+        }
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "checklist-work",
+      "title": "Work-ready extras",
+      "subtitle": "Rights, super, and contracting — informational only",
+      "category": "jobs",
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ],
+      "tasks": [
+        {
+          "id": "task-visa-rights",
+          "title": "Check work conditions on official VEVO",
+          "articleID": "visa-work-rights"
+        },
+        {
+          "id": "task-super",
+          "title": "Find the super line on your payslip",
+          "articleID": "super-basics"
+        },
+        {
+          "id": "task-budget",
+          "title": "Write a first-month money list",
+          "articleID": "first-month-budget"
+        },
+        {
+          "id": "task-abn",
+          "title": "Confirm you are an employee before getting an ABN",
+          "articleID": "abn-contracting"
         }
       ]
     }
@@ -999,7 +1488,10 @@
       "gp",
       "medical",
       "physician",
-      "clinic"
+      "clinic",
+      "डॉक्टर",
+      "ਡਾਕਟਰ",
+      "डाक्टर"
     ],
     "gp": [
       "doctor",
@@ -1025,7 +1517,9 @@
       "mobile",
       "telstra",
       "optus",
-      "vodafone"
+      "vodafone",
+      "सिम",
+      "ਸਿਮ"
     ],
     "myki": [
       "transport",
@@ -1043,7 +1537,9 @@
     "tfn": [
       "tax",
       "tax file number",
-      "ato"
+      "ato",
+      "टीएफएन",
+      "ਟੀਐਫਐਨ"
     ],
     "tax": [
       "tfn",
@@ -1055,7 +1551,9 @@
       "bsb",
       "payid",
       "osko",
-      "debit"
+      "debit",
+      "बैंक",
+      "ਬੈਂਕ"
     ],
     "rent": [
       "bond",
@@ -1136,6 +1634,49 @@
       "quokka",
       "perth",
       "wadjemup"
+    ],
+    "mygov": [
+      "my gov",
+      "services australia",
+      "ato login",
+      "माइगोव",
+      "ਮਾਈਗੋਵ"
+    ],
+    "scam": [
+      "fraud",
+      "phishing",
+      "fake",
+      "धोखा",
+      "ਠੱਗੀ"
+    ],
+    "super": [
+      "superannuation",
+      "retirement",
+      "सुपर",
+      "ਸੁਪਰ"
+    ],
+    "vevo": [
+      "visa",
+      "work rights",
+      "वीजा",
+      "ਵੀਜ਼ਾ"
+    ],
+    "bond": [
+      "rtba",
+      "rta",
+      "deposit",
+      "बयाना",
+      "ਬਾਂਡ"
+    ],
+    "nbn": [
+      "internet",
+      "wifi",
+      "broadband"
+    ],
+    "abn": [
+      "contractor",
+      "gst",
+      "invoice"
     ]
   },
   "emergencyContacts": [
@@ -1143,7 +1684,7 @@
       "id": "triple-zero",
       "name": "Triple Zero",
       "number": "000",
-      "detail": "Police, Fire, Ambulance \u2014 life-threatening emergencies only.",
+      "detail": "Police, Fire, Ambulance — life-threatening emergencies only.",
       "isTripleZero": true
     },
     {

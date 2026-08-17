@@ -60,10 +60,15 @@ struct ArticleRowView: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(article.localizedTitle(for: preferences.language))
-                    .font(.headline)
-                    .foregroundStyle(.primary)
-                    .multilineTextAlignment(.leading)
+                HStack(spacing: 8) {
+                    Text(article.localizedTitle(for: preferences.language))
+                        .font(.headline)
+                        .foregroundStyle(.primary)
+                        .multilineTextAlignment(.leading)
+                    if article.requiresPro {
+                        ProBadge()
+                    }
+                }
                 Text(article.localizedSubtitle(for: preferences.language))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)

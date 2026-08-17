@@ -30,7 +30,7 @@ struct SearchView: View {
                     }
 
                     Section(preferences.t("search.trending")) {
-                        ForEach(articles.popular(state: preferences.state)) { article in
+                        ForEach(articles.popular(state: preferences.state, persona: preferences.persona)) { article in
                             NavigationLink {
                                 ArticleDetailView(articleID: article.id)
                             } label: {
@@ -68,6 +68,7 @@ struct SearchView: View {
     }
 
     private func runSearch() {
-        results = articles.search(query, state: preferences.state)
+        results = articles.search(query, state: preferences.state, language: preferences.language)
+            .filter { $0.article.applies(to: preferences.persona) }
     }
 }

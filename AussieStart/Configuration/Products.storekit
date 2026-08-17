@@ -1,0 +1,38 @@
+{
+  "identifier" : "84B2E1A90C4F4D6A9E3B7C21",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "C91F0A2B7D334E8A9F12B6D4",
+      "localizations" : [
+        {
+          "description" : "Unlock essential settlement guides: myGov, visa work rights, super, official bond lodgement, utilities, scams, first-month budget, and ABN vs employee. Informational only — AussieStart never lodges government forms for you.",
+          "displayName" : "AussieStart Pro",
+          "locale" : "en_AU"
+        }
+      ],
+      "productID" : "com.aussiestart.app.pro",
+      "referenceName" : "AussieStart Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_AU",
+    "_storefront" : "AUS",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

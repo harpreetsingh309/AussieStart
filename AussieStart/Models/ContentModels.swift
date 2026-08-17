@@ -25,6 +25,12 @@ struct ArticleMeta: Codable, Identifiable, Hashable {
     let popularRank: Int?
     /// Asset catalog image set names, e.g. `explore-uluru-1`.
     let images: [String]?
+    /// `all` or persona raw values (`student`, `worker`, …). Nil means everyone.
+    let personas: [String]?
+    /// Unlockable with AussieStart Pro. Nil/false = free.
+    let isPremium: Bool?
+
+    var requiresPro: Bool { isPremium == true }
 
     var appliesToAllStates: Bool {
         states.map { $0.lowercased() }.contains("all")
@@ -32,6 +38,12 @@ struct ArticleMeta: Codable, Identifiable, Hashable {
 
     func applies(to state: AustralianState) -> Bool {
         appliesToAllStates || states.map { $0.lowercased() }.contains(state.rawValue)
+    }
+
+    func applies(to persona: UserPersona) -> Bool {
+        guard let personas, !personas.isEmpty else { return true }
+        let normalized = personas.map { $0.lowercased() }
+        return normalized.contains("all") || normalized.contains(persona.rawValue)
     }
 
     func localizedTitle(for language: AppLanguage) -> String {
@@ -68,6 +80,16 @@ struct JourneyDayMeta: Codable, Identifiable, Hashable {
     let taskIDs: [String]
     let articleIDs: [String]
     let week: Int
+    let personas: [String]?
+    let isPremium: Bool?
+
+    var requiresPro: Bool { isPremium == true }
+
+    func applies(to persona: UserPersona) -> Bool {
+        guard let personas, !personas.isEmpty else { return true }
+        let normalized = personas.map { $0.lowercased() }
+        return normalized.contains("all") || normalized.contains(persona.rawValue)
+    }
 
     func localizedTitle(for language: AppLanguage) -> String {
         L10n.tr("journey.\(id).title", language: language, fallback: title)
@@ -84,6 +106,13 @@ struct ChecklistMeta: Codable, Identifiable, Hashable {
     let subtitle: String
     let category: ContentCategory
     let tasks: [ChecklistTaskMeta]
+    let personas: [String]?
+
+    func applies(to persona: UserPersona) -> Bool {
+        guard let personas, !personas.isEmpty else { return true }
+        let normalized = personas.map { $0.lowercased() }
+        return normalized.contains("all") || normalized.contains(persona.rawValue)
+    }
 
     func localizedTitle(for language: AppLanguage) -> String {
         L10n.tr("checklist.\(id).title", language: language, fallback: title)
@@ -117,6 +146,12 @@ struct EmergencyContactMeta: Codable, Identifiable, Hashable {
 
     func localizedDetail(for language: AppLanguage) -> String {
         L10n.tr("emergency.\(id).detail", language: language, fallback: detail)
+    }
+
+    var telURL: URL? {
+        let digits = number.filter(\.isNumber)
+        guard !digits.isEmpty else { return nil }
+        return URL(string: "tel://\(digits)")
     }
 }
 

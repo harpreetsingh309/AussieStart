@@ -9,7 +9,6 @@ final class UserPreferences {
         static let state = "australianState"
         static let persona = "userPersona"
         static let appearance = "appearanceMode"
-        static let analyticsOptIn = "analyticsOptIn"
     }
 
     var hasCompletedOnboarding: Bool {
@@ -32,10 +31,6 @@ final class UserPreferences {
         didSet { UserDefaults.standard.set(appearance.rawValue, forKey: Keys.appearance) }
     }
 
-    var analyticsOptIn: Bool {
-        didSet { UserDefaults.standard.set(analyticsOptIn, forKey: Keys.analyticsOptIn) }
-    }
-
     init() {
         let defaults = UserDefaults.standard
         hasCompletedOnboarding = defaults.bool(forKey: Keys.hasCompletedOnboarding)
@@ -43,7 +38,6 @@ final class UserPreferences {
         state = AustralianState(rawValue: defaults.string(forKey: Keys.state) ?? "") ?? .vic
         persona = UserPersona(rawValue: defaults.string(forKey: Keys.persona) ?? "") ?? .student
         appearance = AppearanceMode(rawValue: defaults.string(forKey: Keys.appearance) ?? "") ?? .system
-        analyticsOptIn = defaults.bool(forKey: Keys.analyticsOptIn)
     }
 
     func completeOnboarding(language: AppLanguage, state: AustralianState, persona: UserPersona) {

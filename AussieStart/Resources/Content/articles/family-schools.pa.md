@@ -33,6 +33,36 @@ Victorian government school finder ਵਰਤੋ ਅਤੇ Foundation–Year 12 �
 NSW ਪਬਲਿਕ ਸਕੂਲ ਆਮ ਤੌਰ ਤੇ catchment ਦੇ ਆਧਾਰ ਤੇ ਐਨਰੋਲ ਕਰਦੇ ਹਨ। School Finder ਜਾਂਚੋ ਅਤੇ ਜਲਦੀ ਲੋਕਲ primary/high school ਆਫਿਸ ਨਾਲ ਗੱਲ ਕਰੋ।
 <!-- /state -->
 
+<!-- state:qld -->
+## ਕਵੀਨਜ਼ਲੈਂਡ ਟਿਪ
+Queensland Government school finder ਵਰਤੋ ਅਤੇ ਲੋਕਲ ਸਟੇਟ ਸਕੂਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
+<!-- /state -->
+
+<!-- state:sa -->
+## ਸਾਊਥ ਆਸਟ੍ਰੇਲੀਆ ਟਿਪ
+Department for Education ਦੇ ਲੋਕਲ ਸਕੂਲ ਤੋਂ ਖਾਲੀ ਥਾਂ ਅਤੇ ਜ਼ੋਨ ਐਨਰੋਲਮੈਂਟ ਪੁੱਛੋ।
+<!-- /state -->
+
+<!-- state:wa -->
+## ਵੈਸਟਰਨ ਆਸਟ੍ਰੇਲੀਆ ਟਿਪ
+WA school finder ਵਰਤੋ ਅਤੇ ਪਤਾ ਮਿਲਦਿਆਂ ਇਨਟੇਕ ਸਕੂਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
+<!-- /state -->
+
+<!-- state:tas -->
+## ਟੈਜ਼ਮੇਨੀਆ ਟਿਪ
+ਲੋਕਲ ਐਜੂਕੇਸ਼ਨ ਵਿਭਾਗ ਦੇ ਸਕੂਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਛੋਟੇ ਕਸਬਿਆਂ ਵਿੱਚ ਥਾਂ ਘੱਟ ਹੋ ਸਕਦੀ ਹੈ।
+<!-- /state -->
+
+<!-- state:act -->
+## ACT ਟਿਪ
+Education Directorate school finder ਵਰਤੋ। ਕਈ ਸਕੂਲ PEA ਆਧਾਰਿਤ ਹਨ।
+<!-- /state -->
+
+<!-- state:nt -->
+## ਉੱਤਰੀ ਰਾਜਖੇਤਰ ਟਿਪ
+NT Department of Education ਅਤੇ ਨਜ਼ਦੀਕੀ ਗਵਰਨਮੈਂਟ ਸਕੂਲ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।
+<!-- /state -->
+
 # ਆਮ ਗਲਤੀਆਂ
 - ਸਕੂਲ ਨਾਲ ਸੰਪਰਕ ਕੀਤੇ ਬਿਨਾਂ ਟਰਮ ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰਨਾ
 - ਮੰਨ ਲੈਣਾ ਕਿ ਹਰ ਸਕੂਲ ਵਿੱਚ ਥਾਂ ਖੁੱਲ੍ਹੀ ਹੈ

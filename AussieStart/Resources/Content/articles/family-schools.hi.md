@@ -33,6 +33,36 @@ Victorian government school finder इस्तेमाल करें और 
 NSW पब्लिक स्कूल आमतौर पर catchment के आधार पर एनरोल करते हैं। School Finder जाँचें और जल्दी लोकल primary/high school ऑफिस से बात करें।
 <!-- /state -->
 
+<!-- state:qld -->
+## क्वीन्सलैंड टिप
+Queensland Government school finder इस्तेमाल करें और लोकल स्टेट स्कूल से संपर्क करें।
+<!-- /state -->
+
+<!-- state:sa -->
+## साउथ ऑस्ट्रेलिया टिप
+Department for Education के लोकल स्कूल से vacancie और ज़ोन एनरोलमेंट पूछें।
+<!-- /state -->
+
+<!-- state:wa -->
+## वेस्टर्न ऑस्ट्रेलिया टिप
+WA school finder इस्तेमाल करें और पता मिलते ही intake स्कूल से संपर्क करें।
+<!-- /state -->
+
+<!-- state:tas -->
+## टैज़मेनिया टिप
+लोकल education विभाग के स्कूल से संपर्क करें। छोटे कस्बों में जगह कम हो सकती है।
+<!-- /state -->
+
+<!-- state:act -->
+## ACT टिप
+Education Directorate school finder इस्तेमाल करें। कई स्कूल PEA (Priority Enrolment Area) पर आधारित हैं।
+<!-- /state -->
+
+<!-- state:nt -->
+## नॉर्दर्न टेरिटरी टिप
+NT Department of Education और नज़दीकी गवर्नमेंट स्कूल से संपर्क करें।
+<!-- /state -->
+
 # आम गलतियाँ
 - स्कूल से संपर्क किए बिना टर्म शुरू होने का इंतज़ार करना
 - मान लेना कि हर स्कूल में जगह खुली है

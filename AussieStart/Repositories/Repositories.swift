@@ -13,28 +13,32 @@ final class ArticleRepository {
 
     var catalog: ContentCatalog { loader.catalog }
 
-    func articles(for state: AustralianState) -> [ArticleMeta] {
-        loader.articles(for: state)
+    func articles(for state: AustralianState, persona: UserPersona) -> [ArticleMeta] {
+        loader.articles(for: state, persona: persona)
     }
 
-    func articles(in category: ContentCategory, state: AustralianState) -> [ArticleMeta] {
-        loader.articles(in: category, state: state)
+    func articles(in category: ContentCategory, state: AustralianState, persona: UserPersona) -> [ArticleMeta] {
+        loader.articles(in: category, state: state, persona: persona)
     }
 
     func resolve(_ id: String, state: AustralianState, language: AppLanguage = .english) -> ResolvedArticle? {
         loader.article(id: id, state: state, language: language)
     }
 
-    func popular(state: AustralianState) -> [ArticleMeta] {
-        loader.popularArticles(state: state)
+    func popular(state: AustralianState, persona: UserPersona) -> [ArticleMeta] {
+        loader.popularArticles(state: state, persona: persona)
+    }
+
+    func recommended(for persona: UserPersona, state: AustralianState) -> [ArticleMeta] {
+        loader.recommended(for: persona, state: state)
     }
 
     func related(to id: String, state: AustralianState) -> [ArticleMeta] {
         loader.relatedArticles(for: id, state: state)
     }
 
-    func search(_ query: String, state: AustralianState) -> [SearchHit] {
-        searchEngine.search(query: query, state: state)
+    func search(_ query: String, state: AustralianState, language: AppLanguage) -> [SearchHit] {
+        searchEngine.search(query: query, state: state, language: language)
     }
 
     func tipOfTheDay() -> DailyTipMeta? {
@@ -168,6 +172,48 @@ final class ProgressRepository {
         )
         let rows = (try? context.fetch(descriptor)) ?? []
         return Set(rows.map(\.dayID))
+    }
+
+    func isArticleCompleted(_ articleID: String) -> Bool {
+        let catalog = ContentLoader.shared.catalog
+        let linkedTasks = catalog.checklists.flatMap(\.tasks).compactMap { task -> String? in
+            task.articleID == articleID ? task.id : nil
+        }
+        guard !linkedTasks.isEmpty else { return false }
+        let done = completedTaskIDs()
+        return linkedTasks.allSatisfy { done.contains($0) }
+    }
+
+    func toggleArticleCompletion(_ articleID: String) {
+        let catalog = ContentLoader.shared.catalog
+        let currentlyDone = isArticleCompleted(articleID)
+        for task in catalog.checklists.flatMap(\.tasks) where task.articleID == articleID {
+            if currentlyDone {
+                if let existing = fetchTask(task.id), existing.completed {
+                    existing.completed = false
+                    existing.completedAt = nil
+                }
+            } else if fetchTask(task.id) == nil {
+                context.insert(ChecklistProgressRecord(taskID: task.id, completed: true, completedAt: Date.now))
+            } else if let existing = fetchTask(task.id), !existing.completed {
+                existing.completed = true
+                existing.completedAt = Date.now
+            }
+        }
+        for day in catalog.journey where day.articleIDs.contains(articleID) {
+            if currentlyDone {
+                if let existing = fetchDay(day.id), existing.completed {
+                    existing.completed = false
+                    existing.completedAt = nil
+                }
+            } else if fetchDay(day.id) == nil {
+                context.insert(JourneyProgressRecord(dayID: day.id, completed: true, completedAt: Date.now))
+            } else if let existing = fetchDay(day.id), !existing.completed {
+                existing.completed = true
+                existing.completedAt = Date.now
+            }
+        }
+        try? context.save()
     }
 
     private func fetchView(_ articleID: String) -> RecentViewRecord? {

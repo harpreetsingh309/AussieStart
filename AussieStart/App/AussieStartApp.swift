@@ -4,6 +4,7 @@ import SwiftData
 @main
 struct AussieStartApp: App {
     @State private var preferences = UserPreferences()
+    @State private var store = StoreManager()
     private let container: ModelContainer
 
     init() {
@@ -33,6 +34,7 @@ struct AussieStartApp: App {
         WindowGroup {
             RootView()
                 .environment(preferences)
+                .environment(store)
                 .preferredColorScheme(preferences.appearance.colorScheme)
                 .tint(AppTheme.accent)
                 .animation(.easeInOut(duration: 0.25), value: preferences.appearance)

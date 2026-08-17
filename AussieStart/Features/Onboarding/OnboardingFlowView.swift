@@ -145,15 +145,26 @@ struct OnboardingFlowView: View {
             VStack(alignment: .leading, spacing: 12) {
                 roadmapRow(day: t("onboarding.day1"), text: t("onboarding.task_sim"))
                 roadmapRow(day: t("onboarding.day2"), text: t("onboarding.task_bank"))
-                roadmapRow(day: t("onboarding.day3"), text: t("onboarding.task_tfn"))
+                if persona != .tourist {
+                    roadmapRow(day: t("onboarding.day3"), text: t("onboarding.task_tfn"))
+                }
                 roadmapRow(day: t("onboarding.day4"), text: t("onboarding.task_transport", state.transportCardName))
-                roadmapRow(day: t("onboarding.week2"), text: t("onboarding.task_more"))
+                roadmapRow(day: t("onboarding.week2"), text: roadmapWeekTwoText)
             }
             .padding()
             .background(AppTheme.mist, in: RoundedRectangle(cornerRadius: 16))
 
             DisclaimerBanner()
             Spacer()
+        }
+    }
+
+    private var roadmapWeekTwoText: String {
+        switch persona {
+        case .student: t("onboarding.task_more_student")
+        case .family: t("onboarding.task_more_family")
+        case .tourist: t("onboarding.task_more_tourist")
+        case .worker, .pr, .citizen: t("onboarding.task_more")
         }
     }
 

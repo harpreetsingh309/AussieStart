@@ -15,6 +15,7 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 22) {
                     greeting
                     tipCard
+                    forYou
                     quickTopics
                     destinations
                     journeyCard
@@ -143,11 +144,33 @@ struct HomeView: View {
     }
 
     private var quickCategories: [ContentCategory] {
-        [.explore, .family, .healthcare, .transport, .banking, .housing, .emergency]
+        preferences.persona.suggestedCategories
+    }
+
+    private var forYou: some View {
+        let items = articles.recommended(for: preferences.persona, state: preferences.state)
+        return Group {
+            if !items.isEmpty {
+                VStack(alignment: .leading, spacing: 12) {
+                    SectionHeader(
+                        title: preferences.t("home.for_you"),
+                        subtitle: preferences.t("home.for_you_subtitle", preferences.persona.localizedName(for: preferences.language))
+                    )
+                    ForEach(items.prefix(4)) { article in
+                        NavigationLink {
+                            ArticleDetailView(articleID: article.id)
+                        } label: {
+                            ArticleRowView(article: article, cardStyle: true)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
+        }
     }
 
     private var destinations: some View {
-        let items = articles.articles(in: .explore, state: preferences.state)
+        let items = articles.articles(in: .explore, state: preferences.state, persona: preferences.persona)
         return Group {
             if !items.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
@@ -222,7 +245,7 @@ struct HomeView: View {
     }
 
     private var journeyCard: some View {
-        let days = articles.catalog.journey
+        let days = articles.catalog.journey.filter { $0.applies(to: preferences.persona) }
         let done = progress.completedDayIDs()
         let completed = days.filter { done.contains($0.id) }.count
         let total = max(days.count, 1)
@@ -279,7 +302,7 @@ struct HomeView: View {
     private var popular: some View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: preferences.t("home.most_popular"), subtitle: preferences.t("home.most_popular_subtitle", preferences.state.shortName))
-            ForEach(articles.popular(state: preferences.state).prefix(5)) { article in
+            ForEach(articles.popular(state: preferences.state, persona: preferences.persona).prefix(5)) { article in
                 NavigationLink {
                     ArticleDetailView(articleID: article.id)
                 } label: {
@@ -356,10 +379,19 @@ struct EmergencyView: View {
                 Text(contact.localizedDetail(for: preferences.language))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
-                Text(contact.number)
-                    .font(.title3.weight(.bold))
-                    .foregroundStyle(AppTheme.brandGreen)
-                    .textSelection(.enabled)
+                if let telURL = contact.telURL {
+                    Link(destination: telURL) {
+                        Label(contact.number, systemImage: "phone.fill")
+                            .font(.title3.weight(.bold))
+                            .foregroundStyle(AppTheme.brandGreen)
+                    }
+                    .accessibilityLabel(preferences.t("emergency.call", contact.localizedName(for: preferences.language), contact.number))
+                } else {
+                    Text(contact.number)
+                        .font(.title3.weight(.bold))
+                        .foregroundStyle(AppTheme.brandGreen)
+                        .textSelection(.enabled)
+                }
             }
             .padding(.vertical, 4)
         }

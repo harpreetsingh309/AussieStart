@@ -11,7 +11,7 @@ struct ChecklistView: View {
 
     var body: some View {
         List {
-            ForEach(catalog.checklists) { checklist in
+            ForEach(catalog.checklists.filter { $0.applies(to: preferences.persona) }) { checklist in
                 Section {
                     ForEach(checklist.tasks) { task in
                         Button {
@@ -26,10 +26,15 @@ struct ChecklistView: View {
                                         .foregroundStyle(.primary)
                                         .strikethrough(completed.contains(task.id))
                                     if let articleID = task.articleID {
-                                        NavigationLink(preferences.t("checklist.open_guide")) {
-                                            ArticleDetailView(articleID: articleID)
+                                        HStack {
+                                            NavigationLink(preferences.t("checklist.open_guide")) {
+                                                ArticleDetailView(articleID: articleID)
+                                            }
+                                            .font(.caption)
+                                            if catalog.articles.first(where: { $0.id == articleID })?.requiresPro == true {
+                                                ProBadge()
+                                            }
                                         }
-                                        .font(.caption)
                                     }
                                 }
                                 Spacer()

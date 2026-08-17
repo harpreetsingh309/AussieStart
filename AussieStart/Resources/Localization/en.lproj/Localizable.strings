@@ -308,3 +308,93 @@
 "settings.aus_gov" = "Australian Government";
 "common.min" = "%d min";
 "common.progress_percent" = "Progress %d percent";
+
+/* Home extras */
+"home.for_you" = "For you";
+"home.for_you_subtitle" = "Prioritised for %@ in your first weeks";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC, visa hours, and housing";
+"onboarding.task_more_family" = "Schools, healthcare, and housing";
+"onboarding.task_more_tourist" = "Transport, safety, and weekend trips";
+
+/* Article actions */
+"article.share" = "Share this guide";
+"article.mark_done" = "Mark this step done";
+"article.completed" = "Marked done";
+"article.mark_done_hint" = "Also ticks matching checklist and First 30 Days items";
+
+/* Emergency */
+"emergency.call" = "Call %@ at %@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "Unlock essential settlement guides";
+"pro.subtitle" = "One-time purchase · %@ · keep everything offline on this iPhone";
+"pro.benefit_guides" = "myGov setup, visa work rights, super, official bond lodgement, utilities, scams, first-month budget, and ABN vs employee.";
+"pro.benefit_offline" = "Guides stay on your phone. No account. We never log into government sites for you.";
+"pro.benefit_persona" = "Your Home and First 30 Days already filter by student, worker, family, or visitor.";
+"pro.legal" = "AussieStart is not a government app and is not affiliated with the Australian Government. Purchases are processed by Apple. Informational only — we do not lodge visas, tax, Medicare, myGov, or bonds on your behalf.";
+"pro.buy" = "Unlock Pro · %@";
+"pro.restore" = "Restore purchases";
+"pro.unlock_cta" = "Unlock AussieStart Pro";
+"pro.unlock_this" = "This guide is included in Pro: %@";
+"pro.locked_title" = "This essential guide is part of AussieStart Pro";
+"pro.active" = "Pro is unlocked on this Apple ID";
+"pro.settings_blurb" = "Pro is a one-time unlock. Restore if you reinstall or switch iPhones with the same Apple ID.";
+
+/* Privacy */
+"privacy.title" = "Privacy policy";
+"privacy.updated" = "Last updated 17 August 2026";
+"privacy.collect_title" = "What we store";
+"privacy.collect_body" = "AussieStart does not require an account. Bookmarks, reading history, search history, checklist ticks, and First 30 Days progress stay on this device. We do not operate a server that receives your settlement data.";
+"privacy.purchases_title" = "Purchases";
+"privacy.purchases_body" = "If you buy AussieStart Pro, Apple processes the payment. We receive an App Store entitlement on this device so Pro guides unlock. We do not receive your card number.";
+"privacy.notgov_title" = "Not a government service";
+"privacy.notgov_body" = "AussieStart is an independent information app. We cannot see, change, or apply for visas, myGov, TFN, Medicare, Centrelink, licences, or bonds. Always use official .gov.au websites for those steps.";
+"privacy.contact_title" = "Questions";
+"privacy.contact_body" = "For content corrections, use the App Store listing contact when published. Verify critical steps with official Australian Government sources.";
+
+/* New article titles */
+"article.mygov-basics.title" = "Set up myGov (the official way)";
+"article.mygov-basics.subtitle" = "How people usually create and protect a myGov account";
+"article.scams-safety.title" = "Spot rental, job, and myGov scams";
+"article.scams-safety.subtitle" = "Pause before you pay or share codes";
+"article.visa-work-rights.title" = "Check your visa work rights";
+"article.visa-work-rights.subtitle" = "Use official VEVO — AussieStart cannot view visas";
+"article.super-basics.title" = "Superannuation on your first job";
+"article.super-basics.subtitle" = "What the super line on a payslip means";
+"article.utilities-connect.title" = "Connect power, gas, and internet";
+"article.utilities-connect.subtitle" = "Retailers, meters, and NBN — you sign up yourself";
+"article.rental-bond.title" = "Lodge your rental bond the official way";
+"article.rental-bond.subtitle" = "State bond authorities — never a random personal account";
+"article.first-month-budget.title" = "First-month money checklist";
+"article.first-month-budget.subtitle" = "SIM, bond, food, and transport — a planning list";
+"article.abn-contracting.title" = "ABN vs employee — don't mix them up";
+"article.abn-contracting.subtitle" = "When you actually need an ABN, and when you don't";
+
+"tip.tip-scam.title" = "Never pay bond to a personal chat";
+"tip.tip-scam.description" = "Genuine bonds are lodged with a state authority. If someone on WhatsApp wants a transfer first, stop.";
+"tip.tip-mygov.title" = "Only use my.gov.au";
+"tip.tip-mygov.description" = "Lookalike sites steal codes. Type the address yourself and check it ends in .gov.au.";
+
+"journey.d6.title" = "myGov account";
+"journey.d6.summary" = "Create myGov on the official site only — we never log in for you.";
+"journey.d7.title" = "Scam check";
+"journey.d7.summary" = "Learn the rental, job, and fake-government patterns before you pay anyone.";
+"journey.d12.title" = "Utilities";
+"journey.d12.summary" = "Connect electricity and internet in your name after the lease is real.";
+"journey.d20.title" = "Super & payslips";
+"journey.d20.summary" = "Read the super line on your first payslip and keep your TFN with the fund.";
+
+"checklist.checklist-work.title" = "Work-ready extras";
+"checklist.checklist-work.subtitle" = "Rights, super, and contracting — informational only";
+"task.task-scam.title" = "Read the scam-spotting guide";
+"task.task-mygov.title" = "Create myGov on the official site (if you need ATO/Medicare)";
+"task.task-utilities.title" = "Arrange electricity / internet";
+"task.task-bond.title" = "Lodge bond with the state authority";
+"task.task-visa-rights.title" = "Check work conditions on official VEVO";
+"task.task-super.title" = "Find the super line on your payslip";
+"task.task-budget.title" = "Write a first-month money list";
+"task.task-abn.title" = "Confirm you are an employee before getting an ABN";

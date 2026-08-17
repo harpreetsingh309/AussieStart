@@ -11,7 +11,7 @@ struct MarkdownDocumentView: View {
                     headingView(level: level, text: text)
                 case .paragraph(let text):
                     Text(inlineAttributed(text))
-                        .font(.body)
+                        .font(AppTheme.bodyFont)
                         .foregroundStyle(.primary)
                         .lineSpacing(4)
                         .fixedSize(horizontal: false, vertical: true)

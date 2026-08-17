@@ -24,7 +24,7 @@ final class LocalSearchEngine {
         self.synonyms = map
     }
 
-    func search(query: String, state: AustralianState, limit: Int = 30) -> [SearchHit] {
+    func search(query: String, state: AustralianState, language: AppLanguage = .english, limit: Int = 30) -> [SearchHit] {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return [] }
 
@@ -33,24 +33,32 @@ final class LocalSearchEngine {
         let articles = loader.articles(for: state)
 
         let scored: [SearchHit] = articles.compactMap { article in
+            let localizedTitle = article.localizedTitle(for: language)
+            let localizedSubtitle = article.localizedSubtitle(for: language)
             let haystack = ([
                 article.title,
                 article.subtitle,
+                localizedTitle,
+                localizedSubtitle,
                 article.category.displayName,
+                article.category.localizedName(for: language),
                 article.keywords.joined(separator: " ")
             ].joined(separator: " ")).lowercased()
 
             var score = 0.0
             for token in expanded {
                 if article.title.lowercased().contains(token) { score += 5 }
+                if localizedTitle.lowercased().contains(token) { score += 5 }
                 if article.keywords.map({ $0.lowercased() }).contains(where: { $0.contains(token) || token.contains($0) }) {
                     score += 3
                 }
                 if haystack.contains(token) { score += 1 }
             }
 
-            // Exact phrase boost
             if article.title.lowercased().contains(trimmed.lowercased()) {
+                score += 8
+            }
+            if localizedTitle.lowercased().contains(trimmed.lowercased()) {
                 score += 8
             }
 
