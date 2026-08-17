@@ -3,7 +3,6 @@ import SwiftData
 
 struct RootView: View {
     @Environment(UserPreferences.self) private var preferences
-    @Environment(\.modelContext) private var modelContext
     @State private var showSplash = true
 
     var body: some View {
@@ -19,8 +18,11 @@ struct RootView: View {
                     .transition(.opacity)
             }
         }
+        .environment(\.locale, preferences.language.locale)
+        .id(preferences.language.rawValue)
         .animation(.easeInOut(duration: 0.35), value: showSplash)
         .animation(.easeInOut(duration: 0.35), value: preferences.hasCompletedOnboarding)
+        .animation(.easeInOut(duration: 0.2), value: preferences.language)
         .task {
             try? await Task.sleep(for: .milliseconds(1200))
             showSplash = false
@@ -29,6 +31,7 @@ struct RootView: View {
 }
 
 struct SplashView: View {
+    @Environment(UserPreferences.self) private var preferences
     @State private var appear = false
 
     var body: some View {
@@ -47,11 +50,11 @@ struct SplashView: View {
                     .scaleEffect(appear ? 1 : 0.7)
                     .opacity(appear ? 1 : 0)
 
-                Text("AussieStart")
+                Text(preferences.t("app.name"))
                     .font(AppTheme.titleFont)
                     .foregroundStyle(.white)
 
-                Text("Your Australia starter guide")
+                Text(preferences.t("app.tagline"))
                     .font(.callout)
                     .foregroundStyle(.white.opacity(0.85))
                     .opacity(appear ? 1 : 0)
@@ -63,33 +66,34 @@ struct SplashView: View {
             }
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("AussieStart. Your Australia starter guide.")
+        .accessibilityLabel("\(preferences.t("app.name")). \(preferences.t("app.tagline"))")
     }
 }
 
 struct MainTabView: View {
+    @Environment(UserPreferences.self) private var preferences
     @State private var selectedTab = 0
 
     var body: some View {
         TabView(selection: $selectedTab) {
             HomeView()
-                .tabItem { Label("Home", systemImage: "house.fill") }
+                .tabItem { Label(preferences.t("tab.home"), systemImage: "house.fill") }
                 .tag(0)
 
             SearchView()
-                .tabItem { Label("Search", systemImage: "magnifyingglass") }
+                .tabItem { Label(preferences.t("tab.search"), systemImage: "magnifyingglass") }
                 .tag(1)
 
             CategoriesView()
-                .tabItem { Label("Topics", systemImage: "square.grid.2x2.fill") }
+                .tabItem { Label(preferences.t("tab.topics"), systemImage: "square.grid.2x2.fill") }
                 .tag(2)
 
             BookmarksView()
-                .tabItem { Label("Saved", systemImage: "bookmark.fill") }
+                .tabItem { Label(preferences.t("tab.saved"), systemImage: "bookmark.fill") }
                 .tag(3)
 
             SettingsView()
-                .tabItem { Label("Settings", systemImage: "gearshape.fill") }
+                .tabItem { Label(preferences.t("tab.settings"), systemImage: "gearshape.fill") }
                 .tag(4)
         }
     }

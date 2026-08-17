@@ -21,8 +21,8 @@ final class ArticleRepository {
         loader.articles(in: category, state: state)
     }
 
-    func resolve(_ id: String, state: AustralianState) -> ResolvedArticle? {
-        loader.article(id: id, state: state)
+    func resolve(_ id: String, state: AustralianState, language: AppLanguage = .english) -> ResolvedArticle? {
+        loader.article(id: id, state: state, language: language)
     }
 
     func popular(state: AustralianState) -> [ArticleMeta] {

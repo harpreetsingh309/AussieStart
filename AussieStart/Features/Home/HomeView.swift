@@ -43,10 +43,10 @@ struct HomeView: View {
                 Text(greetingText)
                     .font(.system(.title, design: .rounded).weight(.bold))
                     .foregroundStyle(AppTheme.title)
-                Text("Settling in \(preferences.state.displayName)")
+                Text(preferences.t("home.settling_in", preferences.state.localizedName(for: preferences.language)))
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(.secondary)
-                Text(preferences.persona.displayName)
+                Text(preferences.persona.localizedName(for: preferences.language))
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(AppTheme.brandGreen)
                     .padding(.horizontal, 10)
@@ -77,12 +77,12 @@ struct HomeView: View {
         Group {
             if let tip = articles.tipOfTheDay() {
                 VStack(alignment: .leading, spacing: 12) {
-                    Label("Today's tip", systemImage: "lightbulb.fill")
+                    Label(preferences.t("home.todays_tip"), systemImage: "lightbulb.fill")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(AppTheme.brandGold)
-                    Text(tip.title)
+                    Text(tip.localizedTitle(for: preferences.language))
                         .font(.system(.title3, design: .rounded).weight(.bold))
-                    Text(tip.description)
+                    Text(tip.localizedDescription(for: preferences.language))
                         .font(.subheadline)
                         .foregroundStyle(.white.opacity(0.88))
                         .fixedSize(horizontal: false, vertical: true)
@@ -90,7 +90,7 @@ struct HomeView: View {
                         NavigationLink {
                             ArticleDetailView(articleID: articleID)
                         } label: {
-                            Text("Read guide")
+                            Text(preferences.t("home.read_guide"))
                                 .font(.subheadline.weight(.bold))
                                 .padding(.horizontal, 14)
                                 .padding(.vertical, 8)
@@ -116,7 +116,7 @@ struct HomeView: View {
 
     private var quickTopics: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Quick topics")
+            SectionHeader(title: preferences.t("home.quick_topics"))
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
                     ForEach(quickCategories) { category in
@@ -125,7 +125,7 @@ struct HomeView: View {
                         } label: {
                             HStack(spacing: 8) {
                                 Image(systemName: category.symbolName)
-                                Text(category.displayName)
+                                Text(category.localizedName(for: preferences.language))
                                     .fontWeight(.semibold)
                             }
                             .font(.subheadline)
@@ -153,11 +153,11 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     HStack {
                         SectionHeader(
-                            title: "Popular destinations",
-                            subtitle: "Fees, short itineraries, and stops along the way"
+                            title: preferences.t("home.popular_destinations"),
+                            subtitle: preferences.t("home.popular_destinations_subtitle")
                         )
                         Spacer(minLength: 8)
-                        NavigationLink("See all") {
+                        NavigationLink(preferences.t("common.see_all")) {
                             CategoryDetailView(category: .explore)
                         }
                         .font(.subheadline.weight(.semibold))
@@ -193,17 +193,17 @@ struct HomeView: View {
                                                     in: RoundedRectangle(cornerRadius: 12, style: .continuous)
                                                 )
                                         }
-                                        Text(article.title)
+                                        Text(article.localizedTitle(for: preferences.language))
                                             .font(.headline)
                                             .foregroundStyle(AppTheme.title)
                                             .lineLimit(2)
                                             .multilineTextAlignment(.leading)
-                                        Text(article.subtitle)
+                                        Text(article.localizedSubtitle(for: preferences.language))
                                             .font(.caption)
                                             .foregroundStyle(.secondary)
                                             .lineLimit(3)
                                             .multilineTextAlignment(.leading)
-                                        Text("\(article.estimatedReadingMinutes) min read")
+                                        Text(preferences.t("common.min_read", article.estimatedReadingMinutes))
                                             .font(.caption2.weight(.semibold))
                                             .foregroundStyle(Color(hex: "0E7490"))
                                     }
@@ -235,13 +235,13 @@ struct HomeView: View {
                 ProgressRing(progress: ratio)
                     .frame(width: 68, height: 68)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text("First 30 Days")
+                    Text(preferences.t("home.first_30_days"))
                         .font(.system(.headline, design: .rounded).weight(.bold))
                         .foregroundStyle(AppTheme.title)
-                    Text("\(completed)/\(total) milestones completed")
+                    Text(preferences.t("home.milestones_completed", completed, total))
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
-                    Text("Tap to continue your roadmap")
+                    Text(preferences.t("home.continue_roadmap"))
                         .font(.caption.weight(.medium))
                         .foregroundStyle(AppTheme.brandGreen)
                 }
@@ -260,7 +260,7 @@ struct HomeView: View {
         return Group {
             if !views.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Continue reading")
+                    SectionHeader(title: preferences.t("home.continue_reading"))
                     ForEach(views, id: \.articleID) { view in
                         if let meta = articles.catalog.articles.first(where: { $0.id == view.articleID }) {
                             NavigationLink {
@@ -278,7 +278,7 @@ struct HomeView: View {
 
     private var popular: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Most popular", subtitle: "Start with these for \(preferences.state.shortName)")
+            SectionHeader(title: preferences.t("home.most_popular"), subtitle: preferences.t("home.most_popular_subtitle", preferences.state.shortName))
             ForEach(articles.popular(state: preferences.state).prefix(5)) { article in
                 NavigationLink {
                     ArticleDetailView(articleID: article.id)
@@ -301,10 +301,10 @@ struct HomeView: View {
                     .frame(width: 44, height: 44)
                     .background(.white.opacity(0.18), in: RoundedRectangle(cornerRadius: 12))
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Emergency contacts")
+                    Text(preferences.t("home.emergency_contacts"))
                         .font(.headline)
                         .foregroundStyle(.white)
-                    Text("000 · Poisons · SES · healthdirect")
+                    Text(preferences.t("home.emergency_subtitle"))
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.9))
                 }
@@ -328,23 +328,24 @@ struct HomeView: View {
     private var greetingText: String {
         let hour = Calendar.current.component(.hour, from: .now)
         switch hour {
-        case 5..<12: return "Good morning"
-        case 12..<17: return "Good afternoon"
-        default: return "Good evening"
+        case 5..<12: return preferences.t("greeting.morning")
+        case 12..<17: return preferences.t("greeting.afternoon")
+        default: return preferences.t("greeting.evening")
         }
     }
 }
 
 struct EmergencyView: View {
+    @Environment(UserPreferences.self) private var preferences
     private let contacts = ContentLoader.shared.catalog.emergencyContacts
 
     var body: some View {
         List(contacts) { contact in
             VStack(alignment: .leading, spacing: 6) {
                 HStack {
-                    Text(contact.name).font(.headline)
+                    Text(contact.localizedName(for: preferences.language)).font(.headline)
                     if contact.isTripleZero {
-                        Text("LIFE THREATENING")
+                        Text(preferences.t("emergency.life_threatening"))
                             .font(.caption2.weight(.bold))
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
@@ -352,7 +353,7 @@ struct EmergencyView: View {
                             .foregroundStyle(AppTheme.danger)
                     }
                 }
-                Text(contact.detail)
+                Text(contact.localizedDetail(for: preferences.language))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                 Text(contact.number)
@@ -362,7 +363,7 @@ struct EmergencyView: View {
             }
             .padding(.vertical, 4)
         }
-        .navigationTitle("Emergency")
+        .navigationTitle(preferences.t("emergency.title"))
         .safeAreaInset(edge: .bottom) {
             DisclaimerBanner()
                 .padding()

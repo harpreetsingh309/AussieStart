@@ -20,9 +20,9 @@ struct JourneyView: View {
                     ProgressRing(progress: ratio)
                         .frame(width: 72, height: 72)
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("\(doneCount)/\(days.count) completed")
+                        Text(preferences.t("journey.completed", doneCount, days.count))
                             .font(.headline)
-                        Text("A practical roadmap for your first month in \(preferences.state.displayName).")
+                        Text(preferences.t("journey.subtitle", preferences.state.localizedName(for: preferences.language)))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
@@ -31,14 +31,14 @@ struct JourneyView: View {
             }
 
             ForEach(grouped(days), id: \.week) { group in
-                Section("Week \(group.week)") {
+                Section(preferences.t("journey.week", group.week)) {
                     ForEach(group.days) { day in
                         dayRow(day)
                     }
                 }
             }
         }
-        .navigationTitle("First 30 Days")
+        .navigationTitle(preferences.t("journey.title"))
         .onAppear { completed = progress.completedDayIDs() }
     }
 
@@ -53,11 +53,11 @@ struct JourneyView: View {
                         .foregroundStyle(completed.contains(day.id) ? AppTheme.brandGreen : .secondary)
                         .padding(.top, 2)
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Day \(day.day): \(day.title)")
+                        Text(preferences.t("journey.day", day.day, day.localizedTitle(for: preferences.language)))
                             .font(.headline)
                             .foregroundStyle(.primary)
                             .strikethrough(completed.contains(day.id))
-                        Text(day.summary)
+                        Text(day.localizedSummary(for: preferences.language))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
@@ -71,7 +71,7 @@ struct JourneyView: View {
                     NavigationLink {
                         ArticleDetailView(articleID: articleID)
                     } label: {
-                        Label(meta.title, systemImage: meta.category.symbolName)
+                        Label(meta.localizedTitle(for: preferences.language), systemImage: meta.category.symbolName)
                             .font(.caption)
                     }
                 }

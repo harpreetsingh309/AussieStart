@@ -7,6 +7,10 @@ struct OnboardingFlowView: View {
     @State private var state: AustralianState = .vic
     @State private var persona: UserPersona = .student
 
+    private func t(_ key: String) -> String { L10n.tr(key, language: language) }
+    private func t(_ key: String, _ arg: CVarArg) -> String { L10n.tr(key, language: language, arg) }
+    private func t(_ key: String, _ a: CVarArg, _ b: CVarArg) -> String { L10n.tr(key, language: language, a, b) }
+
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
@@ -22,6 +26,7 @@ struct OnboardingFlowView: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .id(language.rawValue)
 
                 bottomBar
             }
@@ -35,6 +40,7 @@ struct OnboardingFlowView: View {
             )
             .navigationBarHidden(true)
         }
+        .environment(\.locale, language.locale)
     }
 
     private var progressBar: some View {
@@ -50,7 +56,7 @@ struct OnboardingFlowView: View {
         .frame(height: 6)
         .padding(.horizontal)
         .padding(.top, 12)
-        .accessibilityLabel("Onboarding step \(step + 1) of 5")
+        .accessibilityLabel(t("onboarding.step", step + 1))
     }
 
     private var welcome: some View {
@@ -58,10 +64,10 @@ struct OnboardingFlowView: View {
             Spacer()
             Text("🇦🇺")
                 .font(.system(size: 56))
-            Text("Welcome to AussieStart")
+            Text(t("onboarding.welcome_title"))
                 .font(AppTheme.titleFont)
                 .foregroundStyle(AppTheme.title)
-            Text("Trusted, offline settlement guides for new migrants — in plain language, tuned to your state.")
+            Text(t("onboarding.welcome_body"))
                 .font(.body)
                 .foregroundStyle(.secondary)
             Spacer()
@@ -71,17 +77,19 @@ struct OnboardingFlowView: View {
 
     private var languagePicker: some View {
         VStack(alignment: .leading, spacing: 16) {
-            SectionHeader(title: "Choose your language", subtitle: "MVP includes English, Hindi, and Punjabi. More languages unlock as content is translated.")
+            SectionHeader(title: t("onboarding.choose_language"), subtitle: t("onboarding.choose_language_subtitle"))
             ScrollView {
                 LazyVStack(spacing: 10) {
                     ForEach(AppLanguage.allCases) { lang in
                         selectableRow(
                             title: lang.displayName,
-                            subtitle: lang.isMVPReady ? "Available now" : "Coming soon",
+                            subtitle: lang.isMVPReady ? t("common.available_now") : t("common.coming_soon_lang"),
                             selected: language == lang,
                             disabled: !lang.isMVPReady
                         ) {
-                            language = lang
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                language = lang
+                            }
                         }
                     }
                 }
@@ -91,13 +99,13 @@ struct OnboardingFlowView: View {
 
     private var statePicker: some View {
         VStack(alignment: .leading, spacing: 16) {
-            SectionHeader(title: "Where will you live?", subtitle: "Guides adapt for transport cards, licences, and local services.")
+            SectionHeader(title: t("onboarding.choose_state"), subtitle: t("onboarding.choose_state_subtitle"))
             ScrollView {
                 LazyVStack(spacing: 10) {
                     ForEach(AustralianState.allCases) { item in
                         selectableRow(
-                            title: item.displayName,
-                            subtitle: "Transport: \(item.transportCardName)",
+                            title: item.localizedName(for: language),
+                            subtitle: t("onboarding.transport_label", item.transportCardName),
                             selected: state == item
                         ) {
                             state = item
@@ -110,12 +118,12 @@ struct OnboardingFlowView: View {
 
     private var personaPicker: some View {
         VStack(alignment: .leading, spacing: 16) {
-            SectionHeader(title: "What describes you?", subtitle: "We’ll prioritise your First 30 Days roadmap.")
+            SectionHeader(title: t("onboarding.choose_persona"), subtitle: t("onboarding.choose_persona_subtitle"))
             ScrollView {
                 LazyVStack(spacing: 10) {
                     ForEach(UserPersona.allCases) { item in
                         selectableRow(
-                            title: item.displayName,
+                            title: item.localizedName(for: language),
                             subtitle: nil,
                             selected: persona == item,
                             symbol: item.symbolName
@@ -131,15 +139,15 @@ struct OnboardingFlowView: View {
     private var roadmapPreview: some View {
         VStack(alignment: .leading, spacing: 18) {
             SectionHeader(
-                title: "Your personal roadmap",
-                subtitle: "Based on \(persona.displayName.lowercased()) life in \(state.displayName)."
+                title: t("onboarding.roadmap_title"),
+                subtitle: t("onboarding.roadmap_subtitle", persona.localizedName(for: language), state.localizedName(for: language))
             )
             VStack(alignment: .leading, spacing: 12) {
-                roadmapRow(day: "Day 1", text: "Get a local SIM and internet")
-                roadmapRow(day: "Day 2", text: "Open a bank account")
-                roadmapRow(day: "Day 3", text: "Apply for your TFN")
-                roadmapRow(day: "Day 4", text: "Set up \(state.transportCardName)")
-                roadmapRow(day: "Week 2+", text: "Housing, healthcare, and more")
+                roadmapRow(day: t("onboarding.day1"), text: t("onboarding.task_sim"))
+                roadmapRow(day: t("onboarding.day2"), text: t("onboarding.task_bank"))
+                roadmapRow(day: t("onboarding.day3"), text: t("onboarding.task_tfn"))
+                roadmapRow(day: t("onboarding.day4"), text: t("onboarding.task_transport", state.transportCardName))
+                roadmapRow(day: t("onboarding.week2"), text: t("onboarding.task_more"))
             }
             .padding()
             .background(AppTheme.mist, in: RoundedRectangle(cornerRadius: 16))
@@ -152,11 +160,11 @@ struct OnboardingFlowView: View {
     private var bottomBar: some View {
         HStack {
             if step > 0 {
-                Button("Back") { step -= 1 }
+                Button(t("common.back")) { step -= 1 }
                     .buttonStyle(.bordered)
             }
             Spacer()
-            Button(step == 4 ? "Start exploring" : "Continue") {
+            Button(step == 4 ? t("onboarding.start") : t("common.continue")) {
                 if step < 4 {
                     step += 1
                 } else {

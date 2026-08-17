@@ -49,10 +49,10 @@ final class ContentLoader {
         catalog = try decoder.decode(ContentCatalog.self, from: data)
     }
 
-    func article(id: String, state: AustralianState) -> ResolvedArticle? {
+    func article(id: String, state: AustralianState, language: AppLanguage = .english) -> ResolvedArticle? {
         guard let meta = catalog.articles.first(where: { $0.id == id }) else { return nil }
-        guard let markdown = loadMarkdown(named: meta.file) else { return nil }
-        let resolved = StateContentResolver.resolve(markdown: markdown, state: state)
+        guard let markdown = loadMarkdown(named: meta.file, language: language) else { return nil }
+        let resolved = StateContentResolver.resolve(markdown: markdown, state: state, language: language)
         return ResolvedArticle(meta: meta, markdown: resolved)
     }
 
@@ -83,18 +83,27 @@ final class ContentLoader {
         }
     }
 
-    private func loadMarkdown(named file: String) -> String? {
-        if let cached = markdownCache[file] { return cached }
+    private func loadMarkdown(named file: String, language: AppLanguage) -> String? {
         let name = (file as NSString).deletingPathExtension
         let ext = (file as NSString).pathExtension.isEmpty ? "md" : (file as NSString).pathExtension
-        guard let url = Bundle.main.url(forResource: name, withExtension: ext)
-            ?? Bundle.main.url(forResource: name, withExtension: ext, subdirectory: "articles")
-        else {
-            return nil
+        let candidates: [String]
+        if language.isMVPReady, language != .english {
+            candidates = ["\(name).\(language.rawValue)", name]
+        } else {
+            candidates = [name]
         }
-        guard let text = try? String(contentsOf: url, encoding: .utf8) else { return nil }
-        markdownCache[file] = text
-        return text
+
+        for candidate in candidates {
+            let cacheKey = "\(candidate).\(ext)"
+            if let cached = markdownCache[cacheKey] { return cached }
+            if let url = Bundle.main.url(forResource: candidate, withExtension: ext)
+                ?? Bundle.main.url(forResource: candidate, withExtension: ext, subdirectory: "articles"),
+               let text = try? String(contentsOf: url, encoding: .utf8) {
+                markdownCache[cacheKey] = text
+                return text
+            }
+        }
+        return nil
     }
 }
 
@@ -102,11 +111,11 @@ enum StateContentResolver {
     /// Supports blocks like:
     /// <!-- state:vic --> ... <!-- /state -->
     /// and placeholders {{state.name}}, {{state.transport}}
-    static func resolve(markdown: String, state: AustralianState) -> String {
+    static func resolve(markdown: String, state: AustralianState, language: AppLanguage = .english) -> String {
         var output = markdown
         let pattern = #"<!--\s*state:([a-z,]+)\s*-->([\s\S]*?)<!--\s*/state\s*-->"#
         guard let regex = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else {
-            return applyPlaceholders(output, state: state)
+            return applyPlaceholders(output, state: state, language: language)
         }
 
         let ns = output as NSString
@@ -127,12 +136,12 @@ enum StateContentResolver {
             output.replaceSubrange(fullRange, with: replacement.isEmpty ? "" : "\n\(replacement)\n")
         }
 
-        return applyPlaceholders(output, state: state)
+        return applyPlaceholders(output, state: state, language: language)
     }
 
-    private static func applyPlaceholders(_ markdown: String, state: AustralianState) -> String {
+    private static func applyPlaceholders(_ markdown: String, state: AustralianState, language: AppLanguage) -> String {
         markdown
-            .replacingOccurrences(of: "{{state.name}}", with: state.displayName)
+            .replacingOccurrences(of: "{{state.name}}", with: state.localizedName(for: language))
             .replacingOccurrences(of: "{{state.short}}", with: state.shortName)
             .replacingOccurrences(of: "{{state.transport}}", with: state.transportCardName)
     }

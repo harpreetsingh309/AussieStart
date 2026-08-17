@@ -16,10 +16,10 @@ struct CategoriesView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("Browse by topic")
+                        Text(preferences.t("topics.browse"))
                             .font(.system(.title2, design: .rounded).weight(.bold))
                             .foregroundStyle(AppTheme.title)
-                        Text("Practical guides tailored for \(preferences.state.shortName)")
+                        Text(preferences.t("topics.tailored", preferences.state.shortName))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
@@ -52,7 +52,7 @@ struct CategoriesView: View {
                 )
                 .ignoresSafeArea()
             }
-            .navigationTitle("Topics")
+            .navigationTitle(preferences.t("topics.title"))
             .onAppear { appear = true }
         }
     }
@@ -73,8 +73,8 @@ struct CategoryDetailView: View {
             if items.isEmpty {
                 EmptyStateView(
                     symbol: category.symbolName,
-                    title: "No guides yet",
-                    message: "More \(category.displayName.lowercased()) guides are coming in a future content update."
+                    title: preferences.t("empty.no_guides_title"),
+                    message: preferences.t("empty.no_guides_body", category.localizedName(for: preferences.language))
                 )
             } else {
                 List {
@@ -86,9 +86,9 @@ struct CategoryDetailView: View {
                                 .frame(width: 48, height: 48)
                                 .background(category.tint, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                             VStack(alignment: .leading, spacing: 4) {
-                                Text("\(items.count) guides")
+                                Text(preferences.t("common.guides_count", items.count))
                                     .font(.headline)
-                                Text("Offline · updated for \(preferences.state.shortName)")
+                                Text(preferences.t("common.offline_for_state", preferences.state.shortName))
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
                             }
@@ -97,7 +97,7 @@ struct CategoryDetailView: View {
                         .listRowBackground(category.tint.opacity(0.08))
                     }
 
-                    Section("Guides") {
+                    Section(preferences.t("topics.guides")) {
                         ForEach(items) { article in
                             NavigationLink {
                                 ArticleDetailView(articleID: article.id)
@@ -109,6 +109,6 @@ struct CategoryDetailView: View {
                 }
             }
         }
-        .navigationTitle(category.displayName)
+        .navigationTitle(category.localizedName(for: preferences.language))
     }
 }

@@ -12,9 +12,9 @@ struct BookmarksView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("Saved articles") {
+                Section(preferences.t("saved.articles")) {
                     if bookmarks.isEmpty {
-                        Text("Bookmark guides to read offline later.")
+                        Text(preferences.t("saved.empty"))
                             .foregroundStyle(.secondary)
                     } else {
                         ForEach(bookmarks, id: \.articleID) { bookmark in
@@ -29,9 +29,9 @@ struct BookmarksView: View {
                     }
                 }
 
-                Section("History") {
+                Section(preferences.t("saved.history")) {
                     if history.isEmpty {
-                        Text("Articles you open will appear here.")
+                        Text(preferences.t("saved.history_empty"))
                             .foregroundStyle(.secondary)
                     } else {
                         ForEach(history.prefix(20), id: \.articleID) { item in
@@ -47,11 +47,11 @@ struct BookmarksView: View {
                 }
 
                 Section {
-                    NavigationLink("Checklists") { ChecklistView() }
-                    NavigationLink("First 30 Days") { JourneyView() }
+                    NavigationLink(preferences.t("saved.checklists")) { ChecklistView() }
+                    NavigationLink(preferences.t("saved.journey")) { JourneyView() }
                 }
             }
-            .navigationTitle("Saved")
+            .navigationTitle(preferences.t("saved.title"))
         }
     }
 }

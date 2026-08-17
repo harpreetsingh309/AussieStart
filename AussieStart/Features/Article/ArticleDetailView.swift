@@ -15,12 +15,14 @@ struct ArticleDetailView: View {
 
     var body: some View {
         Group {
-            if let article = articles.resolve(articleID, state: preferences.state) {
+            if let article = articles.resolve(articleID, state: preferences.state, language: preferences.language) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
                         DestinationPhotoGallery(
                             imageNames: article.meta.images ?? [],
-                            title: article.category == .explore ? "Destination photos" : "Photos"
+                            title: article.category == .explore
+                                ? preferences.t("article.destination_photos")
+                                : preferences.t("article.photos")
                         )
 
                         header(article)
@@ -36,7 +38,7 @@ struct ArticleDetailView: View {
                     .padding()
                 }
                 .background(AppTheme.page.ignoresSafeArea())
-                .navigationTitle(article.title)
+                .navigationTitle(article.localizedTitle(for: preferences.language))
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
@@ -46,7 +48,7 @@ struct ArticleDetailView: View {
                         } label: {
                             Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                         }
-                        .accessibilityLabel(isBookmarked ? "Remove bookmark" : "Save bookmark")
+                        .accessibilityLabel(isBookmarked ? preferences.t("article.remove_bookmark") : preferences.t("article.save_bookmark"))
                     }
                 }
                 .onAppear {
@@ -56,8 +58,8 @@ struct ArticleDetailView: View {
             } else {
                 EmptyStateView(
                     symbol: "doc.questionmark",
-                    title: "Article unavailable",
-                    message: "This guide is not in the offline pack yet."
+                    title: preferences.t("article.unavailable_title"),
+                    message: preferences.t("article.unavailable_body")
                 )
             }
         }
@@ -66,7 +68,7 @@ struct ArticleDetailView: View {
     private func header(_ article: ResolvedArticle) -> some View {
         VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 8) {
-                Label(article.category.displayName, systemImage: article.category.symbolName)
+                Label(article.category.localizedName(for: preferences.language), systemImage: article.category.symbolName)
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(article.category.tint)
                     .padding(.horizontal, 10)
@@ -76,18 +78,18 @@ struct ArticleDetailView: View {
                 Spacer(minLength: 0)
             }
 
-            Text(article.title)
+            Text(article.localizedTitle(for: preferences.language))
                 .font(.system(.title, design: .rounded).weight(.bold))
                 .foregroundStyle(AppTheme.title)
                 .fixedSize(horizontal: false, vertical: true)
 
-            Text(article.subtitle)
+            Text(article.localizedSubtitle(for: preferences.language))
                 .font(.body)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
 
             HStack(spacing: 10) {
-                metaChip(symbol: "clock", text: "\(article.meta.estimatedReadingMinutes) min")
+                metaChip(symbol: "clock", text: preferences.t("common.min", article.meta.estimatedReadingMinutes))
                 metaChip(symbol: "mappin.and.ellipse", text: preferences.state.shortName)
                 metaChip(symbol: "calendar", text: article.meta.lastUpdated)
             }
@@ -118,7 +120,7 @@ struct ArticleDetailView: View {
         return Group {
             if !items.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Recommended next", subtitle: "Keep your settlement flow going")
+                    SectionHeader(title: preferences.t("article.recommended"), subtitle: preferences.t("article.recommended_subtitle"))
                     ForEach(items) { item in
                         NavigationLink {
                             ArticleDetailView(articleID: item.id)

@@ -7,129 +7,235 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0137323D11BA447BA1A84E9E /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2BD72B62749978A17198F /* OnboardingFlowView.swift */; };
-		0D1C6D15590D4387A3F375DB /* tfn-apply.md in Resources */ = {isa = PBXBuildFile; fileRef = A37506B854B24495A27177B7 /* tfn-apply.md */; };
-		0FBD21A202C743A9922B9810 /* explore-barossa-adelaide.md in Resources */ = {isa = PBXBuildFile; fileRef = DC27BC6DFF414C46B4B16B03 /* explore-barossa-adelaide.md */; };
-		14045E5DCB2845019A10E5A9 /* Foundation+AussieStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE153AB08FA34F95A8FD2343 /* Foundation+AussieStart.swift */; };
-		14AB8A9461764807BAAE0520 /* explore-gold-coast.md in Resources */ = {isa = PBXBuildFile; fileRef = 2EFFB4E16F9148CBAA21EC51 /* explore-gold-coast.md */; };
-		155FDD90EF754BFCB038F76A /* housing-rent.md in Resources */ = {isa = PBXBuildFile; fileRef = EF1FFBA73B88436D90EA562B /* housing-rent.md */; };
-		1F0646462E5C432F9560C29D /* DestinationPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2809B4B6B794613B25827D4 /* DestinationPhotoGallery.swift */; };
-		1F3CE2B16B22481EB70929B5 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20279E897EA24F909B13A7B8 /* SearchView.swift */; };
-		215E4CC110A546C99E4C4FE9 /* AppCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D4227F484BC99F31522F /* AppCopy.swift */; };
-		224E4EC74C1E48DF9EA50781 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0269489BD19A4A5EA08EA45F /* ContentLoader.swift */; };
-		24403E9FBD254AF8AEF9F2E5 /* explore-sydney-harbour.md in Resources */ = {isa = PBXBuildFile; fileRef = 008CB892AFBD44DBA47BD3E4 /* explore-sydney-harbour.md */; };
-		2BB493E3162546A7BB5F3B33 /* explore-phillip-island.md in Resources */ = {isa = PBXBuildFile; fileRef = 373D26E4EBF2456EA10D6FD7 /* explore-phillip-island.md */; };
-		2C1EAB8E7E7B4AD6B7334A1F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796A3CFB39A4964965DAA7B /* AppTheme.swift */; };
-		2D86F9C7BA3147E3A762A6A0 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370E648F5384FB8B8A99D56 /* Repositories.swift */; };
-		4655CECD01D840D4B26A3BF2 /* explore-rottnest.md in Resources */ = {isa = PBXBuildFile; fileRef = 8736A3AA4B204F6F8547B75E /* explore-rottnest.md */; };
-		4956B7EB6FF040A4BEBE8466 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04228431DBB949D597223B6B /* SharedComponents.swift */; };
-		53E0933E3E7042708FA95CBF /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49317694B21242AB89A7D5C8 /* SwiftDataModels.swift */; };
-		5639325EBBDB42D8A4C908BA /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F426963134A619AD6B2EB /* CategoriesView.swift */; };
-		56BFDF4189AD44DC8AC1D740 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B2E887C8348EF92C6CF42 /* AppEnums.swift */; };
-		59E7B14F9DF8491B83B555F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 284D5B17BF9B4A9B9972E844 /* Localizable.strings */; };
-		5E62462EB03D45EAB178F911 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D885F2AE1224563809B22CB /* Localizable.strings */; };
-		6246DD14CC5740279C05DB4D /* driving-licence.md in Resources */ = {isa = PBXBuildFile; fileRef = B123D5F8057744BBBEBB5398 /* driving-licence.md */; };
-		64AD8946875E4EB8A8C891D0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47BC7109ED4A9996F603DA /* RootView.swift */; };
-		67E9A87FE66C421B8BE7A1CC /* AussieStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC814CFE1704AF3A1413E62 /* AussieStartApp.swift */; };
-		6F0B993B6731452E8E549AF5 /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A7C153E184D32AB6B8763 /* MarkdownDocumentView.swift */; };
-		6F322C147D114345A7DCAE04 /* explore-uluru.md in Resources */ = {isa = PBXBuildFile; fileRef = E21E73E148BE48858AEEF378 /* explore-uluru.md */; };
-		769E478DF56A40AC901392D4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B09E9C03D844C0A75E9CC0 /* SettingsView.swift */; };
-		794843B538EB4F1F8C6630DA /* arrival-airport.md in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBC46DB1144F4A9EE8844 /* arrival-airport.md */; };
-		7A4EC546D9D2426689B0E2EB /* medicare-gp.md in Resources */ = {isa = PBXBuildFile; fileRef = FD23A9D4C669427ABD10330D /* medicare-gp.md */; };
-		7DD5FD845963466C86307903 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E56C85E45402BAC2451C1 /* AboutView.swift */; };
-		8168C12BCEB14F88BBC8CAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D080B0CB4D4E759A2BA222 /* Assets.xcassets */; };
-		876E612D1FEA4C719B990713 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B815BA7094D5C85F601D4 /* ArticleDetailView.swift */; };
-		8BE283082AEB411EAC8A9D70 /* shopping-essentials.md in Resources */ = {isa = PBXBuildFile; fileRef = 58290A2B0E6A494BAB4DC658 /* shopping-essentials.md */; };
-		8DED0CA161EF4376A6C6ED30 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A46FF62887A04AE184A9E350 /* Localizable.strings */; };
-		8FCEF123071746848C04FA94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E0CC31F9A4AE0A698F750 /* HomeView.swift */; };
-		9076314C9A844B839A261B2A /* family-childcare.md in Resources */ = {isa = PBXBuildFile; fileRef = 4687519D345E4A419AEF0E57 /* family-childcare.md */; };
-		9361A17A567947A3868C0C3A /* explore-blue-mountains.md in Resources */ = {isa = PBXBuildFile; fileRef = B074B8B2C8F64A6BA369CB31 /* explore-blue-mountains.md */; };
-		990028E486194E68BC8605D6 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A2402E6FDDF84E948F09E639 /* catalog.json */; };
-		9A0E5D8DA8C941BCAE953B67 /* sim-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = C78004DE422A4B85BE169AB5 /* sim-setup.md */; };
-		9FE648A92D1B4036AFD3E600 /* jobs-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = C56624347A99455BAAC78B72 /* jobs-basics.md */; };
-		AB7568B2C0A04023BE20EE66 /* ContentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773ADFD35A8F40B4B11978F9 /* ContentModels.swift */; };
-		AF8CF2F8867D405190C46873 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D3641D3F634CA290533910 /* UserPreferences.swift */; };
-		B45AAEAEEA344C83BCF7EACF /* family-schools.md in Resources */ = {isa = PBXBuildFile; fileRef = FAF0578E42CC4EB4B0610BB4 /* family-schools.md */; };
-		BC9C14FA1F4C454680C83B6C /* LocalSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA93A558E664B0E8ACFCFEC /* LocalSearchEngine.swift */; };
-		C67CAF817C694DD382D249B4 /* family-immunisation.md in Resources */ = {isa = PBXBuildFile; fileRef = C88EC27293BD4DE6B4CA6EF3 /* family-immunisation.md */; };
-		C753A5B022CE407E8A431AD4 /* emergency-contacts.md in Resources */ = {isa = PBXBuildFile; fileRef = FEEB5CCF3061448DBD138D74 /* emergency-contacts.md */; };
-		C96C5EE8299142F8ADE32D9A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6BF368BD0C914BA787F2513C /* PrivacyInfo.xcprivacy */; };
-		CCF8086373CA41C0B40536D7 /* family-centrelink.md in Resources */ = {isa = PBXBuildFile; fileRef = 811D2914B9B741D781298EC1 /* family-centrelink.md */; };
-		D0E8CD7702B54B70A897DD79 /* students-oshc.md in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2E8729ED24C94BDB273C2 /* students-oshc.md */; };
-		D491CC3131EE47F680934E33 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2B312F7C4508B4C74E39 /* ChecklistView.swift */; };
-		E1B5CC7D2B854314A74A4CC1 /* explore-great-ocean-road.md in Resources */ = {isa = PBXBuildFile; fileRef = BF95F9F03ADD420A897E6AB6 /* explore-great-ocean-road.md */; };
-		EF90245FDE144FCD9E2C188B /* explore-tasmania-hobart.md in Resources */ = {isa = PBXBuildFile; fileRef = FE0499D0E9EE428C92FE624D /* explore-tasmania-hobart.md */; };
-		F10D4883E4AD4EB59FA1CF1E /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3961728EB64F049A2FDF20 /* BookmarksView.swift */; };
-		F2817653939E4D299A10CC00 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D83A81125D40DFB2088337 /* JourneyView.swift */; };
-		F28C3D9C72184AC39B2D3AEB /* transport-card.md in Resources */ = {isa = PBXBuildFile; fileRef = C730C8704C674CC28C90FB2B /* transport-card.md */; };
-		F68C38029EB04EA593F701F7 /* banking-open-account.md in Resources */ = {isa = PBXBuildFile; fileRef = F22921E2B42C4094A70D8914 /* banking-open-account.md */; };
-		FCCB9CD0A8EB4A6D808E0A6E /* explore-great-barrier-reef.md in Resources */ = {isa = PBXBuildFile; fileRef = 95EFB3E8AEF44289AE16653B /* explore-great-barrier-reef.md */; };
+		07225483EF984FFDAD244CD5 /* explore-gold-coast.md in Resources */ = {isa = PBXBuildFile; fileRef = E1DAB30A58F14249A0CE3C21 /* explore-gold-coast.md */; };
+		08DF0CA42C8141B0AF550B5E /* shopping-essentials.md in Resources */ = {isa = PBXBuildFile; fileRef = 33060C78DEC44146B1D9BE44 /* shopping-essentials.md */; };
+		08E2DAC21B33404CA59BFADE /* Foundation+AussieStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070076F088934C429D455A76 /* Foundation+AussieStart.swift */; };
+		0AB17517985C4B21BBA60B2A /* transport-card.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = AC0A29D229634540BBD0F092 /* transport-card.hi.md */; };
+		0BB842644D1D4037BC37AF75 /* explore-sydney-harbour.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A866F13A43F4BB2B2137050 /* explore-sydney-harbour.pa.md */; };
+		0BBD5C4F833848F1A20031DE /* family-centrelink.md in Resources */ = {isa = PBXBuildFile; fileRef = A5D48D704ACA4285AFD48D6C /* family-centrelink.md */; };
+		0F3684FE83FC41F487EF8EB2 /* explore-blue-mountains.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = D4FBE43DC90C495CB2EF523D /* explore-blue-mountains.hi.md */; };
+		14CAEA9BF536407282E82B28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C4E986BF0C45B0958EDDA5 /* Localizable.strings */; };
+		1887E927E49D4958930E9B5B /* family-immunisation.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 36F5E57D7E64420F958683C7 /* family-immunisation.hi.md */; };
+		19DBF9E363554772ACF5C2CF /* students-oshc.md in Resources */ = {isa = PBXBuildFile; fileRef = 8944724021A147FB9E23058B /* students-oshc.md */; };
+		20620347E64641AAA68D4489 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49104A6524FB480C8EB46A1D /* JourneyView.swift */; };
+		241ED0852F9C44FD834CC684 /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879F2C9BF314B7EB596BADC /* MarkdownDocumentView.swift */; };
+		29F5A56F7AE34B32802E9533 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0E7B457464BEC8C071FB8 /* SearchView.swift */; };
+		2B1E5A12FB1843D8B5748EBE /* jobs-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 387F02760B764431A925B3F4 /* jobs-basics.md */; };
+		2BB5AD367FD84E7BA5C5AC99 /* driving-licence.md in Resources */ = {isa = PBXBuildFile; fileRef = 8798DC68FE274F429F8B4B75 /* driving-licence.md */; };
+		2E63E3D0FCEC44D7966D43FF /* tfn-apply.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 950BF87925F34440830C09C5 /* tfn-apply.pa.md */; };
+		2FB0507414E14CDC95314F8A /* family-immunisation.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = C2DDD7DF70A94593B1CD6D07 /* family-immunisation.pa.md */; };
+		3049B02AEC02420AABF0E057 /* explore-great-ocean-road.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E243D3FE045460AB0237D0D /* explore-great-ocean-road.md */; };
+		33B1A33398A7475084A0EA93 /* family-schools.md in Resources */ = {isa = PBXBuildFile; fileRef = B1C364F1B101451EB196209F /* family-schools.md */; };
+		350AB9BDCFDF4E1FB3E8DEA7 /* jobs-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 9506FC181940458BA887146D /* jobs-basics.hi.md */; };
+		367EBB706E594CE28CC6E009 /* explore-great-barrier-reef.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 83E9EE818F084943A020765B /* explore-great-barrier-reef.hi.md */; };
+		37FBF96DFCDB4FEB8C841AFD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFF4BFBFEE8450296E1A403 /* HomeView.swift */; };
+		3A25ABC4C25D4BEBA9B66D0D /* students-oshc.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E384848244A4661850A009D /* students-oshc.hi.md */; };
+		3B573D7E203E4EE4B1CBBF8D /* sim-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = 645489836D06475CA3D20BFD /* sim-setup.md */; };
+		3C5EA842EA844C949B9AE358 /* tfn-apply.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FE7FB43B02274FBCA39F15B3 /* tfn-apply.hi.md */; };
+		3D31737284524A1D8B64C513 /* family-childcare.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E456531878449448C5B2369 /* family-childcare.pa.md */; };
+		3DCC3CE4A2B54D94A3FD2A7D /* housing-rent.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5FF3035DE1AE4BC0B58A2886 /* housing-rent.hi.md */; };
+		3ED134EB1ED34DC0AF24F735 /* banking-open-account.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 41FD70B1DDB142E0B7490D05 /* banking-open-account.pa.md */; };
+		4316D74F81D74DBCA5376092 /* explore-tasmania-hobart.md in Resources */ = {isa = PBXBuildFile; fileRef = B2912390A5514AB4B2F16D4B /* explore-tasmania-hobart.md */; };
+		44493F4DBF824B38B351C2DC /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D514956526641368B963E84 /* AppEnums.swift */; };
+		4765B7B780A0446490F2126B /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943AD848FD14143B27BA775 /* UserPreferences.swift */; };
+		49FB5EF251A84AC5A6D3011B /* explore-rottnest.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 298B51A311F04E59A779EA91 /* explore-rottnest.hi.md */; };
+		4D6129C113D944DFB93BE0FF /* transport-card.md in Resources */ = {isa = PBXBuildFile; fileRef = BADA3E93842049CB862EE5D8 /* transport-card.md */; };
+		50B7DE6E80E74122AC98B6B6 /* medicare-gp.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A9CF8AF89C5412E87659230 /* medicare-gp.hi.md */; };
+		52444DF9D55F4F0B86B7BA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE7510720814AA6B1B26C1A /* Assets.xcassets */; };
+		52F93F071572499FA83F00DA /* explore-blue-mountains.md in Resources */ = {isa = PBXBuildFile; fileRef = 551F18CFA2B2431A8C8D7824 /* explore-blue-mountains.md */; };
+		53A30E5297AD47C0AF2FAA9F /* students-oshc.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 48EA8B4C996E4A6B93012CD2 /* students-oshc.pa.md */; };
+		5985E5A7EB564F3CA48EC670 /* sim-setup.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 411EBEF707144A1EBD171C74 /* sim-setup.pa.md */; };
+		62A1E6DCD02D4CDAAAF9FEB9 /* explore-rottnest.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = EF5A33D601A748398FEFF7F4 /* explore-rottnest.pa.md */; };
+		63694DCBABB540849A42768B /* AussieStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD96A67384CBF8E40C32F /* AussieStartApp.swift */; };
+		64D5CF2CA9414A74BE1B0197 /* explore-uluru.md in Resources */ = {isa = PBXBuildFile; fileRef = 395C33E707BE45FB8DC5D4AC /* explore-uluru.md */; };
+		6900B622D88546E4A6DFDC21 /* explore-barossa-adelaide.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 124DE4B627BB4656B14CBAB8 /* explore-barossa-adelaide.hi.md */; };
+		6B33FB377E244E07BA3F3A8F /* shopping-essentials.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CE97C7DB7C2482BAD4CF081 /* shopping-essentials.pa.md */; };
+		6CB04749554D48959125FD5B /* sim-setup.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 88D99217B35E42E98FC43437 /* sim-setup.hi.md */; };
+		6D79F09CC375401894F49B34 /* driving-licence.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = EE98E9FA85EB493A92A5D830 /* driving-licence.hi.md */; };
+		6F7575987718438BAA29EC5C /* family-schools.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FF9B7941ABBE403C9D1604DA /* family-schools.hi.md */; };
+		701DE20CD3794891B3AB9BD2 /* LocalSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DAA74CCEB3420F82114E99 /* LocalSearchEngine.swift */; };
+		708E79E437B24DE1AD36499A /* explore-sydney-harbour.md in Resources */ = {isa = PBXBuildFile; fileRef = FDB2A9022B3D4E2CABB5D65D /* explore-sydney-harbour.md */; };
+		70F4710CEEB24C31BDB6554E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7909387D984537978FA510 /* AppTheme.swift */; };
+		71E3DAF9371A43EF88448D88 /* explore-tasmania-hobart.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = EA1C8FBABFD041F795AE374B /* explore-tasmania-hobart.hi.md */; };
+		7488BB8F3A8747C7A81F97BE /* shopping-essentials.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = E902D4C8721B47D18B302BE3 /* shopping-essentials.hi.md */; };
+		7780D3F9DCA548F89402395A /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77991483C5AE4FA2B598D619 /* SharedComponents.swift */; };
+		7844BFFE4CAB40D793A62A42 /* banking-open-account.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D24E6BAD15649F7AC16AE10 /* banking-open-account.md */; };
+		7BD86DAC58ED4AA285C8E7B0 /* explore-phillip-island.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = D1DA1D92E1FE404F954DE85F /* explore-phillip-island.hi.md */; };
+		7CA9E9D3461A41DE82FA496D /* arrival-airport.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 06AE50523B504C889EF89549 /* arrival-airport.pa.md */; };
+		7D314EFBC56C401DBB12FA59 /* arrival-airport.md in Resources */ = {isa = PBXBuildFile; fileRef = 735A9B92E92A485D90933F69 /* arrival-airport.md */; };
+		802ABA3A439A498195E70493 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90DD95F553A417C9FB6DC2B /* CategoriesView.swift */; };
+		84448AAC3E2D4D18A4DEA192 /* emergency-contacts.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C07778EEA1584DA7853B4BA4 /* emergency-contacts.hi.md */; };
+		845089DCA21948A8B1FECDA2 /* transport-card.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F6CC75A4295746088B438BAE /* transport-card.pa.md */; };
+		84703D80C3AA4B3FAB081120 /* family-schools.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D621D150A50475F975134DC /* family-schools.pa.md */; };
+		865B2B18D3654C7791E64B98 /* explore-great-ocean-road.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4833FB8E47B0495FA109187E /* explore-great-ocean-road.pa.md */; };
+		8E2B6ADF6FD146DAB63FC85E /* explore-phillip-island.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A61D20158AC41D29DBD39D2 /* explore-phillip-island.md */; };
+		9B577E50D2024190924D4ADA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0580D973318D4874B85F4690 /* Localizable.strings */; };
+		9F02A276937C4C0A99233EAB /* explore-great-barrier-reef.md in Resources */ = {isa = PBXBuildFile; fileRef = 2702EDDC941A4824868DB3B3 /* explore-great-barrier-reef.md */; };
+		9FF9F259F77E4B9294914B54 /* explore-sydney-harbour.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C84839B6E5F2421EB34FB4D3 /* explore-sydney-harbour.hi.md */; };
+		A09A37BB6E72437A80AD1BE3 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0A5081F8D4EAB85DB69AB /* Repositories.swift */; };
+		A13AF887ECE34F52B62ABB4C /* ContentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D9CACECD0457EAFB42AD3 /* ContentModels.swift */; };
+		A3CB0B32F7A747C5B83BF536 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DD54BD99A4B4D9FE5E5F0 /* ChecklistView.swift */; };
+		A4BD22021D1649C9B9983890 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9510A587E74B4E82B301FC4E /* ArticleDetailView.swift */; };
+		A80C84BEC1FC4E759769A64F /* family-childcare.md in Resources */ = {isa = PBXBuildFile; fileRef = 2143AFD0AB754A3AB3761F93 /* family-childcare.md */; };
+		A8DFF2CA910143E3AE1DBDEA /* emergency-contacts.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 34561061D55645ED99AA927E /* emergency-contacts.pa.md */; };
+		A9421E2D49F14B76A7C45E99 /* explore-phillip-island.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8446FD23741344ED88FD70BD /* explore-phillip-island.pa.md */; };
+		ABD0C2E8289944ABAD1FD6F4 /* explore-barossa-adelaide.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DB314E1B7D5F452DA43C5007 /* explore-barossa-adelaide.pa.md */; };
+		AD4FB023B89B4CD0BE9BB9CE /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD779018F984496A2CC4CBF /* ContentLoader.swift */; };
+		AD53F31D3AAB4C53AEC581E2 /* housing-rent.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = AE383778CBB2460185C889C6 /* housing-rent.pa.md */; };
+		AE04F6B1734C48B5B234C0C3 /* jobs-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B0FCA04B0D0549B49A94B659 /* jobs-basics.pa.md */; };
+		AF00275CFA8A484F8BE909A7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24253753664569B286F5CE /* SettingsView.swift */; };
+		B01C2E658DA64B318517C122 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19874E3110B948DEB1BD7274 /* OnboardingFlowView.swift */; };
+		B4FD8C5240234F7391408ED0 /* DestinationPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F3F590B226450781631CBC /* DestinationPhotoGallery.swift */; };
+		B905C5C636EE400AA6B8179C /* banking-open-account.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FD6B7A069A1D4A94AA35F1DE /* banking-open-account.hi.md */; };
+		BBC6C10EF4344E198805A9D2 /* explore-uluru.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 6DF79E2DDA5343DC97EC6D19 /* explore-uluru.hi.md */; };
+		BE6493222B3B4BE980D1D62D /* medicare-gp.md in Resources */ = {isa = PBXBuildFile; fileRef = DF7B66C20C254744A247AC13 /* medicare-gp.md */; };
+		BE9EBC4B5E754F9E820883A8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CEF211696D4F7B84D99589 /* RootView.swift */; };
+		C1E520DB528741F48CF5724A /* family-childcare.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 6604F31D9E2F47EABD1ADBF9 /* family-childcare.hi.md */; };
+		C1EA35181003425BA02E8D88 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9BF1C35404ED787019A5D /* SwiftDataModels.swift */; };
+		C245D6F91E0742E1AD733823 /* explore-tasmania-hobart.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DA5674FEED804B3091CFBAC2 /* explore-tasmania-hobart.pa.md */; };
+		C9062258AFE14DE89C59FF26 /* family-centrelink.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 99791445559D40A39D647359 /* family-centrelink.hi.md */; };
+		C9363B5997F941C986B374BC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4666A22E475C4AAF94422458 /* PrivacyInfo.xcprivacy */; };
+		CC5D7A8FAA134489A2B2762A /* medicare-gp.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = BF50EB3E83DF4594811607B3 /* medicare-gp.pa.md */; };
+		D1814A9760CA4D1688D1C765 /* explore-blue-mountains.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 281FD6064B3B46288E094153 /* explore-blue-mountains.pa.md */; };
+		D3B56A4FCC414462B6BDD86C /* tfn-apply.md in Resources */ = {isa = PBXBuildFile; fileRef = 6484266CE08B45EA8C5CD080 /* tfn-apply.md */; };
+		D488840F7A9F4E9990303030 /* explore-uluru.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 255E50D999274541A39E0B9D /* explore-uluru.pa.md */; };
+		D7F4D91D218940BC8D4DB982 /* arrival-airport.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C328657856ED47209228E87E /* arrival-airport.hi.md */; };
+		DE7CA67029B4437CA9B14F8A /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE77A0C6CE426199AC7677 /* catalog.json */; };
+		E01277F840F64CC0BDA2D734 /* housing-rent.md in Resources */ = {isa = PBXBuildFile; fileRef = CCBC48E3B78B4EF59BA3B18D /* housing-rent.md */; };
+		E015C2EBEED34977A24BB89A /* family-centrelink.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B5C758D295EF4C6D8D119755 /* family-centrelink.pa.md */; };
+		E05118A94D6E42778EE334E7 /* explore-gold-coast.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A4259D8D20D482AA9BA4D9A /* explore-gold-coast.pa.md */; };
+		E25C16BFCD4F435CB2A2ED9A /* explore-gold-coast.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D41DD26C3FC4798B87DF4A8 /* explore-gold-coast.hi.md */; };
+		E3E941476B71426FBAD40B65 /* explore-barossa-adelaide.md in Resources */ = {isa = PBXBuildFile; fileRef = 8303172870034C4AAE41D068 /* explore-barossa-adelaide.md */; };
+		E411986A56094EE7967DC240 /* emergency-contacts.md in Resources */ = {isa = PBXBuildFile; fileRef = 6C3A1421385141A0B0C1347C /* emergency-contacts.md */; };
+		E5C50D38F6F84848A21240D7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C8194C9F647FEA759D12F /* AboutView.swift */; };
+		E6DBC3CFEA0C4642B3EDB57D /* driving-licence.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FB81D34F2E0401EA3ADA701 /* driving-licence.pa.md */; };
+		E7BD7D7CD0884A47A5724994 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DBE814A6AF6416298CC960F /* Localizable.strings */; };
+		EC7840D512854F93B62B448B /* explore-great-ocean-road.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = DBC00A2383A043518E20B821 /* explore-great-ocean-road.hi.md */; };
+		EC7A669BD6A14A6B86B936FE /* explore-great-barrier-reef.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D68B898A19548D8996C96D2 /* explore-great-barrier-reef.pa.md */; };
+		F67D8B664FF14CD29D768DFB /* family-immunisation.md in Resources */ = {isa = PBXBuildFile; fileRef = 6864C970F1424CC4A46E235C /* family-immunisation.md */; };
+		F7A059ECC0E648A28B4CD6ED /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95925D9B2EE41CC9B141267 /* L10n.swift */; };
+		F7F056ABF9514A88AFC410DF /* AppCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD041942B04D44B654D677 /* AppCopy.swift */; };
+		FAACB1612FF9419CABF2D013 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FB5DE3E904E1FA80F5EF8 /* BookmarksView.swift */; };
+		FAB243E2688F47CBAEFD5760 /* explore-rottnest.md in Resources */ = {isa = PBXBuildFile; fileRef = 69A95D4E41564E1DA79A7B3F /* explore-rottnest.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		008CB892AFBD44DBA47BD3E4 /* explore-sydney-harbour.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.md"; sourceTree = "<group>"; };
-		0269489BD19A4A5EA08EA45F /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
-		02D3641D3F634CA290533910 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
-		04228431DBB949D597223B6B /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
-		10D83A81125D40DFB2088337 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
-		20279E897EA24F909B13A7B8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		284D5B17BF9B4A9B9972E844 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		2DAE2B312F7C4508B4C74E39 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
-		2EFFB4E16F9148CBAA21EC51 /* explore-gold-coast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.md"; sourceTree = "<group>"; };
-		367B2E887C8348EF92C6CF42 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
-		373D26E4EBF2456EA10D6FD7 /* explore-phillip-island.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.md"; sourceTree = "<group>"; };
-		4687519D345E4A419AEF0E57 /* family-childcare.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.md"; sourceTree = "<group>"; };
-		49317694B21242AB89A7D5C8 /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
-		58290A2B0E6A494BAB4DC658 /* shopping-essentials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.md"; sourceTree = "<group>"; };
-		5D885F2AE1224563809B22CB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		6BE2BD72B62749978A17198F /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
-		6BF368BD0C914BA787F2513C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		6DC814CFE1704AF3A1413E62 /* AussieStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AussieStartApp.swift; sourceTree = "<group>"; };
-		70B09E9C03D844C0A75E9CC0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		773ADFD35A8F40B4B11978F9 /* ContentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModels.swift; sourceTree = "<group>"; };
-		811A7C153E184D32AB6B8763 /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
-		811D2914B9B741D781298EC1 /* family-centrelink.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.md"; sourceTree = "<group>"; };
-		8736A3AA4B204F6F8547B75E /* explore-rottnest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.md"; sourceTree = "<group>"; };
-		8C3961728EB64F049A2FDF20 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
-		95EFB3E8AEF44289AE16653B /* explore-great-barrier-reef.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.md"; sourceTree = "<group>"; };
-		9CA2E8729ED24C94BDB273C2 /* students-oshc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.md"; sourceTree = "<group>"; };
-		A2402E6FDDF84E948F09E639 /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
-		A37506B854B24495A27177B7 /* tfn-apply.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.md"; sourceTree = "<group>"; };
-		A46FF62887A04AE184A9E350 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		A6129C625D2E4C778A92ED82 /* AussieStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A796A3CFB39A4964965DAA7B /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		AA10D4227F484BC99F31522F /* AppCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopy.swift; sourceTree = "<group>"; };
-		B074B8B2C8F64A6BA369CB31 /* explore-blue-mountains.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.md"; sourceTree = "<group>"; };
-		B123D5F8057744BBBEBB5398 /* driving-licence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.md"; sourceTree = "<group>"; };
-		B44B815BA7094D5C85F601D4 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
-		BA1ABDDAEA87488AA84DAE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEA93A558E664B0E8ACFCFEC /* LocalSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEngine.swift; sourceTree = "<group>"; };
-		BF95F9F03ADD420A897E6AB6 /* explore-great-ocean-road.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.md"; sourceTree = "<group>"; };
-		C370E648F5384FB8B8A99D56 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
-		C56624347A99455BAAC78B72 /* jobs-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.md"; sourceTree = "<group>"; };
-		C730C8704C674CC28C90FB2B /* transport-card.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.md"; sourceTree = "<group>"; };
-		C78004DE422A4B85BE169AB5 /* sim-setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.md"; sourceTree = "<group>"; };
-		C88EC27293BD4DE6B4CA6EF3 /* family-immunisation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.md"; sourceTree = "<group>"; };
-		D0D080B0CB4D4E759A2BA222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA5E0CC31F9A4AE0A698F750 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		DC27BC6DFF414C46B4B16B03 /* explore-barossa-adelaide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.md"; sourceTree = "<group>"; };
-		DD47BC7109ED4A9996F603DA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		E12F426963134A619AD6B2EB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		E21E73E148BE48858AEEF378 /* explore-uluru.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.md"; sourceTree = "<group>"; };
-		E2809B4B6B794613B25827D4 /* DestinationPhotoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPhotoGallery.swift; sourceTree = "<group>"; };
-		EE153AB08FA34F95A8FD2343 /* Foundation+AussieStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+AussieStart.swift"; sourceTree = "<group>"; };
-		EF1FFBA73B88436D90EA562B /* housing-rent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.md"; sourceTree = "<group>"; };
-		F22921E2B42C4094A70D8914 /* banking-open-account.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.md"; sourceTree = "<group>"; };
-		FA5E56C85E45402BAC2451C1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		FAEFBC46DB1144F4A9EE8844 /* arrival-airport.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.md"; sourceTree = "<group>"; };
-		FAF0578E42CC4EB4B0610BB4 /* family-schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.md"; sourceTree = "<group>"; };
-		FD23A9D4C669427ABD10330D /* medicare-gp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.md"; sourceTree = "<group>"; };
-		FE0499D0E9EE428C92FE624D /* explore-tasmania-hobart.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.md"; sourceTree = "<group>"; };
-		FEEB5CCF3061448DBD138D74 /* emergency-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.md"; sourceTree = "<group>"; };
+		0580D973318D4874B85F4690 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		06AE50523B504C889EF89549 /* arrival-airport.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.pa.md"; sourceTree = "<group>"; };
+		070076F088934C429D455A76 /* Foundation+AussieStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+AussieStart.swift"; sourceTree = "<group>"; };
+		0CE97C7DB7C2482BAD4CF081 /* shopping-essentials.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.pa.md"; sourceTree = "<group>"; };
+		0D24E6BAD15649F7AC16AE10 /* banking-open-account.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.md"; sourceTree = "<group>"; };
+		0D621D150A50475F975134DC /* family-schools.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.pa.md"; sourceTree = "<group>"; };
+		124DE4B627BB4656B14CBAB8 /* explore-barossa-adelaide.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.hi.md"; sourceTree = "<group>"; };
+		19874E3110B948DEB1BD7274 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		1A866F13A43F4BB2B2137050 /* explore-sydney-harbour.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.pa.md"; sourceTree = "<group>"; };
+		1C7909387D984537978FA510 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		20DAA74CCEB3420F82114E99 /* LocalSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEngine.swift; sourceTree = "<group>"; };
+		2143AFD0AB754A3AB3761F93 /* family-childcare.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.md"; sourceTree = "<group>"; };
+		255E50D999274541A39E0B9D /* explore-uluru.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.pa.md"; sourceTree = "<group>"; };
+		2702EDDC941A4824868DB3B3 /* explore-great-barrier-reef.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.md"; sourceTree = "<group>"; };
+		281FD6064B3B46288E094153 /* explore-blue-mountains.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.pa.md"; sourceTree = "<group>"; };
+		298B51A311F04E59A779EA91 /* explore-rottnest.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.hi.md"; sourceTree = "<group>"; };
+		2D514956526641368B963E84 /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		33060C78DEC44146B1D9BE44 /* shopping-essentials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.md"; sourceTree = "<group>"; };
+		34561061D55645ED99AA927E /* emergency-contacts.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.pa.md"; sourceTree = "<group>"; };
+		34FD041942B04D44B654D677 /* AppCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopy.swift; sourceTree = "<group>"; };
+		36F5E57D7E64420F958683C7 /* family-immunisation.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.hi.md"; sourceTree = "<group>"; };
+		387F02760B764431A925B3F4 /* jobs-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.md"; sourceTree = "<group>"; };
+		395C33E707BE45FB8DC5D4AC /* explore-uluru.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.md"; sourceTree = "<group>"; };
+		3D68B898A19548D8996C96D2 /* explore-great-barrier-reef.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.pa.md"; sourceTree = "<group>"; };
+		3EE7510720814AA6B1B26C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411EBEF707144A1EBD171C74 /* sim-setup.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.pa.md"; sourceTree = "<group>"; };
+		41FD70B1DDB142E0B7490D05 /* banking-open-account.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.pa.md"; sourceTree = "<group>"; };
+		4666A22E475C4AAF94422458 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4833FB8E47B0495FA109187E /* explore-great-ocean-road.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.pa.md"; sourceTree = "<group>"; };
+		4879F2C9BF314B7EB596BADC /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
+		48EA8B4C996E4A6B93012CD2 /* students-oshc.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.pa.md"; sourceTree = "<group>"; };
+		49104A6524FB480C8EB46A1D /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		551F18CFA2B2431A8C8D7824 /* explore-blue-mountains.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.md"; sourceTree = "<group>"; };
+		5A9CF8AF89C5412E87659230 /* medicare-gp.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.hi.md"; sourceTree = "<group>"; };
+		5C24253753664569B286F5CE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5D41DD26C3FC4798B87DF4A8 /* explore-gold-coast.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.hi.md"; sourceTree = "<group>"; };
+		5E6DD54BD99A4B4D9FE5E5F0 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		5FD779018F984496A2CC4CBF /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
+		5FF3035DE1AE4BC0B58A2886 /* housing-rent.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.hi.md"; sourceTree = "<group>"; };
+		632C8194C9F647FEA759D12F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		645489836D06475CA3D20BFD /* sim-setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.md"; sourceTree = "<group>"; };
+		6484266CE08B45EA8C5CD080 /* tfn-apply.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.md"; sourceTree = "<group>"; };
+		6604F31D9E2F47EABD1ADBF9 /* family-childcare.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.hi.md"; sourceTree = "<group>"; };
+		6864C970F1424CC4A46E235C /* family-immunisation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.md"; sourceTree = "<group>"; };
+		69A95D4E41564E1DA79A7B3F /* explore-rottnest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.md"; sourceTree = "<group>"; };
+		6C3A1421385141A0B0C1347C /* emergency-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.md"; sourceTree = "<group>"; };
+		6DF79E2DDA5343DC97EC6D19 /* explore-uluru.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.hi.md"; sourceTree = "<group>"; };
+		735A9B92E92A485D90933F69 /* arrival-airport.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.md"; sourceTree = "<group>"; };
+		77991483C5AE4FA2B598D619 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		7BB9BF1C35404ED787019A5D /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		7CDE77A0C6CE426199AC7677 /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
+		7DBE814A6AF6416298CC960F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		7E384848244A4661850A009D /* students-oshc.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.hi.md"; sourceTree = "<group>"; };
+		8303172870034C4AAE41D068 /* explore-barossa-adelaide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.md"; sourceTree = "<group>"; };
+		83E9EE818F084943A020765B /* explore-great-barrier-reef.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.hi.md"; sourceTree = "<group>"; };
+		8446FD23741344ED88FD70BD /* explore-phillip-island.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.pa.md"; sourceTree = "<group>"; };
+		8798DC68FE274F429F8B4B75 /* driving-licence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.md"; sourceTree = "<group>"; };
+		88D99217B35E42E98FC43437 /* sim-setup.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.hi.md"; sourceTree = "<group>"; };
+		8944724021A147FB9E23058B /* students-oshc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.md"; sourceTree = "<group>"; };
+		8A4259D8D20D482AA9BA4D9A /* explore-gold-coast.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.pa.md"; sourceTree = "<group>"; };
+		8E456531878449448C5B2369 /* family-childcare.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.pa.md"; sourceTree = "<group>"; };
+		9506FC181940458BA887146D /* jobs-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.hi.md"; sourceTree = "<group>"; };
+		950BF87925F34440830C09C5 /* tfn-apply.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.pa.md"; sourceTree = "<group>"; };
+		9510A587E74B4E82B301FC4E /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		99791445559D40A39D647359 /* family-centrelink.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.hi.md"; sourceTree = "<group>"; };
+		9A61D20158AC41D29DBD39D2 /* explore-phillip-island.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.md"; sourceTree = "<group>"; };
+		9E243D3FE045460AB0237D0D /* explore-great-ocean-road.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.md"; sourceTree = "<group>"; };
+		9FB81D34F2E0401EA3ADA701 /* driving-licence.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.pa.md"; sourceTree = "<group>"; };
+		A1F3F590B226450781631CBC /* DestinationPhotoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPhotoGallery.swift; sourceTree = "<group>"; };
+		A22BD96A67384CBF8E40C32F /* AussieStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AussieStartApp.swift; sourceTree = "<group>"; };
+		A5D48D704ACA4285AFD48D6C /* family-centrelink.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.md"; sourceTree = "<group>"; };
+		A80FB5DE3E904E1FA80F5EF8 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		A95925D9B2EE41CC9B141267 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		A9C4E986BF0C45B0958EDDA5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AC0A29D229634540BBD0F092 /* transport-card.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.hi.md"; sourceTree = "<group>"; };
+		AE383778CBB2460185C889C6 /* housing-rent.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.pa.md"; sourceTree = "<group>"; };
+		B0FCA04B0D0549B49A94B659 /* jobs-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.pa.md"; sourceTree = "<group>"; };
+		B1C364F1B101451EB196209F /* family-schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.md"; sourceTree = "<group>"; };
+		B2912390A5514AB4B2F16D4B /* explore-tasmania-hobart.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.md"; sourceTree = "<group>"; };
+		B5C758D295EF4C6D8D119755 /* family-centrelink.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.pa.md"; sourceTree = "<group>"; };
+		B86D9CACECD0457EAFB42AD3 /* ContentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModels.swift; sourceTree = "<group>"; };
+		BADA3E93842049CB862EE5D8 /* transport-card.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.md"; sourceTree = "<group>"; };
+		BDE6C32FE5AF441984018B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF50EB3E83DF4594811607B3 /* medicare-gp.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.pa.md"; sourceTree = "<group>"; };
+		C07778EEA1584DA7853B4BA4 /* emergency-contacts.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.hi.md"; sourceTree = "<group>"; };
+		C2DDD7DF70A94593B1CD6D07 /* family-immunisation.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.pa.md"; sourceTree = "<group>"; };
+		C328657856ED47209228E87E /* arrival-airport.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.hi.md"; sourceTree = "<group>"; };
+		C5B0E7B457464BEC8C071FB8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C84839B6E5F2421EB34FB4D3 /* explore-sydney-harbour.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.hi.md"; sourceTree = "<group>"; };
+		C9F112B0801C49FD8B71F46D /* AussieStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC48E3B78B4EF59BA3B18D /* housing-rent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.md"; sourceTree = "<group>"; };
+		CCFF4BFBFEE8450296E1A403 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D1DA1D92E1FE404F954DE85F /* explore-phillip-island.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.hi.md"; sourceTree = "<group>"; };
+		D4FBE43DC90C495CB2EF523D /* explore-blue-mountains.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.hi.md"; sourceTree = "<group>"; };
+		D90DD95F553A417C9FB6DC2B /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		D943AD848FD14143B27BA775 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		DA5674FEED804B3091CFBAC2 /* explore-tasmania-hobart.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.pa.md"; sourceTree = "<group>"; };
+		DB314E1B7D5F452DA43C5007 /* explore-barossa-adelaide.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.pa.md"; sourceTree = "<group>"; };
+		DBC00A2383A043518E20B821 /* explore-great-ocean-road.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.hi.md"; sourceTree = "<group>"; };
+		DBD0A5081F8D4EAB85DB69AB /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		DF7B66C20C254744A247AC13 /* medicare-gp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.md"; sourceTree = "<group>"; };
+		E1DAB30A58F14249A0CE3C21 /* explore-gold-coast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.md"; sourceTree = "<group>"; };
+		E6CEF211696D4F7B84D99589 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E902D4C8721B47D18B302BE3 /* shopping-essentials.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.hi.md"; sourceTree = "<group>"; };
+		EA1C8FBABFD041F795AE374B /* explore-tasmania-hobart.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.hi.md"; sourceTree = "<group>"; };
+		EE98E9FA85EB493A92A5D830 /* driving-licence.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.hi.md"; sourceTree = "<group>"; };
+		EF5A33D601A748398FEFF7F4 /* explore-rottnest.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.pa.md"; sourceTree = "<group>"; };
+		F6CC75A4295746088B438BAE /* transport-card.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.pa.md"; sourceTree = "<group>"; };
+		FD6B7A069A1D4A94AA35F1DE /* banking-open-account.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.hi.md"; sourceTree = "<group>"; };
+		FDB2A9022B3D4E2CABB5D65D /* explore-sydney-harbour.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.md"; sourceTree = "<group>"; };
+		FE7FB43B02274FBCA39F15B3 /* tfn-apply.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.hi.md"; sourceTree = "<group>"; };
+		FF9B7941ABBE403C9D1604DA /* family-schools.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.hi.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		241F4E4D811E4513A105446F /* Frameworks */ = {
+		3E21FA78000A48CCA15A8CF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,321 +245,374 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01E09178944C4D6181493B5C /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				20279E897EA24F909B13A7B8 /* SearchView.swift */,
-			);
-			path = Search;
-			sourceTree = "<group>";
-		};
-		102B9801B3E444339B56C993 /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				46643E3EEB9645BF9B090A47 /* en.lproj */,
-				35BF15FB175F43C2BFB8D35B /* hi.lproj */,
-				40D27D7F11C64F71BDB50945 /* pa.lproj */,
-			);
-			path = Localization;
-			sourceTree = "<group>";
-		};
-		2369E02E56D64C4FA14582D3 = {
-			isa = PBXGroup;
-			children = (
-				F74697B6DA4946B1A4BDEF6F /* AussieStart */,
-				75552E4DEBA84F7C940A5D7E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		23F57CA13F4B4110960988E6 /* images */ = {
+		1864C7058D9A49028FD9C94C /* images */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = images;
 			sourceTree = "<group>";
 		};
-		2577E7BCE17F4AE39B825808 /* Article */ = {
+		18DAD5AE34C548A3B92FBFBD /* articles */ = {
 			isa = PBXGroup;
 			children = (
-				B44B815BA7094D5C85F601D4 /* ArticleDetailView.swift */,
+				C328657856ED47209228E87E /* arrival-airport.hi.md */,
+				735A9B92E92A485D90933F69 /* arrival-airport.md */,
+				06AE50523B504C889EF89549 /* arrival-airport.pa.md */,
+				FD6B7A069A1D4A94AA35F1DE /* banking-open-account.hi.md */,
+				0D24E6BAD15649F7AC16AE10 /* banking-open-account.md */,
+				41FD70B1DDB142E0B7490D05 /* banking-open-account.pa.md */,
+				EE98E9FA85EB493A92A5D830 /* driving-licence.hi.md */,
+				8798DC68FE274F429F8B4B75 /* driving-licence.md */,
+				9FB81D34F2E0401EA3ADA701 /* driving-licence.pa.md */,
+				C07778EEA1584DA7853B4BA4 /* emergency-contacts.hi.md */,
+				6C3A1421385141A0B0C1347C /* emergency-contacts.md */,
+				34561061D55645ED99AA927E /* emergency-contacts.pa.md */,
+				124DE4B627BB4656B14CBAB8 /* explore-barossa-adelaide.hi.md */,
+				8303172870034C4AAE41D068 /* explore-barossa-adelaide.md */,
+				DB314E1B7D5F452DA43C5007 /* explore-barossa-adelaide.pa.md */,
+				D4FBE43DC90C495CB2EF523D /* explore-blue-mountains.hi.md */,
+				551F18CFA2B2431A8C8D7824 /* explore-blue-mountains.md */,
+				281FD6064B3B46288E094153 /* explore-blue-mountains.pa.md */,
+				5D41DD26C3FC4798B87DF4A8 /* explore-gold-coast.hi.md */,
+				E1DAB30A58F14249A0CE3C21 /* explore-gold-coast.md */,
+				8A4259D8D20D482AA9BA4D9A /* explore-gold-coast.pa.md */,
+				83E9EE818F084943A020765B /* explore-great-barrier-reef.hi.md */,
+				2702EDDC941A4824868DB3B3 /* explore-great-barrier-reef.md */,
+				3D68B898A19548D8996C96D2 /* explore-great-barrier-reef.pa.md */,
+				DBC00A2383A043518E20B821 /* explore-great-ocean-road.hi.md */,
+				9E243D3FE045460AB0237D0D /* explore-great-ocean-road.md */,
+				4833FB8E47B0495FA109187E /* explore-great-ocean-road.pa.md */,
+				D1DA1D92E1FE404F954DE85F /* explore-phillip-island.hi.md */,
+				9A61D20158AC41D29DBD39D2 /* explore-phillip-island.md */,
+				8446FD23741344ED88FD70BD /* explore-phillip-island.pa.md */,
+				298B51A311F04E59A779EA91 /* explore-rottnest.hi.md */,
+				69A95D4E41564E1DA79A7B3F /* explore-rottnest.md */,
+				EF5A33D601A748398FEFF7F4 /* explore-rottnest.pa.md */,
+				C84839B6E5F2421EB34FB4D3 /* explore-sydney-harbour.hi.md */,
+				FDB2A9022B3D4E2CABB5D65D /* explore-sydney-harbour.md */,
+				1A866F13A43F4BB2B2137050 /* explore-sydney-harbour.pa.md */,
+				EA1C8FBABFD041F795AE374B /* explore-tasmania-hobart.hi.md */,
+				B2912390A5514AB4B2F16D4B /* explore-tasmania-hobart.md */,
+				DA5674FEED804B3091CFBAC2 /* explore-tasmania-hobart.pa.md */,
+				6DF79E2DDA5343DC97EC6D19 /* explore-uluru.hi.md */,
+				395C33E707BE45FB8DC5D4AC /* explore-uluru.md */,
+				255E50D999274541A39E0B9D /* explore-uluru.pa.md */,
+				99791445559D40A39D647359 /* family-centrelink.hi.md */,
+				A5D48D704ACA4285AFD48D6C /* family-centrelink.md */,
+				B5C758D295EF4C6D8D119755 /* family-centrelink.pa.md */,
+				6604F31D9E2F47EABD1ADBF9 /* family-childcare.hi.md */,
+				2143AFD0AB754A3AB3761F93 /* family-childcare.md */,
+				8E456531878449448C5B2369 /* family-childcare.pa.md */,
+				36F5E57D7E64420F958683C7 /* family-immunisation.hi.md */,
+				6864C970F1424CC4A46E235C /* family-immunisation.md */,
+				C2DDD7DF70A94593B1CD6D07 /* family-immunisation.pa.md */,
+				FF9B7941ABBE403C9D1604DA /* family-schools.hi.md */,
+				B1C364F1B101451EB196209F /* family-schools.md */,
+				0D621D150A50475F975134DC /* family-schools.pa.md */,
+				5FF3035DE1AE4BC0B58A2886 /* housing-rent.hi.md */,
+				CCBC48E3B78B4EF59BA3B18D /* housing-rent.md */,
+				AE383778CBB2460185C889C6 /* housing-rent.pa.md */,
+				9506FC181940458BA887146D /* jobs-basics.hi.md */,
+				387F02760B764431A925B3F4 /* jobs-basics.md */,
+				B0FCA04B0D0549B49A94B659 /* jobs-basics.pa.md */,
+				5A9CF8AF89C5412E87659230 /* medicare-gp.hi.md */,
+				DF7B66C20C254744A247AC13 /* medicare-gp.md */,
+				BF50EB3E83DF4594811607B3 /* medicare-gp.pa.md */,
+				E902D4C8721B47D18B302BE3 /* shopping-essentials.hi.md */,
+				33060C78DEC44146B1D9BE44 /* shopping-essentials.md */,
+				0CE97C7DB7C2482BAD4CF081 /* shopping-essentials.pa.md */,
+				88D99217B35E42E98FC43437 /* sim-setup.hi.md */,
+				645489836D06475CA3D20BFD /* sim-setup.md */,
+				411EBEF707144A1EBD171C74 /* sim-setup.pa.md */,
+				7E384848244A4661850A009D /* students-oshc.hi.md */,
+				8944724021A147FB9E23058B /* students-oshc.md */,
+				48EA8B4C996E4A6B93012CD2 /* students-oshc.pa.md */,
+				FE7FB43B02274FBCA39F15B3 /* tfn-apply.hi.md */,
+				6484266CE08B45EA8C5CD080 /* tfn-apply.md */,
+				950BF87925F34440830C09C5 /* tfn-apply.pa.md */,
+				AC0A29D229634540BBD0F092 /* transport-card.hi.md */,
+				BADA3E93842049CB862EE5D8 /* transport-card.md */,
+				F6CC75A4295746088B438BAE /* transport-card.pa.md */,
 			);
-			path = Article;
+			path = articles;
 			sourceTree = "<group>";
 		};
-		2657281B80B74814908B8B25 /* Resources */ = {
+		1C1C08F34E774915A3AE2384 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				4B5EDACE512844E6BFD3CBB0 /* Content */,
-				102B9801B3E444339B56C993 /* Localization */,
+				DBD0A5081F8D4EAB85DB69AB /* Repositories.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		25AFD6C782844047BEBB8A7A /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				5E6DD54BD99A4B4D9FE5E5F0 /* ChecklistView.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		2930EB3AEC9645128A7094E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CCFF4BFBFEE8450296E1A403 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		316D9AABD2DD481EA4783EAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98449ACB9E96483CA57C75E6 /* Content */,
+				DC0547CC1E7E49CA96BE94D6 /* Localization */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		2846BAEC558E439CBA8CD132 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		2F64EBA86EF74739A8E934CD /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				70B09E9C03D844C0A75E9CC0 /* SettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		30D69149A7134C33AE72BB9A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				367B2E887C8348EF92C6CF42 /* AppEnums.swift */,
-				773ADFD35A8F40B4B11978F9 /* ContentModels.swift */,
-				49317694B21242AB89A7D5C8 /* SwiftDataModels.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		327D541E5B2848FA96011E02 /* states */ = {
+		3270CCF2158F45DBB0437A57 /* states */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = states;
 			sourceTree = "<group>";
 		};
-		35BF15FB175F43C2BFB8D35B /* hi.lproj */ = {
+		473CC44ADCB245B789CFAA49 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				5D885F2AE1224563809B22CB /* Localizable.strings */,
-			);
-			path = hi.lproj;
-			sourceTree = "<group>";
-		};
-		38D89EBA472B4E8289762AC1 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				6BE2BD72B62749978A17198F /* OnboardingFlowView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		40D27D7F11C64F71BDB50945 /* pa.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				A46FF62887A04AE184A9E350 /* Localizable.strings */,
-			);
-			path = pa.lproj;
-			sourceTree = "<group>";
-		};
-		46643E3EEB9645BF9B090A47 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				284D5B17BF9B4A9B9972E844 /* Localizable.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		4B5EDACE512844E6BFD3CBB0 /* Content */ = {
-			isa = PBXGroup;
-			children = (
-				9AA005BA41BA47E196488AD2 /* articles */,
-				23F57CA13F4B4110960988E6 /* images */,
-				327D541E5B2848FA96011E02 /* states */,
-				A2402E6FDDF84E948F09E639 /* catalog.json */,
-			);
-			path = Content;
-			sourceTree = "<group>";
-		};
-		54BC34DE0E754A9CBD745E74 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				7690A6B6308144AD9A0494DA /* About */,
-				2577E7BCE17F4AE39B825808 /* Article */,
-				B2F125CA11684D80B01801F8 /* Bookmarks */,
-				8A46704D1D234E4B9C8655A6 /* Categories */,
-				E7A9046DD00247F3BE70DF93 /* Checklist */,
-				77AFB4F31B8C440F90A6B7D2 /* Home */,
-				FC85B8DBD3FA4FC7833DA9F1 /* Journey */,
-				38D89EBA472B4E8289762AC1 /* Onboarding */,
-				01E09178944C4D6181493B5C /* Search */,
-				2F64EBA86EF74739A8E934CD /* Settings */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		5D2515AE9E964273AC655952 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				0269489BD19A4A5EA08EA45F /* ContentLoader.swift */,
-				BEA93A558E664B0E8ACFCFEC /* LocalSearchEngine.swift */,
-				02D3641D3F634CA290533910 /* UserPreferences.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		5F3E718B7B9E481CA3E28D4A /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				C370E648F5384FB8B8A99D56 /* Repositories.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		6D51FE8FF4D441B8BA6B38D4 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A796A3CFB39A4964965DAA7B /* AppTheme.swift */,
-				6DC814CFE1704AF3A1413E62 /* AussieStartApp.swift */,
-				DD47BC7109ED4A9996F603DA /* RootView.swift */,
+				1C7909387D984537978FA510 /* AppTheme.swift */,
+				A22BD96A67384CBF8E40C32F /* AussieStartApp.swift */,
+				E6CEF211696D4F7B84D99589 /* RootView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		75552E4DEBA84F7C940A5D7E /* Products */ = {
+		53DA470250FA4BE49A3EA393 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				A6129C625D2E4C778A92ED82 /* AussieStart.app */,
+				19874E3110B948DEB1BD7274 /* OnboardingFlowView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5F7C28E9946F4F10A1C9DF96 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0E7B457464BEC8C071FB8 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		67389307BE1A48219D99D0AD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5C24253753664569B286F5CE /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6B7EF447320F43C48F5C526D /* hi.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E986BF0C45B0958EDDA5 /* Localizable.strings */,
+			);
+			path = hi.lproj;
+			sourceTree = "<group>";
+		};
+		6C99563AE82E4DCC858CB59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F112B0801C49FD8B71F46D /* AussieStart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7690A6B6308144AD9A0494DA /* About */ = {
+		7556CB8DD9CE46CF9F61B248 /* About */ = {
 			isa = PBXGroup;
 			children = (
-				FA5E56C85E45402BAC2451C1 /* AboutView.swift */,
+				632C8194C9F647FEA759D12F /* AboutView.swift */,
 			);
 			path = About;
 			sourceTree = "<group>";
 		};
-		77AFB4F31B8C440F90A6B7D2 /* Home */ = {
+		79F23E6994FC4940AE7A8621 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				DA5E0CC31F9A4AE0A698F750 /* HomeView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		8A46704D1D234E4B9C8655A6 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				E12F426963134A619AD6B2EB /* CategoriesView.swift */,
+				D90DD95F553A417C9FB6DC2B /* CategoriesView.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		9AA005BA41BA47E196488AD2 /* articles */ = {
+		7A1208F27E894076A68D9A49 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				FAEFBC46DB1144F4A9EE8844 /* arrival-airport.md */,
-				F22921E2B42C4094A70D8914 /* banking-open-account.md */,
-				B123D5F8057744BBBEBB5398 /* driving-licence.md */,
-				FEEB5CCF3061448DBD138D74 /* emergency-contacts.md */,
-				DC27BC6DFF414C46B4B16B03 /* explore-barossa-adelaide.md */,
-				B074B8B2C8F64A6BA369CB31 /* explore-blue-mountains.md */,
-				2EFFB4E16F9148CBAA21EC51 /* explore-gold-coast.md */,
-				95EFB3E8AEF44289AE16653B /* explore-great-barrier-reef.md */,
-				BF95F9F03ADD420A897E6AB6 /* explore-great-ocean-road.md */,
-				373D26E4EBF2456EA10D6FD7 /* explore-phillip-island.md */,
-				8736A3AA4B204F6F8547B75E /* explore-rottnest.md */,
-				008CB892AFBD44DBA47BD3E4 /* explore-sydney-harbour.md */,
-				FE0499D0E9EE428C92FE624D /* explore-tasmania-hobart.md */,
-				E21E73E148BE48858AEEF378 /* explore-uluru.md */,
-				811D2914B9B741D781298EC1 /* family-centrelink.md */,
-				4687519D345E4A419AEF0E57 /* family-childcare.md */,
-				C88EC27293BD4DE6B4CA6EF3 /* family-immunisation.md */,
-				FAF0578E42CC4EB4B0610BB4 /* family-schools.md */,
-				EF1FFBA73B88436D90EA562B /* housing-rent.md */,
-				C56624347A99455BAAC78B72 /* jobs-basics.md */,
-				FD23A9D4C669427ABD10330D /* medicare-gp.md */,
-				58290A2B0E6A494BAB4DC658 /* shopping-essentials.md */,
-				C78004DE422A4B85BE169AB5 /* sim-setup.md */,
-				9CA2E8729ED24C94BDB273C2 /* students-oshc.md */,
-				A37506B854B24495A27177B7 /* tfn-apply.md */,
-				C730C8704C674CC28C90FB2B /* transport-card.md */,
+				5FD779018F984496A2CC4CBF /* ContentLoader.swift */,
+				20DAA74CCEB3420F82114E99 /* LocalSearchEngine.swift */,
+				D943AD848FD14143B27BA775 /* UserPreferences.swift */,
 			);
-			path = articles;
+			path = Services;
 			sourceTree = "<group>";
 		};
-		B2F125CA11684D80B01801F8 /* Bookmarks */ = {
+		8564840547354C379F4CC474 /* Bookmarks */ = {
 			isa = PBXGroup;
 			children = (
-				8C3961728EB64F049A2FDF20 /* BookmarksView.swift */,
+				A80FB5DE3E904E1FA80F5EF8 /* BookmarksView.swift */,
 			);
 			path = Bookmarks;
 			sourceTree = "<group>";
 		};
-		B750FAE297984F99B4AE5A16 /* Utilities */ = {
+		9455C56DBDA54BE797C0EE75 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA10D4227F484BC99F31522F /* AppCopy.swift */,
+				2D514956526641368B963E84 /* AppEnums.swift */,
+				B86D9CACECD0457EAFB42AD3 /* ContentModels.swift */,
+				7BB9BF1C35404ED787019A5D /* SwiftDataModels.swift */,
 			);
-			path = Utilities;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		B901CFDD17C24C9884084230 /* Extensions */ = {
+		9697162BC2A344CCB14B47D5 /* Article */ = {
 			isa = PBXGroup;
 			children = (
-				EE153AB08FA34F95A8FD2343 /* Foundation+AussieStart.swift */,
+				9510A587E74B4E82B301FC4E /* ArticleDetailView.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		9793B6CFE0D747B7964CDC10 /* Journey */ = {
+			isa = PBXGroup;
+			children = (
+				49104A6524FB480C8EB46A1D /* JourneyView.swift */,
+			);
+			path = Journey;
+			sourceTree = "<group>";
+		};
+		98449ACB9E96483CA57C75E6 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				18DAD5AE34C548A3B92FBFBD /* articles */,
+				1864C7058D9A49028FD9C94C /* images */,
+				3270CCF2158F45DBB0437A57 /* states */,
+				7CDE77A0C6CE426199AC7677 /* catalog.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		99D316FC1046420DBD9F9253 = {
+			isa = PBXGroup;
+			children = (
+				D61DBFF7A65F4B0CBFFEBE7D /* AussieStart */,
+				6C99563AE82E4DCC858CB59D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4487D17682D4CBAB3409F0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				070076F088934C429D455A76 /* Foundation+AussieStart.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		CBFE80271A444CFE8BB73525 /* Components */ = {
+		BA1E41422BFE43BEB3903725 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				E2809B4B6B794613B25827D4 /* DestinationPhotoGallery.swift */,
-				811A7C153E184D32AB6B8763 /* MarkdownDocumentView.swift */,
-				04228431DBB949D597223B6B /* SharedComponents.swift */,
+				7DBE814A6AF6416298CC960F /* Localizable.strings */,
 			);
-			path = Components;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		E7A9046DD00247F3BE70DF93 /* Checklist */ = {
+		CAAD5184CF204C5E8BA8E444 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				2DAE2B312F7C4508B4C74E39 /* ChecklistView.swift */,
+				34FD041942B04D44B654D677 /* AppCopy.swift */,
+				A95925D9B2EE41CC9B141267 /* L10n.swift */,
 			);
-			path = Checklist;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		F74697B6DA4946B1A4BDEF6F /* AussieStart */ = {
+		CC3610259D6F4201A1DD7D42 /* pa.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				6D51FE8FF4D441B8BA6B38D4 /* App */,
-				D0D080B0CB4D4E759A2BA222 /* Assets.xcassets */,
-				CBFE80271A444CFE8BB73525 /* Components */,
-				2846BAEC558E439CBA8CD132 /* Core */,
-				B901CFDD17C24C9884084230 /* Extensions */,
-				54BC34DE0E754A9CBD745E74 /* Features */,
-				30D69149A7134C33AE72BB9A /* Models */,
-				5F3E718B7B9E481CA3E28D4A /* Repositories */,
-				2657281B80B74814908B8B25 /* Resources */,
-				5D2515AE9E964273AC655952 /* Services */,
-				B750FAE297984F99B4AE5A16 /* Utilities */,
-				BA1ABDDAEA87488AA84DAE8C /* Info.plist */,
-				6BF368BD0C914BA787F2513C /* PrivacyInfo.xcprivacy */,
+				0580D973318D4874B85F4690 /* Localizable.strings */,
+			);
+			path = pa.lproj;
+			sourceTree = "<group>";
+		};
+		D61DBFF7A65F4B0CBFFEBE7D /* AussieStart */ = {
+			isa = PBXGroup;
+			children = (
+				473CC44ADCB245B789CFAA49 /* App */,
+				3EE7510720814AA6B1B26C1A /* Assets.xcassets */,
+				FF8BC86D80934BD2BD577837 /* Components */,
+				EE035FD8B2904D5C9A258A71 /* Core */,
+				A4487D17682D4CBAB3409F0E /* Extensions */,
+				FAEFE5092D8F446E9C71F929 /* Features */,
+				9455C56DBDA54BE797C0EE75 /* Models */,
+				1C1C08F34E774915A3AE2384 /* Repositories */,
+				316D9AABD2DD481EA4783EAC /* Resources */,
+				7A1208F27E894076A68D9A49 /* Services */,
+				CAAD5184CF204C5E8BA8E444 /* Utilities */,
+				BDE6C32FE5AF441984018B8B /* Info.plist */,
+				4666A22E475C4AAF94422458 /* PrivacyInfo.xcprivacy */,
 			);
 			path = AussieStart;
 			sourceTree = "<group>";
 		};
-		FC85B8DBD3FA4FC7833DA9F1 /* Journey */ = {
+		DC0547CC1E7E49CA96BE94D6 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				10D83A81125D40DFB2088337 /* JourneyView.swift */,
+				BA1E41422BFE43BEB3903725 /* en.lproj */,
+				6B7EF447320F43C48F5C526D /* hi.lproj */,
+				CC3610259D6F4201A1DD7D42 /* pa.lproj */,
 			);
-			path = Journey;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		EE035FD8B2904D5C9A258A71 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FAEFE5092D8F446E9C71F929 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7556CB8DD9CE46CF9F61B248 /* About */,
+				9697162BC2A344CCB14B47D5 /* Article */,
+				8564840547354C379F4CC474 /* Bookmarks */,
+				79F23E6994FC4940AE7A8621 /* Categories */,
+				25AFD6C782844047BEBB8A7A /* Checklist */,
+				2930EB3AEC9645128A7094E2 /* Home */,
+				9793B6CFE0D747B7964CDC10 /* Journey */,
+				53DA470250FA4BE49A3EA393 /* Onboarding */,
+				5F7C28E9946F4F10A1C9DF96 /* Search */,
+				67389307BE1A48219D99D0AD /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FF8BC86D80934BD2BD577837 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1F3F590B226450781631CBC /* DestinationPhotoGallery.swift */,
+				4879F2C9BF314B7EB596BADC /* MarkdownDocumentView.swift */,
+				77991483C5AE4FA2B598D619 /* SharedComponents.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F25B4500F17D42998F0A7203 /* AussieStart */ = {
+		9C382A153E894D6FA4D908F2 /* AussieStart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73320F6CB7C44ECC8922BEA2 /* Build configuration list for PBXNativeTarget "AussieStart" */;
+			buildConfigurationList = E7357E5A617B47F58A16BFD4 /* Build configuration list for PBXNativeTarget "AussieStart" */;
 			buildPhases = (
-				544C74CC7C4E4BA9B9E0366C /* Sources */,
-				241F4E4D811E4513A105446F /* Frameworks */,
-				73EE1FAFC11C4501A951CD0D /* Resources */,
+				DEAE3B1454E54BA7AF05F08D /* Sources */,
+				3E21FA78000A48CCA15A8CF0 /* Frameworks */,
+				EF39A66B246847D4957F531C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -461,25 +620,25 @@
 			);
 			name = AussieStart;
 			productName = AussieStart;
-			productReference = A6129C625D2E4C778A92ED82 /* AussieStart.app */;
+			productReference = C9F112B0801C49FD8B71F46D /* AussieStart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF17F5C0DA7F4F8EA6C34A79 /* Project object */ = {
+		3AC60656154C487FB2D8470A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					F25B4500F17D42998F0A7203 = {
+					9C382A153E894D6FA4D908F2 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 749F194E445046FAB380E50D /* Build configuration list for PBXProject "AussieStart" */;
+			buildConfigurationList = 8EDF881D6B0E493DA3DC8347 /* Build configuration list for PBXProject "AussieStart" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -489,95 +648,166 @@
 				hi,
 				pa,
 			);
-			mainGroup = 2369E02E56D64C4FA14582D3;
-			productRefGroup = 75552E4DEBA84F7C940A5D7E /* Products */;
+			mainGroup = 99D316FC1046420DBD9F9253;
+			productRefGroup = 6C99563AE82E4DCC858CB59D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F25B4500F17D42998F0A7203 /* AussieStart */,
+				9C382A153E894D6FA4D908F2 /* AussieStart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		73EE1FAFC11C4501A951CD0D /* Resources */ = {
+		EF39A66B246847D4957F531C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8168C12BCEB14F88BBC8CAEA /* Assets.xcassets in Resources */,
-				C96C5EE8299142F8ADE32D9A /* PrivacyInfo.xcprivacy in Resources */,
-				990028E486194E68BC8605D6 /* catalog.json in Resources */,
-				794843B538EB4F1F8C6630DA /* arrival-airport.md in Resources */,
-				F68C38029EB04EA593F701F7 /* banking-open-account.md in Resources */,
-				6246DD14CC5740279C05DB4D /* driving-licence.md in Resources */,
-				C753A5B022CE407E8A431AD4 /* emergency-contacts.md in Resources */,
-				0FBD21A202C743A9922B9810 /* explore-barossa-adelaide.md in Resources */,
-				9361A17A567947A3868C0C3A /* explore-blue-mountains.md in Resources */,
-				14AB8A9461764807BAAE0520 /* explore-gold-coast.md in Resources */,
-				FCCB9CD0A8EB4A6D808E0A6E /* explore-great-barrier-reef.md in Resources */,
-				E1B5CC7D2B854314A74A4CC1 /* explore-great-ocean-road.md in Resources */,
-				2BB493E3162546A7BB5F3B33 /* explore-phillip-island.md in Resources */,
-				4655CECD01D840D4B26A3BF2 /* explore-rottnest.md in Resources */,
-				24403E9FBD254AF8AEF9F2E5 /* explore-sydney-harbour.md in Resources */,
-				EF90245FDE144FCD9E2C188B /* explore-tasmania-hobart.md in Resources */,
-				6F322C147D114345A7DCAE04 /* explore-uluru.md in Resources */,
-				CCF8086373CA41C0B40536D7 /* family-centrelink.md in Resources */,
-				9076314C9A844B839A261B2A /* family-childcare.md in Resources */,
-				C67CAF817C694DD382D249B4 /* family-immunisation.md in Resources */,
-				B45AAEAEEA344C83BCF7EACF /* family-schools.md in Resources */,
-				155FDD90EF754BFCB038F76A /* housing-rent.md in Resources */,
-				9FE648A92D1B4036AFD3E600 /* jobs-basics.md in Resources */,
-				7A4EC546D9D2426689B0E2EB /* medicare-gp.md in Resources */,
-				8BE283082AEB411EAC8A9D70 /* shopping-essentials.md in Resources */,
-				9A0E5D8DA8C941BCAE953B67 /* sim-setup.md in Resources */,
-				D0E8CD7702B54B70A897DD79 /* students-oshc.md in Resources */,
-				0D1C6D15590D4387A3F375DB /* tfn-apply.md in Resources */,
-				F28C3D9C72184AC39B2D3AEB /* transport-card.md in Resources */,
-				59E7B14F9DF8491B83B555F6 /* Localizable.strings in Resources */,
-				5E62462EB03D45EAB178F911 /* Localizable.strings in Resources */,
-				8DED0CA161EF4376A6C6ED30 /* Localizable.strings in Resources */,
+				52444DF9D55F4F0B86B7BA58 /* Assets.xcassets in Resources */,
+				C9363B5997F941C986B374BC /* PrivacyInfo.xcprivacy in Resources */,
+				DE7CA67029B4437CA9B14F8A /* catalog.json in Resources */,
+				D7F4D91D218940BC8D4DB982 /* arrival-airport.hi.md in Resources */,
+				7D314EFBC56C401DBB12FA59 /* arrival-airport.md in Resources */,
+				7CA9E9D3461A41DE82FA496D /* arrival-airport.pa.md in Resources */,
+				B905C5C636EE400AA6B8179C /* banking-open-account.hi.md in Resources */,
+				7844BFFE4CAB40D793A62A42 /* banking-open-account.md in Resources */,
+				3ED134EB1ED34DC0AF24F735 /* banking-open-account.pa.md in Resources */,
+				6D79F09CC375401894F49B34 /* driving-licence.hi.md in Resources */,
+				2BB5AD367FD84E7BA5C5AC99 /* driving-licence.md in Resources */,
+				E6DBC3CFEA0C4642B3EDB57D /* driving-licence.pa.md in Resources */,
+				84448AAC3E2D4D18A4DEA192 /* emergency-contacts.hi.md in Resources */,
+				E411986A56094EE7967DC240 /* emergency-contacts.md in Resources */,
+				A8DFF2CA910143E3AE1DBDEA /* emergency-contacts.pa.md in Resources */,
+				6900B622D88546E4A6DFDC21 /* explore-barossa-adelaide.hi.md in Resources */,
+				E3E941476B71426FBAD40B65 /* explore-barossa-adelaide.md in Resources */,
+				ABD0C2E8289944ABAD1FD6F4 /* explore-barossa-adelaide.pa.md in Resources */,
+				0F3684FE83FC41F487EF8EB2 /* explore-blue-mountains.hi.md in Resources */,
+				52F93F071572499FA83F00DA /* explore-blue-mountains.md in Resources */,
+				D1814A9760CA4D1688D1C765 /* explore-blue-mountains.pa.md in Resources */,
+				E25C16BFCD4F435CB2A2ED9A /* explore-gold-coast.hi.md in Resources */,
+				07225483EF984FFDAD244CD5 /* explore-gold-coast.md in Resources */,
+				E05118A94D6E42778EE334E7 /* explore-gold-coast.pa.md in Resources */,
+				367EBB706E594CE28CC6E009 /* explore-great-barrier-reef.hi.md in Resources */,
+				9F02A276937C4C0A99233EAB /* explore-great-barrier-reef.md in Resources */,
+				EC7A669BD6A14A6B86B936FE /* explore-great-barrier-reef.pa.md in Resources */,
+				EC7840D512854F93B62B448B /* explore-great-ocean-road.hi.md in Resources */,
+				3049B02AEC02420AABF0E057 /* explore-great-ocean-road.md in Resources */,
+				865B2B18D3654C7791E64B98 /* explore-great-ocean-road.pa.md in Resources */,
+				7BD86DAC58ED4AA285C8E7B0 /* explore-phillip-island.hi.md in Resources */,
+				8E2B6ADF6FD146DAB63FC85E /* explore-phillip-island.md in Resources */,
+				A9421E2D49F14B76A7C45E99 /* explore-phillip-island.pa.md in Resources */,
+				49FB5EF251A84AC5A6D3011B /* explore-rottnest.hi.md in Resources */,
+				FAB243E2688F47CBAEFD5760 /* explore-rottnest.md in Resources */,
+				62A1E6DCD02D4CDAAAF9FEB9 /* explore-rottnest.pa.md in Resources */,
+				9FF9F259F77E4B9294914B54 /* explore-sydney-harbour.hi.md in Resources */,
+				708E79E437B24DE1AD36499A /* explore-sydney-harbour.md in Resources */,
+				0BB842644D1D4037BC37AF75 /* explore-sydney-harbour.pa.md in Resources */,
+				71E3DAF9371A43EF88448D88 /* explore-tasmania-hobart.hi.md in Resources */,
+				4316D74F81D74DBCA5376092 /* explore-tasmania-hobart.md in Resources */,
+				C245D6F91E0742E1AD733823 /* explore-tasmania-hobart.pa.md in Resources */,
+				BBC6C10EF4344E198805A9D2 /* explore-uluru.hi.md in Resources */,
+				64D5CF2CA9414A74BE1B0197 /* explore-uluru.md in Resources */,
+				D488840F7A9F4E9990303030 /* explore-uluru.pa.md in Resources */,
+				C9062258AFE14DE89C59FF26 /* family-centrelink.hi.md in Resources */,
+				0BBD5C4F833848F1A20031DE /* family-centrelink.md in Resources */,
+				E015C2EBEED34977A24BB89A /* family-centrelink.pa.md in Resources */,
+				C1E520DB528741F48CF5724A /* family-childcare.hi.md in Resources */,
+				A80C84BEC1FC4E759769A64F /* family-childcare.md in Resources */,
+				3D31737284524A1D8B64C513 /* family-childcare.pa.md in Resources */,
+				1887E927E49D4958930E9B5B /* family-immunisation.hi.md in Resources */,
+				F67D8B664FF14CD29D768DFB /* family-immunisation.md in Resources */,
+				2FB0507414E14CDC95314F8A /* family-immunisation.pa.md in Resources */,
+				6F7575987718438BAA29EC5C /* family-schools.hi.md in Resources */,
+				33B1A33398A7475084A0EA93 /* family-schools.md in Resources */,
+				84703D80C3AA4B3FAB081120 /* family-schools.pa.md in Resources */,
+				3DCC3CE4A2B54D94A3FD2A7D /* housing-rent.hi.md in Resources */,
+				E01277F840F64CC0BDA2D734 /* housing-rent.md in Resources */,
+				AD53F31D3AAB4C53AEC581E2 /* housing-rent.pa.md in Resources */,
+				350AB9BDCFDF4E1FB3E8DEA7 /* jobs-basics.hi.md in Resources */,
+				2B1E5A12FB1843D8B5748EBE /* jobs-basics.md in Resources */,
+				AE04F6B1734C48B5B234C0C3 /* jobs-basics.pa.md in Resources */,
+				50B7DE6E80E74122AC98B6B6 /* medicare-gp.hi.md in Resources */,
+				BE6493222B3B4BE980D1D62D /* medicare-gp.md in Resources */,
+				CC5D7A8FAA134489A2B2762A /* medicare-gp.pa.md in Resources */,
+				7488BB8F3A8747C7A81F97BE /* shopping-essentials.hi.md in Resources */,
+				08DF0CA42C8141B0AF550B5E /* shopping-essentials.md in Resources */,
+				6B33FB377E244E07BA3F3A8F /* shopping-essentials.pa.md in Resources */,
+				6CB04749554D48959125FD5B /* sim-setup.hi.md in Resources */,
+				3B573D7E203E4EE4B1CBBF8D /* sim-setup.md in Resources */,
+				5985E5A7EB564F3CA48EC670 /* sim-setup.pa.md in Resources */,
+				3A25ABC4C25D4BEBA9B66D0D /* students-oshc.hi.md in Resources */,
+				19DBF9E363554772ACF5C2CF /* students-oshc.md in Resources */,
+				53A30E5297AD47C0AF2FAA9F /* students-oshc.pa.md in Resources */,
+				3C5EA842EA844C949B9AE358 /* tfn-apply.hi.md in Resources */,
+				D3B56A4FCC414462B6BDD86C /* tfn-apply.md in Resources */,
+				2E63E3D0FCEC44D7966D43FF /* tfn-apply.pa.md in Resources */,
+				0AB17517985C4B21BBA60B2A /* transport-card.hi.md in Resources */,
+				4D6129C113D944DFB93BE0FF /* transport-card.md in Resources */,
+				845089DCA21948A8B1FECDA2 /* transport-card.pa.md in Resources */,
+				E7BD7D7CD0884A47A5724994 /* Localizable.strings in Resources */,
+				14CAEA9BF536407282E82B28 /* Localizable.strings in Resources */,
+				9B577E50D2024190924D4ADA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		544C74CC7C4E4BA9B9E0366C /* Sources */ = {
+		DEAE3B1454E54BA7AF05F08D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1EAB8E7E7B4AD6B7334A1F /* AppTheme.swift in Sources */,
-				67E9A87FE66C421B8BE7A1CC /* AussieStartApp.swift in Sources */,
-				64AD8946875E4EB8A8C891D0 /* RootView.swift in Sources */,
-				1F0646462E5C432F9560C29D /* DestinationPhotoGallery.swift in Sources */,
-				6F0B993B6731452E8E549AF5 /* MarkdownDocumentView.swift in Sources */,
-				4956B7EB6FF040A4BEBE8466 /* SharedComponents.swift in Sources */,
-				14045E5DCB2845019A10E5A9 /* Foundation+AussieStart.swift in Sources */,
-				7DD5FD845963466C86307903 /* AboutView.swift in Sources */,
-				876E612D1FEA4C719B990713 /* ArticleDetailView.swift in Sources */,
-				F10D4883E4AD4EB59FA1CF1E /* BookmarksView.swift in Sources */,
-				5639325EBBDB42D8A4C908BA /* CategoriesView.swift in Sources */,
-				D491CC3131EE47F680934E33 /* ChecklistView.swift in Sources */,
-				8FCEF123071746848C04FA94 /* HomeView.swift in Sources */,
-				F2817653939E4D299A10CC00 /* JourneyView.swift in Sources */,
-				0137323D11BA447BA1A84E9E /* OnboardingFlowView.swift in Sources */,
-				1F3CE2B16B22481EB70929B5 /* SearchView.swift in Sources */,
-				769E478DF56A40AC901392D4 /* SettingsView.swift in Sources */,
-				56BFDF4189AD44DC8AC1D740 /* AppEnums.swift in Sources */,
-				AB7568B2C0A04023BE20EE66 /* ContentModels.swift in Sources */,
-				53E0933E3E7042708FA95CBF /* SwiftDataModels.swift in Sources */,
-				2D86F9C7BA3147E3A762A6A0 /* Repositories.swift in Sources */,
-				224E4EC74C1E48DF9EA50781 /* ContentLoader.swift in Sources */,
-				BC9C14FA1F4C454680C83B6C /* LocalSearchEngine.swift in Sources */,
-				AF8CF2F8867D405190C46873 /* UserPreferences.swift in Sources */,
-				215E4CC110A546C99E4C4FE9 /* AppCopy.swift in Sources */,
+				70F4710CEEB24C31BDB6554E /* AppTheme.swift in Sources */,
+				63694DCBABB540849A42768B /* AussieStartApp.swift in Sources */,
+				BE9EBC4B5E754F9E820883A8 /* RootView.swift in Sources */,
+				B4FD8C5240234F7391408ED0 /* DestinationPhotoGallery.swift in Sources */,
+				241ED0852F9C44FD834CC684 /* MarkdownDocumentView.swift in Sources */,
+				7780D3F9DCA548F89402395A /* SharedComponents.swift in Sources */,
+				08E2DAC21B33404CA59BFADE /* Foundation+AussieStart.swift in Sources */,
+				E5C50D38F6F84848A21240D7 /* AboutView.swift in Sources */,
+				A4BD22021D1649C9B9983890 /* ArticleDetailView.swift in Sources */,
+				FAACB1612FF9419CABF2D013 /* BookmarksView.swift in Sources */,
+				802ABA3A439A498195E70493 /* CategoriesView.swift in Sources */,
+				A3CB0B32F7A747C5B83BF536 /* ChecklistView.swift in Sources */,
+				37FBF96DFCDB4FEB8C841AFD /* HomeView.swift in Sources */,
+				20620347E64641AAA68D4489 /* JourneyView.swift in Sources */,
+				B01C2E658DA64B318517C122 /* OnboardingFlowView.swift in Sources */,
+				29F5A56F7AE34B32802E9533 /* SearchView.swift in Sources */,
+				AF00275CFA8A484F8BE909A7 /* SettingsView.swift in Sources */,
+				44493F4DBF824B38B351C2DC /* AppEnums.swift in Sources */,
+				A13AF887ECE34F52B62ABB4C /* ContentModels.swift in Sources */,
+				C1EA35181003425BA02E8D88 /* SwiftDataModels.swift in Sources */,
+				A09A37BB6E72437A80AD1BE3 /* Repositories.swift in Sources */,
+				AD4FB023B89B4CD0BE9BB9CE /* ContentLoader.swift in Sources */,
+				701DE20CD3794891B3AB9BD2 /* LocalSearchEngine.swift in Sources */,
+				4765B7B780A0446490F2126B /* UserPreferences.swift in Sources */,
+				F7F056ABF9514A88AFC410DF /* AppCopy.swift in Sources */,
+				F7A059ECC0E648A28B4CD6ED /* L10n.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0E7E12951AEF417D82726209 /* Release */ = {
+		242865BD9CE94619BC0253EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A28255E5014E9A98461E9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -609,7 +839,7 @@
 			};
 			name = Release;
 		};
-		6C77F2FC87344F91B778659E /* Debug */ = {
+		F3F0FAF25AFE4337B6AC23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -641,25 +871,7 @@
 			};
 			name = Debug;
 		};
-		91AF4E7479A847A196BDA292 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DC3698CE369C4C4E8E3013D8 /* Debug */ = {
+		F900D745A17047A2A64164FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -682,25 +894,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73320F6CB7C44ECC8922BEA2 /* Build configuration list for PBXNativeTarget "AussieStart" */ = {
+		8EDF881D6B0E493DA3DC8347 /* Build configuration list for PBXProject "AussieStart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C77F2FC87344F91B778659E /* Debug */,
-				0E7E12951AEF417D82726209 /* Release */,
+				F900D745A17047A2A64164FD /* Debug */,
+				242865BD9CE94619BC0253EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		749F194E445046FAB380E50D /* Build configuration list for PBXProject "AussieStart" */ = {
+		E7357E5A617B47F58A16BFD4 /* Build configuration list for PBXNativeTarget "AussieStart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC3698CE369C4C4E8E3013D8 /* Debug */,
-				91AF4E7479A847A196BDA292 /* Release */,
+				F3F0FAF25AFE4337B6AC23D7 /* Debug */,
+				51A28255E5014E9A98461E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF17F5C0DA7F4F8EA6C34A79 /* Project object */;
+	rootObject = 3AC60656154C487FB2D8470A /* Project object */;
 }

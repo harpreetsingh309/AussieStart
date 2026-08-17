@@ -18,6 +18,12 @@ enum AustralianState: String, CaseIterable, Identifiable, Codable, Hashable {
         }
     }
 
+    var localizationKey: String { "state.\(rawValue)" }
+
+    func localizedName(for language: AppLanguage) -> String {
+        L10n.tr(localizationKey, language: language, fallback: displayName)
+    }
+
     var shortName: String {
         switch self {
         case .vic: "VIC"
@@ -78,6 +84,8 @@ enum AppLanguage: String, CaseIterable, Identifiable, Codable {
     var isMVPReady: Bool {
         self == .english || self == .hindi || self == .punjabi
     }
+
+    var locale: Locale { Locale(identifier: rawValue) }
 }
 
 enum UserPersona: String, CaseIterable, Identifiable, Codable {
@@ -94,6 +102,12 @@ enum UserPersona: String, CaseIterable, Identifiable, Codable {
         case .pr: "Permanent resident"
         case .citizen: "Citizen"
         }
+    }
+
+    var localizationKey: String { "persona.\(rawValue)" }
+
+    func localizedName(for language: AppLanguage) -> String {
+        L10n.tr(localizationKey, language: language)
     }
 
     var symbolName: String {
@@ -131,6 +145,12 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .emergency: "Emergency"
         case .students: "Students"
         }
+    }
+
+    var localizationKey: String { "category.\(rawValue)" }
+
+    func localizedName(for language: AppLanguage) -> String {
+        L10n.tr(localizationKey, language: language)
     }
 
     var symbolName: String {
@@ -184,4 +204,12 @@ enum AppearanceMode: String, CaseIterable, Identifiable {
         case .dark: "Dark"
         }
     }
+
+    var localizationKey: String { "settings.theme.\(rawValue)" }
+
+    func localizedName(for language: AppLanguage) -> String {
+        L10n.tr(localizationKey, language: language)
+    }
+
+    var hintKey: String { "settings.theme.hint.\(rawValue)" }
 }

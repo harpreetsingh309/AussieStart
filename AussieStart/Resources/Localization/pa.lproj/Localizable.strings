@@ -1,9 +1,310 @@
-/* Localizable */
+/* App */
 "app.name" = "AussieStart";
 "app.tagline" = "ਤੁਹਾਡੀ ਆਸਟ੍ਰੇਲੀਆ ਸਟਾਰਟਰ ਗਾਈਡ";
+
+/* Tabs */
 "tab.home" = "ਘਰ";
 "tab.search" = "ਖੋਜ";
 "tab.topics" = "ਵਿਸ਼ੇ";
 "tab.saved" = "ਸੇਵਡ";
 "tab.settings" = "ਸੈਟਿੰਗਾਂ";
-"disclaimer.short" = "ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਲਈ — ਇਹ ਕਾਨੂੰਨੀ, ਮਾਈਗ੍ਰੇਸ਼ਨ, ਵਿੱਤੀ ਜਾਂ ਮੈਡੀਕਲ ਸਲਾਹ ਨਹੀਂ ਹੈ।";
+
+/* Common */
+"common.continue" = "ਜਾਰੀ ਰੱਖੋ";
+"common.back" = "ਪਿੱਛੇ";
+"common.close" = "ਬੰਦ ਕਰੋ";
+"common.see_all" = "ਸਾਰੇ ਵੇਖੋ";
+"common.guides_count" = "%d ਗਾਈਡਾਂ";
+"common.coming_soon" = "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ";
+"common.min_read" = "%d ਮਿੰਟ ਪੜ੍ਹੋ";
+"common.min_category" = "%d ਮਿੰਟ · %@";
+"common.offline_for_state" = "ਆਫ਼ਲਾਈਨ · %@ ਲਈ ਅੱਪਡੇਟ";
+"common.available_now" = "ਹੁਣ ਉਪਲਬਧ";
+"common.coming_soon_lang" = "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ";
+
+/* Disclaimer */
+"disclaimer.full" = "ਸਿਰਫ਼ ਜਾਣਕਾਰੀ ਲਈ — ਇਹ ਕਾਨੂੰਨੀ, ਮਾਈਗ੍ਰੇਸ਼ਨ, ਵਿੱਤੀ ਜਾਂ ਮੈਡੀਕਲ ਸਲਾਹ ਨਹੀਂ ਹੈ। ਹਮੇਸ਼ਾ ਅਧਿਕਾਰਤ ਆਸਟ੍ਰੇਲੀਅਨ ਸਰਕਾਰੀ ਸਰੋਤਾਂ ਨਾਲ ਜਾਂਚ ਕਰੋ।";
+
+/* Greetings */
+"greeting.morning" = "ਸ਼ੁਭ ਸਵੇਰ";
+"greeting.afternoon" = "ਨਮਸਕਾਰ";
+"greeting.evening" = "ਸ਼ੁਭ ਸ਼ਾਮ";
+
+/* Home */
+"home.settling_in" = "%@ ਵਿੱਚ ਵਸਣਾ";
+"home.todays_tip" = "ਅੱਜ ਦੀ ਸਲਾਹ";
+"home.read_guide" = "ਗਾਈਡ ਪੜ੍ਹੋ";
+"home.quick_topics" = "ਤੇਜ਼ ਵਿਸ਼ੇ";
+"home.popular_destinations" = "ਮਸ਼ਹੂਰ ਥਾਵਾਂ";
+"home.popular_destinations_subtitle" = "ਫੀਸ, ਛੋਟਾ itinerary ਅਤੇ ਵਿਚਲੇ ਸਟਾਪ";
+"home.first_30_days" = "ਪਹਿਲੇ 30 ਦਿਨ";
+"home.milestones_completed" = "%d/%d ਮਾਈਲਸਟੋਨ ਪੂਰੇ";
+"home.continue_roadmap" = "ਆਪਣਾ ਰੋਡਮੈਪ ਜਾਰੀ ਰੱਖਣ ਲਈ ਟੈਪ ਕਰੋ";
+"home.continue_reading" = "ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖੋ";
+"home.most_popular" = "ਸਭ ਤੋਂ ਮਸ਼ਹੂਰ";
+"home.most_popular_subtitle" = "%@ ਲਈ ਇਨ੍ਹਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ";
+"home.emergency_contacts" = "ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ";
+"home.emergency_subtitle" = "000 · ਜ਼ਹਿਰ · SES · healthdirect";
+
+/* Search */
+"search.title" = "ਖੋਜ";
+"search.prompt" = "ਗਾਈਡ ਖੋਜੋ";
+"search.recent" = "ਹਾਲੀਆ ਖੋਜਾਂ";
+"search.trending" = "ਟ੍ਰੈਂਡਿੰਗ";
+"search.results" = "ਨਤੀਜੇ";
+"search.hint" = "“GP”, “TFN” ਜਾਂ “Myki” ਅਜ਼ਮਾਓ";
+"search.empty" = "ਕੋਈ ਮੇਲ ਨਹੀਂ। GP ਲਈ “doctor” ਵਰਗਾ ਸ਼ਬਦ ਅਜ਼ਮਾਓ।";
+
+/* Topics */
+"topics.title" = "ਵਿਸ਼ੇ";
+"topics.browse" = "ਵਿਸ਼ੇ ਮੁਤਾਬਕ ਵੇਖੋ";
+"topics.tailored" = "%@ ਲਈ ਵਿਹਾਰਕ ਗਾਈਡਾਂ";
+"topics.guides" = "ਗਾਈਡਾਂ";
+
+/* Saved */
+"saved.title" = "ਸੇਵਡ";
+"saved.articles" = "ਸੇਵਡ ਲੇਖ";
+"saved.empty" = "ਬਾਅਦ ਵਿੱਚ ਆਫ਼ਲਾਈਨ ਪੜ੍ਹਨ ਲਈ ਗਾਈਡ ਬੁੱਕਮਾਰਕ ਕਰੋ।";
+"saved.history" = "ਇਤਿਹਾਸ";
+"saved.history_empty" = "ਤੁਹਾਡੇ ਖੋਲ੍ਹੇ ਲੇਖ ਇੱਥੇ ਦਿਖਣਗੇ।";
+"saved.checklists" = "ਚੈੱਕਲਿਸਟ";
+"saved.journey" = "ਪਹਿਲੇ 30 ਦਿਨ";
+
+/* Settings */
+"settings.title" = "ਸੈਟਿੰਗਾਂ";
+"settings.personalisation" = "ਨਿੱਜੀ ਸੈਟਿੰਗ";
+"settings.language" = "ਭਾਸ਼ਾ";
+"settings.state" = "ਰਾਜ / ਖੇਤਰ";
+"settings.persona" = "ਮੈਂ ਹਾਂ";
+"settings.appearance" = "ਦਿੱਖ";
+"settings.theme" = "ਥੀਮ";
+"settings.theme.system" = "ਸਿਸਟਮ";
+"settings.theme.light" = "ਲਾਈਟ";
+"settings.theme.dark" = "ਡਾਰਕ";
+"settings.theme.hint.system" = "ਤੁਹਾਡੇ iPhone ਦੀ ਲਾਈਟ/ਡਾਰਕ ਸੈਟਿੰਗ ਨਾਲ ਮੇਲ ਖਾਂਦੀ ਹੈ।";
+"settings.theme.hint.light" = "ਹਮੇਸ਼ਾ ਲਾਈਟ ਬੈਕਗ੍ਰਾਊਂਡ।";
+"settings.theme.hint.dark" = "ਹਮੇਸ਼ਾ ਡਾਰਕ ਬੈਕਗ੍ਰਾਊਂਡ।";
+"settings.offline" = "ਆਫ਼ਲਾਈਨ";
+"settings.content_pack" = "ਕੰਟੈਂਟ ਪੈਕ";
+"settings.last_reviewed" = "ਆਖਰੀ ਸਮੀਖਿਆ";
+"settings.offline_blurb" = "ਸਾਰੀਆਂ ਗਾਈਡਾਂ, ਟਿੱਪਸ ਅਤੇ ਚੈੱਕਲਿਸਟ ਐਪ ਵਿੱਚ ਹੀ ਹਨ। ਕੋਈ ਅਕਾਊਂਟ ਜਾਂ ਇੰਟਰਨੈੱਟ ਲੋੜੀਂਦਾ ਨਹੀਂ।";
+"settings.privacy" = "ਪਰਾਈਵੇਸੀ";
+"settings.analytics" = "ਗੁਮਨਾਮ ਵਰਤੋਂ ਸਾਂਝੀ ਕਰੋ (ਡਿਫਾਲਟ ਬੰਦ)";
+"settings.privacy_blurb" = "AussieStart ਬੁੱਕਮਾਰਕ ਅਤੇ ਪ੍ਰੋਗਰੈਸ ਸਿਰਫ਼ ਇਸ ਡਿਵਾਈਸ ’ਤੇ ਰੱਖਦਾ ਹੈ। ਕੋਈ ਲੌਗਇਨ ਨਹੀਂ। ਕੋਈ ਕਲਾਊਡ ਸਿੰਕ ਨਹੀਂ।";
+"settings.about" = "ਬਾਰੇ";
+"settings.about_app" = "AussieStart ਬਾਰੇ";
+"settings.replay_onboarding" = "ਔਨਬੋਰਡਿੰਗ ਮੁੜ ਚਲਾਓ";
+"settings.language_note" = "ਮੀਨੂ ਅਤੇ ਗਾਈਡ ਦਾ ਵੇਰਵਾ ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਵਿੱਚ ਬਦਲ ਜਾਂਦਾ ਹੈ। TFN, Myki ਅਤੇ Medicare ਵਰਗੇ ਅਧਿਕਾਰਤ ਨਾਂ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਰਹਿੰਦੇ ਹਨ।";
+
+/* Onboarding */
+"onboarding.welcome_title" = "AussieStart ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ";
+"onboarding.welcome_body" = "ਨਵੇਂ ਪਰਵਾਸੀਆਂ ਲਈ ਭਰੋਸੇਯੋਗ, ਆਫ਼ਲਾਈਨ ਗਾਈਡਾਂ — ਸਧਾਰਨ ਭਾਸ਼ਾ ਵਿੱਚ, ਤੁਹਾਡੇ ਰਾਜ ਅਨੁਸਾਰ।";
+"onboarding.choose_language" = "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ";
+"onboarding.choose_language_subtitle" = "MVP ਵਿੱਚ ਅੰਗਰੇਜ਼ੀ, ਹਿੰਦੀ ਅਤੇ ਪੰਜਾਬੀ ਸ਼ਾਮਲ ਹਨ। ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਅਨੁਵਾਦ ਨਾਲ ਖੁਲਣਗੀਆਂ।";
+"onboarding.choose_state" = "ਤੁਸੀਂ ਕਿੱਥੇ ਰਹੋਗੇ?";
+"onboarding.choose_state_subtitle" = "ਗਾਈਡਾਂ ਟਰਾਂਸਪੋਰਟ ਕਾਰਡ, ਲਾਇਸੰਸ ਅਤੇ ਲੋਕਲ ਸੇਵਾਵਾਂ ਅਨੁਸਾਰ ਬਦਲਦੀਆਂ ਹਨ।";
+"onboarding.transport_label" = "ਆਵਾਜਾਈ: %@";
+"onboarding.choose_persona" = "ਤੁਸੀਂ ਆਪਣੇ ਆਪ ਨੂੰ ਕਿਵੇਂ ਦੱਸੋਗੇ?";
+"onboarding.choose_persona_subtitle" = "ਅਸੀਂ ਤੁਹਾਡੇ ਪਹਿਲੇ 30 ਦਿਨਾਂ ਦੇ ਰੋਡਮੈਪ ਨੂੰ ਤਰਜੀਹ ਦੇਵਾਂਗੇ।";
+"onboarding.roadmap_title" = "ਤੁਹਾਡਾ ਨਿੱਜੀ ਰੋਡਮੈਪ";
+"onboarding.roadmap_subtitle" = "%@ ਵਜੋਂ %@ ਵਿੱਚ ਜੀਵਨ ਦੇ ਆਧਾਰ ’ਤੇ।";
+"onboarding.start" = "ਖੋਜਣਾ ਸ਼ੁਰੂ ਕਰੋ";
+"onboarding.step" = "ਔਨਬੋਰਡਿੰਗ ਪੜਾਅ %d / 5";
+"onboarding.day1" = "ਦਿਨ 1";
+"onboarding.day2" = "ਦਿਨ 2";
+"onboarding.day3" = "ਦਿਨ 3";
+"onboarding.day4" = "ਦਿਨ 4";
+"onboarding.week2" = "ਹਫ਼ਤਾ 2+";
+"onboarding.task_sim" = "ਲੋਕਲ SIM ਅਤੇ ਇੰਟਰਨੈੱਟ ਲਵੋ";
+"onboarding.task_bank" = "ਬੈਂਕ ਅਕਾਊਂਟ ਖੋਲ੍ਹੋ";
+"onboarding.task_tfn" = "ਆਪਣਾ TFN ਅਪਲਾਈ ਕਰੋ";
+"onboarding.task_transport" = "%@ ਸੈੱਟ ਕਰੋ";
+"onboarding.task_more" = "ਹਾਊਸਿੰਗ, ਹੈਲਥਕੇਅਰ ਅਤੇ ਹੋਰ";
+
+/* Article / gallery */
+"article.photos" = "ਫੋਟੋਆਂ";
+"article.destination_photos" = "ਡੈਸਟੀਨੇਸ਼ਨ ਫੋਟੋਆਂ";
+"article.remove_bookmark" = "ਬੁੱਕਮਾਰਕ ਹਟਾਓ";
+"article.save_bookmark" = "ਬੁੱਕਮਾਰਕ ਸੇਵ ਕਰੋ";
+"article.unavailable_title" = "ਲੇਖ ਉਪਲਬਧ ਨਹੀਂ";
+"article.unavailable_body" = "ਇਹ ਗਾਈਡ ਹਾਲੇ ਆਫ਼ਲਾਈਨ ਪੈਕ ਵਿੱਚ ਨਹੀਂ ਹੈ।";
+"article.recommended" = "ਅਗਲੀ ਸਿਫ਼ਾਰਸ਼";
+"article.recommended_subtitle" = "ਆਪਣਾ settlement ਫਲੋ ਜਾਰੀ ਰੱਖੋ";
+"photo.n" = "ਫੋਟੋ %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "ਪਹਿਲੇ 30 ਦਿਨ";
+"journey.completed" = "%d/%d ਪੂਰੇ";
+"journey.subtitle" = "%@ ਵਿੱਚ ਤੁਹਾਡੇ ਪਹਿਲੇ ਮਹੀਨੇ ਲਈ ਵਿਹਾਰਕ ਰੋਡਮੈਪ।";
+"journey.week" = "ਹਫ਼ਤਾ %d";
+"journey.day" = "ਦਿਨ %d: %@";
+"checklist.title" = "ਚੈੱਕਲਿਸਟ";
+"checklist.done" = "%d/%d ਪੂਰੇ";
+"about.title" = "ਬਾਰੇ";
+"about.blurb" = "ਤੁਹਾਡੀ ਜੇਬ ਵਿੱਚ ਪੂਰੀ ਆਸਟ੍ਰੇਲੀਆ ਸਟਾਰਟਰ ਗਾਈਡ — ਨਵੇਂ ਪਰਵਾਸੀਆਂ ਲਈ ਲੋਕਲ-ਫਰਸਟ।";
+"about.verify" = "ਮਹੱਤਵਪੂਰਨ ਕਦਮ ਹਮੇਸ਼ਾ ਅਧਿਕਾਰਤ ਸਰੋਤਾਂ ਜਿਵੇਂ Services Australia, ATO, ਰਾਜ ਟਰਾਂਸਪੋਰਟ ਏਜੰਸੀਆਂ ਅਤੇ ਆਪਣੀ ਕੌਂਸਲ ਨਾਲ ਜਾਂਚੋ।";
+"about.version" = "ਵਰਜਨ";
+"about.content_reviewed" = "ਕੰਟੈਂਟ ਸਮੀਖਿਆ";
+"about.architecture" = "ਆਰਕੀਟੈਕਚਰ";
+"emergency.title" = "ਐਮਰਜੈਂਸੀ";
+"emergency.life_threatening" = "ਜਾਨਲੇਵਾ";
+
+/* Categories */
+"category.arrival" = "ਆਗਮਨ";
+"category.sim" = "SIM ਕਾਰਡ";
+"category.banking" = "ਬੈਂਕਿੰਗ";
+"category.healthcare" = "ਸਿਹਤ";
+"category.transport" = "ਆਵਾਜਾਈ";
+"category.driving" = "ਡਰਾਈਵਿੰਗ";
+"category.taxes" = "ਟੈਕਸ";
+"category.housing" = "ਹਾਊਸਿੰਗ";
+"category.jobs" = "ਨੌਕਰੀਆਂ";
+"category.shopping" = "ਸ਼ਾਪਿੰਗ";
+"category.family" = "ਪਰਿਵਾਰ";
+"category.explore" = "ਘੁੰਮਣਾ";
+"category.emergency" = "ਐਮਰਜੈਂਸੀ";
+"category.students" = "ਵਿਦਿਆਰਥੀ";
+
+/* Personas */
+"persona.student" = "ਵਿਦਿਆਰਥੀ";
+"persona.worker" = "ਵਰਕਰ / ਸਕਿਲਡ ਮਾਈਗ੍ਰੈਂਟ";
+"persona.family" = "ਫੈਮਿਲੀ ਵੀਜ਼ਾ ਧਾਰਕ";
+"persona.tourist" = "ਟੂਰਿਸਟ / ਵਰਕਿੰਗ ਹਾਲੀਡੇ";
+"persona.pr" = "ਸਥਾਈ ਨਿਵਾਸੀ";
+"persona.citizen" = "ਨਾਗਰਿਕ";
+
+/* Empty states */
+"empty.no_guides_title" = "ਹਾਲੇ ਕੋਈ ਗਾਈਡ ਨਹੀਂ";
+"empty.no_guides_body" = "ਹੋਰ %@ ਗਾਈਡਾਂ ਆਉਣ ਵਾਲੇ ਅੱਪਡੇਟ ਵਿੱਚ ਜੁੜਣਗੀਆਂ।";
+
+/* States */
+"state.vic" = "ਵਿਕਟੋਰੀਆ";
+"state.nsw" = "ਨਿਊ ਸਾਊਥ ਵੇਲਜ਼";
+"state.qld" = "ਕਵੀਨਜ਼ਲੈਂਡ";
+"state.sa" = "ਸਾਊਥ ਆਸਟ੍ਰੇਲੀਆ";
+"state.wa" = "ਵੈਸਟਰਨ ਆਸਟ੍ਰੇਲੀਆ";
+"state.tas" = "ਟੈਜ਼ਮੈਨੀਆ";
+"state.act" = "ਆਸਟ੍ਰੇਲੀਆਈ ਰਾਜਧਾਨੀ ਖੇਤਰ";
+"state.nt" = "ਨਾਰਦਰਨ ਟੈਰੀਟਰੀ";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "ਏਅਰਪੋਰਟ ਆਗਮਨ ਚੈੱਕਲਿਸਟ";
+"article.arrival-airport.subtitle" = "ਇਮੀਗ੍ਰੇਸ਼ਨ, ਬੈਗ, ਬਾਇਓਸਕਿਉਰਿਟੀ ਅਤੇ ਸ਼ਹਿਰ ਪਹੁੰਚਣਾ";
+"article.sim-setup.title" = "ਲੋਕਲ SIM ਜਾਂ eSIM ਲਵੋ";
+"article.sim-setup.subtitle" = "ਬੈਂਕ, ਡਿਲੀਵਰੀ ਅਤੇ ਕੋਡਾਂ ਲਈ ਲੋਕਲ ਨੰਬਰ";
+"article.banking-open-account.title" = "ਬੈਂਕ ਖਾਤਾ ਖੋਲ੍ਹੋ";
+"article.banking-open-account.subtitle" = "BSB, ਡੈਬਿਟ ਕਾਰਡ, PayID ਅਤੇ Osko ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ";
+"article.tfn-apply.title" = "TFN ਲਈ ਅਰਜ਼ੀ ਦਿਓ";
+"article.tfn-apply.subtitle" = "ਬਿਨਾਂ ਤਣਾਅ ਦੇ ਟੈਕਸ ਫਾਈਲ ਨੰਬਰ";
+"article.transport-card.title" = "ਪਬਲਿਕ ਟ੍ਰਾਂਸਪੋਰਟ ਕਾਰਡ";
+"article.transport-card.subtitle" = "Myki, Opal, go card ਅਤੇ ਹੋਰ ਰਾਜ ਕਾਰਡ";
+"article.medicare-gp.title" = "Medicare ਅਤੇ GP ਨਾਲ ਮਿਲਣਾ";
+"article.medicare-gp.subtitle" = "ਬਲਕ ਬਿਲਿੰਗ, ਕੈਮਿਸਟ, ਅਤੇ ਕਦੋਂ 000 ਕਾਲ ਕਰੋ";
+"article.housing-rent.title" = "ਆਪਣਾ ਪਹਿਲਾ ਘਰ ਕਿਰਾਏ 'ਤੇ ਲਵੋ";
+"article.housing-rent.subtitle" = "ਇੰਸਪੈਕਸ਼ਨ, ਬਾਂਡ, ਲੀਜ਼ ਅਤੇ ਧੋਖੇ ਤੋਂ ਬਚਾਅ";
+"article.jobs-basics.title" = "ਆਸਟ੍ਰੇਲੀਆਈ ਤਰੀਕੇ ਨਾਲ ਨੌਕਰੀ ਲੱਭੋ";
+"article.jobs-basics.subtitle" = "ਰਿਜ਼ਿਊਮੇ, Seek, Fair Work ਅਤੇ ਪੇਸਲਿਪ";
+"article.driving-licence.title" = "ਡਰਾਈਵਿੰਗ ਅਤੇ ਲਾਇਸੈਂਸ ਕਨਵਰਜਨ";
+"article.driving-licence.subtitle" = "ਸੜਕ ਨਿਯਮ, CTP, ਟੋਲ ਅਤੇ ਓਵਰਸੀਜ਼ ਲਾਇਸੈਂਸ";
+"article.emergency-contacts.title" = "ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ";
+"article.emergency-contacts.subtitle" = "000, ਜ਼ਹਿਰ, SES ਅਤੇ ਰੋਡਸਾਈਡ ਮਦਦ";
+"article.shopping-essentials.title" = "ਜ਼ਰੂਰੀ ਸਾਮਾਨ ਦੀ ਖਰੀਦਦਾਰੀ";
+"article.shopping-essentials.subtitle" = "ਕਿਰਾਨਾ, ਫਰਨੀਚਰ, ਰਿਟਰਨ ਅਤੇ ਪਲੱਗ";
+"article.students-oshc.title" = "ਅੰਤਰਰਾਸ਼ਟਰੀ ਵਿਦਿਆਰਥੀਆਂ ਲਈ OSHC";
+"article.students-oshc.subtitle" = "ਵੀਜ਼ਾ-ਲੋੜੀਂਦਾ ਹੈਲਥ ਕਵਰ ਸਧਾਰਨ ਭਾਸ਼ਾ ਵਿੱਚ";
+"article.family-schools.title" = "ਬੱਚਿਆਂ ਨੂੰ ਸਕੂਲ ਵਿੱਚ ਦਾਖਲਾ";
+"article.family-schools.subtitle" = "ਕੈਚਮੈਂਟ, ਦਸਤਾਵੇਜ਼ ਅਤੇ ਪਹਿਲੇ ਹਫ਼ਤੇ ਦੀ ਤਿਆਰੀ";
+"article.family-childcare.title" = "ਚਾਈਲਡਕੇਅਰ ਅਤੇ Child Care Subsidy";
+"article.family-childcare.subtitle" = "ਦੇਖਭਾਲ ਲੱਭਣਾ, ਵੇਟਲਿਸਟ ਅਤੇ CCS ਦੀ ਬੁਨਿਆਦ";
+"article.family-immunisation.title" = "ਬੱਚਿਆਂ ਦਾ ਟੀਕਾਕਰਨ ਕੈਚ-ਅੱਪ";
+"article.family-immunisation.subtitle" = "ਸਕੂਲ ਅਤੇ ਚਾਈਲਡਕੇਅਰ ਲਈ AIR ਰਿਕਾਰਡ";
+"article.family-centrelink.title" = "ਪਰਿਵਾਰਾਂ ਲਈ Centrelink ਬੇਸਿਕਸ";
+"article.family-centrelink.subtitle" = "myGov, CRN ਅਤੇ ਯੋਗਤਾ ਦੀ ਜਾਣਕਾਰੀ";
+"article.explore-great-ocean-road.title" = "ਗ੍ਰੇਟ ਓਸ਼ਨ ਰੋਡ";
+"article.explore-great-ocean-road.subtitle" = "ਫੀਸ, 1–2 ਦਿਨ ਦਾ ਪਲਾਨ ਅਤੇ ਮੈਲਬਰਨ ਤੋਂ ਤਟੀ ਸਟਾਪ";
+"article.explore-blue-mountains.title" = "ਬਲੂ ਮਾਊਂਟੇਨਜ਼ ਡੇ ਟ੍ਰਿਪ";
+"article.explore-blue-mountains.subtitle" = "ਟ੍ਰੇਨ ਪਲਾਨ, ਲੁੱਕਆਉਟ ਫੀਸ ਅਤੇ ਸਿਡਨੀ ਤੋਂ ਪਿੰਡ ਸਟਾਪ";
+"article.explore-sydney-harbour.title" = "ਸਿਡਨੀ ਹਾਰਬਰ ਆਈਕਨ";
+"article.explore-sydney-harbour.subtitle" = "ਓਪੇਰਾ ਹਾਊਸ, ਫੈਰੀ, ਮੈਨਲੀ ਅਤੇ ਹਰ ਸਟਾਪ ਦੀ ਲਾਗਤ";
+"article.explore-gold-coast.title" = "ਗੋਲਡ ਕੋਸਟ ਬੀਚ ਅਤੇ ਹਿੰਟਰਲੈਂਡ";
+"article.explore-gold-coast.subtitle" = "ਥੀਮ ਪਾਰਕ, ਬਰਲੀ ਅਤੇ 2-ਦਿਨ ਦੀ ਲਾਗਤ";
+"article.explore-great-barrier-reef.title" = "ਗ੍ਰੇਟ ਬੈਰੀਅਰ ਰੀਫ (ਕੇਰਨਜ਼)";
+"article.explore-great-barrier-reef.subtitle" = "ਕਰੂਜ਼ ਫੀਸ, 2–3 ਦਿਨ ਦੀ ਯੋਜਨਾ ਅਤੇ ਨੇੜਲੇ ਸਟਾਪ";
+"article.explore-uluru.title" = "ਉਲੁਰੂ ਅਤੇ ਕਾਟਾ ਤਜੂਟਾ";
+"article.explore-uluru.subtitle" = "ਪਾਰਕ ਫੀਸ, ਸਨਮਾਨਜਨਕ ਪਲਾਨ ਅਤੇ ਯੁਲਾਰਾ ਟਿਪਸ";
+"article.explore-phillip-island.title" = "ਫਿਲਿਪ ਆਈਲੈਂਡ ਪੈਂਗੁਇਨ";
+"article.explore-phillip-island.subtitle" = "ਪਰੇਡ ਫੀਸ, ਦਿਨ ਦੀ ਯੋਜਨਾ ਅਤੇ ਮੈਲਬਰਨ ਤੋਂ ਸਟਾਪ";
+"article.explore-rottnest.title" = "ਰੌਟਨੈਸਟ ਆਈਲੈਂਡ (ਪਰਥ)";
+"article.explore-rottnest.subtitle" = "ਫੈਰੀ ਕੀਮਤਾਂ, ਬਾਈਕ ਡੇ ਪਲਾਨ ਅਤੇ ਬੇ ਸਟਾਪ";
+"article.explore-tasmania-hobart.title" = "ਹੋਬਾਰਟ ਅਤੇ ਦੱਖਣੀ ਟੈਜ਼ਮੈਨੀਆ";
+"article.explore-tasmania-hobart.subtitle" = "MONA, ਕੁਨਨਯੀ ਅਤੇ 3-ਦਿਨ ਵੀਕਐਂਡ ਲਾਗਤ";
+"article.explore-barossa-adelaide.title" = "ਐਡੀਲੇਡ, ਗਲੇਨਲਗ ਅਤੇ ਬਰੋਸਾ";
+"article.explore-barossa-adelaide.subtitle" = "ਸ਼ਹਿਰ-ਤਟ-ਵਾਈਨ ਵੀਕਐਂਡ ਅਤੇ ਟੇਸਟਿੰਗ ਫੀਸ";
+
+/* Daily tips */
+"tip.tip-sim.title" = "ਅੱਜ ਹੀ ਲੋਕਲ ਨੰਬਰ ਲਵੋ";
+"tip.tip-sim.description" = "ਬੈਂਕ ਅਤੇ ਡਿਲੀਵਰੀ ਅਕਸਰ SMS ਕੋਡ ਮੰਗਦੇ ਹਨ। ਪਹਿਲੇ ਦਿਨ ਪ੍ਰੀਪੇਡ SIM ਲਗਭਗ ਸਭ ਕੁਝ ਖੋਲ੍ਹ ਦਿੰਦੀ ਹੈ।";
+"tip.tip-tfn.title" = "ਆਪਣਾ TFN ਜਲਦੀ ਲਗਾਓ";
+"tip.tip-tfn.description" = "ਦੇਰੀ ਨਾਲ ਪਹਿਲੀਆਂ ਪੇਸਲਿਪਾਂ 'ਤੇ ਵੱਧ ਟੈਕਸ ਕੱਟ ਸਕਦਾ ਹੈ।";
+"tip.tip-000.title" = "ਯਾਦ ਰੱਖੋ: ਐਮਰਜੈਂਸੀ 000 ਹੈ";
+"tip.tip-000.description" = "ਆਸਟ੍ਰੇਲੀਆ ਵਿੱਚ 911 ਨਹੀਂ ਚੱਲਦਾ। 000 ਅਤੇ ਆਪਣਾ ਪਤਾ ਫ਼ੋਨ ਵਿੱਚ ਸੇਵ ਕਰੋ।";
+"tip.tip-bond.title" = "ਸ਼ਿਫਟ ਵੇਲੇ ਸਭ ਕੁਝ ਫ਼ੋਟੋ ਲਵੋ";
+"tip.tip-bond.description" = "ਕੰਡੀਸ਼ਨ ਰਿਪੋਰਟ ਅਤੇ ਫ਼ੋਟੋ ਤੁਹਾਡੇ ਬਾਂਡ ਦੀ ਰਾਖੀ ਕਰਦੇ ਹਨ।";
+"tip.tip-bulk.title" = "ਬਲਕ ਬਿਲਿੰਗ ਬਾਰੇ ਪੁੱਛੋ";
+"tip.tip-bulk.description" = "ਹਰ GP ਮੁਫ਼ਤ ਨਹੀਂ ਹੁੰਦਾ। ਬੁਕਿੰਗ ਵੇਲੇ ਫੀਸ ਪੁੱਛੋ।";
+"tip.tip-explore.title" = "ਇੱਕ ਵੀਕਐਂਡ ਐਸਕੇਪ ਪਲਾਨ ਕਰੋ";
+"tip.tip-explore.description" = "SIM, ਬੈਂਕ ਅਤੇ ਟ੍ਰਾਂਸਪੋਰਟ ਸੈੱਟ ਹੋਣ ਤੋਂ ਬਾਅਦ ਸੌਖੀ ਡੇ ਟ੍ਰਿਪ ਬੁੱਕ ਕਰੋ — ਬਲੂ ਮਾਊਂਟੇਨਜ਼, ਫਿਲਿਪ ਆਈਲੈਂਡ ਜਾਂ ਗਲੇਨਲਗ।";
+
+/* Journey days */
+"journey.d1.title" = "SIM ਅਤੇ ਕਨੈਕਟੀਵਿਟੀ";
+"journey.d1.summary" = "ਲੋਕਲ SIM/eSIM ਖਰੀਦੋ ਅਤੇ ਮੋਬਾਈਲ ਡਾਟਾ ਚਾਲੂ ਕਰੋ।";
+"journey.d2.title" = "ਬੈਂਕ ਖਾਤਾ ਖੋਲ੍ਹੋ";
+"journey.d2.summary" = "ਕੰਮ ਅਤੇ ਕਿਰਾਏ ਲਈ BSB/ਖਾਤਾ ਤਿਆਰ ਰੱਖੋ।";
+"journey.d3.title" = "TFN ਲਈ ਅਰਜ਼ੀ";
+"journey.d3.summary" = "ਲੋਕਲ ਪਤਾ ਅਤੇ ਫ਼ੋਨ ਨਾਲ ਟੈਕਸ ਫਾਈਲ ਨੰਬਰ ਅਰਜ਼ੀ ਸ਼ੁਰੂ ਕਰੋ।";
+"journey.d4.title" = "ਟ੍ਰਾਂਸਪੋਰਟ ਕਾਰਡ";
+"journey.d4.summary" = "ਆਪਣੇ ਰਾਜ ਦਾ ਪਬਲਿਕ ਟ੍ਰਾਂਸਪੋਰਟ ਕਾਰਡ/ਐਪ ਸੈੱਟ ਕਰੋ ਅਤੇ ਟੌਪ ਅੱਪ ਕਰੋ।";
+"journey.d5.title" = "ਐਮਰਜੈਂਸੀ ਤਿਆਰੀ";
+"journey.d5.summary" = "000 ਅਤੇ ਮੁੱਖ ਸੰਪਰਕ ਸੇਵ ਕਰੋ; ਆਪਣਾ ਸਹੀ ਪਤਾ ਜਾਣੋ।";
+"journey.d8.title" = "ਹਾਊਸਿੰਗ ਖੋਜ";
+"journey.d8.summary" = "ਸਬਰਬ ਸ਼ਾਰਟਲਿਸਟ ਕਰੋ, ਇੰਸਪੈਕਸ਼ਨ ਬੁੱਕ ਕਰੋ, ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਕਰੋ।";
+"journey.d10.title" = "ਜ਼ਰੂਰੀ ਖਰੀਦਦਾਰੀ";
+"journey.d10.summary" = "ਪਹਿਲੇ ਹਫ਼ਤਿਆਂ ਲਈ ਸਿਰਫ਼ ਜ਼ਰੂਰੀ ਸਾਮਾਨ ਲਵੋ।";
+"journey.d15.title" = "ਹੈਲਥਕੇਅਰ ਸੈੱਟਅੱਪ";
+"journey.d15.summary" = "Medicare/OSHC ਚੈੱਕ ਕਰੋ ਅਤੇ ਨੇੜਲਾ GP ਲੱਭੋ।";
+"journey.d18.title" = "ਨੌਕਰੀ ਲਈ ਤਿਆਰ";
+"journey.d18.summary" = "ਆਸਟ੍ਰੇਲੀਆਈ ਰਿਜ਼ਿਊਮੇ + Seek/LinkedIn ਅਲਰਟ।";
+"journey.d25.title" = "ਡਰਾਈਵਿੰਗ ਜਾਂਚ";
+"journey.d25.summary" = "ਕਾਰ ਖਰੀਦਣ/ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਲਾਇਸੈਂਸ ਨਿਯਮ ਕਨਫਰਮ ਕਰੋ।";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "ਪਹਿਲੇ ਹਫ਼ਤੇ ਦੀਆਂ ਲੋੜਾਂ";
+"checklist.checklist-first-week.subtitle" = "ਲੈਂਡਿੰਗ ਤੋਂ ਬਾਅਦ ਜ਼ਰੂਰੀ ਸੂਚੀ";
+"task.task-sim.title" = "ਲੋਕਲ SIM/eSIM ਖਰੀਦੋ ਅਤੇ ਐਕਟੀਵੇਟ ਕਰੋ";
+"task.task-bank.title" = "ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਬੈਂਕ ਖਾਤਾ ਖੋਲ੍ਹੋ";
+"task.task-tfn.title" = "TFN ਅਰਜ਼ੀ ਜਮ੍ਹਾਂ ਕਰੋ";
+"task.task-transport.title" = "ਪਬਲਿਕ ਟ੍ਰਾਂਸਪੋਰਟ ਕਾਰਡ ਸੈੱਟ ਕਰੋ";
+"task.task-emergency.title" = "ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਸੇਵ ਕਰੋ";
+"checklist.checklist-home.title" = "ਘਰ ਦਾ ਸੈੱਟਅੱਪ";
+"checklist.checklist-home.subtitle" = "ਕਿਰਾਇਆ ਅਤੇ ਥਾਂ ਵਸਾਉਣਾ";
+"task.task-rent-docs.title" = "ਕਿਰਾਏ ਦੀ ਅਰਜ਼ੀ ਦਸਤਾਵੇਜ਼ ਤਿਆਰ ਕਰੋ";
+"task.task-shop.title" = "ਪਹਿਲੇ ਹਫ਼ਤੇ ਦਾ ਘਰੇਲੂ ਸਾਮਾਨ ਖਰੀਦੋ";
+"task.task-gp.title" = "GP ਲੱਭੋ / ਹੈਲਥ ਕਵਰ ਕਨਫਰਮ ਕਰੋ";
+"task.task-resume.title" = "ਆਸਟ੍ਰੇਲੀਆਈ ਨਿਯੋਕਤਾਵਾਂ ਲਈ ਰਿਜ਼ਿਊਮੇ ਅੱਪਡੇਟ ਕਰੋ";
+"task.task-licence.title" = "ਓਵਰਸੀਜ਼ ਲਾਇਸੈਂਸ ਦੀ ਵੈਧਤਾ ਚੈੱਕ ਕਰੋ";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "ਟ੍ਰਿਪਲ ਜ਼ੀਰੋ";
+"emergency.triple-zero.detail" = "ਪੁਲਿਸ, ਫਾਇਰ, ਐਂਬੂਲੈਂਸ — ਸਿਰਫ਼ ਜਾਨਲੇਵਾ ਐਮਰਜੈਂਸੀ।";
+"emergency.poisons.name" = "ਜ਼ਹਿਰ ਜਾਣਕਾਰੀ";
+"emergency.poisons.detail" = "ਜ਼ਹਿਰ ਜਾਂ ਸ਼ੱਕੀ ਜ਼ਹਿਰ ਲਈ 24/7 ਸਲਾਹ।";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "ਗੈਰ-ਐਮਰਜੈਂਸੀ ਸਿਹਤ ਸਵਾਲਾਂ ਲਈ 24/7 ਨਰਸ ਸਲਾਹ।";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "ਹੜ੍ਹ, ਤੂਫ਼ਾਨ ਅਤੇ ਮਿਲਦੀ ਮਦਦ ਲਈ ਸਟੇਟ ਇਮਰਜੈਂਸੀ ਸਰਵਿਸ।";
+
+/* Extra UI */
+"checklist.open_guide" = "ਗਾਈਡ ਖੋਲ੍ਹੋ";
+"settings.aus_gov" = "ਆਸਟ੍ਰੇਲੀਆਈ ਸਰਕਾਰ";
+"common.min" = "%d ਮਿੰਟ";
+"common.progress_percent" = "ਪ੍ਰਗਤੀ %d ਫ਼ੀਸਦ";

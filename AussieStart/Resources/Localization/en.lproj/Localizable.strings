@@ -1,9 +1,310 @@
-/* Localizable */
+/* App */
 "app.name" = "AussieStart";
 "app.tagline" = "Your Australia starter guide";
+
+/* Tabs */
 "tab.home" = "Home";
 "tab.search" = "Search";
 "tab.topics" = "Topics";
 "tab.saved" = "Saved";
 "tab.settings" = "Settings";
-"disclaimer.short" = "Informational only — not legal, migration, financial, or medical advice.";
+
+/* Common */
+"common.continue" = "Continue";
+"common.back" = "Back";
+"common.close" = "Close";
+"common.see_all" = "See all";
+"common.guides_count" = "%d guides";
+"common.coming_soon" = "Coming soon";
+"common.min_read" = "%d min read";
+"common.min_category" = "%d min · %@";
+"common.offline_for_state" = "Offline · updated for %@";
+"common.available_now" = "Available now";
+"common.coming_soon_lang" = "Coming soon";
+
+/* Disclaimer */
+"disclaimer.full" = "Informational only — not legal, migration, financial, or medical advice. Always verify with official Australian Government sources.";
+
+/* Greetings */
+"greeting.morning" = "Good morning";
+"greeting.afternoon" = "Good afternoon";
+"greeting.evening" = "Good evening";
+
+/* Home */
+"home.settling_in" = "Settling in %@";
+"home.todays_tip" = "Today's tip";
+"home.read_guide" = "Read guide";
+"home.quick_topics" = "Quick topics";
+"home.popular_destinations" = "Popular destinations";
+"home.popular_destinations_subtitle" = "Fees, short itineraries, and stops along the way";
+"home.first_30_days" = "First 30 Days";
+"home.milestones_completed" = "%d/%d milestones completed";
+"home.continue_roadmap" = "Tap to continue your roadmap";
+"home.continue_reading" = "Continue reading";
+"home.most_popular" = "Most popular";
+"home.most_popular_subtitle" = "Start with these for %@";
+"home.emergency_contacts" = "Emergency contacts";
+"home.emergency_subtitle" = "000 · Poisons · SES · healthdirect";
+
+/* Search */
+"search.title" = "Search";
+"search.prompt" = "Search guides";
+"search.recent" = "Recent searches";
+"search.trending" = "Trending";
+"search.results" = "Results";
+"search.hint" = "Try “GP”, “TFN”, or “Myki”";
+"search.empty" = "No matches. Try a synonym like “doctor” for GP.";
+
+/* Topics */
+"topics.title" = "Topics";
+"topics.browse" = "Browse by topic";
+"topics.tailored" = "Practical guides tailored for %@";
+"topics.guides" = "Guides";
+
+/* Saved */
+"saved.title" = "Saved";
+"saved.articles" = "Saved articles";
+"saved.empty" = "Bookmark guides to read offline later.";
+"saved.history" = "History";
+"saved.history_empty" = "Articles you open will appear here.";
+"saved.checklists" = "Checklists";
+"saved.journey" = "First 30 Days";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.personalisation" = "Personalisation";
+"settings.language" = "Language";
+"settings.state" = "State / Territory";
+"settings.persona" = "I am a";
+"settings.appearance" = "Appearance";
+"settings.theme" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
+"settings.theme.hint.system" = "Matches your iPhone’s Light / Dark setting.";
+"settings.theme.hint.light" = "Always use a light background.";
+"settings.theme.hint.dark" = "Always use a dark background.";
+"settings.offline" = "Offline";
+"settings.content_pack" = "Content pack";
+"settings.last_reviewed" = "Last reviewed";
+"settings.offline_blurb" = "All guides, tips, and checklists ship inside the app. No account or internet required.";
+"settings.privacy" = "Privacy";
+"settings.analytics" = "Share anonymous usage (off by default)";
+"settings.privacy_blurb" = "AussieStart stores bookmarks and progress only on this device. No login. No cloud sync.";
+"settings.about" = "About";
+"settings.about_app" = "About AussieStart";
+"settings.replay_onboarding" = "Replay onboarding";
+"settings.language_note" = "Menus and guide details switch with your language. Official names like TFN, Myki, and Medicare stay in English.";
+
+/* Onboarding */
+"onboarding.welcome_title" = "Welcome to AussieStart";
+"onboarding.welcome_body" = "Trusted, offline settlement guides for new migrants — in plain language, tuned to your state.";
+"onboarding.choose_language" = "Choose your language";
+"onboarding.choose_language_subtitle" = "MVP includes English, Hindi, and Punjabi. More languages unlock as content is translated.";
+"onboarding.choose_state" = "Where will you live?";
+"onboarding.choose_state_subtitle" = "Guides adapt for transport cards, licences, and local services.";
+"onboarding.transport_label" = "Transport: %@";
+"onboarding.choose_persona" = "What describes you?";
+"onboarding.choose_persona_subtitle" = "We’ll prioritise your First 30 Days roadmap.";
+"onboarding.roadmap_title" = "Your personal roadmap";
+"onboarding.roadmap_subtitle" = "Based on %@ life in %@.";
+"onboarding.start" = "Start exploring";
+"onboarding.step" = "Onboarding step %d of 5";
+"onboarding.day1" = "Day 1";
+"onboarding.day2" = "Day 2";
+"onboarding.day3" = "Day 3";
+"onboarding.day4" = "Day 4";
+"onboarding.week2" = "Week 2+";
+"onboarding.task_sim" = "Get a local SIM and internet";
+"onboarding.task_bank" = "Open a bank account";
+"onboarding.task_tfn" = "Apply for your TFN";
+"onboarding.task_transport" = "Set up %@";
+"onboarding.task_more" = "Housing, healthcare, and more";
+
+/* Article / gallery */
+"article.photos" = "Photos";
+"article.destination_photos" = "Destination photos";
+"article.remove_bookmark" = "Remove bookmark";
+"article.save_bookmark" = "Save bookmark";
+"article.unavailable_title" = "Article unavailable";
+"article.unavailable_body" = "This guide is not in the offline pack yet.";
+"article.recommended" = "Recommended next";
+"article.recommended_subtitle" = "Keep your settlement flow going";
+"photo.n" = "Photo %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "First 30 Days";
+"journey.completed" = "%d/%d completed";
+"journey.subtitle" = "A practical roadmap for your first month in %@.";
+"journey.week" = "Week %d";
+"journey.day" = "Day %d: %@";
+"checklist.title" = "Checklists";
+"checklist.done" = "%d/%d done";
+"about.title" = "About";
+"about.blurb" = "The complete Australia starter guide in your pocket — built local-first for new migrants.";
+"about.verify" = "Always verify critical steps with official sources such as Services Australia, the ATO, state transport agencies, and your local council.";
+"about.version" = "Version";
+"about.content_reviewed" = "Content reviewed";
+"about.architecture" = "Architecture";
+"emergency.title" = "Emergency";
+"emergency.life_threatening" = "LIFE THREATENING";
+
+/* Categories */
+"category.arrival" = "Arrival";
+"category.sim" = "SIM Cards";
+"category.banking" = "Banking";
+"category.healthcare" = "Healthcare";
+"category.transport" = "Transport";
+"category.driving" = "Driving";
+"category.taxes" = "Taxes";
+"category.housing" = "Housing";
+"category.jobs" = "Jobs";
+"category.shopping" = "Shopping";
+"category.family" = "Family";
+"category.explore" = "Explore";
+"category.emergency" = "Emergency";
+"category.students" = "Students";
+
+/* Personas */
+"persona.student" = "Student";
+"persona.worker" = "Worker / Skilled migrant";
+"persona.family" = "Family visa holder";
+"persona.tourist" = "Tourist / Working holiday";
+"persona.pr" = "Permanent resident";
+"persona.citizen" = "Citizen";
+
+/* Empty states */
+"empty.no_guides_title" = "No guides yet";
+"empty.no_guides_body" = "More %@ guides are coming in a future content update.";
+
+/* States */
+"state.vic" = "Victoria";
+"state.nsw" = "New South Wales";
+"state.qld" = "Queensland";
+"state.sa" = "South Australia";
+"state.wa" = "Western Australia";
+"state.tas" = "Tasmania";
+"state.act" = "Australian Capital Territory";
+"state.nt" = "Northern Territory";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "Airport arrival checklist";
+"article.arrival-airport.subtitle" = "Immigration, bags, biosecurity, and getting into the city";
+"article.sim-setup.title" = "Get a local SIM or eSIM";
+"article.sim-setup.subtitle" = "Local number for banks, deliveries, and codes";
+"article.banking-open-account.title" = "Open a bank account";
+"article.banking-open-account.subtitle" = "BSB, debit card, PayID, and Osko basics";
+"article.tfn-apply.title" = "Apply for a TFN";
+"article.tfn-apply.subtitle" = "Tax File Number without the stress";
+"article.transport-card.title" = "Public transport card";
+"article.transport-card.subtitle" = "Myki, Opal, go card, and other state cards";
+"article.medicare-gp.title" = "Medicare & seeing a GP";
+"article.medicare-gp.subtitle" = "Bulk billing, chemists, and when to call 000";
+"article.housing-rent.title" = "Renting your first place";
+"article.housing-rent.subtitle" = "Inspections, bond, leases, and scam checks";
+"article.jobs-basics.title" = "Finding a job the Australian way";
+"article.jobs-basics.subtitle" = "Resume, Seek, Fair Work, and payslips";
+"article.driving-licence.title" = "Driving & licence conversion";
+"article.driving-licence.subtitle" = "Road rules, CTP, tolls, and overseas licences";
+"article.emergency-contacts.title" = "Emergency contacts";
+"article.emergency-contacts.subtitle" = "000, poisons, SES, and roadside help";
+"article.shopping-essentials.title" = "Shopping for essentials";
+"article.shopping-essentials.subtitle" = "Groceries, furniture, returns, and plugs";
+"article.students-oshc.title" = "OSHC for international students";
+"article.students-oshc.subtitle" = "Visa-required health cover explained simply";
+"article.family-schools.title" = "Enrolling kids in school";
+"article.family-schools.subtitle" = "Catchments, documents, and first-week school setup";
+"article.family-childcare.title" = "Childcare & Child Care Subsidy";
+"article.family-childcare.subtitle" = "Finding care, waitlists, and CCS basics";
+"article.family-immunisation.title" = "Kids’ immunisation catch-up";
+"article.family-immunisation.subtitle" = "AIR records for school and childcare enrolment";
+"article.family-centrelink.title" = "Centrelink basics for families";
+"article.family-centrelink.subtitle" = "myGov, CRN, and eligibility awareness";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "Fees, 1–2 day itinerary, and coastal stops from Melbourne";
+"article.explore-blue-mountains.title" = "Blue Mountains day trip";
+"article.explore-blue-mountains.subtitle" = "Train itinerary, lookout fees, and village stops from Sydney";
+"article.explore-sydney-harbour.title" = "Sydney Harbour icons";
+"article.explore-sydney-harbour.subtitle" = "Opera House, ferries, Manly, and what each stop costs";
+"article.explore-gold-coast.title" = "Gold Coast beaches & hinterland";
+"article.explore-gold-coast.subtitle" = "Theme parks, Burleigh, and 2-day itinerary costs";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "Cruise fees, 2–3 day plan, and nearby stops";
+"article.explore-uluru.title" = "Uluru & Kata Tjuta";
+"article.explore-uluru.subtitle" = "Park fees, respectful itinerary, and Yulara tips";
+"article.explore-phillip-island.title" = "Phillip Island penguins";
+"article.explore-phillip-island.subtitle" = "Parade fees, day plan, and stops from Melbourne";
+"article.explore-rottnest.title" = "Rottnest Island (Perth)";
+"article.explore-rottnest.subtitle" = "Ferry prices, bike day itinerary, and bay stops";
+"article.explore-tasmania-hobart.title" = "Hobart & southern Tasmania";
+"article.explore-tasmania-hobart.subtitle" = "MONA, kunanyi, and 3-day weekend costs";
+"article.explore-barossa-adelaide.title" = "Adelaide, Glenelg & Barossa";
+"article.explore-barossa-adelaide.subtitle" = "City-coast-wine weekend with tasting fees";
+
+/* Daily tips */
+"tip.tip-sim.title" = "Get a local number today";
+"tip.tip-sim.description" = "Banks and deliveries often need SMS codes. A prepaid SIM on Day 1 unblocks almost everything else.";
+"tip.tip-tfn.title" = "Apply for your TFN early";
+"tip.tip-tfn.description" = "Waiting can mean higher tax withholding on your first payslips.";
+"tip.tip-000.title" = "Remember: emergency is 000";
+"tip.tip-000.description" = "Australia does not use 911. Save 000 and your home address in your phone.";
+"tip.tip-bond.title" = "Photograph everything at move-in";
+"tip.tip-bond.description" = "Condition reports plus photos protect your bond when you leave.";
+"tip.tip-bulk.title" = "Ask about bulk billing";
+"tip.tip-bulk.description" = "Not every GP is free. Ask about fees when you book.";
+"tip.tip-explore.title" = "Plan one weekend escape";
+"tip.tip-explore.description" = "Once SIM, bank, and transport are sorted, book a simple day trip — Blue Mountains, Phillip Island, or Glenelg are easy first wins.";
+
+/* Journey days */
+"journey.d1.title" = "SIM & connectivity";
+"journey.d1.summary" = "Buy a local SIM/eSIM and make sure mobile data works.";
+"journey.d2.title" = "Open a bank account";
+"journey.d2.summary" = "Get BSB/account details ready for work and rent.";
+"journey.d3.title" = "Apply for TFN";
+"journey.d3.summary" = "Start your Tax File Number application with a local address and phone.";
+"journey.d4.title" = "Transport card";
+"journey.d4.summary" = "Set up your state's public transport card or app and top up.";
+"journey.d5.title" = "Emergency prep";
+"journey.d5.summary" = "Save 000 and key contacts; know your exact address.";
+"journey.d8.title" = "Housing search";
+"journey.d8.summary" = "Shortlist suburbs, book inspections, prepare application docs.";
+"journey.d10.title" = "Essentials shop";
+"journey.d10.summary" = "Buy only what you need for the first weeks.";
+"journey.d15.title" = "Healthcare setup";
+"journey.d15.summary" = "Check Medicare/OSHC and find a nearby GP.";
+"journey.d18.title" = "Job ready";
+"journey.d18.summary" = "Australian resume + Seek/LinkedIn alerts.";
+"journey.d25.title" = "Driving check";
+"journey.d25.summary" = "Confirm licence rules before buying or driving a car.";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "First week essentials";
+"checklist.checklist-first-week.subtitle" = "The must-do list after landing";
+"task.task-sim.title" = "Buy and activate a local SIM/eSIM";
+"task.task-bank.title" = "Open a transaction bank account";
+"task.task-tfn.title" = "Submit TFN application";
+"task.task-transport.title" = "Set up public transport card";
+"task.task-emergency.title" = "Save emergency contacts";
+"checklist.checklist-home.title" = "Home setup";
+"checklist.checklist-home.subtitle" = "Renting and settling your place";
+"task.task-rent-docs.title" = "Prepare rental application documents";
+"task.task-shop.title" = "Buy first-week household essentials";
+"task.task-gp.title" = "Find a GP / confirm health cover";
+"task.task-resume.title" = "Update resume for Australian employers";
+"task.task-licence.title" = "Check overseas licence validity";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero";
+"emergency.triple-zero.detail" = "Police, Fire, Ambulance — life-threatening emergencies only.";
+"emergency.poisons.name" = "Poisons Information";
+"emergency.poisons.detail" = "24/7 advice for poisonings and suspected poisonings.";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "24/7 nurse-backed health advice for non-emergency questions.";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "State Emergency Service for floods, storms, and similar assistance.";
+
+/* Extra UI */
+"checklist.open_guide" = "Open guide";
+"settings.aus_gov" = "Australian Government";
+"common.min" = "%d min";
+"common.progress_percent" = "Progress %d percent";

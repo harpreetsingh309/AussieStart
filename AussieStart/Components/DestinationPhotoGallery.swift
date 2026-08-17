@@ -2,8 +2,9 @@ import SwiftUI
 import UIKit
 
 struct DestinationPhotoGallery: View {
+    @Environment(UserPreferences.self) private var preferences
     let imageNames: [String]
-    var title: String = "Photos"
+    var title: String? = nil
 
     @State private var selection = 0
     @State private var fullscreenName: String?
@@ -12,12 +13,16 @@ struct DestinationPhotoGallery: View {
         imageNames.filter { UIImage(named: $0) != nil }
     }
 
+    private var galleryTitle: String {
+        title ?? preferences.t("article.photos")
+    }
+
     var body: some View {
         Group {
             if !availableNames.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
                     HStack {
-                        Text(title)
+                        Text(galleryTitle)
                             .font(.system(.title3, design: .rounded).weight(.bold))
                             .foregroundStyle(AppTheme.title)
                         Spacer()
@@ -81,7 +86,7 @@ struct DestinationPhotoGallery: View {
                                         .opacity(selection == index ? 1 : 0.7)
                                 }
                                 .buttonStyle(.plain)
-                                .accessibilityLabel("Photo \(index + 1)")
+                                .accessibilityLabel(preferences.t("photo.n", index + 1))
                             }
                         }
                     }
@@ -103,6 +108,7 @@ private struct FullscreenPhoto: Identifiable {
 }
 
 private struct FullscreenPhotoViewer: View {
+    @Environment(UserPreferences.self) private var preferences
     let imageNames: [String]
     let startName: String
     @Environment(\.dismiss) private var dismiss
@@ -132,7 +138,7 @@ private struct FullscreenPhotoViewer: View {
                     .foregroundStyle(.white)
                     .padding()
             }
-            .accessibilityLabel("Close")
+            .accessibilityLabel(preferences.t("common.close"))
         }
         .onAppear {
             selection = imageNames.firstIndex(of: startName) ?? 0

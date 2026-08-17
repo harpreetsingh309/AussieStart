@@ -7,77 +7,70 @@ struct SettingsView: View {
         @Bindable var preferences = preferences
         NavigationStack {
             Form {
-                Section("Personalisation") {
-                    Picker("Language", selection: $preferences.language) {
+                Section(preferences.t("settings.personalisation")) {
+                    Picker(preferences.t("settings.language"), selection: $preferences.language) {
                         ForEach(AppLanguage.allCases.filter(\.isMVPReady)) { lang in
                             Text(lang.displayName).tag(lang)
                         }
                     }
-                    Picker("State / Territory", selection: $preferences.state) {
+                    Text(preferences.t("settings.language_note"))
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+
+                    Picker(preferences.t("settings.state"), selection: $preferences.state) {
                         ForEach(AustralianState.allCases) { state in
-                            Text(state.displayName).tag(state)
+                            Text(state.localizedName(for: preferences.language)).tag(state)
                         }
                     }
-                    Picker("I am a", selection: $preferences.persona) {
+                    Picker(preferences.t("settings.persona"), selection: $preferences.persona) {
                         ForEach(UserPersona.allCases) { persona in
-                            Text(persona.displayName).tag(persona)
+                            Text(persona.localizedName(for: preferences.language)).tag(persona)
                         }
                     }
                 }
 
-                Section("Appearance") {
-                    Picker("Theme", selection: $preferences.appearance) {
+                Section(preferences.t("settings.appearance")) {
+                    Picker(preferences.t("settings.theme"), selection: $preferences.appearance) {
                         ForEach(AppearanceMode.allCases) { mode in
-                            Text(mode.displayName).tag(mode)
+                            Text(mode.localizedName(for: preferences.language)).tag(mode)
                         }
                     }
                     .pickerStyle(.segmented)
 
-                    Text(appearanceHint(for: preferences.appearance))
+                    Text(preferences.t(preferences.appearance.hintKey))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
 
-                Section("Offline") {
-                    LabeledContent("Content pack", value: ContentLoader.shared.catalog.version)
-                    LabeledContent("Last reviewed", value: ContentLoader.shared.catalog.lastReviewed)
-                    Text("All guides, tips, and checklists ship inside the app. No account or internet required.")
+                Section(preferences.t("settings.offline")) {
+                    LabeledContent(preferences.t("settings.content_pack"), value: ContentLoader.shared.catalog.version)
+                    LabeledContent(preferences.t("settings.last_reviewed"), value: ContentLoader.shared.catalog.lastReviewed)
+                    Text(preferences.t("settings.offline_blurb"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
 
-                Section("Privacy") {
-                    Toggle("Share anonymous usage (off by default)", isOn: $preferences.analyticsOptIn)
-                    Text("AussieStart stores bookmarks and progress only on this device. No login. No cloud sync.")
+                Section(preferences.t("settings.privacy")) {
+                    Toggle(preferences.t("settings.analytics"), isOn: $preferences.analyticsOptIn)
+                    Text(preferences.t("settings.privacy_blurb"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
 
-                Section("About") {
-                    NavigationLink("About AussieStart") { AboutView() }
-                    NavigationLink("Checklists") { ChecklistView() }
-                    NavigationLink("First 30 Days") { JourneyView() }
-                    Link("Australian Government", destination: URL(string: "https://www.australia.gov.au")!)
+                Section(preferences.t("settings.about")) {
+                    NavigationLink(preferences.t("settings.about_app")) { AboutView() }
+                    NavigationLink(preferences.t("saved.checklists")) { ChecklistView() }
+                    NavigationLink(preferences.t("saved.journey")) { JourneyView() }
+                    Link(preferences.t("settings.aus_gov"), destination: URL(string: "https://www.australia.gov.au")!)
                 }
 
                 Section {
-                    Button("Replay onboarding", role: .destructive) {
+                    Button(preferences.t("settings.replay_onboarding"), role: .destructive) {
                         preferences.resetOnboarding()
                     }
                 }
             }
-            .navigationTitle("Settings")
-        }
-    }
-
-    private func appearanceHint(for mode: AppearanceMode) -> String {
-        switch mode {
-        case .system:
-            "Matches your iPhone’s Light / Dark setting."
-        case .light:
-            "Always use a light background."
-        case .dark:
-            "Always use a dark background."
+            .navigationTitle(preferences.t("settings.title"))
         }
     }
 }

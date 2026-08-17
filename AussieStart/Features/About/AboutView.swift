@@ -1,30 +1,32 @@
 import SwiftUI
 
 struct AboutView: View {
+    @Environment(UserPreferences.self) private var preferences
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                Text("AussieStart")
+                Text(preferences.t("app.name"))
                     .font(AppTheme.titleFont)
                     .foregroundStyle(AppTheme.title)
-                Text("The complete Australia starter guide in your pocket — built local-first for new migrants.")
+                Text(preferences.t("about.blurb"))
                     .foregroundStyle(.secondary)
 
                 Group {
-                    labeled("Version", ContentLoader.shared.catalog.version)
-                    labeled("Content reviewed", ContentLoader.shared.catalog.lastReviewed)
-                    labeled("Architecture", "SwiftUI · MVVM · SwiftData · Offline Markdown")
+                    labeled(preferences.t("about.version"), ContentLoader.shared.catalog.version)
+                    labeled(preferences.t("about.content_reviewed"), ContentLoader.shared.catalog.lastReviewed)
+                    labeled(preferences.t("about.architecture"), "SwiftUI · MVVM · SwiftData · Offline Markdown")
                 }
 
                 DisclaimerBanner()
 
-                Text("Always verify critical steps with official sources such as Services Australia, the ATO, state transport agencies, and your local council.")
+                Text(preferences.t("about.verify"))
                     .font(.footnote)
                     .foregroundStyle(.secondary)
             }
             .padding()
         }
-        .navigationTitle("About")
+        .navigationTitle(preferences.t("about.title"))
         .navigationBarTitleDisplayMode(.inline)
     }
 

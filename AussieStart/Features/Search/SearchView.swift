@@ -14,10 +14,10 @@ struct SearchView: View {
         NavigationStack {
             List {
                 if query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                    Section("Recent searches") {
+                    Section(preferences.t("search.recent")) {
                         let recent = progress.recentSearches()
                         if recent.isEmpty {
-                            Text("Try “GP”, “TFN”, or “Myki”")
+                            Text(preferences.t("search.hint"))
                                 .foregroundStyle(.secondary)
                         } else {
                             ForEach(recent, id: \.query) { item in
@@ -29,7 +29,7 @@ struct SearchView: View {
                         }
                     }
 
-                    Section("Trending") {
+                    Section(preferences.t("search.trending")) {
                         ForEach(articles.popular(state: preferences.state)) { article in
                             NavigationLink {
                                 ArticleDetailView(articleID: article.id)
@@ -39,9 +39,9 @@ struct SearchView: View {
                         }
                     }
                 } else {
-                    Section("Results") {
+                    Section(preferences.t("search.results")) {
                         if results.isEmpty {
-                            Text("No matches. Try a synonym like “doctor” for GP.")
+                            Text(preferences.t("search.empty"))
                                 .foregroundStyle(.secondary)
                         } else {
                             ForEach(results) { hit in
@@ -55,8 +55,8 @@ struct SearchView: View {
                     }
                 }
             }
-            .navigationTitle("Search")
-            .searchable(text: $query, prompt: "Search guides")
+            .navigationTitle(preferences.t("search.title"))
+            .searchable(text: $query, prompt: preferences.t("search.prompt"))
             .onChange(of: query) { _, _ in
                 runSearch()
             }

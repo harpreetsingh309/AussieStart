@@ -22,6 +22,7 @@ struct SectionHeader: View {
 }
 
 struct ArticleRowView: View {
+    @Environment(UserPreferences.self) private var preferences
     let article: ArticleMeta
     /// Hide when used inside a `List` `NavigationLink` (system already shows a chevron).
     var showsChevron: Bool = true
@@ -59,15 +60,15 @@ struct ArticleRowView: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(article.title)
+                Text(article.localizedTitle(for: preferences.language))
                     .font(.headline)
                     .foregroundStyle(.primary)
                     .multilineTextAlignment(.leading)
-                Text(article.subtitle)
+                Text(article.localizedSubtitle(for: preferences.language))
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .lineLimit(2)
-                Text("\(article.estimatedReadingMinutes) min · \(article.category.displayName)")
+                Text(preferences.t("common.min_category", article.estimatedReadingMinutes, article.category.localizedName(for: preferences.language)))
                     .font(.caption.weight(.medium))
                     .foregroundStyle(article.category.tint.opacity(0.9))
             }
@@ -91,6 +92,7 @@ struct ArticleRowView: View {
 }
 
 struct CategoryTile: View {
+    @Environment(UserPreferences.self) private var preferences
     let category: ContentCategory
     var count: Int? = nil
 
@@ -121,10 +123,10 @@ struct CategoryTile: View {
             }
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(category.displayName)
+                Text(category.localizedName(for: preferences.language))
                     .font(.system(.headline, design: .rounded).weight(.bold))
                     .foregroundStyle(AppTheme.title)
-                Text(count == 0 ? "Coming soon" : "\(count ?? 0) guides")
+                Text(count == 0 ? preferences.t("common.coming_soon") : preferences.t("common.guides_count", count ?? 0))
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -150,6 +152,7 @@ struct CategoryTile: View {
 }
 
 struct ProgressRing: View {
+    @Environment(UserPreferences.self) private var preferences
     let progress: Double
     var lineWidth: CGFloat = 8
 
@@ -171,16 +174,18 @@ struct ProgressRing: View {
                 .font(.caption.weight(.bold))
                 .foregroundStyle(AppTheme.title)
         }
-        .accessibilityLabel("Progress \(Int((progress * 100).rounded())) percent")
+        .accessibilityLabel(preferences.t("common.progress_percent", Int((progress * 100).rounded())))
     }
 }
 
 struct DisclaimerBanner: View {
+    @Environment(UserPreferences.self) private var preferences
+
     var body: some View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "info.circle.fill")
                 .foregroundStyle(AppTheme.brandGreen)
-            Text("Informational only — not legal, migration, financial, or medical advice. Always verify with official Australian Government sources.")
+            Text(preferences.t("disclaimer.full"))
                 .font(.caption2)
                 .foregroundStyle(.secondary)
                 .fixedSize(horizontal: false, vertical: true)

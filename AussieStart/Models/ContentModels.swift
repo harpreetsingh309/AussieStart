@@ -33,6 +33,14 @@ struct ArticleMeta: Codable, Identifiable, Hashable {
     func applies(to state: AustralianState) -> Bool {
         appliesToAllStates || states.map { $0.lowercased() }.contains(state.rawValue)
     }
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        L10n.tr("article.\(id).title", language: language, fallback: title)
+    }
+
+    func localizedSubtitle(for language: AppLanguage) -> String {
+        L10n.tr("article.\(id).subtitle", language: language, fallback: subtitle)
+    }
 }
 
 struct DailyTipMeta: Codable, Identifiable, Hashable {
@@ -42,6 +50,14 @@ struct DailyTipMeta: Codable, Identifiable, Hashable {
     let category: ContentCategory
     let priority: Int
     let articleID: String?
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        L10n.tr("tip.\(id).title", language: language, fallback: title)
+    }
+
+    func localizedDescription(for language: AppLanguage) -> String {
+        L10n.tr("tip.\(id).description", language: language, fallback: description)
+    }
 }
 
 struct JourneyDayMeta: Codable, Identifiable, Hashable {
@@ -52,6 +68,14 @@ struct JourneyDayMeta: Codable, Identifiable, Hashable {
     let taskIDs: [String]
     let articleIDs: [String]
     let week: Int
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        L10n.tr("journey.\(id).title", language: language, fallback: title)
+    }
+
+    func localizedSummary(for language: AppLanguage) -> String {
+        L10n.tr("journey.\(id).summary", language: language, fallback: summary)
+    }
 }
 
 struct ChecklistMeta: Codable, Identifiable, Hashable {
@@ -60,12 +84,24 @@ struct ChecklistMeta: Codable, Identifiable, Hashable {
     let subtitle: String
     let category: ContentCategory
     let tasks: [ChecklistTaskMeta]
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        L10n.tr("checklist.\(id).title", language: language, fallback: title)
+    }
+
+    func localizedSubtitle(for language: AppLanguage) -> String {
+        L10n.tr("checklist.\(id).subtitle", language: language, fallback: subtitle)
+    }
 }
 
 struct ChecklistTaskMeta: Codable, Identifiable, Hashable {
     let id: String
     let title: String
     let articleID: String?
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        L10n.tr("task.\(id).title", language: language, fallback: title)
+    }
 }
 
 struct EmergencyContactMeta: Codable, Identifiable, Hashable {
@@ -74,6 +110,14 @@ struct EmergencyContactMeta: Codable, Identifiable, Hashable {
     let number: String
     let detail: String
     let isTripleZero: Bool
+
+    func localizedName(for language: AppLanguage) -> String {
+        L10n.tr("emergency.\(id).name", language: language, fallback: name)
+    }
+
+    func localizedDetail(for language: AppLanguage) -> String {
+        L10n.tr("emergency.\(id).detail", language: language, fallback: detail)
+    }
 }
 
 struct ResolvedArticle: Identifiable, Hashable {
@@ -84,4 +128,12 @@ struct ResolvedArticle: Identifiable, Hashable {
     var title: String { meta.title }
     var subtitle: String { meta.subtitle }
     var category: ContentCategory { meta.category }
+
+    func localizedTitle(for language: AppLanguage) -> String {
+        meta.localizedTitle(for: language)
+    }
+
+    func localizedSubtitle(for language: AppLanguage) -> String {
+        meta.localizedSubtitle(for: language)
+    }
 }
