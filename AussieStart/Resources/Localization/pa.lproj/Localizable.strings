@@ -327,7 +327,7 @@
 "pro.title" = "AussieStart Pro";
 "pro.headline" = "ਜ਼ਰੂਰੀ ਸੈਟਲਮੈਂਟ ਗਾਈਡਾਂ ਅਨਲਾਕ ਕਰੋ";
 "pro.subtitle" = "ਇੱਕ ਵਾਰ ਖਰੀਦ · %@ · ਸਭ ਕੁਝ ਇਸ iPhone ’ਤੇ ਆਫ਼ਲਾਈਨ";
-"pro.benefit_guides" = "myGov ਸੈਟਅੱਪ, ਵੀਜ਼ਾ ਵਰਕ ਰਾਈਟਸ, ਸੁਪਰ, ਅਧਿਕਾਰਤ ਬਾਂਡ, ਯੂਟਿਲਿਟੀਜ਼, ਸਕੈਮ, ਪਹਿਲੇ ਮਹੀਨੇ ਦਾ ਬਜਟ, ਅਤੇ ABN ਬਨਾਮ ਕਰਮਚਾਰੀ।";
+"pro.benefit_guides" = "Medicare ਨਾਮਾਂਕਣ, ImmiAccount, Centrelink ਦਾਅਵੇ, ਟੈਕਸ ਰਿਟਰਨ, PPSR, ਵਿਦਿਆਰਥੀ ਰਿਆਇਤ, WWCC, ਨਾਲ myGov, ਵੀਜ਼ਾ ਹੱਕ, ਸੁਪਰ, ਬਾਂਡ, ਯੂਟਿਲਿਟੀਜ਼, ਸਕੈਮ, ਬਜਟ ਅਤੇ ABN।";
 "pro.benefit_offline" = "ਗਾਈਡਾਂ ਫ਼ੋਨ ’ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ। ਕੋਈ ਖਾਤਾ ਨਹੀਂ। ਅਸੀਂ ਸਰਕਾਰੀ ਸਾਈਟਾਂ ਵਿੱਚ ਤੁਹਾਡੇ ਲਈ ਲਾਗਇਨ ਨਹੀਂ ਕਰਦੇ।";
 "pro.benefit_persona" = "ਹੋਮ ਅਤੇ ਪਹਿਲੇ 30 ਦਿਨ ਪਹਿਲਾਂ ਹੀ ਵਿਦਿਆਰਥੀ, ਕਰਮਚਾਰੀ, ਪਰਿਵਾਰ ਜਾਂ ਵਿਜ਼ਿਟਰ ਅਨੁਸਾਰ ਛਾਂਟਦੇ ਹਨ।";
 "pro.legal" = "AussieStart ਸਰਕਾਰੀ ਐਪ ਨਹੀਂ ਅਤੇ ਆਸਟ੍ਰੇਲੀਆਈ ਸਰਕਾਰ ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ। ਖਰੀਦ ਐਪਲ ਪ੍ਰੋਸੈਸ ਕਰਦਾ ਹੈ। ਸਿਰਫ਼ ਜਾਣਕਾਰੀ — ਅਸੀਂ ਵੀਜ਼ਾ, ਟੈਕਸ, Medicare, myGov ਜਾਂ ਬਾਂਡ ਤੁਹਾਡੇ ਬਦਲੇ ਨਹੀਂ ਭਰਦੇ।";
@@ -391,3 +391,73 @@
 "task.task-super.title" = "ਪੇਸਲਿਪ ’ਤੇ super ਲਾਈਨ ਲੱਭੋ";
 "task.task-budget.title" = "ਪਹਿਲੇ ਮਹੀਨੇ ਦੀ ਪੈਸੇ ਦੀ ਸੂਚੀ ਲਿਖੋ";
 "task.task-abn.title" = "ABN ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਤੁਸੀਂ ਕਰਮਚਾਰੀ ਹੋ";
+
+"article.medicare-enrol.title" = "ਅਧਿਕਾਰਤ ਸਾਈਟ ’ਤੇ Medicare ਵਿੱਚ ਨਾਮਾਂਕਣ";
+"article.medicare-enrol.subtitle" = "ਯੋਗਤਾ, myGov ਅਤੇ ਸੇਵਾ ਕੇਂਦਰ — ਅਸੀਂ ਨਾਮਾਂਕਣ ਨਹੀਂ ਕਰਦੇ";
+"article.student-concession.title" = "ਵਿਦਿਆਰਥੀ ਟ੍ਰਾਂਸਪੋਰਟ ਰਿਆਇਤ";
+"article.student-concession.subtitle" = "ਰਾਜ ਏਜੰਸੀ ’ਤੇ ਅਰਜ਼ੀ ਦਿਓ — ਇਸ ਐਪ ਤੋਂ ਨਹੀਂ";
+"article.tax-return-basics.title" = "ਪਹਿਲਾ ਟੈਕਸ ਰਿਟਰਨ lodgement (ATO)";
+"article.tax-return-basics.subtitle" = "ਅਧਿਕਾਰਤ myTax / ਏਜੰਟ — AussieStart ਫਾਈਲ ਨਹੀਂ ਕਰਦਾ";
+"article.choose-suburb.title" = "ਅਧਿਕਾਰਤ ਨਕਸ਼ਿਆਂ ਨਾਲ ਉਪਨਗਰ ਚੁਣੋ";
+"article.choose-suburb.subtitle" = "ਆਵਾਜਾਈ, ਸਕੂਲ ਅਤੇ ਖ਼ਤਰੇ — Instagram ਸੂਚੀਆਂ ਨਹੀਂ";
+"article.inspection-condition-report.title" = "ਮੂਵ-ਇਨ ਇੰਸਪੈਕਸ਼ਨ ਅਤੇ ਕੰਡੀਸ਼ਨ ਰਿਪੋਰਟ";
+"article.inspection-condition-report.subtitle" = "ਅਧਿਕਾਰਤ ਫਾਰਮ ਅਤੇ ਫੋਟੋਆਂ ਜੋ ਬਾਂਡ ਬਚਾਉਂਦੀਆਂ ਹਨ";
+"article.used-car-ppsr.title" = "ਵਰਤੀ ਹੋਈ ਕਾਰ ਜਾਂਚ (PPSR)";
+"article.used-car-ppsr.subtitle" = "ਸਰਕਾਰੀ ਰਜਿਸਟਰ, ਟ੍ਰਾਂਸਫ਼ਰ ਅਤੇ CTP — ਭੁਗਤਾਨ ਤੋਂ ਪਹਿਲਾਂ";
+"article.contents-insurance.title" = "ਕਿਰਾਏਦਾਰਾਂ ਲਈ ਕੰਟੈਂਟਸ ਬੀਮਾ";
+"article.contents-insurance.subtitle" = "Moneysmart ਨਾਲ ਤੁਲਨਾ — ਅਸੀਂ ਪਾਲਿਸੀ ਨਹੀਂ ਵੇਚਦੇ";
+"article.library-council.title" = "ਲਾਇਬ੍ਰੇਰੀ ਕਾਰਡ ਅਤੇ ਲੋਕਲ ਕੌਂਸਲ";
+"article.library-council.subtitle" = "ਮੁਫ਼ਤ ਵਾਈ-ਫਾਈ, ਕੂੜਾ ਅਤੇ AMEP — ਅਧਿਕਾਰਤ ਕੌਂਸਲ ਸਾਈਟਾਂ ਤੋਂ";
+"article.visa-immiaccount.title" = "ImmiAccount ਰਾਹੀਂ ਵੀਜ਼ਾ ਅਰਜ਼ੀ";
+"article.visa-immiaccount.subtitle" = "ਅਧਿਕਾਰਤ Home Affairs ਪੋਰਟਲ — ਅਸੀਂ ਵੀਜ਼ਾ lodgement ਨਹੀਂ ਕਰਦੇ";
+"article.police-check-wwcc.title" = "ਪੁਲਿਸ ਚੈੱਕ ਅਤੇ ਵਰਕਿੰਗ ਵਿਦ ਚਿਲਡਰਨ";
+"article.police-check-wwcc.subtitle" = "ਸਿਰਫ਼ AFP ਅਤੇ ਰਾਜ ਪੋਰਟਲ — ਅਸੀਂ ID ਨਹੀਂ ਲੈਂਦੇ";
+"article.centrelink-claim-start.title" = "Centrelink ਦਾਅਵਾ ਅਧਿਕਾਰਤ ਤਰੀਕੇ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ";
+"article.centrelink-claim-start.subtitle" = "Payment finder ਅਤੇ myGov — ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਦਾਅਵਾ ਨਹੀਂ ਕਰਦੇ";
+
+"tip.tip-ppsr.title" = "ਕਾਰ ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ PPSR ਖੋਜੋ";
+"tip.tip-ppsr.description" = "ਸਿਰਫ਼ ppsr.gov.au ਸਰਕਾਰੀ ਰਜਿਸਟਰ ਹੈ। ਤੀਜੀ-ਧਿਰ VIN ਸਾਈਟਾਂ ਵਾਧੂ ਹਨ।";
+"tip.tip-immi.title" = "ImmiAccount ਹੈ online.immi.gov.au";
+"tip.tip-immi.description" = "ਵੀਜ਼ਾ ਅਰਜ਼ੀਆਂ Home Affairs ਪੋਰਟਲ ’ਤੇ ਰੱਖੋ। ਪਾਸਪੋਰਟ ਸਕੈਨ ਮੰਗਣ ਵਾਲੇ WhatsApp ਏਜੰਟਾਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰੋ।";
+
+"journey.d9.title" = "ਉਪਨਗਰ ਅਤੇ ਇੰਸਪੈਕਸ਼ਨ";
+"journey.d9.summary" = "ਬਾਂਡ ਦੇਣ ਤੋਂ ਪਹਿਲਾਂ ਅਧਿਕਾਰਤ ਨਕਸ਼ੇ ਅਤੇ ਕੰਡੀਸ਼ਨ-ਰਿਪੋਰਟ ਫਾਰਮ ਵਰਤੋ।";
+"journey.d11.title" = "ਲਾਇਬ੍ਰੇਰੀ ਅਤੇ ਕੌਂਸਲ";
+"journey.d11.summary" = "ਲਾਇਬ੍ਰੇਰੀ ਕਾਰਡ ਲਵੋ ਅਤੇ ਕੌਂਸਲ ਦੀ ਅਧਿਕਾਰਤ ਸਾਈਟ ਲੱਭੋ।";
+"journey.d14.title" = "Medicare ਨਾਮਾਂਕਣ";
+"journey.d14.summary" = "ਯੋਗ ਹੋਵੋ ਤਾਂ ਸਿਰਫ਼ servicesaustralia.gov.au / myGov ’ਤੇ ਨਾਮਾਂਕਣ ਕਰੋ।";
+"journey.d16.title" = "ਵਿਦਿਆਰਥੀ ਰਿਆਇਤ";
+"journey.d16.summary" = "ਸਸਤੀ ਆਵਾਜਾਈ ਲਈ ਰਾਜ ਟ੍ਰਾਂਸਪੋਰਟ ਸਾਈਟ ’ਤੇ ਅਰਜ਼ੀ ਦਿਓ।";
+"journey.d22.title" = "ਟੈਕਸ ਰਿਕਾਰਡ";
+"journey.d22.summary" = "30 ਜੂਨ ਤੋਂ ਬਾਅਦ ATO ਸਾਈਟ ’ਤੇ myTax ਲਈ ਪੇਸਲਿਪ ਤਿਆਰ ਰੱਖੋ।";
+"journey.d26.title" = "ਕਾਰ ਖਰੀਦ ਜਾਂਚ";
+"journey.d26.summary" = "ਵਰਤੀ ਹੋਈ ਕਾਰ ਦਾ ਭੁਗਤਾਨ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ PPSR ਅਤੇ ਰਾਜ ਟ੍ਰਾਂਸਫ਼ਰ ਪੰਨੇ।";
+
+"checklist.checklist-pro-official.title" = "ਅਧਿਕਾਰਤ-ਸਾਈਟ ਚੈੱਕਲਿਸਟ (Pro)";
+"checklist.checklist-pro-official.subtitle" = "ਇਹ ਕਦਮ .gov.au ’ਤੇ ਕਰੋ — AussieStart ਫਾਰਮ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕਰਦਾ";
+"task.task-medicare-enrol.title" = "Services Australia ’ਤੇ Medicare ਯੋਗਤਾ ਚੈੱਕ ਕਰੋ";
+"task.task-concession.title" = "ਰਾਜ ਟ੍ਰਾਂਸਪੋਰਟ ਸਾਈਟ ’ਤੇ ਵਿਦਿਆਰਥੀ ਰਿਆਇਤ ਲਈ ਅਰਜ਼ੀ ਦਿਓ";
+"task.task-tax-return.title" = "ATO lodgement ਬੁੱਕਮਾਰਕ ਕਰੋ / ਪੇਸਲਿਪ ਰੱਖੋ";
+"task.task-suburb.title" = "ਅਧਿਕਾਰਤ ਨਕਸ਼ਿਆਂ ਨਾਲ ਉਪਨਗਰ ਸ਼ਾਰਟਲਿਸਟ ਕਰੋ";
+"task.task-inspection.title" = "ਫੋਟੋਆਂ ਨਾਲ ਅਧਿਕਾਰਤ ਕੰਡੀਸ਼ਨ ਰਿਪੋਰਟ ਪੂਰੀ ਕਰੋ";
+"task.task-ppsr.title" = "ਵਰਤੀ ਹੋਈ ਕਾਰ ਖਰੀਦਣ ਤੋਂ ਪਹਿਲਾਂ PPSR ਖੋਜੋ";
+"task.task-library.title" = "ਕੌਂਸਲ ਸਾਈਟ ਰਾਹੀਂ ਲੋਕਲ ਲਾਇਬ੍ਰੇਰੀ ਜੁਆਇਨ ਕਰੋ";
+"task.task-immi.title" = "ਸਿਰਫ਼ Home Affairs ’ਤੇ ImmiAccount / VEVO ਵਰਤੋ";
+"task.task-wwcc.title" = "ਨੌਕਰੀ ਮੰਗੇ ਤਾਂ ਅਧਿਕਾਰਤ ਪੋਰਟਲ ’ਤੇ ਪੁਲਿਸ/WWCC ਚੈੱਕ ਕਰੋ";
+"task.task-centrelink-claim.title" = "ਦਾਅਵਾ ਮੰਨਣ ਤੋਂ ਪਹਿਲਾਂ Payment finder ਵਰਤੋ";
+
+"pro.reminders" = "ਪਹਿਲੇ 30 ਦਿਨਾਂ ਦੇ ਰਿਮਾਈਂਡਰ";
+"pro.reminders_blurb" = "ਹਫ਼ਤੇ 1–4 ਵਿੱਚ ਵਿਕਲਪਿਕ ਲੋਕਲ ਨੋਟੀਫਿਕੇਸ਼ਨ। ਇਹ ਇਸ iPhone ’ਤੇ ਰਹਿੰਦੇ ਹਨ। ਕਦੇ ਵੀ ਬੰਦ ਕਰੋ।";
+"pro.benefit_reminders" = "ਆਪਣੀ First 30 Days ਸੂਚੀ ਸਾਂਝੀ ਜਾਂ ਪ੍ਰਿੰਟ ਕਰੋ, ਅਤੇ ਇਸ ਡਿਵਾਈਸ ’ਤੇ ਵਿਕਲਪਿਕ ਹਫ਼ਤਾਵਾਰੀ ਰਿਮਾਈਂਡਰ।";
+"journey.share" = "First 30 Days ਸਾਂਝਾ ਕਰੋ";
+"journey.share_pro" = "First 30 Days ਸਾਂਝਾ ਕਰਨ ਲਈ Pro ਅਨਲਾਕ ਕਰੋ";
+"journey.share_header" = "AussieStart First 30 Days — %@";
+
+"reminder.week1.title" = "ਹਫ਼ਤਾ 1 — SIM, ਬੈਂਕ, TFN";
+"reminder.week1.body" = "AussieStart ਖੋਲ੍ਹੋ ਅਤੇ ਪਹਿਲੇ ਹਫ਼ਤੇ ਦੇ ਕਦਮ ਟਿਕ ਕਰੋ। ਅਰਜ਼ੀਆਂ ਅਧਿਕਾਰਤ .gov.au ਸਾਈਟਾਂ ’ਤੇ ਕਰੋ।";
+"reminder.week2.title" = "ਹਫ਼ਤਾ 2 — ਰਿਹਾਇਸ਼ ਅਤੇ ਸਿਹਤ";
+"reminder.week2.body" = "ਇੰਸਪੈਕਸ਼ਨ, Medicare ਜਾਂ OSHC, ਅਤੇ ਕੌਂਸਲ ਲਾਇਬ੍ਰੇਰੀ ਕਾਰਡ ਆਮ ਦੂਜੇ-ਹਫ਼ਤੇ ਦੇ ਕੰਮ ਹਨ।";
+"reminder.week3.title" = "ਹਫ਼ਤਾ 3 — ਕੰਮ ਅਤੇ ਪੜ੍ਹਾਈ";
+"reminder.week3.body" = "VEVO ’ਤੇ ਵੀਜ਼ਾ ਵਰਕ ਰਾਈਟਸ ਅਤੇ ਰਾਜ ਟ੍ਰਾਂਸਪੋਰਟ ਸਾਈਟ ’ਤੇ ਵਿਦਿਆਰਥੀ ਰਿਆਇਤ ਚੈੱਕ ਕਰੋ।";
+"reminder.week4.title" = "ਹਫ਼ਤਾ 4 — ਪੈਸੇ ਅਤੇ ਰਿਕਾਰਡ";
+"reminder.week4.body" = "ATO ਲਈ ਪੇਸਲਿਪ ਰੱਖੋ, ਅਤੇ ਵਰਤੀ ਹੋਈ ਕਾਰ ਤੋਂ ਪਹਿਲਾਂ PPSR ਵਰਤੋ।";

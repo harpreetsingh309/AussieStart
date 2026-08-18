@@ -9,6 +9,7 @@ final class UserPreferences {
         static let state = "australianState"
         static let persona = "userPersona"
         static let appearance = "appearanceMode"
+        static let journeyReminders = "journeyRemindersEnabled"
     }
 
     var hasCompletedOnboarding: Bool {
@@ -31,6 +32,10 @@ final class UserPreferences {
         didSet { UserDefaults.standard.set(appearance.rawValue, forKey: Keys.appearance) }
     }
 
+    var journeyRemindersEnabled: Bool {
+        didSet { UserDefaults.standard.set(journeyRemindersEnabled, forKey: Keys.journeyReminders) }
+    }
+
     init() {
         let defaults = UserDefaults.standard
         hasCompletedOnboarding = defaults.bool(forKey: Keys.hasCompletedOnboarding)
@@ -38,6 +43,7 @@ final class UserPreferences {
         state = AustralianState(rawValue: defaults.string(forKey: Keys.state) ?? "") ?? .vic
         persona = UserPersona(rawValue: defaults.string(forKey: Keys.persona) ?? "") ?? .student
         appearance = AppearanceMode(rawValue: defaults.string(forKey: Keys.appearance) ?? "") ?? .system
+        journeyRemindersEnabled = defaults.bool(forKey: Keys.journeyReminders)
     }
 
     func completeOnboarding(language: AppLanguage, state: AustralianState, persona: UserPersona) {

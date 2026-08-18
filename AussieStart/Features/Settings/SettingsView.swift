@@ -15,6 +15,12 @@ struct SettingsView: View {
                             Text(lang.displayName).tag(lang)
                         }
                     }
+                    .onChange(of: preferences.language) { _, language in
+                        guard store.isPro, preferences.journeyRemindersEnabled else { return }
+                        Task {
+                            await JourneyReminderScheduler.sync(enabled: true, language: language)
+                        }
+                    }
                     Text(preferences.t("settings.language_note"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
@@ -48,6 +54,18 @@ struct SettingsView: View {
                     if store.isPro {
                         Label(preferences.t("pro.active"), systemImage: "checkmark.seal.fill")
                             .foregroundStyle(AppTheme.brandGreen)
+                        Toggle(preferences.t("pro.reminders"), isOn: $preferences.journeyRemindersEnabled)
+                            .onChange(of: preferences.journeyRemindersEnabled) { _, enabled in
+                                Task {
+                                    await JourneyReminderScheduler.sync(
+                                        enabled: enabled,
+                                        language: preferences.language
+                                    )
+                                }
+                            }
+                        Text(preferences.t("pro.reminders_blurb"))
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
                     } else {
                         Button {
                             showPaywall = true

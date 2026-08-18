@@ -3,8 +3,10 @@ import SwiftData
 
 struct JourneyView: View {
     @Environment(UserPreferences.self) private var preferences
+    @Environment(StoreManager.self) private var store
     @Environment(\.modelContext) private var modelContext
     @State private var completed: Set<String> = []
+    @State private var showPaywall = false
 
     private var catalog: ContentCatalog { ContentLoader.shared.catalog }
     private var progress: ProgressRepository { ProgressRepository(context: modelContext) }
@@ -39,7 +41,35 @@ struct JourneyView: View {
             }
         }
         .navigationTitle(preferences.t("journey.title"))
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                if store.isPro {
+                    ShareLink(item: shareText(days: days)) {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .accessibilityLabel(preferences.t("journey.share"))
+                } else {
+                    Button {
+                        showPaywall = true
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .accessibilityLabel(preferences.t("journey.share_pro"))
+                }
+            }
+        }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView()
+        }
         .onAppear { completed = progress.completedDayIDs() }
+    }
+
+    private func shareText(days: [JourneyDayMeta]) -> String {
+        let lines = days.map { day in
+            let mark = completed.contains(day.id) ? "✓" : "○"
+            return "\(mark) \(preferences.t("journey.day", day.day, day.localizedTitle(for: preferences.language)))"
+        }
+        return ([preferences.t("journey.share_header", preferences.state.localizedName(for: preferences.language))] + lines + [preferences.t("disclaimer.full")]).joined(separator: "\n")
     }
 
     private func dayRow(_ day: JourneyDayMeta) -> some View {

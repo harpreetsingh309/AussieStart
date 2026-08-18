@@ -332,7 +332,7 @@
 "pro.title" = "AussieStart Pro";
 "pro.headline" = "Unlock essential settlement guides";
 "pro.subtitle" = "One-time purchase · %@ · keep everything offline on this iPhone";
-"pro.benefit_guides" = "myGov setup, visa work rights, super, official bond lodgement, utilities, scams, first-month budget, and ABN vs employee.";
+"pro.benefit_guides" = "Medicare enrolment, ImmiAccount, Centrelink claims, tax returns, PPSR, student concession, WWCC, plus myGov, visa rights, super, bond, utilities, scams, budget, and ABN.";
 "pro.benefit_offline" = "Guides stay on your phone. No account. We never log into government sites for you.";
 "pro.benefit_persona" = "Your Home and First 30 Days already filter by student, worker, family, or visitor.";
 "pro.legal" = "AussieStart is not a government app and is not affiliated with the Australian Government. Purchases are processed by Apple. Informational only — we do not lodge visas, tax, Medicare, myGov, or bonds on your behalf.";
@@ -398,3 +398,74 @@
 "task.task-super.title" = "Find the super line on your payslip";
 "task.task-budget.title" = "Write a first-month money list";
 "task.task-abn.title" = "Confirm you are an employee before getting an ABN";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "Enrol in Medicare on the official site";
+"article.medicare-enrol.subtitle" = "Eligibility, myGov, and service centres — we never enrol you";
+"article.student-concession.title" = "Student transport concession";
+"article.student-concession.subtitle" = "Apply with your state agency — not through this app";
+"article.tax-return-basics.title" = "Lodge your first tax return (ATO)";
+"article.tax-return-basics.subtitle" = "Official myTax / agent path — AussieStart does not file";
+"article.choose-suburb.title" = "Choose a suburb using official maps";
+"article.choose-suburb.subtitle" = "Commute, schools, and hazards — not Instagram lists";
+"article.inspection-condition-report.title" = "Move-in inspection & condition report";
+"article.inspection-condition-report.subtitle" = "Official forms and photos that protect your bond";
+"article.used-car-ppsr.title" = "Used car checks (PPSR)";
+"article.used-car-ppsr.subtitle" = "Government register, transfer, and CTP before you pay";
+"article.contents-insurance.title" = "Contents insurance for renters";
+"article.contents-insurance.subtitle" = "How to compare using Moneysmart — we don’t sell policies";
+"article.library-council.title" = "Library card & your local council";
+"article.library-council.subtitle" = "Free Wi-Fi, bins, and AMEP — from official council sites";
+"article.visa-immiaccount.title" = "Visa applications via ImmiAccount";
+"article.visa-immiaccount.subtitle" = "Official Home Affairs portal — we cannot lodge visas";
+"article.police-check-wwcc.title" = "Police check & working with children";
+"article.police-check-wwcc.subtitle" = "AFP and state portals only — we never take your ID";
+"article.centrelink-claim-start.title" = "Start a Centrelink claim the official way";
+"article.centrelink-claim-start.subtitle" = "Payment finder and myGov — we cannot claim for you";
+
+"tip.tip-ppsr.title" = "Search PPSR before you buy a car";
+"tip.tip-ppsr.description" = "Only ppsr.gov.au is the government register. Third-party VIN sites are optional extras.";
+"tip.tip-immi.title" = "ImmiAccount is online.immi.gov.au";
+"tip.tip-immi.description" = "Visa applications stay on the Home Affairs portal. Ignore WhatsApp agents who want your passport scan.";
+
+"journey.d9.title" = "Suburb & inspections";
+"journey.d9.summary" = "Use official maps and condition-report forms before you pay a bond.";
+"journey.d11.title" = "Library & council";
+"journey.d11.summary" = "Get a library card and find your council’s official site.";
+"journey.d14.title" = "Medicare enrolment";
+"journey.d14.summary" = "If you are eligible, enrol only on servicesaustralia.gov.au / myGov.";
+"journey.d16.title" = "Student concession";
+"journey.d16.summary" = "Apply for cheaper fares on your state transport site.";
+"journey.d22.title" = "Tax records";
+"journey.d22.summary" = "Keep payslips ready for myTax on the ATO site after 30 June.";
+"journey.d26.title" = "Car purchase checks";
+"journey.d26.summary" = "PPSR and state transfer pages before you pay for a used car.";
+
+"checklist.checklist-pro-official.title" = "Official-site checklist (Pro)";
+"checklist.checklist-pro-official.subtitle" = "Do these on .gov.au — AussieStart does not submit forms";
+"task.task-medicare-enrol.title" = "Check Medicare eligibility on Services Australia";
+"task.task-concession.title" = "Apply for student concession on the state transport site";
+"task.task-tax-return.title" = "Bookmark ATO lodgement / keep payslips";
+"task.task-suburb.title" = "Shortlist suburbs using official maps";
+"task.task-inspection.title" = "Complete the official condition report with photos";
+"task.task-ppsr.title" = "Search PPSR before buying a used car";
+"task.task-library.title" = "Join the local library via the council site";
+"task.task-immi.title" = "Use only ImmiAccount / VEVO on Home Affairs";
+"task.task-wwcc.title" = "Apply for police/WWCC checks on official portals if a job requires it";
+"task.task-centrelink-claim.title" = "Use the Payment finder before assuming you can claim";
+
+"pro.reminders" = "First 30 Days reminders";
+"pro.reminders_blurb" = "Optional local notifications in weeks 1–4. They stay on this iPhone. Turn off anytime.";
+"pro.benefit_reminders" = "Share or print your First 30 Days list, plus optional weekly reminders on this device.";
+"journey.share" = "Share First 30 Days";
+"journey.share_pro" = "Unlock Pro to share First 30 Days";
+"journey.share_header" = "AussieStart First 30 Days — %@";
+
+"reminder.week1.title" = "Week 1 — SIM, bank, TFN";
+"reminder.week1.body" = "Open AussieStart and tick your first-week steps. Use official .gov.au sites for applications.";
+"reminder.week2.title" = "Week 2 — Housing & healthcare";
+"reminder.week2.body" = "Inspections, Medicare or OSHC, and your council library card are common week-two jobs.";
+"reminder.week3.title" = "Week 3 — Work & study extras";
+"reminder.week3.body" = "Check visa work rights on VEVO and student concession on your state transport site.";
+"reminder.week4.title" = "Week 4 — Money & records";
+"reminder.week4.body" = "Keep payslips for the ATO, and use PPSR before you buy a used car.";

@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0-essentials",
+  "version": "1.5.0-pro-pack",
   "lastReviewed": "2026-08-17",
   "articles": [
     {
@@ -21,7 +21,8 @@
       "relatedArticles": [
         "sim-setup",
         "transport-card",
-        "banking-open-account"
+        "banking-open-account",
+        "library-council"
       ],
       "file": "arrival-airport.md",
       "lastUpdated": "2026-07-28",
@@ -99,7 +100,8 @@
       "relatedArticles": [
         "jobs-basics",
         "medicare-gp",
-        "mygov-basics"
+        "mygov-basics",
+        "tax-return-basics"
       ],
       "file": "tfn-apply.md",
       "lastUpdated": "2026-07-28",
@@ -127,7 +129,8 @@
       "estimatedReadingMinutes": 6,
       "relatedArticles": [
         "housing-rent",
-        "driving-licence"
+        "driving-licence",
+        "student-concession"
       ],
       "file": "transport-card.md",
       "lastUpdated": "2026-07-28",
@@ -156,7 +159,8 @@
       "relatedArticles": [
         "emergency-contacts",
         "students-oshc",
-        "mygov-basics"
+        "mygov-basics",
+        "medicare-enrol"
       ],
       "file": "medicare-gp.md",
       "lastUpdated": "2026-07-28",
@@ -184,7 +188,10 @@
         "transport-card",
         "rental-bond",
         "scams-safety",
-        "utilities-connect"
+        "utilities-connect",
+        "choose-suburb",
+        "inspection-condition-report",
+        "contents-insurance"
       ],
       "file": "housing-rent.md",
       "lastUpdated": "2026-07-28",
@@ -214,7 +221,9 @@
         "banking-open-account",
         "visa-work-rights",
         "super-basics",
-        "abn-contracting"
+        "abn-contracting",
+        "police-check-wwcc",
+        "visa-immiaccount"
       ],
       "file": "jobs-basics.md",
       "lastUpdated": "2026-07-28",
@@ -240,7 +249,8 @@
       "estimatedReadingMinutes": 7,
       "relatedArticles": [
         "transport-card",
-        "emergency-contacts"
+        "emergency-contacts",
+        "used-car-ppsr"
       ],
       "file": "driving-licence.md",
       "lastUpdated": "2026-07-28",
@@ -316,7 +326,9 @@
       "relatedArticles": [
         "medicare-gp",
         "jobs-basics",
-        "visa-work-rights"
+        "visa-work-rights",
+        "student-concession",
+        "visa-immiaccount"
       ],
       "file": "students-oshc.md",
       "lastUpdated": "2026-07-28",
@@ -445,7 +457,8 @@
       "relatedArticles": [
         "family-childcare",
         "tfn-apply",
-        "banking-open-account"
+        "banking-open-account",
+        "centrelink-claim-start"
       ],
       "file": "family-centrelink.md",
       "lastUpdated": "2026-07-30",
@@ -1046,6 +1059,360 @@
         "pr",
         "citizen"
       ]
+    },
+    {
+      "id": "medicare-enrol",
+      "title": "Enrol in Medicare on the official site",
+      "subtitle": "Eligibility, myGov, and service centres — we never enrol you",
+      "category": "healthcare",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "medicare",
+        "enrol",
+        "services australia",
+        "health card",
+        "bulk bill"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "medicare-gp",
+        "mygov-basics",
+        "students-oshc",
+        "scams-safety"
+      ],
+      "file": "medicare-enrol.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 14,
+      "isPremium": true,
+      "personas": [
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "student-concession",
+      "title": "Student transport concession",
+      "subtitle": "Apply with your state agency — not through this app",
+      "category": "students",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "concession",
+        "student",
+        "myki",
+        "opal",
+        "tertiary",
+        "isfs"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "transport-card",
+        "students-oshc",
+        "visa-work-rights"
+      ],
+      "file": "student-concession.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 15,
+      "isPremium": true,
+      "personas": [
+        "student"
+      ]
+    },
+    {
+      "id": "tax-return-basics",
+      "title": "Lodge your first tax return (ATO)",
+      "subtitle": "Official myTax / agent path — AussieStart does not file",
+      "category": "taxes",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "tax return",
+        "mytax",
+        "ato",
+        "lodgement",
+        "refund"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "tfn-apply",
+        "mygov-basics",
+        "super-basics",
+        "scams-safety"
+      ],
+      "file": "tax-return-basics.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 16,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "choose-suburb",
+      "title": "Choose a suburb using official maps",
+      "subtitle": "Commute, schools, and hazards — not Instagram lists",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "suburb",
+        "catchment",
+        "flood",
+        "commute",
+        "rent"
+      ],
+      "estimatedReadingMinutes": 8,
+      "relatedArticles": [
+        "housing-rent",
+        "inspection-condition-report",
+        "transport-card",
+        "family-schools"
+      ],
+      "file": "choose-suburb.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 17,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "inspection-condition-report",
+      "title": "Move-in inspection & condition report",
+      "subtitle": "Official forms and photos that protect your bond",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "condition report",
+        "inspection",
+        "bond",
+        "photos",
+        "move in"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "housing-rent",
+        "rental-bond",
+        "scams-safety",
+        "contents-insurance"
+      ],
+      "file": "inspection-condition-report.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 18,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "used-car-ppsr",
+      "title": "Used car checks (PPSR)",
+      "subtitle": "Government register, transfer, and CTP before you pay",
+      "category": "driving",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "ppsr",
+        "used car",
+        "vin",
+        "registration",
+        "ctp"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "driving-licence",
+        "scams-safety",
+        "first-month-budget"
+      ],
+      "file": "used-car-ppsr.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 19,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "contents-insurance",
+      "title": "Contents insurance for renters",
+      "subtitle": "How to compare using Moneysmart — we don’t sell policies",
+      "category": "housing",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "insurance",
+        "contents",
+        "renters",
+        "moneysmart",
+        "asic"
+      ],
+      "estimatedReadingMinutes": 5,
+      "relatedArticles": [
+        "housing-rent",
+        "inspection-condition-report",
+        "first-month-budget"
+      ],
+      "file": "contents-insurance.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 20,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "library-council",
+      "title": "Library card & your local council",
+      "subtitle": "Free Wi-Fi, bins, and AMEP — from official council sites",
+      "category": "arrival",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "library",
+        "council",
+        "amep",
+        "wifi",
+        "hard rubbish"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "sim-setup",
+        "choose-suburb",
+        "first-month-budget"
+      ],
+      "file": "library-council.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 21,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "visa-immiaccount",
+      "title": "Visa applications via ImmiAccount",
+      "subtitle": "Official Home Affairs portal — we cannot lodge visas",
+      "category": "jobs",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "immiaccount",
+        "visa",
+        "home affairs",
+        "mara",
+        "bridging"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "visa-work-rights",
+        "students-oshc",
+        "scams-safety"
+      ],
+      "file": "visa-immiaccount.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 22,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist"
+      ]
+    },
+    {
+      "id": "police-check-wwcc",
+      "title": "Police check & working with children",
+      "subtitle": "AFP and state portals only — we never take your ID",
+      "category": "jobs",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "police check",
+        "wwcc",
+        "blue card",
+        "ochre",
+        "afp"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "jobs-basics",
+        "visa-work-rights",
+        "scams-safety"
+      ],
+      "file": "police-check-wwcc.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 23,
+      "isPremium": true,
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "centrelink-claim-start",
+      "title": "Start a Centrelink claim the official way",
+      "subtitle": "Payment finder and myGov — we cannot claim for you",
+      "category": "family",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "centrelink",
+        "claim",
+        "crn",
+        "family tax benefit",
+        "services australia"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "family-centrelink",
+        "mygov-basics",
+        "medicare-enrol",
+        "scams-safety"
+      ],
+      "file": "centrelink-claim-start.md",
+      "lastUpdated": "2026-08-17",
+      "popularRank": 24,
+      "isPremium": true,
+      "personas": [
+        "family",
+        "pr",
+        "citizen"
+      ]
     }
   ],
   "tips": [
@@ -1112,6 +1479,22 @@
       "category": "taxes",
       "priority": 8,
       "articleID": "mygov-basics"
+    },
+    {
+      "id": "tip-ppsr",
+      "title": "Search PPSR before you buy a car",
+      "description": "Only ppsr.gov.au is the government register. Third-party VIN sites are optional extras.",
+      "category": "driving",
+      "priority": 9,
+      "articleID": "used-car-ppsr"
+    },
+    {
+      "id": "tip-immi",
+      "title": "ImmiAccount is online.immi.gov.au",
+      "description": "Visa applications stay on the Home Affairs portal. Ignore WhatsApp agents who want your passport scan.",
+      "category": "jobs",
+      "priority": 10,
+      "articleID": "visa-immiaccount"
     }
   ],
   "journey": [
@@ -1350,6 +1733,120 @@
         "citizen"
       ],
       "isPremium": true
+    },
+    {
+      "id": "d9",
+      "day": 9,
+      "week": 2,
+      "title": "Suburb & inspections",
+      "summary": "Use official maps and condition-report forms before you pay a bond.",
+      "taskIDs": [
+        "task-suburb",
+        "task-inspection"
+      ],
+      "articleIDs": [
+        "choose-suburb",
+        "inspection-condition-report"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d11",
+      "day": 11,
+      "week": 2,
+      "title": "Library & council",
+      "summary": "Get a library card and find your council’s official site.",
+      "taskIDs": [
+        "task-library"
+      ],
+      "articleIDs": [
+        "library-council"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d14",
+      "day": 14,
+      "week": 2,
+      "title": "Medicare enrolment",
+      "summary": "If you are eligible, enrol only on servicesaustralia.gov.au / myGov.",
+      "taskIDs": [
+        "task-medicare-enrol"
+      ],
+      "articleIDs": [
+        "medicare-enrol",
+        "medicare-gp"
+      ],
+      "personas": [
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d16",
+      "day": 16,
+      "week": 3,
+      "title": "Student concession",
+      "summary": "Apply for cheaper fares on your state transport site.",
+      "taskIDs": [
+        "task-concession"
+      ],
+      "articleIDs": [
+        "student-concession",
+        "transport-card"
+      ],
+      "personas": [
+        "student"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d22",
+      "day": 22,
+      "week": 4,
+      "title": "Tax records",
+      "summary": "Keep payslips ready for myTax on the ATO site after 30 June.",
+      "taskIDs": [
+        "task-tax-return"
+      ],
+      "articleIDs": [
+        "tax-return-basics",
+        "tfn-apply"
+      ],
+      "personas": [
+        "student",
+        "worker",
+        "family",
+        "tourist",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d26",
+      "day": 26,
+      "week": 4,
+      "title": "Car purchase checks",
+      "summary": "PPSR and state transfer pages before you pay for a used car.",
+      "taskIDs": [
+        "task-ppsr"
+      ],
+      "articleIDs": [
+        "used-car-ppsr",
+        "driving-licence"
+      ],
+      "isPremium": true
     }
   ],
   "checklists": [
@@ -1479,6 +1976,67 @@
           "id": "task-abn",
           "title": "Confirm you are an employee before getting an ABN",
           "articleID": "abn-contracting"
+        }
+      ]
+    },
+    {
+      "id": "checklist-pro-official",
+      "title": "Official-site checklist (Pro)",
+      "subtitle": "Do these on .gov.au — AussieStart does not submit forms",
+      "category": "arrival",
+      "personas": [
+        "all"
+      ],
+      "tasks": [
+        {
+          "id": "task-medicare-enrol",
+          "title": "Check Medicare eligibility on Services Australia",
+          "articleID": "medicare-enrol"
+        },
+        {
+          "id": "task-concession",
+          "title": "Apply for student concession on the state transport site",
+          "articleID": "student-concession"
+        },
+        {
+          "id": "task-tax-return",
+          "title": "Bookmark ATO lodgement / keep payslips",
+          "articleID": "tax-return-basics"
+        },
+        {
+          "id": "task-suburb",
+          "title": "Shortlist suburbs using official maps",
+          "articleID": "choose-suburb"
+        },
+        {
+          "id": "task-inspection",
+          "title": "Complete the official condition report with photos",
+          "articleID": "inspection-condition-report"
+        },
+        {
+          "id": "task-ppsr",
+          "title": "Search PPSR before buying a used car",
+          "articleID": "used-car-ppsr"
+        },
+        {
+          "id": "task-library",
+          "title": "Join the local library via the council site",
+          "articleID": "library-council"
+        },
+        {
+          "id": "task-immi",
+          "title": "Use only ImmiAccount / VEVO on Home Affairs",
+          "articleID": "visa-immiaccount"
+        },
+        {
+          "id": "task-wwcc",
+          "title": "Apply for police/WWCC checks on official portals if a job requires it",
+          "articleID": "police-check-wwcc"
+        },
+        {
+          "id": "task-centrelink-claim",
+          "title": "Use the Payment finder before assuming you can claim",
+          "articleID": "centrelink-claim-start"
         }
       ]
     }
@@ -1677,6 +2235,51 @@
       "contractor",
       "gst",
       "invoice"
+    ],
+    "medicare": [
+      "enrol",
+      "health card",
+      "bulk billing",
+      "मेडिकेयर",
+      "ਮੈਡੀਕੇਅਰ"
+    ],
+    "concession": [
+      "student card",
+      "tertiary",
+      "opal",
+      "myki"
+    ],
+    "tax return": [
+      "mytax",
+      "lodgement",
+      "refund",
+      "रिटर्न",
+      "ਰਿਟਰਨ"
+    ],
+    "suburb": [
+      "catchment",
+      "neighbourhood",
+      "area"
+    ],
+    "ppsr": [
+      "vin",
+      "used car",
+      "finance"
+    ],
+    "immiaccount": [
+      "visa apply",
+      "home affairs",
+      "bridging"
+    ],
+    "wwcc": [
+      "blue card",
+      "ochre",
+      "police check"
+    ],
+    "library": [
+      "council",
+      "amep",
+      "wifi"
     ]
   },
   "emergencyContacts": [
