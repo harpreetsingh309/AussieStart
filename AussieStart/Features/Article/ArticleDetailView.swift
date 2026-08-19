@@ -33,10 +33,6 @@ struct ArticleDetailView: View {
 
                         if unlocked {
                             MarkdownDocumentView(markdown: article.markdown)
-                                .font(.body)
-                                .padding(18)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .background(AppTheme.card, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
                             completeButton
                         } else {
                             lockedCard(article)

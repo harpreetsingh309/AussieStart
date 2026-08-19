@@ -332,7 +332,7 @@
 "pro.title" = "AussieStart Pro";
 "pro.headline" = "Unlock essential settlement guides";
 "pro.subtitle" = "One-time purchase · %@ · keep everything offline on this iPhone";
-"pro.benefit_guides" = "Medicare enrolment, ImmiAccount, Centrelink claims, tax returns, PPSR, student concession, WWCC, plus myGov, visa rights, super, bond, utilities, scams, budget, and ABN.";
+"pro.benefit_guides" = "Private health waiting periods, OVHC, tolls, car insurance types, ambulance cover, plus Medicare enrolment, ImmiAccount, tax, PPSR, myGov, and more.";
 "pro.benefit_offline" = "Guides stay on your phone. No account. We never log into government sites for you.";
 "pro.benefit_persona" = "Your Home and First 30 Days already filter by student, worker, family, or visitor.";
 "pro.legal" = "AussieStart is not a government app and is not affiliated with the Australian Government. Purchases are processed by Apple. Informational only — we do not lodge visas, tax, Medicare, myGov, or bonds on your behalf.";
@@ -469,3 +469,36 @@
 "reminder.week3.body" = "Check visa work rights on VEVO and student concession on your state transport site.";
 "reminder.week4.title" = "Week 4 — Money & records";
 "reminder.week4.body" = "Keep payslips for the ATO, and use PPSR before you buy a used car.";
+
+"article.private-health-waiting.title" = "Private health & waiting periods";
+"article.private-health-waiting.subtitle" = "Hospital vs extras — we don’t sell policies";
+"article.ovhc-visitors.title" = "OVHC for visitors & temporary visas";
+"article.ovhc-visitors.subtitle" = "Not Medicare, not OSHC — check your grant letter";
+"article.tolls-linkt.title" = "Toll roads, Linkt & e-TAG";
+"article.tolls-linkt.subtitle" = "Set up before you drive — especially hire cars";
+"article.car-insurance-types.title" = "CTP vs comprehensive car insurance";
+"article.car-insurance-types.subtitle" = "Injury cover is not the same as repairing your car";
+"article.ambulance-cover.title" = "Ambulance cover by state";
+"article.ambulance-cover.subtitle" = "Always call 000 — paying for the ride depends on where you live";
+
+"tip.tip-toll.title" = "Set up tolls before a hire car";
+"tip.tip-toll.description" = "Unpaid motorway trips become extra fees. Use your state .gov.au toll page, then the operator named there.";
+"tip.tip-ambulance.title" = "Call 000 first — then check ambulance bills";
+"tip.tip-ambulance.description" = "The call is free. Who pays for the ride depends on your state. Read healthdirect.gov.au.";
+
+"journey.d13.title" = "Ambulance cover";
+"journey.d13.summary" = "Always call 000. Then check whether your state bills the ride.";
+"journey.d17.title" = "Visitor health cover (OVHC)";
+"journey.d17.summary" = "If your visa asks for OVHC, buy it on the insurer’s official site — not WhatsApp.";
+"journey.d19.title" = "Private health waits";
+"journey.d19.summary" = "Read waiting periods on privatehealth.gov.au before you buy hospital cover.";
+"journey.d21.title" = "Tolls & tags";
+"journey.d21.summary" = "Open a toll account before you drive a hire car or a new motorway.";
+"journey.d24.title" = "Car insurance types";
+"journey.d24.summary" = "CTP is not comprehensive. Read Moneysmart before you drive your own car.";
+
+"task.task-private-health.title" = "Read private-health waiting periods on privatehealth.gov.au";
+"task.task-ovhc.title" = "Check if your visa requires OVHC";
+"task.task-tolls.title" = "Set up a toll account before driving a hire car";
+"task.task-car-insurance.title" = "Know CTP vs comprehensive before you drive";
+"task.task-ambulance.title" = "Check ambulance billing rules for your state";

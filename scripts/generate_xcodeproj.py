@@ -276,7 +276,7 @@ def main() -> None:
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6757XQF27Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AussieStart/Info.plist;
@@ -328,6 +328,7 @@ def main() -> None:
 				TargetAttributes = {{
 					{app_target} = {{
 						CreatedOnToolsVersion = 16.0;
+						DevelopmentTeam = 6757XQF27Y;
 					}};
 				}};
 			}};

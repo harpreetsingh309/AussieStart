@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0-pro-pack",
-  "lastReviewed": "2026-08-17",
+  "version": "1.6.0-pro-cover",
+  "lastReviewed": "2026-08-19",
   "articles": [
     {
       "id": "arrival-airport",
@@ -160,7 +160,10 @@
         "emergency-contacts",
         "students-oshc",
         "mygov-basics",
-        "medicare-enrol"
+        "medicare-enrol",
+        "private-health-waiting",
+        "ambulance-cover",
+        "ovhc-visitors"
       ],
       "file": "medicare-gp.md",
       "lastUpdated": "2026-07-28",
@@ -250,7 +253,9 @@
       "relatedArticles": [
         "transport-card",
         "emergency-contacts",
-        "used-car-ppsr"
+        "used-car-ppsr",
+        "tolls-linkt",
+        "car-insurance-types"
       ],
       "file": "driving-licence.md",
       "lastUpdated": "2026-07-28",
@@ -276,7 +281,8 @@
       "estimatedReadingMinutes": 4,
       "relatedArticles": [
         "medicare-gp",
-        "scams-safety"
+        "scams-safety",
+        "ambulance-cover"
       ],
       "file": "emergency-contacts.md",
       "lastUpdated": "2026-07-28",
@@ -328,7 +334,9 @@
         "jobs-basics",
         "visa-work-rights",
         "student-concession",
-        "visa-immiaccount"
+        "visa-immiaccount",
+        "ovhc-visitors",
+        "private-health-waiting"
       ],
       "file": "students-oshc.md",
       "lastUpdated": "2026-07-28",
@@ -1080,7 +1088,8 @@
         "medicare-gp",
         "mygov-basics",
         "students-oshc",
-        "scams-safety"
+        "scams-safety",
+        "private-health-waiting"
       ],
       "file": "medicare-enrol.md",
       "lastUpdated": "2026-08-17",
@@ -1245,7 +1254,9 @@
       "relatedArticles": [
         "driving-licence",
         "scams-safety",
-        "first-month-budget"
+        "first-month-budget",
+        "car-insurance-types",
+        "tolls-linkt"
       ],
       "file": "used-car-ppsr.md",
       "lastUpdated": "2026-08-17",
@@ -1274,7 +1285,9 @@
       "relatedArticles": [
         "housing-rent",
         "inspection-condition-report",
-        "first-month-budget"
+        "first-month-budget",
+        "private-health-waiting",
+        "car-insurance-types"
       ],
       "file": "contents-insurance.md",
       "lastUpdated": "2026-08-17",
@@ -1413,6 +1426,162 @@
         "pr",
         "citizen"
       ]
+    },
+    {
+      "id": "private-health-waiting",
+      "title": "Private health & waiting periods",
+      "subtitle": "Hospital vs extras — we don’t sell policies",
+      "category": "healthcare",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "private health",
+        "waiting period",
+        "hospital cover",
+        "extras",
+        "medicare levy surcharge"
+      ],
+      "estimatedReadingMinutes": 7,
+      "relatedArticles": [
+        "medicare-enrol",
+        "medicare-gp",
+        "students-oshc",
+        "ovhc-visitors",
+        "ambulance-cover"
+      ],
+      "file": "private-health-waiting.md",
+      "lastUpdated": "2026-08-19",
+      "popularRank": 25,
+      "isPremium": true,
+      "personas": [
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ]
+    },
+    {
+      "id": "ovhc-visitors",
+      "title": "OVHC for visitors & temporary visas",
+      "subtitle": "Not Medicare, not OSHC — check your grant letter",
+      "category": "healthcare",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "ovhc",
+        "visitor",
+        "temporary visa",
+        "health cover",
+        "600"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "students-oshc",
+        "medicare-enrol",
+        "visa-work-rights",
+        "scams-safety"
+      ],
+      "file": "ovhc-visitors.md",
+      "lastUpdated": "2026-08-19",
+      "popularRank": 26,
+      "isPremium": true,
+      "personas": [
+        "tourist",
+        "worker"
+      ]
+    },
+    {
+      "id": "tolls-linkt",
+      "title": "Toll roads, Linkt & e-TAG",
+      "subtitle": "Set up before you drive — especially hire cars",
+      "category": "driving",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "toll",
+        "linkt",
+        "etag",
+        "e-tag",
+        "motorway",
+        "invoice"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "driving-licence",
+        "used-car-ppsr",
+        "car-insurance-types",
+        "scams-safety"
+      ],
+      "file": "tolls-linkt.md",
+      "lastUpdated": "2026-08-19",
+      "popularRank": 27,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "car-insurance-types",
+      "title": "CTP vs comprehensive car insurance",
+      "subtitle": "Injury cover is not the same as repairing your car",
+      "category": "driving",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "ctp",
+        "comprehensive",
+        "third party",
+        "car insurance",
+        "excess"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "driving-licence",
+        "used-car-ppsr",
+        "tolls-linkt",
+        "contents-insurance"
+      ],
+      "file": "car-insurance-types.md",
+      "lastUpdated": "2026-08-19",
+      "popularRank": 28,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "ambulance-cover",
+      "title": "Ambulance cover by state",
+      "subtitle": "Always call 000 — paying for the ride depends on where you live",
+      "category": "healthcare",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "ambulance",
+        "000",
+        "membership",
+        "st john",
+        "healthdirect"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "emergency-contacts",
+        "medicare-gp",
+        "private-health-waiting",
+        "students-oshc"
+      ],
+      "file": "ambulance-cover.md",
+      "lastUpdated": "2026-08-19",
+      "popularRank": 29,
+      "isPremium": true,
+      "personas": [
+        "all"
+      ]
     }
   ],
   "tips": [
@@ -1495,6 +1664,22 @@
       "category": "jobs",
       "priority": 10,
       "articleID": "visa-immiaccount"
+    },
+    {
+      "id": "tip-toll",
+      "title": "Set up tolls before a hire car",
+      "description": "Unpaid motorway trips become extra fees. Use your state .gov.au toll page, then the operator named there.",
+      "category": "driving",
+      "priority": 11,
+      "articleID": "tolls-linkt"
+    },
+    {
+      "id": "tip-ambulance",
+      "title": "Call 000 first — then check ambulance bills",
+      "description": "The call is free. Who pays for the ride depends on your state. Read healthdirect.gov.au.",
+      "category": "healthcare",
+      "priority": 12,
+      "articleID": "ambulance-cover"
     }
   ],
   "journey": [
@@ -1847,6 +2032,91 @@
         "driving-licence"
       ],
       "isPremium": true
+    },
+    {
+      "id": "d13",
+      "day": 13,
+      "week": 2,
+      "title": "Ambulance cover",
+      "summary": "Always call 000. Then check whether your state bills the ride.",
+      "taskIDs": [
+        "task-ambulance"
+      ],
+      "articleIDs": [
+        "ambulance-cover",
+        "emergency-contacts"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d17",
+      "day": 17,
+      "week": 3,
+      "title": "Visitor health cover (OVHC)",
+      "summary": "If your visa asks for OVHC, buy it on the insurer’s official site — not WhatsApp.",
+      "taskIDs": [
+        "task-ovhc"
+      ],
+      "articleIDs": [
+        "ovhc-visitors",
+        "students-oshc"
+      ],
+      "personas": [
+        "tourist",
+        "worker"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d19",
+      "day": 19,
+      "week": 3,
+      "title": "Private health waits",
+      "summary": "Read waiting periods on privatehealth.gov.au before you buy hospital cover.",
+      "taskIDs": [
+        "task-private-health"
+      ],
+      "articleIDs": [
+        "private-health-waiting",
+        "medicare-enrol"
+      ],
+      "personas": [
+        "worker",
+        "family",
+        "pr",
+        "citizen"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d21",
+      "day": 21,
+      "week": 3,
+      "title": "Tolls & tags",
+      "summary": "Open a toll account before you drive a hire car or a new motorway.",
+      "taskIDs": [
+        "task-tolls"
+      ],
+      "articleIDs": [
+        "tolls-linkt",
+        "driving-licence"
+      ],
+      "isPremium": true
+    },
+    {
+      "id": "d24",
+      "day": 24,
+      "week": 4,
+      "title": "Car insurance types",
+      "summary": "CTP is not comprehensive. Read Moneysmart before you drive your own car.",
+      "taskIDs": [
+        "task-car-insurance"
+      ],
+      "articleIDs": [
+        "car-insurance-types",
+        "used-car-ppsr"
+      ],
+      "isPremium": true
     }
   ],
   "checklists": [
@@ -2037,6 +2307,31 @@
           "id": "task-centrelink-claim",
           "title": "Use the Payment finder before assuming you can claim",
           "articleID": "centrelink-claim-start"
+        },
+        {
+          "id": "task-private-health",
+          "title": "Read private-health waiting periods on privatehealth.gov.au",
+          "articleID": "private-health-waiting"
+        },
+        {
+          "id": "task-ovhc",
+          "title": "Check if your visa requires OVHC",
+          "articleID": "ovhc-visitors"
+        },
+        {
+          "id": "task-tolls",
+          "title": "Set up a toll account before driving a hire car",
+          "articleID": "tolls-linkt"
+        },
+        {
+          "id": "task-car-insurance",
+          "title": "Know CTP vs comprehensive before you drive",
+          "articleID": "car-insurance-types"
+        },
+        {
+          "id": "task-ambulance",
+          "title": "Check ambulance billing rules for your state",
+          "articleID": "ambulance-cover"
         }
       ]
     }
@@ -2280,6 +2575,39 @@
       "council",
       "amep",
       "wifi"
+    ],
+    "private health": [
+      "waiting period",
+      "hospital cover",
+      "extras",
+      "levy surcharge",
+      "प्राइवेट",
+      "ਪ੍ਰਾਈਵੇਟ"
+    ],
+    "ovhc": [
+      "visitor cover",
+      "temporary visa",
+      "ओवीएचसी",
+      "ਓਵੀਐਚਸੀ"
+    ],
+    "toll": [
+      "linkt",
+      "etag",
+      "e-tag",
+      "motorway",
+      "टोल",
+      "ਟੋਲ"
+    ],
+    "ctp": [
+      "comprehensive",
+      "third party",
+      "car insurance"
+    ],
+    "ambulance": [
+      "000",
+      "st john",
+      "एम्बुलेंस",
+      "ਐਂਬੂਲੈਂਸ"
     ]
   },
   "emergencyContacts": [

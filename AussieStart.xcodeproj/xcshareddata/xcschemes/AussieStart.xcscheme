@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C78E31E4B2D4004AEE2B05B"
-               BuildableName = "`]=[-pr4e3wq.app"
-               BlueprintName = "`]=[-pr4e3wq"
+               BlueprintIdentifier = "7406D5A85A8F4C60A69B0AB7"
+               BuildableName = "AussieStart.app"
+               BlueprintName = "AussieStart"
                ReferencedContainer = "container:AussieStart.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +43,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C78E31E4B2D4004AEE2B05B"
-            BuildableName = "`]=[-pr4e3wq.app"
-            BlueprintName = "`]=[-pr4e3wq"
+            BlueprintIdentifier = "7406D5A85A8F4C60A69B0AB7"
+            BuildableName = "AussieStart.app"
+            BlueprintName = "AussieStart"
             ReferencedContainer = "container:AussieStart.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

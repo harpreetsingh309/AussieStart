@@ -327,7 +327,7 @@
 "pro.title" = "AussieStart Pro";
 "pro.headline" = "ज़रूरी सेटलमेंट गाइड अनलॉक करें";
 "pro.subtitle" = "एक बार खरीद · %@ · सब कुछ इस iPhone पर ऑफ़लाइन";
-"pro.benefit_guides" = "Medicare नामांकन, ImmiAccount, Centrelink दावे, टैक्स रिटर्न, PPSR, छात्र रियायत, WWCC, साथ में myGov, वीज़ा अधिकार, सुपर, बॉन्ड, यूटिलिटीज़, स्कैम, बजट और ABN।";
+"pro.benefit_guides" = "प्राइवेट हेल्थ वेटिंग पीरियड, OVHC, टोल, कार बीमा, एम्बुलेंस, साथ में Medicare नामांकन, ImmiAccount, टैक्स, PPSR, myGov और अन्य।";
 "pro.benefit_offline" = "गाइड फ़ोन पर रहती हैं। कोई अकाउंट नहीं। हम सरकारी साइटों में आपके लिए लॉगिन नहीं करते।";
 "pro.benefit_persona" = "होम और पहले 30 दिन पहले से छात्र, कर्मचारी, परिवार या विज़िटर के अनुसार छँटते हैं।";
 "pro.legal" = "AussieStart सरकारी ऐप नहीं है और ऑस्ट्रेलियाई सरकार से संबद्ध नहीं है। खरीदारी Apple प्रोसेस करता है। केवल जानकारी — हम वीज़ा, टैक्स, Medicare, myGov या बॉन्ड आपके बदले दाखिल नहीं करते।";
@@ -461,3 +461,36 @@
 "reminder.week3.body" = "VEVO पर वीज़ा वर्क राइट्स और राज्य ट्रांसपोर्ट साइट पर छात्र रियायत जाँचें।";
 "reminder.week4.title" = "सप्ताह 4 — पैसे और रिकॉर्ड";
 "reminder.week4.body" = "ATO के लिए पेस्लिप रखें, और पुरानी कार से पहले PPSR इस्तेमाल करें।";
+
+"article.private-health-waiting.title" = "प्राइवेट हेल्थ और वेटिंग पीरियड";
+"article.private-health-waiting.subtitle" = "हॉस्पिटल बनाम extras — हम पॉलिसी नहीं बेचते";
+"article.ovhc-visitors.title" = "विज़िटर और अस्थायी वीज़ा के लिए OVHC";
+"article.ovhc-visitors.subtitle" = "Medicare नहीं, OSHC नहीं — ग्रांट लेटर जाँचें";
+"article.tolls-linkt.title" = "टोल रोड, Linkt और e-TAG";
+"article.tolls-linkt.subtitle" = "चलाने से पहले सेट करें — खासकर किराये की कार";
+"article.car-insurance-types.title" = "CTP बनाम कॉम्प्रिहेंसिव कार बीमा";
+"article.car-insurance-types.subtitle" = "चोट कवर कार की मरम्मत नहीं है";
+"article.ambulance-cover.title" = "राज्य के अनुसार एम्बुलेंस कवर";
+"article.ambulance-cover.subtitle" = "हमेशा 000 कॉल करें — सवारी का बिल राज्य पर निर्भर";
+
+"tip.tip-toll.title" = "किराये की कार से पहले टोल सेट करें";
+"tip.tip-toll.description" = "न चुकाई मोटरवे यात्रा पर अतिरिक्त फीस लगती है। राज्य .gov.au टोल पेज, फिर नामित ऑपरेटर।";
+"tip.tip-ambulance.title" = "पहले 000 — फिर एम्बुलेंस बिल जाँचें";
+"tip.tip-ambulance.description" = "कॉल मुफ़्त है। सवारी कौन भरता है राज्य पर निर्भर। healthdirect.gov.au पढ़ें।";
+
+"journey.d13.title" = "एम्बुलेंस कवर";
+"journey.d13.summary" = "हमेशा 000 कॉल करें। फिर जाँचें कि राज्य सवारी का बिल भेजता है या नहीं।";
+"journey.d17.title" = "विज़िटर हेल्थ कवर (OVHC)";
+"journey.d17.summary" = "वीज़ा OVHC माँगे तो इंश्योरर की आधिकारिक साइट पर खरीदें — WhatsApp नहीं।";
+"journey.d19.title" = "प्राइवेट हेल्थ वेटिंग";
+"journey.d19.summary" = "हॉस्पिटल कवर खरीदने से पहले privatehealth.gov.au पर वेटिंग पीरियड पढ़ें।";
+"journey.d21.title" = "टोल और टैग";
+"journey.d21.summary" = "किराये की कार या नई मोटरवे से पहले टोल अकाउंट खोलें।";
+"journey.d24.title" = "कार बीमा प्रकार";
+"journey.d24.summary" = "CTP कॉम्प्रिहेंसिव नहीं है। अपनी कार चलाने से पहले Moneysmart पढ़ें।";
+
+"task.task-private-health.title" = "privatehealth.gov.au पर वेटिंग पीरियड पढ़ें";
+"task.task-ovhc.title" = "जाँचें कि वीज़ा OVHC माँगता है या नहीं";
+"task.task-tolls.title" = "किराये की कार से पहले टोल अकाउंट खोलें";
+"task.task-car-insurance.title" = "चलाने से पहले CTP बनाम कॉम्प्रिहेंसिव जानें";
+"task.task-ambulance.title" = "अपने राज्य के एम्बुलेंस बिल नियम जाँचें";
