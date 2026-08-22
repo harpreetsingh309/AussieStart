@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 @main
 struct AussieStartApp: App {
@@ -28,6 +29,9 @@ struct AussieStartApp: App {
             }
         }
         _ = ContentLoader.shared
+        if AppStoreScreenshotScene.isActive {
+            UIView.setAnimationsEnabled(false)
+        }
     }
 
     var body: some Scene {
@@ -35,7 +39,7 @@ struct AussieStartApp: App {
             RootView()
                 .environment(preferences)
                 .environment(store)
-                .preferredColorScheme(preferences.appearance.colorScheme)
+                .preferredColorScheme(AppStoreScreenshotScene.isActive ? .light : preferences.appearance.colorScheme)
                 .tint(AppTheme.accent)
                 .animation(.easeInOut(duration: 0.25), value: preferences.appearance)
         }

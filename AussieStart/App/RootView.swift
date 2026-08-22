@@ -7,7 +7,9 @@ struct RootView: View {
 
     var body: some View {
         ZStack {
-            if showSplash {
+            if let scene = AppStoreScreenshotScene.current {
+                AppStoreScreenshotRoot(scene: scene)
+            } else if showSplash {
                 SplashView()
                     .transition(.opacity)
             } else if preferences.hasCompletedOnboarding {
@@ -24,6 +26,10 @@ struct RootView: View {
         .animation(.easeInOut(duration: 0.35), value: preferences.hasCompletedOnboarding)
         .animation(.easeInOut(duration: 0.2), value: preferences.language)
         .task {
+            if AppStoreScreenshotScene.isActive {
+                showSplash = false
+                return
+            }
             try? await Task.sleep(for: .milliseconds(1200))
             showSplash = false
         }
@@ -72,7 +78,11 @@ struct SplashView: View {
 
 struct MainTabView: View {
     @Environment(UserPreferences.self) private var preferences
-    @State private var selectedTab = 0
+    @State private var selectedTab: Int
+
+    init(selectedTab: Int = 0) {
+        _selectedTab = State(initialValue: selectedTab)
+    }
 
     var body: some View {
         TabView(selection: $selectedTab) {

@@ -7,4 +7,5 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-.swiftpm/
+.derived-screenshots/
+.wrangler/

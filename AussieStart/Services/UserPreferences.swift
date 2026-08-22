@@ -44,6 +44,13 @@ final class UserPreferences {
         persona = UserPersona(rawValue: defaults.string(forKey: Keys.persona) ?? "") ?? .student
         appearance = AppearanceMode(rawValue: defaults.string(forKey: Keys.appearance) ?? "") ?? .system
         journeyRemindersEnabled = defaults.bool(forKey: Keys.journeyReminders)
+        if AppStoreScreenshotScene.isActive {
+            language = .english
+            state = .vic
+            persona = .student
+            appearance = .light
+            hasCompletedOnboarding = true
+        }
     }
 
     func completeOnboarding(language: AppLanguage, state: AustralianState, persona: UserPersona) {

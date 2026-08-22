@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT = Path("/Users/harpreetsingh/Desktop/AussieStart")
 APP = ROOT / "AussieStart"
+TESTS = ROOT / "AussieStartTests"
+UI_TESTS = ROOT / "AussieStartUITests"
 
 
 def uid() -> str:
@@ -47,19 +49,37 @@ def main() -> None:
 
     app_product = uid()
     app_target = uid()
+    test_product = uid()
+    test_target = uid()
+    ui_product = uid()
+    ui_target = uid()
     root_group = uid()
     products_group = uid()
     app_group = uid()
+    tests_group = uid()
+    ui_tests_group = uid()
     project_id = uid()
 
     sources_phase = uid()
     resources_phase = uid()
     frameworks_phase = uid()
+    test_sources_phase = uid()
+    test_resources_phase = uid()
+    test_frameworks_phase = uid()
+    ui_sources_phase = uid()
+    ui_resources_phase = uid()
+    ui_frameworks_phase = uid()
 
     project_configs = uid()
     app_configs = uid()
+    test_configs = uid()
+    ui_configs = uid()
     proj_debug, proj_release = uid(), uid()
     app_debug, app_release = uid(), uid()
+    test_debug, test_release = uid(), uid()
+    ui_debug, ui_release = uid(), uid()
+    test_proxy, test_dep = uid(), uid()
+    ui_proxy, ui_dep = uid(), uid()
 
     file_refs: dict[str, tuple[str, Path]] = {}
 
@@ -70,6 +90,8 @@ def main() -> None:
         return file_refs[key][0]
 
     swifts = sorted(APP.rglob("*.swift"))
+    test_swifts = sorted(TESTS.rglob("*.swift")) if TESTS.exists() else []
+    ui_swifts = sorted(UI_TESTS.rglob("*.swift")) if UI_TESTS.exists() else []
     resource_paths: list[Path] = [
         APP / "Assets.xcassets",
         APP / "PrivacyInfo.xcprivacy",
@@ -80,30 +102,44 @@ def main() -> None:
 
     extras = [APP / "Info.plist", APP / "Configuration" / "Products.storekit"]
 
-    for path in swifts + resource_paths + extras:
+    for path in swifts + test_swifts + ui_swifts + resource_paths + extras:
         ensure_ref(path)
 
-    source_bfs: list[tuple[str, str]] = []
-    for path in swifts:
-        bid = uid()
-        ref = ensure_ref(path)
-        p.add(bid, f"{bid} /* {path.name} in Sources */ = {{isa = PBXBuildFile; fileRef = {ref} /* {path.name} */; }};")
-        source_bfs.append((bid, path.name))
+    storekit_ref = ensure_ref(APP / "Configuration" / "Products.storekit")
 
-    resource_bfs: list[tuple[str, str]] = []
-    for path in resource_paths:
-        bid = uid()
-        ref = ensure_ref(path)
-        p.add(bid, f"{bid} /* {path.name} in Resources */ = {{isa = PBXBuildFile; fileRef = {ref} /* {path.name} */; }};")
-        resource_bfs.append((bid, path.name))
+    def make_build_files(paths: list[Path], comment: str) -> list[tuple[str, str]]:
+        items: list[tuple[str, str]] = []
+        for path in paths:
+            bid = uid()
+            ref = ensure_ref(path)
+            p.add(bid, f"{bid} /* {path.name} in {comment} */ = {{isa = PBXBuildFile; fileRef = {ref} /* {path.name} */; }};")
+            items.append((bid, path.name))
+        return items
+
+    source_bfs = make_build_files(swifts, "Sources")
+    resource_bfs = make_build_files(resource_paths, "Resources")
+    test_source_bfs = make_build_files(test_swifts, "Sources")
+    ui_source_bfs = make_build_files(ui_swifts, "Sources")
+
+    test_storekit_bf = uid()
+    p.add(test_storekit_bf, f"{test_storekit_bf} /* Products.storekit in Resources */ = {{isa = PBXBuildFile; fileRef = {storekit_ref} /* Products.storekit */; }};")
+    ui_storekit_bf = uid()
+    p.add(ui_storekit_bf, f"{ui_storekit_bf} /* Products.storekit in Resources */ = {{isa = PBXBuildFile; fileRef = {storekit_ref} /* Products.storekit */; }};")
 
     p.add(
         app_product,
         f"{app_product} /* AussieStart.app */ = {{isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; }};",
     )
+    p.add(
+        test_product,
+        f'{test_product} /* AussieStartTests.xctest */ = {{isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; }};',
+    )
+    p.add(
+        ui_product,
+        f'{ui_product} /* AussieStartUITests.xctest */ = {{isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; }};',
+    )
 
     for _, (ref, path) in file_refs.items():
-        # Quote paths with spaces / special chars
         path_value = path.name
         if any(c in path_value for c in [" ", "+", "-"]) or path_value.endswith(".xcassets"):
             path_literal = f'path = "{path_value}";'
@@ -114,8 +150,6 @@ def main() -> None:
             f'{ref} /* {path.name} */ = {{isa = PBXFileReference; lastKnownFileType = {file_type(path)}; {path_literal} sourceTree = "<group>"; }};',
         )
 
-    group_ids: dict[str, str] = {}
-
     def make_group(name: str, path_name: str | None, child_ids: list[str]) -> str:
         gid = uid()
         children = ",\n".join(f"\t\t\t\t{c}" for c in child_ids)
@@ -125,7 +159,6 @@ def main() -> None:
             gid,
             f"{gid} /* {name} */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n{children}\n\t\t\t);{name_line}{path_line}\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
         )
-        group_ids[name] = gid
         return gid
 
     def refs_for_files(files: list[Path]) -> list[str]:
@@ -137,7 +170,6 @@ def main() -> None:
         return out
 
     def build_dir_group(dir_path: Path, relative_root: Path = APP) -> str:
-        """Recursively build groups mirroring folders."""
         child_ids: list[str] = []
         for child in sorted([p for p in dir_path.iterdir() if p.is_dir() and not p.name.startswith(".")], key=lambda p: p.name):
             if child.suffix == ".xcassets":
@@ -146,7 +178,6 @@ def main() -> None:
                     child_ids.append(file_refs[key][0])
                 continue
             if child.name.endswith(".lproj"):
-                # Localization variant folder
                 lproj_children = refs_for_files(sorted([p for p in child.iterdir() if p.is_file()], key=lambda p: p.name))
                 child_ids.append(make_group(child.name, child.name, lproj_children))
                 continue
@@ -159,7 +190,6 @@ def main() -> None:
                 child_ids.append(file_refs[key][0])
         return make_group(dir_path.name, dir_path.name, child_ids)
 
-    # Build nested groups under AussieStart/
     top_children: list[str] = []
     for child in sorted([p for p in APP.iterdir() if not p.name.startswith(".")], key=lambda p: (not p.is_dir(), p.name)):
         if child.is_dir() and (child.suffix == ".xcassets" or child.name.endswith(".lproj")):
@@ -178,29 +208,75 @@ def main() -> None:
         app_group,
         f"{app_group} /* AussieStart */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n{children}\n\t\t\t);\n\t\t\tpath = AussieStart;\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
     )
-
+    p.add(
+        tests_group,
+        f"{tests_group} /* AussieStartTests */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n"
+        + ",\n".join(f"\t\t\t\t{ensure_ref(path)}" for path in test_swifts)
+        + f"\n\t\t\t);\n\t\t\tpath = AussieStartTests;\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
+    )
+    p.add(
+        ui_tests_group,
+        f"{ui_tests_group} /* AussieStartUITests */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n"
+        + ",\n".join(f"\t\t\t\t{ensure_ref(path)}" for path in ui_swifts)
+        + f"\n\t\t\t);\n\t\t\tpath = AussieStartUITests;\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
+    )
     p.add(
         products_group,
-        f"{products_group} /* Products */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t{app_product} /* AussieStart.app */,\n\t\t\t);\n\t\t\tname = Products;\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
+        f"{products_group} /* Products */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t{app_product} /* AussieStart.app */,\n\t\t\t\t{test_product} /* AussieStartTests.xctest */,\n\t\t\t\t{ui_product} /* AussieStartUITests.xctest */,\n\t\t\t);\n\t\t\tname = Products;\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
     )
     p.add(
         root_group,
-        f"{root_group} = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t{app_group} /* AussieStart */,\n\t\t\t\t{products_group} /* Products */,\n\t\t\t);\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
+        f"{root_group} = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n\t\t\t\t{app_group} /* AussieStart */,\n\t\t\t\t{tests_group} /* AussieStartTests */,\n\t\t\t\t{ui_tests_group} /* AussieStartUITests */,\n\t\t\t\t{products_group} /* Products */,\n\t\t\t);\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
     )
 
-    src_children = ",\n".join(f"\t\t\t\t{bid} /* {name} in Sources */" for bid, name in source_bfs)
-    p.add(
-        sources_phase,
-        f"{sources_phase} /* Sources */ = {{\n\t\t\tisa = PBXSourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n{src_children}\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
-    )
+    def sources_phase_body(oid: str, items: list[tuple[str, str]]) -> None:
+        src_children = ",\n".join(f"\t\t\t\t{bid} /* {name} in Sources */" for bid, name in items)
+        p.add(
+            oid,
+            f"{oid} /* Sources */ = {{\n\t\t\tisa = PBXSourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n{src_children}\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
+        )
+
+    def resources_phase_body(oid: str, extra_lines: str) -> None:
+        p.add(
+            oid,
+            f"{oid} /* Resources */ = {{\n\t\t\tisa = PBXResourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n{extra_lines}\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
+        )
+
+    sources_phase_body(sources_phase, source_bfs)
     res_children = ",\n".join(f"\t\t\t\t{bid} /* {name} in Resources */" for bid, name in resource_bfs)
-    p.add(
-        resources_phase,
-        f"{resources_phase} /* Resources */ = {{\n\t\t\tisa = PBXResourcesBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n{res_children}\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
-    )
+    resources_phase_body(resources_phase, res_children)
     p.add(
         frameworks_phase,
         f"{frameworks_phase} /* Frameworks */ = {{\n\t\t\tisa = PBXFrameworksBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
+    )
+    sources_phase_body(test_sources_phase, test_source_bfs)
+    resources_phase_body(test_resources_phase, f"\t\t\t\t{test_storekit_bf} /* Products.storekit in Resources */")
+    p.add(
+        test_frameworks_phase,
+        f"{test_frameworks_phase} /* Frameworks */ = {{\n\t\t\tisa = PBXFrameworksBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
+    )
+    sources_phase_body(ui_sources_phase, ui_source_bfs)
+    resources_phase_body(ui_resources_phase, f"\t\t\t\t{ui_storekit_bf} /* Products.storekit in Resources */")
+    p.add(
+        ui_frameworks_phase,
+        f"{ui_frameworks_phase} /* Frameworks */ = {{\n\t\t\tisa = PBXFrameworksBuildPhase;\n\t\t\tbuildActionMask = 2147483647;\n\t\t\tfiles = (\n\t\t\t);\n\t\t\trunOnlyForDeploymentPostprocessing = 0;\n\t\t}};",
+    )
+
+    p.add(
+        test_proxy,
+        f"{test_proxy} /* PBXContainerItemProxy */ = {{\n\t\t\tisa = PBXContainerItemProxy;\n\t\t\tcontainerPortal = {project_id} /* Project object */;\n\t\t\tproxyType = 1;\n\t\t\tremoteGlobalIDString = {app_target};\n\t\t\tremoteInfo = AussieStart;\n\t\t}};",
+    )
+    p.add(
+        ui_proxy,
+        f"{ui_proxy} /* PBXContainerItemProxy */ = {{\n\t\t\tisa = PBXContainerItemProxy;\n\t\t\tcontainerPortal = {project_id} /* Project object */;\n\t\t\tproxyType = 1;\n\t\t\tremoteGlobalIDString = {app_target};\n\t\t\tremoteInfo = AussieStart;\n\t\t}};",
+    )
+    p.add(
+        test_dep,
+        f"{test_dep} /* PBXTargetDependency */ = {{\n\t\t\tisa = PBXTargetDependency;\n\t\t\ttarget = {app_target} /* AussieStart */;\n\t\t\ttargetProxy = {test_proxy} /* PBXContainerItemProxy */;\n\t\t}};",
+    )
+    p.add(
+        ui_dep,
+        f"{ui_dep} /* PBXTargetDependency */ = {{\n\t\t\tisa = PBXTargetDependency;\n\t\t\ttarget = {app_target} /* AussieStart */;\n\t\t\ttargetProxy = {ui_proxy} /* PBXContainerItemProxy */;\n\t\t}};",
     )
 
     p.add(
@@ -221,6 +297,48 @@ def main() -> None:
 			productName = AussieStart;
 			productReference = {app_product} /* AussieStart.app */;
 			productType = "com.apple.product-type.application";
+		}};""",
+    )
+    p.add(
+        test_target,
+        f"""{test_target} /* AussieStartTests */ = {{
+			isa = PBXNativeTarget;
+			buildConfigurationList = {test_configs} /* Build configuration list for PBXNativeTarget "AussieStartTests" */;
+			buildPhases = (
+				{test_sources_phase} /* Sources */,
+				{test_frameworks_phase} /* Frameworks */,
+				{test_resources_phase} /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				{test_dep} /* PBXTargetDependency */,
+			);
+			name = AussieStartTests;
+			productName = AussieStartTests;
+			productReference = {test_product} /* AussieStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		}};""",
+    )
+    p.add(
+        ui_target,
+        f"""{ui_target} /* AussieStartUITests */ = {{
+			isa = PBXNativeTarget;
+			buildConfigurationList = {ui_configs} /* Build configuration list for PBXNativeTarget "AussieStartUITests" */;
+			buildPhases = (
+				{ui_sources_phase} /* Sources */,
+				{ui_frameworks_phase} /* Frameworks */,
+				{ui_resources_phase} /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				{ui_dep} /* PBXTargetDependency */,
+			);
+			name = AussieStartUITests;
+			productName = AussieStartUITests;
+			productReference = {ui_product} /* AussieStartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		}};""",
     )
 
@@ -281,10 +399,12 @@ def main() -> None:
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AussieStart/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = AussieStart;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,10 +414,11 @@ def main() -> None:
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_STRICT_CONCURRENCY = targeted;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 """
     p.add(
         app_debug,
@@ -308,6 +429,55 @@ def main() -> None:
         f"{app_release} /* Release */ = {{\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {{{app_settings}\t\t\t}};\n\t\t\tname = Release;\n\t\t}};",
     )
 
+    test_settings = """
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6757XQF27Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AussieStart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AussieStart";
+"""
+    p.add(
+        test_debug,
+        f"{test_debug} /* Debug */ = {{\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {{{test_settings}\t\t\t}};\n\t\t\tname = Debug;\n\t\t}};",
+    )
+    p.add(
+        test_release,
+        f"{test_release} /* Release */ = {{\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {{{test_settings}\t\t\t}};\n\t\t\tname = Release;\n\t\t}};",
+    )
+
+    ui_settings = """
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6757XQF27Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AussieStart;
+"""
+    p.add(
+        ui_debug,
+        f"{ui_debug} /* Debug */ = {{\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {{{ui_settings}\t\t\t}};\n\t\t\tname = Debug;\n\t\t}};",
+    )
+    p.add(
+        ui_release,
+        f"{ui_release} /* Release */ = {{\n\t\t\tisa = XCBuildConfiguration;\n\t\t\tbuildSettings = {{{ui_settings}\t\t\t}};\n\t\t\tname = Release;\n\t\t}};",
+    )
+
     p.add(
         project_configs,
         f'{project_configs} /* Build configuration list for PBXProject "AussieStart" */ = {{\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t{proj_debug} /* Debug */,\n\t\t\t\t{proj_release} /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t}};',
@@ -315,6 +485,14 @@ def main() -> None:
     p.add(
         app_configs,
         f'{app_configs} /* Build configuration list for PBXNativeTarget "AussieStart" */ = {{\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t{app_debug} /* Debug */,\n\t\t\t\t{app_release} /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t}};',
+    )
+    p.add(
+        test_configs,
+        f'{test_configs} /* Build configuration list for PBXNativeTarget "AussieStartTests" */ = {{\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t{test_debug} /* Debug */,\n\t\t\t\t{test_release} /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t}};',
+    )
+    p.add(
+        ui_configs,
+        f'{ui_configs} /* Build configuration list for PBXNativeTarget "AussieStartUITests" */ = {{\n\t\t\tisa = XCConfigurationList;\n\t\t\tbuildConfigurations = (\n\t\t\t\t{ui_debug} /* Debug */,\n\t\t\t\t{ui_release} /* Release */,\n\t\t\t);\n\t\t\tdefaultConfigurationIsVisible = 0;\n\t\t\tdefaultConfigurationName = Release;\n\t\t}};',
     )
 
     p.add(
@@ -329,6 +507,16 @@ def main() -> None:
 					{app_target} = {{
 						CreatedOnToolsVersion = 16.0;
 						DevelopmentTeam = 6757XQF27Y;
+					}};
+					{test_target} = {{
+						CreatedOnToolsVersion = 16.0;
+						DevelopmentTeam = 6757XQF27Y;
+						TestTargetID = {app_target};
+					}};
+					{ui_target} = {{
+						CreatedOnToolsVersion = 16.0;
+						DevelopmentTeam = 6757XQF27Y;
+						TestTargetID = {app_target};
 					}};
 				}};
 			}};
@@ -348,12 +536,15 @@ def main() -> None:
 			projectRoot = "";
 			targets = (
 				{app_target} /* AussieStart */,
+				{test_target} /* AussieStartTests */,
+				{ui_target} /* AussieStartUITests */,
 			);
 		}};""",
     )
 
     sections = {
         "PBXBuildFile": [],
+        "PBXContainerItemProxy": [],
         "PBXFileReference": [],
         "PBXFrameworksBuildPhase": [],
         "PBXGroup": [],
@@ -361,6 +552,7 @@ def main() -> None:
         "PBXProject": [],
         "PBXResourcesBuildPhase": [],
         "PBXSourcesBuildPhase": [],
+        "PBXTargetDependency": [],
         "XCBuildConfiguration": [],
         "XCConfigurationList": [],
     }
@@ -368,6 +560,8 @@ def main() -> None:
     for body in p.objects.values():
         if "isa = PBXBuildFile" in body:
             sections["PBXBuildFile"].append(body)
+        elif "isa = PBXContainerItemProxy" in body:
+            sections["PBXContainerItemProxy"].append(body)
         elif "isa = PBXFileReference" in body:
             sections["PBXFileReference"].append(body)
         elif "isa = PBXGroup" in body:
@@ -382,6 +576,8 @@ def main() -> None:
             sections["PBXNativeTarget"].append(body)
         elif "isa = PBXProject" in body:
             sections["PBXProject"].append(body)
+        elif "isa = PBXTargetDependency" in body:
+            sections["PBXTargetDependency"].append(body)
         elif "isa = XCBuildConfiguration" in body:
             sections["XCBuildConfiguration"].append(body)
         elif "isa = XCConfigurationList" in body:
@@ -449,6 +645,22 @@ def main() -> None:
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "{test_target}"
+               BuildableName = "AussieStartTests.xctest"
+               BlueprintName = "AussieStartTests"
+               ReferencedContainer = "container:AussieStart.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <StoreKitConfigurationFileReference
+         identifier = "../AussieStart/Configuration/Products.storekit">
+      </StoreKitConfigurationFileReference>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -492,7 +704,7 @@ def main() -> None:
 """
     )
     print(f"Wrote {proj_dir}/project.pbxproj")
-    print(f"Sources: {len(source_bfs)}, Resources: {len(resource_bfs)}")
+    print(f"Sources: {len(source_bfs)}, Resources: {len(resource_bfs)}, Tests: {len(test_source_bfs)}, UITests: {len(ui_source_bfs)}")
 
 
 if __name__ == "__main__":

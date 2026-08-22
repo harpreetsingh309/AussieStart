@@ -1,0 +1,23 @@
+{
+  "name": "aussiestart-legal",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-19",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "../legal",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "routes": [
+    {
+      "pattern": "rhksolutions.com.au/aussiestart*",
+      "zone_name": "rhksolutions.com.au"
+    },
+    {
+      "pattern": "www.rhksolutions.com.au/aussiestart*",
+      "zone_name": "rhksolutions.com.au"
+    }
+  ]
+}

@@ -28,8 +28,10 @@ struct PaywallView: View {
             .navigationTitle(preferences.t("pro.title"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button(preferences.t("common.close")) { dismiss() }
+                if AppStoreScreenshotScene.current != .paywall {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button(preferences.t("common.close")) { dismiss() }
+                    }
                 }
             }
             .task { await store.refresh() }
