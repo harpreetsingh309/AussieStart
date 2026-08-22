@@ -43,27 +43,41 @@ struct SplashView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [AppTheme.brandNavy, AppTheme.brandGreen.opacity(0.85), AppTheme.brandNavy],
+                colors: [AppTheme.brandNavy, AppTheme.brandGreenFixed.opacity(0.88), AppTheme.brandNavy],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
             .ignoresSafeArea()
 
-            VStack(spacing: 16) {
-                Image(systemName: "map.fill")
-                    .font(.system(size: 56, weight: .semibold))
-                    .foregroundStyle(AppTheme.brandGold)
-                    .scaleEffect(appear ? 1 : 0.7)
-                    .opacity(appear ? 1 : 0)
+            VStack(spacing: 20) {
+                Spacer()
 
-                Text(preferences.t("app.name"))
-                    .font(AppTheme.titleFont)
-                    .foregroundStyle(.white)
+                ZStack {
+                    Circle()
+                        .fill(.white.opacity(0.12))
+                        .frame(width: 112, height: 112)
+                    Image(systemName: "leaf.fill")
+                        .font(.system(size: 48, weight: .semibold))
+                        .foregroundStyle(AppTheme.brandGold)
+                        .scaleEffect(appear ? 1 : 0.72)
+                        .opacity(appear ? 1 : 0)
+                }
 
-                Text(preferences.t("app.tagline"))
-                    .font(.callout)
-                    .foregroundStyle(.white.opacity(0.85))
-                    .opacity(appear ? 1 : 0)
+                VStack(spacing: 10) {
+                    Text(preferences.t("app.name"))
+                        .font(.system(.largeTitle, design: .rounded).weight(.bold))
+                        .foregroundStyle(.white)
+
+                    Text(preferences.t("app.tagline"))
+                        .font(.body.weight(.medium))
+                        .foregroundStyle(.white.opacity(0.88))
+                        .multilineTextAlignment(.center)
+                        .opacity(appear ? 1 : 0)
+                }
+                .padding(.horizontal, 28)
+
+                Spacer()
+                Spacer()
             }
         }
         .onAppear {
@@ -106,5 +120,7 @@ struct MainTabView: View {
                 .tabItem { Label(preferences.t("tab.settings"), systemImage: "gearshape.fill") }
                 .tag(4)
         }
+        .toolbarBackground(.ultraThinMaterial, for: .tabBar)
+        .toolbarBackground(.visible, for: .tabBar)
     }
 }

@@ -60,16 +60,27 @@ struct OnboardingFlowView: View {
     }
 
     private var welcome: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        VStack(alignment: .leading, spacing: 0) {
             Spacer()
-            Text("🇦🇺")
-                .font(.system(size: 56))
-            Text(t("onboarding.welcome_title"))
-                .font(AppTheme.titleFont)
-                .foregroundStyle(AppTheme.title)
-            Text(t("onboarding.welcome_body"))
-                .font(.body)
-                .foregroundStyle(.secondary)
+
+            VStack(alignment: .leading, spacing: 18) {
+                Text("🇦🇺")
+                    .font(.system(size: 52))
+
+                Text(t("onboarding.welcome_title"))
+                    .font(AppTheme.titleFont)
+                    .foregroundStyle(.white)
+
+                Text(t("onboarding.welcome_body"))
+                    .font(.body)
+                    .foregroundStyle(.white.opacity(0.88))
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(24)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(AppTheme.heroGradient, in: RoundedRectangle(cornerRadius: AppTheme.Layout.heroRadius, style: .continuous))
+            .modifier(CardShadow(radius: 12, y: 6))
+
             Spacer()
         }
         .frame(maxWidth: .infinity, alignment: .leading)

@@ -21,15 +21,17 @@ struct JourneyView: View {
                 HStack(spacing: 16) {
                     ProgressRing(progress: ratio)
                         .frame(width: 72, height: 72)
-                    VStack(alignment: .leading, spacing: 6) {
+                    VStack(alignment: .leading, spacing: 8) {
                         Text(preferences.t("journey.completed", doneCount, days.count))
                             .font(.headline)
                         Text(preferences.t("journey.subtitle", preferences.state.localizedName(for: preferences.language)))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
+                        SegmentedProgressBar(progress: ratio)
                     }
                 }
                 .padding(.vertical, 4)
+                .listRowBackground(AppTheme.mist.opacity(0.5))
             }
 
             ForEach(grouped(days), id: \.week) { group in

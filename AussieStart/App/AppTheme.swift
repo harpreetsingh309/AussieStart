@@ -23,10 +23,83 @@ enum AppTheme {
     static let titleFont = Font.system(.largeTitle, design: .rounded).weight(.bold)
     static let headlineFont = Font.system(.title2, design: .rounded).weight(.semibold)
     static let bodyFont = Font.system(.body, design: .default)
+    static let sectionLabelFont = Font.system(.caption, design: .rounded).weight(.semibold)
 
     /// Kept for splash / hero gradients that intentionally stay dark.
     static let brandNavy = Color(hex: "0B1F33")
     static let brandGreenFixed = Color(hex: "0B6E4F")
+
+    enum Layout {
+        static let sectionSpacing: CGFloat = 24
+        static let cardRadius: CGFloat = 20
+        static let heroRadius: CGFloat = 24
+        static let chipRadius: CGFloat = 12
+        static let cardPadding: CGFloat = 16
+    }
+
+    static var heroGradient: LinearGradient {
+        LinearGradient(
+            colors: [brandNavy, brandGreenFixed.opacity(0.92), Color(hex: "134E4A")],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
+    }
+}
+
+struct CardShadow: ViewModifier {
+    var radius: CGFloat = 12
+    var y: CGFloat = 6
+
+    func body(content: Content) -> some View {
+        content
+            .shadow(color: .black.opacity(0.07), radius: radius, x: 0, y: y)
+    }
+}
+
+struct PageBackground: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .background {
+                LinearGradient(
+                    colors: [AppTheme.sand.opacity(0.9), AppTheme.page, AppTheme.page],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+                .ignoresSafeArea()
+            }
+    }
+}
+
+extension View {
+    func elevatedCard(_ cornerRadius: CGFloat = AppTheme.Layout.cardRadius) -> some View {
+        softCard(cornerRadius).modifier(CardShadow())
+    }
+
+    func pageBackground() -> some View {
+        modifier(PageBackground())
+    }
+}
+
+struct GlassCardBackground: ViewModifier {
+    var cornerRadius: CGFloat = AppTheme.Layout.cardRadius
+
+    func body(content: Content) -> some View {
+        content
+            .background {
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .fill(.ultraThinMaterial)
+                    .overlay {
+                        RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                            .strokeBorder(.white.opacity(0.22), lineWidth: 0.5)
+                    }
+            }
+    }
+}
+
+extension View {
+    func glassCard(_ cornerRadius: CGFloat = AppTheme.Layout.cardRadius) -> some View {
+        modifier(GlassCardBackground(cornerRadius: cornerRadius))
+    }
 }
 
 extension Color {

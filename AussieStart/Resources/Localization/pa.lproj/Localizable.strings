@@ -32,6 +32,13 @@
 
 /* Home */
 "home.settling_in" = "%@ ਵਿੱਚ ਵਸਣਾ";
+"home.hero_tagline" = "ਆਸਟ੍ਰੇਲੀਆ ਵਿੱਚ ਤੁਹਾਡੇ ਪਹਿਲੇ ਹਫ਼ਤੇ, ਸਧਾਰਨ ਭਾਸ਼ਾ ਵਿੱਚ।";
+"home.section_topics" = "ਵਿਸ਼ੇ";
+"home.section_recommended" = "ਸਿਫ਼ਾਰਸ਼";
+"home.section_explore" = "ਖੋਜ";
+"home.section_guides" = "ਗਾਈਡ";
+"home.section_reading" = "ਪੜ੍ਹਨਾ";
+"home.journey_week" = "ਹਫ਼ਤਾ %d";
 "home.todays_tip" = "ਅੱਜ ਦੀ ਸਲਾਹ";
 "home.read_guide" = "ਗਾਈਡ ਪੜ੍ਹੋ";
 "home.quick_topics" = "ਤੇਜ਼ ਵਿਸ਼ੇ";

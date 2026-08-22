@@ -32,6 +32,13 @@
 
 /* Home */
 "home.settling_in" = "Settling in %@";
+"home.hero_tagline" = "Your first weeks in Australia, explained simply.";
+"home.section_topics" = "Topics";
+"home.section_recommended" = "Recommended";
+"home.section_explore" = "Explore";
+"home.section_guides" = "Guides";
+"home.section_reading" = "Reading";
+"home.journey_week" = "Week %d";
 "home.todays_tip" = "Today's tip";
 "home.read_guide" = "Read guide";
 "home.quick_topics" = "Quick topics";

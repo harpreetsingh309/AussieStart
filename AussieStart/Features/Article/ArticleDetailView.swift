@@ -121,14 +121,7 @@ struct ArticleDetailView: View {
         }
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(
-            LinearGradient(
-                colors: [article.category.tint.opacity(0.16), AppTheme.card],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            ),
-            in: RoundedRectangle(cornerRadius: 20, style: .continuous)
-        )
+        .glassCard(AppTheme.Layout.cardRadius)
     }
 
     private func metaChip(symbol: String, text: String) -> some View {

@@ -32,6 +32,13 @@
 
 /* Home */
 "home.settling_in" = "%@ में बसना";
+"home.hero_tagline" = "ऑस्ट्रेलिया में आपके पहले हफ़्ते, सरल भाषा में।";
+"home.section_topics" = "विषय";
+"home.section_recommended" = "अनुशंसित";
+"home.section_explore" = "खोजें";
+"home.section_guides" = "गाइड";
+"home.section_reading" = "पढ़ना";
+"home.journey_week" = "सप्ताह %d";
 "home.todays_tip" = "आज की सलाह";
 "home.read_guide" = "गाइड पढ़ें";
 "home.quick_topics" = "त्वरित विषय";

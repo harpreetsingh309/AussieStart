@@ -22,6 +22,7 @@ struct CategoriesView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     VStack(alignment: .leading, spacing: 6) {
+                        SectionLabel(text: preferences.t("home.section_topics"))
                         Text(preferences.t("topics.browse"))
                             .font(.system(.title2, design: .rounded).weight(.bold))
                             .foregroundStyle(AppTheme.title)
@@ -50,14 +51,7 @@ struct CategoriesView: View {
                 }
                 .padding()
             }
-            .background {
-                LinearGradient(
-                    colors: [AppTheme.mist.opacity(0.55), AppTheme.page],
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
-                .ignoresSafeArea()
-            }
+            .pageBackground()
             .navigationTitle(preferences.t("topics.title"))
             .onAppear { appear = true }
         }

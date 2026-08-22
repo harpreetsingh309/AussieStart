@@ -9,16 +9,29 @@ struct HomeView: View {
     private var articles: ArticleRepository { ArticleRepository() }
     private var progress: ProgressRepository { ProgressRepository(context: modelContext) }
 
+    private var journeyStats: (completed: Int, total: Int, ratio: Double, week: Int) {
+        let days = articles.catalog.journey
+            .filter { $0.applies(to: preferences.persona) }
+            .sorted { $0.day < $1.day }
+        let done = progress.completedDayIDs()
+        let completed = days.filter { done.contains($0.id) }.count
+        let total = max(days.count, 1)
+        let ratio = Double(completed) / Double(total)
+        let currentWeek = days.first(where: { !done.contains($0.id) })?.week ?? days.last?.week ?? 1
+        return (completed, total, ratio, currentWeek)
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 22) {
-                    greeting
+                VStack(alignment: .leading, spacing: AppTheme.Layout.sectionSpacing) {
+                    hero
+                    HomeSearchBar()
+                    journeyCard
                     tipCard
                     forYou
                     quickTopics
                     destinations
-                    journeyCard
                     continueReading
                     popular
                     emergency
@@ -26,119 +39,131 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .background {
-                LinearGradient(
-                    colors: [AppTheme.sand.opacity(0.85), AppTheme.page, AppTheme.page],
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
-                .ignoresSafeArea()
-            }
-            .navigationTitle("AussieStart")
+            .pageBackground()
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 
-    private var greeting: some View {
-        HStack(alignment: .top, spacing: 14) {
-            VStack(alignment: .leading, spacing: 8) {
-                Text(greetingText)
-                    .font(.system(.title, design: .rounded).weight(.bold))
-                    .foregroundStyle(AppTheme.title)
-                Text(preferences.t("home.settling_in", preferences.state.localizedName(for: preferences.language)))
-                    .font(.subheadline.weight(.medium))
-                    .foregroundStyle(.secondary)
+    private var hero: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack(alignment: .top) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(greetingText)
+                        .font(.system(.title, design: .rounded).weight(.bold))
+                        .foregroundStyle(.white)
+                    Text(preferences.t("home.settling_in", preferences.state.localizedName(for: preferences.language)))
+                        .font(.subheadline.weight(.medium))
+                        .foregroundStyle(.white.opacity(0.88))
+                }
+                Spacer(minLength: 0)
                 Text(preferences.persona.localizedName(for: preferences.language))
-                    .font(.caption.weight(.semibold))
+                    .font(.caption.weight(.bold))
                     .foregroundStyle(AppTheme.brandGreen)
                     .padding(.horizontal, 10)
-                    .padding(.vertical, 5)
-                    .background(AppTheme.mist, in: Capsule())
+                    .padding(.vertical, 6)
+                    .background(.white.opacity(0.92), in: Capsule())
             }
-            Spacer(minLength: 0)
-            ZStack {
-                Circle()
-                    .fill(
-                        LinearGradient(
-                            colors: [AppTheme.brandGreen, AppTheme.brandNavy],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        )
-                    )
-                    .frame(width: 56, height: 56)
-                Image(systemName: "leaf.fill")
-                    .font(.title2)
-                    .foregroundStyle(.white)
+
+            Text(preferences.t("home.hero_tagline"))
+                .font(.title3.weight(.semibold))
+                .foregroundStyle(.white.opacity(0.95))
+                .fixedSize(horizontal: false, vertical: true)
+
+            let stats = journeyStats
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Text(preferences.t("home.milestones_completed", stats.completed, stats.total))
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.white.opacity(0.85))
+                    Spacer(minLength: 0)
+                    Text(preferences.t("home.journey_week", stats.week))
+                        .font(.caption2.weight(.bold))
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(.white.opacity(0.18), in: Capsule())
+                }
+                SegmentedProgressBar(progress: stats.ratio, style: .onDark)
             }
+            .padding(.top, 4)
         }
-        .padding(18)
-        .softCard(22)
+        .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background {
+            ZStack {
+                AppTheme.heroGradient
+                Circle()
+                    .fill(.white.opacity(0.08))
+                    .frame(width: 140, height: 140)
+                    .offset(x: 120, y: -60)
+                Circle()
+                    .fill(.white.opacity(0.05))
+                    .frame(width: 90, height: 90)
+                    .offset(x: -100, y: 80)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: AppTheme.Layout.heroRadius, style: .continuous))
+        }
+        .modifier(CardShadow(radius: 14, y: 8))
     }
 
     private var tipCard: some View {
         Group {
             if let tip = articles.tipOfTheDay() {
-                VStack(alignment: .leading, spacing: 12) {
-                    Label(preferences.t("home.todays_tip"), systemImage: "lightbulb.fill")
-                        .font(.subheadline.weight(.semibold))
-                        .foregroundStyle(AppTheme.brandGold)
-                    Text(tip.localizedTitle(for: preferences.language))
-                        .font(.system(.title3, design: .rounded).weight(.bold))
+                VStack(alignment: .leading, spacing: 14) {
+                    HStack(spacing: 12) {
+                        Image(systemName: "lightbulb.fill")
+                            .font(.body.weight(.semibold))
+                            .foregroundStyle(.white)
+                            .frame(width: 38, height: 38)
+                            .background(AppTheme.brandGold, in: Circle())
+
+                        VStack(alignment: .leading, spacing: 4) {
+                            SectionLabel(text: preferences.t("home.todays_tip"))
+                            Text(tip.localizedTitle(for: preferences.language))
+                                .font(.system(.headline, design: .rounded).weight(.bold))
+                                .foregroundStyle(AppTheme.title)
+                        }
+                    }
+
                     Text(tip.localizedDescription(for: preferences.language))
                         .font(.subheadline)
-                        .foregroundStyle(.white.opacity(0.88))
+                        .foregroundStyle(.secondary)
                         .fixedSize(horizontal: false, vertical: true)
+
                     if let articleID = tip.articleID {
                         NavigationLink {
                             ArticleDetailView(articleID: articleID)
                         } label: {
-                            Text(preferences.t("home.read_guide"))
-                                .font(.subheadline.weight(.bold))
-                                .padding(.horizontal, 14)
-                                .padding(.vertical, 8)
-                                .background(.white.opacity(0.18), in: Capsule())
+                            PrimaryPillButton(title: preferences.t("home.read_guide"), style: .onLight)
                         }
-                        .padding(.top, 2)
+                        .buttonStyle(.plain)
                     }
                 }
                 .padding(18)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    LinearGradient(
-                        colors: [AppTheme.brandNavy, AppTheme.brandGreenFixed.opacity(0.95)],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    ),
-                    in: RoundedRectangle(cornerRadius: 22, style: .continuous)
-                )
-                .foregroundStyle(.white)
+                .elevatedCard(AppTheme.Layout.cardRadius)
             }
         }
     }
 
     private var quickTopics: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: preferences.t("home.quick_topics"))
+            SectionHeader(title: preferences.t("home.quick_topics"), label: preferences.t("home.section_topics"))
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
                     ForEach(quickCategories) { category in
                         NavigationLink {
                             CategoryDetailView(category: category)
                         } label: {
-                            HStack(spacing: 8) {
-                                Image(systemName: category.symbolName)
-                                Text(category.localizedName(for: preferences.language))
-                                    .fontWeight(.semibold)
-                            }
-                            .font(.subheadline)
-                            .foregroundStyle(category.tint)
-                            .padding(.horizontal, 14)
-                            .padding(.vertical, 10)
-                            .background(category.tint.opacity(0.12), in: Capsule())
+                            QuickTopicChip(
+                                category: category,
+                                title: category.localizedName(for: preferences.language)
+                            )
                         }
                         .buttonStyle(.plain)
                     }
                 }
-                .padding(.vertical, 2)
+                .padding(.vertical, 4)
             }
         }
     }
@@ -154,7 +179,8 @@ struct HomeView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     SectionHeader(
                         title: preferences.t("home.for_you"),
-                        subtitle: preferences.t("home.for_you_subtitle", preferences.persona.localizedName(for: preferences.language))
+                        subtitle: preferences.t("home.for_you_subtitle", preferences.persona.localizedName(for: preferences.language)),
+                        label: preferences.t("home.section_recommended")
                     )
                     ForEach(items.prefix(4)) { article in
                         NavigationLink {
@@ -174,10 +200,11 @@ struct HomeView: View {
         return Group {
             if !items.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
-                    HStack {
+                    HStack(alignment: .bottom) {
                         SectionHeader(
                             title: preferences.t("home.popular_destinations"),
-                            subtitle: preferences.t("home.popular_destinations_subtitle")
+                            subtitle: preferences.t("home.popular_destinations_subtitle"),
+                            label: preferences.t("home.section_explore")
                         )
                         Spacer(minLength: 8)
                         NavigationLink(preferences.t("common.see_all")) {
@@ -188,56 +215,24 @@ struct HomeView: View {
                     }
 
                     ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 12) {
+                        HStack(spacing: 14) {
                             ForEach(items.prefix(6)) { article in
                                 NavigationLink {
                                     ArticleDetailView(articleID: article.id)
                                 } label: {
-                                    VStack(alignment: .leading, spacing: 10) {
-                                        if let hero = (article.images ?? []).first(where: { UIImage(named: $0) != nil }) {
-                                            Image(hero)
-                                                .resizable()
-                                                .scaledToFill()
-                                                .frame(height: 96)
-                                                .frame(maxWidth: .infinity)
-                                                .clipped()
-                                                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-                                        } else {
-                                            Image(systemName: "binoculars.fill")
-                                                .font(.title3.weight(.semibold))
-                                                .foregroundStyle(.white)
-                                                .frame(width: 40, height: 40)
-                                                .background(
-                                                    LinearGradient(
-                                                        colors: [Color(hex: "0E7490"), AppTheme.brandGreenFixed],
-                                                        startPoint: .topLeading,
-                                                        endPoint: .bottomTrailing
-                                                    ),
-                                                    in: RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                                )
-                                        }
-                                        Text(article.localizedTitle(for: preferences.language))
-                                            .font(.headline)
-                                            .foregroundStyle(AppTheme.title)
-                                            .lineLimit(2)
-                                            .multilineTextAlignment(.leading)
-                                        Text(article.localizedSubtitle(for: preferences.language))
-                                            .font(.caption)
-                                            .foregroundStyle(.secondary)
-                                            .lineLimit(3)
-                                            .multilineTextAlignment(.leading)
-                                        Text(preferences.t("common.min_read", article.estimatedReadingMinutes))
-                                            .font(.caption2.weight(.semibold))
-                                            .foregroundStyle(Color(hex: "0E7490"))
-                                    }
-                                    .padding(14)
-                                    .frame(width: 220, alignment: .leading)
-                                    .softCard(18)
+                                    ImageOverlayCard(
+                                        imageName: (article.images ?? []).first(where: { UIImage(named: $0) != nil }),
+                                        fallbackSymbol: "binoculars.fill",
+                                        fallbackColors: [Color(hex: "0E7490"), AppTheme.brandGreenFixed],
+                                        title: article.localizedTitle(for: preferences.language),
+                                        subtitle: article.localizedSubtitle(for: preferences.language),
+                                        footer: preferences.t("common.min_read", article.estimatedReadingMinutes)
+                                    )
                                 }
                                 .buttonStyle(.plain)
                             }
                         }
-                        .padding(.vertical, 2)
+                        .padding(.vertical, 4)
                     }
                 }
             }
@@ -245,37 +240,20 @@ struct HomeView: View {
     }
 
     private var journeyCard: some View {
-        let days = articles.catalog.journey.filter { $0.applies(to: preferences.persona) }
-        let done = progress.completedDayIDs()
-        let completed = days.filter { done.contains($0.id) }.count
-        let total = max(days.count, 1)
-        let ratio = Double(completed) / Double(total)
+        let stats = journeyStats
 
         return NavigationLink {
             JourneyView()
         } label: {
-            HStack(spacing: 16) {
-                ProgressRing(progress: ratio)
-                    .frame(width: 68, height: 68)
-                VStack(alignment: .leading, spacing: 6) {
-                    Text(preferences.t("home.first_30_days"))
-                        .font(.system(.headline, design: .rounded).weight(.bold))
-                        .foregroundStyle(AppTheme.title)
-                    Text(preferences.t("home.milestones_completed", completed, total))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Text(preferences.t("home.continue_roadmap"))
-                        .font(.caption.weight(.medium))
-                        .foregroundStyle(AppTheme.brandGreen)
-                }
-                Spacer(minLength: 0)
-                Image(systemName: "chevron.right")
-                    .foregroundStyle(.tertiary)
-            }
-            .padding(16)
-            .softCard(20)
+            JourneyProgressCard(
+                progress: stats.ratio,
+                completed: stats.completed,
+                total: stats.total,
+                currentWeek: stats.week
+            )
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(preferences.t("home.first_30_days"))
     }
 
     private var continueReading: some View {
@@ -283,7 +261,10 @@ struct HomeView: View {
         return Group {
             if !views.isEmpty {
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: preferences.t("home.continue_reading"))
+                    SectionHeader(
+                        title: preferences.t("home.continue_reading"),
+                        label: preferences.t("home.section_reading")
+                    )
                     ForEach(views, id: \.articleID) { view in
                         if let meta = articles.catalog.articles.first(where: { $0.id == view.articleID }) {
                             NavigationLink {
@@ -301,7 +282,11 @@ struct HomeView: View {
 
     private var popular: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: preferences.t("home.most_popular"), subtitle: preferences.t("home.most_popular_subtitle", preferences.state.shortName))
+            SectionHeader(
+                title: preferences.t("home.most_popular"),
+                subtitle: preferences.t("home.most_popular_subtitle", preferences.state.shortName),
+                label: preferences.t("home.section_guides")
+            )
             ForEach(articles.popular(state: preferences.state, persona: preferences.persona).prefix(5)) { article in
                 NavigationLink {
                     ArticleDetailView(articleID: article.id)
@@ -344,6 +329,7 @@ struct HomeView: View {
                 ),
                 in: RoundedRectangle(cornerRadius: 20, style: .continuous)
             )
+            .modifier(CardShadow(radius: 8, y: 4))
         }
         .buttonStyle(.plain)
     }
