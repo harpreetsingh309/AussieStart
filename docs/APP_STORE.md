@@ -15,12 +15,13 @@ Use this file while creating the app record, in-app purchase, and first 1.0.0 bu
 | Bundle ID | `com.aussiestart.app` |
 | SKU | `aussiestart-ios` |
 | Primary language | English (Australia) |
+| Localisations | English, Simplified Chinese, Traditional Chinese, Arabic, Vietnamese, Punjabi, Italian, Greek, Hindi, Spanish, Nepali |
 | Category | Reference (Lifestyle as secondary if asked) |
 | Age rating | 4+ |
 | Platforms | iPhone and iPad |
 | Minimum OS | iOS 17.0 |
-| Version | 1.0.0 |
-| Build | 1 (`CURRENT_PROJECT_VERSION`) |
+| Version | 1.1.0 |
+| Build | 2 (`CURRENT_PROJECT_VERSION`) |
 | Price | Free, with one paid unlock |
 
 Copyright: © 2026 RHK Solutions PTY LTD
@@ -104,6 +105,45 @@ Create the product **before** submitting the binary. The app looks up this exact
 Family sharing: off (matches the StoreKit config).
 
 Local testing: the AussieStart scheme attaches `Products.storekit` (locale `en_AU`, storefront Australia). Run `AussieStartTests` for load / purchase / restore. On a device, use a Sandbox Apple ID after the product is created in App Store Connect.
+
+---
+
+## What's New (1.1.0)
+
+Paste into App Store Connect → 1.1.0 → What's New in This Version. 4000 character limit; this is well under.
+
+```
+Ten languages, plus English.
+AussieStart now speaks Mandarin, Arabic, Vietnamese, Cantonese, Punjabi, Italian, Greek, Hindi, Spanish and Nepali — the languages most spoken at home in Australia. Guides remain in English except Hindi and Punjabi.
+
+History and Culture.
+Two new guides: the First Peoples of this continent and what Country means, and a plain-language history of Australia covering Federation, Anzac Day, post-war migration and how the country is run — useful if you are studying for the citizenship test.
+
+An Acknowledgement of Country.
+Now part of setting up the app, and shown once to everyone updating.
+
+Saving on the weekly shop.
+A new guide to Flybuys, Everyday Rewards, member pricing and the weekly specials cycle — where the grocery savings actually come from.
+
+Reminders that fit your day.
+Turn on a short daily settlement tip at a time you choose. With Pro, set your own reminder on any checklist task.
+
+Also in this release: a redrawn welcome screen, and fixes to purchase and restore so AussieStart Pro reports clearly when the App Store is unavailable.
+```
+
+### Review notes addendum for 1.1.0
+
+```
+New in 1.1.0:
+- Ten additional interface languages. Change under Settings > Language.
+- Two new free guides under Topics > History & Culture.
+- A new free guide under Topics > Shopping (supermarket rewards).
+- Optional daily tip notification: Settings > Daily tip. Off by default, local only.
+- Pro task reminders: Saved > Checklists > bell icon on any task. Requires the Pro unlock.
+- An Acknowledgement of Country during onboarding and once after updating.
+
+No account, no server, no tracking. All notifications are scheduled locally on device.
+```
 
 ---
 
