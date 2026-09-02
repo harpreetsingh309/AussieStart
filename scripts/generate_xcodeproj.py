@@ -17,6 +17,10 @@ def pbx(value: str) -> str:
     return value if _PBX_BARE.match(value) else '"' + value.replace('"', '\\"') + '"'
 
 
+# Bump these for a release. They are written into every target's build settings.
+MARKETING_VERSION = "1.1.0"
+CURRENT_PROJECT_VERSION = "2"
+
 ROOT = Path(os.environ.get("AUSSIESTART_ROOT", Path(__file__).resolve().parent.parent))
 APP = ROOT / "AussieStart"
 TESTS = ROOT / "AussieStartTests"
@@ -416,7 +420,7 @@ def main() -> None:
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = __CURRENT_PROJECT_VERSION__;
 				DEVELOPMENT_TEAM = 6757XQF27Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -432,7 +436,7 @@ def main() -> None:
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = __MARKETING_VERSION__;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -455,11 +459,11 @@ def main() -> None:
     test_settings = """
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = __CURRENT_PROJECT_VERSION__;
 				DEVELOPMENT_TEAM = 6757XQF27Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = __MARKETING_VERSION__;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -479,11 +483,11 @@ def main() -> None:
 
     ui_settings = """
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = __CURRENT_PROJECT_VERSION__;
 				DEVELOPMENT_TEAM = 6757XQF27Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = __MARKETING_VERSION__;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aussiestart.app.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -630,7 +634,12 @@ def main() -> None:
 
     proj_dir = ROOT / "AussieStart.xcodeproj"
     proj_dir.mkdir(exist_ok=True)
-    (proj_dir / "project.pbxproj").write_text("\n".join(out))
+    project_text = ("\n".join(out)
+                    .replace("__MARKETING_VERSION__", MARKETING_VERSION)
+                    .replace("__CURRENT_PROJECT_VERSION__", CURRENT_PROJECT_VERSION))
+    assert "__MARKETING_VERSION__" not in project_text
+    assert "__CURRENT_PROJECT_VERSION__" not in project_text
+    (proj_dir / "project.pbxproj").write_text(project_text)
 
     scheme_dir = proj_dir / "xcshareddata" / "xcschemes"
     scheme_dir.mkdir(parents=True, exist_ok=True)
