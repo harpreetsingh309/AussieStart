@@ -156,6 +156,7 @@ extension ContentCategory {
         case .explore: "22D3EE"
         case .emergency: "F87171"
         case .students: "818CF8"
+        case .culture: "DDA15E"
         }
     }
 }
