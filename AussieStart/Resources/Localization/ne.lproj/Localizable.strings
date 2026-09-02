@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "अस्ट्रेलियामा तपाईंको सुरुवाती मार्गदर्शक";
+
+/* Tabs */
+"tab.home" = "गृहपृष्ठ";
+"tab.search" = "खोज";
+"tab.topics" = "विषयहरू";
+"tab.saved" = "सुरक्षित";
+"tab.settings" = "सेटिङ";
+
+/* Common */
+"common.continue" = "जारी राख्नुहोस्";
+"common.back" = "पछाडि";
+"common.close" = "बन्द गर्नुहोस्";
+"common.see_all" = "सबै हेर्नुहोस्";
+"common.guides_count" = "%d गाइड";
+"common.coming_soon" = "चाँडै आउँदै";
+"common.min_read" = "%d मिनेटको पढाइ";
+"common.min_category" = "%d मिनेट · %@";
+"common.offline_for_state" = "अफलाइन · %@ का लागि अद्यावधिक";
+"common.available_now" = "अहिले उपलब्ध";
+"common.coming_soon_lang" = "चाँडै आउँदै";
+
+/* Disclaimer */
+"disclaimer.full" = "जानकारीका लागि मात्र — यो कानुनी, आप्रवासन, आर्थिक वा चिकित्सकीय सल्लाह होइन। सधैँ अस्ट्रेलियाली सरकारका आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्।";
+
+/* Greetings */
+"greeting.morning" = "शुभ प्रभात";
+"greeting.afternoon" = "शुभ दिन";
+"greeting.evening" = "शुभ सन्ध्या";
+
+/* Home */
+"home.settling_in" = "%@ मा बसोबास जमाउँदै";
+"home.hero_tagline" = "अस्ट्रेलियामा तपाईंका पहिला हप्ताहरू, सरल भाषामा।";
+"home.section_topics" = "विषयहरू";
+"home.section_recommended" = "सिफारिस गरिएका";
+"home.section_explore" = "घुमफिर";
+"home.section_guides" = "गाइडहरू";
+"home.section_reading" = "पढाइ";
+"home.journey_week" = "हप्ता %d";
+"home.todays_tip" = "आजको सुझाव";
+"home.read_guide" = "गाइड पढ्नुहोस्";
+"home.quick_topics" = "छिटो हेर्ने विषयहरू";
+"home.popular_destinations" = "लोकप्रिय गन्तव्यहरू";
+"home.popular_destinations_subtitle" = "शुल्क, छोटा यात्रा योजना, र बाटोमा रोकिने ठाउँहरू";
+"home.first_30_days" = "पहिलो ३० दिन";
+"home.milestones_completed" = "%d/%d चरण पूरा भए";
+"home.continue_roadmap" = "आफ्नो योजना जारी राख्न ट्याप गर्नुहोस्";
+"home.continue_reading" = "पढाइ जारी राख्नुहोस्";
+"home.most_popular" = "सबैभन्दा लोकप्रिय";
+"home.most_popular_subtitle" = "%@ का लागि यीबाट सुरु गर्नुहोस्";
+"home.emergency_contacts" = "आपतकालीन सम्पर्क";
+"home.emergency_subtitle" = "000 · विष सूचना · SES · healthdirect";
+
+/* Search */
+"search.title" = "खोज";
+"search.prompt" = "गाइड खोज्नुहोस्";
+"search.recent" = "हालैका खोजहरू";
+"search.trending" = "चर्चामा";
+"search.results" = "नतिजा";
+"search.hint" = "“GP”, “TFN”, वा “Myki” खोजेर हेर्नुहोस्";
+"search.empty" = "केही भेटिएन। GP का लागि “डाक्टर” जस्तो मिल्दो शब्द प्रयोग गरी हेर्नुहोस्।";
+
+/* Topics */
+"topics.title" = "विषयहरू";
+"topics.browse" = "विषय अनुसार हेर्नुहोस्";
+"topics.tailored" = "%@ का लागि तयार पारिएका व्यावहारिक गाइडहरू";
+"topics.guides" = "गाइडहरू";
+
+/* Saved */
+"saved.title" = "सुरक्षित";
+"saved.articles" = "सुरक्षित लेखहरू";
+"saved.empty" = "पछि अफलाइन पढ्नका लागि गाइडहरू बुकमार्क गर्नुहोस्।";
+"saved.history" = "इतिहास";
+"saved.history_empty" = "तपाईंले खोल्नुभएका लेखहरू यहाँ देखिनेछन्।";
+"saved.checklists" = "चेकलिस्ट";
+"saved.journey" = "पहिलो ३० दिन";
+
+/* Settings */
+"settings.title" = "सेटिङ";
+"settings.personalisation" = "व्यक्तिगत सेटिङ";
+"settings.language" = "भाषा";
+"settings.state" = "राज्य / क्षेत्र";
+"settings.persona" = "म हुँ";
+"settings.appearance" = "देखावट";
+"settings.theme" = "थिम";
+"settings.theme.system" = "सिस्टम";
+"settings.theme.light" = "उज्यालो";
+"settings.theme.dark" = "अँध्यारो";
+"settings.theme.hint.system" = "तपाईंको iPhone को उज्यालो / अँध्यारो सेटिङसँगै मिल्छ।";
+"settings.theme.hint.light" = "सधैँ उज्यालो पृष्ठभूमि प्रयोग गर्छ।";
+"settings.theme.hint.dark" = "सधैँ अँध्यारो पृष्ठभूमि प्रयोग गर्छ।";
+"settings.offline" = "अफलाइन";
+"settings.content_pack" = "सामग्री प्याक";
+"settings.last_reviewed" = "पछिल्लो पटक जाँचिएको";
+"settings.offline_blurb" = "सबै गाइड, सुझाव र चेकलिस्ट एपभित्रै आउँछन्। खाता वा इन्टरनेट चाहिँदैन।";
+"settings.privacy" = "गोपनीयता";
+"settings.analytics" = "गुमनाम प्रयोग तथ्याङ्क साझा गर्नुहोस् (पूर्वनिर्धारित रूपमा बन्द)";
+"settings.privacy_blurb" = "AussieStart ले बुकमार्क र प्रगति यही डिभाइसमा मात्र राख्छ। लगइन छैन। क्लाउड सिंक छैन।";
+"settings.about" = "बारेमा";
+"settings.about_app" = "AussieStart बारे";
+"settings.replay_onboarding" = "सुरुवाती परिचय फेरि हेर्नुहोस्";
+"settings.language_note" = "मेनु र गाइडका विवरण तपाईंको भाषासँगै बदलिन्छन्। TFN, Myki र Medicare जस्ता आधिकारिक नामहरू अङ्ग्रेजीमै रहन्छन्।";
+
+/* Onboarding */
+"onboarding.welcome_title" = "AussieStart मा स्वागत छ";
+"onboarding.welcome_body" = "नयाँ आप्रवासीहरूका लागि भरपर्दो, अफलाइन बसोबास गाइड — सरल भाषामा, तपाईंको राज्य अनुसार।";
+"onboarding.welcome_line1" = "चिनौँ";
+"onboarding.welcome_line2" = "जीवन";
+"onboarding.welcome_line3" = "अस्ट्रेलियामा";
+"onboarding.welcome_tagline" = "AussieStart ले तपाईंलाई बाटो देखाओस्";
+"onboarding.welcome_cta" = "आफ्नो यात्रा सुरु गर्नुहोस्";
+"onboarding.choose_language" = "आफ्नो भाषा छान्नुहोस्";
+"onboarding.choose_language_subtitle" = "सूचीमा भएका हरेक भाषामा एप पूरै अनुवाद गरिएको छ। छुट्टै उल्लेख नभएसम्म गाइडहरू अङ्ग्रेजीमा छन्।";
+"onboarding.choose_state" = "तपाईं कहाँ बस्नुहुन्छ?";
+"onboarding.choose_state_subtitle" = "यातायात कार्ड, लाइसेन्स र स्थानीय सेवाअनुसार गाइडहरू मिलाइन्छन्।";
+"onboarding.transport_label" = "यातायात: %@";
+"onboarding.choose_persona" = "तपाईं कुन समूहमा पर्नुहुन्छ?";
+"onboarding.choose_persona_subtitle" = "हामी तपाईंको पहिलो ३० दिनको योजनालाई प्राथमिकता दिनेछौँ।";
+"onboarding.roadmap_title" = "तपाईंको व्यक्तिगत योजना";
+"onboarding.roadmap_subtitle" = "%@ का लागि %@ मा बस्ने जीवनका आधारमा।";
+"onboarding.start" = "हेर्न सुरु गर्नुहोस्";
+"onboarding.step" = "परिचय चरण: ६ मध्ये %d";
+"onboarding.day1" = "दिन १";
+"onboarding.day2" = "दिन २";
+"onboarding.day3" = "दिन ३";
+"onboarding.day4" = "दिन ४";
+"onboarding.week2" = "हप्ता २+";
+"onboarding.task_sim" = "स्थानीय SIM र इन्टरनेट लिनुहोस्";
+"onboarding.task_bank" = "बैंक खाता खोल्नुहोस्";
+"onboarding.task_tfn" = "आफ्नो TFN का लागि आवेदन दिनुहोस्";
+"onboarding.task_transport" = "%@ मिलाउनुहोस्";
+"onboarding.task_more" = "घरबास, स्वास्थ्य सेवा र थप";
+
+/* Article / gallery */
+"article.photos" = "तस्बिरहरू";
+"article.destination_photos" = "गन्तव्यका तस्बिरहरू";
+"article.remove_bookmark" = "बुकमार्क हटाउनुहोस्";
+"article.save_bookmark" = "बुकमार्क गर्नुहोस्";
+"article.unavailable_title" = "लेख उपलब्ध छैन";
+"article.unavailable_body" = "यो गाइड अझै अफलाइन प्याकमा छैन।";
+"article.recommended" = "अब यो पढ्नुहोस्";
+"article.recommended_subtitle" = "आफ्नो बसोबासको तयारी अघि बढाइरहनुहोस्";
+"photo.n" = "तस्बिर %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "पहिलो ३० दिन";
+"journey.completed" = "%d/%d पूरा";
+"journey.subtitle" = "%@ मा तपाईंको पहिलो महिनाका लागि व्यावहारिक योजना।";
+"journey.week" = "हप्ता %d";
+"journey.day" = "दिन %d: %@";
+"checklist.title" = "चेकलिस्ट";
+"checklist.done" = "%d/%d सकियो";
+"about.title" = "बारेमा";
+"about.blurb" = "तपाईंको खल्तीमै पूरा अस्ट्रेलिया सुरुवात गाइड — नयाँ आप्रवासीका लागि, डिभाइसमै चल्ने गरी बनाइएको।";
+"about.verify" = "Services Australia, ATO, राज्यका यातायात निकाय र आफ्नो स्थानीय काउन्सिल जस्ता आधिकारिक स्रोतबाट महत्त्वपूर्ण चरणहरू सधैँ पुष्टि गर्नुहोस्।";
+"about.version" = "संस्करण";
+"about.content_reviewed" = "सामग्री जाँचिएको";
+"about.architecture" = "संरचना";
+"emergency.title" = "आपतकाल";
+"emergency.life_threatening" = "ज्यान जोखिममा";
+
+/* Categories */
+"category.arrival" = "आगमन";
+"category.sim" = "SIM कार्ड";
+"category.banking" = "बैंकिङ";
+"category.healthcare" = "स्वास्थ्य सेवा";
+"category.transport" = "यातायात";
+"category.driving" = "गाडी चलाउने";
+"category.taxes" = "कर";
+"category.housing" = "घरबास";
+"category.jobs" = "जागिर";
+"category.shopping" = "किनमेल";
+"category.family" = "परिवार";
+"category.explore" = "घुमफिर";
+"category.emergency" = "आपतकाल";
+"category.students" = "विद्यार्थी";
+
+/* Personas */
+"persona.student" = "विद्यार्थी";
+"persona.worker" = "कामदार / दक्ष आप्रवासी";
+"persona.family" = "पारिवारिक भिसा धारक";
+"persona.tourist" = "पर्यटक / वर्किङ हलिडे";
+"persona.pr" = "स्थायी बासिन्दा";
+"persona.citizen" = "नागरिक";
+
+/* Empty states */
+"empty.no_guides_title" = "अहिलेसम्म कुनै गाइड छैन";
+"empty.no_guides_body" = "%@ सम्बन्धी थप गाइडहरू आउँदो सामग्री अपडेटमा थपिनेछन्।";
+
+/* States */
+"state.vic" = "Victoria";
+"state.nsw" = "New South Wales";
+"state.qld" = "Queensland";
+"state.sa" = "South Australia";
+"state.wa" = "Western Australia";
+"state.tas" = "Tasmania";
+"state.act" = "Australian Capital Territory";
+"state.nt" = "Northern Territory";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "विमानस्थल आगमन चेकलिस्ट";
+"article.arrival-airport.subtitle" = "इमिग्रेसन, झोला, बायोसेक्युरिटी र सहर पुग्ने बाटो";
+"article.sim-setup.title" = "स्थानीय SIM वा eSIM लिनुहोस्";
+"article.sim-setup.subtitle" = "बैंक, डेलिभरी र कोडका लागि स्थानीय नम्बर";
+"article.banking-open-account.title" = "बैंक खाता खोल्नुहोस्";
+"article.banking-open-account.subtitle" = "BSB, डेबिट कार्ड, PayID र Osko का आधारभूत कुरा";
+"article.tfn-apply.title" = "TFN का लागि आवेदन दिनुहोस्";
+"article.tfn-apply.subtitle" = "तनाव नलिईकन Tax File Number (कर फाइल नम्बर)";
+"article.transport-card.title" = "सार्वजनिक यातायात कार्ड";
+"article.transport-card.subtitle" = "Myki, Opal, go card र अन्य राज्यका कार्डहरू";
+"article.medicare-gp.title" = "Medicare र GP भेट्ने तरिका";
+"article.medicare-gp.subtitle" = "bulk billing, फार्मेसी, र 000 कहिले फोन गर्ने";
+"article.housing-rent.title" = "आफ्नो पहिलो डेरा भाडामा लिने";
+"article.housing-rent.subtitle" = "निरीक्षण, बन्ड, लिज र ठगी जाँच";
+"article.jobs-basics.title" = "अस्ट्रेलियाली तरिकाले जागिर खोज्ने";
+"article.jobs-basics.subtitle" = "रिजुमे, Seek, Fair Work र पेस्लिप";
+"article.driving-licence.title" = "गाडी चलाउने र लाइसेन्स सट्ने";
+"article.driving-licence.subtitle" = "सडक नियम, CTP, टोल र विदेशी लाइसेन्स";
+"article.emergency-contacts.title" = "आपतकालीन सम्पर्क";
+"article.emergency-contacts.subtitle" = "000, विष सूचना, SES र सडक सहायता";
+"article.shopping-essentials.title" = "दैनिक आवश्यक सामान किन्ने";
+"article.shopping-essentials.subtitle" = "किराना, फर्निचर, सामान फिर्ता र बिजुलीका प्लग";
+"article.students-oshc.title" = "अन्तर्राष्ट्रिय विद्यार्थीका लागि OSHC";
+"article.students-oshc.subtitle" = "भिसाका लागि चाहिने स्वास्थ्य बिमा, सरल भाषामा";
+"article.family-schools.title" = "बच्चालाई स्कुलमा भर्ना गर्ने";
+"article.family-schools.subtitle" = "क्याचमेन्ट क्षेत्र, कागजात र स्कुलको पहिलो हप्ताको तयारी";
+"article.family-childcare.title" = "बालबालिका हेरचाह र Child Care Subsidy";
+"article.family-childcare.subtitle" = "हेरचाह केन्द्र खोज्ने, प्रतीक्षा सूची र CCS का आधारभूत कुरा";
+"article.family-immunisation.title" = "बच्चाको छुटेको खोप पूरा गर्ने";
+"article.family-immunisation.subtitle" = "स्कुल र चाइल्डकेयर भर्नाका लागि AIR रेकर्ड";
+"article.family-centrelink.title" = "परिवारका लागि Centrelink का आधारभूत कुरा";
+"article.family-centrelink.subtitle" = "myGov, CRN र योग्यता बुझ्ने कुरा";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "शुल्क, १–२ दिनको योजना, र Melbourne बाट समुद्री किनारका रोकाइहरू";
+"article.explore-blue-mountains.title" = "Blue Mountains को एक दिने भ्रमण";
+"article.explore-blue-mountains.subtitle" = "Sydney बाट रेल योजना, भ्यू पोइन्टका शुल्क र गाउँका रोकाइहरू";
+"article.explore-sydney-harbour.title" = "Sydney Harbour का प्रमुख आकर्षण";
+"article.explore-sydney-harbour.subtitle" = "Opera House, फेरी, Manly, र हरेक रोकाइको खर्च";
+"article.explore-gold-coast.title" = "Gold Coast का समुद्री किनार र भित्री पहाडी क्षेत्र";
+"article.explore-gold-coast.subtitle" = "थिम पार्क, Burleigh, र २ दिने योजनाको खर्च";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "क्रुज शुल्क, २–३ दिने योजना, र नजिकका रोकाइहरू";
+"article.explore-uluru.title" = "Uluru र Kata Tjuta";
+"article.explore-uluru.subtitle" = "पार्क शुल्क, सम्मानपूर्वक घुम्ने योजना, र Yulara का सुझाव";
+"article.explore-phillip-island.title" = "Phillip Island का पेन्गुइन";
+"article.explore-phillip-island.subtitle" = "परेड शुल्क, एक दिने योजना, र Melbourne बाटका रोकाइहरू";
+"article.explore-rottnest.title" = "Rottnest Island (Perth)";
+"article.explore-rottnest.subtitle" = "फेरी भाडा, साइकल चढेर घुम्ने एक दिने योजना, र खाडीका रोकाइहरू";
+"article.explore-tasmania-hobart.title" = "Hobart र दक्षिणी Tasmania";
+"article.explore-tasmania-hobart.subtitle" = "MONA, kunanyi, र ३ दिने सप्ताहन्तको खर्च";
+"article.explore-barossa-adelaide.title" = "Adelaide, Glenelg र Barossa";
+"article.explore-barossa-adelaide.subtitle" = "सहर–समुद्र–वाइन सप्ताहन्त, चाख्ने शुल्कसहित";
+
+/* Daily tips */
+"tip.tip-sim.title" = "आजै स्थानीय नम्बर लिनुहोस्";
+"tip.tip-sim.description" = "बैंक र डेलिभरीलाई प्रायः SMS कोड चाहिन्छ। पहिलो दिनै प्रिपेड SIM लिँदा अरू लगभग सबै काम सजिलो हुन्छ।";
+"tip.tip-tfn.title" = "TFN का लागि चाँडै आवेदन दिनुहोस्";
+"tip.tip-tfn.description" = "ढिलो गर्दा पहिलो पेस्लिपहरूमा बढी कर कटौती हुन सक्छ।";
+"tip.tip-000.title" = "सम्झनुहोस्: आपतकालीन नम्बर 000 हो";
+"tip.tip-000.description" = "अस्ट्रेलियामा 911 चल्दैन। फोनमा 000 र आफ्नो घरको ठेगाना सेभ गर्नुहोस्।";
+"tip.tip-bond.title" = "डेरा सर्दा सबै कुराको फोटो खिच्नुहोस्";
+"tip.tip-bond.description" = "कन्डिसन रिपोर्ट र फोटोले तपाईं छाड्दा बन्ड फिर्ता पाउन मद्दत गर्छ।";
+"tip.tip-bulk.title" = "bulk billing छ कि छैन सोध्नुहोस्";
+"tip.tip-bulk.description" = "हरेक GP निःशुल्क हुँदैन। अपोइन्टमेन्ट बुक गर्दै शुल्क सोध्नुहोस्।";
+"tip.tip-explore.title" = "एउटा सप्ताहन्त घुमफिरको योजना बनाउनुहोस्";
+"tip.tip-explore.description" = "SIM, बैंक र यातायात मिलेपछि सजिलो एक दिने भ्रमण बुक गर्नुहोस् — Blue Mountains, Phillip Island वा Glenelg सजिलो सुरुवात हुन्।";
+
+/* Journey days */
+"journey.d1.title" = "SIM र इन्टरनेट";
+"journey.d1.summary" = "स्थानीय SIM/eSIM किन्नुहोस् र मोबाइल डेटा चलेको पक्का गर्नुहोस्।";
+"journey.d2.title" = "बैंक खाता खोल्नुहोस्";
+"journey.d2.summary" = "काम र भाडाका लागि BSB/खाता विवरण तयार राख्नुहोस्।";
+"journey.d3.title" = "TFN का लागि आवेदन";
+"journey.d3.summary" = "स्थानीय ठेगाना र फोन नम्बरसहित Tax File Number को आवेदन सुरु गर्नुहोस्।";
+"journey.d4.title" = "यातायात कार्ड";
+"journey.d4.summary" = "आफ्नो राज्यको सार्वजनिक यातायात कार्ड वा एप मिलाएर पैसा हाल्नुहोस्।";
+"journey.d5.title" = "आपतकालीन तयारी";
+"journey.d5.summary" = "000 र मुख्य सम्पर्क सेभ गर्नुहोस्; आफ्नो ठ्याक्कै ठेगाना थाहा राख्नुहोस्।";
+"journey.d8.title" = "घर खोजी";
+"journey.d8.summary" = "उपयुक्त उपनगर छान्नुहोस्, निरीक्षण बुक गर्नुहोस्, आवेदनका कागजात तयार पार्नुहोस्।";
+"journey.d10.title" = "आवश्यक सामानको किनमेल";
+"journey.d10.summary" = "पहिलो केही हप्ताका लागि चाहिने कुरा मात्र किन्नुहोस्।";
+"journey.d15.title" = "स्वास्थ्य सेवाको तयारी";
+"journey.d15.summary" = "Medicare/OSHC जाँच्नुहोस् र नजिकैको GP खोज्नुहोस्।";
+"journey.d18.title" = "जागिरका लागि तयार";
+"journey.d18.summary" = "अस्ट्रेलियाली शैलीको रिजुमे + Seek/LinkedIn अलर्ट।";
+"journey.d25.title" = "ड्राइभिङ जाँच";
+"journey.d25.summary" = "कार किन्नु वा चलाउनुअघि लाइसेन्सका नियम पक्का गर्नुहोस्।";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "पहिलो हप्ताका अत्यावश्यक काम";
+"checklist.checklist-first-week.subtitle" = "अवतरणपछि अनिवार्य गर्नुपर्ने सूची";
+"task.task-sim.title" = "स्थानीय SIM/eSIM किनेर सक्रिय गर्नुहोस्";
+"task.task-bank.title" = "ट्रान्ज्याक्सन बैंक खाता खोल्नुहोस्";
+"task.task-tfn.title" = "TFN आवेदन पेस गर्नुहोस्";
+"task.task-transport.title" = "सार्वजनिक यातायात कार्ड मिलाउनुहोस्";
+"task.task-emergency.title" = "आपतकालीन सम्पर्क सेभ गर्नुहोस्";
+"checklist.checklist-home.title" = "घरको तयारी";
+"checklist.checklist-home.subtitle" = "डेरा भाडामा लिने र बसोबास मिलाउने";
+"task.task-rent-docs.title" = "भाडा आवेदनका कागजात तयार पार्नुहोस्";
+"task.task-shop.title" = "पहिलो हप्ताका घरायसी सामान किन्नुहोस्";
+"task.task-gp.title" = "GP खोज्नुहोस् / स्वास्थ्य बिमा पक्का गर्नुहोस्";
+"task.task-resume.title" = "अस्ट्रेलियाली रोजगारदाताका लागि रिजुमे अद्यावधिक गर्नुहोस्";
+"task.task-licence.title" = "विदेशी लाइसेन्स मान्य छ कि छैन जाँच्नुहोस्";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero (000)";
+"emergency.triple-zero.detail" = "प्रहरी, दमकल, एम्बुलेन्स — ज्यान जोखिममा पर्ने आपतकालमा मात्र।";
+"emergency.poisons.name" = "विष सूचना केन्द्र (Poisons Information)";
+"emergency.poisons.detail" = "विष सेवन भएको वा शङ्का लागेको अवस्थामा २४/७ सल्लाह।";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "आपतकाल नभएका स्वास्थ्य प्रश्नका लागि नर्सद्वारा दिइने २४/७ सल्लाह।";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "बाढी, आँधी र त्यस्तै सहायताका लागि State Emergency Service।";
+
+/* Extra UI */
+"checklist.open_guide" = "गाइड खोल्नुहोस्";
+"settings.aus_gov" = "अस्ट्रेलियाली सरकार";
+"common.min" = "%d मिनेट";
+"common.progress_percent" = "प्रगति %d प्रतिशत";
+
+/* Home extras */
+"home.for_you" = "तपाईंका लागि";
+"home.for_you_subtitle" = "पहिला हप्ताहरूमा %@ का लागि प्राथमिकतामा";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC, भिसाअनुसार काम गर्ने घण्टा, र घरबास";
+"onboarding.task_more_family" = "स्कुल, स्वास्थ्य सेवा र घरबास";
+"onboarding.task_more_tourist" = "यातायात, सुरक्षा र सप्ताहन्तका भ्रमण";
+
+/* Article actions */
+"article.share" = "यो गाइड सेयर गर्नुहोस्";
+"article.mark_done" = "यो चरण पूरा भयो भनी चिन्ह लगाउनुहोस्";
+"article.completed" = "पूरा भयो";
+"article.mark_done_hint" = "मिल्दो चेकलिस्ट र पहिलो ३० दिनका आइटममा पनि टिक लाग्छ";
+
+/* Emergency */
+"emergency.call" = "%@ लाई %@ मा फोन गर्नुहोस्";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "अत्यावश्यक बसोबास गाइडहरू खोल्नुहोस्";
+"pro.subtitle" = "एक पटकको किनमेल · %@ · सबै सामग्री यही iPhone मा अफलाइन राख्नुहोस्";
+"pro.benefit_guides" = "निजी स्वास्थ्य बिमाको प्रतीक्षा अवधि, OVHC, टोल, कार बिमाका प्रकार, एम्बुलेन्स कभर, साथै Medicare दर्ता, ImmiAccount, कर, PPSR, myGov र थप धेरै।";
+"pro.benefit_offline" = "गाइडहरू तपाईंकै फोनमा रहन्छन्। खाता चाहिँदैन। हामी तपाईंका लागि सरकारी साइटमा कहिल्यै लगइन गर्दैनौँ।";
+"pro.benefit_persona" = "तपाईंको गृहपृष्ठ र पहिलो ३० दिन पहिल्यै विद्यार्थी, कामदार, परिवार वा भ्रमणकर्ता अनुसार छानिन्छ।";
+"pro.legal" = "AussieStart सरकारी एप होइन र अस्ट्रेलियाली सरकारसँग सम्बन्धित छैन। किनमेल Apple मार्फत हुन्छ। जानकारीका लागि मात्र — हामी तपाईंको तर्फबाट भिसा, कर, Medicare, myGov वा बन्ड दर्ता गर्दैनौँ।";
+"pro.buy" = "Pro खोल्नुहोस् · %@";
+"pro.restore" = "किनमेल पुनःस्थापित गर्नुहोस्";
+"pro.unlock_cta" = "AussieStart Pro खोल्नुहोस्";
+"pro.unlock_this" = "यो गाइड Pro मा समावेश छ: %@";
+"pro.locked_title" = "यो अत्यावश्यक गाइड AussieStart Pro को भाग हो";
+"pro.active" = "यो Apple ID मा Pro खुलिसकेको छ";
+"pro.settings_blurb" = "Pro एक पटक खोल्ने हो। उही Apple ID मा फेरि इन्स्टल गर्दा वा iPhone बदल्दा पुनःस्थापित गर्नुहोस्।";
+
+/* Privacy */
+"privacy.title" = "गोपनीयता नीति";
+"privacy.updated" = "पछिल्लो अद्यावधिक: १७ अगस्ट २०२६";
+"privacy.collect_title" = "हामी के राख्छौँ";
+"privacy.collect_body" = "AussieStart लाई खाता चाहिँदैन। बुकमार्क, पढाइको इतिहास, खोजको इतिहास, चेकलिस्टका टिक र पहिलो ३० दिनको प्रगति यही डिभाइसमा रहन्छ। तपाईंको बसोबाससम्बन्धी डेटा लिने कुनै सर्भर हामी चलाउँदैनौँ।";
+"privacy.purchases_title" = "किनमेल";
+"privacy.purchases_body" = "तपाईंले AussieStart Pro किन्नुभयो भने भुक्तानी Apple ले प्रक्रिया गर्छ। Pro गाइड खुलोस् भनेर यो डिभाइसमा App Store को अनुमति मात्र आउँछ। तपाईंको कार्ड नम्बर हामीकहाँ आउँदैन।";
+"privacy.notgov_title" = "यो सरकारी सेवा होइन";
+"privacy.notgov_body" = "AussieStart एउटा स्वतन्त्र सूचनामूलक एप हो। हामी भिसा, myGov, TFN, Medicare, Centrelink, लाइसेन्स वा बन्ड हेर्न, बदल्न वा तिनका लागि आवेदन दिन सक्दैनौँ। ती कामका लागि सधैँ आधिकारिक .gov.au वेबसाइट प्रयोग गर्नुहोस्।";
+"privacy.contact_title" = "प्रश्नहरू";
+"privacy.contact_body" = "सामग्री सच्याउन एप प्रकाशित भएपछि App Store सूचीमा दिइएको सम्पर्क प्रयोग गर्नुहोस्। महत्त्वपूर्ण चरणहरू अस्ट्रेलियाली सरकारका आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्।";
+
+/* New article titles */
+"article.mygov-basics.title" = "myGov सेटअप गर्नुहोस् (आधिकारिक तरिकाले)";
+"article.mygov-basics.subtitle" = "मानिसहरूले सामान्यतया myGov खाता कसरी बनाउँछन् र सुरक्षित राख्छन्";
+"article.scams-safety.title" = "भाडा, जागिर र myGov सम्बन्धी ठगी चिन्नुहोस्";
+"article.scams-safety.subtitle" = "पैसा पठाउनु वा कोड दिनुअघि एक छिन रोकिनुहोस्";
+"article.visa-work-rights.title" = "आफ्नो भिसाको काम गर्ने अधिकार जाँच्नुहोस्";
+"article.visa-work-rights.subtitle" = "आधिकारिक VEVO प्रयोग गर्नुहोस् — AussieStart ले भिसा हेर्न सक्दैन";
+"article.super-basics.title" = "पहिलो जागिरमा Superannuation";
+"article.super-basics.subtitle" = "पेस्लिपको super लाइनको अर्थ के हो";
+"article.utilities-connect.title" = "बिजुली, ग्यास र इन्टरनेट जोड्नुहोस्";
+"article.utilities-connect.subtitle" = "रिटेलर, मिटर र NBN — दर्ता तपाईं आफैँले गर्नुपर्छ";
+"article.rental-bond.title" = "भाडाको बन्ड आधिकारिक तरिकाले जम्मा गर्नुहोस्";
+"article.rental-bond.subtitle" = "राज्यका बन्ड निकायमा — कहिल्यै कसैको व्यक्तिगत खातामा होइन";
+"article.first-month-budget.title" = "पहिलो महिनाको खर्च चेकलिस्ट";
+"article.first-month-budget.subtitle" = "SIM, बन्ड, खाना र यातायात — योजना बनाउने सूची";
+"article.abn-contracting.title" = "ABN र कर्मचारी — यी दुई नमिसाउनुहोस्";
+"article.abn-contracting.subtitle" = "ABN कहिले साँच्चै चाहिन्छ, र कहिले चाहिँदैन";
+
+"tip.tip-scam.title" = "व्यक्तिगत च्याटमा बन्ड कहिल्यै नपठाउनुहोस्";
+"tip.tip-scam.description" = "साँचो बन्ड राज्यको निकायमा जम्मा हुन्छ। WhatsApp मा कसैले पहिले पैसा पठाउन भन्छ भने रोकिनुहोस्।";
+"tip.tip-mygov.title" = "my.gov.au मात्र प्रयोग गर्नुहोस्";
+"tip.tip-mygov.description" = "मिल्दोजुल्दो नक्कली साइटले कोड चोर्छन्। ठेगाना आफैँ टाइप गर्नुहोस् र त्यो .gov.au मै सकिएको जाँच्नुहोस्।";
+
+"journey.d6.title" = "myGov खाता";
+"journey.d6.summary" = "myGov आधिकारिक साइटमा मात्र बनाउनुहोस् — हामी तपाईंको तर्फबाट कहिल्यै लगइन गर्दैनौँ।";
+"journey.d7.title" = "ठगी जाँच";
+"journey.d7.summary" = "कसैलाई पैसा दिनुअघि भाडा, जागिर र नक्कली सरकारी ठगीका ढाँचा बुझ्नुहोस्।";
+"journey.d12.title" = "बिजुली र इन्टरनेट";
+"journey.d12.summary" = "लिज पक्का भएपछि बिजुली र इन्टरनेट आफ्नै नाममा जोड्नुहोस्।";
+"journey.d20.title" = "Super र पेस्लिप";
+"journey.d20.summary" = "पहिलो पेस्लिपको super लाइन पढ्नुहोस् र फन्डमा आफ्नो TFN राख्नुहोस्।";
+
+"checklist.checklist-work.title" = "काम गर्न तयार हुने थप कुरा";
+"checklist.checklist-work.subtitle" = "अधिकार, super र ठेक्का काम — जानकारीका लागि मात्र";
+"task.task-scam.title" = "ठगी चिन्ने गाइड पढ्नुहोस्";
+"task.task-mygov.title" = "आधिकारिक साइटमा myGov बनाउनुहोस् (ATO/Medicare चाहिएमा)";
+"task.task-utilities.title" = "बिजुली / इन्टरनेट मिलाउनुहोस्";
+"task.task-bond.title" = "राज्यको निकायमा बन्ड जम्मा गर्नुहोस्";
+"task.task-visa-rights.title" = "आधिकारिक VEVO मा कामका सर्त जाँच्नुहोस्";
+"task.task-super.title" = "पेस्लिपमा super लाइन खोज्नुहोस्";
+"task.task-budget.title" = "पहिलो महिनाको खर्च सूची लेख्नुहोस्";
+"task.task-abn.title" = "ABN लिनुअघि तपाईं कर्मचारी हो कि होइन पक्का गर्नुहोस्";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "आधिकारिक साइटमा Medicare दर्ता गर्नुहोस्";
+"article.medicare-enrol.subtitle" = "योग्यता, myGov र सेवा केन्द्र — हामी तपाईंलाई दर्ता गर्दैनौँ";
+"article.student-concession.title" = "विद्यार्थी यातायात छुट";
+"article.student-concession.subtitle" = "आफ्नो राज्यको निकायमा आवेदन दिनुहोस् — यो एपबाट होइन";
+"article.tax-return-basics.title" = "पहिलो कर विवरण बुझाउनुहोस् (ATO)";
+"article.tax-return-basics.subtitle" = "आधिकारिक myTax / एजेन्टको बाटो — AussieStart ले दाखिला गर्दैन";
+"article.choose-suburb.title" = "आधिकारिक नक्सा हेरेर उपनगर छान्नुहोस्";
+"article.choose-suburb.subtitle" = "यात्रा समय, स्कुल र जोखिम — Instagram का सूची होइन";
+"article.inspection-condition-report.title" = "डेरा सर्दाको निरीक्षण र कन्डिसन रिपोर्ट";
+"article.inspection-condition-report.subtitle" = "तपाईंको बन्ड जोगाउने आधिकारिक फारम र फोटो";
+"article.used-car-ppsr.title" = "पुरानो कारको जाँच (PPSR)";
+"article.used-car-ppsr.subtitle" = "पैसा तिर्नुअघि सरकारी दर्ता, नामसारी र CTP";
+"article.contents-insurance.title" = "भाडामा बस्नेका लागि कन्टेन्ट्स बिमा";
+"article.contents-insurance.subtitle" = "Moneysmart प्रयोग गरी तुलना गर्ने तरिका — हामी बिमा बेच्दैनौँ";
+"article.library-council.title" = "पुस्तकालय कार्ड र तपाईंको स्थानीय काउन्सिल";
+"article.library-council.subtitle" = "निःशुल्क Wi-Fi, फोहोरका डब्बा र AMEP — आधिकारिक काउन्सिल साइटबाट";
+"article.visa-immiaccount.title" = "ImmiAccount मार्फत भिसा आवेदन";
+"article.visa-immiaccount.subtitle" = "आधिकारिक Home Affairs पोर्टल — हामी भिसा दर्ता गर्न सक्दैनौँ";
+"article.police-check-wwcc.title" = "प्रहरी जाँच र बालबालिकासँग काम गर्ने अनुमति";
+"article.police-check-wwcc.subtitle" = "AFP र राज्यका पोर्टल मात्र — हामी तपाईंको परिचयपत्र कहिल्यै लिँदैनौँ";
+"article.centrelink-claim-start.title" = "Centrelink को दाबी आधिकारिक तरिकाले सुरु गर्नुहोस्";
+"article.centrelink-claim-start.subtitle" = "Payment finder र myGov — हामी तपाईंका लागि दाबी गर्न सक्दैनौँ";
+
+"tip.tip-ppsr.title" = "कार किन्नुअघि PPSR खोज्नुहोस्";
+"tip.tip-ppsr.description" = "सरकारी दर्ता भनेको ppsr.gov.au मात्र हो। अरू VIN साइटहरू ऐच्छिक थप मात्र हुन्।";
+"tip.tip-immi.title" = "ImmiAccount भनेको online.immi.gov.au हो";
+"tip.tip-immi.description" = "भिसा आवेदन Home Affairs पोर्टलमै हुन्छ। पासपोर्टको स्क्यान माग्ने WhatsApp एजेन्टलाई बेवास्ता गर्नुहोस्।";
+
+"journey.d9.title" = "उपनगर र निरीक्षण";
+"journey.d9.summary" = "बन्ड तिर्नुअघि आधिकारिक नक्सा र कन्डिसन रिपोर्टका फारम प्रयोग गर्नुहोस्।";
+"journey.d11.title" = "पुस्तकालय र काउन्सिल";
+"journey.d11.summary" = "पुस्तकालय कार्ड लिनुहोस् र आफ्नो काउन्सिलको आधिकारिक साइट खोज्नुहोस्।";
+"journey.d14.title" = "Medicare दर्ता";
+"journey.d14.summary" = "योग्य हुनुहुन्छ भने servicesaustralia.gov.au / myGov मा मात्र दर्ता गर्नुहोस्।";
+"journey.d16.title" = "विद्यार्थी छुट";
+"journey.d16.summary" = "आफ्नो राज्यको यातायात साइटमा सस्तो भाडाका लागि आवेदन दिनुहोस्।";
+"journey.d22.title" = "करका कागजात";
+"journey.d22.summary" = "३० जुनपछि ATO साइटको myTax का लागि पेस्लिप तयार राख्नुहोस्।";
+"journey.d26.title" = "कार किन्ने जाँच";
+"journey.d26.summary" = "पुरानो कारको पैसा तिर्नुअघि PPSR र राज्यको नामसारी पृष्ठ हेर्नुहोस्।";
+
+"checklist.checklist-pro-official.title" = "आधिकारिक साइट चेकलिस्ट (Pro)";
+"checklist.checklist-pro-official.subtitle" = "यी कामहरू .gov.au मा गर्नुहोस् — AussieStart ले फारम बुझाउँदैन";
+"task.task-medicare-enrol.title" = "Services Australia मा Medicare योग्यता जाँच्नुहोस्";
+"task.task-concession.title" = "राज्यको यातायात साइटमा विद्यार्थी छुटका लागि आवेदन दिनुहोस्";
+"task.task-tax-return.title" = "ATO मा कर बुझाउने पृष्ठ बुकमार्क गर्नुहोस् / पेस्लिप जोगाउनुहोस्";
+"task.task-suburb.title" = "आधिकारिक नक्सा प्रयोग गरी उपनगर छान्नुहोस्";
+"task.task-inspection.title" = "फोटोसहित आधिकारिक कन्डिसन रिपोर्ट पूरा गर्नुहोस्";
+"task.task-ppsr.title" = "पुरानो कार किन्नुअघि PPSR खोज्नुहोस्";
+"task.task-library.title" = "काउन्सिलको साइटबाट स्थानीय पुस्तकालयमा जोडिनुहोस्";
+"task.task-immi.title" = "Home Affairs को ImmiAccount / VEVO मात्र प्रयोग गर्नुहोस्";
+"task.task-wwcc.title" = "जागिरलाई चाहिन्छ भने आधिकारिक पोर्टलबाट प्रहरी/WWCC जाँचका लागि आवेदन दिनुहोस्";
+"task.task-centrelink-claim.title" = "दाबी गर्न सकिन्छ भन्ने ठान्नुअघि Payment finder प्रयोग गर्नुहोस्";
+
+"pro.reminders" = "पहिलो ३० दिनका रिमाइन्डर";
+"pro.reminders_blurb" = "हप्ता १–४ मा ऐच्छिक स्थानीय सूचनाहरू। ती यही iPhone मै रहन्छन्। जुनसुकै बेला बन्द गर्न सकिन्छ।";
+"pro.benefit_reminders" = "आफ्नो पहिलो ३० दिनको सूची सेयर वा प्रिन्ट गर्नुहोस्, साथै यही डिभाइसमा ऐच्छिक साप्ताहिक रिमाइन्डर।";
+"journey.share" = "पहिलो ३० दिन सेयर गर्नुहोस्";
+"journey.share_pro" = "पहिलो ३० दिन सेयर गर्न Pro खोल्नुहोस्";
+"journey.share_header" = "AussieStart पहिलो ३० दिन — %@";
+
+"reminder.week1.title" = "हप्ता १ — SIM, बैंक, TFN";
+"reminder.week1.body" = "AussieStart खोलेर पहिलो हप्ताका चरणमा टिक लगाउनुहोस्। आवेदनका लागि आधिकारिक .gov.au साइट प्रयोग गर्नुहोस्।";
+"reminder.week2.title" = "हप्ता २ — घरबास र स्वास्थ्य सेवा";
+"reminder.week2.body" = "निरीक्षण, Medicare वा OSHC, र काउन्सिलको पुस्तकालय कार्ड दोस्रो हप्ताका सामान्य काम हुन्।";
+"reminder.week3.title" = "हप्ता ३ — काम र पढाइका थप कुरा";
+"reminder.week3.body" = "VEVO मा भिसाको काम गर्ने अधिकार र राज्यको यातायात साइटमा विद्यार्थी छुट जाँच्नुहोस्।";
+"reminder.week4.title" = "हप्ता ४ — पैसा र कागजात";
+"reminder.week4.body" = "ATO का लागि पेस्लिप जोगाउनुहोस्, र पुरानो कार किन्नुअघि PPSR प्रयोग गर्नुहोस्।";
+
+"article.private-health-waiting.title" = "निजी स्वास्थ्य बिमा र प्रतीक्षा अवधि";
+"article.private-health-waiting.subtitle" = "अस्पताल कभर र extras — हामी बिमा बेच्दैनौँ";
+"article.ovhc-visitors.title" = "भ्रमणकर्ता र अस्थायी भिसाका लागि OVHC";
+"article.ovhc-visitors.subtitle" = "यो Medicare होइन, OSHC पनि होइन — आफ्नो भिसा पत्र हेर्नुहोस्";
+"article.tolls-linkt.title" = "टोल सडक, Linkt र e-TAG";
+"article.tolls-linkt.subtitle" = "गाडी चलाउनुअघि मिलाउनुहोस् — विशेष गरी भाडाका कारमा";
+"article.car-insurance-types.title" = "CTP र comprehensive कार बिमा";
+"article.car-insurance-types.subtitle" = "चोटपटकको कभर र कार मर्मत एउटै कुरा होइन";
+"article.ambulance-cover.title" = "राज्य अनुसार एम्बुलेन्स कभर";
+"article.ambulance-cover.subtitle" = "सधैँ 000 मा फोन गर्नुहोस् — यात्राको पैसा तपाईं कहाँ बस्नुहुन्छ भन्नेमा भर पर्छ";
+
+"tip.tip-toll.title" = "भाडाको कार लिनुअघि टोल मिलाउनुहोस्";
+"tip.tip-toll.description" = "टोल नतिरेका यात्रामा थप शुल्क थपिन्छ। आफ्नो राज्यको .gov.au टोल पृष्ठ हेर्नुहोस्, अनि त्यहाँ उल्लेख भएको सञ्चालकसँग मात्र जानुहोस्।";
+"tip.tip-ambulance.title" = "पहिले 000 मा फोन गर्नुहोस् — अनि एम्बुलेन्स बिल हेर्नुहोस्";
+"tip.tip-ambulance.description" = "फोन गर्न निःशुल्क छ। यात्राको पैसा कसले तिर्छ भन्ने तपाईंको राज्यमा भर पर्छ। healthdirect.gov.au पढ्नुहोस्।";
+
+"journey.d13.title" = "एम्बुलेन्स कभर";
+"journey.d13.summary" = "सधैँ 000 मा फोन गर्नुहोस्। अनि तपाईंको राज्यले यात्राको बिल गर्छ कि गर्दैन जाँच्नुहोस्।";
+"journey.d17.title" = "भ्रमणकर्ता स्वास्थ्य कभर (OVHC)";
+"journey.d17.summary" = "भिसाले OVHC मागेको छ भने बिमा कम्पनीको आधिकारिक साइटबाट किन्नुहोस् — WhatsApp बाट होइन।";
+"journey.d19.title" = "निजी स्वास्थ्य बिमाको प्रतीक्षा अवधि";
+"journey.d19.summary" = "अस्पताल कभर किन्नुअघि privatehealth.gov.au मा प्रतीक्षा अवधि पढ्नुहोस्।";
+"journey.d21.title" = "टोल र ट्याग";
+"journey.d21.summary" = "भाडाको कार वा नयाँ मोटरवेमा गाडी चलाउनुअघि टोल खाता खोल्नुहोस्।";
+"journey.d24.title" = "कार बिमाका प्रकार";
+"journey.d24.summary" = "CTP भनेको comprehensive होइन। आफ्नै कार चलाउनुअघि Moneysmart पढ्नुहोस्।";
+
+"task.task-private-health.title" = "privatehealth.gov.au मा निजी स्वास्थ्य बिमाको प्रतीक्षा अवधि पढ्नुहोस्";
+"task.task-ovhc.title" = "आफ्नो भिसालाई OVHC चाहिन्छ कि चाहिँदैन जाँच्नुहोस्";
+"task.task-tolls.title" = "भाडाको कार चलाउनुअघि टोल खाता खोल्नुहोस्";
+"task.task-car-insurance.title" = "गाडी चलाउनुअघि CTP र comprehensive बिचको फरक बुझ्नुहोस्";
+"task.task-ambulance.title" = "आफ्नो राज्यको एम्बुलेन्स बिलिङ नियम जाँच्नुहोस्";
+
+/* Language readiness */
+"common.guides_translated" = "एप र गाइड अनुवादित";
+"common.guides_in_english" = "एप अनुवादित · गाइड अङ्ग्रेजीमा";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "भूमिप्रतिको सम्मान (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "हामी अस्ट्रेलियाभरिका भूमि र जलका परम्परागत भूमिधनी (Traditional Owners) प्रति सम्मान व्यक्त गर्दछौँ, र यस भूमि, जल, आकाश तथा तिनसँग जोडिएका सम्बन्धहरू (Country), संस्कृति एवं समुदायसँगको उहाँहरूको निरन्तर नाताको कदर गर्दछौँ। विगत र वर्तमानका आदरणीय अग्रजहरू (Elders) प्रति हामी नतमस्तक छौँ।";
+"onboarding.acknowledgement_note" = "Aboriginal र Torres Strait Islander जनजातिहरूले ६०,००० भन्दा बढी वर्षदेखि यस महादेशको हेरचाह गर्दै आएका छन् — आ-आफ्नै भाषा र कानुन भएका सयौँ राष्ट्रहरूमा फैलिएर। अस्ट्रेलियाभरि बैठक, कक्षा र कार्यक्रमको सुरुमा तपाईंले यस्तै सम्मानका शब्दहरू सुन्नुहुनेछ। जो कसैले पनि यसो भन्न सक्छ।";
+"onboarding.acknowledgement_learn" = "इतिहास र संस्कृतिमा थप जान्नुहोस्";
+
+/* History & Culture category */
+"category.culture" = "इतिहास र संस्कृति";
+
+/* New guides */
+"article.shopping-rewards.title" = "सुपरमार्केटका रिवार्ड र किरानामा बचत";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards, र साप्ताहिक स्पेसलको चक्र";
+"article.first-nations-country.title" = "प्रथम जनजाति र भूमिसँगको नाता (Country)";
+"article.first-nations-country.subtitle" = "Aboriginal र Torres Strait Islander संस्कृति, र सम्मान कसरी देखाउने";
+"article.australia-history.title" = "अस्ट्रेलियाली इतिहासका आधारभूत कुरा";
+"article.australia-history.subtitle" = "Federation, Anzac Day, आप्रवासन, र देश कसरी चल्छ";

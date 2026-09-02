@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "Cẩm nang khởi đầu cuộc sống ở Úc";
+
+/* Tabs */
+"tab.home" = "Trang chủ";
+"tab.search" = "Tìm kiếm";
+"tab.topics" = "Chủ đề";
+"tab.saved" = "Đã lưu";
+"tab.settings" = "Cài đặt";
+
+/* Common */
+"common.continue" = "Tiếp tục";
+"common.back" = "Quay lại";
+"common.close" = "Đóng";
+"common.see_all" = "Xem tất cả";
+"common.guides_count" = "%d bài hướng dẫn";
+"common.coming_soon" = "Sắp có";
+"common.min_read" = "Đọc %d phút";
+"common.min_category" = "%d phút · %@";
+"common.offline_for_state" = "Ngoại tuyến · cập nhật cho %@";
+"common.available_now" = "Đã có";
+"common.coming_soon_lang" = "Sắp có";
+
+/* Disclaimer */
+"disclaimer.full" = "Chỉ mang tính tham khảo — không phải tư vấn pháp lý, di trú, tài chính hay y tế. Hãy luôn kiểm chứng với các nguồn chính thức của Chính phủ Úc.";
+
+/* Greetings */
+"greeting.morning" = "Chào buổi sáng";
+"greeting.afternoon" = "Chào buổi chiều";
+"greeting.evening" = "Chào buổi tối";
+
+/* Home */
+"home.settling_in" = "Ổn định cuộc sống ở %@";
+"home.hero_tagline" = "Những tuần đầu ở Úc, giải thích thật đơn giản.";
+"home.section_topics" = "Chủ đề";
+"home.section_recommended" = "Gợi ý cho bạn";
+"home.section_explore" = "Khám phá";
+"home.section_guides" = "Bài hướng dẫn";
+"home.section_reading" = "Đang đọc";
+"home.journey_week" = "Tuần %d";
+"home.todays_tip" = "Mẹo hôm nay";
+"home.read_guide" = "Đọc bài hướng dẫn";
+"home.quick_topics" = "Chủ đề nhanh";
+"home.popular_destinations" = "Điểm đến được yêu thích";
+"home.popular_destinations_subtitle" = "Chi phí, lịch trình ngắn và các điểm dừng dọc đường";
+"home.first_30_days" = "30 Ngày Đầu Tiên";
+"home.milestones_completed" = "Đã hoàn thành %d/%d cột mốc";
+"home.continue_roadmap" = "Chạm để tiếp tục lộ trình của bạn";
+"home.continue_reading" = "Đọc tiếp";
+"home.most_popular" = "Phổ biến nhất";
+"home.most_popular_subtitle" = "Hãy bắt đầu với những bài này cho %@";
+"home.emergency_contacts" = "Liên hệ khẩn cấp";
+"home.emergency_subtitle" = "000 · Ngộ độc · SES · healthdirect";
+
+/* Search */
+"search.title" = "Tìm kiếm";
+"search.prompt" = "Tìm bài hướng dẫn";
+"search.recent" = "Tìm kiếm gần đây";
+"search.trending" = "Đang được quan tâm";
+"search.results" = "Kết quả";
+"search.hint" = "Thử “GP”, “TFN” hoặc “Myki”";
+"search.empty" = "Không có kết quả nào. Thử một từ đồng nghĩa, ví dụ “bác sĩ” thay cho GP.";
+
+/* Topics */
+"topics.title" = "Chủ đề";
+"topics.browse" = "Duyệt theo chủ đề";
+"topics.tailored" = "Hướng dẫn thiết thực dành riêng cho %@";
+"topics.guides" = "Bài hướng dẫn";
+
+/* Saved */
+"saved.title" = "Đã lưu";
+"saved.articles" = "Bài đã lưu";
+"saved.empty" = "Đánh dấu các bài hướng dẫn để đọc ngoại tuyến sau này.";
+"saved.history" = "Lịch sử";
+"saved.history_empty" = "Những bài bạn mở sẽ hiện ra ở đây.";
+"saved.checklists" = "Danh sách việc cần làm";
+"saved.journey" = "30 Ngày Đầu Tiên";
+
+/* Settings */
+"settings.title" = "Cài đặt";
+"settings.personalisation" = "Cá nhân hoá";
+"settings.language" = "Ngôn ngữ";
+"settings.state" = "Bang / Vùng lãnh thổ";
+"settings.persona" = "Tôi là";
+"settings.appearance" = "Giao diện";
+"settings.theme" = "Chủ đề màu";
+"settings.theme.system" = "Theo hệ thống";
+"settings.theme.light" = "Sáng";
+"settings.theme.dark" = "Tối";
+"settings.theme.hint.system" = "Theo cài đặt Sáng / Tối trên iPhone của bạn.";
+"settings.theme.hint.light" = "Luôn dùng nền sáng.";
+"settings.theme.hint.dark" = "Luôn dùng nền tối.";
+"settings.offline" = "Ngoại tuyến";
+"settings.content_pack" = "Gói nội dung";
+"settings.last_reviewed" = "Lần rà soát gần nhất";
+"settings.offline_blurb" = "Toàn bộ bài hướng dẫn, mẹo và danh sách việc cần làm đều nằm sẵn trong ứng dụng. Không cần tài khoản, cũng không cần internet.";
+"settings.privacy" = "Quyền riêng tư";
+"settings.analytics" = "Chia sẻ dữ liệu sử dụng ẩn danh (mặc định tắt)";
+"settings.privacy_blurb" = "AussieStart chỉ lưu dấu trang và tiến độ trên thiết bị này. Không đăng nhập. Không đồng bộ lên đám mây.";
+"settings.about" = "Giới thiệu";
+"settings.about_app" = "Giới thiệu về AussieStart";
+"settings.replay_onboarding" = "Xem lại phần giới thiệu ban đầu";
+"settings.language_note" = "Menu và phần mô tả bài hướng dẫn sẽ đổi theo ngôn ngữ bạn chọn. Các tên gọi chính thức như TFN, Myki và Medicare vẫn giữ nguyên tiếng Anh.";
+
+/* Onboarding */
+"onboarding.welcome_title" = "Chào mừng bạn đến với AussieStart";
+"onboarding.welcome_body" = "Hướng dẫn định cư đáng tin cậy, dùng được ngoại tuyến, dành cho người mới nhập cư — viết bằng ngôn ngữ dễ hiểu và phù hợp với bang của bạn.";
+"onboarding.welcome_line1" = "Khám phá";
+"onboarding.welcome_line2" = "cuộc sống ở";
+"onboarding.welcome_line3" = "nước Úc";
+"onboarding.welcome_tagline" = "Hãy để AussieStart dẫn đường cho bạn";
+"onboarding.welcome_cta" = "Bắt đầu hành trình";
+"onboarding.choose_language" = "Chọn ngôn ngữ của bạn";
+"onboarding.choose_language_subtitle" = "Ứng dụng được dịch đầy đủ sang mọi ngôn ngữ trong danh sách. Các bài hướng dẫn bằng tiếng Anh, trừ nơi có ghi chú khác.";
+"onboarding.choose_state" = "Bạn sẽ sống ở đâu?";
+"onboarding.choose_state_subtitle" = "Nội dung sẽ tự điều chỉnh theo thẻ giao thông, bằng lái và dịch vụ ở địa phương bạn.";
+"onboarding.transport_label" = "Giao thông: %@";
+"onboarding.choose_persona" = "Điều gì mô tả đúng về bạn?";
+"onboarding.choose_persona_subtitle" = "Chúng tôi sẽ sắp xếp ưu tiên cho lộ trình 30 Ngày Đầu Tiên của bạn.";
+"onboarding.roadmap_title" = "Lộ trình riêng của bạn";
+"onboarding.roadmap_subtitle" = "Dựa trên cuộc sống của %@ tại %@.";
+"onboarding.start" = "Bắt đầu khám phá";
+"onboarding.step" = "Bước %d trên 6 của phần giới thiệu";
+"onboarding.day1" = "Ngày 1";
+"onboarding.day2" = "Ngày 2";
+"onboarding.day3" = "Ngày 3";
+"onboarding.day4" = "Ngày 4";
+"onboarding.week2" = "Tuần 2 trở đi";
+"onboarding.task_sim" = "Mua SIM nội địa và kết nối internet";
+"onboarding.task_bank" = "Mở tài khoản ngân hàng";
+"onboarding.task_tfn" = "Xin cấp TFN";
+"onboarding.task_transport" = "Thiết lập %@";
+"onboarding.task_more" = "Nhà ở, y tế và nhiều việc khác";
+
+/* Article / gallery */
+"article.photos" = "Hình ảnh";
+"article.destination_photos" = "Hình ảnh điểm đến";
+"article.remove_bookmark" = "Bỏ dấu trang";
+"article.save_bookmark" = "Lưu dấu trang";
+"article.unavailable_title" = "Chưa có bài này";
+"article.unavailable_body" = "Bài hướng dẫn này chưa có trong gói nội dung ngoại tuyến.";
+"article.recommended" = "Nên đọc tiếp";
+"article.recommended_subtitle" = "Tiếp tục hành trình ổn định cuộc sống của bạn";
+"photo.n" = "Ảnh %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "30 Ngày Đầu Tiên";
+"journey.completed" = "Đã xong %d/%d";
+"journey.subtitle" = "Lộ trình thiết thực cho tháng đầu tiên của bạn ở %@.";
+"journey.week" = "Tuần %d";
+"journey.day" = "Ngày %d: %@";
+"checklist.title" = "Danh sách việc cần làm";
+"checklist.done" = "Đã xong %d/%d";
+"about.title" = "Giới thiệu";
+"about.blurb" = "Cẩm nang khởi đầu cuộc sống ở Úc đầy đủ, gọn trong túi bạn — làm ra cho người mới nhập cư, ưu tiên dùng được ngay cả khi không có mạng.";
+"about.verify" = "Hãy luôn kiểm chứng những bước quan trọng với các nguồn chính thức như Services Australia, ATO, cơ quan giao thông của bang và hội đồng địa phương (council) nơi bạn ở.";
+"about.version" = "Phiên bản";
+"about.content_reviewed" = "Nội dung được rà soát";
+"about.architecture" = "Kiến trúc";
+"emergency.title" = "Khẩn cấp";
+"emergency.life_threatening" = "NGUY HIỂM ĐẾN TÍNH MẠNG";
+
+/* Categories */
+"category.arrival" = "Nhập cảnh";
+"category.sim" = "Thẻ SIM";
+"category.banking" = "Ngân hàng";
+"category.healthcare" = "Y tế";
+"category.transport" = "Giao thông";
+"category.driving" = "Lái xe";
+"category.taxes" = "Thuế";
+"category.housing" = "Nhà ở";
+"category.jobs" = "Việc làm";
+"category.shopping" = "Mua sắm";
+"category.family" = "Gia đình";
+"category.explore" = "Khám phá";
+"category.emergency" = "Khẩn cấp";
+"category.students" = "Du học sinh";
+
+/* Personas */
+"persona.student" = "Du học sinh";
+"persona.worker" = "Người đi làm / Di dân tay nghề";
+"persona.family" = "Người có visa gia đình";
+"persona.tourist" = "Du khách / Working holiday";
+"persona.pr" = "Thường trú nhân";
+"persona.citizen" = "Công dân Úc";
+
+/* Empty states */
+"empty.no_guides_title" = "Chưa có bài hướng dẫn nào";
+"empty.no_guides_body" = "Sẽ có thêm bài hướng dẫn về %@ trong lần cập nhật nội dung tới.";
+
+/* States */
+"state.vic" = "Victoria";
+"state.nsw" = "New South Wales";
+"state.qld" = "Queensland";
+"state.sa" = "South Australia";
+"state.wa" = "Western Australia";
+"state.tas" = "Tasmania";
+"state.act" = "Australian Capital Territory";
+"state.nt" = "Northern Territory";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "Danh sách việc cần làm khi tới sân bay";
+"article.arrival-airport.subtitle" = "Nhập cảnh, hành lý, kiểm dịch sinh học và cách đi vào thành phố";
+"article.sim-setup.title" = "Mua SIM hoặc eSIM nội địa";
+"article.sim-setup.subtitle" = "Số điện thoại Úc để dùng cho ngân hàng, giao hàng và mã xác thực";
+"article.banking-open-account.title" = "Mở tài khoản ngân hàng";
+"article.banking-open-account.subtitle" = "Những điều cơ bản về BSB, thẻ ghi nợ, PayID và Osko";
+"article.tfn-apply.title" = "Xin cấp TFN";
+"article.tfn-apply.subtitle" = "Lấy mã số thuế (Tax File Number) mà không phải lo lắng";
+"article.transport-card.title" = "Thẻ giao thông công cộng";
+"article.transport-card.subtitle" = "Myki, Opal, go card và các loại thẻ khác của từng bang";
+"article.medicare-gp.title" = "Medicare và đi khám bác sĩ gia đình (GP)";
+"article.medicare-gp.subtitle" = "Bulk billing, nhà thuốc và khi nào cần gọi 000";
+"article.housing-rent.title" = "Thuê chỗ ở đầu tiên của bạn";
+"article.housing-rent.subtitle" = "Xem nhà, tiền đặt cọc, hợp đồng thuê và cách nhận biết lừa đảo";
+"article.jobs-basics.title" = "Tìm việc theo cách của người Úc";
+"article.jobs-basics.subtitle" = "Hồ sơ xin việc, Seek, Fair Work và phiếu lương";
+"article.driving-licence.title" = "Lái xe và chuyển đổi bằng lái";
+"article.driving-licence.subtitle" = "Luật giao thông, bảo hiểm CTP, phí cầu đường và bằng lái nước ngoài";
+"article.emergency-contacts.title" = "Liên hệ khẩn cấp";
+"article.emergency-contacts.subtitle" = "000, ngộ độc, SES và cứu hộ trên đường";
+"article.shopping-essentials.title" = "Mua sắm đồ thiết yếu";
+"article.shopping-essentials.subtitle" = "Thực phẩm, đồ đạc trong nhà, đổi trả hàng và ổ cắm điện";
+"article.students-oshc.title" = "OSHC cho du học sinh quốc tế";
+"article.students-oshc.subtitle" = "Bảo hiểm y tế bắt buộc theo visa, giải thích thật đơn giản";
+"article.family-schools.title" = "Ghi danh cho con vào trường học";
+"article.family-schools.subtitle" = "Khu tuyển sinh, giấy tờ và chuẩn bị cho tuần học đầu tiên";
+"article.family-childcare.title" = "Gửi trẻ và trợ cấp giữ trẻ (Child Care Subsidy)";
+"article.family-childcare.subtitle" = "Tìm nơi gửi trẻ, danh sách chờ và những điều cơ bản về CCS";
+"article.family-immunisation.title" = "Tiêm chủng bù cho trẻ em";
+"article.family-immunisation.subtitle" = "Hồ sơ AIR để ghi danh đi học và gửi trẻ";
+"article.family-centrelink.title" = "Những điều cơ bản về Centrelink cho gia đình";
+"article.family-centrelink.subtitle" = "myGov, mã CRN và cách biết mình có đủ điều kiện hay không";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "Chi phí, lịch trình 1–2 ngày và các điểm dừng ven biển tính từ Melbourne";
+"article.explore-blue-mountains.title" = "Chuyến đi trong ngày tới Blue Mountains";
+"article.explore-blue-mountains.subtitle" = "Lịch trình đi tàu, phí điểm ngắm cảnh và các thị trấn nhỏ tính từ Sydney";
+"article.explore-sydney-harbour.title" = "Những biểu tượng của cảng Sydney";
+"article.explore-sydney-harbour.subtitle" = "Nhà hát Opera House, phà, Manly và chi phí cho từng điểm dừng";
+"article.explore-gold-coast.title" = "Bãi biển và vùng đồi Gold Coast";
+"article.explore-gold-coast.subtitle" = "Công viên giải trí, Burleigh và chi phí cho lịch trình 2 ngày";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "Giá tour tàu, kế hoạch 2–3 ngày và các điểm dừng lân cận";
+"article.explore-uluru.title" = "Uluru và Kata Tjuta";
+"article.explore-uluru.subtitle" = "Phí vào công viên, lịch trình tôn trọng văn hoá bản địa và mẹo ở Yulara";
+"article.explore-phillip-island.title" = "Chim cánh cụt ở Phillip Island";
+"article.explore-phillip-island.subtitle" = "Phí xem diễu hành, kế hoạch trong ngày và các điểm dừng tính từ Melbourne";
+"article.explore-rottnest.title" = "Rottnest Island (Perth)";
+"article.explore-rottnest.subtitle" = "Giá vé phà, lịch trình đạp xe trong ngày và các vịnh nên ghé";
+"article.explore-tasmania-hobart.title" = "Hobart và miền nam Tasmania";
+"article.explore-tasmania-hobart.subtitle" = "MONA, núi kunanyi và chi phí cho kỳ nghỉ cuối tuần 3 ngày";
+"article.explore-barossa-adelaide.title" = "Adelaide, Glenelg và Barossa";
+"article.explore-barossa-adelaide.subtitle" = "Cuối tuần thành phố – bờ biển – vùng rượu vang, kèm phí nếm rượu";
+
+/* Daily tips */
+"tip.tip-sim.title" = "Hãy có số điện thoại Úc ngay hôm nay";
+"tip.tip-sim.description" = "Ngân hàng và bên giao hàng thường cần mã gửi qua SMS. Một chiếc SIM trả trước ngay trong Ngày 1 sẽ mở đường cho gần như mọi việc khác.";
+"tip.tip-tfn.title" = "Xin TFN càng sớm càng tốt";
+"tip.tip-tfn.description" = "Chờ lâu có thể khiến bạn bị khấu trừ thuế cao hơn trong những kỳ lương đầu tiên.";
+"tip.tip-000.title" = "Nhớ nhé: số khẩn cấp là 000";
+"tip.tip-000.description" = "Ở Úc không dùng số 911. Hãy lưu số 000 và địa chỉ nhà bạn vào điện thoại.";
+"tip.tip-bond.title" = "Chụp ảnh mọi thứ khi vừa dọn vào";
+"tip.tip-bond.description" = "Biên bản tình trạng nhà kèm hình ảnh sẽ bảo vệ tiền đặt cọc của bạn khi dọn đi.";
+"tip.tip-bulk.title" = "Hãy hỏi về bulk billing";
+"tip.tip-bulk.description" = "Không phải phòng khám GP nào cũng miễn phí. Hãy hỏi rõ chi phí khi đặt lịch hẹn.";
+"tip.tip-explore.title" = "Lên kế hoạch cho một chuyến đi cuối tuần";
+"tip.tip-explore.description" = "Khi đã xong SIM, ngân hàng và thẻ giao thông, hãy đặt một chuyến đi trong ngày thật đơn giản — Blue Mountains, Phillip Island hay Glenelg đều là lựa chọn dễ dàng để bắt đầu.";
+
+/* Journey days */
+"journey.d1.title" = "SIM và kết nối";
+"journey.d1.summary" = "Mua SIM/eSIM nội địa và kiểm tra xem dữ liệu di động có chạy tốt không.";
+"journey.d2.title" = "Mở tài khoản ngân hàng";
+"journey.d2.summary" = "Chuẩn bị sẵn số BSB và số tài khoản để đi làm và thuê nhà.";
+"journey.d3.title" = "Xin cấp TFN";
+"journey.d3.summary" = "Bắt đầu nộp đơn xin mã số thuế với địa chỉ và số điện thoại tại Úc.";
+"journey.d4.title" = "Thẻ giao thông";
+"journey.d4.summary" = "Đăng ký thẻ hoặc ứng dụng giao thông công cộng của bang bạn và nạp tiền vào.";
+"journey.d5.title" = "Chuẩn bị cho tình huống khẩn cấp";
+"journey.d5.summary" = "Lưu số 000 và các số liên hệ quan trọng; nhớ chính xác địa chỉ nhà bạn.";
+"journey.d8.title" = "Tìm nhà ở";
+"journey.d8.summary" = "Chọn ra vài khu vực, đặt lịch đi xem nhà, chuẩn bị hồ sơ thuê nhà.";
+"journey.d10.title" = "Mua đồ thiết yếu";
+"journey.d10.summary" = "Chỉ mua những gì bạn thật sự cần cho vài tuần đầu.";
+"journey.d15.title" = "Sắp xếp chuyện y tế";
+"journey.d15.summary" = "Kiểm tra Medicare/OSHC và tìm một phòng khám GP gần nhà.";
+"journey.d18.title" = "Sẵn sàng đi làm";
+"journey.d18.summary" = "Hồ sơ xin việc kiểu Úc + thông báo việc làm trên Seek/LinkedIn.";
+"journey.d25.title" = "Kiểm tra chuyện lái xe";
+"journey.d25.summary" = "Xác nhận quy định về bằng lái trước khi mua hoặc lái ô tô.";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "Những việc thiết yếu tuần đầu";
+"checklist.checklist-first-week.subtitle" = "Danh sách nhất định phải làm sau khi vừa đến nơi";
+"task.task-sim.title" = "Mua và kích hoạt SIM/eSIM nội địa";
+"task.task-bank.title" = "Mở tài khoản ngân hàng giao dịch";
+"task.task-tfn.title" = "Nộp đơn xin TFN";
+"task.task-transport.title" = "Đăng ký thẻ giao thông công cộng";
+"task.task-emergency.title" = "Lưu các số liên hệ khẩn cấp";
+"checklist.checklist-home.title" = "Sắp xếp chỗ ở";
+"checklist.checklist-home.subtitle" = "Thuê nhà và ổn định nơi ở của bạn";
+"task.task-rent-docs.title" = "Chuẩn bị giấy tờ nộp hồ sơ thuê nhà";
+"task.task-shop.title" = "Mua đồ dùng gia đình cho tuần đầu tiên";
+"task.task-gp.title" = "Tìm phòng khám GP / xác nhận bảo hiểm y tế";
+"task.task-resume.title" = "Cập nhật hồ sơ xin việc theo chuẩn nhà tuyển dụng Úc";
+"task.task-licence.title" = "Kiểm tra bằng lái nước ngoài còn dùng được hay không";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero (000)";
+"emergency.triple-zero.detail" = "Cảnh sát, cứu hoả, cấp cứu — chỉ gọi khi có nguy hiểm đến tính mạng.";
+"emergency.poisons.name" = "Poisons Information (tư vấn ngộ độc)";
+"emergency.poisons.detail" = "Tư vấn 24/7 về ngộ độc và các trường hợp nghi ngộ độc.";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "Tư vấn sức khoẻ 24/7 do y tá phụ trách, dành cho những câu hỏi không khẩn cấp.";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "State Emergency Service — hỗ trợ khi có lũ lụt, bão và các sự cố tương tự.";
+
+/* Extra UI */
+"checklist.open_guide" = "Mở bài hướng dẫn";
+"settings.aus_gov" = "Chính phủ Úc";
+"common.min" = "%d phút";
+"common.progress_percent" = "Tiến độ %d phần trăm";
+
+/* Home extras */
+"home.for_you" = "Dành cho bạn";
+"home.for_you_subtitle" = "Được ưu tiên cho %@ trong những tuần đầu";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC, giờ làm theo visa và nhà ở";
+"onboarding.task_more_family" = "Trường học, y tế và nhà ở";
+"onboarding.task_more_tourist" = "Đi lại, an toàn và các chuyến đi cuối tuần";
+
+/* Article actions */
+"article.share" = "Chia sẻ bài hướng dẫn này";
+"article.mark_done" = "Đánh dấu đã xong bước này";
+"article.completed" = "Đã đánh dấu hoàn thành";
+"article.mark_done_hint" = "Đồng thời tích luôn các mục tương ứng trong danh sách việc cần làm và 30 Ngày Đầu Tiên";
+
+/* Emergency */
+"emergency.call" = "Gọi %@ theo số %@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "Mở khoá các bài hướng dẫn định cư thiết yếu";
+"pro.subtitle" = "Mua một lần · %@ · giữ mọi thứ ngoại tuyến ngay trên chiếc iPhone này";
+"pro.benefit_guides" = "Thời gian chờ của bảo hiểm y tế tư, OVHC, phí cầu đường, các loại bảo hiểm ô tô, bảo hiểm xe cứu thương, cùng với đăng ký Medicare, ImmiAccount, thuế, PPSR, myGov và nhiều nội dung khác.";
+"pro.benefit_offline" = "Các bài hướng dẫn nằm sẵn trên điện thoại của bạn. Không cần tài khoản. Chúng tôi không bao giờ đăng nhập vào trang của chính phủ thay bạn.";
+"pro.benefit_persona" = "Trang chủ và 30 Ngày Đầu Tiên của bạn đã tự lọc theo du học sinh, người đi làm, gia đình hay khách du lịch.";
+"pro.legal" = "AussieStart không phải là ứng dụng của chính phủ và không liên kết với Chính phủ Úc. Các giao dịch mua do Apple xử lý. Chỉ mang tính tham khảo — chúng tôi không nộp hồ sơ visa, thuế, Medicare, myGov hay tiền đặt cọc thay bạn.";
+"pro.buy" = "Mở khoá Pro · %@";
+"pro.restore" = "Khôi phục giao dịch mua";
+"pro.unlock_cta" = "Mở khoá AussieStart Pro";
+"pro.unlock_this" = "Bài hướng dẫn này nằm trong gói Pro: %@";
+"pro.locked_title" = "Bài hướng dẫn thiết yếu này thuộc gói AussieStart Pro";
+"pro.active" = "Pro đã được mở khoá trên Apple ID này";
+"pro.settings_blurb" = "Pro là gói mở khoá mua một lần. Hãy khôi phục nếu bạn cài lại ứng dụng hoặc đổi sang iPhone khác với cùng Apple ID.";
+
+/* Privacy */
+"privacy.title" = "Chính sách quyền riêng tư";
+"privacy.updated" = "Cập nhật lần cuối ngày 17 tháng 8 năm 2026";
+"privacy.collect_title" = "Chúng tôi lưu những gì";
+"privacy.collect_body" = "AussieStart không yêu cầu tài khoản. Dấu trang, lịch sử đọc, lịch sử tìm kiếm, các mục đã tích trong danh sách việc cần làm và tiến độ 30 Ngày Đầu Tiên đều nằm trên thiết bị này. Chúng tôi không vận hành máy chủ nào nhận dữ liệu định cư của bạn.";
+"privacy.purchases_title" = "Giao dịch mua";
+"privacy.purchases_body" = "Nếu bạn mua AussieStart Pro, Apple sẽ xử lý thanh toán. Chúng tôi nhận được quyền sử dụng từ App Store trên thiết bị này để mở khoá các bài hướng dẫn Pro. Chúng tôi không nhận số thẻ của bạn.";
+"privacy.notgov_title" = "Không phải dịch vụ của chính phủ";
+"privacy.notgov_body" = "AussieStart là một ứng dụng thông tin độc lập. Chúng tôi không thể xem, thay đổi hay nộp hồ sơ visa, myGov, TFN, Medicare, Centrelink, bằng lái hay tiền đặt cọc. Với những việc đó, hãy luôn dùng các trang web chính thức .gov.au.";
+"privacy.contact_title" = "Câu hỏi";
+"privacy.contact_body" = "Nếu muốn góp ý chỉnh sửa nội dung, hãy dùng thông tin liên hệ trên trang App Store khi ứng dụng được phát hành. Hãy kiểm chứng các bước quan trọng với nguồn chính thức của Chính phủ Úc.";
+
+/* New article titles */
+"article.mygov-basics.title" = "Thiết lập myGov (theo cách chính thức)";
+"article.mygov-basics.subtitle" = "Cách mọi người thường tạo và bảo vệ tài khoản myGov";
+"article.scams-safety.title" = "Nhận diện lừa đảo thuê nhà, việc làm và myGov";
+"article.scams-safety.subtitle" = "Hãy dừng lại trước khi trả tiền hoặc chia sẻ mã xác thực";
+"article.visa-work-rights.title" = "Kiểm tra quyền làm việc theo visa của bạn";
+"article.visa-work-rights.subtitle" = "Dùng VEVO chính thức — AussieStart không thể xem visa của bạn";
+"article.super-basics.title" = "Quỹ hưu trí (superannuation) trong công việc đầu tiên";
+"article.super-basics.subtitle" = "Dòng \"super\" trên phiếu lương có nghĩa là gì";
+"article.utilities-connect.title" = "Đăng ký điện, gas và internet";
+"article.utilities-connect.subtitle" = "Nhà cung cấp, đồng hồ đo và mạng NBN — bạn tự đăng ký lấy";
+"article.rental-bond.title" = "Nộp tiền đặt cọc thuê nhà theo đúng cách chính thức";
+"article.rental-bond.subtitle" = "Cơ quan giữ tiền cọc của bang — đừng bao giờ chuyển vào tài khoản cá nhân lạ";
+"article.first-month-budget.title" = "Danh sách chi tiêu cho tháng đầu tiên";
+"article.first-month-budget.subtitle" = "SIM, tiền cọc, ăn uống và đi lại — một danh sách để lên kế hoạch";
+"article.abn-contracting.title" = "ABN hay làm nhân viên — đừng nhầm lẫn hai thứ này";
+"article.abn-contracting.subtitle" = "Khi nào bạn thật sự cần ABN, và khi nào thì không";
+
+"tip.tip-scam.title" = "Đừng bao giờ trả tiền cọc qua tin nhắn cá nhân";
+"tip.tip-scam.description" = "Tiền cọc thật luôn được nộp cho cơ quan của bang. Nếu ai đó trên WhatsApp muốn bạn chuyển tiền trước, hãy dừng lại ngay.";
+"tip.tip-mygov.title" = "Chỉ dùng my.gov.au";
+"tip.tip-mygov.description" = "Các trang giả mạo trông rất giống thật và sẽ đánh cắp mã của bạn. Hãy tự gõ địa chỉ và kiểm tra rằng nó kết thúc bằng .gov.au.";
+
+"journey.d6.title" = "Tài khoản myGov";
+"journey.d6.summary" = "Chỉ tạo myGov trên trang chính thức — chúng tôi không bao giờ đăng nhập thay bạn.";
+"journey.d7.title" = "Kiểm tra lừa đảo";
+"journey.d7.summary" = "Tìm hiểu các chiêu lừa về thuê nhà, việc làm và giả mạo cơ quan nhà nước trước khi trả tiền cho bất kỳ ai.";
+"journey.d12.title" = "Điện, nước và internet";
+"journey.d12.summary" = "Đăng ký điện và internet dưới tên bạn sau khi hợp đồng thuê nhà đã chắc chắn.";
+"journey.d20.title" = "Quỹ hưu trí và phiếu lương";
+"journey.d20.summary" = "Đọc dòng super trên phiếu lương đầu tiên và cung cấp TFN cho quỹ hưu trí của bạn.";
+
+"checklist.checklist-work.title" = "Chuẩn bị thêm để đi làm";
+"checklist.checklist-work.subtitle" = "Quyền lợi, quỹ hưu trí và làm việc theo hợp đồng — chỉ mang tính tham khảo";
+"task.task-scam.title" = "Đọc bài hướng dẫn nhận diện lừa đảo";
+"task.task-mygov.title" = "Tạo myGov trên trang chính thức (nếu bạn cần ATO/Medicare)";
+"task.task-utilities.title" = "Sắp xếp đăng ký điện / internet";
+"task.task-bond.title" = "Nộp tiền cọc cho cơ quan quản lý của bang";
+"task.task-visa-rights.title" = "Kiểm tra điều kiện làm việc trên VEVO chính thức";
+"task.task-super.title" = "Tìm dòng super trên phiếu lương của bạn";
+"task.task-budget.title" = "Viết danh sách chi tiêu cho tháng đầu tiên";
+"task.task-abn.title" = "Xác nhận bạn là nhân viên trước khi đăng ký ABN";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "Đăng ký Medicare trên trang chính thức";
+"article.medicare-enrol.subtitle" = "Điều kiện, myGov và trung tâm dịch vụ — chúng tôi không đăng ký thay bạn";
+"article.student-concession.title" = "Vé giao thông giảm giá cho học sinh, sinh viên";
+"article.student-concession.subtitle" = "Đăng ký với cơ quan giao thông của bang — không phải qua ứng dụng này";
+"article.tax-return-basics.title" = "Khai thuế lần đầu tiên (ATO)";
+"article.tax-return-basics.subtitle" = "Qua myTax chính thức hoặc đại lý thuế — AussieStart không khai thuế thay bạn";
+"article.choose-suburb.title" = "Chọn khu vực sinh sống bằng bản đồ chính thức";
+"article.choose-suburb.subtitle" = "Đường đi làm, trường học và rủi ro thiên tai — không phải theo danh sách trên Instagram";
+"article.inspection-condition-report.title" = "Kiểm tra khi dọn vào và biên bản tình trạng nhà";
+"article.inspection-condition-report.subtitle" = "Biểu mẫu chính thức và hình ảnh giúp bảo vệ tiền cọc của bạn";
+"article.used-car-ppsr.title" = "Kiểm tra xe cũ trước khi mua (PPSR)";
+"article.used-car-ppsr.subtitle" = "Tra cứu sổ đăng ký của chính phủ, sang tên và bảo hiểm CTP trước khi trả tiền";
+"article.contents-insurance.title" = "Bảo hiểm tài sản trong nhà cho người thuê";
+"article.contents-insurance.subtitle" = "Cách so sánh bằng Moneysmart — chúng tôi không bán bảo hiểm";
+"article.library-council.title" = "Thẻ thư viện và hội đồng địa phương (council)";
+"article.library-council.subtitle" = "Wi-Fi miễn phí, thùng rác và lớp tiếng Anh AMEP — theo trang chính thức của council";
+"article.visa-immiaccount.title" = "Nộp hồ sơ visa qua ImmiAccount";
+"article.visa-immiaccount.subtitle" = "Cổng chính thức của Home Affairs — chúng tôi không thể nộp visa";
+"article.police-check-wwcc.title" = "Lý lịch tư pháp và giấy phép làm việc với trẻ em";
+"article.police-check-wwcc.subtitle" = "Chỉ dùng cổng của AFP và của bang — chúng tôi không bao giờ giữ giấy tờ tuỳ thân của bạn";
+"article.centrelink-claim-start.title" = "Bắt đầu hồ sơ Centrelink theo cách chính thức";
+"article.centrelink-claim-start.subtitle" = "Công cụ Payment finder và myGov — chúng tôi không nộp hồ sơ thay bạn";
+
+"tip.tip-ppsr.title" = "Tra cứu PPSR trước khi mua ô tô";
+"tip.tip-ppsr.description" = "Chỉ ppsr.gov.au mới là sổ đăng ký chính thức của chính phủ. Các trang tra cứu VIN của bên thứ ba chỉ là lựa chọn thêm.";
+"tip.tip-immi.title" = "ImmiAccount là online.immi.gov.au";
+"tip.tip-immi.description" = "Hồ sơ visa luôn nằm trên cổng của Home Affairs. Hãy bỏ qua những \"đại lý\" trên WhatsApp đòi bạn gửi ảnh chụp hộ chiếu.";
+
+"journey.d9.title" = "Chọn khu vực và đi xem nhà";
+"journey.d9.summary" = "Dùng bản đồ chính thức và biểu mẫu biên bản tình trạng nhà trước khi đóng tiền cọc.";
+"journey.d11.title" = "Thư viện và council";
+"journey.d11.summary" = "Làm thẻ thư viện và tìm trang chính thức của council nơi bạn ở.";
+"journey.d14.title" = "Đăng ký Medicare";
+"journey.d14.summary" = "Nếu đủ điều kiện, chỉ đăng ký trên servicesaustralia.gov.au / myGov.";
+"journey.d16.title" = "Vé giảm giá cho sinh viên";
+"journey.d16.summary" = "Đăng ký vé đi lại rẻ hơn trên trang giao thông của bang bạn.";
+"journey.d22.title" = "Hồ sơ thuế";
+"journey.d22.summary" = "Giữ sẵn phiếu lương để khai myTax trên trang ATO sau ngày 30 tháng 6.";
+"journey.d26.title" = "Kiểm tra khi mua ô tô";
+"journey.d26.summary" = "Xem PPSR và trang sang tên xe của bang trước khi trả tiền mua xe cũ.";
+
+"checklist.checklist-pro-official.title" = "Danh sách việc làm trên trang chính thức (Pro)";
+"checklist.checklist-pro-official.subtitle" = "Hãy làm những việc này trên .gov.au — AussieStart không nộp biểu mẫu thay bạn";
+"task.task-medicare-enrol.title" = "Kiểm tra điều kiện Medicare trên trang Services Australia";
+"task.task-concession.title" = "Đăng ký vé giảm giá sinh viên trên trang giao thông của bang";
+"task.task-tax-return.title" = "Lưu trang khai thuế của ATO / giữ lại phiếu lương";
+"task.task-suburb.title" = "Chọn ra vài khu vực bằng bản đồ chính thức";
+"task.task-inspection.title" = "Hoàn tất biên bản tình trạng nhà chính thức kèm hình ảnh";
+"task.task-ppsr.title" = "Tra cứu PPSR trước khi mua xe cũ";
+"task.task-library.title" = "Đăng ký thư viện địa phương qua trang của council";
+"task.task-immi.title" = "Chỉ dùng ImmiAccount / VEVO trên trang Home Affairs";
+"task.task-wwcc.title" = "Xin lý lịch tư pháp/WWCC trên cổng chính thức nếu công việc yêu cầu";
+"task.task-centrelink-claim.title" = "Dùng công cụ Payment finder trước khi cho rằng mình đủ điều kiện";
+
+"pro.reminders" = "Nhắc nhở 30 Ngày Đầu Tiên";
+"pro.reminders_blurb" = "Thông báo tuỳ chọn ngay trên máy trong tuần 1–4. Chúng chỉ nằm trên chiếc iPhone này. Bạn có thể tắt bất cứ lúc nào.";
+"pro.benefit_reminders" = "Chia sẻ hoặc in danh sách 30 Ngày Đầu Tiên của bạn, kèm nhắc nhở hằng tuần tuỳ chọn trên thiết bị này.";
+"journey.share" = "Chia sẻ 30 Ngày Đầu Tiên";
+"journey.share_pro" = "Mở khoá Pro để chia sẻ 30 Ngày Đầu Tiên";
+"journey.share_header" = "AussieStart 30 Ngày Đầu Tiên — %@";
+
+"reminder.week1.title" = "Tuần 1 — SIM, ngân hàng, TFN";
+"reminder.week1.body" = "Mở AussieStart và tích các bước của tuần đầu tiên. Hãy nộp hồ sơ trên các trang .gov.au chính thức.";
+"reminder.week2.title" = "Tuần 2 — Nhà ở và y tế";
+"reminder.week2.body" = "Đi xem nhà, làm Medicare hoặc OSHC, và lấy thẻ thư viện của council là những việc thường làm trong tuần thứ hai.";
+"reminder.week3.title" = "Tuần 3 — Việc làm và chuyện học hành";
+"reminder.week3.body" = "Kiểm tra quyền làm việc theo visa trên VEVO và vé giảm giá sinh viên trên trang giao thông của bang bạn.";
+"reminder.week4.title" = "Tuần 4 — Tiền bạc và giấy tờ";
+"reminder.week4.body" = "Giữ lại phiếu lương cho ATO, và tra cứu PPSR trước khi mua xe cũ.";
+
+"article.private-health-waiting.title" = "Bảo hiểm y tế tư và thời gian chờ";
+"article.private-health-waiting.subtitle" = "Bảo hiểm nằm viện và bảo hiểm dịch vụ thêm — chúng tôi không bán bảo hiểm";
+"article.ovhc-visitors.title" = "OVHC cho khách du lịch và người có visa tạm trú";
+"article.ovhc-visitors.subtitle" = "Không phải Medicare, cũng không phải OSHC — hãy xem lại thư cấp visa của bạn";
+"article.tolls-linkt.title" = "Đường thu phí, Linkt và thẻ e-TAG";
+"article.tolls-linkt.subtitle" = "Đăng ký trước khi lái xe — nhất là khi thuê xe";
+"article.car-insurance-types.title" = "Bảo hiểm CTP và bảo hiểm ô tô toàn diện";
+"article.car-insurance-types.subtitle" = "Bảo hiểm thương tật không giống với bảo hiểm sửa xe của bạn";
+"article.ambulance-cover.title" = "Bảo hiểm xe cứu thương theo từng bang";
+"article.ambulance-cover.subtitle" = "Luôn gọi 000 — còn ai trả tiền chuyến xe thì tuỳ nơi bạn sống";
+
+"tip.tip-toll.title" = "Mở tài khoản thu phí trước khi thuê xe";
+"tip.tip-toll.description" = "Những lần đi đường cao tốc chưa trả phí sẽ biến thành khoản phạt thêm. Hãy vào trang .gov.au về phí cầu đường của bang bạn, rồi dùng đơn vị vận hành được nêu ở đó.";
+"tip.tip-ambulance.title" = "Gọi 000 trước — chuyện hoá đơn xe cứu thương tính sau";
+"tip.tip-ambulance.description" = "Cuộc gọi là miễn phí. Ai trả tiền cho chuyến xe thì tuỳ theo bang của bạn. Hãy đọc healthdirect.gov.au.";
+
+"journey.d13.title" = "Bảo hiểm xe cứu thương";
+"journey.d13.summary" = "Luôn gọi 000. Sau đó kiểm tra xem bang của bạn có tính tiền chuyến xe hay không.";
+"journey.d17.title" = "Bảo hiểm y tế cho khách (OVHC)";
+"journey.d17.summary" = "Nếu visa của bạn yêu cầu OVHC, hãy mua trên trang chính thức của hãng bảo hiểm — đừng mua qua WhatsApp.";
+"journey.d19.title" = "Thời gian chờ của bảo hiểm y tế tư";
+"journey.d19.summary" = "Đọc kỹ thời gian chờ trên privatehealth.gov.au trước khi mua bảo hiểm nằm viện.";
+"journey.d21.title" = "Phí cầu đường và thẻ e-TAG";
+"journey.d21.summary" = "Mở tài khoản thu phí trước khi lái xe thuê hoặc đi vào đường cao tốc mới.";
+"journey.d24.title" = "Các loại bảo hiểm ô tô";
+"journey.d24.summary" = "CTP không phải là bảo hiểm toàn diện. Hãy đọc Moneysmart trước khi lái xe của chính mình.";
+
+"task.task-private-health.title" = "Đọc thời gian chờ bảo hiểm y tế tư trên privatehealth.gov.au";
+"task.task-ovhc.title" = "Kiểm tra xem visa của bạn có yêu cầu OVHC không";
+"task.task-tolls.title" = "Mở tài khoản thu phí cầu đường trước khi lái xe thuê";
+"task.task-car-insurance.title" = "Hiểu rõ CTP khác bảo hiểm toàn diện thế nào trước khi lái xe";
+"task.task-ambulance.title" = "Tìm hiểu quy định tính phí xe cứu thương ở bang bạn";
+
+/* Language readiness */
+"common.guides_translated" = "Ứng dụng và bài hướng dẫn đã được dịch";
+"common.guides_in_english" = "Ứng dụng đã dịch · bài hướng dẫn bằng tiếng Anh";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "Lời ghi nhận Đất Mẹ (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "Chúng tôi ghi nhận những Chủ Nhân Truyền Thống (Traditional Owners) của các vùng đất và vùng nước trên khắp nước Úc, cùng mối gắn bó bền bỉ của họ với Đất Mẹ (Country — đất, nước, bầu trời và mọi mối quan hệ gắn với một nơi chốn), với văn hoá và cộng đồng. Chúng tôi bày tỏ lòng kính trọng với các Bậc Trưởng Thượng (Elders) trong quá khứ và hiện tại.";
+"onboarding.acknowledgement_note" = "Người Thổ dân (Aboriginal) và người dân đảo eo biển Torres đã chăm sóc lục địa này hơn 60.000 năm, qua hàng trăm dân tộc với ngôn ngữ và luật lệ riêng. Bạn sẽ nghe một lời ghi nhận như thế này vào đầu các cuộc họp, buổi học và sự kiện trên khắp nước Úc. Bất kỳ ai cũng có thể nói lời ghi nhận ấy.";
+"onboarding.acknowledgement_learn" = "Tìm hiểu thêm trong mục Lịch sử & Văn hoá";
+
+/* History & Culture category */
+"category.culture" = "Lịch sử & Văn hoá";
+
+/* New guides */
+"article.shopping-rewards.title" = "Thẻ tích điểm siêu thị và cách tiết kiệm tiền chợ";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards và chu kỳ hàng giảm giá hằng tuần";
+"article.first-nations-country.title" = "Các Dân Tộc Đầu Tiên và Đất Mẹ (Country)";
+"article.first-nations-country.subtitle" = "Văn hoá của người Thổ dân (Aboriginal) và người dân đảo eo biển Torres, cùng cách thể hiện sự tôn trọng";
+"article.australia-history.title" = "Những điều cơ bản về lịch sử nước Úc";
+"article.australia-history.subtitle" = "Liên bang hoá, Ngày Anzac, di dân và cách đất nước này được điều hành";

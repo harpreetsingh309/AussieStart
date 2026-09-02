@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "دليلك الأول للحياة في أستراليا";
+
+/* Tabs */
+"tab.home" = "الرئيسية";
+"tab.search" = "البحث";
+"tab.topics" = "المواضيع";
+"tab.saved" = "المحفوظات";
+"tab.settings" = "الإعدادات";
+
+/* Common */
+"common.continue" = "متابعة";
+"common.back" = "رجوع";
+"common.close" = "إغلاق";
+"common.see_all" = "عرض الكل";
+"common.guides_count" = "%d دليل";
+"common.coming_soon" = "قريبًا";
+"common.min_read" = "قراءة في %d دقيقة";
+"common.min_category" = "%d دقيقة · %@";
+"common.offline_for_state" = "بدون إنترنت · محدَّث لـ %@";
+"common.available_now" = "متاح الآن";
+"common.coming_soon_lang" = "قريبًا";
+
+/* Disclaimer */
+"disclaimer.full" = "للمعلومات فقط — ليست استشارة قانونية أو استشارة هجرة أو مالية أو طبية. تحقّق دائمًا من المصادر الرسمية للحكومة الأسترالية.";
+
+/* Greetings */
+"greeting.morning" = "صباح الخير";
+"greeting.afternoon" = "طاب يومك";
+"greeting.evening" = "مساء الخير";
+
+/* Home */
+"home.settling_in" = "الاستقرار في %@";
+"home.hero_tagline" = "أسابيعك الأولى في أستراليا، مشروحة ببساطة.";
+"home.section_topics" = "المواضيع";
+"home.section_recommended" = "مقترح لك";
+"home.section_explore" = "استكشف";
+"home.section_guides" = "الأدلة";
+"home.section_reading" = "القراءة";
+"home.journey_week" = "الأسبوع %d";
+"home.todays_tip" = "نصيحة اليوم";
+"home.read_guide" = "اقرأ الدليل";
+"home.quick_topics" = "مواضيع سريعة";
+"home.popular_destinations" = "وجهات مشهورة";
+"home.popular_destinations_subtitle" = "الرسوم وبرامج قصيرة ومحطات في الطريق";
+"home.first_30_days" = "أول 30 يومًا";
+"home.milestones_completed" = "%d/%d مرحلة مكتملة";
+"home.continue_roadmap" = "اضغط لمتابعة خارطة طريقك";
+"home.continue_reading" = "متابعة القراءة";
+"home.most_popular" = "الأكثر رواجًا";
+"home.most_popular_subtitle" = "ابدأ بهذه لـ %@";
+"home.emergency_contacts" = "أرقام الطوارئ";
+"home.emergency_subtitle" = "000 · السموم · SES · healthdirect";
+
+/* Search */
+"search.title" = "البحث";
+"search.prompt" = "ابحث في الأدلة";
+"search.recent" = "عمليات البحث الأخيرة";
+"search.trending" = "الأكثر بحثًا";
+"search.results" = "النتائج";
+"search.hint" = "جرّب «GP» أو «TFN» أو «Myki»";
+"search.empty" = "لا توجد نتائج. جرّب مرادفًا مثل «طبيب» بدلًا من GP.";
+
+/* Topics */
+"topics.title" = "المواضيع";
+"topics.browse" = "تصفّح حسب الموضوع";
+"topics.tailored" = "أدلة عملية مُعدّة لـ %@";
+"topics.guides" = "الأدلة";
+
+/* Saved */
+"saved.title" = "المحفوظات";
+"saved.articles" = "المقالات المحفوظة";
+"saved.empty" = "احفظ الأدلة لتقرأها لاحقًا بدون إنترنت.";
+"saved.history" = "السجل";
+"saved.history_empty" = "ستظهر هنا المقالات التي تفتحها.";
+"saved.checklists" = "قوائم المهام";
+"saved.journey" = "أول 30 يومًا";
+
+/* Settings */
+"settings.title" = "الإعدادات";
+"settings.personalisation" = "التخصيص";
+"settings.language" = "اللغة";
+"settings.state" = "الولاية / الإقليم";
+"settings.persona" = "أنا";
+"settings.appearance" = "المظهر";
+"settings.theme" = "السمة";
+"settings.theme.system" = "حسب النظام";
+"settings.theme.light" = "فاتح";
+"settings.theme.dark" = "داكن";
+"settings.theme.hint.system" = "يتبع إعداد الفاتح / الداكن في الـ iPhone.";
+"settings.theme.hint.light" = "استخدام خلفية فاتحة دائمًا.";
+"settings.theme.hint.dark" = "استخدام خلفية داكنة دائمًا.";
+"settings.offline" = "بدون إنترنت";
+"settings.content_pack" = "حزمة المحتوى";
+"settings.last_reviewed" = "آخر مراجعة";
+"settings.offline_blurb" = "كل الأدلة والنصائح وقوائم المهام موجودة داخل التطبيق. لا تحتاج إلى حساب ولا إلى إنترنت.";
+"settings.privacy" = "الخصوصية";
+"settings.analytics" = "مشاركة بيانات استخدام مجهولة (مغلقة افتراضيًا)";
+"settings.privacy_blurb" = "يحفظ AussieStart إشاراتك المرجعية وتقدّمك على هذا الجهاز فقط. بلا تسجيل دخول. وبلا مزامنة سحابية.";
+"settings.about" = "حول التطبيق";
+"settings.about_app" = "حول AussieStart";
+"settings.replay_onboarding" = "إعادة عرض التعريف بالتطبيق";
+"settings.language_note" = "تتغيّر القوائم وتفاصيل الأدلة حسب لغتك. أما الأسماء الرسمية مثل TFN وMyki وMedicare فتبقى بالإنجليزية.";
+
+/* Onboarding */
+"onboarding.welcome_title" = "أهلًا بك في AussieStart";
+"onboarding.welcome_body" = "أدلة استقرار موثوقة تعمل بدون إنترنت للقادمين الجدد — بلغة بسيطة ومناسبة لولايتك.";
+"onboarding.welcome_line1" = "اكتشف";
+"onboarding.welcome_line2" = "الحياة في";
+"onboarding.welcome_line3" = "أستراليا";
+"onboarding.welcome_tagline" = "دع AussieStart يرافقك";
+"onboarding.welcome_cta" = "ابدأ رحلتك";
+"onboarding.choose_language" = "اختر لغتك";
+"onboarding.choose_language_subtitle" = "التطبيق مترجم بالكامل إلى كل لغة في القائمة. والأدلة بالإنجليزية إلا حيث يُذكر خلاف ذلك.";
+"onboarding.choose_state" = "أين ستعيش؟";
+"onboarding.choose_state_subtitle" = "تتكيّف الأدلة مع بطاقات المواصلات ورخص القيادة والخدمات المحلية.";
+"onboarding.transport_label" = "المواصلات: %@";
+"onboarding.choose_persona" = "ما الذي يصفك؟";
+"onboarding.choose_persona_subtitle" = "سنرتّب أولويات خارطة أول 30 يومًا حسب حالتك.";
+"onboarding.roadmap_title" = "خارطة طريقك الشخصية";
+"onboarding.roadmap_subtitle" = "مبنية على حياة %@ في %@.";
+"onboarding.start" = "ابدأ الاستكشاف";
+"onboarding.step" = "خطوة التعريف %d من 6";
+"onboarding.day1" = "اليوم 1";
+"onboarding.day2" = "اليوم 2";
+"onboarding.day3" = "اليوم 3";
+"onboarding.day4" = "اليوم 4";
+"onboarding.week2" = "الأسبوع 2 وما بعده";
+"onboarding.task_sim" = "احصل على شريحة SIM محلية وإنترنت";
+"onboarding.task_bank" = "افتح حسابًا بنكيًا";
+"onboarding.task_tfn" = "قدّم طلب الحصول على TFN";
+"onboarding.task_transport" = "جهّز %@";
+"onboarding.task_more" = "السكن والرعاية الصحية والمزيد";
+
+/* Article / gallery */
+"article.photos" = "الصور";
+"article.destination_photos" = "صور الوجهة";
+"article.remove_bookmark" = "إزالة الإشارة المرجعية";
+"article.save_bookmark" = "حفظ إشارة مرجعية";
+"article.unavailable_title" = "الدليل غير متاح";
+"article.unavailable_body" = "هذا الدليل ليس ضمن الحزمة المتاحة بدون إنترنت بعد.";
+"article.recommended" = "اقرأ بعد ذلك";
+"article.recommended_subtitle" = "واصل خطوات استقرارك";
+"photo.n" = "صورة %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "أول 30 يومًا";
+"journey.completed" = "%d/%d مكتمل";
+"journey.subtitle" = "خارطة طريق عملية لشهرك الأول في %@.";
+"journey.week" = "الأسبوع %d";
+"journey.day" = "اليوم %d: %@";
+"checklist.title" = "قوائم المهام";
+"checklist.done" = "%d/%d منجَز";
+"about.title" = "حول التطبيق";
+"about.blurb" = "دليل البداية الكامل لأستراليا في جيبك — مبني ليعمل على جهازك أولًا، من أجل القادمين الجدد.";
+"about.verify" = "تحقّق دائمًا من الخطوات المهمة عبر مصادر رسمية مثل Services Australia ومكتب الضرائب ATO وهيئات النقل في الولايات ومجلسك المحلي.";
+"about.version" = "الإصدار";
+"about.content_reviewed" = "تمت مراجعة المحتوى";
+"about.architecture" = "البنية التقنية";
+"emergency.title" = "الطوارئ";
+"emergency.life_threatening" = "حالة تهدّد الحياة";
+
+/* Categories */
+"category.arrival" = "الوصول";
+"category.sim" = "شرائح SIM";
+"category.banking" = "الخدمات المصرفية";
+"category.healthcare" = "الرعاية الصحية";
+"category.transport" = "المواصلات";
+"category.driving" = "القيادة";
+"category.taxes" = "الضرائب";
+"category.housing" = "السكن";
+"category.jobs" = "العمل";
+"category.shopping" = "التسوّق";
+"category.family" = "العائلة";
+"category.explore" = "الاستكشاف";
+"category.emergency" = "الطوارئ";
+"category.students" = "الطلاب";
+
+/* Personas */
+"persona.student" = "طالب";
+"persona.worker" = "عامل / مهاجر بمهارة";
+"persona.family" = "حامل تأشيرة عائلية";
+"persona.tourist" = "سائح / إجازة عمل";
+"persona.pr" = "مقيم دائم";
+"persona.citizen" = "مواطن";
+
+/* Empty states */
+"empty.no_guides_title" = "لا توجد أدلة بعد";
+"empty.no_guides_body" = "ستصل أدلة %@ إضافية في تحديث محتوى قادم.";
+
+/* States */
+"state.vic" = "Victoria (فيكتوريا)";
+"state.nsw" = "New South Wales (نيو ساوث ويلز)";
+"state.qld" = "Queensland (كوينزلاند)";
+"state.sa" = "South Australia (جنوب أستراليا)";
+"state.wa" = "Western Australia (غرب أستراليا)";
+"state.tas" = "Tasmania (تسمانيا)";
+"state.act" = "Australian Capital Territory (إقليم العاصمة الأسترالية)";
+"state.nt" = "Northern Territory (الإقليم الشمالي)";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "قائمة ما تفعله عند الوصول إلى المطار";
+"article.arrival-airport.subtitle" = "الجوازات والحقائب والأمن الحيوي والوصول إلى المدينة";
+"article.sim-setup.title" = "احصل على شريحة SIM أو eSIM محلية";
+"article.sim-setup.subtitle" = "رقم محلي للبنوك وخدمات التوصيل ورموز التحقق";
+"article.banking-open-account.title" = "افتح حسابًا بنكيًا";
+"article.banking-open-account.subtitle" = "أساسيات رقم BSB وبطاقة الخصم وPayID وOsko";
+"article.tfn-apply.title" = "قدّم طلب TFN";
+"article.tfn-apply.subtitle" = "رقم الملف الضريبي بلا عناء";
+"article.transport-card.title" = "بطاقة النقل العام";
+"article.transport-card.subtitle" = "Myki وOpal وgo card وبطاقات بقية الولايات";
+"article.medicare-gp.title" = "Medicare وزيارة الطبيب العام (GP)";
+"article.medicare-gp.subtitle" = "الفوترة المجانية (bulk billing) والصيدليات ومتى تتصل بـ 000";
+"article.housing-rent.title" = "استئجار أول سكن لك";
+"article.housing-rent.subtitle" = "المعاينات ومبلغ التأمين (bond) وعقود الإيجار وكشف الاحتيال";
+"article.jobs-basics.title" = "البحث عن عمل بالطريقة الأسترالية";
+"article.jobs-basics.subtitle" = "السيرة الذاتية وموقع Seek وهيئة Fair Work وقسائم الراتب";
+"article.driving-licence.title" = "القيادة وتحويل رخصة القيادة";
+"article.driving-licence.subtitle" = "قواعد الطريق وتأمين CTP ورسوم الطرق والرخص الأجنبية";
+"article.emergency-contacts.title" = "أرقام الطوارئ";
+"article.emergency-contacts.subtitle" = "000 والسموم وSES والمساعدة على الطريق";
+"article.shopping-essentials.title" = "التسوّق لشراء الأساسيات";
+"article.shopping-essentials.subtitle" = "البقالة والأثاث وسياسة الإرجاع والقوابس الكهربائية";
+"article.students-oshc.title" = "تأمين OSHC للطلاب الدوليين";
+"article.students-oshc.subtitle" = "التغطية الصحية التي تطلبها التأشيرة بشرح بسيط";
+"article.family-schools.title" = "تسجيل الأطفال في المدرسة";
+"article.family-schools.subtitle" = "نطاقات المدارس والمستندات وترتيبات الأسبوع الأول";
+"article.family-childcare.title" = "الحضانة ودعم رعاية الطفل";
+"article.family-childcare.subtitle" = "إيجاد حضانة وقوائم الانتظار وأساسيات دعم CCS";
+"article.family-immunisation.title" = "استكمال تطعيمات الأطفال";
+"article.family-immunisation.subtitle" = "سجلات AIR للتسجيل في المدرسة والحضانة";
+"article.family-centrelink.title" = "أساسيات Centrelink للعائلات";
+"article.family-centrelink.subtitle" = "myGov ورقم CRN ومعرفة شروط الاستحقاق";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "الرسوم وبرنامج ليوم أو يومين ومحطات ساحلية انطلاقًا من Melbourne";
+"article.explore-blue-mountains.title" = "رحلة يوم إلى Blue Mountains";
+"article.explore-blue-mountains.subtitle" = "برنامج بالقطار ورسوم المطلات ومحطات في القرى انطلاقًا من Sydney";
+"article.explore-sydney-harbour.title" = "معالم Sydney Harbour";
+"article.explore-sydney-harbour.subtitle" = "دار الأوبرا والعبّارات وManly وتكلفة كل محطة";
+"article.explore-gold-coast.title" = "شواطئ Gold Coast والمرتفعات الخلفية";
+"article.explore-gold-coast.subtitle" = "مدن الملاهي وBurleigh وتكاليف برنامج يومين";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (من Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "رسوم الرحلات البحرية وخطة 2–3 أيام ومحطات قريبة";
+"article.explore-uluru.title" = "Uluru وKata Tjuta";
+"article.explore-uluru.subtitle" = "رسوم الحديقة وبرنامج يحترم المكان ونصائح عن Yulara";
+"article.explore-phillip-island.title" = "بطاريق Phillip Island";
+"article.explore-phillip-island.subtitle" = "رسوم عرض البطاريق وخطة اليوم ومحطات انطلاقًا من Melbourne";
+"article.explore-rottnest.title" = "Rottnest Island (من Perth)";
+"article.explore-rottnest.subtitle" = "أسعار العبّارة وبرنامج يوم بالدراجة ومحطات الخلجان";
+"article.explore-tasmania-hobart.title" = "Hobart وجنوب Tasmania";
+"article.explore-tasmania-hobart.subtitle" = "متحف MONA وجبل kunanyi وتكاليف عطلة 3 أيام";
+"article.explore-barossa-adelaide.title" = "Adelaide وGlenelg وBarossa";
+"article.explore-barossa-adelaide.subtitle" = "عطلة بين المدينة والساحل ومناطق النبيذ مع رسوم التذوّق";
+
+/* Daily tips */
+"tip.tip-sim.title" = "احصل على رقم محلي اليوم";
+"tip.tip-sim.description" = "غالبًا ما تحتاج البنوك وخدمات التوصيل إلى رموز عبر الرسائل النصية. شريحة مدفوعة مسبقًا في اليوم الأول تفتح لك كل شيء تقريبًا.";
+"tip.tip-tfn.title" = "قدّم طلب TFN مبكرًا";
+"tip.tip-tfn.description" = "التأخير قد يعني اقتطاع ضريبة أعلى من أول قسائم راتبك.";
+"tip.tip-000.title" = "تذكّر: رقم الطوارئ هو 000";
+"tip.tip-000.description" = "أستراليا لا تستخدم 911. احفظ الرقم 000 وعنوان سكنك في هاتفك.";
+"tip.tip-bond.title" = "صوّر كل شيء يوم انتقالك";
+"tip.tip-bond.description" = "تقرير حالة السكن مع الصور يحمي مبلغ التأمين (bond) عند مغادرتك.";
+"tip.tip-bulk.title" = "اسأل عن الفوترة المجانية (bulk billing)";
+"tip.tip-bulk.description" = "ليست كل عيادات الأطباء العامين مجانية. اسأل عن الرسوم عند الحجز.";
+"tip.tip-explore.title" = "خطّط لرحلة عطلة نهاية أسبوع واحدة";
+"tip.tip-explore.description" = "بعد ترتيب الشريحة والبنك والمواصلات، احجز رحلة يوم بسيطة — Blue Mountains أو Phillip Island أو Glenelg بدايات سهلة وممتعة.";
+
+/* Journey days */
+"journey.d1.title" = "الشريحة والاتصال";
+"journey.d1.summary" = "اشترِ شريحة SIM أو eSIM محلية وتأكد من عمل بيانات الجوال.";
+"journey.d2.title" = "افتح حسابًا بنكيًا";
+"journey.d2.summary" = "جهّز رقم BSB وتفاصيل الحساب من أجل العمل والإيجار.";
+"journey.d3.title" = "قدّم طلب TFN";
+"journey.d3.summary" = "ابدأ طلب رقم الملف الضريبي بعنوان ورقم هاتف محليين.";
+"journey.d4.title" = "بطاقة المواصلات";
+"journey.d4.summary" = "فعّل بطاقة أو تطبيق النقل العام في ولايتك واشحن الرصيد.";
+"journey.d5.title" = "الاستعداد للطوارئ";
+"journey.d5.summary" = "احفظ الرقم 000 وجهات الاتصال المهمة، واعرف عنوانك بدقة.";
+"journey.d8.title" = "البحث عن سكن";
+"journey.d8.summary" = "اختر أحياء مرشّحة، واحجز معاينات، وجهّز مستندات الطلب.";
+"journey.d10.title" = "تسوّق الأساسيات";
+"journey.d10.summary" = "اشترِ فقط ما تحتاجه في الأسابيع الأولى.";
+"journey.d15.title" = "ترتيب الرعاية الصحية";
+"journey.d15.summary" = "تحقّق من Medicare أو OSHC وابحث عن طبيب عام قريب.";
+"journey.d18.title" = "الجاهزية للعمل";
+"journey.d18.summary" = "سيرة ذاتية بالأسلوب الأسترالي + تنبيهات Seek وLinkedIn.";
+"journey.d25.title" = "التحقق من القيادة";
+"journey.d25.summary" = "تأكد من قواعد الرخصة قبل شراء سيارة أو قيادتها.";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "أساسيات الأسبوع الأول";
+"checklist.checklist-first-week.subtitle" = "قائمة ما يجب فعله بعد الوصول";
+"task.task-sim.title" = "اشترِ شريحة SIM أو eSIM محلية وفعّلها";
+"task.task-bank.title" = "افتح حساب معاملات بنكي";
+"task.task-tfn.title" = "أرسل طلب TFN";
+"task.task-transport.title" = "جهّز بطاقة النقل العام";
+"task.task-emergency.title" = "احفظ أرقام الطوارئ";
+"checklist.checklist-home.title" = "تجهيز المنزل";
+"checklist.checklist-home.subtitle" = "الإيجار وترتيب سكنك";
+"task.task-rent-docs.title" = "جهّز مستندات طلب الإيجار";
+"task.task-shop.title" = "اشترِ أساسيات المنزل للأسبوع الأول";
+"task.task-gp.title" = "ابحث عن طبيب عام / أكّد تغطيتك الصحية";
+"task.task-resume.title" = "حدّث سيرتك الذاتية لأصحاب العمل الأستراليين";
+"task.task-licence.title" = "تحقّق من صلاحية رخصتك الأجنبية";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero (000)";
+"emergency.triple-zero.detail" = "الشرطة والإطفاء والإسعاف — لحالات الطوارئ التي تهدّد الحياة فقط.";
+"emergency.poisons.name" = "معلومات السموم (Poisons Information)";
+"emergency.poisons.detail" = "استشارة على مدار الساعة لحالات التسمم أو الاشتباه بالتسمم.";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "استشارات صحية على مدار الساعة مع ممرضين للأسئلة غير الطارئة.";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "خدمة طوارئ الولاية للفيضانات والعواصف والمساعدات المشابهة.";
+
+/* Extra UI */
+"checklist.open_guide" = "افتح الدليل";
+"settings.aus_gov" = "الحكومة الأسترالية";
+"common.min" = "%d دقيقة";
+"common.progress_percent" = "التقدّم %d بالمئة";
+
+/* Home extras */
+"home.for_you" = "مختار لك";
+"home.for_you_subtitle" = "مرتّبة حسب أولويات %@ في أسابيعك الأولى";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "تأمين OSHC وساعات العمل المسموحة والسكن";
+"onboarding.task_more_family" = "المدارس والرعاية الصحية والسكن";
+"onboarding.task_more_tourist" = "المواصلات والسلامة ورحلات نهاية الأسبوع";
+
+/* Article actions */
+"article.share" = "شارك هذا الدليل";
+"article.mark_done" = "علّم هذه الخطوة كمنجزة";
+"article.completed" = "تم الإنجاز";
+"article.mark_done_hint" = "يعلّم أيضًا العناصر المطابقة في قوائم المهام وفي أول 30 يومًا";
+
+/* Emergency */
+"emergency.call" = "اتصل بـ %@ على الرقم %@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "افتح الأدلة الأساسية للاستقرار";
+"pro.subtitle" = "شراء لمرة واحدة · %@ · يبقى كل شيء متاحًا بدون إنترنت على هذا الـ iPhone";
+"pro.benefit_guides" = "فترات الانتظار في التأمين الصحي الخاص وOVHC ورسوم الطرق وأنواع تأمين السيارات وتغطية الإسعاف، إضافة إلى التسجيل في Medicare وImmiAccount والضرائب وPPSR وmyGov والمزيد.";
+"pro.benefit_offline" = "تبقى الأدلة على هاتفك. بلا حساب. ولا نسجّل الدخول نيابةً عنك في المواقع الحكومية.";
+"pro.benefit_persona" = "الصفحة الرئيسية وأول 30 يومًا مُصفّاة أصلًا حسب كونك طالبًا أو عاملًا أو عائلة أو زائرًا.";
+"pro.legal" = "AussieStart ليس تطبيقًا حكوميًا وليس تابعًا للحكومة الأسترالية. تتم عمليات الشراء عبر Apple. للمعلومات فقط — نحن لا نقدّم طلبات تأشيرات أو ضرائب أو Medicare أو myGov أو مبالغ تأمين الإيجار نيابةً عنك.";
+"pro.buy" = "افتح Pro · %@";
+"pro.restore" = "استعادة المشتريات";
+"pro.unlock_cta" = "افتح AussieStart Pro";
+"pro.unlock_this" = "هذا الدليل مشمول في Pro: %@";
+"pro.locked_title" = "هذا الدليل الأساسي جزء من AussieStart Pro";
+"pro.active" = "Pro مُفعّل على حساب Apple ID هذا";
+"pro.settings_blurb" = "Pro فتح لمرة واحدة. استعِد الشراء إذا أعدت تثبيت التطبيق أو انتقلت إلى iPhone آخر بنفس Apple ID.";
+
+/* Privacy */
+"privacy.title" = "سياسة الخصوصية";
+"privacy.updated" = "آخر تحديث 17 أغسطس 2026";
+"privacy.collect_title" = "ما الذي نحفظه";
+"privacy.collect_body" = "لا يتطلب AussieStart إنشاء حساب. تبقى الإشارات المرجعية وسجل القراءة وسجل البحث وعلامات قوائم المهام وتقدّم أول 30 يومًا على هذا الجهاز. ولا نشغّل خادمًا يستقبل بيانات استقرارك.";
+"privacy.purchases_title" = "المشتريات";
+"privacy.purchases_body" = "إذا اشتريت AussieStart Pro، فإن Apple هي التي تعالج الدفع. ونستلم على هذا الجهاز تصريح شراء من App Store لتُفتح أدلة Pro. نحن لا نستلم رقم بطاقتك.";
+"privacy.notgov_title" = "ليس خدمة حكومية";
+"privacy.notgov_body" = "AussieStart تطبيق معلومات مستقل. لا يمكننا رؤية أو تغيير أو تقديم طلبات التأشيرات أو myGov أو TFN أو Medicare أو Centrelink أو الرخص أو مبالغ تأمين الإيجار. استخدم دائمًا المواقع الرسمية المنتهية بـ gov.au لهذه الخطوات.";
+"privacy.contact_title" = "أسئلة";
+"privacy.contact_body" = "لتصحيح المحتوى، استخدم بيانات التواصل في صفحة App Store بعد النشر. وتحقّق من الخطوات المهمة عبر المصادر الرسمية للحكومة الأسترالية.";
+
+/* New article titles */
+"article.mygov-basics.title" = "أنشئ حساب myGov بالطريقة الرسمية";
+"article.mygov-basics.subtitle" = "كيف ينشئ الناس عادةً حساب myGov ويحمونه";
+"article.scams-safety.title" = "اكتشف عمليات احتيال الإيجار والوظائف وmyGov";
+"article.scams-safety.subtitle" = "توقّف قبل أن تدفع أو تشارك رمز تحقق";
+"article.visa-work-rights.title" = "تحقّق من حقوق العمل في تأشيرتك";
+"article.visa-work-rights.subtitle" = "استخدم نظام VEVO الرسمي — AussieStart لا يمكنه الاطلاع على التأشيرات";
+"article.super-basics.title" = "التقاعد (Superannuation) في أول وظيفة لك";
+"article.super-basics.subtitle" = "ماذا يعني بند التقاعد في قسيمة الراتب";
+"article.utilities-connect.title" = "توصيل الكهرباء والغاز والإنترنت";
+"article.utilities-connect.subtitle" = "شركات التزويد والعدّادات وشبكة NBN — أنت من يشترك بنفسه";
+"article.rental-bond.title" = "أودِع تأمين الإيجار بالطريقة الرسمية";
+"article.rental-bond.subtitle" = "هيئات التأمين في الولايات — لا تحوّل المبلغ إلى حساب شخصي أبدًا";
+"article.first-month-budget.title" = "قائمة مصاريف الشهر الأول";
+"article.first-month-budget.subtitle" = "الشريحة والتأمين والطعام والمواصلات — قائمة للتخطيط";
+"article.abn-contracting.title" = "ABN أم موظف — لا تخلط بينهما";
+"article.abn-contracting.subtitle" = "متى تحتاج فعلًا إلى ABN ومتى لا تحتاجه";
+
+"tip.tip-scam.title" = "لا تدفع تأمين الإيجار عبر محادثة شخصية";
+"tip.tip-scam.description" = "مبالغ التأمين الحقيقية تُودَع لدى هيئة رسمية في الولاية. فإذا طلب أحدهم تحويلًا على WhatsApp أولًا، فتوقّف.";
+"tip.tip-mygov.title" = "استخدم my.gov.au فقط";
+"tip.tip-mygov.description" = "المواقع المقلّدة تسرق رموز التحقق. اكتب العنوان بنفسك وتأكد أنه ينتهي بـ gov.au.";
+
+"journey.d6.title" = "حساب myGov";
+"journey.d6.summary" = "أنشئ حساب myGov عبر الموقع الرسمي فقط — نحن لا نسجّل الدخول نيابةً عنك.";
+"journey.d7.title" = "الحذر من الاحتيال";
+"journey.d7.summary" = "تعرّف على أنماط احتيال الإيجار والوظائف وانتحال الجهات الحكومية قبل أن تدفع لأي شخص.";
+"journey.d12.title" = "المرافق";
+"journey.d12.summary" = "وصّل الكهرباء والإنترنت باسمك بعد أن يصبح عقد الإيجار مؤكدًا.";
+"journey.d20.title" = "التقاعد وقسائم الراتب";
+"journey.d20.summary" = "اقرأ بند التقاعد في أول قسيمة راتب، واحرص على تسجيل TFN لدى صندوق التقاعد.";
+
+"checklist.checklist-work.title" = "إضافات الجاهزية للعمل";
+"checklist.checklist-work.subtitle" = "الحقوق والتقاعد والعمل الحر — للمعلومات فقط";
+"task.task-scam.title" = "اقرأ دليل كشف الاحتيال";
+"task.task-mygov.title" = "أنشئ myGov عبر الموقع الرسمي (إذا احتجت إلى ATO أو Medicare)";
+"task.task-utilities.title" = "رتّب توصيل الكهرباء / الإنترنت";
+"task.task-bond.title" = "أودِع مبلغ التأمين لدى هيئة الولاية";
+"task.task-visa-rights.title" = "تحقّق من شروط العمل عبر نظام VEVO الرسمي";
+"task.task-super.title" = "ابحث عن بند التقاعد في قسيمة راتبك";
+"task.task-budget.title" = "اكتب قائمة مصاريف الشهر الأول";
+"task.task-abn.title" = "تأكد أنك موظف قبل استخراج ABN";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "التسجيل في Medicare عبر الموقع الرسمي";
+"article.medicare-enrol.subtitle" = "شروط الاستحقاق وmyGov ومراكز الخدمة — نحن لا نسجّلك";
+"article.student-concession.title" = "تخفيض أجرة المواصلات للطلاب";
+"article.student-concession.subtitle" = "قدّم الطلب لدى هيئة ولايتك — لا عبر هذا التطبيق";
+"article.tax-return-basics.title" = "تقديم أول إقرار ضريبي (ATO)";
+"article.tax-return-basics.subtitle" = "المسار الرسمي عبر myTax أو محاسب — AussieStart لا يقدّم الإقرار";
+"article.choose-suburb.title" = "اختر الحي باستخدام الخرائط الرسمية";
+"article.choose-suburb.subtitle" = "المواصلات والمدارس والمخاطر — لا قوائم Instagram";
+"article.inspection-condition-report.title" = "معاينة الدخول وتقرير حالة السكن";
+"article.inspection-condition-report.subtitle" = "النماذج الرسمية والصور التي تحمي مبلغ تأمينك";
+"article.used-car-ppsr.title" = "فحوصات السيارة المستعملة (PPSR)";
+"article.used-car-ppsr.subtitle" = "السجل الحكومي ونقل الملكية وتأمين CTP قبل أن تدفع";
+"article.contents-insurance.title" = "تأمين المحتويات للمستأجرين";
+"article.contents-insurance.subtitle" = "كيف تقارن عبر موقع Moneysmart — نحن لا نبيع وثائق تأمين";
+"article.library-council.title" = "بطاقة المكتبة ومجلسك المحلي";
+"article.library-council.subtitle" = "واي فاي مجاني وحاويات النفايات وبرنامج AMEP — من مواقع المجالس الرسمية";
+"article.visa-immiaccount.title" = "طلبات التأشيرات عبر ImmiAccount";
+"article.visa-immiaccount.subtitle" = "بوابة Home Affairs الرسمية — لا يمكننا تقديم طلبات التأشيرات";
+"article.police-check-wwcc.title" = "شهادة الشرطة وتصريح العمل مع الأطفال";
+"article.police-check-wwcc.subtitle" = "بوابات AFP والولايات فقط — نحن لا نأخذ وثائق هويتك أبدًا";
+"article.centrelink-claim-start.title" = "ابدأ طلب Centrelink بالطريقة الرسمية";
+"article.centrelink-claim-start.subtitle" = "أداة Payment finder وmyGov — لا يمكننا تقديم الطلب عنك";
+
+"tip.tip-ppsr.title" = "ابحث في PPSR قبل شراء سيارة";
+"tip.tip-ppsr.description" = "السجل الحكومي هو ppsr.gov.au فقط. أما مواقع فحص رقم الهيكل الأخرى فهي إضافات اختيارية.";
+"tip.tip-immi.title" = "عنوان ImmiAccount هو online.immi.gov.au";
+"tip.tip-immi.description" = "تبقى طلبات التأشيرات على بوابة Home Affairs. تجاهل الوسطاء على WhatsApp الذين يطلبون صورة جواز سفرك.";
+
+"journey.d9.title" = "الحي والمعاينات";
+"journey.d9.summary" = "استخدم الخرائط الرسمية ونماذج تقرير الحالة قبل أن تدفع مبلغ التأمين.";
+"journey.d11.title" = "المكتبة والمجلس المحلي";
+"journey.d11.summary" = "احصل على بطاقة مكتبة واعثر على الموقع الرسمي لمجلسك المحلي.";
+"journey.d14.title" = "التسجيل في Medicare";
+"journey.d14.summary" = "إذا كنت مستحقًا، فسجّل فقط عبر servicesaustralia.gov.au أو myGov.";
+"journey.d16.title" = "تخفيض الطلاب";
+"journey.d16.summary" = "قدّم طلب الأجرة المخفّضة على موقع النقل في ولايتك.";
+"journey.d22.title" = "السجلات الضريبية";
+"journey.d22.summary" = "احتفظ بقسائم الراتب جاهزة لنظام myTax على موقع ATO بعد 30 يونيو.";
+"journey.d26.title" = "فحوصات شراء السيارة";
+"journey.d26.summary" = "راجع PPSR وصفحات نقل الملكية في ولايتك قبل أن تدفع ثمن سيارة مستعملة.";
+
+"checklist.checklist-pro-official.title" = "قائمة المواقع الرسمية (Pro)";
+"checklist.checklist-pro-official.subtitle" = "أنجز هذه الخطوات على مواقع gov.au — فـ AussieStart لا يرسل النماذج";
+"task.task-medicare-enrol.title" = "تحقّق من استحقاق Medicare عبر Services Australia";
+"task.task-concession.title" = "قدّم طلب تخفيض الطلاب على موقع النقل في ولايتك";
+"task.task-tax-return.title" = "احفظ صفحة تقديم الإقرار لدى ATO / احتفظ بقسائم الراتب";
+"task.task-suburb.title" = "اختر أحياء مرشّحة باستخدام الخرائط الرسمية";
+"task.task-inspection.title" = "أكمل تقرير الحالة الرسمي مع الصور";
+"task.task-ppsr.title" = "ابحث في PPSR قبل شراء سيارة مستعملة";
+"task.task-library.title" = "اشترك في المكتبة المحلية عبر موقع المجلس";
+"task.task-immi.title" = "استخدم ImmiAccount وVEVO على موقع Home Affairs فقط";
+"task.task-wwcc.title" = "قدّم طلب شهادة الشرطة أو WWCC عبر البوابات الرسمية إذا تطلّب العمل ذلك";
+"task.task-centrelink-claim.title" = "استخدم أداة Payment finder قبل أن تفترض أنك مستحق";
+
+"pro.reminders" = "تذكيرات أول 30 يومًا";
+"pro.reminders_blurb" = "إشعارات محلية اختيارية خلال الأسابيع 1–4. تبقى على هذا الـ iPhone. ويمكنك إيقافها في أي وقت.";
+"pro.benefit_reminders" = "شارك قائمة أول 30 يومًا أو اطبعها، مع تذكيرات أسبوعية اختيارية على هذا الجهاز.";
+"journey.share" = "شارك أول 30 يومًا";
+"journey.share_pro" = "افتح Pro لمشاركة أول 30 يومًا";
+"journey.share_header" = "AussieStart · أول 30 يومًا — %@";
+
+"reminder.week1.title" = "الأسبوع 1 — الشريحة والبنك وTFN";
+"reminder.week1.body" = "افتح AussieStart وعلّم خطوات أسبوعك الأول. واستخدم مواقع gov.au الرسمية لتقديم الطلبات.";
+"reminder.week2.title" = "الأسبوع 2 — السكن والرعاية الصحية";
+"reminder.week2.body" = "المعاينات وMedicare أو OSHC وبطاقة مكتبة المجلس مهام معتادة في الأسبوع الثاني.";
+"reminder.week3.title" = "الأسبوع 3 — إضافات العمل والدراسة";
+"reminder.week3.body" = "تحقّق من حقوق العمل عبر VEVO ومن تخفيض الطلاب على موقع النقل في ولايتك.";
+"reminder.week4.title" = "الأسبوع 4 — المال والسجلات";
+"reminder.week4.body" = "احتفظ بقسائم الراتب من أجل ATO، واستخدم PPSR قبل شراء سيارة مستعملة.";
+
+"article.private-health-waiting.title" = "التأمين الصحي الخاص وفترات الانتظار";
+"article.private-health-waiting.subtitle" = "تغطية المستشفى مقابل الخدمات الإضافية — نحن لا نبيع وثائق تأمين";
+"article.ovhc-visitors.title" = "تأمين OVHC للزوار وحاملي التأشيرات المؤقتة";
+"article.ovhc-visitors.subtitle" = "ليس Medicare ولا OSHC — راجع خطاب منح تأشيرتك";
+"article.tolls-linkt.title" = "طرق الرسوم وLinkt وجهاز e-TAG";
+"article.tolls-linkt.subtitle" = "جهّزها قبل أن تقود — خاصة مع السيارات المستأجرة";
+"article.car-insurance-types.title" = "تأمين CTP مقابل التأمين الشامل للسيارة";
+"article.car-insurance-types.subtitle" = "تغطية الإصابات شيء وإصلاح سيارتك شيء آخر";
+"article.ambulance-cover.title" = "تغطية الإسعاف حسب الولاية";
+"article.ambulance-cover.subtitle" = "اتصل بـ 000 دائمًا — أما تكلفة النقل فتعتمد على مكان سكنك";
+
+"tip.tip-toll.title" = "جهّز حساب رسوم الطرق قبل استئجار سيارة";
+"tip.tip-toll.description" = "الرحلات غير المدفوعة على الطرق السريعة تتحول إلى رسوم إضافية. استخدم صفحة رسوم الطرق على موقع ولايتك الرسمي، ثم المشغّل المذكور فيها.";
+"tip.tip-ambulance.title" = "اتصل بـ 000 أولًا — ثم تحقّق من فاتورة الإسعاف";
+"tip.tip-ambulance.description" = "المكالمة مجانية. أما من يدفع تكلفة النقل فيعتمد على ولايتك. اقرأ healthdirect.gov.au.";
+
+"journey.d13.title" = "تغطية الإسعاف";
+"journey.d13.summary" = "اتصل بـ 000 دائمًا. ثم تحقّق إن كانت ولايتك تحاسبك على تكلفة النقل.";
+"journey.d17.title" = "التغطية الصحية للزوار (OVHC)";
+"journey.d17.summary" = "إذا كانت تأشيرتك تطلب OVHC، فاشترِه من الموقع الرسمي لشركة التأمين — لا عبر WhatsApp.";
+"journey.d19.title" = "فترات انتظار التأمين الخاص";
+"journey.d19.summary" = "اقرأ فترات الانتظار على privatehealth.gov.au قبل شراء تغطية المستشفى.";
+"journey.d21.title" = "رسوم الطرق والأجهزة";
+"journey.d21.summary" = "افتح حساب رسوم طرق قبل أن تقود سيارة مستأجرة أو تسلك طريقًا سريعًا جديدًا.";
+"journey.d24.title" = "أنواع تأمين السيارة";
+"journey.d24.summary" = "تأمين CTP ليس تأمينًا شاملًا. اقرأ Moneysmart قبل أن تقود سيارتك.";
+
+"task.task-private-health.title" = "اقرأ فترات انتظار التأمين الخاص على privatehealth.gov.au";
+"task.task-ovhc.title" = "تحقّق إن كانت تأشيرتك تتطلب OVHC";
+"task.task-tolls.title" = "افتح حساب رسوم طرق قبل قيادة سيارة مستأجرة";
+"task.task-car-insurance.title" = "اعرف الفرق بين CTP والتأمين الشامل قبل أن تقود";
+"task.task-ambulance.title" = "تحقّق من قواعد فوترة الإسعاف في ولايتك";
+
+/* Language readiness */
+"common.guides_translated" = "التطبيق والأدلة مترجمة";
+"common.guides_in_english" = "التطبيق مترجم · الأدلة بالإنجليزية";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "الاعتراف بالأرض وأصحابها الأصليين (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "نعترف بالمُلّاك التقليديين (Traditional Owners) للأراضي والمياه في جميع أنحاء أستراليا، وبصلتهم المستمرة بالأرض والماء والسماء وما يرتبط بها من علاقات (Country) وبثقافتهم ومجتمعهم. ونُكِنّ كل الاحترام لكبار السن وحُفّاظ المعرفة (Elders) في الماضي والحاضر.";
+"onboarding.acknowledgement_note" = "لقد اعتنى السكان الأصليون وسكان جزر مضيق توريس بهذه القارة منذ أكثر من 60,000 سنة، عبر مئات الأمم التي لكل منها لغاتها وقوانينها. وستسمع اعترافًا مثل هذا في بداية الاجتماعات والدروس والفعاليات في أنحاء أستراليا. ويمكن لأي شخص أن يقدّمه.";
+"onboarding.acknowledgement_learn" = "اعرف المزيد في قسم التاريخ والثقافة";
+
+/* History & Culture category */
+"category.culture" = "التاريخ والثقافة";
+
+/* New guides */
+"article.shopping-rewards.title" = "مكافآت السوبرماركت وتوفير مصاريف البقالة";
+"article.shopping-rewards.subtitle" = "Flybuys وEveryday Rewards ودورة العروض الأسبوعية";
+"article.first-nations-country.title" = "الشعوب الأولى وعلاقتها بالأرض (Country)";
+"article.first-nations-country.subtitle" = "ثقافات السكان الأصليين وسكان جزر مضيق توريس، وكيف تُظهر الاحترام";
+"article.australia-history.title" = "أساسيات التاريخ الأسترالي";
+"article.australia-history.subtitle" = "قيام الاتحاد ويوم Anzac والهجرة وكيف تُدار البلاد";

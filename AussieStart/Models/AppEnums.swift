@@ -52,38 +52,50 @@ enum AustralianState: String, CaseIterable, Identifiable, Codable, Hashable {
 }
 
 enum AppLanguage: String, CaseIterable, Identifiable, Codable {
+    // Ordered: English, then the languages most spoken at home in Australia
+    // after English (ABS Census). Raw values are the .lproj folder names.
     case english = "en"
-    case hindi = "hi"
+    case mandarin = "zh-Hans"
+    case arabic = "ar"
+    case vietnamese = "vi"
+    case cantonese = "zh-Hant"
     case punjabi = "pa"
-    case gujarati = "gu"
-    case tamil = "ta"
-    case telugu = "te"
-    case malayalam = "ml"
-    case kannada = "kn"
-    case marathi = "mr"
-    case bengali = "bn"
+    case italian = "it"
+    case greek = "el"
+    case hindi = "hi"
+    case spanish = "es"
+    case nepali = "ne"
 
     var id: String { rawValue }
 
     var displayName: String {
         switch self {
         case .english: "English"
-        case .hindi: "हिन्दी (Hindi)"
+        case .mandarin: "简体中文 (Mandarin)"
+        case .arabic: "العربية (Arabic)"
+        case .vietnamese: "Tiếng Việt (Vietnamese)"
+        case .cantonese: "繁體中文 (Cantonese)"
         case .punjabi: "ਪੰਜਾਬੀ (Punjabi)"
-        case .gujarati: "ગુજરાતી (Gujarati)"
-        case .tamil: "தமிழ் (Tamil)"
-        case .telugu: "తెలుగు (Telugu)"
-        case .malayalam: "മലയാളം (Malayalam)"
-        case .kannada: "ಕನ್ನಡ (Kannada)"
-        case .marathi: "मराठी (Marathi)"
-        case .bengali: "বাংলা (Bengali)"
+        case .italian: "Italiano (Italian)"
+        case .greek: "Ελληνικά (Greek)"
+        case .hindi: "हिन्दी (Hindi)"
+        case .spanish: "Español (Spanish)"
+        case .nepali: "नेपाली (Nepali)"
         }
     }
 
-    /// MVP ships English + Hindi + Punjabi UI strings.
-    var isMVPReady: Bool {
+    /// Every language ships a full set of translated interface strings.
+    var hasTranslatedInterface: Bool { true }
+
+    /// Languages whose Markdown guides are also translated. Everything else
+    /// falls back to the English guide text via `ContentLoader`.
+    var hasTranslatedGuides: Bool {
         self == .english || self == .hindi || self == .punjabi
     }
+
+    /// Arabic is written right-to-left. The app picks its own language
+    /// independently of the device, so the layout direction is set explicitly.
+    var isRightToLeft: Bool { self == .arabic }
 
     var locale: Locale { Locale(identifier: rawValue) }
 }
@@ -125,15 +137,15 @@ enum UserPersona: String, CaseIterable, Identifiable, Codable {
     var suggestedCategories: [ContentCategory] {
         switch self {
         case .student:
-            [.students, .healthcare, .transport, .banking, .jobs, .housing, .emergency]
+            [.students, .healthcare, .transport, .banking, .jobs, .housing, .culture, .emergency]
         case .worker:
-            [.jobs, .taxes, .housing, .healthcare, .transport, .driving, .emergency]
+            [.jobs, .taxes, .housing, .healthcare, .transport, .driving, .culture, .emergency]
         case .family:
-            [.family, .healthcare, .housing, .transport, .shopping, .emergency, .taxes]
+            [.family, .healthcare, .housing, .transport, .shopping, .culture, .emergency, .taxes]
         case .tourist:
-            [.explore, .sim, .transport, .emergency, .shopping, .driving]
+            [.explore, .culture, .sim, .transport, .emergency, .shopping, .driving]
         case .pr, .citizen:
-            [.healthcare, .housing, .jobs, .taxes, .family, .driving, .emergency]
+            [.healthcare, .housing, .jobs, .taxes, .culture, .family, .driving, .emergency]
         }
     }
 }
@@ -141,6 +153,7 @@ enum UserPersona: String, CaseIterable, Identifiable, Codable {
 enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
     case arrival, sim, banking, healthcare, transport, driving
     case taxes, housing, jobs, shopping, family, explore, emergency, students
+    case culture
 
     var id: String { rawValue }
 
@@ -160,6 +173,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .explore: "Explore"
         case .emergency: "Emergency"
         case .students: "Students"
+        case .culture: "History & Culture"
         }
     }
 
@@ -185,6 +199,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .explore: "binoculars.fill"
         case .emergency: "exclamationmark.triangle.fill"
         case .students: "graduationcap.fill"
+        case .culture: "books.vertical.fill"
         }
     }
 
@@ -204,6 +219,7 @@ enum ContentCategory: String, CaseIterable, Identifiable, Codable, Hashable {
         case .explore: "0E7490"
         case .emergency: "B91C1C"
         case .students: "4338CA"
+        case .culture: "92400E"
         }
     }
 }

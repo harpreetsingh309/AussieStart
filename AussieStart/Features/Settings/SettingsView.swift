@@ -11,7 +11,7 @@ struct SettingsView: View {
             Form {
                 Section(preferences.t("settings.personalisation")) {
                     Picker(preferences.t("settings.language"), selection: $preferences.language) {
-                        ForEach(AppLanguage.allCases.filter(\.isMVPReady)) { lang in
+                        ForEach(AppLanguage.allCases) { lang in
                             Text(lang.displayName).tag(lang)
                         }
                     }

@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "你的澳大利亚入门指南";
+
+/* Tabs */
+"tab.home" = "首页";
+"tab.search" = "搜索";
+"tab.topics" = "主题";
+"tab.saved" = "收藏";
+"tab.settings" = "设置";
+
+/* Common */
+"common.continue" = "继续";
+"common.back" = "返回";
+"common.close" = "关闭";
+"common.see_all" = "查看全部";
+"common.guides_count" = "%d 篇指南";
+"common.coming_soon" = "即将推出";
+"common.min_read" = "阅读约 %d 分钟";
+"common.min_category" = "%d 分钟 · %@";
+"common.offline_for_state" = "离线可用 · 已按%@更新";
+"common.available_now" = "现已支持";
+"common.coming_soon_lang" = "即将推出";
+
+/* Disclaimer */
+"disclaimer.full" = "内容仅供参考，不构成法律、移民、财务或医疗建议。请务必以澳大利亚政府官方渠道的信息为准。";
+
+/* Greetings */
+"greeting.morning" = "早上好";
+"greeting.afternoon" = "下午好";
+"greeting.evening" = "晚上好";
+
+/* Home */
+"home.settling_in" = "在%@安顿下来";
+"home.hero_tagline" = "用最简单的话，讲清楚你在澳大利亚的头几周。";
+"home.section_topics" = "主题";
+"home.section_recommended" = "推荐";
+"home.section_explore" = "去看看";
+"home.section_guides" = "指南";
+"home.section_reading" = "阅读中";
+"home.journey_week" = "第 %d 周";
+"home.todays_tip" = "今日贴士";
+"home.read_guide" = "阅读指南";
+"home.quick_topics" = "快速主题";
+"home.popular_destinations" = "热门目的地";
+"home.popular_destinations_subtitle" = "门票费用、短途行程和沿途景点";
+"home.first_30_days" = "最初 30 天";
+"home.milestones_completed" = "已完成 %d/%d 个目标";
+"home.continue_roadmap" = "点按继续你的路线图";
+"home.continue_reading" = "继续阅读";
+"home.most_popular" = "最受欢迎";
+"home.most_popular_subtitle" = "%@可以先从这几篇开始";
+"home.emergency_contacts" = "紧急联系方式";
+"home.emergency_subtitle" = "000 · 中毒咨询 · SES · healthdirect";
+
+/* Search */
+"search.title" = "搜索";
+"search.prompt" = "搜索指南";
+"search.recent" = "最近搜索";
+"search.trending" = "热门搜索";
+"search.results" = "搜索结果";
+"search.hint" = "试试搜索“GP”“TFN”或“Myki”";
+"search.empty" = "没有找到结果。换个说法试试，比如用“医生”来找 GP。";
+
+/* Topics */
+"topics.title" = "主题";
+"topics.browse" = "按主题浏览";
+"topics.tailored" = "为%@整理的实用指南";
+"topics.guides" = "指南";
+
+/* Saved */
+"saved.title" = "收藏";
+"saved.articles" = "已收藏的文章";
+"saved.empty" = "把指南加入收藏，以后可以离线慢慢读。";
+"saved.history" = "浏览记录";
+"saved.history_empty" = "你打开过的文章会显示在这里。";
+"saved.checklists" = "清单";
+"saved.journey" = "最初 30 天";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.personalisation" = "个性化";
+"settings.language" = "语言";
+"settings.state" = "州 / 领地";
+"settings.persona" = "我的身份";
+"settings.appearance" = "外观";
+"settings.theme" = "主题";
+"settings.theme.system" = "跟随系统";
+"settings.theme.light" = "浅色";
+"settings.theme.dark" = "深色";
+"settings.theme.hint.system" = "跟随 iPhone 的浅色 / 深色设置。";
+"settings.theme.hint.light" = "始终使用浅色背景。";
+"settings.theme.hint.dark" = "始终使用深色背景。";
+"settings.offline" = "离线";
+"settings.content_pack" = "内容包";
+"settings.last_reviewed" = "最近审核";
+"settings.offline_blurb" = "所有指南、贴士和清单都已内置在应用里。不用注册账号，也不用联网。";
+"settings.privacy" = "隐私";
+"settings.analytics" = "分享匿名使用数据（默认关闭）";
+"settings.privacy_blurb" = "AussieStart 只把收藏和进度保存在这台设备上。不用登录，也不会同步到云端。";
+"settings.about" = "关于";
+"settings.about_app" = "关于 AussieStart";
+"settings.replay_onboarding" = "重新观看引导";
+"settings.language_note" = "菜单和指南详情会跟着你选的语言切换。TFN、Myki、Medicare 这类官方名称保持英文。";
+
+/* Onboarding */
+"onboarding.welcome_title" = "欢迎使用 AussieStart";
+"onboarding.welcome_body" = "为新移民准备的离线安家指南——内容可靠、语言通俗，并按你所在的州调整。";
+"onboarding.welcome_line1" = "探索";
+"onboarding.welcome_line2" = "澳大利亚的";
+"onboarding.welcome_line3" = "新生活";
+"onboarding.welcome_tagline" = "让 AussieStart 陪你起步";
+"onboarding.welcome_cta" = "开始你的旅程";
+"onboarding.choose_language" = "选择你的语言";
+"onboarding.choose_language_subtitle" = "列出的每种语言，应用界面都已完整翻译。除特别注明外，指南内容为英文。";
+"onboarding.choose_state" = "你会住在哪里？";
+"onboarding.choose_state_subtitle" = "指南会按当地的交通卡、驾照和服务自动调整。";
+"onboarding.transport_label" = "交通：%@";
+"onboarding.choose_persona" = "哪一项最符合你？";
+"onboarding.choose_persona_subtitle" = "我们会据此优先安排你的“最初 30 天”路线图。";
+"onboarding.roadmap_title" = "你的专属路线图";
+"onboarding.roadmap_subtitle" = "根据你的身份（%@）和居住地（%@）定制。";
+"onboarding.start" = "开始探索";
+"onboarding.step" = "引导第 %d 步，共 6 步";
+"onboarding.day1" = "第 1 天";
+"onboarding.day2" = "第 2 天";
+"onboarding.day3" = "第 3 天";
+"onboarding.day4" = "第 4 天";
+"onboarding.week2" = "第 2 周起";
+"onboarding.task_sim" = "办一张本地 SIM 卡并连上网络";
+"onboarding.task_bank" = "开设银行账户";
+"onboarding.task_tfn" = "申请你的 TFN";
+"onboarding.task_transport" = "办理%@";
+"onboarding.task_more" = "住房、医疗等更多内容";
+
+/* Article / gallery */
+"article.photos" = "照片";
+"article.destination_photos" = "目的地照片";
+"article.remove_bookmark" = "取消收藏";
+"article.save_bookmark" = "加入收藏";
+"article.unavailable_title" = "文章暂不可用";
+"article.unavailable_body" = "这篇指南还没有收进离线内容包。";
+"article.recommended" = "接下来推荐";
+"article.recommended_subtitle" = "让你的安家进度继续往前走";
+"photo.n" = "第 %d 张照片";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "最初 30 天";
+"journey.completed" = "已完成 %d/%d";
+"journey.subtitle" = "为你在%@的第一个月准备的实用路线图。";
+"journey.week" = "第 %d 周";
+"journey.day" = "第 %d 天：%@";
+"checklist.title" = "清单";
+"checklist.done" = "已完成 %d/%d";
+"about.title" = "关于";
+"about.blurb" = "把完整的澳大利亚入门指南装进口袋——专为新移民打造，内容离线优先。";
+"about.verify" = "关键步骤请务必向官方渠道核实，例如 Services Australia、ATO（税务局）、各州交通部门，以及你所在的地方议会（council）。";
+"about.version" = "版本";
+"about.content_reviewed" = "内容审核日期";
+"about.architecture" = "技术架构";
+"emergency.title" = "紧急情况";
+"emergency.life_threatening" = "危及生命";
+
+/* Categories */
+"category.arrival" = "抵达";
+"category.sim" = "SIM 卡";
+"category.banking" = "银行";
+"category.healthcare" = "医疗";
+"category.transport" = "公共交通";
+"category.driving" = "开车";
+"category.taxes" = "税务";
+"category.housing" = "住房";
+"category.jobs" = "工作";
+"category.shopping" = "购物";
+"category.family" = "家庭";
+"category.explore" = "出游";
+"category.emergency" = "紧急";
+"category.students" = "留学生";
+
+/* Personas */
+"persona.student" = "留学生";
+"persona.worker" = "上班族 / 技术移民";
+"persona.family" = "家庭签证持有人";
+"persona.tourist" = "游客 / 打工度假";
+"persona.pr" = "永久居民";
+"persona.citizen" = "公民";
+
+/* Empty states */
+"empty.no_guides_title" = "暂时还没有指南";
+"empty.no_guides_body" = "更多%@相关的指南会在后续内容更新中加入。";
+
+/* States */
+"state.vic" = "Victoria（维多利亚州）";
+"state.nsw" = "New South Wales（新南威尔士州）";
+"state.qld" = "Queensland（昆士兰州）";
+"state.sa" = "South Australia（南澳大利亚州）";
+"state.wa" = "Western Australia（西澳大利亚州）";
+"state.tas" = "Tasmania（塔斯马尼亚州）";
+"state.act" = "Australian Capital Territory（首都领地）";
+"state.nt" = "Northern Territory（北领地）";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "机场入境清单";
+"article.arrival-airport.subtitle" = "边检、行李、生物安全检查，以及怎么从机场进城";
+"article.sim-setup.title" = "办本地 SIM 卡或 eSIM";
+"article.sim-setup.subtitle" = "有本地号码，办银行、收快递、收验证码才方便";
+"article.banking-open-account.title" = "开设银行账户";
+"article.banking-open-account.subtitle" = "BSB、借记卡、PayID 和 Osko 基础知识";
+"article.tfn-apply.title" = "申请 TFN";
+"article.tfn-apply.subtitle" = "轻松搞定税号（Tax File Number）";
+"article.transport-card.title" = "公共交通卡";
+"article.transport-card.subtitle" = "Myki、Opal、go card 和其他各州交通卡";
+"article.medicare-gp.title" = "Medicare 与看家庭医生（GP）";
+"article.medicare-gp.subtitle" = "bulk billing 免费看诊、药房，以及什么时候该打 000";
+"article.housing-rent.title" = "租下你的第一个住处";
+"article.housing-rent.subtitle" = "看房、押金（bond）、租约和防骗要点";
+"article.jobs-basics.title" = "用澳大利亚的方式找工作";
+"article.jobs-basics.subtitle" = "简历、Seek、Fair Work 和工资单";
+"article.driving-licence.title" = "开车与驾照转换";
+"article.driving-licence.subtitle" = "交通规则、CTP 保险、过路费和海外驾照";
+"article.emergency-contacts.title" = "紧急联系方式";
+"article.emergency-contacts.subtitle" = "000、中毒咨询、SES 和道路救援";
+"article.shopping-essentials.title" = "采购生活必需品";
+"article.shopping-essentials.subtitle" = "买菜、家具、退货和插头转换";
+"article.students-oshc.title" = "留学生的 OSHC 保险";
+"article.students-oshc.subtitle" = "签证要求的医疗保险，一次讲清楚";
+"article.family-schools.title" = "给孩子办入学";
+"article.family-schools.subtitle" = "学区、所需材料，以及开学第一周的准备";
+"article.family-childcare.title" = "托儿服务与育儿补贴（CCS）";
+"article.family-childcare.subtitle" = "怎么找托儿所、排队等位，以及 CCS 基础";
+"article.family-immunisation.title" = "给孩子补打疫苗";
+"article.family-immunisation.subtitle" = "入学和入托要用的 AIR 疫苗记录";
+"article.family-centrelink.title" = "家庭必备的 Centrelink 入门";
+"article.family-centrelink.subtitle" = "myGov、CRN 号码和资格须知";
+"article.explore-great-ocean-road.title" = "Great Ocean Road（大洋路）";
+"article.explore-great-ocean-road.subtitle" = "费用、1–2 天行程，以及从 Melbourne 出发的沿海景点";
+"article.explore-blue-mountains.title" = "Blue Mountains（蓝山）一日游";
+"article.explore-blue-mountains.subtitle" = "火车行程、观景台门票，以及从 Sydney 出发的小镇停靠点";
+"article.explore-sydney-harbour.title" = "Sydney Harbour（悉尼港）经典景点";
+"article.explore-sydney-harbour.subtitle" = "歌剧院、渡轮、Manly，以及每一站大概花多少钱";
+"article.explore-gold-coast.title" = "Gold Coast（黄金海岸）海滩与腹地";
+"article.explore-gold-coast.subtitle" = "主题公园、Burleigh，以及两天行程的花费";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef 大堡礁（Cairns）";
+"article.explore-great-barrier-reef.subtitle" = "游船费用、2–3 天行程，以及附近的顺路景点";
+"article.explore-uluru.title" = "Uluru 与 Kata Tjuta";
+"article.explore-uluru.subtitle" = "国家公园门票、尊重当地文化的行程，以及 Yulara 实用提示";
+"article.explore-phillip-island.title" = "Phillip Island（菲利普岛）看企鹅";
+"article.explore-phillip-island.subtitle" = "企鹅归巢门票、一日行程，以及从 Melbourne 出发的沿途景点";
+"article.explore-rottnest.title" = "Rottnest Island 罗特尼斯岛（Perth）";
+"article.explore-rottnest.subtitle" = "渡轮价格、骑车一日游行程，以及沿途海湾";
+"article.explore-tasmania-hobart.title" = "Hobart 与 Tasmania 南部";
+"article.explore-tasmania-hobart.subtitle" = "MONA 博物馆、kunanyi 山，以及三天周末的花费";
+"article.explore-barossa-adelaide.title" = "Adelaide、Glenelg 与 Barossa";
+"article.explore-barossa-adelaide.subtitle" = "城市、海边加酒庄的周末行程，含品酒费用";
+
+/* Daily tips */
+"tip.tip-sim.title" = "今天就办一个本地号码";
+"tip.tip-sim.description" = "办银行、收快递常常要收短信验证码。落地第一天先买张预付费 SIM 卡，后面的事就顺了。";
+"tip.tip-tfn.title" = "尽早申请你的 TFN";
+"tip.tip-tfn.description" = "拖着不办，头几张工资单可能会被多扣税。";
+"tip.tip-000.title" = "记住：紧急电话是 000";
+"tip.tip-000.description" = "澳大利亚不用 911。把 000 和家里的详细地址存进手机。";
+"tip.tip-bond.title" = "入住时把每个角落都拍下来";
+"tip.tip-bond.description" = "房屋状况报告（condition report）加上照片，能在退租时保住你的押金。";
+"tip.tip-bulk.title" = "预约时先问是不是 bulk billing";
+"tip.tip-bulk.description" = "不是每家 GP 都免费。预约时就把收费问清楚。";
+"tip.tip-explore.title" = "给自己安排一次周末小旅行";
+"tip.tip-explore.description" = "等 SIM 卡、银行和交通卡都搞定了，就订一次轻松的一日游——Blue Mountains、Phillip Island 或 Glenelg 都很适合第一次出门。";
+
+/* Journey days */
+"journey.d1.title" = "SIM 卡与上网";
+"journey.d1.summary" = "买一张本地 SIM/eSIM，确认手机流量能正常用。";
+"journey.d2.title" = "开设银行账户";
+"journey.d2.summary" = "备好 BSB 和账号，方便领工资和交房租。";
+"journey.d3.title" = "申请 TFN";
+"journey.d3.summary" = "用本地地址和电话，开始申请你的税号（TFN）。";
+"journey.d4.title" = "交通卡";
+"journey.d4.summary" = "办好所在州的公共交通卡或 App，并充好值。";
+"journey.d5.title" = "应急准备";
+"journey.d5.summary" = "存好 000 和重要联系人；记清自己家的详细地址。";
+"journey.d8.title" = "找房子";
+"journey.d8.summary" = "圈定几个区，预约看房，准备好申请材料。";
+"journey.d10.title" = "采购必需品";
+"journey.d10.summary" = "头几周只买真正用得上的东西。";
+"journey.d15.title" = "医疗安排";
+"journey.d15.summary" = "确认 Medicare/OSHC 的状态，并找一家附近的 GP 诊所。";
+"journey.d18.title" = "求职准备";
+"journey.d18.summary" = "写一份澳式简历，并订阅 Seek/LinkedIn 的职位提醒。";
+"journey.d25.title" = "驾照确认";
+"journey.d25.summary" = "买车或上路前，先确认驾照规定。";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "第一周必办事项";
+"checklist.checklist-first-week.subtitle" = "落地之后一定要做的事";
+"task.task-sim.title" = "购买并激活本地 SIM/eSIM";
+"task.task-bank.title" = "开一个日常交易账户";
+"task.task-tfn.title" = "提交 TFN 申请";
+"task.task-transport.title" = "办理公共交通卡";
+"task.task-emergency.title" = "存好紧急联系方式";
+"checklist.checklist-home.title" = "安家准备";
+"checklist.checklist-home.subtitle" = "租房，把自己的小家安顿好";
+"task.task-rent-docs.title" = "准备租房申请材料";
+"task.task-shop.title" = "采购第一周的家居必需品";
+"task.task-gp.title" = "找一家 GP 诊所 / 确认医疗保险";
+"task.task-resume.title" = "把简历改成澳大利亚雇主习惯的写法";
+"task.task-licence.title" = "确认海外驾照还能不能用";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero（000 紧急电话）";
+"emergency.triple-zero.detail" = "警察、消防、救护车——只用于危及生命的紧急情况。";
+"emergency.poisons.name" = "Poisons Information（中毒咨询）";
+"emergency.poisons.detail" = "24 小时提供中毒及疑似中毒的处理建议。";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "24 小时护士健康咨询，适合非紧急的问题。";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "州应急服务队（State Emergency Service），负责水灾、风暴等救助。";
+
+/* Extra UI */
+"checklist.open_guide" = "打开指南";
+"settings.aus_gov" = "Australian Government（澳大利亚政府）";
+"common.min" = "%d 分钟";
+"common.progress_percent" = "进度 %d%%";
+
+/* Home extras */
+"home.for_you" = "为你推荐";
+"home.for_you_subtitle" = "为%@的头几周优先挑选";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC、签证工时和住房";
+"onboarding.task_more_family" = "学校、医疗和住房";
+"onboarding.task_more_tourist" = "交通、安全和周末出游";
+
+/* Article actions */
+"article.share" = "分享这篇指南";
+"article.mark_done" = "标记这一步已完成";
+"article.completed" = "已标记完成";
+"article.mark_done_hint" = "同时会勾选清单和“最初 30 天”里对应的项目";
+
+/* Emergency */
+"emergency.call" = "拨打 %@：%@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "解锁最关键的安家指南";
+"pro.subtitle" = "一次性购买 · %@ · 全部内容离线保存在这台 iPhone 上";
+"pro.benefit_guides" = "私立医疗保险等待期、OVHC、过路费、车险种类、救护车保障，以及 Medicare 登记、ImmiAccount、税务、PPSR、myGov 等内容。";
+"pro.benefit_offline" = "指南都存在你手机里。不用账号。我们绝不会替你登录任何政府网站。";
+"pro.benefit_persona" = "首页和“最初 30 天”已经会按留学生、上班族、家庭或访客的身份筛选内容。";
+"pro.legal" = "AussieStart 不是政府应用，与澳大利亚政府没有任何关联。购买由 Apple 处理。内容仅供参考——我们不会代你办理签证、税务、Medicare、myGov 或押金。";
+"pro.buy" = "解锁 Pro · %@";
+"pro.restore" = "恢复购买";
+"pro.unlock_cta" = "解锁 AussieStart Pro";
+"pro.unlock_this" = "这篇指南包含在 Pro 里：%@";
+"pro.locked_title" = "这篇重要指南属于 AussieStart Pro";
+"pro.active" = "此 Apple ID 已解锁 Pro";
+"pro.settings_blurb" = "Pro 是一次性解锁。重装应用或换新 iPhone 后，用同一个 Apple ID 恢复购买就行。";
+
+/* Privacy */
+"privacy.title" = "隐私政策";
+"privacy.updated" = "最后更新：2026 年 8 月 17 日";
+"privacy.collect_title" = "我们保存了什么";
+"privacy.collect_body" = "AussieStart 不需要注册账号。收藏、阅读记录、搜索记录、清单勾选和“最初 30 天”的进度，都只保存在这台设备上。我们没有服务器接收你的安家资料。";
+"privacy.purchases_title" = "购买";
+"privacy.purchases_body" = "如果你购买 AussieStart Pro，付款由 Apple 处理。我们只会在这台设备上收到 App Store 的购买凭证，用来解锁 Pro 指南。我们拿不到你的银行卡号。";
+"privacy.notgov_title" = "这不是政府服务";
+"privacy.notgov_body" = "AussieStart 是一款独立的信息类应用。我们无法查看、修改或代你申请签证、myGov、TFN、Medicare、Centrelink、驾照或押金。这些事请一律通过官方 .gov.au 网站办理。";
+"privacy.contact_title" = "有疑问";
+"privacy.contact_body" = "如需更正内容，应用上架后可通过 App Store 页面的联系方式找到我们。关键步骤请以澳大利亚政府官方信息为准。";
+
+/* New article titles */
+"article.mygov-basics.title" = "按官方流程注册 myGov";
+"article.mygov-basics.subtitle" = "大家一般怎么创建并保护 myGov 账号";
+"article.scams-safety.title" = "识破租房、求职和冒充 myGov 的骗局";
+"article.scams-safety.subtitle" = "在付钱或给验证码之前，先停一停";
+"article.visa-work-rights.title" = "查询你的签证工作权限";
+"article.visa-work-rights.subtitle" = "请用官方 VEVO——AussieStart 看不到你的签证";
+"article.super-basics.title" = "第一份工作里的养老金（Superannuation）";
+"article.super-basics.subtitle" = "工资单上 super 那一行是什么意思";
+"article.utilities-connect.title" = "开通电、燃气和网络";
+"article.utilities-connect.subtitle" = "供应商、电表和 NBN——都要你自己去申请";
+"article.rental-bond.title" = "按官方渠道递交租房押金";
+"article.rental-bond.subtitle" = "交给各州押金管理机构，绝不能转进私人账户";
+"article.first-month-budget.title" = "第一个月的用钱清单";
+"article.first-month-budget.subtitle" = "SIM 卡、押金、吃饭和交通——一份预算规划表";
+"article.abn-contracting.title" = "ABN 和雇员身份，别搞混";
+"article.abn-contracting.subtitle" = "什么时候真的需要 ABN，什么时候不需要";
+
+"tip.tip-scam.title" = "绝不要把押金转给私聊里的人";
+"tip.tip-scam.description" = "正规押金都会交到州政府的押金管理机构。如果有人在 WhatsApp 上先要你转账，立刻停手。";
+"tip.tip-mygov.title" = "只认准 my.gov.au";
+"tip.tip-mygov.description" = "山寨网站会偷你的验证码。请自己手动输入网址，并确认结尾是 .gov.au。";
+
+"journey.d6.title" = "myGov 账号";
+"journey.d6.summary" = "只在官方网站创建 myGov——我们绝不会替你登录。";
+"journey.d7.title" = "防骗常识";
+"journey.d7.summary" = "给任何人付钱之前，先了解租房、求职和冒充政府的常见套路。";
+"journey.d12.title" = "水电与网络";
+"journey.d12.summary" = "租约真正定下来之后，再用自己的名字开通电和网络。";
+"journey.d20.title" = "养老金与工资单";
+"journey.d20.summary" = "看懂第一张工资单上 super 那一行，并把 TFN 提供给养老金基金。";
+
+"checklist.checklist-work.title" = "上班前的额外准备";
+"checklist.checklist-work.subtitle" = "劳工权益、养老金和自雇——仅供参考";
+"task.task-scam.title" = "读一遍防骗指南";
+"task.task-mygov.title" = "在官方网站创建 myGov（如果你需要用 ATO/Medicare）";
+"task.task-utilities.title" = "安排电力 / 网络开通";
+"task.task-bond.title" = "把押金交到州押金管理机构";
+"task.task-visa-rights.title" = "在官方 VEVO 上查询工作条件";
+"task.task-super.title" = "在工资单上找到 super 那一行";
+"task.task-budget.title" = "写一份第一个月的用钱清单";
+"task.task-abn.title" = "办 ABN 之前，先确认自己是不是雇员";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "在官方网站办理 Medicare 登记";
+"article.medicare-enrol.subtitle" = "资格、myGov 和服务中心——我们绝不会代你登记";
+"article.student-concession.title" = "学生交通优惠";
+"article.student-concession.subtitle" = "请向所在州的交通部门申请，本应用无法代办";
+"article.tax-return-basics.title" = "第一次报税（ATO）";
+"article.tax-return-basics.subtitle" = "走官方 myTax 或找会计师——AussieStart 不会替你申报";
+"article.choose-suburb.title" = "用官方地图挑选居住区";
+"article.choose-suburb.subtitle" = "通勤、学校和灾害风险——别只看社交媒体榜单";
+"article.inspection-condition-report.title" = "入住检查与房屋状况报告";
+"article.inspection-condition-report.subtitle" = "官方表格加照片，帮你保住押金";
+"article.used-car-ppsr.title" = "二手车查询（PPSR）";
+"article.used-car-ppsr.subtitle" = "付钱前先查政府登记系统、过户和 CTP";
+"article.contents-insurance.title" = "租客的家财险";
+"article.contents-insurance.subtitle" = "怎么用 Moneysmart 做比较——我们不卖保险";
+"article.library-council.title" = "图书馆借书证与你的地方议会";
+"article.library-council.subtitle" = "免费 Wi-Fi、垃圾回收和 AMEP 英语课——都来自 council 官网";
+"article.visa-immiaccount.title" = "通过 ImmiAccount 递交签证申请";
+"article.visa-immiaccount.subtitle" = "只用 Home Affairs 官方门户——我们无法代递签证";
+"article.police-check-wwcc.title" = "无犯罪记录证明与儿童工作许可（WWCC）";
+"article.police-check-wwcc.subtitle" = "只用 AFP 和各州官方网站——我们绝不收你的证件";
+"article.centrelink-claim-start.title" = "按官方流程申请 Centrelink 福利";
+"article.centrelink-claim-start.subtitle" = "Payment finder 和 myGov——我们无法代你申请";
+
+"tip.tip-ppsr.title" = "买车前先查 PPSR";
+"tip.tip-ppsr.description" = "只有 ppsr.gov.au 才是政府登记系统。第三方车架号查询网站只是可选的补充。";
+"tip.tip-immi.title" = "ImmiAccount 的网址是 online.immi.gov.au";
+"tip.tip-immi.description" = "签证申请只在 Home Affairs 官方门户办理。在 WhatsApp 上索要护照扫描件的“中介”，一律不要理。";
+
+"journey.d9.title" = "选区与看房";
+"journey.d9.summary" = "交押金之前，先用官方地图和房屋状况报告表做好功课。";
+"journey.d11.title" = "图书馆与地方议会";
+"journey.d11.summary" = "办一张图书馆借书证，并找到你所在 council 的官网。";
+"journey.d14.title" = "Medicare 登记";
+"journey.d14.summary" = "如果符合资格，只在 servicesaustralia.gov.au / myGov 上办理。";
+"journey.d16.title" = "学生优惠";
+"journey.d16.summary" = "在所在州的交通网站申请打折车票。";
+"journey.d22.title" = "税务记录";
+"journey.d22.summary" = "留好工资单，6 月 30 日之后在 ATO 网站用 myTax 报税。";
+"journey.d26.title" = "买车前的检查";
+"journey.d26.summary" = "付钱买二手车前，先看 PPSR 和所在州的过户页面。";
+
+"checklist.checklist-pro-official.title" = "官方网站办事清单（Pro）";
+"checklist.checklist-pro-official.subtitle" = "这些事请在 .gov.au 上办——AussieStart 不会替你提交表格";
+"task.task-medicare-enrol.title" = "在 Services Australia 网站确认 Medicare 资格";
+"task.task-concession.title" = "在所在州的交通网站申请学生优惠";
+"task.task-tax-return.title" = "收藏 ATO 报税页面 / 留好工资单";
+"task.task-suburb.title" = "用官方地图圈定几个居住区";
+"task.task-inspection.title" = "完成官方房屋状况报告并附上照片";
+"task.task-ppsr.title" = "买二手车前先查 PPSR";
+"task.task-library.title" = "通过 council 官网办理当地图书馆借书证";
+"task.task-immi.title" = "只使用 Home Affairs 的 ImmiAccount / VEVO";
+"task.task-wwcc.title" = "如果工作有要求，在官方网站申请无犯罪记录证明 / WWCC";
+"task.task-centrelink-claim.title" = "先用 Payment finder 查一查，别想当然以为自己能领";
+
+"pro.reminders" = "“最初 30 天”提醒";
+"pro.reminders_blurb" = "第 1–4 周的本地通知，可选开启。通知只留在这台 iPhone 上，随时可以关掉。";
+"pro.benefit_reminders" = "可以分享或打印你的“最初 30 天”清单，还能在本机开启每周提醒。";
+"journey.share" = "分享“最初 30 天”";
+"journey.share_pro" = "解锁 Pro 即可分享“最初 30 天”";
+"journey.share_header" = "AussieStart 最初 30 天 — %@";
+
+"reminder.week1.title" = "第 1 周 — SIM 卡、银行、TFN";
+"reminder.week1.body" = "打开 AussieStart，把第一周的待办勾掉。要申请的事情请用官方 .gov.au 网站。";
+"reminder.week2.title" = "第 2 周 — 住房与医疗";
+"reminder.week2.body" = "看房、办 Medicare 或 OSHC，还有 council 图书馆借书证，都是第二周常做的事。";
+"reminder.week3.title" = "第 3 周 — 工作与学业补充";
+"reminder.week3.body" = "在 VEVO 上查签证工作权限，在所在州的交通网站申请学生优惠。";
+"reminder.week4.title" = "第 4 周 — 钱与记录";
+"reminder.week4.body" = "留好工资单以备 ATO 报税；买二手车前先查 PPSR。";
+
+"article.private-health-waiting.title" = "私立医疗保险与等待期";
+"article.private-health-waiting.subtitle" = "住院险和附加险的区别——我们不卖保险";
+"article.ovhc-visitors.title" = "访客与临时签证的 OVHC";
+"article.ovhc-visitors.subtitle" = "它不是 Medicare，也不是 OSHC——请看你的签证批准信";
+"article.tolls-linkt.title" = "收费公路、Linkt 与 e-TAG";
+"article.tolls-linkt.subtitle" = "上路前先办好——租车尤其要注意";
+"article.car-insurance-types.title" = "CTP 与全险（comprehensive）的区别";
+"article.car-insurance-types.subtitle" = "赔别人受伤的保险，不等于赔你修车";
+"article.ambulance-cover.title" = "各州的救护车费用保障";
+"article.ambulance-cover.subtitle" = "任何时候都先打 000——车费要不要自付，看你住哪个州";
+
+"tip.tip-toll.title" = "租车之前先办好过路费账户";
+"tip.tip-toll.description" = "上了高速没交费，会被加收额外费用。先看所在州的 .gov.au 过路费页面，再找上面写明的运营商。";
+"tip.tip-ambulance.title" = "先打 000——救护车账单的事之后再说";
+"tip.tip-ambulance.description" = "打电话是免费的。救护车费用由谁承担，取决于你所在的州。详见 healthdirect.gov.au。";
+
+"journey.d13.title" = "救护车保障";
+"journey.d13.summary" = "任何时候都先打 000，然后再看你所在的州会不会收救护车费用。";
+"journey.d17.title" = "访客医疗保险（OVHC）";
+"journey.d17.summary" = "如果签证要求 OVHC，请在保险公司官网购买——不要通过 WhatsApp。";
+"journey.d19.title" = "私立保险等待期";
+"journey.d19.summary" = "买住院险之前，先到 privatehealth.gov.au 看清楚等待期。";
+"journey.d21.title" = "过路费与 e-TAG";
+"journey.d21.summary" = "开租来的车或走新高速之前，先开通过路费账户。";
+"journey.d24.title" = "车险种类";
+"journey.d24.summary" = "CTP 不等于全险。自己开车上路前，先看看 Moneysmart 的说明。";
+
+"task.task-private-health.title" = "在 privatehealth.gov.au 上了解私立保险等待期";
+"task.task-ovhc.title" = "确认你的签证是否要求 OVHC";
+"task.task-tolls.title" = "开租来的车之前先开通过路费账户";
+"task.task-car-insurance.title" = "上路前先弄清 CTP 和全险的区别";
+"task.task-ambulance.title" = "了解你所在州的救护车收费规定";
+
+/* Language readiness */
+"common.guides_translated" = "应用与指南均已翻译";
+"common.guides_in_english" = "应用已翻译 · 指南为英文";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "对传统土地的致意（Acknowledgement of Country）";
+"onboarding.acknowledgement_body" = "我们向澳大利亚各地土地与水域的传统所有者（Traditional Owners）致意，并感念他们与这片家园（Country，指土地、水域、天空，以及与这片地方相连的一切关系）、与自身文化和社群之间从未中断的联结。我们向过去与现在的长者（Elders）致以敬意。";
+"onboarding.acknowledgement_note" = "原住民与托雷斯海峡岛民（Aboriginal and Torres Strait Islander peoples）照护这片大陆已超过六万年，分属数百个拥有各自语言与法律的民族。在澳大利亚，会议、课堂和各类活动开场时，你常会听到这样一段致意。任何人都可以致辞。";
+"onboarding.acknowledgement_learn" = "在“历史与文化”里了解更多";
+
+/* History & Culture category */
+"category.culture" = "历史与文化";
+
+/* New guides */
+"article.shopping-rewards.title" = "超市会员积分与省钱买菜";
+"article.shopping-rewards.subtitle" = "Flybuys、Everyday Rewards，以及每周特价的规律";
+"article.first-nations-country.title" = "澳大利亚原住民与这片家园（Country）";
+"article.first-nations-country.subtitle" = "原住民与托雷斯海峡岛民的文化，以及如何表达尊重";
+"article.australia-history.title" = "澳大利亚历史入门";
+"article.australia-history.subtitle" = "联邦成立、Anzac Day、移民史，以及这个国家如何运作";

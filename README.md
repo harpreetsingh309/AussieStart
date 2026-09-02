@@ -12,10 +12,15 @@ python3 scripts/generate_xcodeproj.py   # regenerate project if files change
 open AussieStart.xcodeproj
 ```
 
+`generate_xcodeproj.py` derives its root from its own location and reads the
+language list from `AussieStart/Resources/Localization/*.lproj`, so adding a
+language means creating the folder and re-running it — no edit to the script.
+
 In Xcode: select an iPhone simulator → **Run**.
 
 - **Platform:** iOS 17+
 - **Stack:** SwiftUI · MVVM · SwiftData · offline Markdown
+- **Languages:** 11 (Arabic is right-to-left; layout direction follows the choice)
 - **Bundle ID:** `com.aussiestart.app`
 
 ## What's included (MVP)
@@ -30,9 +35,10 @@ In Xcode: select an iPhone simulator → **Run**.
 | Checklists + First 30 Days journey | Done |
 | State-aware Markdown (`<!-- state:vic -->`) | Done |
 | Offline content pack (12 starter guides) | Done |
-| EN / HI / PA string stubs | Done |
-| Premium / StoreKit | Deferred |
-| Full Hindi/Punjabi article translations | Deferred |
+| 11-language interface (EN, Mandarin, Arabic, Vietnamese, Cantonese, PA, Italian, Greek, HI, Spanish, Nepali) | Done |
+| Premium / StoreKit (non-consumable Pro unlock) | Done |
+| Translated Markdown guides (EN / HI / PA only — others fall back to English) | Partial |
+| History & Culture guides incl. First Peoples and Country | Done |
 
 ## Content schema
 

@@ -121,7 +121,7 @@
 "onboarding.roadmap_title" = "ਤੁਹਾਡਾ ਨਿੱਜੀ ਰੋਡਮੈਪ";
 "onboarding.roadmap_subtitle" = "%@ ਵਜੋਂ %@ ਵਿੱਚ ਜੀਵਨ ਦੇ ਆਧਾਰ ’ਤੇ।";
 "onboarding.start" = "ਖੋਜਣਾ ਸ਼ੁਰੂ ਕਰੋ";
-"onboarding.step" = "ਔਨਬੋਰਡਿੰਗ ਪੜਾਅ %d / 5";
+"onboarding.step" = "ਆਨਬੋਰਡਿੰਗ ਪੜਾਅ %d / 6";
 "onboarding.day1" = "ਦਿਨ 1";
 "onboarding.day2" = "ਦਿਨ 2";
 "onboarding.day3" = "ਦਿਨ 3";
@@ -506,3 +506,24 @@
 "task.task-tolls.title" = "ਕਿਰਾਏ ਦੀ ਕਾਰ ਤੋਂ ਪਹਿਲਾਂ ਟੋਲ ਖਾਤਾ ਖੋਲ੍ਹੋ";
 "task.task-car-insurance.title" = "ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ CTP ਬਨਾਮ ਕੰਪ੍ਰੀਹੈਂਸਿਵ ਜਾਣੋ";
 "task.task-ambulance.title" = "ਆਪਣੇ ਰਾਜ ਦੇ ਐਂਬੂਲੈਂਸ ਬਿਲ ਨਿਯਮ ਚੈੱਕ ਕਰੋ";
+
+/* Language readiness */
+"common.guides_translated" = "ਐਪ ਅਤੇ ਗਾਈਡਾਂ ਅਨੁਵਾਦਿਤ";
+"common.guides_in_english" = "ਐਪ ਅਨੁਵਾਦਿਤ · ਗਾਈਡਾਂ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "ਕੰਟਰੀ ਦੀ ਮਾਨਤਾ (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "ਅਸੀਂ ਸਾਰੇ ਆਸਟ੍ਰੇਲੀਆ ਦੀਆਂ ਜ਼ਮੀਨਾਂ ਅਤੇ ਪਾਣੀਆਂ ਦੇ ਪਰੰਪਰਾਗਤ ਮਾਲਕਾਂ (Traditional Owners) ਨੂੰ ਮਾਨਤਾ ਦਿੰਦੇ ਹਾਂ, ਅਤੇ ਕੰਟਰੀ, ਸੱਭਿਆਚਾਰ ਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਉਨ੍ਹਾਂ ਦੇ ਨਿਰੰਤਰ ਸੰਬੰਧ ਦਾ ਸਤਿਕਾਰ ਕਰਦੇ ਹਾਂ। ਅਸੀਂ ਬੀਤੇ ਅਤੇ ਮੌਜੂਦਾ ਐਲਡਰਜ਼ (Elders) ਪ੍ਰਤੀ ਆਪਣਾ ਸਤਿਕਾਰ ਪ੍ਰਗਟ ਕਰਦੇ ਹਾਂ।";
+"onboarding.acknowledgement_note" = "ਐਬੋਰਿਜਨਲ ਅਤੇ ਟੋਰੇਸ ਸਟ੍ਰੇਟ ਆਈਲੈਂਡਰ ਲੋਕ 60,000 ਸਾਲਾਂ ਤੋਂ ਵੱਧ ਸਮੇਂ ਤੋਂ ਇਸ ਮਹਾਂਦੀਪ ਦੀ ਸੰਭਾਲ ਕਰਦੇ ਆਏ ਹਨ — ਸੈਂਕੜੇ ਕੌਮਾਂ ਵਿੱਚ, ਆਪਣੀਆਂ ਭਾਸ਼ਾਵਾਂ ਅਤੇ ਕਾਨੂੰਨਾਂ ਸਮੇਤ। ਆਸਟ੍ਰੇਲੀਆ ਭਰ ਵਿੱਚ ਮੀਟਿੰਗਾਂ, ਕਲਾਸਾਂ ਅਤੇ ਸਮਾਗਮਾਂ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਤੁਹਾਨੂੰ ਅਜਿਹੀ ਮਾਨਤਾ ਸੁਣਨ ਨੂੰ ਮਿਲੇਗੀ। ਇਸਨੂੰ ਕੋਈ ਵੀ ਪੇਸ਼ ਕਰ ਸਕਦਾ ਹੈ।";
+"onboarding.acknowledgement_learn" = "ਇਤਿਹਾਸ ਅਤੇ ਸੱਭਿਆਚਾਰ ਵਿੱਚ ਹੋਰ ਜਾਣੋ";
+
+/* History & Culture category */
+"category.culture" = "ਇਤਿਹਾਸ ਅਤੇ ਸੱਭਿਆਚਾਰ";
+
+/* New guides */
+"article.shopping-rewards.title" = "ਸੁਪਰਮਾਰਕੀਟ ਰਿਵਾਰਡਜ਼ ਅਤੇ ਕਰਿਆਨੇ ਉੱਤੇ ਬੱਚਤ";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards ਅਤੇ ਹਫ਼ਤਾਵਾਰੀ ਸਪੈਸ਼ਲਜ਼ ਚੱਕਰ";
+"article.first-nations-country.title" = "ਪਹਿਲੀਆਂ ਕੌਮਾਂ ਦੇ ਲੋਕ ਅਤੇ ਕੰਟਰੀ";
+"article.first-nations-country.subtitle" = "ਐਬੋਰਿਜਨਲ ਅਤੇ ਟੋਰੇਸ ਸਟ੍ਰੇਟ ਆਈਲੈਂਡਰ ਸੱਭਿਆਚਾਰ, ਅਤੇ ਸਤਿਕਾਰ ਕਿਵੇਂ ਦਿਖਾਈਏ";
+"article.australia-history.title" = "ਆਸਟ੍ਰੇਲੀਆਈ ਇਤਿਹਾਸ ਦੀਆਂ ਮੂਲ ਗੱਲਾਂ";
+"article.australia-history.subtitle" = "ਫੈਡਰੇਸ਼ਨ, ਐਂਜ਼ੈਕ ਡੇ, ਪਰਵਾਸ, ਅਤੇ ਦੇਸ਼ ਕਿਵੇਂ ਚੱਲਦਾ ਹੈ";

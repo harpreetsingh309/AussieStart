@@ -79,26 +79,38 @@ struct WelcomeScreenView: View {
         .accessibilityAction(named: t("onboarding.welcome_cta"), onContinue)
     }
 
+    /// Set to `true` to use the bundled Sydney Harbour photo instead of the
+    /// drawn outback scene. The photo is 1400×933 landscape supplied at 1x
+    /// only, so on a portrait phone it is cropped hard and upscaled roughly
+    /// threefold. The drawn scene stays sharp at any size and needs no licence.
+    private static let usesPhotoBackground = false
+
+    @ViewBuilder
     private func welcomeBackground(size: CGSize) -> some View {
         ZStack {
             Color.black
 
-            Image("welcome-australia")
-                .resizable()
-                .scaledToFill()
-                .frame(width: size.width, height: size.height)
-                .clipped()
+            if Self.usesPhotoBackground {
+                Image("welcome-australia")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: size.width, height: size.height)
+                    .clipped()
 
-            LinearGradient(
-                colors: [
-                    .black.opacity(0.18),
-                    .black.opacity(0.08),
-                    .black.opacity(0.55),
-                    .black.opacity(0.82)
-                ],
-                startPoint: .top,
-                endPoint: .bottom
-            )
+                LinearGradient(
+                    colors: [
+                        .black.opacity(0.18),
+                        .black.opacity(0.08),
+                        .black.opacity(0.55),
+                        .black.opacity(0.82)
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            } else {
+                AustralianHorizonView(warmth: appear ? 1 : 0.35)
+                    .animation(.easeInOut(duration: 1.1), value: appear)
+            }
         }
         .frame(width: size.width, height: size.height)
     }

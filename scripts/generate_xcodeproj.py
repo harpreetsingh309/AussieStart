@@ -2,10 +2,22 @@
 """Generate AussieStart.xcodeproj from the on-disk source tree."""
 from __future__ import annotations
 
+import os
+import re
 import uuid
 from pathlib import Path
 
-ROOT = Path("/Users/harpreetsingh/Desktop/AussieStart")
+# The repo root: this file lives in <root>/scripts/. Override with
+# AUSSIESTART_ROOT if you ever need to point it somewhere else.
+_PBX_BARE = re.compile(r"^[A-Za-z0-9_$./]+$")
+
+
+def pbx(value: str) -> str:
+    """Quote a pbxproj token unless it is safe bare."""
+    return value if _PBX_BARE.match(value) else '"' + value.replace('"', '\\"') + '"'
+
+
+ROOT = Path(os.environ.get("AUSSIESTART_ROOT", Path(__file__).resolve().parent.parent))
 APP = ROOT / "AussieStart"
 TESTS = ROOT / "AussieStartTests"
 UI_TESTS = ROOT / "AussieStartUITests"
@@ -58,6 +70,17 @@ def main() -> None:
     app_group = uid()
     tests_group = uid()
     ui_tests_group = uid()
+    # Regions are derived from the .lproj folders so adding a language needs
+    # no edit here — just create the folder and re-run this script.
+    region_codes = sorted(
+        d.name.removesuffix(".lproj")
+        for d in (APP / "Resources" / "Localization").iterdir()
+        if d.is_dir() and d.name.endswith(".lproj")
+    )
+    known_regions = "\n".join(
+        f"\t\t\t\t{pbx(code)}," for code in ["en", "Base"] + [c for c in region_codes if c != "en"]
+    )
+
     project_id = uid()
 
     sources_phase = uid()
@@ -153,8 +176,8 @@ def main() -> None:
     def make_group(name: str, path_name: str | None, child_ids: list[str]) -> str:
         gid = uid()
         children = ",\n".join(f"\t\t\t\t{c}" for c in child_ids)
-        path_line = f"\n\t\t\tpath = {path_name};" if path_name else ""
-        name_line = f"\n\t\t\tname = {name};" if not path_name else ""
+        path_line = f"\n\t\t\tpath = {pbx(path_name)};" if path_name else ""
+        name_line = f"\n\t\t\tname = {pbx(name)};" if not path_name else ""
         p.add(
             gid,
             f"{gid} /* {name} */ = {{\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n{children}\n\t\t\t);{name_line}{path_line}\n\t\t\tsourceTree = \"<group>\";\n\t\t}};",
@@ -525,10 +548,7 @@ def main() -> None:
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
-				hi,
-				pa,
+{known_regions}
 			);
 			mainGroup = {root_group};
 			productRefGroup = {products_group} /* Products */;

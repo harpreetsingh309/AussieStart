@@ -112,7 +112,7 @@
 "onboarding.welcome_tagline" = "Let AussieStart guide you";
 "onboarding.welcome_cta" = "Begin your journey";
 "onboarding.choose_language" = "Choose your language";
-"onboarding.choose_language_subtitle" = "MVP includes English, Hindi, and Punjabi. More languages unlock as content is translated.";
+"onboarding.choose_language_subtitle" = "The app is fully translated in every language listed. Guides are in English except where noted.";
 "onboarding.choose_state" = "Where will you live?";
 "onboarding.choose_state_subtitle" = "Guides adapt for transport cards, licences, and local services.";
 "onboarding.transport_label" = "Transport: %@";
@@ -121,7 +121,7 @@
 "onboarding.roadmap_title" = "Your personal roadmap";
 "onboarding.roadmap_subtitle" = "Based on %@ life in %@.";
 "onboarding.start" = "Start exploring";
-"onboarding.step" = "Onboarding step %d of 5";
+"onboarding.step" = "Onboarding step %d of 6";
 "onboarding.day1" = "Day 1";
 "onboarding.day2" = "Day 2";
 "onboarding.day3" = "Day 3";
@@ -514,3 +514,24 @@
 "task.task-tolls.title" = "Set up a toll account before driving a hire car";
 "task.task-car-insurance.title" = "Know CTP vs comprehensive before you drive";
 "task.task-ambulance.title" = "Check ambulance billing rules for your state";
+
+/* Language readiness */
+"common.guides_translated" = "App and guides translated";
+"common.guides_in_english" = "App translated · guides in English";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "Acknowledgement of Country";
+"onboarding.acknowledgement_body" = "We acknowledge the Traditional Owners of the lands and waters across Australia, and their continuing connection to Country, culture and community. We pay our respects to Elders past and present.";
+"onboarding.acknowledgement_note" = "Aboriginal and Torres Strait Islander peoples have cared for this continent for more than 60,000 years, across hundreds of nations with their own languages and laws. You will hear an acknowledgement like this at the start of meetings, classes and events across Australia. Anyone may offer one.";
+"onboarding.acknowledgement_learn" = "Learn more in History & Culture";
+
+/* History & Culture category */
+"category.culture" = "History & Culture";
+
+/* New guides */
+"article.shopping-rewards.title" = "Supermarket rewards and saving on groceries";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards, and the weekly specials cycle";
+"article.first-nations-country.title" = "First Peoples and Country";
+"article.first-nations-country.subtitle" = "Aboriginal and Torres Strait Islander cultures, and how to show respect";
+"article.australia-history.title" = "Australian history basics";
+"article.australia-history.subtitle" = "Federation, Anzac Day, migration, and how the country is run";

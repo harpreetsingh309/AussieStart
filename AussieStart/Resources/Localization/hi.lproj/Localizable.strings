@@ -121,7 +121,7 @@
 "onboarding.roadmap_title" = "आपका व्यक्तिगत रोडमैप";
 "onboarding.roadmap_subtitle" = "%@ के रूप में %@ में जीवन के आधार पर।";
 "onboarding.start" = "खोजना शुरू करें";
-"onboarding.step" = "ऑनबोर्डिंग चरण %d / 5";
+"onboarding.step" = "ऑनबोर्डिंग चरण %d / 6";
 "onboarding.day1" = "दिन 1";
 "onboarding.day2" = "दिन 2";
 "onboarding.day3" = "दिन 3";
@@ -506,3 +506,24 @@
 "task.task-tolls.title" = "किराये की कार से पहले टोल अकाउंट खोलें";
 "task.task-car-insurance.title" = "चलाने से पहले CTP बनाम कॉम्प्रिहेंसिव जानें";
 "task.task-ambulance.title" = "अपने राज्य के एम्बुलेंस बिल नियम जाँचें";
+
+/* Language readiness */
+"common.guides_translated" = "ऐप और गाइड अनुवादित";
+"common.guides_in_english" = "ऐप अनुवादित · गाइड अंग्रेज़ी में";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "कंट्री की मान्यता (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "हम पूरे ऑस्ट्रेलिया की भूमि और जल के पारंपरिक स्वामियों (Traditional Owners) को मान्यता देते हैं, और कंट्री, संस्कृति तथा समुदाय से उनके निरंतर जुड़ाव का सम्मान करते हैं। हम अतीत और वर्तमान के एल्डर्स (Elders) के प्रति अपना सम्मान व्यक्त करते हैं।";
+"onboarding.acknowledgement_note" = "एबोरिजिनल और टॉरेस स्ट्रेट आइलैंडर लोग 60,000 वर्षों से अधिक समय से इस महाद्वीप की देखभाल करते आए हैं — सैकड़ों राष्ट्रों में, अपनी भाषाओं और कानूनों के साथ। ऑस्ट्रेलिया भर में बैठकों, कक्षाओं और कार्यक्रमों की शुरुआत में आपको ऐसी मान्यता सुनने को मिलेगी। इसे कोई भी व्यक्ति प्रस्तुत कर सकता है।";
+"onboarding.acknowledgement_learn" = "इतिहास और संस्कृति में और जानें";
+
+/* History & Culture category */
+"category.culture" = "इतिहास और संस्कृति";
+
+/* New guides */
+"article.shopping-rewards.title" = "सुपरमार्केट रिवॉर्ड्स और किराने पर बचत";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards और साप्ताहिक स्पेशल्स चक्र";
+"article.first-nations-country.title" = "प्रथम राष्ट्र के लोग और कंट्री";
+"article.first-nations-country.subtitle" = "एबोरिजिनल और टॉरेस स्ट्रेट आइलैंडर संस्कृतियाँ, और सम्मान कैसे दिखाएँ";
+"article.australia-history.title" = "ऑस्ट्रेलियाई इतिहास की बुनियादी बातें";
+"article.australia-history.subtitle" = "फेडरेशन, एंज़ैक डे, प्रवासन, और देश कैसे चलता है";

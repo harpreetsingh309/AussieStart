@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "La tua guida per iniziare in Australia";
+
+/* Tabs */
+"tab.home" = "Home";
+"tab.search" = "Cerca";
+"tab.topics" = "Argomenti";
+"tab.saved" = "Salvati";
+"tab.settings" = "Impostazioni";
+
+/* Common */
+"common.continue" = "Continua";
+"common.back" = "Indietro";
+"common.close" = "Chiudi";
+"common.see_all" = "Vedi tutto";
+"common.guides_count" = "%d guide";
+"common.coming_soon" = "In arrivo";
+"common.min_read" = "%d min di lettura";
+"common.min_category" = "%d min · %@";
+"common.offline_for_state" = "Offline · aggiornato per %@";
+"common.available_now" = "Disponibile ora";
+"common.coming_soon_lang" = "In arrivo";
+
+/* Disclaimer */
+"disclaimer.full" = "Solo a scopo informativo — non è consulenza legale, migratoria, finanziaria o medica. Verifica sempre sulle fonti ufficiali del Governo australiano.";
+
+/* Greetings */
+"greeting.morning" = "Buongiorno";
+"greeting.afternoon" = "Buon pomeriggio";
+"greeting.evening" = "Buonasera";
+
+/* Home */
+"home.settling_in" = "Ti stai sistemando in %@";
+"home.hero_tagline" = "Le tue prime settimane in Australia, spiegate in modo semplice.";
+"home.section_topics" = "Argomenti";
+"home.section_recommended" = "Consigliati";
+"home.section_explore" = "Esplora";
+"home.section_guides" = "Guide";
+"home.section_reading" = "Letture";
+"home.journey_week" = "Settimana %d";
+"home.todays_tip" = "Il consiglio di oggi";
+"home.read_guide" = "Leggi la guida";
+"home.quick_topics" = "Argomenti rapidi";
+"home.popular_destinations" = "Mete più amate";
+"home.popular_destinations_subtitle" = "Costi, itinerari brevi e tappe lungo la strada";
+"home.first_30_days" = "Primi 30 giorni";
+"home.milestones_completed" = "%d/%d tappe completate";
+"home.continue_roadmap" = "Tocca per continuare il tuo percorso";
+"home.continue_reading" = "Continua a leggere";
+"home.most_popular" = "I più letti";
+"home.most_popular_subtitle" = "Inizia da questi per %@";
+"home.emergency_contacts" = "Contatti di emergenza";
+"home.emergency_subtitle" = "000 · Avvelenamenti · SES · healthdirect";
+
+/* Search */
+"search.title" = "Cerca";
+"search.prompt" = "Cerca tra le guide";
+"search.recent" = "Ricerche recenti";
+"search.trending" = "Di tendenza";
+"search.results" = "Risultati";
+"search.hint" = "Prova “GP”, “TFN” o “Myki”";
+"search.empty" = "Nessun risultato. Prova un sinonimo, ad esempio “medico” al posto di GP.";
+
+/* Topics */
+"topics.title" = "Argomenti";
+"topics.browse" = "Sfoglia per argomento";
+"topics.tailored" = "Guide pratiche pensate per %@";
+"topics.guides" = "Guide";
+
+/* Saved */
+"saved.title" = "Salvati";
+"saved.articles" = "Articoli salvati";
+"saved.empty" = "Salva le guide per leggerle offline più avanti.";
+"saved.history" = "Cronologia";
+"saved.history_empty" = "Gli articoli che apri compariranno qui.";
+"saved.checklists" = "Checklist";
+"saved.journey" = "Primi 30 giorni";
+
+/* Settings */
+"settings.title" = "Impostazioni";
+"settings.personalisation" = "Personalizzazione";
+"settings.language" = "Lingua";
+"settings.state" = "Stato / Territorio";
+"settings.persona" = "Sono";
+"settings.appearance" = "Aspetto";
+"settings.theme" = "Tema";
+"settings.theme.system" = "Sistema";
+"settings.theme.light" = "Chiaro";
+"settings.theme.dark" = "Scuro";
+"settings.theme.hint.system" = "Segue l’impostazione Chiaro / Scuro del tuo iPhone.";
+"settings.theme.hint.light" = "Usa sempre uno sfondo chiaro.";
+"settings.theme.hint.dark" = "Usa sempre uno sfondo scuro.";
+"settings.offline" = "Offline";
+"settings.content_pack" = "Pacchetto contenuti";
+"settings.last_reviewed" = "Ultima revisione";
+"settings.offline_blurb" = "Tutte le guide, i consigli e le checklist sono già dentro l’app. Non servono account né connessione a internet.";
+"settings.privacy" = "Privacy";
+"settings.analytics" = "Condividi dati d’uso anonimi (disattivato di default)";
+"settings.privacy_blurb" = "AussieStart salva segnalibri e progressi solo su questo dispositivo. Nessun login. Nessuna sincronizzazione nel cloud.";
+"settings.about" = "Informazioni";
+"settings.about_app" = "Informazioni su AussieStart";
+"settings.replay_onboarding" = "Rivedi l’introduzione";
+"settings.language_note" = "I menu e i dettagli delle guide cambiano con la tua lingua. I nomi ufficiali come TFN, Myki e Medicare restano in inglese.";
+
+/* Onboarding */
+"onboarding.welcome_title" = "Ti diamo il benvenuto in AussieStart";
+"onboarding.welcome_body" = "Guide affidabili e offline per chi si trasferisce in Australia — in parole semplici e adattate al tuo stato.";
+"onboarding.welcome_line1" = "Scopri";
+"onboarding.welcome_line2" = "la vita in";
+"onboarding.welcome_line3" = "Australia";
+"onboarding.welcome_tagline" = "Lascia che AussieStart ti guidi";
+"onboarding.welcome_cta" = "Inizia il tuo percorso";
+"onboarding.choose_language" = "Scegli la tua lingua";
+"onboarding.choose_language_subtitle" = "L’app è tradotta per intero in tutte le lingue elencate. Le guide sono in inglese, tranne dove indicato.";
+"onboarding.choose_state" = "Dove andrai a vivere?";
+"onboarding.choose_state_subtitle" = "Le guide si adattano a tessere dei trasporti, patenti e servizi locali.";
+"onboarding.transport_label" = "Trasporti: %@";
+"onboarding.choose_persona" = "Cosa ti descrive meglio?";
+"onboarding.choose_persona_subtitle" = "Daremo la priorità giusta al tuo percorso Primi 30 giorni.";
+"onboarding.roadmap_title" = "Il tuo percorso personale";
+"onboarding.roadmap_subtitle" = "Pensato per la vita da %@ in %@.";
+"onboarding.start" = "Inizia a esplorare";
+"onboarding.step" = "Introduzione: passo %d di 6";
+"onboarding.day1" = "Giorno 1";
+"onboarding.day2" = "Giorno 2";
+"onboarding.day3" = "Giorno 3";
+"onboarding.day4" = "Giorno 4";
+"onboarding.week2" = "Settimana 2+";
+"onboarding.task_sim" = "Prendi una SIM locale e una connessione internet";
+"onboarding.task_bank" = "Apri un conto in banca";
+"onboarding.task_tfn" = "Richiedi il tuo TFN";
+"onboarding.task_transport" = "Attiva %@";
+"onboarding.task_more" = "Casa, sanità e molto altro";
+
+/* Article / gallery */
+"article.photos" = "Foto";
+"article.destination_photos" = "Foto della destinazione";
+"article.remove_bookmark" = "Togli dai salvati";
+"article.save_bookmark" = "Salva la guida";
+"article.unavailable_title" = "Articolo non disponibile";
+"article.unavailable_body" = "Questa guida non è ancora nel pacchetto offline.";
+"article.recommended" = "Da leggere dopo";
+"article.recommended_subtitle" = "Continua il tuo percorso di ambientamento";
+"photo.n" = "Foto %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "Primi 30 giorni";
+"journey.completed" = "%d/%d completati";
+"journey.subtitle" = "Un percorso pratico per il tuo primo mese in %@.";
+"journey.week" = "Settimana %d";
+"journey.day" = "Giorno %d: %@";
+"checklist.title" = "Checklist";
+"checklist.done" = "%d/%d fatti";
+"about.title" = "Informazioni";
+"about.blurb" = "La guida completa per iniziare in Australia, sempre in tasca — pensata per funzionare offline, per chi arriva da fuori.";
+"about.verify" = "Verifica sempre i passaggi importanti su fonti ufficiali come Services Australia, l’ATO, le agenzie dei trasporti del tuo stato e il tuo council (comune).";
+"about.version" = "Versione";
+"about.content_reviewed" = "Contenuti revisionati";
+"about.architecture" = "Architettura";
+"emergency.title" = "Emergenza";
+"emergency.life_threatening" = "PERICOLO DI VITA";
+
+/* Categories */
+"category.arrival" = "Arrivo";
+"category.sim" = "Schede SIM";
+"category.banking" = "Banca";
+"category.healthcare" = "Sanità";
+"category.transport" = "Trasporti";
+"category.driving" = "Guida";
+"category.taxes" = "Tasse";
+"category.housing" = "Casa";
+"category.jobs" = "Lavoro";
+"category.shopping" = "Acquisti";
+"category.family" = "Famiglia";
+"category.explore" = "Esplora";
+"category.emergency" = "Emergenze";
+"category.students" = "Studenti";
+
+/* Personas */
+"persona.student" = "Studente";
+"persona.worker" = "Lavoratore / migrante qualificato";
+"persona.family" = "Titolare di visto familiare";
+"persona.tourist" = "Turista / working holiday";
+"persona.pr" = "Residente permanente";
+"persona.citizen" = "Cittadino";
+
+/* Empty states */
+"empty.no_guides_title" = "Ancora nessuna guida";
+"empty.no_guides_body" = "Altre guide su %@ arriveranno con un prossimo aggiornamento dei contenuti.";
+
+/* States */
+"state.vic" = "Victoria";
+"state.nsw" = "New South Wales";
+"state.qld" = "Queensland";
+"state.sa" = "South Australia";
+"state.wa" = "Western Australia";
+"state.tas" = "Tasmania";
+"state.act" = "Australian Capital Territory";
+"state.nt" = "Northern Territory";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "Checklist per l’arrivo in aeroporto";
+"article.arrival-airport.subtitle" = "Immigrazione, bagagli, biosicurezza e come raggiungere la città";
+"article.sim-setup.title" = "Prendi una SIM o eSIM locale";
+"article.sim-setup.subtitle" = "Un numero locale per banche, consegne e codici";
+"article.banking-open-account.title" = "Apri un conto in banca";
+"article.banking-open-account.subtitle" = "BSB, carta di debito, PayID e le basi di Osko";
+"article.tfn-apply.title" = "Richiedi un TFN";
+"article.tfn-apply.subtitle" = "Il Tax File Number senza stress";
+"article.transport-card.title" = "La tessera dei trasporti pubblici";
+"article.transport-card.subtitle" = "Myki, Opal, go card e le altre tessere statali";
+"article.medicare-gp.title" = "Medicare e la visita dal GP";
+"article.medicare-gp.subtitle" = "Bulk billing, farmacie e quando chiamare il 000";
+"article.housing-rent.title" = "Affittare la tua prima casa";
+"article.housing-rent.subtitle" = "Visite, bond (cauzione), contratti e controlli anti-truffa";
+"article.jobs-basics.title" = "Cercare lavoro all’australiana";
+"article.jobs-basics.subtitle" = "Curriculum, Seek, Fair Work e buste paga";
+"article.driving-licence.title" = "Guidare e convertire la patente";
+"article.driving-licence.subtitle" = "Regole della strada, CTP, pedaggi e patenti estere";
+"article.emergency-contacts.title" = "Contatti di emergenza";
+"article.emergency-contacts.subtitle" = "000, centro antiveleni, SES e soccorso stradale";
+"article.shopping-essentials.title" = "Comprare l’essenziale";
+"article.shopping-essentials.subtitle" = "Spesa, mobili, resi e prese elettriche";
+"article.students-oshc.title" = "OSHC per studenti internazionali";
+"article.students-oshc.subtitle" = "La copertura sanitaria richiesta dal visto, spiegata semplice";
+"article.family-schools.title" = "Iscrivere i figli a scuola";
+"article.family-schools.subtitle" = "Zone di competenza, documenti e prima settimana di scuola";
+"article.family-childcare.title" = "Asilo nido e Child Care Subsidy";
+"article.family-childcare.subtitle" = "Trovare un posto, liste d’attesa e le basi del CCS";
+"article.family-immunisation.title" = "Vaccinazioni dei bambini: mettersi in pari";
+"article.family-immunisation.subtitle" = "I registri AIR per iscriversi a scuola e al nido";
+"article.family-centrelink.title" = "Centrelink: le basi per le famiglie";
+"article.family-centrelink.subtitle" = "myGov, CRN e come capire se hai diritto";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "Costi, itinerario di 1–2 giorni e tappe sulla costa partendo da Melbourne";
+"article.explore-blue-mountains.title" = "Gita di un giorno alle Blue Mountains";
+"article.explore-blue-mountains.subtitle" = "Itinerario in treno, costi dei belvedere e tappe nei villaggi da Sydney";
+"article.explore-sydney-harbour.title" = "Le icone del porto di Sydney";
+"article.explore-sydney-harbour.subtitle" = "Opera House, traghetti, Manly e quanto costa ogni tappa";
+"article.explore-gold-coast.title" = "Gold Coast: spiagge ed entroterra";
+"article.explore-gold-coast.subtitle" = "Parchi a tema, Burleigh e i costi di un itinerario di 2 giorni";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "Costi delle escursioni, programma di 2–3 giorni e tappe vicine";
+"article.explore-uluru.title" = "Uluru e Kata Tjuta";
+"article.explore-uluru.subtitle" = "Ingresso al parco, itinerario rispettoso e consigli su Yulara";
+"article.explore-phillip-island.title" = "I pinguini di Phillip Island";
+"article.explore-phillip-island.subtitle" = "Costo della parata, programma della giornata e tappe da Melbourne";
+"article.explore-rottnest.title" = "Rottnest Island (Perth)";
+"article.explore-rottnest.subtitle" = "Prezzi dei traghetti, giro in bici in giornata e tappe nelle baie";
+"article.explore-tasmania-hobart.title" = "Hobart e la Tasmania meridionale";
+"article.explore-tasmania-hobart.subtitle" = "MONA, kunanyi e i costi di un weekend di 3 giorni";
+"article.explore-barossa-adelaide.title" = "Adelaide, Glenelg e Barossa";
+"article.explore-barossa-adelaide.subtitle" = "Un weekend tra città, costa e vino, con i costi delle degustazioni";
+
+/* Daily tips */
+"tip.tip-sim.title" = "Prendi subito un numero locale";
+"tip.tip-sim.description" = "Banche e corrieri chiedono spesso codici via SMS. Una SIM prepagata il primo giorno sblocca quasi tutto il resto.";
+"tip.tip-tfn.title" = "Richiedi il TFN il prima possibile";
+"tip.tip-tfn.description" = "Aspettare può voler dire più tasse trattenute sulle tue prime buste paga.";
+"tip.tip-000.title" = "Ricorda: il numero di emergenza è il 000";
+"tip.tip-000.description" = "In Australia non si usa il 911. Salva il 000 e il tuo indirizzo di casa nel telefono.";
+"tip.tip-bond.title" = "Fotografa tutto quando entri in casa";
+"tip.tip-bond.description" = "Il condition report insieme alle foto protegge il tuo bond (cauzione) quando te ne vai.";
+"tip.tip-bulk.title" = "Chiedi se fanno bulk billing";
+"tip.tip-bulk.description" = "Non tutti i GP sono gratuiti. Chiedi quanto costa quando prenoti.";
+"tip.tip-explore.title" = "Organizza una fuga di un weekend";
+"tip.tip-explore.description" = "Una volta sistemati SIM, banca e trasporti, prenota una gita semplice: Blue Mountains, Phillip Island o Glenelg sono ottime prime mete.";
+
+/* Journey days */
+"journey.d1.title" = "SIM e connessione";
+"journey.d1.summary" = "Compra una SIM/eSIM locale e assicurati che i dati mobili funzionino.";
+"journey.d2.title" = "Apri un conto in banca";
+"journey.d2.summary" = "Prepara BSB e numero di conto per il lavoro e l’affitto.";
+"journey.d3.title" = "Richiedi il TFN";
+"journey.d3.summary" = "Avvia la domanda per il Tax File Number con un indirizzo e un telefono locali.";
+"journey.d4.title" = "Tessera dei trasporti";
+"journey.d4.summary" = "Attiva la tessera o l’app dei trasporti pubblici del tuo stato e ricaricala.";
+"journey.d5.title" = "Pronto per le emergenze";
+"journey.d5.summary" = "Salva il 000 e i contatti importanti; impara a memoria il tuo indirizzo esatto.";
+"journey.d8.title" = "Ricerca della casa";
+"journey.d8.summary" = "Scegli i quartieri, prenota le visite, prepara i documenti per la domanda.";
+"journey.d10.title" = "Spesa essenziale";
+"journey.d10.summary" = "Compra solo ciò che ti serve per le prime settimane.";
+"journey.d15.title" = "Sistema la sanità";
+"journey.d15.summary" = "Controlla Medicare/OSHC e trova un GP vicino a te.";
+"journey.d18.title" = "Pronto per il lavoro";
+"journey.d18.summary" = "Curriculum in stile australiano + avvisi su Seek/LinkedIn.";
+"journey.d25.title" = "Controlli sulla guida";
+"journey.d25.summary" = "Verifica le regole sulla patente prima di comprare o guidare un’auto.";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "L’essenziale della prima settimana";
+"checklist.checklist-first-week.subtitle" = "Le cose da fare subito dopo l’atterraggio";
+"task.task-sim.title" = "Compra e attiva una SIM/eSIM locale";
+"task.task-bank.title" = "Apri un conto corrente";
+"task.task-tfn.title" = "Invia la domanda per il TFN";
+"task.task-transport.title" = "Attiva la tessera dei trasporti pubblici";
+"task.task-emergency.title" = "Salva i contatti di emergenza";
+"checklist.checklist-home.title" = "Sistemare casa";
+"checklist.checklist-home.subtitle" = "Affittare e organizzare la tua casa";
+"task.task-rent-docs.title" = "Prepara i documenti per la domanda di affitto";
+"task.task-shop.title" = "Compra l’essenziale per casa della prima settimana";
+"task.task-gp.title" = "Trova un GP / conferma la copertura sanitaria";
+"task.task-resume.title" = "Aggiorna il curriculum per i datori di lavoro australiani";
+"task.task-licence.title" = "Verifica se la tua patente estera è valida";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero";
+"emergency.triple-zero.detail" = "Polizia, vigili del fuoco, ambulanza — solo per emergenze con pericolo di vita.";
+"emergency.poisons.name" = "Poisons Information (centro antiveleni)";
+"emergency.poisons.detail" = "Consulenza 24 ore su 24 per avvelenamenti veri o sospetti.";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "Consulenza sanitaria 24 ore su 24 con infermieri, per domande non urgenti.";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "State Emergency Service: aiuto per alluvioni, tempeste e situazioni simili.";
+
+/* Extra UI */
+"checklist.open_guide" = "Apri la guida";
+"settings.aus_gov" = "Governo australiano";
+"common.min" = "%d min";
+"common.progress_percent" = "Avanzamento %d per cento";
+
+/* Home extras */
+"home.for_you" = "Per te";
+"home.for_you_subtitle" = "In evidenza per %@ nelle tue prime settimane";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC, ore di lavoro del visto e casa";
+"onboarding.task_more_family" = "Scuole, sanità e casa";
+"onboarding.task_more_tourist" = "Trasporti, sicurezza e gite del weekend";
+
+/* Article actions */
+"article.share" = "Condividi questa guida";
+"article.mark_done" = "Segna questo passo come fatto";
+"article.completed" = "Segnato come fatto";
+"article.mark_done_hint" = "Spunta anche le voci corrispondenti nelle checklist e nei Primi 30 giorni";
+
+/* Emergency */
+"emergency.call" = "Chiama %@ al %@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "Sblocca le guide essenziali per ambientarti";
+"pro.subtitle" = "Acquisto una tantum · %@ · tieni tutto offline su questo iPhone";
+"pro.benefit_guides" = "Periodi di attesa dell’assicurazione sanitaria privata, OVHC, pedaggi, tipi di assicurazione auto, copertura ambulanza, più iscrizione a Medicare, ImmiAccount, tasse, PPSR, myGov e altro ancora.";
+"pro.benefit_offline" = "Le guide restano sul tuo telefono. Nessun account. Non entriamo mai nei siti governativi al posto tuo.";
+"pro.benefit_persona" = "La tua Home e i Primi 30 giorni filtrano già i contenuti per studente, lavoratore, famiglia o visitatore.";
+"pro.legal" = "AussieStart non è un’app governativa e non è collegata al Governo australiano. Gli acquisti sono gestiti da Apple. Solo a scopo informativo — non presentiamo al posto tuo domande di visto, dichiarazioni fiscali, pratiche Medicare, myGov o bond.";
+"pro.buy" = "Sblocca Pro · %@";
+"pro.restore" = "Ripristina gli acquisti";
+"pro.unlock_cta" = "Sblocca AussieStart Pro";
+"pro.unlock_this" = "Questa guida è inclusa in Pro: %@";
+"pro.locked_title" = "Questa guida essenziale fa parte di AussieStart Pro";
+"pro.active" = "Pro è sbloccato su questo Apple ID";
+"pro.settings_blurb" = "Pro è uno sblocco una tantum. Ripristinalo se reinstalli l’app o cambi iPhone usando lo stesso Apple ID.";
+
+/* Privacy */
+"privacy.title" = "Informativa sulla privacy";
+"privacy.updated" = "Ultimo aggiornamento: 17 agosto 2026";
+"privacy.collect_title" = "Cosa conserviamo";
+"privacy.collect_body" = "AussieStart non richiede un account. Segnalibri, cronologia di lettura, cronologia delle ricerche, spunte nelle checklist e progressi dei Primi 30 giorni restano su questo dispositivo. Non abbiamo alcun server che riceva i dati sul tuo trasferimento.";
+"privacy.purchases_title" = "Acquisti";
+"privacy.purchases_body" = "Se acquisti AussieStart Pro, il pagamento è gestito da Apple. Su questo dispositivo riceviamo solo un diritto d’accesso dell’App Store che sblocca le guide Pro. Non riceviamo il numero della tua carta.";
+"privacy.notgov_title" = "Non è un servizio governativo";
+"privacy.notgov_body" = "AussieStart è un’app informativa indipendente. Non possiamo vedere, modificare o richiedere visti, myGov, TFN, Medicare, Centrelink, patenti o bond. Per questi passaggi usa sempre i siti ufficiali .gov.au.";
+"privacy.contact_title" = "Domande";
+"privacy.contact_body" = "Per segnalare correzioni ai contenuti, usa il contatto nella scheda App Store quando sarà pubblicata. Verifica i passaggi importanti sulle fonti ufficiali del Governo australiano.";
+
+/* New article titles */
+"article.mygov-basics.title" = "Crea myGov (nel modo ufficiale)";
+"article.mygov-basics.subtitle" = "Come si crea e si protegge di solito un account myGov";
+"article.scams-safety.title" = "Riconoscere le truffe su affitti, lavoro e myGov";
+"article.scams-safety.subtitle" = "Fermati un attimo prima di pagare o condividere codici";
+"article.visa-work-rights.title" = "Controlla i diritti di lavoro del tuo visto";
+"article.visa-work-rights.subtitle" = "Usa il VEVO ufficiale — AussieStart non può vedere i visti";
+"article.super-basics.title" = "La superannuation al tuo primo lavoro";
+"article.super-basics.subtitle" = "Che cos’è la voce super sulla busta paga";
+"article.utilities-connect.title" = "Attiva luce, gas e internet";
+"article.utilities-connect.subtitle" = "Fornitori, contatori e NBN — l’attivazione la fai tu";
+"article.rental-bond.title" = "Deposita il bond d’affitto nel modo ufficiale";
+"article.rental-bond.subtitle" = "Gli enti statali per il bond — mai un conto personale qualsiasi";
+"article.first-month-budget.title" = "Checklist delle spese del primo mese";
+"article.first-month-budget.subtitle" = "SIM, bond, cibo e trasporti — una lista per pianificare";
+"article.abn-contracting.title" = "ABN o dipendente: non confonderli";
+"article.abn-contracting.subtitle" = "Quando ti serve davvero un ABN e quando no";
+
+"tip.tip-scam.title" = "Non pagare mai il bond in una chat privata";
+"tip.tip-scam.description" = "I bond veri si depositano presso un ente statale. Se qualcuno su WhatsApp vuole prima un bonifico, fermati.";
+"tip.tip-mygov.title" = "Usa solo my.gov.au";
+"tip.tip-mygov.description" = "I siti clone rubano i codici. Digita tu l’indirizzo e controlla che finisca in .gov.au.";
+
+"journey.d6.title" = "Account myGov";
+"journey.d6.summary" = "Crea myGov solo sul sito ufficiale — non facciamo mai il login al posto tuo.";
+"journey.d7.title" = "Controllo truffe";
+"journey.d7.summary" = "Impara a riconoscere le truffe su affitti, lavoro e finti enti pubblici prima di pagare qualcuno.";
+"journey.d12.title" = "Utenze";
+"journey.d12.summary" = "Attiva luce e internet a tuo nome quando il contratto d’affitto è davvero firmato.";
+"journey.d20.title" = "Super e buste paga";
+"journey.d20.summary" = "Leggi la voce super sulla tua prima busta paga e comunica il tuo TFN al fondo pensione.";
+
+"checklist.checklist-work.title" = "Extra per essere pronto al lavoro";
+"checklist.checklist-work.subtitle" = "Diritti, super e lavoro autonomo — solo a scopo informativo";
+"task.task-scam.title" = "Leggi la guida per riconoscere le truffe";
+"task.task-mygov.title" = "Crea myGov sul sito ufficiale (se ti serve ATO/Medicare)";
+"task.task-utilities.title" = "Organizza luce / internet";
+"task.task-bond.title" = "Deposita il bond presso l’ente statale";
+"task.task-visa-rights.title" = "Controlla le condizioni di lavoro sul VEVO ufficiale";
+"task.task-super.title" = "Trova la voce super sulla tua busta paga";
+"task.task-budget.title" = "Scrivi una lista delle spese del primo mese";
+"task.task-abn.title" = "Verifica di essere un dipendente prima di aprire un ABN";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "Iscriviti a Medicare sul sito ufficiale";
+"article.medicare-enrol.subtitle" = "Requisiti, myGov e centri servizi — non ti iscriviamo noi";
+"article.student-concession.title" = "Sconto studenti sui trasporti";
+"article.student-concession.subtitle" = "Fai domanda all’agenzia del tuo stato — non tramite questa app";
+"article.tax-return-basics.title" = "Presenta la tua prima dichiarazione dei redditi (ATO)";
+"article.tax-return-basics.subtitle" = "La via ufficiale con myTax o un commercialista — AussieStart non presenta nulla";
+"article.choose-suburb.title" = "Scegliere il quartiere con le mappe ufficiali";
+"article.choose-suburb.subtitle" = "Tragitti, scuole e rischi ambientali — non le liste su Instagram";
+"article.inspection-condition-report.title" = "Sopralluogo d’ingresso e condition report";
+"article.inspection-condition-report.subtitle" = "Moduli ufficiali e foto che proteggono il tuo bond";
+"article.used-car-ppsr.title" = "Controlli sull’auto usata (PPSR)";
+"article.used-car-ppsr.subtitle" = "Registro pubblico, passaggio di proprietà e CTP prima di pagare";
+"article.contents-insurance.title" = "Assicurazione sui beni per chi è in affitto";
+"article.contents-insurance.subtitle" = "Come confrontare le offerte con Moneysmart — noi non vendiamo polizze";
+"article.library-council.title" = "Tessera della biblioteca e il tuo council";
+"article.library-council.subtitle" = "Wi-Fi gratis, raccolta rifiuti e AMEP — dai siti ufficiali dei council";
+"article.visa-immiaccount.title" = "Domande di visto con ImmiAccount";
+"article.visa-immiaccount.subtitle" = "Il portale ufficiale di Home Affairs — noi non presentiamo visti";
+"article.police-check-wwcc.title" = "Certificato penale e lavoro con i minori";
+"article.police-check-wwcc.subtitle" = "Solo portali AFP e statali — non prendiamo mai i tuoi documenti";
+"article.centrelink-claim-start.title" = "Avvia una domanda Centrelink nel modo ufficiale";
+"article.centrelink-claim-start.subtitle" = "Payment finder e myGov — non possiamo fare domanda per te";
+
+"tip.tip-ppsr.title" = "Cerca sul PPSR prima di comprare un’auto";
+"tip.tip-ppsr.description" = "Solo ppsr.gov.au è il registro pubblico ufficiale. I siti privati che controllano il VIN sono un extra facoltativo.";
+"tip.tip-immi.title" = "ImmiAccount è online.immi.gov.au";
+"tip.tip-immi.description" = "Le domande di visto restano sul portale di Home Affairs. Ignora gli agenti su WhatsApp che vogliono la scansione del tuo passaporto.";
+
+"journey.d9.title" = "Quartiere e visite";
+"journey.d9.summary" = "Usa le mappe ufficiali e i moduli del condition report prima di pagare un bond.";
+"journey.d11.title" = "Biblioteca e council";
+"journey.d11.summary" = "Fai la tessera della biblioteca e trova il sito ufficiale del tuo council.";
+"journey.d14.title" = "Iscrizione a Medicare";
+"journey.d14.summary" = "Se hai i requisiti, iscriviti solo su servicesaustralia.gov.au / myGov.";
+"journey.d16.title" = "Sconto studenti";
+"journey.d16.summary" = "Chiedi le tariffe ridotte sul sito dei trasporti del tuo stato.";
+"journey.d22.title" = "Documenti fiscali";
+"journey.d22.summary" = "Tieni pronte le buste paga per myTax sul sito dell’ATO dopo il 30 giugno.";
+"journey.d26.title" = "Controlli prima di comprare l’auto";
+"journey.d26.summary" = "PPSR e pagine statali sul passaggio di proprietà prima di pagare un’auto usata.";
+
+"checklist.checklist-pro-official.title" = "Checklist dei siti ufficiali (Pro)";
+"checklist.checklist-pro-official.subtitle" = "Da fare su .gov.au — AussieStart non invia moduli";
+"task.task-medicare-enrol.title" = "Controlla i requisiti Medicare su Services Australia";
+"task.task-concession.title" = "Chiedi lo sconto studenti sul sito dei trasporti del tuo stato";
+"task.task-tax-return.title" = "Salva la pagina di invio dell’ATO / conserva le buste paga";
+"task.task-suburb.title" = "Seleziona i quartieri usando le mappe ufficiali";
+"task.task-inspection.title" = "Compila il condition report ufficiale con le foto";
+"task.task-ppsr.title" = "Cerca sul PPSR prima di comprare un’auto usata";
+"task.task-library.title" = "Iscriviti alla biblioteca locale dal sito del council";
+"task.task-immi.title" = "Usa solo ImmiAccount / VEVO su Home Affairs";
+"task.task-wwcc.title" = "Richiedi certificato penale/WWCC sui portali ufficiali se il lavoro lo richiede";
+"task.task-centrelink-claim.title" = "Usa il Payment finder prima di dare per scontato di avere diritto";
+
+"pro.reminders" = "Promemoria dei Primi 30 giorni";
+"pro.reminders_blurb" = "Notifiche locali facoltative nelle settimane 1–4. Restano su questo iPhone. Puoi disattivarle quando vuoi.";
+"pro.benefit_reminders" = "Condividi o stampa la tua lista Primi 30 giorni, più promemoria settimanali facoltativi su questo dispositivo.";
+"journey.share" = "Condividi i Primi 30 giorni";
+"journey.share_pro" = "Sblocca Pro per condividere i Primi 30 giorni";
+"journey.share_header" = "AussieStart Primi 30 giorni — %@";
+
+"reminder.week1.title" = "Settimana 1 — SIM, banca, TFN";
+"reminder.week1.body" = "Apri AussieStart e spunta i passi della prima settimana. Per le domande usa i siti ufficiali .gov.au.";
+"reminder.week2.title" = "Settimana 2 — Casa e sanità";
+"reminder.week2.body" = "Visite agli alloggi, Medicare o OSHC e la tessera della biblioteca del council sono le cose tipiche della seconda settimana.";
+"reminder.week3.title" = "Settimana 3 — Extra per lavoro e studio";
+"reminder.week3.body" = "Controlla i diritti di lavoro del visto sul VEVO e lo sconto studenti sul sito dei trasporti del tuo stato.";
+"reminder.week4.title" = "Settimana 4 — Soldi e documenti";
+"reminder.week4.body" = "Conserva le buste paga per l’ATO e usa il PPSR prima di comprare un’auto usata.";
+
+"article.private-health-waiting.title" = "Sanità privata e periodi di attesa";
+"article.private-health-waiting.subtitle" = "Copertura ospedaliera o extras — noi non vendiamo polizze";
+"article.ovhc-visitors.title" = "OVHC per visitatori e visti temporanei";
+"article.ovhc-visitors.subtitle" = "Non è Medicare né OSHC — controlla la lettera di concessione del visto";
+"article.tolls-linkt.title" = "Autostrade a pedaggio, Linkt ed e-TAG";
+"article.tolls-linkt.subtitle" = "Attiva tutto prima di guidare — soprattutto con le auto a noleggio";
+"article.car-insurance-types.title" = "CTP o assicurazione auto completa";
+"article.car-insurance-types.subtitle" = "La copertura per i danni alle persone non ripara la tua auto";
+"article.ambulance-cover.title" = "Copertura ambulanza stato per stato";
+"article.ambulance-cover.subtitle" = "Chiama sempre il 000 — quanto paghi il trasporto dipende da dove vivi";
+
+"tip.tip-toll.title" = "Attiva i pedaggi prima di noleggiare un’auto";
+"tip.tip-toll.description" = "I tratti autostradali non pagati diventano costi extra. Usa la pagina sui pedaggi .gov.au del tuo stato, poi il gestore indicato lì.";
+"tip.tip-ambulance.title" = "Chiama prima il 000 — poi pensa al conto dell’ambulanza";
+"tip.tip-ambulance.description" = "La chiamata è gratuita. Chi paga il trasporto dipende dal tuo stato. Leggi healthdirect.gov.au.";
+
+"journey.d13.title" = "Copertura ambulanza";
+"journey.d13.summary" = "Chiama sempre il 000. Poi verifica se il tuo stato fa pagare il trasporto.";
+"journey.d17.title" = "Copertura sanitaria per visitatori (OVHC)";
+"journey.d17.summary" = "Se il tuo visto richiede l’OVHC, acquistala sul sito ufficiale dell’assicuratore — non su WhatsApp.";
+"journey.d19.title" = "Attese della sanità privata";
+"journey.d19.summary" = "Leggi i periodi di attesa su privatehealth.gov.au prima di comprare una copertura ospedaliera.";
+"journey.d21.title" = "Pedaggi e tag";
+"journey.d21.summary" = "Apri un conto per i pedaggi prima di guidare un’auto a noleggio o una nuova autostrada.";
+"journey.d24.title" = "Tipi di assicurazione auto";
+"journey.d24.summary" = "La CTP non è una polizza completa. Leggi Moneysmart prima di guidare la tua auto.";
+
+"task.task-private-health.title" = "Leggi i periodi di attesa della sanità privata su privatehealth.gov.au";
+"task.task-ovhc.title" = "Controlla se il tuo visto richiede l’OVHC";
+"task.task-tolls.title" = "Apri un conto per i pedaggi prima di guidare un’auto a noleggio";
+"task.task-car-insurance.title" = "Capisci la differenza tra CTP e polizza completa prima di guidare";
+"task.task-ambulance.title" = "Controlla le regole di fatturazione dell’ambulanza nel tuo stato";
+
+/* Language readiness */
+"common.guides_translated" = "App e guide tradotte";
+"common.guides_in_english" = "App tradotta · guide in inglese";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "Riconoscimento della Terra (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "Riconosciamo i Custodi Tradizionali (Traditional Owners) delle terre e delle acque di tutta l’Australia e il loro legame ininterrotto con la Terra (Country), la cultura e la comunità. Porgiamo il nostro rispetto agli Anziani (Elders) di ieri e di oggi.";
+"onboarding.acknowledgement_note" = "I popoli Aborigeni e delle Isole dello Stretto di Torres si prendono cura di questo continente da più di 60.000 anni, in centinaia di nazioni con lingue e leggi proprie. Sentirai un riconoscimento come questo all’inizio di riunioni, lezioni ed eventi in tutta l’Australia. Chiunque può pronunciarlo.";
+"onboarding.acknowledgement_learn" = "Scopri di più in Storia e cultura";
+
+/* History & Culture category */
+"category.culture" = "Storia e cultura";
+
+/* New guides */
+"article.shopping-rewards.title" = "Carte fedeltà dei supermercati e risparmio sulla spesa";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards e il ciclo settimanale delle offerte";
+"article.first-nations-country.title" = "I Primi Popoli e la Terra (Country)";
+"article.first-nations-country.subtitle" = "Le culture Aborigene e delle Isole dello Stretto di Torres, e come mostrare rispetto";
+"article.australia-history.title" = "Storia australiana: le basi";
+"article.australia-history.subtitle" = "Federazione, Anzac Day, migrazione e come è governato il Paese";

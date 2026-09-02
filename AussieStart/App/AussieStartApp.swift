@@ -39,6 +39,8 @@ struct AussieStartApp: App {
             RootView()
                 .environment(preferences)
                 .environment(store)
+                .environment(\.locale, preferences.language.locale)
+                .environment(\.layoutDirection, preferences.language.isRightToLeft ? .rightToLeft : .leftToRight)
                 .preferredColorScheme(AppStoreScreenshotScene.isActive ? .light : preferences.appearance.colorScheme)
                 .tint(AppTheme.accent)
                 .animation(.easeInOut(duration: 0.25), value: preferences.appearance)

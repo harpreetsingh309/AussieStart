@@ -1582,6 +1582,108 @@
       "personas": [
         "all"
       ]
+    },
+    {
+      "id": "shopping-rewards",
+      "title": "Supermarket rewards and saving on groceries",
+      "subtitle": "Flybuys, Everyday Rewards, and the weekly specials cycle",
+      "category": "shopping",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "flybuys",
+        "everyday rewards",
+        "woolworths",
+        "coles",
+        "points",
+        "loyalty",
+        "specials",
+        "catalogue",
+        "groceries",
+        "save money",
+        "discount",
+        "aldi"
+      ],
+      "estimatedReadingMinutes": 6,
+      "relatedArticles": [
+        "shopping-essentials",
+        "first-month-budget"
+      ],
+      "file": "shopping-rewards.md",
+      "lastUpdated": "2026-09-02",
+      "popularRank": 30,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "first-nations-country",
+      "title": "First Peoples and Country",
+      "subtitle": "Aboriginal and Torres Strait Islander cultures, and how to show respect",
+      "category": "culture",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "aboriginal",
+        "torres strait islander",
+        "first nations",
+        "indigenous",
+        "country",
+        "acknowledgement of country",
+        "welcome to country",
+        "naidoc",
+        "elders",
+        "traditional owners",
+        "native title",
+        "respect"
+      ],
+      "estimatedReadingMinutes": 9,
+      "relatedArticles": [
+        "australia-history",
+        "explore-uluru"
+      ],
+      "file": "first-nations-country.md",
+      "lastUpdated": "2026-09-02",
+      "popularRank": 31,
+      "personas": [
+        "all"
+      ]
+    },
+    {
+      "id": "australia-history",
+      "title": "Australian history basics",
+      "subtitle": "Federation, Anzac Day, migration, and how the country is run",
+      "category": "culture",
+      "states": [
+        "all"
+      ],
+      "keywords": [
+        "history",
+        "federation",
+        "anzac",
+        "australia day",
+        "citizenship test",
+        "our common bond",
+        "referendum",
+        "government",
+        "voting",
+        "multicultural",
+        "gold rush",
+        "eureka"
+      ],
+      "estimatedReadingMinutes": 10,
+      "relatedArticles": [
+        "first-nations-country",
+        "mygov-basics"
+      ],
+      "file": "australia-history.md",
+      "lastUpdated": "2026-09-02",
+      "popularRank": 32,
+      "personas": [
+        "all"
+      ]
     }
   ],
   "tips": [

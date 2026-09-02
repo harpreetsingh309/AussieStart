@@ -1,0 +1,537 @@
+/* App */
+"app.name" = "AussieStart";
+"app.tagline" = "Ο οδηγός σου για το ξεκίνημα στην Αυστραλία";
+
+/* Tabs */
+"tab.home" = "Αρχική";
+"tab.search" = "Αναζήτηση";
+"tab.topics" = "Θέματα";
+"tab.saved" = "Αποθηκευμένα";
+"tab.settings" = "Ρυθμίσεις";
+
+/* Common */
+"common.continue" = "Συνέχεια";
+"common.back" = "Πίσω";
+"common.close" = "Κλείσιμο";
+"common.see_all" = "Δες τα όλα";
+"common.guides_count" = "%d οδηγοί";
+"common.coming_soon" = "Έρχεται σύντομα";
+"common.min_read" = "%d λεπτά ανάγνωση";
+"common.min_category" = "%d λεπτά · %@";
+"common.offline_for_state" = "Εκτός σύνδεσης · ενημερωμένο για %@";
+"common.available_now" = "Διαθέσιμο τώρα";
+"common.coming_soon_lang" = "Έρχεται σύντομα";
+
+/* Disclaimer */
+"disclaimer.full" = "Μόνο για ενημέρωση — δεν είναι νομική, μεταναστευτική, οικονομική ή ιατρική συμβουλή. Έλεγχε πάντα τις επίσημες πηγές της Αυστραλιανής Κυβέρνησης.";
+
+/* Greetings */
+"greeting.morning" = "Καλημέρα";
+"greeting.afternoon" = "Καλό απόγευμα";
+"greeting.evening" = "Καλησπέρα";
+
+/* Home */
+"home.settling_in" = "Εγκατάσταση σε %@";
+"home.hero_tagline" = "Οι πρώτες σου εβδομάδες στην Αυστραλία, εξηγημένες απλά.";
+"home.section_topics" = "Θέματα";
+"home.section_recommended" = "Προτεινόμενα";
+"home.section_explore" = "Εξερεύνηση";
+"home.section_guides" = "Οδηγοί";
+"home.section_reading" = "Ανάγνωση";
+"home.journey_week" = "Εβδομάδα %d";
+"home.todays_tip" = "Η συμβουλή της ημέρας";
+"home.read_guide" = "Διάβασε τον οδηγό";
+"home.quick_topics" = "Γρήγορα θέματα";
+"home.popular_destinations" = "Δημοφιλείς προορισμοί";
+"home.popular_destinations_subtitle" = "Κόστη, σύντομα δρομολόγια και στάσεις στη διαδρομή";
+"home.first_30_days" = "Πρώτες 30 ημέρες";
+"home.milestones_completed" = "%d/%d ορόσημα ολοκληρώθηκαν";
+"home.continue_roadmap" = "Πάτησε για να συνεχίσεις τον οδικό σου χάρτη";
+"home.continue_reading" = "Συνέχισε την ανάγνωση";
+"home.most_popular" = "Τα πιο δημοφιλή";
+"home.most_popular_subtitle" = "Ξεκίνα με αυτά για %@";
+"home.emergency_contacts" = "Τηλέφωνα έκτακτης ανάγκης";
+"home.emergency_subtitle" = "000 · Δηλητηριάσεις · SES · healthdirect";
+
+/* Search */
+"search.title" = "Αναζήτηση";
+"search.prompt" = "Αναζήτηση οδηγών";
+"search.recent" = "Πρόσφατες αναζητήσεις";
+"search.trending" = "Δημοφιλή τώρα";
+"search.results" = "Αποτελέσματα";
+"search.hint" = "Δοκίμασε «GP», «TFN» ή «Myki»";
+"search.empty" = "Κανένα αποτέλεσμα. Δοκίμασε ένα συνώνυμο, π.χ. «γιατρός» για το GP.";
+
+/* Topics */
+"topics.title" = "Θέματα";
+"topics.browse" = "Περιήγηση ανά θέμα";
+"topics.tailored" = "Πρακτικοί οδηγοί, φτιαγμένοι για %@";
+"topics.guides" = "Οδηγοί";
+
+/* Saved */
+"saved.title" = "Αποθηκευμένα";
+"saved.articles" = "Αποθηκευμένα άρθρα";
+"saved.empty" = "Βάλε οδηγούς στους σελιδοδείκτες για να τους διαβάσεις αργότερα, χωρίς internet.";
+"saved.history" = "Ιστορικό";
+"saved.history_empty" = "Τα άρθρα που ανοίγεις θα εμφανίζονται εδώ.";
+"saved.checklists" = "Λίστες ελέγχου";
+"saved.journey" = "Πρώτες 30 ημέρες";
+
+/* Settings */
+"settings.title" = "Ρυθμίσεις";
+"settings.personalisation" = "Εξατομίκευση";
+"settings.language" = "Γλώσσα";
+"settings.state" = "Πολιτεία / Επικράτεια";
+"settings.persona" = "Είμαι";
+"settings.appearance" = "Εμφάνιση";
+"settings.theme" = "Θέμα";
+"settings.theme.system" = "Σύστημα";
+"settings.theme.light" = "Φωτεινό";
+"settings.theme.dark" = "Σκούρο";
+"settings.theme.hint.system" = "Ακολουθεί τη ρύθμιση Φωτεινό / Σκούρο του iPhone σου.";
+"settings.theme.hint.light" = "Πάντα φωτεινό φόντο.";
+"settings.theme.hint.dark" = "Πάντα σκούρο φόντο.";
+"settings.offline" = "Εκτός σύνδεσης";
+"settings.content_pack" = "Πακέτο περιεχομένου";
+"settings.last_reviewed" = "Τελευταίος έλεγχος";
+"settings.offline_blurb" = "Όλοι οι οδηγοί, οι συμβουλές και οι λίστες ελέγχου βρίσκονται μέσα στην εφαρμογή. Δεν χρειάζεσαι λογαριασμό ούτε internet.";
+"settings.privacy" = "Απόρρητο";
+"settings.analytics" = "Κοινοποίηση ανώνυμων στοιχείων χρήσης (ανενεργό εξαρχής)";
+"settings.privacy_blurb" = "Το AussieStart κρατά τους σελιδοδείκτες και την πρόοδό σου μόνο σε αυτή τη συσκευή. Χωρίς λογαριασμό. Χωρίς συγχρονισμό στο cloud.";
+"settings.about" = "Σχετικά";
+"settings.about_app" = "Σχετικά με το AussieStart";
+"settings.replay_onboarding" = "Δες ξανά την αρχική ξενάγηση";
+"settings.language_note" = "Τα μενού και οι λεπτομέρειες των οδηγών αλλάζουν μαζί με τη γλώσσα σου. Επίσημες ονομασίες όπως TFN, Myki και Medicare μένουν στα αγγλικά.";
+
+/* Onboarding */
+"onboarding.welcome_title" = "Καλώς ήρθες στο AussieStart";
+"onboarding.welcome_body" = "Αξιόπιστοι οδηγοί εγκατάστασης για νέους μετανάστες, χωρίς internet — σε απλή γλώσσα και προσαρμοσμένοι στην πολιτεία σου.";
+"onboarding.welcome_line1" = "Ανακάλυψε";
+"onboarding.welcome_line2" = "τη ζωή στην";
+"onboarding.welcome_line3" = "Αυστραλία";
+"onboarding.welcome_tagline" = "Άσε το AussieStart να σε οδηγήσει";
+"onboarding.welcome_cta" = "Ξεκίνα το ταξίδι σου";
+"onboarding.choose_language" = "Διάλεξε τη γλώσσα σου";
+"onboarding.choose_language_subtitle" = "Η εφαρμογή είναι πλήρως μεταφρασμένη σε κάθε γλώσσα της λίστας. Οι οδηγοί είναι στα αγγλικά, εκτός αν σημειώνεται αλλιώς.";
+"onboarding.choose_state" = "Πού θα ζήσεις;";
+"onboarding.choose_state_subtitle" = "Οι οδηγοί προσαρμόζονται στις κάρτες μεταφορών, τα διπλώματα και τις τοπικές υπηρεσίες.";
+"onboarding.transport_label" = "Μεταφορές: %@";
+"onboarding.choose_persona" = "Τι σε περιγράφει;";
+"onboarding.choose_persona_subtitle" = "Θα βάλουμε σε προτεραιότητα τον οδικό χάρτη των Πρώτων 30 ημερών σου.";
+"onboarding.roadmap_title" = "Ο προσωπικός σου οδικός χάρτης";
+"onboarding.roadmap_subtitle" = "Με βάση τη ζωή σου ως %1$@ σε %2$@.";
+"onboarding.start" = "Ξεκίνα την εξερεύνηση";
+"onboarding.step" = "Βήμα %d από 6";
+"onboarding.day1" = "Ημέρα 1";
+"onboarding.day2" = "Ημέρα 2";
+"onboarding.day3" = "Ημέρα 3";
+"onboarding.day4" = "Ημέρα 4";
+"onboarding.week2" = "Εβδομάδα 2+";
+"onboarding.task_sim" = "Βρες τοπική SIM και internet";
+"onboarding.task_bank" = "Άνοιξε τραπεζικό λογαριασμό";
+"onboarding.task_tfn" = "Κάνε αίτηση για TFN";
+"onboarding.task_transport" = "Ρύθμισε %@";
+"onboarding.task_more" = "Στέγη, υγεία και άλλα";
+
+/* Article / gallery */
+"article.photos" = "Φωτογραφίες";
+"article.destination_photos" = "Φωτογραφίες προορισμού";
+"article.remove_bookmark" = "Αφαίρεση σελιδοδείκτη";
+"article.save_bookmark" = "Αποθήκευση σελιδοδείκτη";
+"article.unavailable_title" = "Το άρθρο δεν είναι διαθέσιμο";
+"article.unavailable_body" = "Αυτός ο οδηγός δεν βρίσκεται ακόμα στο πακέτο για χρήση χωρίς internet.";
+"article.recommended" = "Προτεινόμενα στη συνέχεια";
+"article.recommended_subtitle" = "Συνέχισε την πορεία της εγκατάστασής σου";
+"photo.n" = "Φωτογραφία %d";
+
+/* Journey / checklist / about / emergency */
+"journey.title" = "Πρώτες 30 ημέρες";
+"journey.completed" = "%d/%d ολοκληρώθηκαν";
+"journey.subtitle" = "Ένας πρακτικός οδικός χάρτης για τον πρώτο σου μήνα σε %@.";
+"journey.week" = "Εβδομάδα %d";
+"journey.day" = "Ημέρα %1$d: %2$@";
+"checklist.title" = "Λίστες ελέγχου";
+"checklist.done" = "%d/%d έτοιμα";
+"about.title" = "Σχετικά";
+"about.blurb" = "Ο πλήρης οδηγός για το ξεκίνημά σου στην Αυστραλία, στην τσέπη σου — φτιαγμένος να δουλεύει πρώτα εκτός σύνδεσης, για νέους μετανάστες.";
+"about.verify" = "Έλεγχε πάντα τα κρίσιμα βήματα σε επίσημες πηγές, όπως η Services Australia, η ATO, οι υπηρεσίες μεταφορών της πολιτείας σου και ο δήμος σου.";
+"about.version" = "Έκδοση";
+"about.content_reviewed" = "Έλεγχος περιεχομένου";
+"about.architecture" = "Αρχιτεκτονική";
+"emergency.title" = "Έκτακτη ανάγκη";
+"emergency.life_threatening" = "ΑΠΕΙΛΗΤΙΚΟ ΓΙΑ ΤΗ ΖΩΗ";
+
+/* Categories */
+"category.arrival" = "Άφιξη";
+"category.sim" = "Κάρτες SIM";
+"category.banking" = "Τράπεζες";
+"category.healthcare" = "Υγεία";
+"category.transport" = "Μεταφορές";
+"category.driving" = "Οδήγηση";
+"category.taxes" = "Φόροι";
+"category.housing" = "Στέγη";
+"category.jobs" = "Εργασία";
+"category.shopping" = "Ψώνια";
+"category.family" = "Οικογένεια";
+"category.explore" = "Εξερεύνηση";
+"category.emergency" = "Έκτακτη ανάγκη";
+"category.students" = "Φοιτητές";
+
+/* Personas */
+"persona.student" = "Φοιτητής/τρια";
+"persona.worker" = "Εργαζόμενος/η · ειδικευμένος μετανάστης";
+"persona.family" = "Κάτοχος οικογενειακής βίζας";
+"persona.tourist" = "Τουρίστας / working holiday";
+"persona.pr" = "Μόνιμος κάτοικος";
+"persona.citizen" = "Πολίτης";
+
+/* Empty states */
+"empty.no_guides_title" = "Δεν υπάρχουν ακόμα οδηγοί";
+"empty.no_guides_body" = "Περισσότεροι οδηγοί για %@ έρχονται σε επόμενη ενημέρωση περιεχομένου.";
+
+/* States */
+"state.vic" = "Victoria";
+"state.nsw" = "New South Wales";
+"state.qld" = "Queensland";
+"state.sa" = "South Australia";
+"state.wa" = "Western Australia";
+"state.tas" = "Tasmania";
+"state.act" = "Australian Capital Territory";
+"state.nt" = "Northern Territory";
+
+/* Article titles & subtitles */
+"article.arrival-airport.title" = "Λίστα ελέγχου για την άφιξη στο αεροδρόμιο";
+"article.arrival-airport.subtitle" = "Έλεγχος διαβατηρίων, αποσκευές, βιοασφάλεια και πώς μπαίνεις στην πόλη";
+"article.sim-setup.title" = "Βρες τοπική SIM ή eSIM";
+"article.sim-setup.subtitle" = "Τοπικός αριθμός για τράπεζες, παραδόσεις και κωδικούς";
+"article.banking-open-account.title" = "Άνοιξε τραπεζικό λογαριασμό";
+"article.banking-open-account.subtitle" = "Τα βασικά για BSB, χρεωστική κάρτα, PayID και Osko";
+"article.tfn-apply.title" = "Κάνε αίτηση για TFN";
+"article.tfn-apply.subtitle" = "Ο φορολογικός σου αριθμός χωρίς άγχος";
+"article.transport-card.title" = "Κάρτα δημόσιων μεταφορών";
+"article.transport-card.subtitle" = "Myki, Opal, go card και οι άλλες κάρτες των πολιτειών";
+"article.medicare-gp.title" = "Medicare και επίσκεψη σε GP";
+"article.medicare-gp.subtitle" = "Bulk billing, φαρμακεία και πότε καλείς το 000";
+"article.housing-rent.title" = "Νοικιάζοντας το πρώτο σου σπίτι";
+"article.housing-rent.subtitle" = "Επισκέψεις, εγγύηση (bond), μισθωτήρια και έλεγχος για απάτες";
+"article.jobs-basics.title" = "Βρες δουλειά με τον αυστραλιανό τρόπο";
+"article.jobs-basics.subtitle" = "Βιογραφικό, Seek, Fair Work και εκκαθαριστικά μισθοδοσίας";
+"article.driving-licence.title" = "Οδήγηση και μετατροπή διπλώματος";
+"article.driving-licence.subtitle" = "Κανόνες του δρόμου, CTP, διόδια και ξένα διπλώματα";
+"article.emergency-contacts.title" = "Τηλέφωνα έκτακτης ανάγκης";
+"article.emergency-contacts.subtitle" = "000, δηλητηριάσεις, SES και οδική βοήθεια";
+"article.shopping-essentials.title" = "Ψώνια για τα βασικά";
+"article.shopping-essentials.subtitle" = "Σούπερ μάρκετ, έπιπλα, επιστροφές και πρίζες";
+"article.students-oshc.title" = "OSHC για διεθνείς φοιτητές";
+"article.students-oshc.subtitle" = "Η ασφάλιση υγείας που ζητά η βίζα, απλά εξηγημένη";
+"article.family-schools.title" = "Εγγραφή των παιδιών στο σχολείο";
+"article.family-schools.subtitle" = "Σχολικές ζώνες, δικαιολογητικά και η πρώτη εβδομάδα στο σχολείο";
+"article.family-childcare.title" = "Παιδικός σταθμός και Child Care Subsidy";
+"article.family-childcare.subtitle" = "Πώς βρίσκεις θέση, λίστες αναμονής και τα βασικά του CCS";
+"article.family-immunisation.title" = "Εμβολιασμοί παιδιών που εκκρεμούν";
+"article.family-immunisation.subtitle" = "Οι εγγραφές στο AIR για σχολείο και παιδικό σταθμό";
+"article.family-centrelink.title" = "Τα βασικά του Centrelink για οικογένειες";
+"article.family-centrelink.subtitle" = "myGov, CRN και πώς καταλαβαίνεις τι δικαιούσαι";
+"article.explore-great-ocean-road.title" = "Great Ocean Road";
+"article.explore-great-ocean-road.subtitle" = "Κόστη, διαδρομή 1–2 ημερών και παραθαλάσσιες στάσεις από τη Melbourne";
+"article.explore-blue-mountains.title" = "Ημερήσια εκδρομή στα Blue Mountains";
+"article.explore-blue-mountains.subtitle" = "Διαδρομή με τρένο, εισιτήρια στα σημεία θέας και στάσεις σε χωριά, από το Sydney";
+"article.explore-sydney-harbour.title" = "Τα σύμβολα του Sydney Harbour";
+"article.explore-sydney-harbour.subtitle" = "Opera House, φέριμποτ, Manly και τι κοστίζει κάθε στάση";
+"article.explore-gold-coast.title" = "Παραλίες και ενδοχώρα της Gold Coast";
+"article.explore-gold-coast.subtitle" = "Θεματικά πάρκα, Burleigh και κόστη για διήμερο";
+"article.explore-great-barrier-reef.title" = "Great Barrier Reef (Cairns)";
+"article.explore-great-barrier-reef.subtitle" = "Κόστος κρουαζιέρας, πλάνο 2–3 ημερών και κοντινές στάσεις";
+"article.explore-uluru.title" = "Uluru και Kata Tjuta";
+"article.explore-uluru.subtitle" = "Είσοδος στο πάρκο, διαδρομή με σεβασμό και συμβουλές για τη Yulara";
+"article.explore-phillip-island.title" = "Οι πιγκουίνοι στο Phillip Island";
+"article.explore-phillip-island.subtitle" = "Εισιτήρια για την παρέλαση, πλάνο ημέρας και στάσεις από τη Melbourne";
+"article.explore-rottnest.title" = "Rottnest Island (Perth)";
+"article.explore-rottnest.subtitle" = "Τιμές φέριμποτ, μια μέρα με ποδήλατο και στάσεις σε όρμους";
+"article.explore-tasmania-hobart.title" = "Hobart και νότια Tasmania";
+"article.explore-tasmania-hobart.subtitle" = "MONA, kunanyi και κόστη για τριήμερο";
+"article.explore-barossa-adelaide.title" = "Adelaide, Glenelg και Barossa";
+"article.explore-barossa-adelaide.subtitle" = "Σαββατοκύριακο πόλη–θάλασσα–κρασί, με κόστη γευσιγνωσίας";
+
+/* Daily tips */
+"tip.tip-sim.title" = "Βγάλε τοπικό αριθμό σήμερα";
+"tip.tip-sim.description" = "Οι τράπεζες και οι υπηρεσίες παράδοσης στέλνουν συχνά κωδικούς με SMS. Μια προπληρωμένη SIM την πρώτη μέρα ξεκλειδώνει σχεδόν όλα τα υπόλοιπα.";
+"tip.tip-tfn.title" = "Κάνε νωρίς αίτηση για TFN";
+"tip.tip-tfn.description" = "Η καθυστέρηση μπορεί να σημαίνει μεγαλύτερη παρακράτηση φόρου στους πρώτους σου μισθούς.";
+"tip.tip-000.title" = "Θυμήσου: το τηλέφωνο έκτακτης ανάγκης είναι το 000";
+"tip.tip-000.description" = "Η Αυστραλία δεν χρησιμοποιεί το 911. Αποθήκευσε στο κινητό σου το 000 και τη διεύθυνση του σπιτιού σου.";
+"tip.tip-bond.title" = "Φωτογράφισε τα πάντα όταν μπαίνεις στο σπίτι";
+"tip.tip-bond.description" = "Η έκθεση κατάστασης μαζί με φωτογραφίες προστατεύει την εγγύησή σου όταν φύγεις.";
+"tip.tip-bulk.title" = "Ρώτα αν κάνουν bulk billing";
+"tip.tip-bulk.description" = "Δεν είναι δωρεάν κάθε GP. Ρώτα για τη χρέωση όταν κλείνεις ραντεβού.";
+"tip.tip-explore.title" = "Σχεδίασε μια απόδραση για ένα Σαββατοκύριακο";
+"tip.tip-explore.description" = "Μόλις τακτοποιήσεις SIM, τράπεζα και μεταφορές, κλείσε μια απλή ημερήσια εκδρομή — τα Blue Mountains, το Phillip Island ή το Glenelg είναι εύκολες πρώτες επιλογές.";
+
+/* Journey days */
+"journey.d1.title" = "SIM και σύνδεση";
+"journey.d1.summary" = "Αγόρασε τοπική SIM/eSIM και βεβαιώσου ότι δουλεύουν τα δεδομένα.";
+"journey.d2.title" = "Άνοιγμα τραπεζικού λογαριασμού";
+"journey.d2.summary" = "Έχε έτοιμα BSB και αριθμό λογαριασμού για δουλειά και ενοίκιο.";
+"journey.d3.title" = "Αίτηση για TFN";
+"journey.d3.summary" = "Ξεκίνα την αίτηση για τον φορολογικό σου αριθμό με τοπική διεύθυνση και τηλέφωνο.";
+"journey.d4.title" = "Κάρτα μεταφορών";
+"journey.d4.summary" = "Ρύθμισε την κάρτα ή την εφαρμογή μεταφορών της πολιτείας σου και βάλε χρήματα.";
+"journey.d5.title" = "Ετοιμότητα για έκτακτη ανάγκη";
+"journey.d5.summary" = "Αποθήκευσε το 000 και τα βασικά τηλέφωνα· να ξέρεις την ακριβή σου διεύθυνση.";
+"journey.d8.title" = "Αναζήτηση σπιτιού";
+"journey.d8.summary" = "Ξεχώρισε γειτονιές, κλείσε επισκέψεις, ετοίμασε τα δικαιολογητικά της αίτησης.";
+"journey.d10.title" = "Ψώνια για τα βασικά";
+"journey.d10.summary" = "Αγόρασε μόνο ό,τι χρειάζεσαι για τις πρώτες εβδομάδες.";
+"journey.d15.title" = "Ρύθμιση της υγειονομικής κάλυψης";
+"journey.d15.summary" = "Έλεγξε Medicare/OSHC και βρες έναν GP κοντά σου.";
+"journey.d18.title" = "Έτοιμος/η για δουλειά";
+"journey.d18.summary" = "Βιογραφικό αυστραλιανού τύπου και ειδοποιήσεις σε Seek/LinkedIn.";
+"journey.d25.title" = "Έλεγχος για την οδήγηση";
+"journey.d25.summary" = "Επιβεβαίωσε τους κανόνες για το δίπλωμα πριν αγοράσεις ή οδηγήσεις αυτοκίνητο.";
+
+/* Checklists */
+"checklist.checklist-first-week.title" = "Τα βασικά της πρώτης εβδομάδας";
+"checklist.checklist-first-week.subtitle" = "Η λίστα με όσα πρέπει να κάνεις μόλις φτάσεις";
+"task.task-sim.title" = "Αγόρασε και ενεργοποίησε τοπική SIM/eSIM";
+"task.task-bank.title" = "Άνοιξε τρεχούμενο τραπεζικό λογαριασμό";
+"task.task-tfn.title" = "Υπόβαλε την αίτηση για TFN";
+"task.task-transport.title" = "Ρύθμισε κάρτα δημόσιων μεταφορών";
+"task.task-emergency.title" = "Αποθήκευσε τα τηλέφωνα έκτακτης ανάγκης";
+"checklist.checklist-home.title" = "Ρύθμιση του σπιτιού";
+"checklist.checklist-home.subtitle" = "Ενοικίαση και τακτοποίηση στο σπίτι σου";
+"task.task-rent-docs.title" = "Ετοίμασε τα δικαιολογητικά για την αίτηση ενοικίασης";
+"task.task-shop.title" = "Αγόρασε τα βασικά του σπιτιού για την πρώτη εβδομάδα";
+"task.task-gp.title" = "Βρες GP / επιβεβαίωσε την ασφάλιση υγείας σου";
+"task.task-resume.title" = "Ενημέρωσε το βιογραφικό σου για Αυστραλούς εργοδότες";
+"task.task-licence.title" = "Έλεγξε αν ισχύει το δίπλωμα του εξωτερικού";
+
+/* Emergency contacts */
+"emergency.triple-zero.name" = "Triple Zero";
+"emergency.triple-zero.detail" = "Αστυνομία, Πυροσβεστική, Ασθενοφόρο — μόνο για περιστατικά που απειλούν τη ζωή.";
+"emergency.poisons.name" = "Poisons Information (δηλητηριάσεις)";
+"emergency.poisons.detail" = "Συμβουλές 24/7 για δηλητηριάσεις και πιθανές δηλητηριάσεις.";
+"emergency.healthdirect.name" = "healthdirect";
+"emergency.healthdirect.detail" = "Συμβουλές υγείας 24/7 από νοσηλευτές, για μη επείγοντα ερωτήματα.";
+"emergency.ses.name" = "SES";
+"emergency.ses.detail" = "State Emergency Service — για πλημμύρες, καταιγίδες και παρόμοια βοήθεια.";
+
+/* Extra UI */
+"checklist.open_guide" = "Άνοιξε τον οδηγό";
+"settings.aus_gov" = "Αυστραλιανή Κυβέρνηση";
+"common.min" = "%d λεπτά";
+"common.progress_percent" = "Πρόοδος %d τοις εκατό";
+
+/* Home extras */
+"home.for_you" = "Για σένα";
+"home.for_you_subtitle" = "Σε προτεραιότητα για %@ στις πρώτες σου εβδομάδες";
+
+/* Onboarding persona roadmap */
+"onboarding.task_more_student" = "OSHC, ώρες εργασίας με τη βίζα και στέγη";
+"onboarding.task_more_family" = "Σχολεία, υγεία και στέγη";
+"onboarding.task_more_tourist" = "Μεταφορές, ασφάλεια και εκδρομές το Σαββατοκύριακο";
+
+/* Article actions */
+"article.share" = "Μοιράσου αυτόν τον οδηγό";
+"article.mark_done" = "Σημείωσε αυτό το βήμα ως ολοκληρωμένο";
+"article.completed" = "Ολοκληρώθηκε";
+"article.mark_done_hint" = "Τσεκάρει και τα αντίστοιχα στοιχεία στη λίστα ελέγχου και στις Πρώτες 30 ημέρες";
+
+/* Emergency */
+"emergency.call" = "Κάλεσε %1$@ στο %2$@";
+
+/* Pro */
+"pro.badge" = "Pro";
+"pro.title" = "AussieStart Pro";
+"pro.headline" = "Ξεκλείδωσε τους βασικούς οδηγούς εγκατάστασης";
+"pro.subtitle" = "Μία μόνο αγορά · %@ · κράτα τα πάντα εκτός σύνδεσης σε αυτό το iPhone";
+"pro.benefit_guides" = "Περίοδοι αναμονής στην ιδιωτική ασφάλιση, OVHC, διόδια, τύποι ασφάλισης αυτοκινήτου, κάλυψη ασθενοφόρου, καθώς και εγγραφή στο Medicare, ImmiAccount, φόροι, PPSR, myGov και άλλα.";
+"pro.benefit_offline" = "Οι οδηγοί μένουν στο κινητό σου. Χωρίς λογαριασμό. Ποτέ δεν μπαίνουμε εμείς σε κυβερνητικές σελίδες για λογαριασμό σου.";
+"pro.benefit_persona" = "Η Αρχική και οι Πρώτες 30 ημέρες φιλτράρουν ήδη ανάλογα με το αν είσαι φοιτητής, εργαζόμενος, οικογένεια ή επισκέπτης.";
+"pro.legal" = "Το AussieStart δεν είναι κυβερνητική εφαρμογή και δεν συνδέεται με την Αυστραλιανή Κυβέρνηση. Οι αγορές γίνονται μέσω της Apple. Μόνο για ενημέρωση — δεν υποβάλλουμε εμείς βίζες, φορολογικές δηλώσεις, Medicare, myGov ή εγγυήσεις ενοικίου για σένα.";
+"pro.buy" = "Ξεκλείδωσε το Pro · %@";
+"pro.restore" = "Επαναφορά αγορών";
+"pro.unlock_cta" = "Ξεκλείδωσε το AussieStart Pro";
+"pro.unlock_this" = "Αυτός ο οδηγός περιλαμβάνεται στο Pro: %@";
+"pro.locked_title" = "Αυτός ο βασικός οδηγός είναι μέρος του AussieStart Pro";
+"pro.active" = "Το Pro είναι ξεκλειδωμένο σε αυτό το Apple ID";
+"pro.settings_blurb" = "Το Pro είναι μια εφάπαξ αγορά. Κάνε επαναφορά αν εγκαταστήσεις ξανά την εφαρμογή ή αλλάξεις iPhone με το ίδιο Apple ID.";
+
+/* Privacy */
+"privacy.title" = "Πολιτική απορρήτου";
+"privacy.updated" = "Τελευταία ενημέρωση 17 Αυγούστου 2026";
+"privacy.collect_title" = "Τι αποθηκεύουμε";
+"privacy.collect_body" = "Το AussieStart δεν χρειάζεται λογαριασμό. Οι σελιδοδείκτες, το ιστορικό ανάγνωσης, το ιστορικό αναζητήσεων, τα τσεκαρισμένα στοιχεία των λιστών και η πρόοδός σου στις Πρώτες 30 ημέρες μένουν σε αυτή τη συσκευή. Δεν έχουμε διακομιστή που να λαμβάνει τα δεδομένα της εγκατάστασής σου.";
+"privacy.purchases_title" = "Αγορές";
+"privacy.purchases_body" = "Αν αγοράσεις το AussieStart Pro, την πληρωμή τη διεκπεραιώνει η Apple. Εμείς λαμβάνουμε ένα δικαίωμα χρήσης από το App Store σε αυτή τη συσκευή, ώστε να ξεκλειδώσουν οι οδηγοί Pro. Δεν βλέπουμε τον αριθμό της κάρτας σου.";
+"privacy.notgov_title" = "Δεν είμαστε κυβερνητική υπηρεσία";
+"privacy.notgov_body" = "Το AussieStart είναι μια ανεξάρτητη ενημερωτική εφαρμογή. Δεν μπορούμε να δούμε, να αλλάξουμε ή να υποβάλουμε αιτήσεις για βίζες, myGov, TFN, Medicare, Centrelink, διπλώματα ή εγγυήσεις ενοικίου. Για αυτά τα βήματα χρησιμοποίησε πάντα τους επίσημους ιστότοπους .gov.au.";
+"privacy.contact_title" = "Ερωτήσεις";
+"privacy.contact_body" = "Για διορθώσεις στο περιεχόμενο, χρησιμοποίησε τα στοιχεία επικοινωνίας στη σελίδα του App Store μόλις δημοσιευτεί. Επιβεβαίωνε τα κρίσιμα βήματα σε επίσημες πηγές της Αυστραλιανής Κυβέρνησης.";
+
+/* New article titles */
+"article.mygov-basics.title" = "Φτιάξε λογαριασμό myGov (με τον επίσημο τρόπο)";
+"article.mygov-basics.subtitle" = "Πώς δημιουργούν και προστατεύουν συνήθως έναν λογαριασμό myGov";
+"article.scams-safety.title" = "Αναγνώρισε απάτες με ενοίκια, δουλειές και myGov";
+"article.scams-safety.subtitle" = "Στάσου λίγο πριν πληρώσεις ή δώσεις κωδικούς";
+"article.visa-work-rights.title" = "Έλεγξε τα δικαιώματα εργασίας της βίζας σου";
+"article.visa-work-rights.subtitle" = "Χρησιμοποίησε το επίσημο VEVO — το AussieStart δεν βλέπει βίζες";
+"article.super-basics.title" = "Superannuation στην πρώτη σου δουλειά";
+"article.super-basics.subtitle" = "Τι σημαίνει η γραμμή «super» στο εκκαθαριστικό μισθοδοσίας";
+"article.utilities-connect.title" = "Σύνδεση ρεύματος, φυσικού αερίου και internet";
+"article.utilities-connect.subtitle" = "Πάροχοι, μετρητές και NBN — την εγγραφή την κάνεις εσύ";
+"article.rental-bond.title" = "Κατάθεσε την εγγύηση ενοικίου με τον επίσημο τρόπο";
+"article.rental-bond.subtitle" = "Οι αρχές εγγυήσεων της πολιτείας — ποτέ σε προσωπικό λογαριασμό";
+"article.first-month-budget.title" = "Λίστα εξόδων για τον πρώτο μήνα";
+"article.first-month-budget.subtitle" = "SIM, εγγύηση, φαγητό και μεταφορές — μια λίστα για τον προγραμματισμό σου";
+"article.abn-contracting.title" = "ABN ή υπάλληλος — μην τα μπερδέψεις";
+"article.abn-contracting.subtitle" = "Πότε χρειάζεσαι πραγματικά ABN και πότε όχι";
+
+"tip.tip-scam.title" = "Μην πληρώνεις ποτέ εγγύηση μέσα από μια συνομιλία";
+"tip.tip-scam.description" = "Οι γνήσιες εγγυήσεις κατατίθενται σε αρχή της πολιτείας. Αν κάποιος στο WhatsApp ζητά πρώτα μεταφορά χρημάτων, σταμάτα.";
+"tip.tip-mygov.title" = "Χρησιμοποίησε μόνο το my.gov.au";
+"tip.tip-mygov.description" = "Οι ιστοσελίδες-απομιμήσεις κλέβουν κωδικούς. Πληκτρολόγησε μόνος/η σου τη διεύθυνση και δες ότι τελειώνει σε .gov.au.";
+
+"journey.d6.title" = "Λογαριασμός myGov";
+"journey.d6.summary" = "Δημιούργησε myGov μόνο από την επίσημη σελίδα — εμείς δεν συνδεόμαστε ποτέ για σένα.";
+"journey.d7.title" = "Έλεγχος για απάτες";
+"journey.d7.summary" = "Μάθε τα μοτίβα απάτης με ενοίκια, δουλειές και ψεύτικες κυβερνητικές υπηρεσίες πριν πληρώσεις οποιονδήποτε.";
+"journey.d12.title" = "Λογαριασμοί κοινής ωφέλειας";
+"journey.d12.summary" = "Σύνδεσε ρεύμα και internet στο όνομά σου αφού κλειδώσει το μισθωτήριο.";
+"journey.d20.title" = "Superannuation και μισθοδοσία";
+"journey.d20.summary" = "Διάβασε τη γραμμή του super στο πρώτο σου εκκαθαριστικό και δώσε το TFN σου στο ταμείο.";
+
+"checklist.checklist-work.title" = "Έξτρα για να είσαι έτοιμος/η στη δουλειά";
+"checklist.checklist-work.subtitle" = "Δικαιώματα, super και εργασία με ABN — μόνο ενημερωτικά";
+"task.task-scam.title" = "Διάβασε τον οδηγό για τις απάτες";
+"task.task-mygov.title" = "Δημιούργησε myGov στην επίσημη σελίδα (αν χρειάζεσαι ATO/Medicare)";
+"task.task-utilities.title" = "Κανόνισε ρεύμα / internet";
+"task.task-bond.title" = "Κατάθεσε την εγγύηση στην αρχή της πολιτείας";
+"task.task-visa-rights.title" = "Έλεγξε τους όρους εργασίας στο επίσημο VEVO";
+"task.task-super.title" = "Βρες τη γραμμή του super στο εκκαθαριστικό σου";
+"task.task-budget.title" = "Γράψε μια λίστα εξόδων για τον πρώτο μήνα";
+"task.task-abn.title" = "Βεβαιώσου ότι είσαι υπάλληλος πριν βγάλεις ABN";
+
+/* Pro pack — official-site guides */
+"article.medicare-enrol.title" = "Εγγραφή στο Medicare από την επίσημη σελίδα";
+"article.medicare-enrol.subtitle" = "Προϋποθέσεις, myGov και κέντρα εξυπηρέτησης — δεν σε εγγράφουμε εμείς";
+"article.student-concession.title" = "Φοιτητική έκπτωση στις μεταφορές";
+"article.student-concession.subtitle" = "Κάνε αίτηση στην υπηρεσία της πολιτείας σου — όχι μέσα από αυτή την εφαρμογή";
+"article.tax-return-basics.title" = "Υπόβαλε την πρώτη σου φορολογική δήλωση (ATO)";
+"article.tax-return-basics.subtitle" = "Η επίσημη διαδρομή με myTax ή λογιστή — το AussieStart δεν υποβάλλει δηλώσεις";
+"article.choose-suburb.title" = "Διάλεξε γειτονιά με επίσημους χάρτες";
+"article.choose-suburb.subtitle" = "Μετακίνηση, σχολεία και κίνδυνοι — όχι λίστες από το Instagram";
+"article.inspection-condition-report.title" = "Έλεγχος κατά την είσοδο και έκθεση κατάστασης";
+"article.inspection-condition-report.subtitle" = "Επίσημα έντυπα και φωτογραφίες που προστατεύουν την εγγύησή σου";
+"article.used-car-ppsr.title" = "Έλεγχοι για μεταχειρισμένο αυτοκίνητο (PPSR)";
+"article.used-car-ppsr.subtitle" = "Κρατικό μητρώο, μεταβίβαση και CTP πριν πληρώσεις";
+"article.contents-insurance.title" = "Ασφάλιση περιεχομένου για ενοικιαστές";
+"article.contents-insurance.subtitle" = "Πώς να συγκρίνεις μέσω του Moneysmart — εμείς δεν πουλάμε ασφάλειες";
+"article.library-council.title" = "Κάρτα βιβλιοθήκης και ο δήμος σου";
+"article.library-council.subtitle" = "Δωρεάν Wi-Fi, κάδοι και AMEP — από τις επίσημες σελίδες των δήμων";
+"article.visa-immiaccount.title" = "Αιτήσεις βίζας μέσω ImmiAccount";
+"article.visa-immiaccount.subtitle" = "Η επίσημη πύλη του Home Affairs — εμείς δεν υποβάλλουμε βίζες";
+"article.police-check-wwcc.title" = "Ποινικό μητρώο και άδεια εργασίας με παιδιά";
+"article.police-check-wwcc.subtitle" = "Μόνο μέσω AFP και των πυλών της πολιτείας — ποτέ δεν παίρνουμε τα έγγραφά σου";
+"article.centrelink-claim-start.title" = "Ξεκίνα αίτηση στο Centrelink με τον επίσημο τρόπο";
+"article.centrelink-claim-start.subtitle" = "Payment finder και myGov — δεν μπορούμε να κάνουμε αίτηση για σένα";
+
+"tip.tip-ppsr.title" = "Κάνε αναζήτηση στο PPSR πριν αγοράσεις αυτοκίνητο";
+"tip.tip-ppsr.description" = "Μόνο το ppsr.gov.au είναι το κρατικό μητρώο. Οι ιστότοποι τρίτων για έλεγχο VIN είναι προαιρετικά έξτρα.";
+"tip.tip-immi.title" = "Το ImmiAccount είναι στο online.immi.gov.au";
+"tip.tip-immi.description" = "Οι αιτήσεις βίζας γίνονται μόνο στην πύλη του Home Affairs. Αγνόησε «πράκτορες» στο WhatsApp που ζητούν σκαναρισμένο διαβατήριο.";
+
+"journey.d9.title" = "Γειτονιά και επισκέψεις σε σπίτια";
+"journey.d9.summary" = "Χρησιμοποίησε επίσημους χάρτες και τα έντυπα έκθεσης κατάστασης πριν πληρώσεις εγγύηση.";
+"journey.d11.title" = "Βιβλιοθήκη και δήμος";
+"journey.d11.summary" = "Βγάλε κάρτα βιβλιοθήκης και βρες την επίσημη σελίδα του δήμου σου.";
+"journey.d14.title" = "Εγγραφή στο Medicare";
+"journey.d14.summary" = "Αν το δικαιούσαι, κάνε εγγραφή μόνο στο servicesaustralia.gov.au / myGov.";
+"journey.d16.title" = "Φοιτητική έκπτωση";
+"journey.d16.summary" = "Κάνε αίτηση για φθηνότερα εισιτήρια στη σελίδα μεταφορών της πολιτείας σου.";
+"journey.d22.title" = "Φορολογικά χαρτιά";
+"journey.d22.summary" = "Κράτα τα εκκαθαριστικά μισθοδοσίας για το myTax στη σελίδα της ATO μετά τις 30 Ιουνίου.";
+"journey.d26.title" = "Έλεγχοι πριν αγοράσεις αυτοκίνητο";
+"journey.d26.summary" = "PPSR και σελίδες μεταβίβασης της πολιτείας πριν πληρώσεις για μεταχειρισμένο.";
+
+"checklist.checklist-pro-official.title" = "Λίστα ελέγχου για τις επίσημες σελίδες (Pro)";
+"checklist.checklist-pro-official.subtitle" = "Κάν' τα σε .gov.au — το AussieStart δεν υποβάλλει έντυπα";
+"task.task-medicare-enrol.title" = "Έλεγξε αν δικαιούσαι Medicare στη Services Australia";
+"task.task-concession.title" = "Κάνε αίτηση για φοιτητική έκπτωση στη σελίδα μεταφορών της πολιτείας";
+"task.task-tax-return.title" = "Βάλε στους σελιδοδείκτες την υποβολή στην ATO / κράτα τα εκκαθαριστικά";
+"task.task-suburb.title" = "Ξεχώρισε γειτονιές με επίσημους χάρτες";
+"task.task-inspection.title" = "Συμπλήρωσε την επίσημη έκθεση κατάστασης με φωτογραφίες";
+"task.task-ppsr.title" = "Κάνε αναζήτηση στο PPSR πριν αγοράσεις μεταχειρισμένο αυτοκίνητο";
+"task.task-library.title" = "Γράψου στην τοπική βιβλιοθήκη μέσω της σελίδας του δήμου";
+"task.task-immi.title" = "Χρησιμοποίησε μόνο ImmiAccount / VEVO στο Home Affairs";
+"task.task-wwcc.title" = "Κάνε αίτηση για ποινικό μητρώο/WWCC στις επίσημες πύλες, αν το ζητά η δουλειά";
+"task.task-centrelink-claim.title" = "Χρησιμοποίησε το Payment finder πριν θεωρήσεις ότι δικαιούσαι παροχή";
+
+"pro.reminders" = "Υπενθυμίσεις για τις Πρώτες 30 ημέρες";
+"pro.reminders_blurb" = "Προαιρετικές τοπικές ειδοποιήσεις τις εβδομάδες 1–4. Μένουν σε αυτό το iPhone. Απενεργοποίησέ τες όποτε θες.";
+"pro.benefit_reminders" = "Μοιράσου ή τύπωσε τη λίστα των Πρώτων 30 ημερών, μαζί με προαιρετικές εβδομαδιαίες υπενθυμίσεις σε αυτή τη συσκευή.";
+"journey.share" = "Μοιράσου τις Πρώτες 30 ημέρες";
+"journey.share_pro" = "Ξεκλείδωσε το Pro για να μοιραστείς τις Πρώτες 30 ημέρες";
+"journey.share_header" = "AussieStart Πρώτες 30 ημέρες — %@";
+
+"reminder.week1.title" = "Εβδομάδα 1 — SIM, τράπεζα, TFN";
+"reminder.week1.body" = "Άνοιξε το AussieStart και τσέκαρε τα βήματα της πρώτης εβδομάδας. Για τις αιτήσεις χρησιμοποίησε επίσημες σελίδες .gov.au.";
+"reminder.week2.title" = "Εβδομάδα 2 — Στέγη και υγεία";
+"reminder.week2.body" = "Επισκέψεις σε σπίτια, Medicare ή OSHC και η κάρτα βιβλιοθήκης του δήμου είναι συνηθισμένες δουλειές της δεύτερης εβδομάδας.";
+"reminder.week3.title" = "Εβδομάδα 3 — Έξτρα για δουλειά και σπουδές";
+"reminder.week3.body" = "Έλεγξε τα δικαιώματα εργασίας της βίζας σου στο VEVO και τη φοιτητική έκπτωση στη σελίδα μεταφορών της πολιτείας σου.";
+"reminder.week4.title" = "Εβδομάδα 4 — Χρήματα και χαρτιά";
+"reminder.week4.body" = "Κράτα τα εκκαθαριστικά για την ATO και χρησιμοποίησε το PPSR πριν αγοράσεις μεταχειρισμένο αυτοκίνητο.";
+
+"article.private-health-waiting.title" = "Ιδιωτική ασφάλιση υγείας και περίοδοι αναμονής";
+"article.private-health-waiting.subtitle" = "Νοσοκομειακή κάλυψη ή extras — εμείς δεν πουλάμε ασφάλειες";
+"article.ovhc-visitors.title" = "OVHC για επισκέπτες και προσωρινές βίζες";
+"article.ovhc-visitors.subtitle" = "Δεν είναι Medicare ούτε OSHC — δες την επιστολή έγκρισης της βίζας σου";
+"article.tolls-linkt.title" = "Δρόμοι με διόδια, Linkt και e-TAG";
+"article.tolls-linkt.subtitle" = "Ρύθμισέ τα πριν οδηγήσεις — ειδικά με ενοικιαζόμενο αυτοκίνητο";
+"article.car-insurance-types.title" = "CTP ή μικτή ασφάλιση αυτοκινήτου";
+"article.car-insurance-types.subtitle" = "Η κάλυψη σωματικών βλαβών δεν επισκευάζει το αυτοκίνητό σου";
+"article.ambulance-cover.title" = "Κάλυψη ασθενοφόρου ανά πολιτεία";
+"article.ambulance-cover.subtitle" = "Κάλεσε πάντα το 000 — το αν πληρώνεις τη διαδρομή εξαρτάται από το πού μένεις";
+
+"tip.tip-toll.title" = "Ρύθμισε τα διόδια πριν πάρεις ενοικιαζόμενο αυτοκίνητο";
+"tip.tip-toll.description" = "Οι απλήρωτες διαδρομές σε αυτοκινητόδρομους γίνονται επιπλέον χρεώσεις. Δες τη σελίδα διοδίων .gov.au της πολιτείας σου και μετά τον πάροχο που αναφέρεται εκεί.";
+"tip.tip-ambulance.title" = "Κάλεσε πρώτα το 000 — μετά κοίτα τη χρέωση του ασθενοφόρου";
+"tip.tip-ambulance.description" = "Η κλήση είναι δωρεάν. Το ποιος πληρώνει τη διαδρομή εξαρτάται από την πολιτεία σου. Διάβασε το healthdirect.gov.au.";
+
+"journey.d13.title" = "Κάλυψη ασθενοφόρου";
+"journey.d13.summary" = "Κάλεσε πάντα το 000. Μετά έλεγξε αν η πολιτεία σου χρεώνει τη διαδρομή.";
+"journey.d17.title" = "Ασφάλιση υγείας επισκεπτών (OVHC)";
+"journey.d17.summary" = "Αν η βίζα σου ζητά OVHC, αγόρασέ την από την επίσημη σελίδα της ασφαλιστικής — όχι μέσω WhatsApp.";
+"journey.d19.title" = "Αναμονές στην ιδιωτική ασφάλιση";
+"journey.d19.summary" = "Διάβασε τις περιόδους αναμονής στο privatehealth.gov.au πριν αγοράσεις νοσοκομειακή κάλυψη.";
+"journey.d21.title" = "Διόδια και e-TAG";
+"journey.d21.summary" = "Άνοιξε λογαριασμό διοδίων πριν οδηγήσεις ενοικιαζόμενο ή σε νέο αυτοκινητόδρομο.";
+"journey.d24.title" = "Τύποι ασφάλισης αυτοκινήτου";
+"journey.d24.summary" = "Το CTP δεν είναι μικτή ασφάλιση. Διάβασε το Moneysmart πριν οδηγήσεις δικό σου αυτοκίνητο.";
+
+"task.task-private-health.title" = "Διάβασε τις περιόδους αναμονής της ιδιωτικής ασφάλισης στο privatehealth.gov.au";
+"task.task-ovhc.title" = "Έλεγξε αν η βίζα σου απαιτεί OVHC";
+"task.task-tolls.title" = "Άνοιξε λογαριασμό διοδίων πριν οδηγήσεις ενοικιαζόμενο αυτοκίνητο";
+"task.task-car-insurance.title" = "Μάθε τη διαφορά CTP και μικτής ασφάλισης πριν οδηγήσεις";
+"task.task-ambulance.title" = "Έλεγξε τους κανόνες χρέωσης ασθενοφόρου στην πολιτεία σου";
+
+/* Language readiness */
+"common.guides_translated" = "Εφαρμογή και οδηγοί μεταφρασμένα";
+"common.guides_in_english" = "Εφαρμογή μεταφρασμένη · οδηγοί στα αγγλικά";
+
+/* Acknowledgement of Country */
+"onboarding.acknowledgement_title" = "Αναγνώριση του Τόπου (Acknowledgement of Country)";
+"onboarding.acknowledgement_body" = "Αναγνωρίζουμε τους Παραδοσιακούς Κατόχους (Traditional Owners) της γης και των υδάτων σε όλη την Αυστραλία, καθώς και τη διαρκή τους σχέση με τον Τόπο (Country), τον πολιτισμό και την κοινότητα. Αποδίδουμε τον σεβασμό μας στους Πρεσβύτερους (Elders) του παρελθόντος και του παρόντος.";
+"onboarding.acknowledgement_note" = "Οι Αβοριγίνες και οι λαοί των Νησιών του Πορθμού Torres φροντίζουν αυτή την ήπειρο πάνω από 60.000 χρόνια, μέσα από εκατοντάδες έθνη με δικές τους γλώσσες και δικούς τους νόμους. Θα ακούσεις μια τέτοια αναγνώριση στην αρχή συσκέψεων, μαθημάτων και εκδηλώσεων σε όλη την Αυστραλία. Μπορεί να την πει ο οποιοσδήποτε.";
+"onboarding.acknowledgement_learn" = "Μάθε περισσότερα στην ενότητα Ιστορία και Πολιτισμός";
+
+/* History & Culture category */
+"category.culture" = "Ιστορία και Πολιτισμός";
+
+/* New guides */
+"article.shopping-rewards.title" = "Κάρτες επιβράβευσης σούπερ μάρκετ και οικονομία στα ψώνια";
+"article.shopping-rewards.subtitle" = "Flybuys, Everyday Rewards και ο εβδομαδιαίος κύκλος των προσφορών";
+"article.first-nations-country.title" = "Οι Πρώτοι Λαοί και ο Τόπος (Country)";
+"article.first-nations-country.subtitle" = "Οι κουλτούρες των Αβοριγίνων και των λαών των Νησιών του Πορθμού Torres, και πώς δείχνεις σεβασμό";
+"article.australia-history.title" = "Τα βασικά της αυστραλιανής ιστορίας";
+"article.australia-history.subtitle" = "Ομοσπονδία, Anzac Day, μετανάστευση και πώς κυβερνιέται η χώρα";

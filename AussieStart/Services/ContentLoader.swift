@@ -95,7 +95,7 @@ final class ContentLoader {
         let name = (file as NSString).deletingPathExtension
         let ext = (file as NSString).pathExtension.isEmpty ? "md" : (file as NSString).pathExtension
         let candidates: [String]
-        if language.isMVPReady, language != .english {
+        if language.hasTranslatedGuides, language != .english {
             candidates = ["\(name).\(language.rawValue)", name]
         } else {
             candidates = [name]

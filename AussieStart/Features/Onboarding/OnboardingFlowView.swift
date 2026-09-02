@@ -2,6 +2,10 @@ import SwiftUI
 
 struct OnboardingFlowView: View {
     @Environment(UserPreferences.self) private var preferences
+    /// Welcome, language, Acknowledgement of Country, state, persona, roadmap.
+    private static let stepCount = 6
+    private static var lastStep: Int { stepCount - 1 }
+
     @State private var step = 0
     @State private var language: AppLanguage = .english
     @State private var state: AustralianState = .vic
@@ -26,8 +30,9 @@ struct OnboardingFlowView: View {
                         Group {
                             switch step {
                             case 1: languagePicker
-                            case 2: statePicker
-                            case 3: personaPicker
+                            case 2: acknowledgement
+                            case 3: statePicker
+                            case 4: personaPicker
                             default: roadmapPreview
                             }
                         }
@@ -55,6 +60,7 @@ struct OnboardingFlowView: View {
             }
         }
         .environment(\.locale, language.locale)
+        .environment(\.layoutDirection, language.isRightToLeft ? .rightToLeft : .leftToRight)
     }
 
     private var progressBar: some View {
@@ -64,7 +70,7 @@ struct OnboardingFlowView: View {
                 .overlay(alignment: .leading) {
                     Capsule()
                         .fill(AppTheme.brandGreen)
-                        .frame(width: geo.size.width * CGFloat(step + 1) / 5)
+                        .frame(width: geo.size.width * CGFloat(step + 1) / CGFloat(Self.stepCount))
                 }
         }
         .frame(height: 6)
@@ -81,9 +87,10 @@ struct OnboardingFlowView: View {
                     ForEach(AppLanguage.allCases) { lang in
                         selectableRow(
                             title: lang.displayName,
-                            subtitle: lang.isMVPReady ? t("common.available_now") : t("common.coming_soon_lang"),
-                            selected: language == lang,
-                            disabled: !lang.isMVPReady
+                            subtitle: lang.hasTranslatedGuides
+                                ? t("common.guides_translated")
+                                : t("common.guides_in_english"),
+                            selected: language == lang
                         ) {
                             withAnimation(.easeInOut(duration: 0.2)) {
                                 language = lang
@@ -93,6 +100,10 @@ struct OnboardingFlowView: View {
                 }
             }
         }
+    }
+
+    private var acknowledgement: some View {
+        AcknowledgementOfCountryView(language: language)
     }
 
     private var statePicker: some View {
@@ -173,8 +184,8 @@ struct OnboardingFlowView: View {
                     .buttonStyle(.bordered)
             }
             Spacer()
-            Button(step == 4 ? t("onboarding.start") : t("common.continue")) {
-                if step < 4 {
+            Button(step == Self.lastStep ? t("onboarding.start") : t("common.continue")) {
+                if step < Self.lastStep {
                     step += 1
                 } else {
                     preferences.completeOnboarding(language: language, state: state, persona: persona)
