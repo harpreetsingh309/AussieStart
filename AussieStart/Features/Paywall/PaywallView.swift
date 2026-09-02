@@ -34,7 +34,7 @@ struct PaywallView: View {
                     }
                 }
             }
-            .task { await store.refresh() }
+            .task { await store.refresh(surfacingErrors: false) }
         }
     }
 
@@ -99,6 +99,15 @@ struct PaywallView: View {
                 Text(error)
                     .font(.footnote)
                     .foregroundStyle(AppTheme.danger)
+                    // Without this a multi-line message can be clipped to one
+                    // line, hiding the diagnostic detail.
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            } else if store.productUnavailable && !store.isLoading {
+                Text(preferences.t("pro.checking"))
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
 

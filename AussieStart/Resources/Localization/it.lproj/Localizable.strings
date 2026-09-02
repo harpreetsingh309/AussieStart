@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "Apri le impostazioni";
 "whatsnew.rewards_title" = "Risparmiare sulla spesa settimanale";
 "whatsnew.rewards_body" = "Una nuova guida su Flybuys, Everyday Rewards e il ciclo delle offerte — da dove arrivano davvero i risparmi sulla spesa.";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "Al momento non è stato possibile caricare il prezzo di Pro. Puoi comunque toccare “Ripristina acquisti” o riprovare tra poco.";

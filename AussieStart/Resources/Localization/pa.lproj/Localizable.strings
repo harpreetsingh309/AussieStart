@@ -562,3 +562,6 @@
 "whatsnew.reminders_cta" = "ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ";
 "whatsnew.rewards_title" = "ਹਫ਼ਤੇ ਦੀ ਖ਼ਰੀਦਦਾਰੀ ਵਿੱਚ ਬੱਚਤ";
 "whatsnew.rewards_body" = "Flybuys, Everyday Rewards ਅਤੇ ਸਪੈਸ਼ਲਜ਼ ਦੇ ਹਫ਼ਤਾਵਾਰੀ ਚੱਕਰ ਬਾਰੇ ਇੱਕ ਨਵੀਂ ਗਾਈਡ — ਗਰੌਸਰੀ ’ਤੇ ਅਸਲ ਬੱਚਤ ਸੱਚਮੁੱਚ ਕਿੱਥੋਂ ਆਉਂਦੀ ਹੈ।";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "ਇਸ ਵੇਲੇ Pro ਦੀ ਕੀਮਤ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ। ਤੁਸੀਂ “ਖਰੀਦਾਂ ਬਹਾਲ ਕਰੋ” ਦਬਾ ਸਕਦੇ ਹੋ, ਜਾਂ ਥੋੜ੍ਹੀ ਦੇਰ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।";

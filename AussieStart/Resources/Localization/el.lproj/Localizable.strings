@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "Άνοιγμα ρυθμίσεων";
 "whatsnew.rewards_title" = "Οικονομία στα εβδομαδιαία ψώνια";
 "whatsnew.rewards_body" = "Ένας νέος οδηγός για το Flybuys, το Everyday Rewards και τον κύκλο των προσφορών — από πού έρχεται πραγματικά η οικονομία στα ψώνια του σούπερ μάρκετ.";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "Δεν ήταν δυνατή η φόρτωση της τιμής του Pro αυτή τη στιγμή. Μπορείς να πατήσεις «Επαναφορά αγορών» ή να δοκιμάσεις ξανά σε λίγο.";

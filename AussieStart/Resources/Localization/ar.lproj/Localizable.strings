@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "فتح الإعدادات";
 "whatsnew.rewards_title" = "توفير في تسوّق الأسبوع";
 "whatsnew.rewards_body" = "دليل جديد عن Flybuys وEveryday Rewards ودورة العروض الأسبوعية — ومن أين يأتي التوفير الحقيقي في مصاريف البقالة.";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "تعذّر تحميل سعر Pro في الوقت الحالي. لا يزال بإمكانك الضغط على «استعادة المشتريات»، أو المحاولة بعد قليل.";

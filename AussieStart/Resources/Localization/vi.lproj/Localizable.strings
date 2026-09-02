@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "Mở cài đặt";
 "whatsnew.rewards_title" = "Tiết kiệm khi đi chợ hằng tuần";
 "whatsnew.rewards_body" = "Bài hướng dẫn mới về Flybuys, Everyday Rewards và chu kỳ hàng giảm giá — nơi thật sự giúp bạn tiết kiệm tiền chợ.";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "Hiện chưa tải được giá của Pro. Bạn vẫn có thể chạm vào “Khôi phục mua hàng”, hoặc thử lại sau giây lát.";

@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "Open settings";
 "whatsnew.rewards_title" = "Saving on the weekly shop";
 "whatsnew.rewards_body" = "A new guide to Flybuys, Everyday Rewards and the specials cycle — where the real grocery savings actually come from.";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "Pro pricing could not be loaded just now. You can still tap Restore, or try again in a moment.";

@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "打开设置";
 "whatsnew.rewards_title" = "每周买菜省钱";
 "whatsnew.rewards_body" = "新增一篇指南，讲 Flybuys、Everyday Rewards 和每周特价的规律——真正能省下买菜钱的地方到底在哪里。";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "暂时无法加载 Pro 的价格。你仍可以点按“恢复购买”，或稍后再试。";

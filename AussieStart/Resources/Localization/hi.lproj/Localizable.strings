@@ -562,3 +562,6 @@
 "whatsnew.reminders_cta" = "सेटिंग्स खोलें";
 "whatsnew.rewards_title" = "हफ़्ते की ख़रीदारी में बचत";
 "whatsnew.rewards_body" = "Flybuys, Everyday Rewards और स्पेशल्स के साप्ताहिक चक्र पर एक नई गाइड — किराने के सामान में असली बचत दरअसल कहाँ से आती है।";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "अभी Pro की कीमत लोड नहीं हो सकी। आप “खरीदारी बहाल करें” दबा सकते हैं, या थोड़ी देर बाद फिर कोशिश करें।";

@@ -570,3 +570,6 @@
 "whatsnew.reminders_cta" = "सेटिङ खोल्नुहोस्";
 "whatsnew.rewards_title" = "साप्ताहिक किनमेलमा बचत";
 "whatsnew.rewards_body" = "Flybuys, Everyday Rewards र साप्ताहिक छुटको चक्रबारे नयाँ गाइड — किराना खर्चमा साँच्चिकै बचत कहाँबाट आउँछ भन्ने कुरा।";
+
+/* Paywall: quiet state when the product has not loaded */
+"pro.checking" = "अहिले Pro को मूल्य लोड हुन सकेन। तपाईं “खरिद पुनःस्थापना गर्नुहोस्” थिच्न सक्नुहुन्छ, वा केही बेरपछि फेरि प्रयास गर्नुहोस्।";
