@@ -30,6 +30,17 @@ struct RootView: View {
                 showSplash = false
                 return
             }
+            ReviewPrompt.registerLaunch()
+            TaskReminderStore.shared.pruneExpired()
+            // Top up the rolling window of daily tips on every launch.
+            if preferences.dailyTipEnabled {
+                await DailyTipScheduler.sync(
+                    enabled: true,
+                    hour: preferences.dailyTipHour,
+                    minute: preferences.dailyTipMinute,
+                    language: preferences.language
+                )
+            }
             try? await Task.sleep(for: .milliseconds(1200))
             showSplash = false
         }

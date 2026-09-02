@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "Aboriginal र Torres Strait Islander संस्कृति, र सम्मान कसरी देखाउने";
 "article.australia-history.title" = "अस्ट्रेलियाली इतिहासका आधारभूत कुरा";
 "article.australia-history.subtitle" = "Federation, Anzac Day, आप्रवासन, र देश कसरी चल्छ";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "दैनिक सुझाव";
+"settings.daily_tip_toggle" = "मलाई दिनको एउटा सुझाव पठाउनुहोस्";
+"settings.daily_tip_time" = "समय";
+"settings.daily_tip_blurb" = "हरेक दिन बसोबाससम्बन्धी एउटा छोटो सुझाव, अनियमित रूपमा छानिएको। यो यही iPhone मा मात्र तय हुन्छ — सर्भरमा केही पनि पठाइँदैन। जुनसुकै बेला बन्द गर्न सकिन्छ।";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "चेकलिस्टको जुनसुकै काममा आफ्नै रिमाइन्डर राख्नुहोस्, जसले गर्दा कुनै महत्त्वपूर्ण कुरा छुट्दैन।";
+"reminder.task_title" = "मलाई सम्झाउनुहोस्";
+"reminder.task_when" = "यति बेला सम्झाउनुहोस्";
+"reminder.task_blurb" = "यही iPhone मा एउटै सूचना। यो दोहोरिँदैन, र बजेपछि आफैँ हटिहाल्छ।";
+"reminder.task_save" = "रिमाइन्डर राख्नुहोस्";
+"reminder.task_remove" = "रिमाइन्डर हटाउनुहोस्";
+"reminder.task_denied" = "AussieStart का लागि सूचनाहरू बन्द छन्। रिमाइन्डर प्रयोग गर्न Settings एपमा ती खोल्नुहोस्।";
+"reminder.task_body" = "AussieStart खोलेर यसलाई आफ्नो चेकलिस्टमा टिक लगाउनुहोस्।";
+"reminder.task_add_a11y" = "यो कामका लागि रिमाइन्डर थप्नुहोस्";
+"reminder.task_edit_a11y" = "यो कामको रिमाइन्डर सम्पादन गर्नुहोस्";

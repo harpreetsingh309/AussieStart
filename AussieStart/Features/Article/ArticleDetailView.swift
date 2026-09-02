@@ -1,10 +1,12 @@
 import SwiftUI
 import SwiftData
+import StoreKit
 
 struct ArticleDetailView: View {
     @Environment(UserPreferences.self) private var preferences
     @Environment(StoreManager.self) private var store
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.requestReview) private var requestReview
 
     let articleID: String
 
@@ -72,6 +74,19 @@ struct ArticleDetailView: View {
                     isBookmarked = bookmarks.isBookmarked(articleID)
                     isCompleted = progress.isArticleCompleted(articleID)
                     progress.recordView(articleID: articleID)
+                }
+                .task(id: articleID) {
+                    // Only count a guide the person can actually read, and only
+                    // ask after they have spent real time in it. Never triggered
+                    // by a button — Apple does not allow that.
+                    guard unlocked else { return }
+                    guard ReviewPrompt.recordGuideRead(articleID) else { return }
+                    try? await Task.sleep(for: .seconds(12))
+                    // Re-check: the view may have been left, or another screen
+                    // may have prompted while this one was waiting.
+                    guard !Task.isCancelled, ReviewPrompt.shouldPrompt() else { return }
+                    ReviewPrompt.markPrompted()
+                    requestReview()
                 }
                 .onChange(of: store.isPro) { _, _ in
                     showPaywall = false

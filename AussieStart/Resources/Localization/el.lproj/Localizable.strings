@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "Οι κουλτούρες των Αβοριγίνων και των λαών των Νησιών του Πορθμού Torres, και πώς δείχνεις σεβασμό";
 "article.australia-history.title" = "Τα βασικά της αυστραλιανής ιστορίας";
 "article.australia-history.subtitle" = "Ομοσπονδία, Anzac Day, μετανάστευση και πώς κυβερνιέται η χώρα";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "Συμβουλή της ημέρας";
+"settings.daily_tip_toggle" = "Στείλε μου μια συμβουλή κάθε μέρα";
+"settings.daily_tip_time" = "Ώρα";
+"settings.daily_tip_blurb" = "Μία σύντομη συμβουλή εγκατάστασης κάθε μέρα, στην τύχη. Προγραμματίζεται μόνο σε αυτό το iPhone — τίποτα δεν στέλνεται σε διακομιστή. Μπορείς να το απενεργοποιήσεις όποτε θέλεις.";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "Βάλε τη δική σου υπενθύμιση σε όποια εργασία της λίστας θέλεις, για να μην σου ξεφύγει κάτι σημαντικό.";
+"reminder.task_title" = "Υπενθύμισέ μου";
+"reminder.task_when" = "Υπενθύμιση στις";
+"reminder.task_blurb" = "Μία μόνο ειδοποίηση σε αυτό το iPhone. Δεν επαναλαμβάνεται και αφαιρείται μόλις εμφανιστεί.";
+"reminder.task_save" = "Ορισμός υπενθύμισης";
+"reminder.task_remove" = "Αφαίρεση υπενθύμισης";
+"reminder.task_denied" = "Οι ειδοποιήσεις για το AussieStart είναι απενεργοποιημένες. Ενεργοποίησέ τες στην εφαρμογή Ρυθμίσεις για να χρησιμοποιείς υπενθυμίσεις.";
+"reminder.task_body" = "Άνοιξε το AussieStart για να το τσεκάρεις στη λίστα σου.";
+"reminder.task_add_a11y" = "Πρόσθεσε υπενθύμιση για αυτήν την εργασία";
+"reminder.task_edit_a11y" = "Επεξεργάσου την υπενθύμιση αυτής της εργασίας";

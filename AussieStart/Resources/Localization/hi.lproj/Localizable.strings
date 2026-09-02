@@ -527,3 +527,21 @@
 "article.first-nations-country.subtitle" = "एबोरिजिनल और टॉरेस स्ट्रेट आइलैंडर संस्कृतियाँ, और सम्मान कैसे दिखाएँ";
 "article.australia-history.title" = "ऑस्ट्रेलियाई इतिहास की बुनियादी बातें";
 "article.australia-history.subtitle" = "फेडरेशन, एंज़ैक डे, प्रवासन, और देश कैसे चलता है";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "रोज़ाना टिप";
+"settings.daily_tip_toggle" = "मुझे रोज़ एक टिप भेजें";
+"settings.daily_tip_time" = "समय";
+"settings.daily_tip_blurb" = "हर दिन एक छोटी सेटलमेंट टिप, बिना क्रम के चुनी हुई। यह सिर्फ़ इसी iPhone पर शेड्यूल होती है — सर्वर पर कुछ नहीं भेजा जाता। कभी भी बंद करें।";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "चेकलिस्ट के किसी भी काम पर अपना रिमाइंडर लगाएँ, ताकि कोई ज़रूरी बात छूटे नहीं।";
+"reminder.task_title" = "मुझे याद दिलाएँ";
+"reminder.task_when" = "इस समय याद दिलाएँ";
+"reminder.task_blurb" = "इसी iPhone पर एक ही नोटिफ़िकेशन। यह दोहराया नहीं जाता, और बजने के बाद हट जाता है।";
+"reminder.task_save" = "रिमाइंडर सेट करें";
+"reminder.task_remove" = "रिमाइंडर हटाएँ";
+"reminder.task_denied" = "AussieStart के लिए नोटिफ़िकेशन बंद हैं। रिमाइंडर इस्तेमाल करने के लिए Settings ऐप में इन्हें चालू करें।";
+"reminder.task_body" = "AussieStart खोलें और इसे अपनी चेकलिस्ट में टिक करें।";
+"reminder.task_add_a11y" = "इस काम के लिए रिमाइंडर जोड़ें";
+"reminder.task_edit_a11y" = "इस काम का रिमाइंडर बदलें";

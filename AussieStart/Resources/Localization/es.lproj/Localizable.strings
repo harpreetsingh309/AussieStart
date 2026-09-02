@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "Las culturas aborígenes y del Estrecho de Torres, y cómo mostrar respeto";
 "article.australia-history.title" = "Lo básico de la historia de Australia";
 "article.australia-history.subtitle" = "La Federación, el Anzac Day, la migración y cómo se gobierna el país";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "Consejo del día";
+"settings.daily_tip_toggle" = "Enviarme un consejo al día";
+"settings.daily_tip_time" = "Hora";
+"settings.daily_tip_blurb" = "Un consejo breve al día para instalarte, elegido al azar. Se programa solo en este iPhone: no se envía nada a ningún servidor. Puedes desactivarlo cuando quieras.";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "Pon tu propio recordatorio en cualquier tarea de la lista, para que no se te escape nada importante.";
+"reminder.task_title" = "Recordármelo";
+"reminder.task_when" = "Recordármelo a las";
+"reminder.task_blurb" = "Una sola notificación en este iPhone. No se repite y se elimina en cuanto suena.";
+"reminder.task_save" = "Poner recordatorio";
+"reminder.task_remove" = "Quitar recordatorio";
+"reminder.task_denied" = "Las notificaciones de AussieStart están desactivadas. Actívalas en la app Ajustes para usar los recordatorios.";
+"reminder.task_body" = "Abre AussieStart para marcar esto en tu lista.";
+"reminder.task_add_a11y" = "Añadir un recordatorio para esta tarea";
+"reminder.task_edit_a11y" = "Editar el recordatorio de esta tarea";

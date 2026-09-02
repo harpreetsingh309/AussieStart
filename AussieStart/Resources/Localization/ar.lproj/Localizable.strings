@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "ثقافات السكان الأصليين وسكان جزر مضيق توريس، وكيف تُظهر الاحترام";
 "article.australia-history.title" = "أساسيات التاريخ الأسترالي";
 "article.australia-history.subtitle" = "قيام الاتحاد ويوم Anzac والهجرة وكيف تُدار البلاد";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "نصيحة يومية";
+"settings.daily_tip_toggle" = "أرسل لي نصيحة كل يوم";
+"settings.daily_tip_time" = "الوقت";
+"settings.daily_tip_blurb" = "نصيحة قصيرة واحدة عن الاستقرار كل يوم، تُختار عشوائيًا. يُحدَّد موعدها على هذا الـ iPhone فقط — ولا يُرسَل أي شيء إلى أي خادم. يمكنك إيقافها في أي وقت.";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "اضبط تذكيرك الخاص على أي مهمة في قائمة المهام، حتى لا يفوتك شيء مهم.";
+"reminder.task_title" = "ذكِّرني";
+"reminder.task_when" = "ذكِّرني في";
+"reminder.task_blurb" = "إشعار واحد على هذا الـ iPhone. لا يتكرر، ويُحذف بمجرد ظهوره.";
+"reminder.task_save" = "ضبط التذكير";
+"reminder.task_remove" = "إزالة التذكير";
+"reminder.task_denied" = "الإشعارات موقوفة لتطبيق AussieStart. فعّلها من تطبيق الإعدادات لاستخدام التذكيرات.";
+"reminder.task_body" = "افتح AussieStart لتشطب هذه المهمة من قائمتك.";
+"reminder.task_add_a11y" = "إضافة تذكير لهذه المهمة";
+"reminder.task_edit_a11y" = "تعديل التذكير الخاص بهذه المهمة";

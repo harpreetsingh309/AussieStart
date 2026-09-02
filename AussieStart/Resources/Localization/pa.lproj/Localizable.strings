@@ -527,3 +527,21 @@
 "article.first-nations-country.subtitle" = "ਐਬੋਰਿਜਨਲ ਅਤੇ ਟੋਰੇਸ ਸਟ੍ਰੇਟ ਆਈਲੈਂਡਰ ਸੱਭਿਆਚਾਰ, ਅਤੇ ਸਤਿਕਾਰ ਕਿਵੇਂ ਦਿਖਾਈਏ";
 "article.australia-history.title" = "ਆਸਟ੍ਰੇਲੀਆਈ ਇਤਿਹਾਸ ਦੀਆਂ ਮੂਲ ਗੱਲਾਂ";
 "article.australia-history.subtitle" = "ਫੈਡਰੇਸ਼ਨ, ਐਂਜ਼ੈਕ ਡੇ, ਪਰਵਾਸ, ਅਤੇ ਦੇਸ਼ ਕਿਵੇਂ ਚੱਲਦਾ ਹੈ";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "ਰੋਜ਼ਾਨਾ ਟਿੱਪ";
+"settings.daily_tip_toggle" = "ਮੈਨੂੰ ਹਰ ਰੋਜ਼ ਇੱਕ ਟਿੱਪ ਭੇਜੋ";
+"settings.daily_tip_time" = "ਸਮਾਂ";
+"settings.daily_tip_blurb" = "ਹਰ ਦਿਨ ਇੱਕ ਛੋਟੀ ਸੈਟਲਮੈਂਟ ਟਿੱਪ, ਬੇਤਰਤੀਬ ਚੁਣੀ ਹੋਈ। ਇਹ ਸਿਰਫ਼ ਇਸੇ iPhone ’ਤੇ ਸ਼ਡਿਊਲ ਹੁੰਦੀ ਹੈ — ਸਰਵਰ ’ਤੇ ਕੁਝ ਨਹੀਂ ਭੇਜਿਆ ਜਾਂਦਾ। ਕਦੇ ਵੀ ਬੰਦ ਕਰੋ।";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "ਚੈੱਕਲਿਸਟ ਦੇ ਕਿਸੇ ਵੀ ਕੰਮ ’ਤੇ ਆਪਣਾ ਰਿਮਾਈਂਡਰ ਲਾਓ, ਤਾਂ ਜੋ ਕੋਈ ਜ਼ਰੂਰੀ ਗੱਲ ਨਾ ਖੁੰਝੇ।";
+"reminder.task_title" = "ਮੈਨੂੰ ਯਾਦ ਕਰਾਓ";
+"reminder.task_when" = "ਇਸ ਸਮੇਂ ਯਾਦ ਕਰਾਓ";
+"reminder.task_blurb" = "ਇਸੇ iPhone ’ਤੇ ਇੱਕੋ ਨੋਟੀਫਿਕੇਸ਼ਨ। ਇਹ ਦੁਹਰਾਇਆ ਨਹੀਂ ਜਾਂਦਾ, ਅਤੇ ਵੱਜਣ ਤੋਂ ਬਾਅਦ ਹਟ ਜਾਂਦਾ ਹੈ।";
+"reminder.task_save" = "ਰਿਮਾਈਂਡਰ ਸੈੱਟ ਕਰੋ";
+"reminder.task_remove" = "ਰਿਮਾਈਂਡਰ ਹਟਾਓ";
+"reminder.task_denied" = "AussieStart ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਬੰਦ ਹਨ। ਰਿਮਾਈਂਡਰ ਵਰਤਣ ਲਈ Settings ਐਪ ਵਿੱਚ ਇਹ ਚਾਲੂ ਕਰੋ।";
+"reminder.task_body" = "AussieStart ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਨੂੰ ਆਪਣੀ ਚੈੱਕਲਿਸਟ ਵਿੱਚ ਟਿਕ ਕਰੋ।";
+"reminder.task_add_a11y" = "ਇਸ ਕੰਮ ਲਈ ਰਿਮਾਈਂਡਰ ਜੋੜੋ";
+"reminder.task_edit_a11y" = "ਇਸ ਕੰਮ ਦਾ ਰਿਮਾਈਂਡਰ ਬਦਲੋ";

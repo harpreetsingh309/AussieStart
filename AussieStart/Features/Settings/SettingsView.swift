@@ -16,6 +16,7 @@ struct SettingsView: View {
                         }
                     }
                     .onChange(of: preferences.language) { _, language in
+                        if preferences.dailyTipEnabled { syncDailyTip() }
                         guard store.isPro, preferences.journeyRemindersEnabled else { return }
                         Task {
                             await JourneyReminderScheduler.sync(enabled: true, language: language)
@@ -46,6 +47,24 @@ struct SettingsView: View {
                     .pickerStyle(.segmented)
 
                     Text(preferences.t(preferences.appearance.hintKey))
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
+                Section(preferences.t("settings.daily_tip")) {
+                    Toggle(preferences.t("settings.daily_tip_toggle"), isOn: $preferences.dailyTipEnabled)
+                        .onChange(of: preferences.dailyTipEnabled) { _, _ in syncDailyTip() }
+
+                    if preferences.dailyTipEnabled {
+                        DatePicker(
+                            preferences.t("settings.daily_tip_time"),
+                            selection: $preferences.dailyTipTime,
+                            displayedComponents: .hourAndMinute
+                        )
+                        .onChange(of: preferences.dailyTipTime) { _, _ in syncDailyTip() }
+                    }
+
+                    Text(preferences.t("settings.daily_tip_blurb"))
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }
@@ -113,6 +132,16 @@ struct SettingsView: View {
             .sheet(isPresented: $showPaywall) {
                 PaywallView()
             }
+        }
+    }
+
+    private func syncDailyTip() {
+        let enabled = preferences.dailyTipEnabled
+        let hour = preferences.dailyTipHour
+        let minute = preferences.dailyTipMinute
+        let language = preferences.language
+        Task {
+            await DailyTipScheduler.sync(enabled: enabled, hour: hour, minute: minute, language: language)
         }
     }
 }

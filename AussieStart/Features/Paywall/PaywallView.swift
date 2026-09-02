@@ -68,6 +68,7 @@ struct PaywallView: View {
             benefit("checkmark.shield.fill", preferences.t("pro.benefit_offline"))
             benefit("person.crop.circle.badge.checkmark", preferences.t("pro.benefit_persona"))
             benefit("bell.badge.fill", preferences.t("pro.benefit_reminders"))
+            benefit("alarm.fill", preferences.t("pro.benefit_task_reminders"))
         }
     }
 

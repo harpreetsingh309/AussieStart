@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "Le culture Aborigene e delle Isole dello Stretto di Torres, e come mostrare rispetto";
 "article.australia-history.title" = "Storia australiana: le basi";
 "article.australia-history.subtitle" = "Federazione, Anzac Day, migrazione e come è governato il Paese";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "Consiglio del giorno";
+"settings.daily_tip_toggle" = "Inviami un consiglio al giorno";
+"settings.daily_tip_time" = "Ora";
+"settings.daily_tip_blurb" = "Un breve consiglio al giorno per ambientarti, scelto a caso. Viene programmato solo su questo iPhone — non viene inviato nulla a un server. Puoi disattivarlo quando vuoi.";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "Imposta un promemoria tuo su qualsiasi voce della checklist, così non ti sfugge niente di importante.";
+"reminder.task_title" = "Ricordamelo";
+"reminder.task_when" = "Ricordamelo alle";
+"reminder.task_blurb" = "Una sola notifica su questo iPhone. Non si ripete e viene rimossa dopo che è arrivata.";
+"reminder.task_save" = "Imposta promemoria";
+"reminder.task_remove" = "Rimuovi promemoria";
+"reminder.task_denied" = "Le notifiche di AussieStart sono disattivate. Attivale nell’app Impostazioni per usare i promemoria.";
+"reminder.task_body" = "Apri AussieStart per spuntare questa voce dalla tua checklist.";
+"reminder.task_add_a11y" = "Aggiungi un promemoria per questa voce";
+"reminder.task_edit_a11y" = "Modifica il promemoria di questa voce";

@@ -535,3 +535,21 @@
 "article.first-nations-country.subtitle" = "原住民與托雷斯海峽島民的文化，以及如何表達尊重";
 "article.australia-history.title" = "澳洲歷史入門";
 "article.australia-history.subtitle" = "聯邦成立、Anzac Day、移民歷史，以及國家是怎樣運作的";
+
+/* Daily tip notification (free, opt-in) */
+"settings.daily_tip" = "每日貼士";
+"settings.daily_tip_toggle" = "每日給我一條貼士";
+"settings.daily_tip_time" = "時間";
+"settings.daily_tip_blurb" = "每日一條簡短的安頓貼士，隨機挑選。只會在這部 iPhone 上安排，不會傳送到任何伺服器。隨時可以關閉。";
+
+/* Per-task reminders (Pro) */
+"pro.benefit_task_reminders" = "可以為清單上任何一項任務設定自己的提醒，重要的事就不會漏掉。";
+"reminder.task_title" = "提醒我";
+"reminder.task_when" = "提醒時間";
+"reminder.task_blurb" = "只會在這部 iPhone 上發出一次通知。不會重複，響過之後就會自動移除。";
+"reminder.task_save" = "設定提醒";
+"reminder.task_remove" = "移除提醒";
+"reminder.task_denied" = "AussieStart 的通知已關閉。請到「設定」應用程式開啟通知，才可以使用提醒功能。";
+"reminder.task_body" = "打開 AussieStart，把這項從清單上剔走。";
+"reminder.task_add_a11y" = "為這項任務新增提醒";
+"reminder.task_edit_a11y" = "修改這項任務的提醒";
