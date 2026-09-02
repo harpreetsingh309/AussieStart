@@ -553,3 +553,20 @@
 "reminder.task_body" = "افتح AussieStart لتشطب هذه المهمة من قائمتك.";
 "reminder.task_add_a11y" = "إضافة تذكير لهذه المهمة";
 "reminder.task_edit_a11y" = "تعديل التذكير الخاص بهذه المهمة";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "ما الجديد";
+"whatsnew.done" = "تم";
+"whatsnew.headline" = "أصبح AussieStart أكبر من ذي قبل";
+"whatsnew.subhead" = "أُضيفت بعض الأشياء منذ آخر مرة فتحت فيها التطبيق. ولم يتغيّر أي شيء في إعداداتك.";
+"whatsnew.languages_title" = "عشر لغات، إضافةً إلى الإنجليزية";
+"whatsnew.languages_body" = "يتحدث التطبيق الآن الماندرين والعربية والفيتنامية والكانتونية والبنجابية والإيطالية واليونانية والهندية والإسبانية والنيبالية. أما الأدلة نفسها فتبقى بالإنجليزية، باستثناء الهندية والبنجابية.";
+"whatsnew.languages_cta" = "تغيير اللغة";
+"whatsnew.culture_title" = "التاريخ والثقافة";
+"whatsnew.culture_body" = "دليلان جديدان: الشعوب الأولى في هذه القارة ومعنى ارتباطهم بالأرض والماء والسماء وما يرتبط بها من علاقات (Country)، وتاريخ أستراليا بلغة مبسّطة يغطي أيضًا مادة اختبار الجنسية.";
+"whatsnew.culture_cta" = "تصفّح المواضيع";
+"whatsnew.reminders_title" = "تذكيرات تناسب يومك";
+"whatsnew.reminders_body" = "فعّل نصيحة يومية قصيرة في الوقت الذي تختاره. ومع Pro يمكنك أيضًا ضبط تذكيرك الخاص على أي مهمة في قائمة المهام.";
+"whatsnew.reminders_cta" = "فتح الإعدادات";
+"whatsnew.rewards_title" = "توفير في تسوّق الأسبوع";
+"whatsnew.rewards_body" = "دليل جديد عن Flybuys وEveryday Rewards ودورة العروض الأسبوعية — ومن أين يأتي التوفير الحقيقي في مصاريف البقالة.";

@@ -10,6 +10,10 @@ struct OnboardingFlowView: View {
     @State private var language: AppLanguage = .english
     @State private var state: AustralianState = .vic
     @State private var persona: UserPersona = .student
+    /// Seeded once from saved preferences. Without this, replaying onboarding
+    /// silently resets an existing person's language, state and persona to the
+    /// defaults when they reach the last step.
+    @State private var didSeedFromPreferences = false
 
     private func t(_ key: String) -> String { L10n.tr(key, language: language) }
     private func t(_ key: String, _ arg: CVarArg) -> String { L10n.tr(key, language: language, arg) }
@@ -57,6 +61,15 @@ struct OnboardingFlowView: View {
         .background {
             if step == 0 {
                 Color.black.ignoresSafeArea()
+            }
+        }
+        .onAppear {
+            guard !didSeedFromPreferences else { return }
+            didSeedFromPreferences = true
+            if preferences.hasCompletedOnboarding {
+                language = preferences.language
+                state = preferences.state
+                persona = preferences.persona
             }
         }
         .environment(\.locale, language.locale)

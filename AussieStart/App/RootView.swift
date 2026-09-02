@@ -104,6 +104,8 @@ struct SplashView: View {
 struct MainTabView: View {
     @Environment(UserPreferences.self) private var preferences
     @State private var selectedTab: Int
+    @State private var showWhatsNew = false
+    @State private var whatsNewDestination: WhatsNewDestination?
 
     init(selectedTab: Int = 0) {
         _selectedTab = State(initialValue: selectedTab)
@@ -133,5 +135,24 @@ struct MainTabView: View {
         }
         .toolbarBackground(.ultraThinMaterial, for: .tabBar)
         .toolbarBackground(.visible, for: .tabBar)
+        .task {
+            guard ReleaseNotes.shouldShow(hasCompletedOnboarding: preferences.hasCompletedOnboarding) else { return }
+            // Marked seen as it appears, not on dismiss, so a force-quit
+            // cannot make it reappear on every launch.
+            ReleaseNotes.markSeen()
+            showWhatsNew = true
+        }
+        .sheet(isPresented: $showWhatsNew) {
+            WhatsNewView(destination: $whatsNewDestination)
+                .environment(preferences)
+        }
+        .onChange(of: whatsNewDestination) { _, target in
+            guard let target else { return }
+            switch target {
+            case .language, .settings: selectedTab = 4
+            case .culture: selectedTab = 2
+            }
+            whatsNewDestination = nil
+        }
     }
 }

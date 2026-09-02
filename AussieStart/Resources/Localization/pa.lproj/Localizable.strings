@@ -545,3 +545,20 @@
 "reminder.task_body" = "AussieStart ਖੋਲ੍ਹੋ ਅਤੇ ਇਸ ਨੂੰ ਆਪਣੀ ਚੈੱਕਲਿਸਟ ਵਿੱਚ ਟਿਕ ਕਰੋ।";
 "reminder.task_add_a11y" = "ਇਸ ਕੰਮ ਲਈ ਰਿਮਾਈਂਡਰ ਜੋੜੋ";
 "reminder.task_edit_a11y" = "ਇਸ ਕੰਮ ਦਾ ਰਿਮਾਈਂਡਰ ਬਦਲੋ";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "ਨਵਾਂ ਕੀ ਹੈ";
+"whatsnew.done" = "ਹੋ ਗਿਆ";
+"whatsnew.headline" = "AussieStart ਹੁਣ ਹੋਰ ਵੀ ਵੱਡਾ ਹੋ ਗਿਆ ਹੈ";
+"whatsnew.subhead" = "ਪਿਛਲੀ ਵਾਰ ਐਪ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ ਇਸ ਵਿੱਚ ਕੁਝ ਨਵੀਆਂ ਚੀਜ਼ਾਂ ਜੁੜੀਆਂ ਹਨ। ਤੁਹਾਡੀਆਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕੁਝ ਨਹੀਂ ਬਦਲਿਆ।";
+"whatsnew.languages_title" = "ਦਸ ਭਾਸ਼ਾਵਾਂ, ਅੰਗਰੇਜ਼ੀ ਤੋਂ ਇਲਾਵਾ";
+"whatsnew.languages_body" = "ਐਪ ਹੁਣ ਮੈਂਡਰਿਨ, ਅਰਬੀ, ਵੀਅਤਨਾਮੀ, ਕੈਂਟੋਨੀਜ਼, ਪੰਜਾਬੀ, ਇਤਾਲਵੀ, ਯੂਨਾਨੀ, ਹਿੰਦੀ, ਸਪੈਨਿਸ਼ ਅਤੇ ਨੇਪਾਲੀ ਵਿੱਚ ਉਪਲਬਧ ਹੈ। ਗਾਈਡਾਂ ਆਪ ਹਿੰਦੀ ਅਤੇ ਪੰਜਾਬੀ ਨੂੰ ਛੱਡ ਕੇ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹੀ ਰਹਿੰਦੀਆਂ ਹਨ।";
+"whatsnew.languages_cta" = "ਭਾਸ਼ਾ ਬਦਲੋ";
+"whatsnew.culture_title" = "ਇਤਿਹਾਸ ਅਤੇ ਸੱਭਿਆਚਾਰ";
+"whatsnew.culture_body" = "ਦੋ ਨਵੀਆਂ ਗਾਈਡਾਂ: ਇਸ ਮਹਾਂਦੀਪ ਦੀਆਂ ਪਹਿਲੀਆਂ ਕੌਮਾਂ ਦੇ ਲੋਕ ਅਤੇ ਕੰਟਰੀ ਦਾ ਕੀ ਅਰਥ ਹੈ, ਅਤੇ ਸਰਲ ਭਾਸ਼ਾ ਵਿੱਚ ਆਸਟ੍ਰੇਲੀਆ ਦਾ ਇਤਿਹਾਸ, ਜਿਸ ਵਿੱਚ ਸਿਟੀਜ਼ਨਸ਼ਿਪ ਟੈਸਟ ਦੀ ਸਮੱਗਰੀ ਵੀ ਸ਼ਾਮਲ ਹੈ।";
+"whatsnew.culture_cta" = "ਵਿਸ਼ੇ ਵੇਖੋ";
+"whatsnew.reminders_title" = "ਤੁਹਾਡੇ ਦਿਨ ਮੁਤਾਬਕ ਰਿਮਾਈਂਡਰ";
+"whatsnew.reminders_body" = "ਆਪਣੇ ਚੁਣੇ ਹੋਏ ਸਮੇਂ ’ਤੇ ਰੋਜ਼ਾਨਾ ਇੱਕ ਛੋਟੀ ਟਿੱਪ ਚਾਲੂ ਕਰੋ। Pro ਨਾਲ ਤੁਸੀਂ ਚੈੱਕਲਿਸਟ ਦੇ ਕਿਸੇ ਵੀ ਕੰਮ ’ਤੇ ਆਪਣਾ ਰਿਮਾਈਂਡਰ ਵੀ ਲਾ ਸਕਦੇ ਹੋ।";
+"whatsnew.reminders_cta" = "ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ";
+"whatsnew.rewards_title" = "ਹਫ਼ਤੇ ਦੀ ਖ਼ਰੀਦਦਾਰੀ ਵਿੱਚ ਬੱਚਤ";
+"whatsnew.rewards_body" = "Flybuys, Everyday Rewards ਅਤੇ ਸਪੈਸ਼ਲਜ਼ ਦੇ ਹਫ਼ਤਾਵਾਰੀ ਚੱਕਰ ਬਾਰੇ ਇੱਕ ਨਵੀਂ ਗਾਈਡ — ਗਰੌਸਰੀ ’ਤੇ ਅਸਲ ਬੱਚਤ ਸੱਚਮੁੱਚ ਕਿੱਥੋਂ ਆਉਂਦੀ ਹੈ।";

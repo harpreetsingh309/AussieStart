@@ -553,3 +553,20 @@
 "reminder.task_body" = "打开 AussieStart，把这项从清单里勾掉。";
 "reminder.task_add_a11y" = "为这项任务添加提醒";
 "reminder.task_edit_a11y" = "修改这项任务的提醒";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "最新变化";
+"whatsnew.done" = "完成";
+"whatsnew.headline" = "AussieStart 的内容更丰富了";
+"whatsnew.subhead" = "自你上次打开应用以来，我们新增了一些内容。你的设置没有任何改动。";
+"whatsnew.languages_title" = "十种语言，外加英文";
+"whatsnew.languages_body" = "应用现在支持普通话、阿拉伯语、越南语、粤语、旁遮普语、意大利语、希腊语、印地语、西班牙语和尼泊尔语。指南正文仍为英文，印地语和旁遮普语除外。";
+"whatsnew.languages_cta" = "更改语言";
+"whatsnew.culture_title" = "历史与文化";
+"whatsnew.culture_body" = "两篇新指南：这片大陆上的原住民与托雷斯海峡岛民，以及“这片家园”（Country，指土地、水域、天空，以及与这片地方相连的一切关系）的含义；还有一篇用大白话写的澳大利亚历史，同时涵盖入籍考试的内容。";
+"whatsnew.culture_cta" = "浏览主题";
+"whatsnew.reminders_title" = "契合你日常节奏的提醒";
+"whatsnew.reminders_body" = "可以打开每日贴士，时间由你自己定。开通 Pro 后，还可以给清单里的任何一项任务设置自己的提醒。";
+"whatsnew.reminders_cta" = "打开设置";
+"whatsnew.rewards_title" = "每周买菜省钱";
+"whatsnew.rewards_body" = "新增一篇指南，讲 Flybuys、Everyday Rewards 和每周特价的规律——真正能省下买菜钱的地方到底在哪里。";

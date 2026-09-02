@@ -11,12 +11,25 @@ import SwiftUI
 struct AcknowledgementOfCountryView: View {
     let language: AppLanguage
 
+    var body: some View {
+        ScrollView {
+            AcknowledgementOfCountryCard(language: language)
+        }
+        .scrollBounceBehavior(.basedOnSize)
+    }
+}
+
+/// The acknowledgement itself, without a scroll container, so it can be placed
+/// inside a screen that already scrolls (What's New) as well as standalone.
+struct AcknowledgementOfCountryCard: View {
+    let language: AppLanguage
+
     @State private var appear = false
 
     private func t(_ key: String) -> String { L10n.tr(key, language: language) }
 
     var body: some View {
-        ScrollView {
+        Group {
             VStack(alignment: .leading, spacing: 22) {
                 emblem
 
@@ -59,7 +72,6 @@ struct AcknowledgementOfCountryView: View {
             .opacity(appear ? 1 : 0)
             .offset(y: appear ? 0 : 14)
         }
-        .scrollBounceBehavior(.basedOnSize)
         .onAppear {
             withAnimation(.easeOut(duration: 0.45)) { appear = true }
         }

@@ -95,6 +95,9 @@ final class UserPreferences {
         self.state = state
         self.persona = persona
         hasCompletedOnboarding = true
+        // A new arrival has just seen all of this in onboarding — don't then
+        // greet them with release notes for the version they installed.
+        ReleaseNotes.markSeenForNewUser()
     }
 
     func resetOnboarding() {

@@ -553,3 +553,20 @@
 "reminder.task_body" = "Open AussieStart to tick this off your checklist.";
 "reminder.task_add_a11y" = "Add a reminder for this task";
 "reminder.task_edit_a11y" = "Edit the reminder for this task";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "What's new";
+"whatsnew.done" = "Done";
+"whatsnew.headline" = "AussieStart just got bigger";
+"whatsnew.subhead" = "A few things have been added since you last opened the app. Nothing has changed in your settings.";
+"whatsnew.languages_title" = "Ten languages, plus English";
+"whatsnew.languages_body" = "The app now speaks Mandarin, Arabic, Vietnamese, Cantonese, Punjabi, Italian, Greek, Hindi, Spanish and Nepali. The guides themselves stay in English except Hindi and Punjabi.";
+"whatsnew.languages_cta" = "Change language";
+"whatsnew.culture_title" = "History and Culture";
+"whatsnew.culture_body" = "Two new guides: the First Peoples of this continent and what Country means, and a plain-language history of Australia that also covers the citizenship test material.";
+"whatsnew.culture_cta" = "Browse topics";
+"whatsnew.reminders_title" = "Reminders that fit your day";
+"whatsnew.reminders_body" = "Turn on a short daily tip at a time you choose. With Pro you can also set your own reminder on any checklist task.";
+"whatsnew.reminders_cta" = "Open settings";
+"whatsnew.rewards_title" = "Saving on the weekly shop";
+"whatsnew.rewards_body" = "A new guide to Flybuys, Everyday Rewards and the specials cycle — where the real grocery savings actually come from.";

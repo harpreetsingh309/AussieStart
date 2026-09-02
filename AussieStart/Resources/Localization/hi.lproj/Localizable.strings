@@ -545,3 +545,20 @@
 "reminder.task_body" = "AussieStart खोलें और इसे अपनी चेकलिस्ट में टिक करें।";
 "reminder.task_add_a11y" = "इस काम के लिए रिमाइंडर जोड़ें";
 "reminder.task_edit_a11y" = "इस काम का रिमाइंडर बदलें";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "नया क्या है";
+"whatsnew.done" = "हो गया";
+"whatsnew.headline" = "AussieStart अब और भी बड़ा हो गया है";
+"whatsnew.subhead" = "पिछली बार ऐप खोलने के बाद से इसमें कुछ नई चीज़ें जुड़ी हैं। आपकी सेटिंग्स में कुछ नहीं बदला है।";
+"whatsnew.languages_title" = "दस भाषाएँ, अंग्रेज़ी के अलावा";
+"whatsnew.languages_body" = "ऐप अब मंदारिन, अरबी, वियतनामी, कैंटोनीज़, पंजाबी, इतालवी, यूनानी, हिंदी, स्पेनिश और नेपाली में उपलब्ध है। गाइड ख़ुद हिंदी और पंजाबी को छोड़कर अंग्रेज़ी में ही रहती हैं।";
+"whatsnew.languages_cta" = "भाषा बदलें";
+"whatsnew.culture_title" = "इतिहास और संस्कृति";
+"whatsnew.culture_body" = "दो नई गाइड: इस महाद्वीप के प्रथम राष्ट्र के लोग और कंट्री का क्या अर्थ है, और सरल भाषा में ऑस्ट्रेलिया का इतिहास, जिसमें सिटिज़नशिप टेस्ट की सामग्री भी शामिल है।";
+"whatsnew.culture_cta" = "विषय देखें";
+"whatsnew.reminders_title" = "आपके दिन के हिसाब से रिमाइंडर";
+"whatsnew.reminders_body" = "अपने चुने हुए समय पर रोज़ाना एक छोटी टिप चालू करें। Pro के साथ आप चेकलिस्ट के किसी भी काम पर अपना रिमाइंडर भी लगा सकते हैं।";
+"whatsnew.reminders_cta" = "सेटिंग्स खोलें";
+"whatsnew.rewards_title" = "हफ़्ते की ख़रीदारी में बचत";
+"whatsnew.rewards_body" = "Flybuys, Everyday Rewards और स्पेशल्स के साप्ताहिक चक्र पर एक नई गाइड — किराने के सामान में असली बचत दरअसल कहाँ से आती है।";

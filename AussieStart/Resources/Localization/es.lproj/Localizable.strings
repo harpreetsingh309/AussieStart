@@ -553,3 +553,20 @@
 "reminder.task_body" = "Abre AussieStart para marcar esto en tu lista.";
 "reminder.task_add_a11y" = "Añadir un recordatorio para esta tarea";
 "reminder.task_edit_a11y" = "Editar el recordatorio de esta tarea";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "Novedades";
+"whatsnew.done" = "Listo";
+"whatsnew.headline" = "AussieStart ahora es más grande";
+"whatsnew.subhead" = "Se han añadido algunas cosas desde la última vez que abriste la app. No ha cambiado nada en tus ajustes.";
+"whatsnew.languages_title" = "Diez idiomas, además del inglés";
+"whatsnew.languages_body" = "La app ya habla mandarín, árabe, vietnamita, cantonés, punyabí, italiano, griego, hindi, español y nepalí. Las guías siguen en inglés, salvo las de hindi y punyabí.";
+"whatsnew.languages_cta" = "Cambiar idioma";
+"whatsnew.culture_title" = "Historia y cultura";
+"whatsnew.culture_body" = "Dos guías nuevas: los Primeros Pueblos de este continente y qué significa el Territorio (Country), y una historia de Australia en lenguaje sencillo que también cubre el material del examen de ciudadanía.";
+"whatsnew.culture_cta" = "Ver los temas";
+"whatsnew.reminders_title" = "Recordatorios que se adaptan a tu día";
+"whatsnew.reminders_body" = "Activa un consejo breve cada día a la hora que elijas. Con Pro también puedes poner tu propio recordatorio en cualquier tarea de la lista.";
+"whatsnew.reminders_cta" = "Abrir los ajustes";
+"whatsnew.rewards_title" = "Ahorrar en la compra semanal";
+"whatsnew.rewards_body" = "Una nueva guía sobre Flybuys, Everyday Rewards y el ciclo de ofertas: de dónde salen de verdad los ahorros en el supermercado.";

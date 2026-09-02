@@ -553,3 +553,20 @@
 "reminder.task_body" = "Mở AussieStart để đánh dấu hoàn tất việc này trong danh sách.";
 "reminder.task_add_a11y" = "Thêm lời nhắc cho việc này";
 "reminder.task_edit_a11y" = "Sửa lời nhắc cho việc này";
+
+/* What's New (shown once per release to people who already onboarded) */
+"whatsnew.title" = "Có gì mới";
+"whatsnew.done" = "Xong";
+"whatsnew.headline" = "AussieStart vừa có thêm nhiều thứ";
+"whatsnew.subhead" = "Một số nội dung đã được thêm vào kể từ lần cuối bạn mở ứng dụng. Cài đặt của bạn không có gì thay đổi.";
+"whatsnew.languages_title" = "Mười ngôn ngữ, cùng với tiếng Anh";
+"whatsnew.languages_body" = "Ứng dụng nay nói được tiếng Quan Thoại, tiếng Ả Rập, tiếng Việt, tiếng Quảng Đông, tiếng Punjab, tiếng Ý, tiếng Hy Lạp, tiếng Hindi, tiếng Tây Ban Nha và tiếng Nepal. Riêng các bài hướng dẫn vẫn bằng tiếng Anh, trừ tiếng Hindi và tiếng Punjab.";
+"whatsnew.languages_cta" = "Đổi ngôn ngữ";
+"whatsnew.culture_title" = "Lịch sử và Văn hoá";
+"whatsnew.culture_body" = "Hai bài hướng dẫn mới: các Dân Tộc Đầu Tiên của lục địa này và ý nghĩa của Đất Mẹ (Country — đất, nước, bầu trời và mọi mối quan hệ gắn với một nơi chốn), cùng một bài lịch sử nước Úc viết bằng lời lẽ dễ hiểu, bao gồm cả phần kiến thức cho bài thi quốc tịch.";
+"whatsnew.culture_cta" = "Duyệt chủ đề";
+"whatsnew.reminders_title" = "Lời nhắc hợp với nhịp sống của bạn";
+"whatsnew.reminders_body" = "Bật một mẹo ngắn mỗi ngày vào giờ bạn chọn. Với Pro, bạn còn có thể đặt lời nhắc riêng cho bất kỳ việc nào trong danh sách.";
+"whatsnew.reminders_cta" = "Mở cài đặt";
+"whatsnew.rewards_title" = "Tiết kiệm khi đi chợ hằng tuần";
+"whatsnew.rewards_body" = "Bài hướng dẫn mới về Flybuys, Everyday Rewards và chu kỳ hàng giảm giá — nơi thật sự giúp bạn tiết kiệm tiền chợ.";
