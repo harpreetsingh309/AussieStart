@@ -16,23 +16,51 @@ final class StoreManager {
         Task { await refresh() }
     }
 
-    func refresh() async {
+    /// Reloads the Pro product and entitlement state.
+    /// Returns `true` only when a purchasable product came back from the App Store.
+    /// On failure `lastError` is left set so callers can surface it.
+    @discardableResult
+    func refresh() async -> Bool {
         isLoading = true
         lastError = nil
+        defer { isLoading = false }
+
         do {
             let products = try await Product.products(for: [Self.proProductID])
             product = products.first
             await updateEntitlements()
+
+            if product == nil {
+                // `Product.products(for:)` does NOT throw for an unknown or
+                // not-yet-purchasable identifier — it returns an empty array.
+                lastError = Self.unavailableMessage
+                return false
+            }
+            return true
         } catch {
-            lastError = error.localizedDescription
+            product = nil
+            lastError = "Could not reach the App Store: \(error.localizedDescription)"
+            return false
         }
-        isLoading = false
+    }
+
+    static var unavailableMessage: String {
+        var message = "AussieStart Pro isn't available from the App Store on this account yet. "
+        message += "Try again shortly, or tap Restore if you have already bought it."
+        #if DEBUG || ALLOW_STORE_DIAGNOSTICS
+        message += "\n(No product returned for \(Self.proProductID).)"
+        #endif
+        return message
     }
 
     func purchase() async {
+        // Re-check once in case the first load raced the App Store.
+        // `refresh()` sets `lastError` itself, so don't clobber it here.
+        if product == nil {
+            guard await refresh() else { return }
+        }
         guard let product else {
-            lastError = "Pro is unavailable right now. Try Restore, or try again later."
-            await refresh()
+            lastError = Self.unavailableMessage
             return
         }
 

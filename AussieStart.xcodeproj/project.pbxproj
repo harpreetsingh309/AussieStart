@@ -6,429 +6,431 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D35F22119304CD98D1D2887 /* AppStoreScreenshotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C82B43C474CDC9DE5F4B5 /* AppStoreScreenshotScene.swift */; };
-		730DF909E3A145A6ADF3D2C1 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10403CBBE59044F0A9A2EA37 /* AppTheme.swift */; };
-		D39170A58B39454CB4ABFFF8 /* AussieStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444320726D04436BF832041 /* AussieStartApp.swift */; };
-		EB424288552044C2B625BA9B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C50CEB6564F618848BC20 /* RootView.swift */; };
-		FE9736F950604B588252A206 /* DestinationPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2B283A79D4F56B65DF0C4 /* DestinationPhotoGallery.swift */; };
-		8440A9272A56421B9C1B9EB1 /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6974E3C8E4F939344BD14 /* MarkdownDocumentView.swift */; };
-		C044B751ABD144F3B5C88206 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0667595FEF614943B700340C /* SharedComponents.swift */; };
-		FDB1089F0D544652ABE57B60 /* Foundation+AussieStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89321A73B53C423D9D1968D0 /* Foundation+AussieStart.swift */; };
-		CCA176CA86D348979584EDD2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C5865BC8448DD85ACF533 /* AboutView.swift */; };
-		C1FC506D180D482299D9D746 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BCEA5F2D074F7991E3EC4B /* PrivacyPolicyView.swift */; };
-		2AEDD7A2416245659C23CA18 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2FCB8C28345FABB529704 /* ArticleDetailView.swift */; };
-		BCF7B367C4C2432E9ECE0D86 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31656DD11424A9297378871 /* BookmarksView.swift */; };
-		179FA9B0ACAC493B87BB44E9 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C276D86387744ABAA2F62DDF /* CategoriesView.swift */; };
-		7DBB69FB7FE84F39AD8A3C82 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF35890A1440AD920420D7 /* ChecklistView.swift */; };
-		118A5A8DAC47498CACB8DBAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375D813591CF4E74A59C2845 /* HomeView.swift */; };
-		14E1CF3CF64649C1992298B3 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E18D288CF8A475D88C19F23 /* JourneyView.swift */; };
-		6A15CF31393E422DB89C3413 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD5188BAE1D48AC9F0E0763 /* OnboardingFlowView.swift */; };
-		5D4E77FE241F47A6A17851EC /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0D74E3E1AD49A89B1E60A8 /* PaywallView.swift */; };
-		8B4CFC5850064B33B048529A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5A6FF1C81475D8C0F2EC0 /* SearchView.swift */; };
-		C1DB098995444073BA5AFF5F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C614ED174242EC9A492076 /* SettingsView.swift */; };
-		B2D6365499904305BBBF36FA /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4428BF93C144986BEB9B13C /* AppEnums.swift */; };
-		FFBA4844E1C54BF1918171D8 /* ContentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E174275363460281686CDF /* ContentModels.swift */; };
-		94CDB45E248E43CCB671B351 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C005B3F01B649979449CD0F /* SwiftDataModels.swift */; };
-		F7DAD62861624FC480D92A5A /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E19A067563A4DE3B64286E0 /* Repositories.swift */; };
-		1F498C05D3724AF9990DFA88 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF038E626B34FA0A26272F7 /* ContentLoader.swift */; };
-		39AA371676EA457589F96C12 /* JourneyReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23235F3C09C54DE998CBD86F /* JourneyReminderScheduler.swift */; };
-		1F9FAFAF286F4F57AE4D84B3 /* LocalSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1F655D60D4ABFABDB6EFC /* LocalSearchEngine.swift */; };
-		9D514904812849C5B57A7FCE /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B92F8879241CFBF4A4432 /* StoreManager.swift */; };
-		FC9AF73CC59B47BE9BFE628E /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D843989E3C457381883335 /* UserPreferences.swift */; };
-		F35135DED4954C2280FA8BCC /* AppCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA19337743BA45CFA4B256A2 /* AppCopy.swift */; };
-		C958406EA7FD45C7B6F5B823 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0EA6D85E74555B05A09D5 /* L10n.swift */; };
-		7B808BD77D644868885C9F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBE574395154A379D96B4C7 /* Assets.xcassets */; };
-		72E36926FFA844D39DDED42F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C7C4BAF8844144F3ADA30D24 /* PrivacyInfo.xcprivacy */; };
-		DA038654DE2147D8858FA2B8 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 03A44EF720CC4C3E81165F2D /* catalog.json */; };
-		CC3F00F9C56F44A29AAED823 /* abn-contracting.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C1AA82CB6EE4434A6FA355F /* abn-contracting.hi.md */; };
-		2F1FBF2137B24E4DAC4A7B0E /* abn-contracting.md in Resources */ = {isa = PBXBuildFile; fileRef = EBB34308611C48F2BD32CB91 /* abn-contracting.md */; };
-		F65BFB2212C9489FBA7A7887 /* abn-contracting.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 92F3C55822AA4B0F8CD91F1A /* abn-contracting.pa.md */; };
-		83B8043FD9154ACDAA5C08BF /* ambulance-cover.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 066073ED533741948CA5A813 /* ambulance-cover.hi.md */; };
-		D6AC236109004972B19ACF9A /* ambulance-cover.md in Resources */ = {isa = PBXBuildFile; fileRef = C4C543AE7A49424188D0B609 /* ambulance-cover.md */; };
-		B56E7016884A4F6795E81E11 /* ambulance-cover.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 89982629B9B34E3F94C3BFBB /* ambulance-cover.pa.md */; };
-		1245194CBF0F42709F874DEE /* arrival-airport.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 0327E954D6B7477582D93D32 /* arrival-airport.hi.md */; };
-		77AD7453BD4F4B59A8006D2F /* arrival-airport.md in Resources */ = {isa = PBXBuildFile; fileRef = 3398B834EE324C95BC3CCEE5 /* arrival-airport.md */; };
-		C3D69F01AF3F40B38782F09C /* arrival-airport.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA8B15CBE4D4CDD9694FC73 /* arrival-airport.pa.md */; };
-		9EAC0AD8D6004D05978BE054 /* banking-open-account.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = E226B3B6381E482EAA6A9940 /* banking-open-account.hi.md */; };
-		EEA6BA530798425786B195EA /* banking-open-account.md in Resources */ = {isa = PBXBuildFile; fileRef = 38AED438701B424BAEA6B135 /* banking-open-account.md */; };
-		759E911B32D5486B8636796C /* banking-open-account.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = FCDAA97018564E14B9788753 /* banking-open-account.pa.md */; };
-		E8165090A29344B4A895B392 /* car-insurance-types.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 15C04AD2677948DD8200C13B /* car-insurance-types.hi.md */; };
-		C1AE896560B94E46BDADF306 /* car-insurance-types.md in Resources */ = {isa = PBXBuildFile; fileRef = C998B6A7B0A94A4CA0CD8593 /* car-insurance-types.md */; };
-		AC2E750A7A0F459AAC1CE940 /* car-insurance-types.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 851612A9B05F4E05AE2D6327 /* car-insurance-types.pa.md */; };
-		A85D9221B8D64405920C09F7 /* centrelink-claim-start.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = CD498CD7F67341059DB527EF /* centrelink-claim-start.hi.md */; };
-		4957D77FC5904F42901316F4 /* centrelink-claim-start.md in Resources */ = {isa = PBXBuildFile; fileRef = 33C961E020FC4A369AA54A70 /* centrelink-claim-start.md */; };
-		C5610FCD4067477CA0742CAD /* centrelink-claim-start.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DF38AA63938440C0B46A8018 /* centrelink-claim-start.pa.md */; };
-		206CE6C7FE1942209BE30658 /* choose-suburb.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E389ACAF0184EA0A292D1C9 /* choose-suburb.hi.md */; };
-		051D973DDBFA4188BCE4916B /* choose-suburb.md in Resources */ = {isa = PBXBuildFile; fileRef = 19D91228546B49959DB5C310 /* choose-suburb.md */; };
-		FB0000DE23654A1AA23E98A9 /* choose-suburb.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 780966E97F404305B1423B6C /* choose-suburb.pa.md */; };
-		59713A864F7A42BAB73E1B63 /* contents-insurance.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 2642AB112F7A4F97978E8B00 /* contents-insurance.hi.md */; };
-		2637596082444DC18BE922A4 /* contents-insurance.md in Resources */ = {isa = PBXBuildFile; fileRef = 14B0C94D9BF64AD5A592BEB4 /* contents-insurance.md */; };
-		015F77FFD1074E669D042474 /* contents-insurance.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B35397B21D674E88B8EB62AD /* contents-insurance.pa.md */; };
-		B1A162F388A04FDC8C00048F /* driving-licence.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A1A15FC97D85439AB96CAC6D /* driving-licence.hi.md */; };
-		44909EA22D1C4BABB791A37C /* driving-licence.md in Resources */ = {isa = PBXBuildFile; fileRef = 94FF804C836E4109B2529027 /* driving-licence.md */; };
-		DCDFD3CF55FE440AB4FD0B12 /* driving-licence.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 69B7E923A35D431AB4F190DD /* driving-licence.pa.md */; };
-		65DADF9628EA4165840218C8 /* emergency-contacts.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = ED8F21B99DC0435D81932EC4 /* emergency-contacts.hi.md */; };
-		D2675032AE1943C880DCAF70 /* emergency-contacts.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CB96875A0044CB9838F8F6C /* emergency-contacts.md */; };
-		73288397D28C4579A2201B76 /* emergency-contacts.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B8A70B36A20144ADB69D20A8 /* emergency-contacts.pa.md */; };
-		91F97EBDA33C45B0A31FF07E /* explore-barossa-adelaide.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = B83EE16C5622499E87D83CF3 /* explore-barossa-adelaide.hi.md */; };
-		36F93AB4C66641C88C01FA8C /* explore-barossa-adelaide.md in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B9D2D2CE24B30A9433CD5 /* explore-barossa-adelaide.md */; };
-		3CA5C80D336045BDAC5458C5 /* explore-barossa-adelaide.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = E8E77FD1E68648E693A49520 /* explore-barossa-adelaide.pa.md */; };
-		C72E307A864C4B7E8255F843 /* explore-blue-mountains.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E937A1A554A5AA2D2E1AE /* explore-blue-mountains.hi.md */; };
-		F59AA4BD91D94112ACDE83FD /* explore-blue-mountains.md in Resources */ = {isa = PBXBuildFile; fileRef = 514D1C9B37A64CA79B8FF980 /* explore-blue-mountains.md */; };
-		E9622960AC284C5DAF41FF06 /* explore-blue-mountains.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D653D0D422E4513860C409E /* explore-blue-mountains.pa.md */; };
-		6684B3879C954D3E96952562 /* explore-gold-coast.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 04A5BEEDF6E34E4C9C9FD1E5 /* explore-gold-coast.hi.md */; };
-		9BEFD7DC54564EB0AA29201B /* explore-gold-coast.md in Resources */ = {isa = PBXBuildFile; fileRef = B7C5B19D1C28486994DC1FB7 /* explore-gold-coast.md */; };
-		9629E5354ACE4C7B9F6679E3 /* explore-gold-coast.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 07BE7D3FB476476FB1477C59 /* explore-gold-coast.pa.md */; };
-		02B9DCD38BA046088DACB584 /* explore-great-barrier-reef.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 121B8579C24C4AA8B80000E7 /* explore-great-barrier-reef.hi.md */; };
-		BC05E44F7B2447D9AC9C89A7 /* explore-great-barrier-reef.md in Resources */ = {isa = PBXBuildFile; fileRef = 0A29F5DA21BC40628301A554 /* explore-great-barrier-reef.md */; };
-		28694627D49F48CB8AC54322 /* explore-great-barrier-reef.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B8AB69805376424E85064C7F /* explore-great-barrier-reef.pa.md */; };
-		362E1D8FC3904EF19A8079F1 /* explore-great-ocean-road.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 57C6DAC8175E47868561038E /* explore-great-ocean-road.hi.md */; };
-		B6DA732B58A141C083358475 /* explore-great-ocean-road.md in Resources */ = {isa = PBXBuildFile; fileRef = F886CAA4390145D888635A1C /* explore-great-ocean-road.md */; };
-		0404B70B0A304E75BF83E062 /* explore-great-ocean-road.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 097686D1C13448FB801A08DC /* explore-great-ocean-road.pa.md */; };
-		EEF1F77B676F44998C9A6EC6 /* explore-phillip-island.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A701938D8B4E4DE68E455912 /* explore-phillip-island.hi.md */; };
-		B81A6287052A4C598FA2A70F /* explore-phillip-island.md in Resources */ = {isa = PBXBuildFile; fileRef = 36809A4D5B4D449EA48D5185 /* explore-phillip-island.md */; };
-		94581EF2C07A40448D34C306 /* explore-phillip-island.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = D4775CBF1A934D1A8A2EF509 /* explore-phillip-island.pa.md */; };
-		67ECA3E5A6264B56ACEC48B4 /* explore-rottnest.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 86020479E0504466AC7A65E2 /* explore-rottnest.hi.md */; };
-		273C3805039E4E6DB0E9F286 /* explore-rottnest.md in Resources */ = {isa = PBXBuildFile; fileRef = B22223582B4E4E558095C5A8 /* explore-rottnest.md */; };
-		270F712298704D07A797E66A /* explore-rottnest.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CAAAD9ECBC92453295952D51 /* explore-rottnest.pa.md */; };
-		A18185B239B643FABAE35CD5 /* explore-sydney-harbour.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = F9B5D1BFED1644E2927BC5A3 /* explore-sydney-harbour.hi.md */; };
-		80D68206D358434C8B1D564A /* explore-sydney-harbour.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AB24C7A0F4443B383BB2E99 /* explore-sydney-harbour.md */; };
-		24A22C2A08B843858AA7846F /* explore-sydney-harbour.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F67BC968F3284E14943E8086 /* explore-sydney-harbour.pa.md */; };
-		41DC0D6D362740C9A914C13B /* explore-tasmania-hobart.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D6E7B514D2944ECAEA15E7C /* explore-tasmania-hobart.hi.md */; };
-		F836F99FD6384692B7000E11 /* explore-tasmania-hobart.md in Resources */ = {isa = PBXBuildFile; fileRef = 26FD950678054F3FA03E907A /* explore-tasmania-hobart.md */; };
-		48C06FE63F1D40A4AA61718E /* explore-tasmania-hobart.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F4D82A661A1B4A9ABA60F27D /* explore-tasmania-hobart.pa.md */; };
-		4DD43A5609214D2A9C94765F /* explore-uluru.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = D14F8E1A0A134160869C49E9 /* explore-uluru.hi.md */; };
-		E1FFC61E31CC4BED9E702546 /* explore-uluru.md in Resources */ = {isa = PBXBuildFile; fileRef = F8BE0BECC4CA4888B9BDDBE4 /* explore-uluru.md */; };
-		2801278B51D044B0A29A3890 /* explore-uluru.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = D9D1EE2521AD40DE8A7E817A /* explore-uluru.pa.md */; };
-		FBA9CC7F7AE346018DB54744 /* family-centrelink.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = F1FDF5A6D77343CEA646378E /* family-centrelink.hi.md */; };
-		42BFBB0EC6854F7797933726 /* family-centrelink.md in Resources */ = {isa = PBXBuildFile; fileRef = FEF0A3CB15474F1597B71554 /* family-centrelink.md */; };
-		FEC8CFA3E8A94BA78463D449 /* family-centrelink.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F8B162F3B48D436A8D5D1A34 /* family-centrelink.pa.md */; };
-		BE5C2F256051493DAE19556F /* family-childcare.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 6748F80112E648AC9E14BCE4 /* family-childcare.hi.md */; };
-		29801C8F66004652BB4CAB56 /* family-childcare.md in Resources */ = {isa = PBXBuildFile; fileRef = E36B595EC3624FE2ADD5DDA1 /* family-childcare.md */; };
-		70F8DFF112054A97A9920B4C /* family-childcare.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 1E27F6D26FEC46668EE43E57 /* family-childcare.pa.md */; };
-		C2FD37D311AE47B8A4CB947A /* family-immunisation.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 88B4ED240D514EBE9DEBAF0A /* family-immunisation.hi.md */; };
-		3257BAE7B9BC4BF58A38A41C /* family-immunisation.md in Resources */ = {isa = PBXBuildFile; fileRef = 121536F2383D49ADBA0761B4 /* family-immunisation.md */; };
-		62938BFFED0144299A74922C /* family-immunisation.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = ADD24520E1F74EBB82439BE4 /* family-immunisation.pa.md */; };
-		95D6DC791E4240BBB2ECA554 /* family-schools.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = EE12AB33D799455ABD511E9A /* family-schools.hi.md */; };
-		5966EDEE71B44A7E9510EFD9 /* family-schools.md in Resources */ = {isa = PBXBuildFile; fileRef = B5487B6D707845B7A0C66AAD /* family-schools.md */; };
-		607E0E155F9049B28CF83107 /* family-schools.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = C4797F1D603A46A593F3DBF2 /* family-schools.pa.md */; };
-		1F4096BE288A4FA980CD4EF4 /* first-month-budget.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 108B1858587D4653B8DF8C6A /* first-month-budget.hi.md */; };
-		C87FEBACE2AD418C97B9A495 /* first-month-budget.md in Resources */ = {isa = PBXBuildFile; fileRef = 093E7BFBAE2945CD9FD1DA83 /* first-month-budget.md */; };
-		52CEA2E0FAA3454E864AD943 /* first-month-budget.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 490EC5FEE3BE40EA9D07B963 /* first-month-budget.pa.md */; };
-		CA5A9DF873A24C99B584CD08 /* housing-rent.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD647346E74F1CAF6A453D /* housing-rent.hi.md */; };
-		E17301439EDD4950A7BBA28F /* housing-rent.md in Resources */ = {isa = PBXBuildFile; fileRef = BAFF0E2A8B504F4389B777B2 /* housing-rent.md */; };
-		1D572DD2DFF94B798553365D /* housing-rent.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = D21CF8184CA44197A4846269 /* housing-rent.pa.md */; };
-		7BE494861CDB489BBDA8B5CC /* inspection-condition-report.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = B38BE15DFCEA4346B27F4D9B /* inspection-condition-report.hi.md */; };
-		3EA7A6EC8D7D42468C3895B5 /* inspection-condition-report.md in Resources */ = {isa = PBXBuildFile; fileRef = 25B227CDBF2843FBAC0C38BF /* inspection-condition-report.md */; };
-		F46367E7E9E64B248A1D3185 /* inspection-condition-report.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 99DA3AF8A0FA446CA89BDAFD /* inspection-condition-report.pa.md */; };
-		110C70DA779844DB9BACA4F5 /* jobs-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 450F75E486314BFD81C8B18E /* jobs-basics.hi.md */; };
-		6D3548993BBE48F0BD993D5E /* jobs-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = E9AEAF14DDBD449AA226815B /* jobs-basics.md */; };
-		14F25A9FA07E4EC6953BDAE9 /* jobs-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B54DED89DFE04863BEC2E781 /* jobs-basics.pa.md */; };
-		49F5BCBC59CC4122A7954663 /* library-council.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F2B6F1E03594F16953A6CCC /* library-council.hi.md */; };
-		11D94B31FA6045868D052AE4 /* library-council.md in Resources */ = {isa = PBXBuildFile; fileRef = 05C91E7E388F48B396E7B1A5 /* library-council.md */; };
-		29D4D67CC9E44217B28E4E25 /* library-council.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 840FA8F3B281475D85358A1D /* library-council.pa.md */; };
-		A60E75C7FA044C05ACCD2A57 /* medicare-enrol.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 502B41F6EA6E4E73955D32C7 /* medicare-enrol.hi.md */; };
-		6D5962A5882443A481D8D4E2 /* medicare-enrol.md in Resources */ = {isa = PBXBuildFile; fileRef = 78C5B505EDA2401D984D420C /* medicare-enrol.md */; };
-		1F586806FC4142688CEB8D74 /* medicare-enrol.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = AACB8F0BC94C466388405FF1 /* medicare-enrol.pa.md */; };
-		D2563027C7DA4538AB564CE0 /* medicare-gp.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 45F9B5D447C04336B1293434 /* medicare-gp.hi.md */; };
-		E8E4DDF4B6834139902C8AAF /* medicare-gp.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC73B6A24F68B2CABD2F /* medicare-gp.md */; };
-		8F49D233D948458CB3278B7D /* medicare-gp.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E0BFC8A5FB544C5972F0950 /* medicare-gp.pa.md */; };
-		44AC651358664509AC86868B /* mygov-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FDFABB7A515E44788BA908B9 /* mygov-basics.hi.md */; };
-		9F49E48B38124707941C713A /* mygov-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 6506272FEDD64B74B43E58D0 /* mygov-basics.md */; };
-		D30949A33C85427DA49665D3 /* mygov-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 490F66A8720B467EB7AC73F4 /* mygov-basics.pa.md */; };
-		35C9A6C3D5854F289D55E96E /* ovhc-visitors.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = AAE09DE9E1F440D98C001D0B /* ovhc-visitors.hi.md */; };
-		5EC7E246C0314FBA952AD653 /* ovhc-visitors.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D0E6648B31A43DB9CF070B5 /* ovhc-visitors.md */; };
-		E7D1058AFF114EB6AF28F6BA /* ovhc-visitors.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D06AD3745B048EE9E5A034B /* ovhc-visitors.pa.md */; };
-		DC32F77906FE47F2BD875216 /* police-check-wwcc.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 7749B867AB6B4C5FAE94CCC6 /* police-check-wwcc.hi.md */; };
-		652ED7D401D84EDBAAA4FEA4 /* police-check-wwcc.md in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF5786A72643E1B30AD5EF /* police-check-wwcc.md */; };
-		52F595C7459E493D85D0A321 /* police-check-wwcc.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 96E24F93EA094F6B842D372E /* police-check-wwcc.pa.md */; };
-		4480657773EB494F990D4718 /* private-health-waiting.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A3A8C245FB84A908097AA9B /* private-health-waiting.hi.md */; };
-		071C727383674B9EA313FD34 /* private-health-waiting.md in Resources */ = {isa = PBXBuildFile; fileRef = 5DE4F6C6F2534973B296AFA8 /* private-health-waiting.md */; };
-		A0839CB9209141D6AA7B1A78 /* private-health-waiting.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3980D940C4D0487ABD5650D9 /* private-health-waiting.pa.md */; };
-		2F53EAFA120C45D0841CDA71 /* rental-bond.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2BA6480B34CDABFAA2C48 /* rental-bond.hi.md */; };
-		380ED49CC19D480E96D53EB3 /* rental-bond.md in Resources */ = {isa = PBXBuildFile; fileRef = EF9DADE7A545488E8F42F058 /* rental-bond.md */; };
-		4A1045F034F549C9B7A6B087 /* rental-bond.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4153F3D14A2F4F18BCB2F01D /* rental-bond.pa.md */; };
-		830DC10EC84B4DEF8FC7F733 /* scams-safety.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 660A0CFD729A42CDA641AE66 /* scams-safety.hi.md */; };
-		C9BB05942E344A78B2117575 /* scams-safety.md in Resources */ = {isa = PBXBuildFile; fileRef = 59280B7415E549DDB563DDF0 /* scams-safety.md */; };
-		D7706C89682D4BEF932A1F60 /* scams-safety.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8BBB5D2BA52440A98D5AC8AC /* scams-safety.pa.md */; };
-		C39C870C6A8E486896BDF382 /* shopping-essentials.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 441856F965894FA08420B4D5 /* shopping-essentials.hi.md */; };
-		5CA2E709ED204C52A59E9560 /* shopping-essentials.md in Resources */ = {isa = PBXBuildFile; fileRef = 02C3C167E3904C9BAD4B5FEB /* shopping-essentials.md */; };
-		175FA4EBA8504AD8B7A1687B /* shopping-essentials.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = EA2030BEAFC74802820759AD /* shopping-essentials.pa.md */; };
-		A0FB4F4262BA48619C23EC7F /* sim-setup.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D58A115BDBB404BB4D2EE64 /* sim-setup.hi.md */; };
-		520483C971574F678C60453B /* sim-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = 46BFB73889B341BC943E70FE /* sim-setup.md */; };
-		D5F8A707BA5F4D54A25F24B6 /* sim-setup.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 163C9C6E31F94ECAA8DED362 /* sim-setup.pa.md */; };
-		680C2589E47E4EA28801C1AC /* student-concession.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 438D675AB525449BAFDDE82E /* student-concession.hi.md */; };
-		9580065695AD45BBA77ADF17 /* student-concession.md in Resources */ = {isa = PBXBuildFile; fileRef = 7DFC43501DCE42CE93D8CC4B /* student-concession.md */; };
-		47B64AA810144A08889DAE6D /* student-concession.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = A5AF81CFF2424CCCA3185269 /* student-concession.pa.md */; };
-		D8ACBE4BEF7A4FD99D8E625D /* students-oshc.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 23FD80E9D973441DB9C0CE49 /* students-oshc.hi.md */; };
-		136DE8C555F84A8489FD7FAB /* students-oshc.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA6452CC8C41508EC092D7 /* students-oshc.md */; };
-		61AA429B0E92447A8396A889 /* students-oshc.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = ED10DB5475B24A35ADC7B290 /* students-oshc.pa.md */; };
-		9D83642C979A462E883D3C53 /* super-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 72B01FFCC7AE4CF19EFF3877 /* super-basics.hi.md */; };
-		C78C6BFE771D4770A4D6BDAC /* super-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 533112171E70474DB446CC11 /* super-basics.md */; };
-		C131690139E046C9A9097C0E /* super-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 06E381C327D34F2CBBC35504 /* super-basics.pa.md */; };
-		ADFA34AA90304E3489FB8A0E /* tax-return-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 20121B27CEDA4471820D71BB /* tax-return-basics.hi.md */; };
-		527A82E08ABD4FE69BE111B5 /* tax-return-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = D1868480C7294D93A3897C60 /* tax-return-basics.md */; };
-		4228CAD4924549B1AC746D8F /* tax-return-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CDEEE396014842F0876BB2A4 /* tax-return-basics.pa.md */; };
-		6E6D7AA571654C0995A57EAA /* tfn-apply.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 22EB4AE0893C4E46BBC373B5 /* tfn-apply.hi.md */; };
-		CB305A7EFB9B4BDA9AE78D4D /* tfn-apply.md in Resources */ = {isa = PBXBuildFile; fileRef = B30F4386320C4E2898B1795F /* tfn-apply.md */; };
-		1928B956E5154E3AA1B4AF7B /* tfn-apply.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4920B66F530041EDB902027F /* tfn-apply.pa.md */; };
-		358ED2F5717744098994E2E2 /* tolls-linkt.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 731B4624FAC6404F85FFF1BD /* tolls-linkt.hi.md */; };
-		83C13D9588EF40CD87B79280 /* tolls-linkt.md in Resources */ = {isa = PBXBuildFile; fileRef = 04D9547BB5C74CD88F42CD61 /* tolls-linkt.md */; };
-		37416571C44F4A1DB738064B /* tolls-linkt.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8BFF295D1ABD41BF85D7A34C /* tolls-linkt.pa.md */; };
-		40B5D63452344D83B6663B0D /* transport-card.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 4ADB228887FE4B2C8F49EB1F /* transport-card.hi.md */; };
-		AE93BA2B0E0D4501A9752EC1 /* transport-card.md in Resources */ = {isa = PBXBuildFile; fileRef = F8EFF97D882D47AFB7706A46 /* transport-card.md */; };
-		19EB982D3FA0424EB63F4D38 /* transport-card.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DAA39E9E58E34DE0AE23258D /* transport-card.pa.md */; };
-		5F2A7B1D6D234B388ADD0AD5 /* used-car-ppsr.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = F3B7C4EB01F34E9190828F90 /* used-car-ppsr.hi.md */; };
-		6E76525DA6104971B8236F64 /* used-car-ppsr.md in Resources */ = {isa = PBXBuildFile; fileRef = 69116C4E6DB74EB983E5DD45 /* used-car-ppsr.md */; };
-		5B78FB8DD32C451DA58F6C6B /* used-car-ppsr.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = C6E21FDF625743EE86932CAA /* used-car-ppsr.pa.md */; };
-		E5637FC6B0BE482690170849 /* utilities-connect.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 087E955C95434FE7B0C7469B /* utilities-connect.hi.md */; };
-		B9A5BD24D75A4E82A3639AA8 /* utilities-connect.md in Resources */ = {isa = PBXBuildFile; fileRef = F2B0C90B8FC54950B79C241C /* utilities-connect.md */; };
-		07A3582E017A4E9180BAB0EF /* utilities-connect.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 68952604C61244339A08CBF2 /* utilities-connect.pa.md */; };
-		A45227A550B54A6B8526BA24 /* visa-immiaccount.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 329DCE50456941E49FDA98E3 /* visa-immiaccount.hi.md */; };
-		7F1B9EF5B6484F71BB2C9974 /* visa-immiaccount.md in Resources */ = {isa = PBXBuildFile; fileRef = B0E7872B52E94757A36F990A /* visa-immiaccount.md */; };
-		5C12D5789E7D4544BC2A40CD /* visa-immiaccount.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3899CEC97A3E4FE4933989C7 /* visa-immiaccount.pa.md */; };
-		8B98A7E1A39840DBA86C26B1 /* visa-work-rights.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 03C2F7C46C8345EA879609FB /* visa-work-rights.hi.md */; };
-		D468094F961E43E69ED0D7C9 /* visa-work-rights.md in Resources */ = {isa = PBXBuildFile; fileRef = E67B0CC5D8AE47C8A897CF9E /* visa-work-rights.md */; };
-		EF42C64C2112424D834FB0FC /* visa-work-rights.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 15EB3663F47A489189AEA3D9 /* visa-work-rights.pa.md */; };
-		B021F6398A934F6EA4F36B47 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2244CFE6270146009898D1DF /* Localizable.strings */; };
-		6AD79889FA5F41FFB4F349D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24D9360CD6294C11A97401CE /* Localizable.strings */; };
-		1DEC416DE18C4E559327873C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762775E6A56A448D9954D071 /* Localizable.strings */; };
-		1D69951403DF4857B532AE37 /* StoreKitIAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC881CB2B5F4F908592934D /* StoreKitIAPTests.swift */; };
-		2360320F7A804A619F6F342F /* AppStoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BC8F63D054C9B8372AD56 /* AppStoreScreenshotTests.swift */; };
-		84AD19F5A4A4447C8245E0C8 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B0C72DDCCF9047229EA101C8 /* Products.storekit */; };
-		B3A66A4E84224A5A88D78DE5 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B0C72DDCCF9047229EA101C8 /* Products.storekit */; };
+		79391ED44F2A4A7FA95D75B0 /* AppStoreScreenshotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A15D582B3BD43FC8B64D232 /* AppStoreScreenshotScene.swift */; };
+		46CC6E1B96424D3EB9D007FE /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962BA395B0C4FDAB4C4F88B /* AppTheme.swift */; };
+		CB077E18CA6E418EB4EEA577 /* AussieStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07C5DFA4C945BDA31091E4 /* AussieStartApp.swift */; };
+		4221693A45CA46C3B5883849 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB2FD619F44DD7BD38F787 /* RootView.swift */; };
+		F5F9AA0045E641FA975A4CEF /* DestinationPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49629A58D490405FAA3D4B50 /* DestinationPhotoGallery.swift */; };
+		FE5F6745CB694006BDFC6018 /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F11FFB8B54CB6813DAED5 /* MarkdownDocumentView.swift */; };
+		6294023ADB2C4E61BED81EDF /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65D38F1FEE4116AFB2566C /* SharedComponents.swift */; };
+		ECD2BEA500784DC28F78AE91 /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D88247E1B40538828DBD1 /* WelcomeScreenView.swift */; };
+		6EE70EED6FDA4A80BCD35FF7 /* Foundation+AussieStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE057A0A9D544F780B8084C /* Foundation+AussieStart.swift */; };
+		EEF4F084F78E491B9A1F0C72 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C32B88336D14BF3855F96E7 /* AboutView.swift */; };
+		53798DD7F4E94DD78F6815CA /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366EB4E62C8458D98C93B51 /* PrivacyPolicyView.swift */; };
+		0FEEBC4A1D4B45A8A385F46A /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3FAA8A3E18430AA258AA41 /* ArticleDetailView.swift */; };
+		6162DE0E7ABB4A178EDA0824 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE64E1E56D40D49EC442A1 /* BookmarksView.swift */; };
+		DDD052FA8D42453890AC7D8E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60A7B3F943B454D94571908 /* CategoriesView.swift */; };
+		8695F6A6AA7A493BBB0D0F4B /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857AEE45BE924D289F7F39EF /* ChecklistView.swift */; };
+		B1847D260F6849B38BE32B35 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3466BFEA0B49B8BAED63D9 /* HomeView.swift */; };
+		608E5F793C22413B98349C93 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BECDDBCCFE4AD9A56571F5 /* JourneyView.swift */; };
+		02418BBB9D5B414383517018 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0426AE74114EA988EA8880 /* OnboardingFlowView.swift */; };
+		71C5BE00C4D940698CC3E96C /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB58CB59154E50A09C5DCE /* PaywallView.swift */; };
+		87B185E075284F9CBEC2B1B7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B135258937CF47B29C7BB681 /* SearchView.swift */; };
+		5724331CA4F1468C9B3C5347 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9796BC62C4D7FA8B654A4 /* SettingsView.swift */; };
+		CBE479BBF1CC4A7380BD6959 /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1EAAFE4A5C4F85B1BE076F /* AppEnums.swift */; };
+		6EC469175DB545F6B23E5A0E /* ContentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17868396A124B2582F269D5 /* ContentModels.swift */; };
+		F4C17230F77B4B1688B3529D /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6892D5673724A048E831114 /* SwiftDataModels.swift */; };
+		47E8CC1F400E44D1B434C713 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A76D5E85C97433C9F63D72E /* Repositories.swift */; };
+		9444E2AA64104F40BD129C13 /* ContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA54E7830D0443D9FAE45DE /* ContentLoader.swift */; };
+		6C59A0F19A964E0B9646FBCF /* JourneyReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1B5BBB9DF42AFBF4B4166 /* JourneyReminderScheduler.swift */; };
+		C3AF753AD18A4719943827CF /* LocalSearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BF4B9D0CA4B23A3B39E8A /* LocalSearchEngine.swift */; };
+		2DBDB2E5C4F2432FA3553599 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5A2203FA2A44C0863A9055 /* StoreManager.swift */; };
+		355DB785052D4938B2BBEC8A /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F398657D848A0A2F1615E /* UserPreferences.swift */; };
+		6E2D369A6CDE4D52A27A9F39 /* AppCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13600653E7492CB53D59A1 /* AppCopy.swift */; };
+		4A7E72F00F8148F7BA9A0333 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD64F0E42D644FABF46387F /* L10n.swift */; };
+		F81E57F7389B4CCC8763C8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474F8399140439C9118BCB6 /* Assets.xcassets */; };
+		32F818E8D1D14D88BE97DDE2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 437FFA0AB1FC4CF08FCE9398 /* PrivacyInfo.xcprivacy */; };
+		B14EAF4FB9A84743920C4021 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = A17FD79AFA874E12A7FE80A9 /* catalog.json */; };
+		AE7F6990216C45AFAA7BFEE2 /* abn-contracting.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F69434BB682430E9930326D /* abn-contracting.hi.md */; };
+		BD54F53AFA5B426196B49AC4 /* abn-contracting.md in Resources */ = {isa = PBXBuildFile; fileRef = 4570FDCE360C4DCAA59853AC /* abn-contracting.md */; };
+		1CCD5F60313A4B22A817AAF8 /* abn-contracting.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F37F7B1F96EA4606A0D8BA4D /* abn-contracting.pa.md */; };
+		6C2D90B0619D4445A4F6E2C4 /* ambulance-cover.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C1C28A63ABA74E509823AD91 /* ambulance-cover.hi.md */; };
+		E89BCA038AB34022B028A4A2 /* ambulance-cover.md in Resources */ = {isa = PBXBuildFile; fileRef = 13CDCA00887B4CAA9C267A12 /* ambulance-cover.md */; };
+		8D969D12A77B490AA92F3C22 /* ambulance-cover.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 7783A5C3D8684FDABE82C948 /* ambulance-cover.pa.md */; };
+		2CC33D556D434C9D87884B22 /* arrival-airport.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 24C73F9CCE0F4A438CF50909 /* arrival-airport.hi.md */; };
+		78C584DF42914E66A589AD99 /* arrival-airport.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E6F0E1FBDE948C99731714E /* arrival-airport.md */; };
+		3E7BC0EE363A4475A2CE2D9F /* arrival-airport.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = BDB45B09EF3B452C9C248208 /* arrival-airport.pa.md */; };
+		7E293F3E96324367A9773C35 /* banking-open-account.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 228B0DA56A764DC28668C36A /* banking-open-account.hi.md */; };
+		11DBF125A694448696B7952D /* banking-open-account.md in Resources */ = {isa = PBXBuildFile; fileRef = F4AD53301B2D431CAA5A97B5 /* banking-open-account.md */; };
+		940233C841794897B462D566 /* banking-open-account.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 836C39D91E49488FB12BDED3 /* banking-open-account.pa.md */; };
+		106F61C0D4A44E8FA4B8EFDD /* car-insurance-types.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 3FE404E96FF844DA9D6BAA48 /* car-insurance-types.hi.md */; };
+		23E31C94184442589C32C77D /* car-insurance-types.md in Resources */ = {isa = PBXBuildFile; fileRef = EC56A70A89174465B2C06C8A /* car-insurance-types.md */; };
+		FECA2E6662024130A8CFA9ED /* car-insurance-types.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 0600B185CF574649B35F7D49 /* car-insurance-types.pa.md */; };
+		B342D197C81B425DA61A2EA8 /* centrelink-claim-start.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 31897A07DDA5459FB2E7355D /* centrelink-claim-start.hi.md */; };
+		E021679903EE4271AC341742 /* centrelink-claim-start.md in Resources */ = {isa = PBXBuildFile; fileRef = 8894D3881F0A4A23A976B7E3 /* centrelink-claim-start.md */; };
+		71EA853E16414ED7972F6D28 /* centrelink-claim-start.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 80EEF8C24A6545D8AFD368CC /* centrelink-claim-start.pa.md */; };
+		186DE2B45934432894EFA401 /* choose-suburb.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A2DE361472AA43E3A8499883 /* choose-suburb.hi.md */; };
+		5DCD24C5EAE14A918C6DD974 /* choose-suburb.md in Resources */ = {isa = PBXBuildFile; fileRef = FF438A312DD744CD9225A0E9 /* choose-suburb.md */; };
+		9FE0A72E71EC447696963B96 /* choose-suburb.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3234FB6E8E9A4BFC8840DC83 /* choose-suburb.pa.md */; };
+		6A560EF465C94F9485D6CDCA /* contents-insurance.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A249E3887D984412A5234DB9 /* contents-insurance.hi.md */; };
+		1E9FCD0AE8E34CD4B193CAAD /* contents-insurance.md in Resources */ = {isa = PBXBuildFile; fileRef = ECCC8799F47F41BBBDC5287B /* contents-insurance.md */; };
+		350E06CD5CAC420180175BE9 /* contents-insurance.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3614E496A7F9483DB6317FC4 /* contents-insurance.pa.md */; };
+		1B3BCC103D5B45E69D77C523 /* driving-licence.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = B6ED9BADADF8406C97D523B5 /* driving-licence.hi.md */; };
+		7589521A23B94B428229C3EE /* driving-licence.md in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D3CE5090D4F2C89E0182C /* driving-licence.md */; };
+		12E75ADA25AB4B89858CD2FA /* driving-licence.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DB99D3DF2F8D438BA4CA7440 /* driving-licence.pa.md */; };
+		DE8DAC4268694BE48C886033 /* emergency-contacts.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 96ACCF886F794C9D8544ECA6 /* emergency-contacts.hi.md */; };
+		8E7418F3AB3D4958BD3A83C0 /* emergency-contacts.md in Resources */ = {isa = PBXBuildFile; fileRef = B45855A6782049D184415969 /* emergency-contacts.md */; };
+		A4EF705AF9524AF5BC085856 /* emergency-contacts.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = BB20132E760D4BB6BFC1B5FF /* emergency-contacts.pa.md */; };
+		0CD9B1D3E65D4BA0976E54DE /* explore-barossa-adelaide.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FB19AE209EBB4BE0AE40C3F1 /* explore-barossa-adelaide.hi.md */; };
+		E17A96988A80428DBA15ABBB /* explore-barossa-adelaide.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB6891500234C6D8D0EFF23 /* explore-barossa-adelaide.md */; };
+		0297A43E73E74CD2BD9E9693 /* explore-barossa-adelaide.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FA8AF91F5E54D46BBC58701 /* explore-barossa-adelaide.pa.md */; };
+		4E36F06B3D504D73B56A2CA5 /* explore-blue-mountains.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = E607257EA57D48FB9319813D /* explore-blue-mountains.hi.md */; };
+		A229B70D028B407B81AD87C0 /* explore-blue-mountains.md in Resources */ = {isa = PBXBuildFile; fileRef = D59B2B1827D74F4EB63E2059 /* explore-blue-mountains.md */; };
+		FEEEC11C37834A67B622AC7F /* explore-blue-mountains.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = D8FE0180A53C4086BAEF01EE /* explore-blue-mountains.pa.md */; };
+		0EB6642299CA4F1CAFC3F1DB /* explore-gold-coast.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 8036F69155EF4FD29FA8691D /* explore-gold-coast.hi.md */; };
+		B6CB50C89DE2446DB979125D /* explore-gold-coast.md in Resources */ = {isa = PBXBuildFile; fileRef = FC2C024C2F1E4D7083EDAC1C /* explore-gold-coast.md */; };
+		FD4822C0B2F24DC3A76A35BF /* explore-gold-coast.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 14D27E94C85F42C78C5F2177 /* explore-gold-coast.pa.md */; };
+		4A6903A5E34741D0B6770006 /* explore-great-barrier-reef.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A07AD287F22486C8FBFFE0B /* explore-great-barrier-reef.hi.md */; };
+		BF9E72E2F6544EB1AD20EB17 /* explore-great-barrier-reef.md in Resources */ = {isa = PBXBuildFile; fileRef = 600BF36EA4394CC7B2E52CEC /* explore-great-barrier-reef.md */; };
+		C7D37AC03AC244BF9229F930 /* explore-great-barrier-reef.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BFD5F43E7E9441FA24B390F /* explore-great-barrier-reef.pa.md */; };
+		11ADE1CAF04943B18E8E6A9B /* explore-great-ocean-road.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = DCF98C8C664448E2BB9E5109 /* explore-great-ocean-road.hi.md */; };
+		DF08E027FDA5476EAB03487A /* explore-great-ocean-road.md in Resources */ = {isa = PBXBuildFile; fileRef = ECD7A5C3BC294D379762157E /* explore-great-ocean-road.md */; };
+		96BFBE66CE8D46C3BF1D008B /* explore-great-ocean-road.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 32C5A35424384BD4841272BD /* explore-great-ocean-road.pa.md */; };
+		1DD565F382884B08B0D44591 /* explore-phillip-island.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = E547929444B54BA18C174A97 /* explore-phillip-island.hi.md */; };
+		9332BC089B5D46239511D7FB /* explore-phillip-island.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C67D60F75474D96822C01CA /* explore-phillip-island.md */; };
+		63AAFC84B0E747F29772BC30 /* explore-phillip-island.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B4DFB496F0264B72A686A73C /* explore-phillip-island.pa.md */; };
+		3714E0E4457244E9B9A49558 /* explore-rottnest.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F6FCD07AAD54080A01E0B1D /* explore-rottnest.hi.md */; };
+		F417690D2D86449FB4F8F59F /* explore-rottnest.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CCE4E09FA8E49E1B0AEF105 /* explore-rottnest.md */; };
+		D1698DFBB2E84E2DB9A3F8C0 /* explore-rottnest.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D62350F809D4EAABD580397 /* explore-rottnest.pa.md */; };
+		799CFC3586A0412582BD4DED /* explore-sydney-harbour.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = F6D22F976EBC4017AD96CFEF /* explore-sydney-harbour.hi.md */; };
+		8DCBD76683C04976B8789238 /* explore-sydney-harbour.md in Resources */ = {isa = PBXBuildFile; fileRef = 0966D06E8DDA4C46A34A78BD /* explore-sydney-harbour.md */; };
+		E5ECC8F2F2C649B2B1558A3B /* explore-sydney-harbour.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 8EBD32E007214D31897160EF /* explore-sydney-harbour.pa.md */; };
+		27E7FE25710749FD9C6504DF /* explore-tasmania-hobart.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 91D2C4B6BD1A4460857DD8CE /* explore-tasmania-hobart.hi.md */; };
+		225CBB743CEF42EFB9D89B4D /* explore-tasmania-hobart.md in Resources */ = {isa = PBXBuildFile; fileRef = B6D98A3CF01A4FA39363D81A /* explore-tasmania-hobart.md */; };
+		CB7F7E98F14C429991B3B11E /* explore-tasmania-hobart.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 906A77A129444F3F8E96FB4D /* explore-tasmania-hobart.pa.md */; };
+		6D46550CDA9C40A2B541570F /* explore-uluru.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FBB0C84D28B94E8C9050D3E5 /* explore-uluru.hi.md */; };
+		93B342637A1640F783CE24E4 /* explore-uluru.md in Resources */ = {isa = PBXBuildFile; fileRef = 2941DEBC7ED34AF0850F694C /* explore-uluru.md */; };
+		A1853985E69C42FA9CD31378 /* explore-uluru.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 79CA7DFB1F214D37AD8F6B01 /* explore-uluru.pa.md */; };
+		C10748A54BAF47F9B4E5EDF7 /* family-centrelink.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A077B6C7E2BF486FA3BB10DC /* family-centrelink.hi.md */; };
+		C5BB85223784490EAEFD8BCC /* family-centrelink.md in Resources */ = {isa = PBXBuildFile; fileRef = 674066CA42C8491CBF31B386 /* family-centrelink.md */; };
+		DAB97986F6014E8E8340AE03 /* family-centrelink.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D76DE27F6304A20B1F9B8A4 /* family-centrelink.pa.md */; };
+		DEEDA13BDDB34EA09618CC2E /* family-childcare.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F15121F9C4C46BCBC078C5E /* family-childcare.hi.md */; };
+		6E17FD7CCED441B38A797B66 /* family-childcare.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C8FFFBFAD3B44D585DA58F5 /* family-childcare.md */; };
+		AEAF0EDB242D42EAB4F91D54 /* family-childcare.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = F40CC6E1F9314E8F83394352 /* family-childcare.pa.md */; };
+		BB4305E551C14A7F9E764692 /* family-immunisation.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C823C84209DF44EABB409D65 /* family-immunisation.hi.md */; };
+		7305A9A5E2A14D30A468498C /* family-immunisation.md in Resources */ = {isa = PBXBuildFile; fileRef = 316A7870196D4C4996B728B4 /* family-immunisation.md */; };
+		0CBE0C22B6464F1FB89BB524 /* family-immunisation.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B11EE4BAB22A4EC2B695E106 /* family-immunisation.pa.md */; };
+		A86C7474C2D549FE8440DD38 /* family-schools.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 76E7E4A865EC4243AC2EA135 /* family-schools.hi.md */; };
+		B9B4B59C3B744D1F9C4EFB45 /* family-schools.md in Resources */ = {isa = PBXBuildFile; fileRef = B3C4C86B58BA455890352205 /* family-schools.md */; };
+		49033053E82C4182B706D759 /* family-schools.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B7DA88665194BF6BB8AEB0E /* family-schools.pa.md */; };
+		F634495812AF42178D778196 /* first-month-budget.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A67244803CA04C26B0FD46BD /* first-month-budget.hi.md */; };
+		0B6A269248BF43EF9872B346 /* first-month-budget.md in Resources */ = {isa = PBXBuildFile; fileRef = FDE77902FA8143809AD22384 /* first-month-budget.md */; };
+		D4B3430F09114EF380D1C3B0 /* first-month-budget.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = DBBBEA7869664AD2BC9EB5B7 /* first-month-budget.pa.md */; };
+		D2E63E5FCAF6410BBC6D2CFF /* housing-rent.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 415CD45C861540AF9FB1B6A6 /* housing-rent.hi.md */; };
+		79EC539E7DE545C5A8F49FCF /* housing-rent.md in Resources */ = {isa = PBXBuildFile; fileRef = B0A3D5B4F42D4BA791C6709C /* housing-rent.md */; };
+		69C1406A50D043B5B040B552 /* housing-rent.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 1EF5A74B947342DB8D275BC1 /* housing-rent.pa.md */; };
+		293FF3BBCCA34682B2EB01B9 /* inspection-condition-report.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 6019C270C671453AB0961CA2 /* inspection-condition-report.hi.md */; };
+		9C62A7512A5E43F48A1D6002 /* inspection-condition-report.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A196534304097B25A9582 /* inspection-condition-report.md */; };
+		60E0F675E6E44B5DA25AA5C6 /* inspection-condition-report.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = C2F0D989CCBC419B91AC9C16 /* inspection-condition-report.pa.md */; };
+		9629FB609E8143FDBC9E558F /* jobs-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 29490BCA71F549ACBD7A6CB4 /* jobs-basics.hi.md */; };
+		8FCD480D9673462CBC600E18 /* jobs-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 825C4AAF9C8E4C0792D8B954 /* jobs-basics.md */; };
+		8038400712F64C788CE1FBE1 /* jobs-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = EC41FCA277D04E40AF3DC43D /* jobs-basics.pa.md */; };
+		A0B9C1DA79974194A0D72537 /* library-council.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E50B2B58CFF4C06BBFC7846 /* library-council.hi.md */; };
+		9A55DF5F150E4069BAD2B458 /* library-council.md in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBE5B7B300405D95CE5DBE /* library-council.md */; };
+		DA6EE47C713647FCA291E7A8 /* library-council.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CFF57F86F0E0421299EBA89A /* library-council.pa.md */; };
+		845974B6E518491FB4FDDC1D /* medicare-enrol.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = BCC74EC55439457FBD45117A /* medicare-enrol.hi.md */; };
+		B106EF808164449BB6961FA1 /* medicare-enrol.md in Resources */ = {isa = PBXBuildFile; fileRef = 97AF2DF6397C4523836D574A /* medicare-enrol.md */; };
+		0AC0CC76FB6C43A88355B832 /* medicare-enrol.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CDBDE670F12C489CA8FD42AB /* medicare-enrol.pa.md */; };
+		9C55E6DE47B1477EAF758B77 /* medicare-gp.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F09625125FE4E66BAD2CF6A /* medicare-gp.hi.md */; };
+		FD0D5EA478D747A4991D1273 /* medicare-gp.md in Resources */ = {isa = PBXBuildFile; fileRef = 92AA75F545C244B79CB6E122 /* medicare-gp.md */; };
+		894E6AEB1170418A93650755 /* medicare-gp.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = C15EBBAA239543D6979E3C82 /* medicare-gp.pa.md */; };
+		3F7AACBEB0384E6199BA1E27 /* mygov-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7955DED0D44928DE88B97 /* mygov-basics.hi.md */; };
+		39E28D1F449F495F82203C3B /* mygov-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = A2A4746C1A4543C7A0C3052F /* mygov-basics.md */; };
+		2DBE7720AD9649BEA209EB88 /* mygov-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D17B7E3FB3B44AA9B5FECE8 /* mygov-basics.pa.md */; };
+		F026020EC68E4A45AAF96E82 /* ovhc-visitors.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 32EEC128655D40FF9BFCB9F9 /* ovhc-visitors.hi.md */; };
+		64C5D27A70E04054932E3F5D /* ovhc-visitors.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D339CA6505E461C90D36028 /* ovhc-visitors.md */; };
+		46820471F0CC435097D90D70 /* ovhc-visitors.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 804B111EAFEE4B4CA4393AB1 /* ovhc-visitors.pa.md */; };
+		79AA067E382B476081E16C83 /* police-check-wwcc.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C32044F67454EBC31E8C1 /* police-check-wwcc.hi.md */; };
+		5E8CCD89CD464DEDB494FF30 /* police-check-wwcc.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C49D094619C45248835E225 /* police-check-wwcc.md */; };
+		EB73D2B797944391A6109124 /* police-check-wwcc.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CB689BE6A81A40A68F307AEB /* police-check-wwcc.pa.md */; };
+		8706EE32ED9F405C94D93D20 /* private-health-waiting.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A95128225834E94815BDD2D /* private-health-waiting.hi.md */; };
+		15922EFC57AE42699E51596B /* private-health-waiting.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E0A554FF8BD4B85816C8089 /* private-health-waiting.md */; };
+		E8CABD41EC5A47548B29C066 /* private-health-waiting.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 80A63A5123BB44B5AA8B09B0 /* private-health-waiting.pa.md */; };
+		D49C2AE03CFB474BA3815973 /* rental-bond.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = FA9D0211A85D48F7BD40BE32 /* rental-bond.hi.md */; };
+		2810B86D406B4AA2B1C97AC9 /* rental-bond.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E23BFD61FF44DC0A8F01E2B /* rental-bond.md */; };
+		1F2BF3422AEA45109D97728C /* rental-bond.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 9154346CD532484DB4396399 /* rental-bond.pa.md */; };
+		662ED6B86CCE49EB85991D80 /* scams-safety.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B2D68C525EE4E1EA30510BA /* scams-safety.hi.md */; };
+		BA3B1E393BE94E58B10448DC /* scams-safety.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E42E73975374B95A40994AE /* scams-safety.md */; };
+		57CC35A20B8047B284E784FA /* scams-safety.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 493D7189757D4A97B5ECC6F8 /* scams-safety.pa.md */; };
+		8ED1D69F0CCE4A5EADBB79F2 /* shopping-essentials.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C3C5A420126D4B6B863EFCF1 /* shopping-essentials.hi.md */; };
+		2524CD72802C43399847CFAE /* shopping-essentials.md in Resources */ = {isa = PBXBuildFile; fileRef = 563F9BB2133F43D8B6C3BB70 /* shopping-essentials.md */; };
+		4D5A2368ED7046248A39ADAA /* shopping-essentials.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = CABF78764C9141C4B8928176 /* shopping-essentials.pa.md */; };
+		F0B4E3A09BAE47AEA4414ED4 /* sim-setup.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = ADD0E8CA93C148E3913FE3D6 /* sim-setup.hi.md */; };
+		325E545F9ACE48679B97FD93 /* sim-setup.md in Resources */ = {isa = PBXBuildFile; fileRef = B7236EDD587746B98B432A2F /* sim-setup.md */; };
+		AF1A44C93D92477BB5FADA05 /* sim-setup.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = E8A33C1F5CCD47B2887EA195 /* sim-setup.pa.md */; };
+		30C8185120A0463D811353E3 /* student-concession.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F1F2B2B87482FBDEC11E9 /* student-concession.hi.md */; };
+		528E0FB1106540AB97422BBB /* student-concession.md in Resources */ = {isa = PBXBuildFile; fileRef = 435E3C08BB0C43089C3F9A20 /* student-concession.md */; };
+		F3A7177C16CF48A99B47569D /* student-concession.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = B188E88112B24EBB92BC3012 /* student-concession.pa.md */; };
+		DB9FD24CCDDF4A6291D5EC46 /* students-oshc.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = A6ED798303DB4C0BA1ADD0FC /* students-oshc.hi.md */; };
+		F1F880BC7C9E45A083801F79 /* students-oshc.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F0678E8049A4F2B8827FCC0 /* students-oshc.md */; };
+		787CA778AE00482CA9A8B9D3 /* students-oshc.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 68B9969934454770A752A9F9 /* students-oshc.pa.md */; };
+		67C893ABFC0644DDA2153C1C /* super-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 817F3B5C7E614F9E9BFC9C0B /* super-basics.hi.md */; };
+		C4BA06D931824FD5922EBBB7 /* super-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = 10204E92F5444CB09F436764 /* super-basics.md */; };
+		0D1A877DDFF149DE8C1B9055 /* super-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = A019934D128F49B69C8AE531 /* super-basics.pa.md */; };
+		0B511729A84540C08235A9AA /* tax-return-basics.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 26B758494AEC408B9B28DD30 /* tax-return-basics.hi.md */; };
+		BD1FDA59459C442F9185D23B /* tax-return-basics.md in Resources */ = {isa = PBXBuildFile; fileRef = A5E25D638CF24784B650599A /* tax-return-basics.md */; };
+		1B144769916343A39D67DF80 /* tax-return-basics.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 131DFC6CE3A149E78DCB25C1 /* tax-return-basics.pa.md */; };
+		FAC4AA2FB8F74A138AF068DE /* tfn-apply.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 38DB78DAAB3D4A5FA8524126 /* tfn-apply.hi.md */; };
+		6D725382BB0A440ABBE655AB /* tfn-apply.md in Resources */ = {isa = PBXBuildFile; fileRef = BE3D13DB6637429CB5B72E77 /* tfn-apply.md */; };
+		D94E219359E34CCF8068DE1B /* tfn-apply.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4893649DDF1E472B823AF212 /* tfn-apply.pa.md */; };
+		1CF63ED8D1CE4A28850402AE /* tolls-linkt.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = F480E3EA196842F592D0D7A0 /* tolls-linkt.hi.md */; };
+		8832DC4A7B3847C0B5D6513A /* tolls-linkt.md in Resources */ = {isa = PBXBuildFile; fileRef = DCED600B57DA47569020FC94 /* tolls-linkt.md */; };
+		5F84851F7BE7475AAFEC36BB /* tolls-linkt.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A79EEF6E83C422D9AFABBEB /* tolls-linkt.pa.md */; };
+		A2FE6D17BF894BD39790F18F /* transport-card.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = EE8F9BC331494A8198539CD7 /* transport-card.hi.md */; };
+		41A5C86384D24FE0AED5A2C4 /* transport-card.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A5550C42B8C465F8B3EC8C5 /* transport-card.md */; };
+		B0246655861047A7BF8116E1 /* transport-card.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C08EC39F7A44407B7805149 /* transport-card.pa.md */; };
+		FF514F32058243A5923C83F1 /* used-car-ppsr.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 10EB0D5164434F21B5BD3804 /* used-car-ppsr.hi.md */; };
+		31BD3697183D4F1D9AB18DC1 /* used-car-ppsr.md in Resources */ = {isa = PBXBuildFile; fileRef = CAE3465F0A0343DEB280793E /* used-car-ppsr.md */; };
+		64310C5339D044CFBF01DACF /* used-car-ppsr.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4720310EFBD5477F8D31DC16 /* used-car-ppsr.pa.md */; };
+		2648C262B1A34A168D66327C /* utilities-connect.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E8307782FC34E23BB858605 /* utilities-connect.hi.md */; };
+		C4D8651B73464933BB6BD999 /* utilities-connect.md in Resources */ = {isa = PBXBuildFile; fileRef = CE4567A6E0F24DEABA2E53F7 /* utilities-connect.md */; };
+		42862D238F294CD19B6BE867 /* utilities-connect.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B3D6D6A12F54DA29558459A /* utilities-connect.pa.md */; };
+		CEB846F542DF446C967585A6 /* visa-immiaccount.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = 68609CAFF2444A1A966D1637 /* visa-immiaccount.hi.md */; };
+		660CD7D64991475CAE7605CD /* visa-immiaccount.md in Resources */ = {isa = PBXBuildFile; fileRef = 898A991E92CD475887B71D7E /* visa-immiaccount.md */; };
+		5D204DF3802247E8A7D8A91E /* visa-immiaccount.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = D08F123F8896471792614017 /* visa-immiaccount.pa.md */; };
+		A287B842BA0A4C30BF984F53 /* visa-work-rights.hi.md in Resources */ = {isa = PBXBuildFile; fileRef = C351B3FA05154D229C7B1C34 /* visa-work-rights.hi.md */; };
+		3D186293E99E4EACB8E6DC9E /* visa-work-rights.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E4DE8ED7B9048EC855CE250 /* visa-work-rights.md */; };
+		90B35D2BAE2A4C4984B8522D /* visa-work-rights.pa.md in Resources */ = {isa = PBXBuildFile; fileRef = 36B0754DE8B24F4EA55C12A9 /* visa-work-rights.pa.md */; };
+		A8CFD437523E47EEA1FD4D06 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02A6D8F5B19A4400A19E9FB6 /* Localizable.strings */; };
+		F8BA402A0AB84B2290B6C15E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67283EC104A346B9AAC03F9F /* Localizable.strings */; };
+		364F8183594F4602AA0BA12F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B5ABE5408940BA828220F6 /* Localizable.strings */; };
+		9883B8C7183C49C6A5AF964C /* StoreKitIAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E35E8B6D7247E5B042D737 /* StoreKitIAPTests.swift */; };
+		BB485E3495C54276A86DB0AE /* AppStoreScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47162F5F4C9F46018844F7DD /* AppStoreScreenshotTests.swift */; };
+		2D0450ED24904D64BF418EA5 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 4B64AA913AA246FBA4428A2A /* Products.storekit */; };
+		4D2E6BD4CBCC40D4A61E5620 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 4B64AA913AA246FBA4428A2A /* Products.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C96048EB37A941F79EB9F27B /* PBXContainerItemProxy */ = {
+		3A24DCDF25E74B01BD401D58 /* PBXContainerItemProxy */ = {
 					isa = PBXContainerItemProxy;
-					containerPortal = 14E497B1B4074858BD6DF5F8 /* Project object */;
+					containerPortal = C261959FC99E4E09B699BE60 /* Project object */;
 					proxyType = 1;
-					remoteGlobalIDString = B2046126FB8C4F08B0DC2E5F;
+					remoteGlobalIDString = E6857E6C5B294820BC8FD606;
 					remoteInfo = AussieStart;
 				};
-		4E2D4CBEB875447DBA295934 /* PBXContainerItemProxy */ = {
+		25E3D4C0FCC64DC3AE54356E /* PBXContainerItemProxy */ = {
 					isa = PBXContainerItemProxy;
-					containerPortal = 14E497B1B4074858BD6DF5F8 /* Project object */;
+					containerPortal = C261959FC99E4E09B699BE60 /* Project object */;
 					proxyType = 1;
-					remoteGlobalIDString = B2046126FB8C4F08B0DC2E5F;
+					remoteGlobalIDString = E6857E6C5B294820BC8FD606;
 					remoteInfo = AussieStart;
 				};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B7E16F33770435C9B0B0396 /* AussieStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C74D68992BBD49D2B44AE505 /* AussieStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4C30EF7374149A08BF06ECD /* AussieStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B84C82B43C474CDC9DE5F4B5 /* AppStoreScreenshotScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreScreenshotScene.swift; sourceTree = "<group>"; };
-		10403CBBE59044F0A9A2EA37 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		8444320726D04436BF832041 /* AussieStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AussieStartApp.swift; sourceTree = "<group>"; };
-		588C50CEB6564F618848BC20 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		7AF2B283A79D4F56B65DF0C4 /* DestinationPhotoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPhotoGallery.swift; sourceTree = "<group>"; };
-		CAB6974E3C8E4F939344BD14 /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
-		0667595FEF614943B700340C /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
-		89321A73B53C423D9D1968D0 /* Foundation+AussieStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+AussieStart.swift"; sourceTree = "<group>"; };
-		584C5865BC8448DD85ACF533 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		06BCEA5F2D074F7991E3EC4B /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
-		AFF2FCB8C28345FABB529704 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
-		D31656DD11424A9297378871 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
-		C276D86387744ABAA2F62DDF /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		44EF35890A1440AD920420D7 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
-		375D813591CF4E74A59C2845 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		8E18D288CF8A475D88C19F23 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
-		AAD5188BAE1D48AC9F0E0763 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
-		BE0D74E3E1AD49A89B1E60A8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
-		1AE5A6FF1C81475D8C0F2EC0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		C2C614ED174242EC9A492076 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		C4428BF93C144986BEB9B13C /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
-		A8E174275363460281686CDF /* ContentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModels.swift; sourceTree = "<group>"; };
-		1C005B3F01B649979449CD0F /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
-		8E19A067563A4DE3B64286E0 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
-		3CF038E626B34FA0A26272F7 /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
-		23235F3C09C54DE998CBD86F /* JourneyReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyReminderScheduler.swift; sourceTree = "<group>"; };
-		81D1F655D60D4ABFABDB6EFC /* LocalSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEngine.swift; sourceTree = "<group>"; };
-		570B92F8879241CFBF4A4432 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
-		77D843989E3C457381883335 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
-		EA19337743BA45CFA4B256A2 /* AppCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopy.swift; sourceTree = "<group>"; };
-		3FB0EA6D85E74555B05A09D5 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
-		7DC881CB2B5F4F908592934D /* StoreKitIAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitIAPTests.swift; sourceTree = "<group>"; };
-		804BC8F63D054C9B8372AD56 /* AppStoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreScreenshotTests.swift; sourceTree = "<group>"; };
-		6FBE574395154A379D96B4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		C7C4BAF8844144F3ADA30D24 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		03A44EF720CC4C3E81165F2D /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
-		5C1AA82CB6EE4434A6FA355F /* abn-contracting.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.hi.md"; sourceTree = "<group>"; };
-		EBB34308611C48F2BD32CB91 /* abn-contracting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.md"; sourceTree = "<group>"; };
-		92F3C55822AA4B0F8CD91F1A /* abn-contracting.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.pa.md"; sourceTree = "<group>"; };
-		066073ED533741948CA5A813 /* ambulance-cover.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.hi.md"; sourceTree = "<group>"; };
-		C4C543AE7A49424188D0B609 /* ambulance-cover.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.md"; sourceTree = "<group>"; };
-		89982629B9B34E3F94C3BFBB /* ambulance-cover.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.pa.md"; sourceTree = "<group>"; };
-		0327E954D6B7477582D93D32 /* arrival-airport.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.hi.md"; sourceTree = "<group>"; };
-		3398B834EE324C95BC3CCEE5 /* arrival-airport.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.md"; sourceTree = "<group>"; };
-		0DA8B15CBE4D4CDD9694FC73 /* arrival-airport.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.pa.md"; sourceTree = "<group>"; };
-		E226B3B6381E482EAA6A9940 /* banking-open-account.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.hi.md"; sourceTree = "<group>"; };
-		38AED438701B424BAEA6B135 /* banking-open-account.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.md"; sourceTree = "<group>"; };
-		FCDAA97018564E14B9788753 /* banking-open-account.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.pa.md"; sourceTree = "<group>"; };
-		15C04AD2677948DD8200C13B /* car-insurance-types.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.hi.md"; sourceTree = "<group>"; };
-		C998B6A7B0A94A4CA0CD8593 /* car-insurance-types.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.md"; sourceTree = "<group>"; };
-		851612A9B05F4E05AE2D6327 /* car-insurance-types.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.pa.md"; sourceTree = "<group>"; };
-		CD498CD7F67341059DB527EF /* centrelink-claim-start.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.hi.md"; sourceTree = "<group>"; };
-		33C961E020FC4A369AA54A70 /* centrelink-claim-start.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.md"; sourceTree = "<group>"; };
-		DF38AA63938440C0B46A8018 /* centrelink-claim-start.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.pa.md"; sourceTree = "<group>"; };
-		7E389ACAF0184EA0A292D1C9 /* choose-suburb.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.hi.md"; sourceTree = "<group>"; };
-		19D91228546B49959DB5C310 /* choose-suburb.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.md"; sourceTree = "<group>"; };
-		780966E97F404305B1423B6C /* choose-suburb.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.pa.md"; sourceTree = "<group>"; };
-		2642AB112F7A4F97978E8B00 /* contents-insurance.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.hi.md"; sourceTree = "<group>"; };
-		14B0C94D9BF64AD5A592BEB4 /* contents-insurance.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.md"; sourceTree = "<group>"; };
-		B35397B21D674E88B8EB62AD /* contents-insurance.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.pa.md"; sourceTree = "<group>"; };
-		A1A15FC97D85439AB96CAC6D /* driving-licence.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.hi.md"; sourceTree = "<group>"; };
-		94FF804C836E4109B2529027 /* driving-licence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.md"; sourceTree = "<group>"; };
-		69B7E923A35D431AB4F190DD /* driving-licence.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.pa.md"; sourceTree = "<group>"; };
-		ED8F21B99DC0435D81932EC4 /* emergency-contacts.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.hi.md"; sourceTree = "<group>"; };
-		5CB96875A0044CB9838F8F6C /* emergency-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.md"; sourceTree = "<group>"; };
-		B8A70B36A20144ADB69D20A8 /* emergency-contacts.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.pa.md"; sourceTree = "<group>"; };
-		B83EE16C5622499E87D83CF3 /* explore-barossa-adelaide.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.hi.md"; sourceTree = "<group>"; };
-		0F6B9D2D2CE24B30A9433CD5 /* explore-barossa-adelaide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.md"; sourceTree = "<group>"; };
-		E8E77FD1E68648E693A49520 /* explore-barossa-adelaide.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.pa.md"; sourceTree = "<group>"; };
-		1F9E937A1A554A5AA2D2E1AE /* explore-blue-mountains.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.hi.md"; sourceTree = "<group>"; };
-		514D1C9B37A64CA79B8FF980 /* explore-blue-mountains.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.md"; sourceTree = "<group>"; };
-		5D653D0D422E4513860C409E /* explore-blue-mountains.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.pa.md"; sourceTree = "<group>"; };
-		04A5BEEDF6E34E4C9C9FD1E5 /* explore-gold-coast.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.hi.md"; sourceTree = "<group>"; };
-		B7C5B19D1C28486994DC1FB7 /* explore-gold-coast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.md"; sourceTree = "<group>"; };
-		07BE7D3FB476476FB1477C59 /* explore-gold-coast.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.pa.md"; sourceTree = "<group>"; };
-		121B8579C24C4AA8B80000E7 /* explore-great-barrier-reef.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.hi.md"; sourceTree = "<group>"; };
-		0A29F5DA21BC40628301A554 /* explore-great-barrier-reef.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.md"; sourceTree = "<group>"; };
-		B8AB69805376424E85064C7F /* explore-great-barrier-reef.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.pa.md"; sourceTree = "<group>"; };
-		57C6DAC8175E47868561038E /* explore-great-ocean-road.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.hi.md"; sourceTree = "<group>"; };
-		F886CAA4390145D888635A1C /* explore-great-ocean-road.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.md"; sourceTree = "<group>"; };
-		097686D1C13448FB801A08DC /* explore-great-ocean-road.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.pa.md"; sourceTree = "<group>"; };
-		A701938D8B4E4DE68E455912 /* explore-phillip-island.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.hi.md"; sourceTree = "<group>"; };
-		36809A4D5B4D449EA48D5185 /* explore-phillip-island.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.md"; sourceTree = "<group>"; };
-		D4775CBF1A934D1A8A2EF509 /* explore-phillip-island.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.pa.md"; sourceTree = "<group>"; };
-		86020479E0504466AC7A65E2 /* explore-rottnest.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.hi.md"; sourceTree = "<group>"; };
-		B22223582B4E4E558095C5A8 /* explore-rottnest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.md"; sourceTree = "<group>"; };
-		CAAAD9ECBC92453295952D51 /* explore-rottnest.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.pa.md"; sourceTree = "<group>"; };
-		F9B5D1BFED1644E2927BC5A3 /* explore-sydney-harbour.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.hi.md"; sourceTree = "<group>"; };
-		3AB24C7A0F4443B383BB2E99 /* explore-sydney-harbour.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.md"; sourceTree = "<group>"; };
-		F67BC968F3284E14943E8086 /* explore-sydney-harbour.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.pa.md"; sourceTree = "<group>"; };
-		0D6E7B514D2944ECAEA15E7C /* explore-tasmania-hobart.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.hi.md"; sourceTree = "<group>"; };
-		26FD950678054F3FA03E907A /* explore-tasmania-hobart.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.md"; sourceTree = "<group>"; };
-		F4D82A661A1B4A9ABA60F27D /* explore-tasmania-hobart.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.pa.md"; sourceTree = "<group>"; };
-		D14F8E1A0A134160869C49E9 /* explore-uluru.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.hi.md"; sourceTree = "<group>"; };
-		F8BE0BECC4CA4888B9BDDBE4 /* explore-uluru.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.md"; sourceTree = "<group>"; };
-		D9D1EE2521AD40DE8A7E817A /* explore-uluru.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.pa.md"; sourceTree = "<group>"; };
-		F1FDF5A6D77343CEA646378E /* family-centrelink.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.hi.md"; sourceTree = "<group>"; };
-		FEF0A3CB15474F1597B71554 /* family-centrelink.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.md"; sourceTree = "<group>"; };
-		F8B162F3B48D436A8D5D1A34 /* family-centrelink.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.pa.md"; sourceTree = "<group>"; };
-		6748F80112E648AC9E14BCE4 /* family-childcare.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.hi.md"; sourceTree = "<group>"; };
-		E36B595EC3624FE2ADD5DDA1 /* family-childcare.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.md"; sourceTree = "<group>"; };
-		1E27F6D26FEC46668EE43E57 /* family-childcare.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.pa.md"; sourceTree = "<group>"; };
-		88B4ED240D514EBE9DEBAF0A /* family-immunisation.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.hi.md"; sourceTree = "<group>"; };
-		121536F2383D49ADBA0761B4 /* family-immunisation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.md"; sourceTree = "<group>"; };
-		ADD24520E1F74EBB82439BE4 /* family-immunisation.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.pa.md"; sourceTree = "<group>"; };
-		EE12AB33D799455ABD511E9A /* family-schools.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.hi.md"; sourceTree = "<group>"; };
-		B5487B6D707845B7A0C66AAD /* family-schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.md"; sourceTree = "<group>"; };
-		C4797F1D603A46A593F3DBF2 /* family-schools.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.pa.md"; sourceTree = "<group>"; };
-		108B1858587D4653B8DF8C6A /* first-month-budget.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.hi.md"; sourceTree = "<group>"; };
-		093E7BFBAE2945CD9FD1DA83 /* first-month-budget.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.md"; sourceTree = "<group>"; };
-		490EC5FEE3BE40EA9D07B963 /* first-month-budget.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.pa.md"; sourceTree = "<group>"; };
-		1FDD647346E74F1CAF6A453D /* housing-rent.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.hi.md"; sourceTree = "<group>"; };
-		BAFF0E2A8B504F4389B777B2 /* housing-rent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.md"; sourceTree = "<group>"; };
-		D21CF8184CA44197A4846269 /* housing-rent.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.pa.md"; sourceTree = "<group>"; };
-		B38BE15DFCEA4346B27F4D9B /* inspection-condition-report.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.hi.md"; sourceTree = "<group>"; };
-		25B227CDBF2843FBAC0C38BF /* inspection-condition-report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.md"; sourceTree = "<group>"; };
-		99DA3AF8A0FA446CA89BDAFD /* inspection-condition-report.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.pa.md"; sourceTree = "<group>"; };
-		450F75E486314BFD81C8B18E /* jobs-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.hi.md"; sourceTree = "<group>"; };
-		E9AEAF14DDBD449AA226815B /* jobs-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.md"; sourceTree = "<group>"; };
-		B54DED89DFE04863BEC2E781 /* jobs-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.pa.md"; sourceTree = "<group>"; };
-		5F2B6F1E03594F16953A6CCC /* library-council.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.hi.md"; sourceTree = "<group>"; };
-		05C91E7E388F48B396E7B1A5 /* library-council.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.md"; sourceTree = "<group>"; };
-		840FA8F3B281475D85358A1D /* library-council.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.pa.md"; sourceTree = "<group>"; };
-		502B41F6EA6E4E73955D32C7 /* medicare-enrol.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.hi.md"; sourceTree = "<group>"; };
-		78C5B505EDA2401D984D420C /* medicare-enrol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.md"; sourceTree = "<group>"; };
-		AACB8F0BC94C466388405FF1 /* medicare-enrol.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.pa.md"; sourceTree = "<group>"; };
-		45F9B5D447C04336B1293434 /* medicare-gp.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.hi.md"; sourceTree = "<group>"; };
-		9D91FC73B6A24F68B2CABD2F /* medicare-gp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.md"; sourceTree = "<group>"; };
-		2E0BFC8A5FB544C5972F0950 /* medicare-gp.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.pa.md"; sourceTree = "<group>"; };
-		FDFABB7A515E44788BA908B9 /* mygov-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.hi.md"; sourceTree = "<group>"; };
-		6506272FEDD64B74B43E58D0 /* mygov-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.md"; sourceTree = "<group>"; };
-		490F66A8720B467EB7AC73F4 /* mygov-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.pa.md"; sourceTree = "<group>"; };
-		AAE09DE9E1F440D98C001D0B /* ovhc-visitors.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.hi.md"; sourceTree = "<group>"; };
-		2D0E6648B31A43DB9CF070B5 /* ovhc-visitors.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.md"; sourceTree = "<group>"; };
-		7D06AD3745B048EE9E5A034B /* ovhc-visitors.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.pa.md"; sourceTree = "<group>"; };
-		7749B867AB6B4C5FAE94CCC6 /* police-check-wwcc.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.hi.md"; sourceTree = "<group>"; };
-		7EDF5786A72643E1B30AD5EF /* police-check-wwcc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.md"; sourceTree = "<group>"; };
-		96E24F93EA094F6B842D372E /* police-check-wwcc.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.pa.md"; sourceTree = "<group>"; };
-		1A3A8C245FB84A908097AA9B /* private-health-waiting.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.hi.md"; sourceTree = "<group>"; };
-		5DE4F6C6F2534973B296AFA8 /* private-health-waiting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.md"; sourceTree = "<group>"; };
-		3980D940C4D0487ABD5650D9 /* private-health-waiting.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.pa.md"; sourceTree = "<group>"; };
-		0BB2BA6480B34CDABFAA2C48 /* rental-bond.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.hi.md"; sourceTree = "<group>"; };
-		EF9DADE7A545488E8F42F058 /* rental-bond.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.md"; sourceTree = "<group>"; };
-		4153F3D14A2F4F18BCB2F01D /* rental-bond.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.pa.md"; sourceTree = "<group>"; };
-		660A0CFD729A42CDA641AE66 /* scams-safety.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.hi.md"; sourceTree = "<group>"; };
-		59280B7415E549DDB563DDF0 /* scams-safety.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.md"; sourceTree = "<group>"; };
-		8BBB5D2BA52440A98D5AC8AC /* scams-safety.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.pa.md"; sourceTree = "<group>"; };
-		441856F965894FA08420B4D5 /* shopping-essentials.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.hi.md"; sourceTree = "<group>"; };
-		02C3C167E3904C9BAD4B5FEB /* shopping-essentials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.md"; sourceTree = "<group>"; };
-		EA2030BEAFC74802820759AD /* shopping-essentials.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.pa.md"; sourceTree = "<group>"; };
-		1D58A115BDBB404BB4D2EE64 /* sim-setup.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.hi.md"; sourceTree = "<group>"; };
-		46BFB73889B341BC943E70FE /* sim-setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.md"; sourceTree = "<group>"; };
-		163C9C6E31F94ECAA8DED362 /* sim-setup.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.pa.md"; sourceTree = "<group>"; };
-		438D675AB525449BAFDDE82E /* student-concession.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.hi.md"; sourceTree = "<group>"; };
-		7DFC43501DCE42CE93D8CC4B /* student-concession.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.md"; sourceTree = "<group>"; };
-		A5AF81CFF2424CCCA3185269 /* student-concession.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.pa.md"; sourceTree = "<group>"; };
-		23FD80E9D973441DB9C0CE49 /* students-oshc.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.hi.md"; sourceTree = "<group>"; };
-		3FFA6452CC8C41508EC092D7 /* students-oshc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.md"; sourceTree = "<group>"; };
-		ED10DB5475B24A35ADC7B290 /* students-oshc.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.pa.md"; sourceTree = "<group>"; };
-		72B01FFCC7AE4CF19EFF3877 /* super-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.hi.md"; sourceTree = "<group>"; };
-		533112171E70474DB446CC11 /* super-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.md"; sourceTree = "<group>"; };
-		06E381C327D34F2CBBC35504 /* super-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.pa.md"; sourceTree = "<group>"; };
-		20121B27CEDA4471820D71BB /* tax-return-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.hi.md"; sourceTree = "<group>"; };
-		D1868480C7294D93A3897C60 /* tax-return-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.md"; sourceTree = "<group>"; };
-		CDEEE396014842F0876BB2A4 /* tax-return-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.pa.md"; sourceTree = "<group>"; };
-		22EB4AE0893C4E46BBC373B5 /* tfn-apply.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.hi.md"; sourceTree = "<group>"; };
-		B30F4386320C4E2898B1795F /* tfn-apply.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.md"; sourceTree = "<group>"; };
-		4920B66F530041EDB902027F /* tfn-apply.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.pa.md"; sourceTree = "<group>"; };
-		731B4624FAC6404F85FFF1BD /* tolls-linkt.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.hi.md"; sourceTree = "<group>"; };
-		04D9547BB5C74CD88F42CD61 /* tolls-linkt.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.md"; sourceTree = "<group>"; };
-		8BFF295D1ABD41BF85D7A34C /* tolls-linkt.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.pa.md"; sourceTree = "<group>"; };
-		4ADB228887FE4B2C8F49EB1F /* transport-card.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.hi.md"; sourceTree = "<group>"; };
-		F8EFF97D882D47AFB7706A46 /* transport-card.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.md"; sourceTree = "<group>"; };
-		DAA39E9E58E34DE0AE23258D /* transport-card.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.pa.md"; sourceTree = "<group>"; };
-		F3B7C4EB01F34E9190828F90 /* used-car-ppsr.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.hi.md"; sourceTree = "<group>"; };
-		69116C4E6DB74EB983E5DD45 /* used-car-ppsr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.md"; sourceTree = "<group>"; };
-		C6E21FDF625743EE86932CAA /* used-car-ppsr.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.pa.md"; sourceTree = "<group>"; };
-		087E955C95434FE7B0C7469B /* utilities-connect.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.hi.md"; sourceTree = "<group>"; };
-		F2B0C90B8FC54950B79C241C /* utilities-connect.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.md"; sourceTree = "<group>"; };
-		68952604C61244339A08CBF2 /* utilities-connect.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.pa.md"; sourceTree = "<group>"; };
-		329DCE50456941E49FDA98E3 /* visa-immiaccount.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.hi.md"; sourceTree = "<group>"; };
-		B0E7872B52E94757A36F990A /* visa-immiaccount.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.md"; sourceTree = "<group>"; };
-		3899CEC97A3E4FE4933989C7 /* visa-immiaccount.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.pa.md"; sourceTree = "<group>"; };
-		03C2F7C46C8345EA879609FB /* visa-work-rights.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.hi.md"; sourceTree = "<group>"; };
-		E67B0CC5D8AE47C8A897CF9E /* visa-work-rights.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.md"; sourceTree = "<group>"; };
-		15EB3663F47A489189AEA3D9 /* visa-work-rights.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.pa.md"; sourceTree = "<group>"; };
-		2244CFE6270146009898D1DF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		24D9360CD6294C11A97401CE /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		762775E6A56A448D9954D071 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		AACCF4515DB54483A06CAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0C72DDCCF9047229EA101C8 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storekit; path = Products.storekit; sourceTree = "<group>"; };
+		02DE86BCB2DC4DB991834642 /* AussieStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AussieStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3044A6E4EE964ED88B33F05F /* AussieStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B061CF0FC3A439C8F1A992B /* AussieStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AussieStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A15D582B3BD43FC8B64D232 /* AppStoreScreenshotScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreScreenshotScene.swift; sourceTree = "<group>"; };
+		A962BA395B0C4FDAB4C4F88B /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		1E07C5DFA4C945BDA31091E4 /* AussieStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AussieStartApp.swift; sourceTree = "<group>"; };
+		E4BB2FD619F44DD7BD38F787 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		49629A58D490405FAA3D4B50 /* DestinationPhotoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPhotoGallery.swift; sourceTree = "<group>"; };
+		102F11FFB8B54CB6813DAED5 /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
+		EE65D38F1FEE4116AFB2566C /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		B96D88247E1B40538828DBD1 /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		FDE057A0A9D544F780B8084C /* Foundation+AussieStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+AussieStart.swift"; sourceTree = "<group>"; };
+		9C32B88336D14BF3855F96E7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		1366EB4E62C8458D98C93B51 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		DB3FAA8A3E18430AA258AA41 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		5DDE64E1E56D40D49EC442A1 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		A60A7B3F943B454D94571908 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		857AEE45BE924D289F7F39EF /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		8E3466BFEA0B49B8BAED63D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		09BECDDBCCFE4AD9A56571F5 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		8A0426AE74114EA988EA8880 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		4FCB58CB59154E50A09C5DCE /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		B135258937CF47B29C7BB681 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9CC9796BC62C4D7FA8B654A4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1D1EAAFE4A5C4F85B1BE076F /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		C17868396A124B2582F269D5 /* ContentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModels.swift; sourceTree = "<group>"; };
+		B6892D5673724A048E831114 /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		8A76D5E85C97433C9F63D72E /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		4AA54E7830D0443D9FAE45DE /* ContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLoader.swift; sourceTree = "<group>"; };
+		74D1B5BBB9DF42AFBF4B4166 /* JourneyReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyReminderScheduler.swift; sourceTree = "<group>"; };
+		586BF4B9D0CA4B23A3B39E8A /* LocalSearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEngine.swift; sourceTree = "<group>"; };
+		5B5A2203FA2A44C0863A9055 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		EA2F398657D848A0A2F1615E /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		5E13600653E7492CB53D59A1 /* AppCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCopy.swift; sourceTree = "<group>"; };
+		3AD64F0E42D644FABF46387F /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		C0E35E8B6D7247E5B042D737 /* StoreKitIAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitIAPTests.swift; sourceTree = "<group>"; };
+		47162F5F4C9F46018844F7DD /* AppStoreScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreScreenshotTests.swift; sourceTree = "<group>"; };
+		0474F8399140439C9118BCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		437FFA0AB1FC4CF08FCE9398 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A17FD79AFA874E12A7FE80A9 /* catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
+		1F69434BB682430E9930326D /* abn-contracting.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.hi.md"; sourceTree = "<group>"; };
+		4570FDCE360C4DCAA59853AC /* abn-contracting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.md"; sourceTree = "<group>"; };
+		F37F7B1F96EA4606A0D8BA4D /* abn-contracting.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "abn-contracting.pa.md"; sourceTree = "<group>"; };
+		C1C28A63ABA74E509823AD91 /* ambulance-cover.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.hi.md"; sourceTree = "<group>"; };
+		13CDCA00887B4CAA9C267A12 /* ambulance-cover.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.md"; sourceTree = "<group>"; };
+		7783A5C3D8684FDABE82C948 /* ambulance-cover.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ambulance-cover.pa.md"; sourceTree = "<group>"; };
+		24C73F9CCE0F4A438CF50909 /* arrival-airport.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.hi.md"; sourceTree = "<group>"; };
+		4E6F0E1FBDE948C99731714E /* arrival-airport.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.md"; sourceTree = "<group>"; };
+		BDB45B09EF3B452C9C248208 /* arrival-airport.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "arrival-airport.pa.md"; sourceTree = "<group>"; };
+		228B0DA56A764DC28668C36A /* banking-open-account.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.hi.md"; sourceTree = "<group>"; };
+		F4AD53301B2D431CAA5A97B5 /* banking-open-account.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.md"; sourceTree = "<group>"; };
+		836C39D91E49488FB12BDED3 /* banking-open-account.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "banking-open-account.pa.md"; sourceTree = "<group>"; };
+		3FE404E96FF844DA9D6BAA48 /* car-insurance-types.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.hi.md"; sourceTree = "<group>"; };
+		EC56A70A89174465B2C06C8A /* car-insurance-types.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.md"; sourceTree = "<group>"; };
+		0600B185CF574649B35F7D49 /* car-insurance-types.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "car-insurance-types.pa.md"; sourceTree = "<group>"; };
+		31897A07DDA5459FB2E7355D /* centrelink-claim-start.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.hi.md"; sourceTree = "<group>"; };
+		8894D3881F0A4A23A976B7E3 /* centrelink-claim-start.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.md"; sourceTree = "<group>"; };
+		80EEF8C24A6545D8AFD368CC /* centrelink-claim-start.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "centrelink-claim-start.pa.md"; sourceTree = "<group>"; };
+		A2DE361472AA43E3A8499883 /* choose-suburb.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.hi.md"; sourceTree = "<group>"; };
+		FF438A312DD744CD9225A0E9 /* choose-suburb.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.md"; sourceTree = "<group>"; };
+		3234FB6E8E9A4BFC8840DC83 /* choose-suburb.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "choose-suburb.pa.md"; sourceTree = "<group>"; };
+		A249E3887D984412A5234DB9 /* contents-insurance.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.hi.md"; sourceTree = "<group>"; };
+		ECCC8799F47F41BBBDC5287B /* contents-insurance.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.md"; sourceTree = "<group>"; };
+		3614E496A7F9483DB6317FC4 /* contents-insurance.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "contents-insurance.pa.md"; sourceTree = "<group>"; };
+		B6ED9BADADF8406C97D523B5 /* driving-licence.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.hi.md"; sourceTree = "<group>"; };
+		7B1D3CE5090D4F2C89E0182C /* driving-licence.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.md"; sourceTree = "<group>"; };
+		DB99D3DF2F8D438BA4CA7440 /* driving-licence.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "driving-licence.pa.md"; sourceTree = "<group>"; };
+		96ACCF886F794C9D8544ECA6 /* emergency-contacts.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.hi.md"; sourceTree = "<group>"; };
+		B45855A6782049D184415969 /* emergency-contacts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.md"; sourceTree = "<group>"; };
+		BB20132E760D4BB6BFC1B5FF /* emergency-contacts.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "emergency-contacts.pa.md"; sourceTree = "<group>"; };
+		FB19AE209EBB4BE0AE40C3F1 /* explore-barossa-adelaide.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.hi.md"; sourceTree = "<group>"; };
+		EEB6891500234C6D8D0EFF23 /* explore-barossa-adelaide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.md"; sourceTree = "<group>"; };
+		6FA8AF91F5E54D46BBC58701 /* explore-barossa-adelaide.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-barossa-adelaide.pa.md"; sourceTree = "<group>"; };
+		E607257EA57D48FB9319813D /* explore-blue-mountains.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.hi.md"; sourceTree = "<group>"; };
+		D59B2B1827D74F4EB63E2059 /* explore-blue-mountains.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.md"; sourceTree = "<group>"; };
+		D8FE0180A53C4086BAEF01EE /* explore-blue-mountains.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-blue-mountains.pa.md"; sourceTree = "<group>"; };
+		8036F69155EF4FD29FA8691D /* explore-gold-coast.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.hi.md"; sourceTree = "<group>"; };
+		FC2C024C2F1E4D7083EDAC1C /* explore-gold-coast.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.md"; sourceTree = "<group>"; };
+		14D27E94C85F42C78C5F2177 /* explore-gold-coast.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-gold-coast.pa.md"; sourceTree = "<group>"; };
+		7A07AD287F22486C8FBFFE0B /* explore-great-barrier-reef.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.hi.md"; sourceTree = "<group>"; };
+		600BF36EA4394CC7B2E52CEC /* explore-great-barrier-reef.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.md"; sourceTree = "<group>"; };
+		5BFD5F43E7E9441FA24B390F /* explore-great-barrier-reef.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-barrier-reef.pa.md"; sourceTree = "<group>"; };
+		DCF98C8C664448E2BB9E5109 /* explore-great-ocean-road.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.hi.md"; sourceTree = "<group>"; };
+		ECD7A5C3BC294D379762157E /* explore-great-ocean-road.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.md"; sourceTree = "<group>"; };
+		32C5A35424384BD4841272BD /* explore-great-ocean-road.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-great-ocean-road.pa.md"; sourceTree = "<group>"; };
+		E547929444B54BA18C174A97 /* explore-phillip-island.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.hi.md"; sourceTree = "<group>"; };
+		0C67D60F75474D96822C01CA /* explore-phillip-island.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.md"; sourceTree = "<group>"; };
+		B4DFB496F0264B72A686A73C /* explore-phillip-island.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-phillip-island.pa.md"; sourceTree = "<group>"; };
+		8F6FCD07AAD54080A01E0B1D /* explore-rottnest.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.hi.md"; sourceTree = "<group>"; };
+		8CCE4E09FA8E49E1B0AEF105 /* explore-rottnest.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.md"; sourceTree = "<group>"; };
+		5D62350F809D4EAABD580397 /* explore-rottnest.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-rottnest.pa.md"; sourceTree = "<group>"; };
+		F6D22F976EBC4017AD96CFEF /* explore-sydney-harbour.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.hi.md"; sourceTree = "<group>"; };
+		0966D06E8DDA4C46A34A78BD /* explore-sydney-harbour.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.md"; sourceTree = "<group>"; };
+		8EBD32E007214D31897160EF /* explore-sydney-harbour.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-sydney-harbour.pa.md"; sourceTree = "<group>"; };
+		91D2C4B6BD1A4460857DD8CE /* explore-tasmania-hobart.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.hi.md"; sourceTree = "<group>"; };
+		B6D98A3CF01A4FA39363D81A /* explore-tasmania-hobart.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.md"; sourceTree = "<group>"; };
+		906A77A129444F3F8E96FB4D /* explore-tasmania-hobart.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-tasmania-hobart.pa.md"; sourceTree = "<group>"; };
+		FBB0C84D28B94E8C9050D3E5 /* explore-uluru.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.hi.md"; sourceTree = "<group>"; };
+		2941DEBC7ED34AF0850F694C /* explore-uluru.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.md"; sourceTree = "<group>"; };
+		79CA7DFB1F214D37AD8F6B01 /* explore-uluru.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "explore-uluru.pa.md"; sourceTree = "<group>"; };
+		A077B6C7E2BF486FA3BB10DC /* family-centrelink.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.hi.md"; sourceTree = "<group>"; };
+		674066CA42C8491CBF31B386 /* family-centrelink.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.md"; sourceTree = "<group>"; };
+		3D76DE27F6304A20B1F9B8A4 /* family-centrelink.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-centrelink.pa.md"; sourceTree = "<group>"; };
+		2F15121F9C4C46BCBC078C5E /* family-childcare.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.hi.md"; sourceTree = "<group>"; };
+		3C8FFFBFAD3B44D585DA58F5 /* family-childcare.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.md"; sourceTree = "<group>"; };
+		F40CC6E1F9314E8F83394352 /* family-childcare.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-childcare.pa.md"; sourceTree = "<group>"; };
+		C823C84209DF44EABB409D65 /* family-immunisation.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.hi.md"; sourceTree = "<group>"; };
+		316A7870196D4C4996B728B4 /* family-immunisation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.md"; sourceTree = "<group>"; };
+		B11EE4BAB22A4EC2B695E106 /* family-immunisation.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-immunisation.pa.md"; sourceTree = "<group>"; };
+		76E7E4A865EC4243AC2EA135 /* family-schools.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.hi.md"; sourceTree = "<group>"; };
+		B3C4C86B58BA455890352205 /* family-schools.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.md"; sourceTree = "<group>"; };
+		4B7DA88665194BF6BB8AEB0E /* family-schools.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "family-schools.pa.md"; sourceTree = "<group>"; };
+		A67244803CA04C26B0FD46BD /* first-month-budget.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.hi.md"; sourceTree = "<group>"; };
+		FDE77902FA8143809AD22384 /* first-month-budget.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.md"; sourceTree = "<group>"; };
+		DBBBEA7869664AD2BC9EB5B7 /* first-month-budget.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "first-month-budget.pa.md"; sourceTree = "<group>"; };
+		415CD45C861540AF9FB1B6A6 /* housing-rent.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.hi.md"; sourceTree = "<group>"; };
+		B0A3D5B4F42D4BA791C6709C /* housing-rent.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.md"; sourceTree = "<group>"; };
+		1EF5A74B947342DB8D275BC1 /* housing-rent.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "housing-rent.pa.md"; sourceTree = "<group>"; };
+		6019C270C671453AB0961CA2 /* inspection-condition-report.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.hi.md"; sourceTree = "<group>"; };
+		1B7A196534304097B25A9582 /* inspection-condition-report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.md"; sourceTree = "<group>"; };
+		C2F0D989CCBC419B91AC9C16 /* inspection-condition-report.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "inspection-condition-report.pa.md"; sourceTree = "<group>"; };
+		29490BCA71F549ACBD7A6CB4 /* jobs-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.hi.md"; sourceTree = "<group>"; };
+		825C4AAF9C8E4C0792D8B954 /* jobs-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.md"; sourceTree = "<group>"; };
+		EC41FCA277D04E40AF3DC43D /* jobs-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "jobs-basics.pa.md"; sourceTree = "<group>"; };
+		4E50B2B58CFF4C06BBFC7846 /* library-council.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.hi.md"; sourceTree = "<group>"; };
+		9FBBE5B7B300405D95CE5DBE /* library-council.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.md"; sourceTree = "<group>"; };
+		CFF57F86F0E0421299EBA89A /* library-council.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "library-council.pa.md"; sourceTree = "<group>"; };
+		BCC74EC55439457FBD45117A /* medicare-enrol.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.hi.md"; sourceTree = "<group>"; };
+		97AF2DF6397C4523836D574A /* medicare-enrol.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.md"; sourceTree = "<group>"; };
+		CDBDE670F12C489CA8FD42AB /* medicare-enrol.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-enrol.pa.md"; sourceTree = "<group>"; };
+		4F09625125FE4E66BAD2CF6A /* medicare-gp.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.hi.md"; sourceTree = "<group>"; };
+		92AA75F545C244B79CB6E122 /* medicare-gp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.md"; sourceTree = "<group>"; };
+		C15EBBAA239543D6979E3C82 /* medicare-gp.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "medicare-gp.pa.md"; sourceTree = "<group>"; };
+		6DE7955DED0D44928DE88B97 /* mygov-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.hi.md"; sourceTree = "<group>"; };
+		A2A4746C1A4543C7A0C3052F /* mygov-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.md"; sourceTree = "<group>"; };
+		4D17B7E3FB3B44AA9B5FECE8 /* mygov-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "mygov-basics.pa.md"; sourceTree = "<group>"; };
+		32EEC128655D40FF9BFCB9F9 /* ovhc-visitors.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.hi.md"; sourceTree = "<group>"; };
+		6D339CA6505E461C90D36028 /* ovhc-visitors.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.md"; sourceTree = "<group>"; };
+		804B111EAFEE4B4CA4393AB1 /* ovhc-visitors.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "ovhc-visitors.pa.md"; sourceTree = "<group>"; };
+		0D9C32044F67454EBC31E8C1 /* police-check-wwcc.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.hi.md"; sourceTree = "<group>"; };
+		3C49D094619C45248835E225 /* police-check-wwcc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.md"; sourceTree = "<group>"; };
+		CB689BE6A81A40A68F307AEB /* police-check-wwcc.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "police-check-wwcc.pa.md"; sourceTree = "<group>"; };
+		9A95128225834E94815BDD2D /* private-health-waiting.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.hi.md"; sourceTree = "<group>"; };
+		8E0A554FF8BD4B85816C8089 /* private-health-waiting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.md"; sourceTree = "<group>"; };
+		80A63A5123BB44B5AA8B09B0 /* private-health-waiting.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "private-health-waiting.pa.md"; sourceTree = "<group>"; };
+		FA9D0211A85D48F7BD40BE32 /* rental-bond.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.hi.md"; sourceTree = "<group>"; };
+		2E23BFD61FF44DC0A8F01E2B /* rental-bond.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.md"; sourceTree = "<group>"; };
+		9154346CD532484DB4396399 /* rental-bond.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "rental-bond.pa.md"; sourceTree = "<group>"; };
+		5B2D68C525EE4E1EA30510BA /* scams-safety.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.hi.md"; sourceTree = "<group>"; };
+		3E42E73975374B95A40994AE /* scams-safety.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.md"; sourceTree = "<group>"; };
+		493D7189757D4A97B5ECC6F8 /* scams-safety.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "scams-safety.pa.md"; sourceTree = "<group>"; };
+		C3C5A420126D4B6B863EFCF1 /* shopping-essentials.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.hi.md"; sourceTree = "<group>"; };
+		563F9BB2133F43D8B6C3BB70 /* shopping-essentials.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.md"; sourceTree = "<group>"; };
+		CABF78764C9141C4B8928176 /* shopping-essentials.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "shopping-essentials.pa.md"; sourceTree = "<group>"; };
+		ADD0E8CA93C148E3913FE3D6 /* sim-setup.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.hi.md"; sourceTree = "<group>"; };
+		B7236EDD587746B98B432A2F /* sim-setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.md"; sourceTree = "<group>"; };
+		E8A33C1F5CCD47B2887EA195 /* sim-setup.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "sim-setup.pa.md"; sourceTree = "<group>"; };
+		3F1F1F2B2B87482FBDEC11E9 /* student-concession.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.hi.md"; sourceTree = "<group>"; };
+		435E3C08BB0C43089C3F9A20 /* student-concession.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.md"; sourceTree = "<group>"; };
+		B188E88112B24EBB92BC3012 /* student-concession.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "student-concession.pa.md"; sourceTree = "<group>"; };
+		A6ED798303DB4C0BA1ADD0FC /* students-oshc.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.hi.md"; sourceTree = "<group>"; };
+		8F0678E8049A4F2B8827FCC0 /* students-oshc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.md"; sourceTree = "<group>"; };
+		68B9969934454770A752A9F9 /* students-oshc.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "students-oshc.pa.md"; sourceTree = "<group>"; };
+		817F3B5C7E614F9E9BFC9C0B /* super-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.hi.md"; sourceTree = "<group>"; };
+		10204E92F5444CB09F436764 /* super-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.md"; sourceTree = "<group>"; };
+		A019934D128F49B69C8AE531 /* super-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "super-basics.pa.md"; sourceTree = "<group>"; };
+		26B758494AEC408B9B28DD30 /* tax-return-basics.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.hi.md"; sourceTree = "<group>"; };
+		A5E25D638CF24784B650599A /* tax-return-basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.md"; sourceTree = "<group>"; };
+		131DFC6CE3A149E78DCB25C1 /* tax-return-basics.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tax-return-basics.pa.md"; sourceTree = "<group>"; };
+		38DB78DAAB3D4A5FA8524126 /* tfn-apply.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.hi.md"; sourceTree = "<group>"; };
+		BE3D13DB6637429CB5B72E77 /* tfn-apply.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.md"; sourceTree = "<group>"; };
+		4893649DDF1E472B823AF212 /* tfn-apply.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tfn-apply.pa.md"; sourceTree = "<group>"; };
+		F480E3EA196842F592D0D7A0 /* tolls-linkt.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.hi.md"; sourceTree = "<group>"; };
+		DCED600B57DA47569020FC94 /* tolls-linkt.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.md"; sourceTree = "<group>"; };
+		3A79EEF6E83C422D9AFABBEB /* tolls-linkt.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "tolls-linkt.pa.md"; sourceTree = "<group>"; };
+		EE8F9BC331494A8198539CD7 /* transport-card.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.hi.md"; sourceTree = "<group>"; };
+		5A5550C42B8C465F8B3EC8C5 /* transport-card.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.md"; sourceTree = "<group>"; };
+		5C08EC39F7A44407B7805149 /* transport-card.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "transport-card.pa.md"; sourceTree = "<group>"; };
+		10EB0D5164434F21B5BD3804 /* used-car-ppsr.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.hi.md"; sourceTree = "<group>"; };
+		CAE3465F0A0343DEB280793E /* used-car-ppsr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.md"; sourceTree = "<group>"; };
+		4720310EFBD5477F8D31DC16 /* used-car-ppsr.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "used-car-ppsr.pa.md"; sourceTree = "<group>"; };
+		7E8307782FC34E23BB858605 /* utilities-connect.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.hi.md"; sourceTree = "<group>"; };
+		CE4567A6E0F24DEABA2E53F7 /* utilities-connect.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.md"; sourceTree = "<group>"; };
+		4B3D6D6A12F54DA29558459A /* utilities-connect.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "utilities-connect.pa.md"; sourceTree = "<group>"; };
+		68609CAFF2444A1A966D1637 /* visa-immiaccount.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.hi.md"; sourceTree = "<group>"; };
+		898A991E92CD475887B71D7E /* visa-immiaccount.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.md"; sourceTree = "<group>"; };
+		D08F123F8896471792614017 /* visa-immiaccount.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-immiaccount.pa.md"; sourceTree = "<group>"; };
+		C351B3FA05154D229C7B1C34 /* visa-work-rights.hi.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.hi.md"; sourceTree = "<group>"; };
+		2E4DE8ED7B9048EC855CE250 /* visa-work-rights.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.md"; sourceTree = "<group>"; };
+		36B0754DE8B24F4EA55C12A9 /* visa-work-rights.pa.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "visa-work-rights.pa.md"; sourceTree = "<group>"; };
+		02A6D8F5B19A4400A19E9FB6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		67283EC104A346B9AAC03F9F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C7B5ABE5408940BA828220F6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		44235A09A1E54B07AB87A724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B64AA913AA246FBA4428A2A /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = wrapper.storekit; path = Products.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E6F19F210028496F983EBF38 /* Frameworks */ = {
+		F46D4FCE91C146E3883EEB02 /* Frameworks */ = {
 					isa = PBXFrameworksBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		2F9A4F86732D43CAB00E431F /* Frameworks */ = {
+		446F11A43E4F45A9B1ABDC8F /* Frameworks */ = {
 					isa = PBXFrameworksBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		76C5B132991E4B45A6243B8D /* Frameworks */ = {
+		23CD238DA73D4DAFACDFC9BD /* Frameworks */ = {
 					isa = PBXFrameworksBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
@@ -438,36 +440,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D86F144BB9294AC4A62E082C /* App */ = {
+		691EEE5156044FCA9A417B35 /* App */ = {
 					isa = PBXGroup;
 					children = (
-						B84C82B43C474CDC9DE5F4B5,
-						10403CBBE59044F0A9A2EA37,
-						8444320726D04436BF832041,
-						588C50CEB6564F618848BC20
+						5A15D582B3BD43FC8B64D232,
+						A962BA395B0C4FDAB4C4F88B,
+						1E07C5DFA4C945BDA31091E4,
+						E4BB2FD619F44DD7BD38F787
 					);
 					path = App;
 					sourceTree = "<group>";
 				};
-		5E6BF02927EE4764823EBDC8 /* Components */ = {
+		2904BABF96194BB8B7A95B45 /* Components */ = {
 					isa = PBXGroup;
 					children = (
-						7AF2B283A79D4F56B65DF0C4,
-						CAB6974E3C8E4F939344BD14,
-						0667595FEF614943B700340C
+						49629A58D490405FAA3D4B50,
+						102F11FFB8B54CB6813DAED5,
+						EE65D38F1FEE4116AFB2566C,
+						B96D88247E1B40538828DBD1
 					);
 					path = Components;
 					sourceTree = "<group>";
 				};
-		E66403D3753441198026CC89 /* Configuration */ = {
+		BFBB80A109094B60AC8A7198 /* Configuration */ = {
 					isa = PBXGroup;
 					children = (
-						B0C72DDCCF9047229EA101C8
+						4B64AA913AA246FBA4428A2A
 					);
 					path = Configuration;
 					sourceTree = "<group>";
 				};
-		50159A5378444AE785708B8C /* Core */ = {
+		FA55689DD84D402CA351E0E9 /* Core */ = {
 					isa = PBXGroup;
 					children = (
 		
@@ -475,297 +478,297 @@
 					path = Core;
 					sourceTree = "<group>";
 				};
-		0068175AD95B47D28A48BAD6 /* Extensions */ = {
+		F019B59441E0496D8C665BC1 /* Extensions */ = {
 					isa = PBXGroup;
 					children = (
-						89321A73B53C423D9D1968D0
+						FDE057A0A9D544F780B8084C
 					);
 					path = Extensions;
 					sourceTree = "<group>";
 				};
-		EF736F82109549D7B5B73F06 /* About */ = {
+		4ED6BC357B354B1AB9FFFE12 /* About */ = {
 					isa = PBXGroup;
 					children = (
-						584C5865BC8448DD85ACF533,
-						06BCEA5F2D074F7991E3EC4B
+						9C32B88336D14BF3855F96E7,
+						1366EB4E62C8458D98C93B51
 					);
 					path = About;
 					sourceTree = "<group>";
 				};
-		04900647D0B148BA9BCAA5E7 /* Article */ = {
+		C87A786294184EBDBB0E3234 /* Article */ = {
 					isa = PBXGroup;
 					children = (
-						AFF2FCB8C28345FABB529704
+						DB3FAA8A3E18430AA258AA41
 					);
 					path = Article;
 					sourceTree = "<group>";
 				};
-		CAE2C281FB6E44BABF690B7A /* Bookmarks */ = {
+		7BBC30FC30B340EAAB050D21 /* Bookmarks */ = {
 					isa = PBXGroup;
 					children = (
-						D31656DD11424A9297378871
+						5DDE64E1E56D40D49EC442A1
 					);
 					path = Bookmarks;
 					sourceTree = "<group>";
 				};
-		BF89FF37A9584DD8831AD710 /* Categories */ = {
+		E4C7A987E19D455EA09FE679 /* Categories */ = {
 					isa = PBXGroup;
 					children = (
-						C276D86387744ABAA2F62DDF
+						A60A7B3F943B454D94571908
 					);
 					path = Categories;
 					sourceTree = "<group>";
 				};
-		B93F5A0192FE47EFA0A6799B /* Checklist */ = {
+		84D2C71ED713482F98CAAC09 /* Checklist */ = {
 					isa = PBXGroup;
 					children = (
-						44EF35890A1440AD920420D7
+						857AEE45BE924D289F7F39EF
 					);
 					path = Checklist;
 					sourceTree = "<group>";
 				};
-		EC8E64C425794A7292EC5378 /* Home */ = {
+		9EAE6BE93A4349478B80EACD /* Home */ = {
 					isa = PBXGroup;
 					children = (
-						375D813591CF4E74A59C2845
+						8E3466BFEA0B49B8BAED63D9
 					);
 					path = Home;
 					sourceTree = "<group>";
 				};
-		457BB90B99FA4E39920E8ED9 /* Journey */ = {
+		630D9B46D1114D4CA13169D6 /* Journey */ = {
 					isa = PBXGroup;
 					children = (
-						8E18D288CF8A475D88C19F23
+						09BECDDBCCFE4AD9A56571F5
 					);
 					path = Journey;
 					sourceTree = "<group>";
 				};
-		7FCD8DF856834E7A9AAB10BA /* Onboarding */ = {
+		28145F10FBAA42BFAD520F02 /* Onboarding */ = {
 					isa = PBXGroup;
 					children = (
-						AAD5188BAE1D48AC9F0E0763
+						8A0426AE74114EA988EA8880
 					);
 					path = Onboarding;
 					sourceTree = "<group>";
 				};
-		213B14A75B1441A3B221F2DF /* Paywall */ = {
+		7D9C385FA9274353B315AE58 /* Paywall */ = {
 					isa = PBXGroup;
 					children = (
-						BE0D74E3E1AD49A89B1E60A8
+						4FCB58CB59154E50A09C5DCE
 					);
 					path = Paywall;
 					sourceTree = "<group>";
 				};
-		33AF06D95BA54AA6B4E4C94F /* Search */ = {
+		550CCC7DE0864C298B5471F6 /* Search */ = {
 					isa = PBXGroup;
 					children = (
-						1AE5A6FF1C81475D8C0F2EC0
+						B135258937CF47B29C7BB681
 					);
 					path = Search;
 					sourceTree = "<group>";
 				};
-		B95054848A27478FA5858229 /* Settings */ = {
+		E8CEA02DB67F4C9694415D08 /* Settings */ = {
 					isa = PBXGroup;
 					children = (
-						C2C614ED174242EC9A492076
+						9CC9796BC62C4D7FA8B654A4
 					);
 					path = Settings;
 					sourceTree = "<group>";
 				};
-		2AE948350520486B90A5C074 /* Features */ = {
+		5A3AD036AEE046C187A4D485 /* Features */ = {
 					isa = PBXGroup;
 					children = (
-						EF736F82109549D7B5B73F06,
-						04900647D0B148BA9BCAA5E7,
-						CAE2C281FB6E44BABF690B7A,
-						BF89FF37A9584DD8831AD710,
-						B93F5A0192FE47EFA0A6799B,
-						EC8E64C425794A7292EC5378,
-						457BB90B99FA4E39920E8ED9,
-						7FCD8DF856834E7A9AAB10BA,
-						213B14A75B1441A3B221F2DF,
-						33AF06D95BA54AA6B4E4C94F,
-						B95054848A27478FA5858229
+						4ED6BC357B354B1AB9FFFE12,
+						C87A786294184EBDBB0E3234,
+						7BBC30FC30B340EAAB050D21,
+						E4C7A987E19D455EA09FE679,
+						84D2C71ED713482F98CAAC09,
+						9EAE6BE93A4349478B80EACD,
+						630D9B46D1114D4CA13169D6,
+						28145F10FBAA42BFAD520F02,
+						7D9C385FA9274353B315AE58,
+						550CCC7DE0864C298B5471F6,
+						E8CEA02DB67F4C9694415D08
 					);
 					path = Features;
 					sourceTree = "<group>";
 				};
-		B15F9921AF2449D2868422CB /* Models */ = {
+		2A33B1834DDA46C3A381CB02 /* Models */ = {
 					isa = PBXGroup;
 					children = (
-						C4428BF93C144986BEB9B13C,
-						A8E174275363460281686CDF,
-						1C005B3F01B649979449CD0F
+						1D1EAAFE4A5C4F85B1BE076F,
+						C17868396A124B2582F269D5,
+						B6892D5673724A048E831114
 					);
 					path = Models;
 					sourceTree = "<group>";
 				};
-		37925E2164DE4A91AA978A25 /* Repositories */ = {
+		8C2B5E66F7FE4328B4558B89 /* Repositories */ = {
 					isa = PBXGroup;
 					children = (
-						8E19A067563A4DE3B64286E0
+						8A76D5E85C97433C9F63D72E
 					);
 					path = Repositories;
 					sourceTree = "<group>";
 				};
-		BB320BE377BF438A9C68E758 /* articles */ = {
+		F4139AFF54EE49088B5E55AD /* articles */ = {
 					isa = PBXGroup;
 					children = (
-						5C1AA82CB6EE4434A6FA355F,
-						EBB34308611C48F2BD32CB91,
-						92F3C55822AA4B0F8CD91F1A,
-						066073ED533741948CA5A813,
-						C4C543AE7A49424188D0B609,
-						89982629B9B34E3F94C3BFBB,
-						0327E954D6B7477582D93D32,
-						3398B834EE324C95BC3CCEE5,
-						0DA8B15CBE4D4CDD9694FC73,
-						E226B3B6381E482EAA6A9940,
-						38AED438701B424BAEA6B135,
-						FCDAA97018564E14B9788753,
-						15C04AD2677948DD8200C13B,
-						C998B6A7B0A94A4CA0CD8593,
-						851612A9B05F4E05AE2D6327,
-						CD498CD7F67341059DB527EF,
-						33C961E020FC4A369AA54A70,
-						DF38AA63938440C0B46A8018,
-						7E389ACAF0184EA0A292D1C9,
-						19D91228546B49959DB5C310,
-						780966E97F404305B1423B6C,
-						2642AB112F7A4F97978E8B00,
-						14B0C94D9BF64AD5A592BEB4,
-						B35397B21D674E88B8EB62AD,
-						A1A15FC97D85439AB96CAC6D,
-						94FF804C836E4109B2529027,
-						69B7E923A35D431AB4F190DD,
-						ED8F21B99DC0435D81932EC4,
-						5CB96875A0044CB9838F8F6C,
-						B8A70B36A20144ADB69D20A8,
-						B83EE16C5622499E87D83CF3,
-						0F6B9D2D2CE24B30A9433CD5,
-						E8E77FD1E68648E693A49520,
-						1F9E937A1A554A5AA2D2E1AE,
-						514D1C9B37A64CA79B8FF980,
-						5D653D0D422E4513860C409E,
-						04A5BEEDF6E34E4C9C9FD1E5,
-						B7C5B19D1C28486994DC1FB7,
-						07BE7D3FB476476FB1477C59,
-						121B8579C24C4AA8B80000E7,
-						0A29F5DA21BC40628301A554,
-						B8AB69805376424E85064C7F,
-						57C6DAC8175E47868561038E,
-						F886CAA4390145D888635A1C,
-						097686D1C13448FB801A08DC,
-						A701938D8B4E4DE68E455912,
-						36809A4D5B4D449EA48D5185,
-						D4775CBF1A934D1A8A2EF509,
-						86020479E0504466AC7A65E2,
-						B22223582B4E4E558095C5A8,
-						CAAAD9ECBC92453295952D51,
-						F9B5D1BFED1644E2927BC5A3,
-						3AB24C7A0F4443B383BB2E99,
-						F67BC968F3284E14943E8086,
-						0D6E7B514D2944ECAEA15E7C,
-						26FD950678054F3FA03E907A,
-						F4D82A661A1B4A9ABA60F27D,
-						D14F8E1A0A134160869C49E9,
-						F8BE0BECC4CA4888B9BDDBE4,
-						D9D1EE2521AD40DE8A7E817A,
-						F1FDF5A6D77343CEA646378E,
-						FEF0A3CB15474F1597B71554,
-						F8B162F3B48D436A8D5D1A34,
-						6748F80112E648AC9E14BCE4,
-						E36B595EC3624FE2ADD5DDA1,
-						1E27F6D26FEC46668EE43E57,
-						88B4ED240D514EBE9DEBAF0A,
-						121536F2383D49ADBA0761B4,
-						ADD24520E1F74EBB82439BE4,
-						EE12AB33D799455ABD511E9A,
-						B5487B6D707845B7A0C66AAD,
-						C4797F1D603A46A593F3DBF2,
-						108B1858587D4653B8DF8C6A,
-						093E7BFBAE2945CD9FD1DA83,
-						490EC5FEE3BE40EA9D07B963,
-						1FDD647346E74F1CAF6A453D,
-						BAFF0E2A8B504F4389B777B2,
-						D21CF8184CA44197A4846269,
-						B38BE15DFCEA4346B27F4D9B,
-						25B227CDBF2843FBAC0C38BF,
-						99DA3AF8A0FA446CA89BDAFD,
-						450F75E486314BFD81C8B18E,
-						E9AEAF14DDBD449AA226815B,
-						B54DED89DFE04863BEC2E781,
-						5F2B6F1E03594F16953A6CCC,
-						05C91E7E388F48B396E7B1A5,
-						840FA8F3B281475D85358A1D,
-						502B41F6EA6E4E73955D32C7,
-						78C5B505EDA2401D984D420C,
-						AACB8F0BC94C466388405FF1,
-						45F9B5D447C04336B1293434,
-						9D91FC73B6A24F68B2CABD2F,
-						2E0BFC8A5FB544C5972F0950,
-						FDFABB7A515E44788BA908B9,
-						6506272FEDD64B74B43E58D0,
-						490F66A8720B467EB7AC73F4,
-						AAE09DE9E1F440D98C001D0B,
-						2D0E6648B31A43DB9CF070B5,
-						7D06AD3745B048EE9E5A034B,
-						7749B867AB6B4C5FAE94CCC6,
-						7EDF5786A72643E1B30AD5EF,
-						96E24F93EA094F6B842D372E,
-						1A3A8C245FB84A908097AA9B,
-						5DE4F6C6F2534973B296AFA8,
-						3980D940C4D0487ABD5650D9,
-						0BB2BA6480B34CDABFAA2C48,
-						EF9DADE7A545488E8F42F058,
-						4153F3D14A2F4F18BCB2F01D,
-						660A0CFD729A42CDA641AE66,
-						59280B7415E549DDB563DDF0,
-						8BBB5D2BA52440A98D5AC8AC,
-						441856F965894FA08420B4D5,
-						02C3C167E3904C9BAD4B5FEB,
-						EA2030BEAFC74802820759AD,
-						1D58A115BDBB404BB4D2EE64,
-						46BFB73889B341BC943E70FE,
-						163C9C6E31F94ECAA8DED362,
-						438D675AB525449BAFDDE82E,
-						7DFC43501DCE42CE93D8CC4B,
-						A5AF81CFF2424CCCA3185269,
-						23FD80E9D973441DB9C0CE49,
-						3FFA6452CC8C41508EC092D7,
-						ED10DB5475B24A35ADC7B290,
-						72B01FFCC7AE4CF19EFF3877,
-						533112171E70474DB446CC11,
-						06E381C327D34F2CBBC35504,
-						20121B27CEDA4471820D71BB,
-						D1868480C7294D93A3897C60,
-						CDEEE396014842F0876BB2A4,
-						22EB4AE0893C4E46BBC373B5,
-						B30F4386320C4E2898B1795F,
-						4920B66F530041EDB902027F,
-						731B4624FAC6404F85FFF1BD,
-						04D9547BB5C74CD88F42CD61,
-						8BFF295D1ABD41BF85D7A34C,
-						4ADB228887FE4B2C8F49EB1F,
-						F8EFF97D882D47AFB7706A46,
-						DAA39E9E58E34DE0AE23258D,
-						F3B7C4EB01F34E9190828F90,
-						69116C4E6DB74EB983E5DD45,
-						C6E21FDF625743EE86932CAA,
-						087E955C95434FE7B0C7469B,
-						F2B0C90B8FC54950B79C241C,
-						68952604C61244339A08CBF2,
-						329DCE50456941E49FDA98E3,
-						B0E7872B52E94757A36F990A,
-						3899CEC97A3E4FE4933989C7,
-						03C2F7C46C8345EA879609FB,
-						E67B0CC5D8AE47C8A897CF9E,
-						15EB3663F47A489189AEA3D9
+						1F69434BB682430E9930326D,
+						4570FDCE360C4DCAA59853AC,
+						F37F7B1F96EA4606A0D8BA4D,
+						C1C28A63ABA74E509823AD91,
+						13CDCA00887B4CAA9C267A12,
+						7783A5C3D8684FDABE82C948,
+						24C73F9CCE0F4A438CF50909,
+						4E6F0E1FBDE948C99731714E,
+						BDB45B09EF3B452C9C248208,
+						228B0DA56A764DC28668C36A,
+						F4AD53301B2D431CAA5A97B5,
+						836C39D91E49488FB12BDED3,
+						3FE404E96FF844DA9D6BAA48,
+						EC56A70A89174465B2C06C8A,
+						0600B185CF574649B35F7D49,
+						31897A07DDA5459FB2E7355D,
+						8894D3881F0A4A23A976B7E3,
+						80EEF8C24A6545D8AFD368CC,
+						A2DE361472AA43E3A8499883,
+						FF438A312DD744CD9225A0E9,
+						3234FB6E8E9A4BFC8840DC83,
+						A249E3887D984412A5234DB9,
+						ECCC8799F47F41BBBDC5287B,
+						3614E496A7F9483DB6317FC4,
+						B6ED9BADADF8406C97D523B5,
+						7B1D3CE5090D4F2C89E0182C,
+						DB99D3DF2F8D438BA4CA7440,
+						96ACCF886F794C9D8544ECA6,
+						B45855A6782049D184415969,
+						BB20132E760D4BB6BFC1B5FF,
+						FB19AE209EBB4BE0AE40C3F1,
+						EEB6891500234C6D8D0EFF23,
+						6FA8AF91F5E54D46BBC58701,
+						E607257EA57D48FB9319813D,
+						D59B2B1827D74F4EB63E2059,
+						D8FE0180A53C4086BAEF01EE,
+						8036F69155EF4FD29FA8691D,
+						FC2C024C2F1E4D7083EDAC1C,
+						14D27E94C85F42C78C5F2177,
+						7A07AD287F22486C8FBFFE0B,
+						600BF36EA4394CC7B2E52CEC,
+						5BFD5F43E7E9441FA24B390F,
+						DCF98C8C664448E2BB9E5109,
+						ECD7A5C3BC294D379762157E,
+						32C5A35424384BD4841272BD,
+						E547929444B54BA18C174A97,
+						0C67D60F75474D96822C01CA,
+						B4DFB496F0264B72A686A73C,
+						8F6FCD07AAD54080A01E0B1D,
+						8CCE4E09FA8E49E1B0AEF105,
+						5D62350F809D4EAABD580397,
+						F6D22F976EBC4017AD96CFEF,
+						0966D06E8DDA4C46A34A78BD,
+						8EBD32E007214D31897160EF,
+						91D2C4B6BD1A4460857DD8CE,
+						B6D98A3CF01A4FA39363D81A,
+						906A77A129444F3F8E96FB4D,
+						FBB0C84D28B94E8C9050D3E5,
+						2941DEBC7ED34AF0850F694C,
+						79CA7DFB1F214D37AD8F6B01,
+						A077B6C7E2BF486FA3BB10DC,
+						674066CA42C8491CBF31B386,
+						3D76DE27F6304A20B1F9B8A4,
+						2F15121F9C4C46BCBC078C5E,
+						3C8FFFBFAD3B44D585DA58F5,
+						F40CC6E1F9314E8F83394352,
+						C823C84209DF44EABB409D65,
+						316A7870196D4C4996B728B4,
+						B11EE4BAB22A4EC2B695E106,
+						76E7E4A865EC4243AC2EA135,
+						B3C4C86B58BA455890352205,
+						4B7DA88665194BF6BB8AEB0E,
+						A67244803CA04C26B0FD46BD,
+						FDE77902FA8143809AD22384,
+						DBBBEA7869664AD2BC9EB5B7,
+						415CD45C861540AF9FB1B6A6,
+						B0A3D5B4F42D4BA791C6709C,
+						1EF5A74B947342DB8D275BC1,
+						6019C270C671453AB0961CA2,
+						1B7A196534304097B25A9582,
+						C2F0D989CCBC419B91AC9C16,
+						29490BCA71F549ACBD7A6CB4,
+						825C4AAF9C8E4C0792D8B954,
+						EC41FCA277D04E40AF3DC43D,
+						4E50B2B58CFF4C06BBFC7846,
+						9FBBE5B7B300405D95CE5DBE,
+						CFF57F86F0E0421299EBA89A,
+						BCC74EC55439457FBD45117A,
+						97AF2DF6397C4523836D574A,
+						CDBDE670F12C489CA8FD42AB,
+						4F09625125FE4E66BAD2CF6A,
+						92AA75F545C244B79CB6E122,
+						C15EBBAA239543D6979E3C82,
+						6DE7955DED0D44928DE88B97,
+						A2A4746C1A4543C7A0C3052F,
+						4D17B7E3FB3B44AA9B5FECE8,
+						32EEC128655D40FF9BFCB9F9,
+						6D339CA6505E461C90D36028,
+						804B111EAFEE4B4CA4393AB1,
+						0D9C32044F67454EBC31E8C1,
+						3C49D094619C45248835E225,
+						CB689BE6A81A40A68F307AEB,
+						9A95128225834E94815BDD2D,
+						8E0A554FF8BD4B85816C8089,
+						80A63A5123BB44B5AA8B09B0,
+						FA9D0211A85D48F7BD40BE32,
+						2E23BFD61FF44DC0A8F01E2B,
+						9154346CD532484DB4396399,
+						5B2D68C525EE4E1EA30510BA,
+						3E42E73975374B95A40994AE,
+						493D7189757D4A97B5ECC6F8,
+						C3C5A420126D4B6B863EFCF1,
+						563F9BB2133F43D8B6C3BB70,
+						CABF78764C9141C4B8928176,
+						ADD0E8CA93C148E3913FE3D6,
+						B7236EDD587746B98B432A2F,
+						E8A33C1F5CCD47B2887EA195,
+						3F1F1F2B2B87482FBDEC11E9,
+						435E3C08BB0C43089C3F9A20,
+						B188E88112B24EBB92BC3012,
+						A6ED798303DB4C0BA1ADD0FC,
+						8F0678E8049A4F2B8827FCC0,
+						68B9969934454770A752A9F9,
+						817F3B5C7E614F9E9BFC9C0B,
+						10204E92F5444CB09F436764,
+						A019934D128F49B69C8AE531,
+						26B758494AEC408B9B28DD30,
+						A5E25D638CF24784B650599A,
+						131DFC6CE3A149E78DCB25C1,
+						38DB78DAAB3D4A5FA8524126,
+						BE3D13DB6637429CB5B72E77,
+						4893649DDF1E472B823AF212,
+						F480E3EA196842F592D0D7A0,
+						DCED600B57DA47569020FC94,
+						3A79EEF6E83C422D9AFABBEB,
+						EE8F9BC331494A8198539CD7,
+						5A5550C42B8C465F8B3EC8C5,
+						5C08EC39F7A44407B7805149,
+						10EB0D5164434F21B5BD3804,
+						CAE3465F0A0343DEB280793E,
+						4720310EFBD5477F8D31DC16,
+						7E8307782FC34E23BB858605,
+						CE4567A6E0F24DEABA2E53F7,
+						4B3D6D6A12F54DA29558459A,
+						68609CAFF2444A1A966D1637,
+						898A991E92CD475887B71D7E,
+						D08F123F8896471792614017,
+						C351B3FA05154D229C7B1C34,
+						2E4DE8ED7B9048EC855CE250,
+						36B0754DE8B24F4EA55C12A9
 					);
 					path = articles;
 					sourceTree = "<group>";
 				};
-		E7E48845C4CC463BA05F3B12 /* images */ = {
+		53DEA014274C44BEA2432A92 /* images */ = {
 					isa = PBXGroup;
 					children = (
 		
@@ -773,7 +776,7 @@
 					path = images;
 					sourceTree = "<group>";
 				};
-		E7C7874DABD446E8B0BA8133 /* states */ = {
+		99FC763BA281436CA98AC3F3 /* states */ = {
 					isa = PBXGroup;
 					children = (
 		
@@ -781,148 +784,148 @@
 					path = states;
 					sourceTree = "<group>";
 				};
-		15D2E8E2D8DE42A3B596B294 /* Content */ = {
+		BF36985EB5C2402293295116 /* Content */ = {
 					isa = PBXGroup;
 					children = (
-						BB320BE377BF438A9C68E758,
-						E7E48845C4CC463BA05F3B12,
-						E7C7874DABD446E8B0BA8133,
-						03A44EF720CC4C3E81165F2D
+						F4139AFF54EE49088B5E55AD,
+						53DEA014274C44BEA2432A92,
+						99FC763BA281436CA98AC3F3,
+						A17FD79AFA874E12A7FE80A9
 					);
 					path = Content;
 					sourceTree = "<group>";
 				};
-		FDA21F4DA5744497A1609DDE /* en.lproj */ = {
+		83547EFF890F4710A236DF02 /* en.lproj */ = {
 					isa = PBXGroup;
 					children = (
-						2244CFE6270146009898D1DF
+						02A6D8F5B19A4400A19E9FB6
 					);
 					path = en.lproj;
 					sourceTree = "<group>";
 				};
-		3E95469A2B514E3A85109548 /* hi.lproj */ = {
+		A0AB9A8C3FB34E09B3500EB1 /* hi.lproj */ = {
 					isa = PBXGroup;
 					children = (
-						24D9360CD6294C11A97401CE
+						67283EC104A346B9AAC03F9F
 					);
 					path = hi.lproj;
 					sourceTree = "<group>";
 				};
-		A8139F2D182F4F85B2967CF7 /* pa.lproj */ = {
+		A67D1239D16E4C2E907A9A0F /* pa.lproj */ = {
 					isa = PBXGroup;
 					children = (
-						762775E6A56A448D9954D071
+						C7B5ABE5408940BA828220F6
 					);
 					path = pa.lproj;
 					sourceTree = "<group>";
 				};
-		DEC602122E1645DB9321D6A4 /* Localization */ = {
+		4D647455272846F3BACB05C2 /* Localization */ = {
 					isa = PBXGroup;
 					children = (
-						FDA21F4DA5744497A1609DDE,
-						3E95469A2B514E3A85109548,
-						A8139F2D182F4F85B2967CF7
+						83547EFF890F4710A236DF02,
+						A0AB9A8C3FB34E09B3500EB1,
+						A67D1239D16E4C2E907A9A0F
 					);
 					path = Localization;
 					sourceTree = "<group>";
 				};
-		3A0EED6DC5BF4A6ABD6FC709 /* Resources */ = {
+		2DA970003D05485AADC4AD88 /* Resources */ = {
 					isa = PBXGroup;
 					children = (
-						15D2E8E2D8DE42A3B596B294,
-						DEC602122E1645DB9321D6A4
+						BF36985EB5C2402293295116,
+						4D647455272846F3BACB05C2
 					);
 					path = Resources;
 					sourceTree = "<group>";
 				};
-		2AE747AA16D84918BE0C74A4 /* Services */ = {
+		7D46D3CF46964EA99619D4CF /* Services */ = {
 					isa = PBXGroup;
 					children = (
-						3CF038E626B34FA0A26272F7,
-						23235F3C09C54DE998CBD86F,
-						81D1F655D60D4ABFABDB6EFC,
-						570B92F8879241CFBF4A4432,
-						77D843989E3C457381883335
+						4AA54E7830D0443D9FAE45DE,
+						74D1B5BBB9DF42AFBF4B4166,
+						586BF4B9D0CA4B23A3B39E8A,
+						5B5A2203FA2A44C0863A9055,
+						EA2F398657D848A0A2F1615E
 					);
 					path = Services;
 					sourceTree = "<group>";
 				};
-		D54EFA201855476593C94788 /* Utilities */ = {
+		26F18D9C6F824166B55E9C3A /* Utilities */ = {
 					isa = PBXGroup;
 					children = (
-						EA19337743BA45CFA4B256A2,
-						3FB0EA6D85E74555B05A09D5
+						5E13600653E7492CB53D59A1,
+						3AD64F0E42D644FABF46387F
 					);
 					path = Utilities;
 					sourceTree = "<group>";
 				};
-		7C5B8DF2F35145F59EC3B054 /* AussieStart */ = {
+		64B49FE57F16454788B634DD /* AussieStart */ = {
 					isa = PBXGroup;
 					children = (
-						D86F144BB9294AC4A62E082C,
-						6FBE574395154A379D96B4C7,
-						5E6BF02927EE4764823EBDC8,
-						E66403D3753441198026CC89,
-						50159A5378444AE785708B8C,
-						0068175AD95B47D28A48BAD6,
-						2AE948350520486B90A5C074,
-						B15F9921AF2449D2868422CB,
-						37925E2164DE4A91AA978A25,
-						3A0EED6DC5BF4A6ABD6FC709,
-						2AE747AA16D84918BE0C74A4,
-						D54EFA201855476593C94788,
-						AACCF4515DB54483A06CAA68,
-						C7C4BAF8844144F3ADA30D24
+						691EEE5156044FCA9A417B35,
+						0474F8399140439C9118BCB6,
+						2904BABF96194BB8B7A95B45,
+						BFBB80A109094B60AC8A7198,
+						FA55689DD84D402CA351E0E9,
+						F019B59441E0496D8C665BC1,
+						5A3AD036AEE046C187A4D485,
+						2A33B1834DDA46C3A381CB02,
+						8C2B5E66F7FE4328B4558B89,
+						2DA970003D05485AADC4AD88,
+						7D46D3CF46964EA99619D4CF,
+						26F18D9C6F824166B55E9C3A,
+						44235A09A1E54B07AB87A724,
+						437FFA0AB1FC4CF08FCE9398
 					);
 					path = AussieStart;
 					sourceTree = "<group>";
 				};
-		45BA89B83DA34F988579F175 /* AussieStartTests */ = {
+		A9A2134C64A8494A964229C9 /* AussieStartTests */ = {
 					isa = PBXGroup;
 					children = (
-						7DC881CB2B5F4F908592934D
+						C0E35E8B6D7247E5B042D737
 					);
 					path = AussieStartTests;
 					sourceTree = "<group>";
 				};
-		7A223B780F1B47F982181B42 /* AussieStartUITests */ = {
+		5D99508AB5D1431EB150D95E /* AussieStartUITests */ = {
 					isa = PBXGroup;
 					children = (
-						804BC8F63D054C9B8372AD56
+						47162F5F4C9F46018844F7DD
 					);
 					path = AussieStartUITests;
 					sourceTree = "<group>";
 				};
-		F2AE3D571DBC49B29FA90388 /* Products */ = {
+		B91222DB59744A7B89D39EC9 /* Products */ = {
 					isa = PBXGroup;
 					children = (
-						3B7E16F33770435C9B0B0396 /* AussieStart.app */,
-						C74D68992BBD49D2B44AE505 /* AussieStartTests.xctest */,
-						E4C30EF7374149A08BF06ECD /* AussieStartUITests.xctest */,
+						02DE86BCB2DC4DB991834642 /* AussieStart.app */,
+						3044A6E4EE964ED88B33F05F /* AussieStartTests.xctest */,
+						8B061CF0FC3A439C8F1A992B /* AussieStartUITests.xctest */,
 					);
 					name = Products;
 					sourceTree = "<group>";
 				};
-		EA986766175F491C96D1290D = {
+		B02230C13777445D94361631 = {
 					isa = PBXGroup;
 					children = (
-						7C5B8DF2F35145F59EC3B054 /* AussieStart */,
-						45BA89B83DA34F988579F175 /* AussieStartTests */,
-						7A223B780F1B47F982181B42 /* AussieStartUITests */,
-						F2AE3D571DBC49B29FA90388 /* Products */,
+						64B49FE57F16454788B634DD /* AussieStart */,
+						A9A2134C64A8494A964229C9 /* AussieStartTests */,
+						5D99508AB5D1431EB150D95E /* AussieStartUITests */,
+						B91222DB59744A7B89D39EC9 /* Products */,
 					);
 					sourceTree = "<group>";
 				};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2046126FB8C4F08B0DC2E5F /* AussieStart */ = {
+		E6857E6C5B294820BC8FD606 /* AussieStart */ = {
 					isa = PBXNativeTarget;
-					buildConfigurationList = 8A8D4CAD0AF240869C884CAA /* Build configuration list for PBXNativeTarget "AussieStart" */;
+					buildConfigurationList = 4AECB4F2172948CB81E3B465 /* Build configuration list for PBXNativeTarget "AussieStart" */;
 					buildPhases = (
-						9B71A552716A491F844EA989 /* Sources */,
-						E6F19F210028496F983EBF38 /* Frameworks */,
-						0540A2D1552746ECBC450FB1 /* Resources */,
+						79FF52BE070D428BADDCAC2A /* Sources */,
+						F46D4FCE91C146E3883EEB02 /* Frameworks */,
+						8ACF4416D14343D4B9587AD7 /* Resources */,
 					);
 					buildRules = (
 					);
@@ -930,72 +933,72 @@
 					);
 					name = AussieStart;
 					productName = AussieStart;
-					productReference = 3B7E16F33770435C9B0B0396 /* AussieStart.app */;
+					productReference = 02DE86BCB2DC4DB991834642 /* AussieStart.app */;
 					productType = "com.apple.product-type.application";
 				};
-		139FFB42329A4507A721A60C /* AussieStartTests */ = {
+		8C7FF82DA1D1489696BE5AC5 /* AussieStartTests */ = {
 					isa = PBXNativeTarget;
-					buildConfigurationList = 0D9E3481A00840639F1850AF /* Build configuration list for PBXNativeTarget "AussieStartTests" */;
+					buildConfigurationList = 6256500237B2452BB8F4967E /* Build configuration list for PBXNativeTarget "AussieStartTests" */;
 					buildPhases = (
-						9880491EA18F486F8AFB2AEC /* Sources */,
-						2F9A4F86732D43CAB00E431F /* Frameworks */,
-						B9287C86A8E9423FBE6D6DC9 /* Resources */,
+						F5F9003DB54F41178B990A9E /* Sources */,
+						446F11A43E4F45A9B1ABDC8F /* Frameworks */,
+						5F9F14E372464AE89BCFD624 /* Resources */,
 					);
 					buildRules = (
 					);
 					dependencies = (
-						3C6D1365ADBE4CC38ABA8B5A /* PBXTargetDependency */,
+						DFFDE4CAA8BF4C9C98C64355 /* PBXTargetDependency */,
 					);
 					name = AussieStartTests;
 					productName = AussieStartTests;
-					productReference = C74D68992BBD49D2B44AE505 /* AussieStartTests.xctest */;
+					productReference = 3044A6E4EE964ED88B33F05F /* AussieStartTests.xctest */;
 					productType = "com.apple.product-type.bundle.unit-test";
 				};
-		159C7EF689DB4A7992160BFB /* AussieStartUITests */ = {
+		FC4E67EF27014B00A55B3F9E /* AussieStartUITests */ = {
 					isa = PBXNativeTarget;
-					buildConfigurationList = 227A91D714D04CD4AFE412A8 /* Build configuration list for PBXNativeTarget "AussieStartUITests" */;
+					buildConfigurationList = 2476DD7B0C0F460F9A0A6514 /* Build configuration list for PBXNativeTarget "AussieStartUITests" */;
 					buildPhases = (
-						11EF1AE4EDC14393AC9CDC97 /* Sources */,
-						76C5B132991E4B45A6243B8D /* Frameworks */,
-						D5E51F0D3ECC4479913AD4E6 /* Resources */,
+						19F58006DC744C51BC3BCBF2 /* Sources */,
+						23CD238DA73D4DAFACDFC9BD /* Frameworks */,
+						F23B3713DD0E464FB8AA389C /* Resources */,
 					);
 					buildRules = (
 					);
 					dependencies = (
-						D1DB1C135988443A9ECFD7D2 /* PBXTargetDependency */,
+						657715E04BD540CBA5EE79BA /* PBXTargetDependency */,
 					);
 					name = AussieStartUITests;
 					productName = AussieStartUITests;
-					productReference = E4C30EF7374149A08BF06ECD /* AussieStartUITests.xctest */;
+					productReference = 8B061CF0FC3A439C8F1A992B /* AussieStartUITests.xctest */;
 					productType = "com.apple.product-type.bundle.ui-testing";
 				};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		14E497B1B4074858BD6DF5F8 /* Project object */ = {
+		C261959FC99E4E09B699BE60 /* Project object */ = {
 					isa = PBXProject;
 					attributes = {
 						BuildIndependentTargetsInParallel = 1;
 						LastSwiftUpdateCheck = 1600;
 						LastUpgradeCheck = 1600;
 						TargetAttributes = {
-							B2046126FB8C4F08B0DC2E5F = {
+							E6857E6C5B294820BC8FD606 = {
 								CreatedOnToolsVersion = 16.0;
 								DevelopmentTeam = 6757XQF27Y;
 							};
-							139FFB42329A4507A721A60C = {
+							8C7FF82DA1D1489696BE5AC5 = {
 								CreatedOnToolsVersion = 16.0;
 								DevelopmentTeam = 6757XQF27Y;
-								TestTargetID = B2046126FB8C4F08B0DC2E5F;
+								TestTargetID = E6857E6C5B294820BC8FD606;
 							};
-							159C7EF689DB4A7992160BFB = {
+							FC4E67EF27014B00A55B3F9E = {
 								CreatedOnToolsVersion = 16.0;
 								DevelopmentTeam = 6757XQF27Y;
-								TestTargetID = B2046126FB8C4F08B0DC2E5F;
+								TestTargetID = E6857E6C5B294820BC8FD606;
 							};
 						};
 					};
-					buildConfigurationList = EF14AA686A2142B594043938 /* Build configuration list for PBXProject "AussieStart" */;
+					buildConfigurationList = 559C1C6225B147668658285E /* Build configuration list for PBXProject "AussieStart" */;
 					compatibilityVersion = "Xcode 15.0";
 					developmentRegion = en;
 					hasScannedForEncodings = 0;
@@ -1005,272 +1008,273 @@
 						hi,
 						pa,
 					);
-					mainGroup = EA986766175F491C96D1290D;
-					productRefGroup = F2AE3D571DBC49B29FA90388 /* Products */;
+					mainGroup = B02230C13777445D94361631;
+					productRefGroup = B91222DB59744A7B89D39EC9 /* Products */;
 					projectDirPath = "";
 					projectRoot = "";
 					targets = (
-						B2046126FB8C4F08B0DC2E5F /* AussieStart */,
-						139FFB42329A4507A721A60C /* AussieStartTests */,
-						159C7EF689DB4A7992160BFB /* AussieStartUITests */,
+						E6857E6C5B294820BC8FD606 /* AussieStart */,
+						8C7FF82DA1D1489696BE5AC5 /* AussieStartTests */,
+						FC4E67EF27014B00A55B3F9E /* AussieStartUITests */,
 					);
 				};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0540A2D1552746ECBC450FB1 /* Resources */ = {
+		8ACF4416D14343D4B9587AD7 /* Resources */ = {
 					isa = PBXResourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						7B808BD77D644868885C9F7D /* Assets.xcassets in Resources */,
-						72E36926FFA844D39DDED42F /* PrivacyInfo.xcprivacy in Resources */,
-						DA038654DE2147D8858FA2B8 /* catalog.json in Resources */,
-						CC3F00F9C56F44A29AAED823 /* abn-contracting.hi.md in Resources */,
-						2F1FBF2137B24E4DAC4A7B0E /* abn-contracting.md in Resources */,
-						F65BFB2212C9489FBA7A7887 /* abn-contracting.pa.md in Resources */,
-						83B8043FD9154ACDAA5C08BF /* ambulance-cover.hi.md in Resources */,
-						D6AC236109004972B19ACF9A /* ambulance-cover.md in Resources */,
-						B56E7016884A4F6795E81E11 /* ambulance-cover.pa.md in Resources */,
-						1245194CBF0F42709F874DEE /* arrival-airport.hi.md in Resources */,
-						77AD7453BD4F4B59A8006D2F /* arrival-airport.md in Resources */,
-						C3D69F01AF3F40B38782F09C /* arrival-airport.pa.md in Resources */,
-						9EAC0AD8D6004D05978BE054 /* banking-open-account.hi.md in Resources */,
-						EEA6BA530798425786B195EA /* banking-open-account.md in Resources */,
-						759E911B32D5486B8636796C /* banking-open-account.pa.md in Resources */,
-						E8165090A29344B4A895B392 /* car-insurance-types.hi.md in Resources */,
-						C1AE896560B94E46BDADF306 /* car-insurance-types.md in Resources */,
-						AC2E750A7A0F459AAC1CE940 /* car-insurance-types.pa.md in Resources */,
-						A85D9221B8D64405920C09F7 /* centrelink-claim-start.hi.md in Resources */,
-						4957D77FC5904F42901316F4 /* centrelink-claim-start.md in Resources */,
-						C5610FCD4067477CA0742CAD /* centrelink-claim-start.pa.md in Resources */,
-						206CE6C7FE1942209BE30658 /* choose-suburb.hi.md in Resources */,
-						051D973DDBFA4188BCE4916B /* choose-suburb.md in Resources */,
-						FB0000DE23654A1AA23E98A9 /* choose-suburb.pa.md in Resources */,
-						59713A864F7A42BAB73E1B63 /* contents-insurance.hi.md in Resources */,
-						2637596082444DC18BE922A4 /* contents-insurance.md in Resources */,
-						015F77FFD1074E669D042474 /* contents-insurance.pa.md in Resources */,
-						B1A162F388A04FDC8C00048F /* driving-licence.hi.md in Resources */,
-						44909EA22D1C4BABB791A37C /* driving-licence.md in Resources */,
-						DCDFD3CF55FE440AB4FD0B12 /* driving-licence.pa.md in Resources */,
-						65DADF9628EA4165840218C8 /* emergency-contacts.hi.md in Resources */,
-						D2675032AE1943C880DCAF70 /* emergency-contacts.md in Resources */,
-						73288397D28C4579A2201B76 /* emergency-contacts.pa.md in Resources */,
-						91F97EBDA33C45B0A31FF07E /* explore-barossa-adelaide.hi.md in Resources */,
-						36F93AB4C66641C88C01FA8C /* explore-barossa-adelaide.md in Resources */,
-						3CA5C80D336045BDAC5458C5 /* explore-barossa-adelaide.pa.md in Resources */,
-						C72E307A864C4B7E8255F843 /* explore-blue-mountains.hi.md in Resources */,
-						F59AA4BD91D94112ACDE83FD /* explore-blue-mountains.md in Resources */,
-						E9622960AC284C5DAF41FF06 /* explore-blue-mountains.pa.md in Resources */,
-						6684B3879C954D3E96952562 /* explore-gold-coast.hi.md in Resources */,
-						9BEFD7DC54564EB0AA29201B /* explore-gold-coast.md in Resources */,
-						9629E5354ACE4C7B9F6679E3 /* explore-gold-coast.pa.md in Resources */,
-						02B9DCD38BA046088DACB584 /* explore-great-barrier-reef.hi.md in Resources */,
-						BC05E44F7B2447D9AC9C89A7 /* explore-great-barrier-reef.md in Resources */,
-						28694627D49F48CB8AC54322 /* explore-great-barrier-reef.pa.md in Resources */,
-						362E1D8FC3904EF19A8079F1 /* explore-great-ocean-road.hi.md in Resources */,
-						B6DA732B58A141C083358475 /* explore-great-ocean-road.md in Resources */,
-						0404B70B0A304E75BF83E062 /* explore-great-ocean-road.pa.md in Resources */,
-						EEF1F77B676F44998C9A6EC6 /* explore-phillip-island.hi.md in Resources */,
-						B81A6287052A4C598FA2A70F /* explore-phillip-island.md in Resources */,
-						94581EF2C07A40448D34C306 /* explore-phillip-island.pa.md in Resources */,
-						67ECA3E5A6264B56ACEC48B4 /* explore-rottnest.hi.md in Resources */,
-						273C3805039E4E6DB0E9F286 /* explore-rottnest.md in Resources */,
-						270F712298704D07A797E66A /* explore-rottnest.pa.md in Resources */,
-						A18185B239B643FABAE35CD5 /* explore-sydney-harbour.hi.md in Resources */,
-						80D68206D358434C8B1D564A /* explore-sydney-harbour.md in Resources */,
-						24A22C2A08B843858AA7846F /* explore-sydney-harbour.pa.md in Resources */,
-						41DC0D6D362740C9A914C13B /* explore-tasmania-hobart.hi.md in Resources */,
-						F836F99FD6384692B7000E11 /* explore-tasmania-hobart.md in Resources */,
-						48C06FE63F1D40A4AA61718E /* explore-tasmania-hobart.pa.md in Resources */,
-						4DD43A5609214D2A9C94765F /* explore-uluru.hi.md in Resources */,
-						E1FFC61E31CC4BED9E702546 /* explore-uluru.md in Resources */,
-						2801278B51D044B0A29A3890 /* explore-uluru.pa.md in Resources */,
-						FBA9CC7F7AE346018DB54744 /* family-centrelink.hi.md in Resources */,
-						42BFBB0EC6854F7797933726 /* family-centrelink.md in Resources */,
-						FEC8CFA3E8A94BA78463D449 /* family-centrelink.pa.md in Resources */,
-						BE5C2F256051493DAE19556F /* family-childcare.hi.md in Resources */,
-						29801C8F66004652BB4CAB56 /* family-childcare.md in Resources */,
-						70F8DFF112054A97A9920B4C /* family-childcare.pa.md in Resources */,
-						C2FD37D311AE47B8A4CB947A /* family-immunisation.hi.md in Resources */,
-						3257BAE7B9BC4BF58A38A41C /* family-immunisation.md in Resources */,
-						62938BFFED0144299A74922C /* family-immunisation.pa.md in Resources */,
-						95D6DC791E4240BBB2ECA554 /* family-schools.hi.md in Resources */,
-						5966EDEE71B44A7E9510EFD9 /* family-schools.md in Resources */,
-						607E0E155F9049B28CF83107 /* family-schools.pa.md in Resources */,
-						1F4096BE288A4FA980CD4EF4 /* first-month-budget.hi.md in Resources */,
-						C87FEBACE2AD418C97B9A495 /* first-month-budget.md in Resources */,
-						52CEA2E0FAA3454E864AD943 /* first-month-budget.pa.md in Resources */,
-						CA5A9DF873A24C99B584CD08 /* housing-rent.hi.md in Resources */,
-						E17301439EDD4950A7BBA28F /* housing-rent.md in Resources */,
-						1D572DD2DFF94B798553365D /* housing-rent.pa.md in Resources */,
-						7BE494861CDB489BBDA8B5CC /* inspection-condition-report.hi.md in Resources */,
-						3EA7A6EC8D7D42468C3895B5 /* inspection-condition-report.md in Resources */,
-						F46367E7E9E64B248A1D3185 /* inspection-condition-report.pa.md in Resources */,
-						110C70DA779844DB9BACA4F5 /* jobs-basics.hi.md in Resources */,
-						6D3548993BBE48F0BD993D5E /* jobs-basics.md in Resources */,
-						14F25A9FA07E4EC6953BDAE9 /* jobs-basics.pa.md in Resources */,
-						49F5BCBC59CC4122A7954663 /* library-council.hi.md in Resources */,
-						11D94B31FA6045868D052AE4 /* library-council.md in Resources */,
-						29D4D67CC9E44217B28E4E25 /* library-council.pa.md in Resources */,
-						A60E75C7FA044C05ACCD2A57 /* medicare-enrol.hi.md in Resources */,
-						6D5962A5882443A481D8D4E2 /* medicare-enrol.md in Resources */,
-						1F586806FC4142688CEB8D74 /* medicare-enrol.pa.md in Resources */,
-						D2563027C7DA4538AB564CE0 /* medicare-gp.hi.md in Resources */,
-						E8E4DDF4B6834139902C8AAF /* medicare-gp.md in Resources */,
-						8F49D233D948458CB3278B7D /* medicare-gp.pa.md in Resources */,
-						44AC651358664509AC86868B /* mygov-basics.hi.md in Resources */,
-						9F49E48B38124707941C713A /* mygov-basics.md in Resources */,
-						D30949A33C85427DA49665D3 /* mygov-basics.pa.md in Resources */,
-						35C9A6C3D5854F289D55E96E /* ovhc-visitors.hi.md in Resources */,
-						5EC7E246C0314FBA952AD653 /* ovhc-visitors.md in Resources */,
-						E7D1058AFF114EB6AF28F6BA /* ovhc-visitors.pa.md in Resources */,
-						DC32F77906FE47F2BD875216 /* police-check-wwcc.hi.md in Resources */,
-						652ED7D401D84EDBAAA4FEA4 /* police-check-wwcc.md in Resources */,
-						52F595C7459E493D85D0A321 /* police-check-wwcc.pa.md in Resources */,
-						4480657773EB494F990D4718 /* private-health-waiting.hi.md in Resources */,
-						071C727383674B9EA313FD34 /* private-health-waiting.md in Resources */,
-						A0839CB9209141D6AA7B1A78 /* private-health-waiting.pa.md in Resources */,
-						2F53EAFA120C45D0841CDA71 /* rental-bond.hi.md in Resources */,
-						380ED49CC19D480E96D53EB3 /* rental-bond.md in Resources */,
-						4A1045F034F549C9B7A6B087 /* rental-bond.pa.md in Resources */,
-						830DC10EC84B4DEF8FC7F733 /* scams-safety.hi.md in Resources */,
-						C9BB05942E344A78B2117575 /* scams-safety.md in Resources */,
-						D7706C89682D4BEF932A1F60 /* scams-safety.pa.md in Resources */,
-						C39C870C6A8E486896BDF382 /* shopping-essentials.hi.md in Resources */,
-						5CA2E709ED204C52A59E9560 /* shopping-essentials.md in Resources */,
-						175FA4EBA8504AD8B7A1687B /* shopping-essentials.pa.md in Resources */,
-						A0FB4F4262BA48619C23EC7F /* sim-setup.hi.md in Resources */,
-						520483C971574F678C60453B /* sim-setup.md in Resources */,
-						D5F8A707BA5F4D54A25F24B6 /* sim-setup.pa.md in Resources */,
-						680C2589E47E4EA28801C1AC /* student-concession.hi.md in Resources */,
-						9580065695AD45BBA77ADF17 /* student-concession.md in Resources */,
-						47B64AA810144A08889DAE6D /* student-concession.pa.md in Resources */,
-						D8ACBE4BEF7A4FD99D8E625D /* students-oshc.hi.md in Resources */,
-						136DE8C555F84A8489FD7FAB /* students-oshc.md in Resources */,
-						61AA429B0E92447A8396A889 /* students-oshc.pa.md in Resources */,
-						9D83642C979A462E883D3C53 /* super-basics.hi.md in Resources */,
-						C78C6BFE771D4770A4D6BDAC /* super-basics.md in Resources */,
-						C131690139E046C9A9097C0E /* super-basics.pa.md in Resources */,
-						ADFA34AA90304E3489FB8A0E /* tax-return-basics.hi.md in Resources */,
-						527A82E08ABD4FE69BE111B5 /* tax-return-basics.md in Resources */,
-						4228CAD4924549B1AC746D8F /* tax-return-basics.pa.md in Resources */,
-						6E6D7AA571654C0995A57EAA /* tfn-apply.hi.md in Resources */,
-						CB305A7EFB9B4BDA9AE78D4D /* tfn-apply.md in Resources */,
-						1928B956E5154E3AA1B4AF7B /* tfn-apply.pa.md in Resources */,
-						358ED2F5717744098994E2E2 /* tolls-linkt.hi.md in Resources */,
-						83C13D9588EF40CD87B79280 /* tolls-linkt.md in Resources */,
-						37416571C44F4A1DB738064B /* tolls-linkt.pa.md in Resources */,
-						40B5D63452344D83B6663B0D /* transport-card.hi.md in Resources */,
-						AE93BA2B0E0D4501A9752EC1 /* transport-card.md in Resources */,
-						19EB982D3FA0424EB63F4D38 /* transport-card.pa.md in Resources */,
-						5F2A7B1D6D234B388ADD0AD5 /* used-car-ppsr.hi.md in Resources */,
-						6E76525DA6104971B8236F64 /* used-car-ppsr.md in Resources */,
-						5B78FB8DD32C451DA58F6C6B /* used-car-ppsr.pa.md in Resources */,
-						E5637FC6B0BE482690170849 /* utilities-connect.hi.md in Resources */,
-						B9A5BD24D75A4E82A3639AA8 /* utilities-connect.md in Resources */,
-						07A3582E017A4E9180BAB0EF /* utilities-connect.pa.md in Resources */,
-						A45227A550B54A6B8526BA24 /* visa-immiaccount.hi.md in Resources */,
-						7F1B9EF5B6484F71BB2C9974 /* visa-immiaccount.md in Resources */,
-						5C12D5789E7D4544BC2A40CD /* visa-immiaccount.pa.md in Resources */,
-						8B98A7E1A39840DBA86C26B1 /* visa-work-rights.hi.md in Resources */,
-						D468094F961E43E69ED0D7C9 /* visa-work-rights.md in Resources */,
-						EF42C64C2112424D834FB0FC /* visa-work-rights.pa.md in Resources */,
-						B021F6398A934F6EA4F36B47 /* Localizable.strings in Resources */,
-						6AD79889FA5F41FFB4F349D2 /* Localizable.strings in Resources */,
-						1DEC416DE18C4E559327873C /* Localizable.strings in Resources */
+						F81E57F7389B4CCC8763C8BB /* Assets.xcassets in Resources */,
+						32F818E8D1D14D88BE97DDE2 /* PrivacyInfo.xcprivacy in Resources */,
+						B14EAF4FB9A84743920C4021 /* catalog.json in Resources */,
+						AE7F6990216C45AFAA7BFEE2 /* abn-contracting.hi.md in Resources */,
+						BD54F53AFA5B426196B49AC4 /* abn-contracting.md in Resources */,
+						1CCD5F60313A4B22A817AAF8 /* abn-contracting.pa.md in Resources */,
+						6C2D90B0619D4445A4F6E2C4 /* ambulance-cover.hi.md in Resources */,
+						E89BCA038AB34022B028A4A2 /* ambulance-cover.md in Resources */,
+						8D969D12A77B490AA92F3C22 /* ambulance-cover.pa.md in Resources */,
+						2CC33D556D434C9D87884B22 /* arrival-airport.hi.md in Resources */,
+						78C584DF42914E66A589AD99 /* arrival-airport.md in Resources */,
+						3E7BC0EE363A4475A2CE2D9F /* arrival-airport.pa.md in Resources */,
+						7E293F3E96324367A9773C35 /* banking-open-account.hi.md in Resources */,
+						11DBF125A694448696B7952D /* banking-open-account.md in Resources */,
+						940233C841794897B462D566 /* banking-open-account.pa.md in Resources */,
+						106F61C0D4A44E8FA4B8EFDD /* car-insurance-types.hi.md in Resources */,
+						23E31C94184442589C32C77D /* car-insurance-types.md in Resources */,
+						FECA2E6662024130A8CFA9ED /* car-insurance-types.pa.md in Resources */,
+						B342D197C81B425DA61A2EA8 /* centrelink-claim-start.hi.md in Resources */,
+						E021679903EE4271AC341742 /* centrelink-claim-start.md in Resources */,
+						71EA853E16414ED7972F6D28 /* centrelink-claim-start.pa.md in Resources */,
+						186DE2B45934432894EFA401 /* choose-suburb.hi.md in Resources */,
+						5DCD24C5EAE14A918C6DD974 /* choose-suburb.md in Resources */,
+						9FE0A72E71EC447696963B96 /* choose-suburb.pa.md in Resources */,
+						6A560EF465C94F9485D6CDCA /* contents-insurance.hi.md in Resources */,
+						1E9FCD0AE8E34CD4B193CAAD /* contents-insurance.md in Resources */,
+						350E06CD5CAC420180175BE9 /* contents-insurance.pa.md in Resources */,
+						1B3BCC103D5B45E69D77C523 /* driving-licence.hi.md in Resources */,
+						7589521A23B94B428229C3EE /* driving-licence.md in Resources */,
+						12E75ADA25AB4B89858CD2FA /* driving-licence.pa.md in Resources */,
+						DE8DAC4268694BE48C886033 /* emergency-contacts.hi.md in Resources */,
+						8E7418F3AB3D4958BD3A83C0 /* emergency-contacts.md in Resources */,
+						A4EF705AF9524AF5BC085856 /* emergency-contacts.pa.md in Resources */,
+						0CD9B1D3E65D4BA0976E54DE /* explore-barossa-adelaide.hi.md in Resources */,
+						E17A96988A80428DBA15ABBB /* explore-barossa-adelaide.md in Resources */,
+						0297A43E73E74CD2BD9E9693 /* explore-barossa-adelaide.pa.md in Resources */,
+						4E36F06B3D504D73B56A2CA5 /* explore-blue-mountains.hi.md in Resources */,
+						A229B70D028B407B81AD87C0 /* explore-blue-mountains.md in Resources */,
+						FEEEC11C37834A67B622AC7F /* explore-blue-mountains.pa.md in Resources */,
+						0EB6642299CA4F1CAFC3F1DB /* explore-gold-coast.hi.md in Resources */,
+						B6CB50C89DE2446DB979125D /* explore-gold-coast.md in Resources */,
+						FD4822C0B2F24DC3A76A35BF /* explore-gold-coast.pa.md in Resources */,
+						4A6903A5E34741D0B6770006 /* explore-great-barrier-reef.hi.md in Resources */,
+						BF9E72E2F6544EB1AD20EB17 /* explore-great-barrier-reef.md in Resources */,
+						C7D37AC03AC244BF9229F930 /* explore-great-barrier-reef.pa.md in Resources */,
+						11ADE1CAF04943B18E8E6A9B /* explore-great-ocean-road.hi.md in Resources */,
+						DF08E027FDA5476EAB03487A /* explore-great-ocean-road.md in Resources */,
+						96BFBE66CE8D46C3BF1D008B /* explore-great-ocean-road.pa.md in Resources */,
+						1DD565F382884B08B0D44591 /* explore-phillip-island.hi.md in Resources */,
+						9332BC089B5D46239511D7FB /* explore-phillip-island.md in Resources */,
+						63AAFC84B0E747F29772BC30 /* explore-phillip-island.pa.md in Resources */,
+						3714E0E4457244E9B9A49558 /* explore-rottnest.hi.md in Resources */,
+						F417690D2D86449FB4F8F59F /* explore-rottnest.md in Resources */,
+						D1698DFBB2E84E2DB9A3F8C0 /* explore-rottnest.pa.md in Resources */,
+						799CFC3586A0412582BD4DED /* explore-sydney-harbour.hi.md in Resources */,
+						8DCBD76683C04976B8789238 /* explore-sydney-harbour.md in Resources */,
+						E5ECC8F2F2C649B2B1558A3B /* explore-sydney-harbour.pa.md in Resources */,
+						27E7FE25710749FD9C6504DF /* explore-tasmania-hobart.hi.md in Resources */,
+						225CBB743CEF42EFB9D89B4D /* explore-tasmania-hobart.md in Resources */,
+						CB7F7E98F14C429991B3B11E /* explore-tasmania-hobart.pa.md in Resources */,
+						6D46550CDA9C40A2B541570F /* explore-uluru.hi.md in Resources */,
+						93B342637A1640F783CE24E4 /* explore-uluru.md in Resources */,
+						A1853985E69C42FA9CD31378 /* explore-uluru.pa.md in Resources */,
+						C10748A54BAF47F9B4E5EDF7 /* family-centrelink.hi.md in Resources */,
+						C5BB85223784490EAEFD8BCC /* family-centrelink.md in Resources */,
+						DAB97986F6014E8E8340AE03 /* family-centrelink.pa.md in Resources */,
+						DEEDA13BDDB34EA09618CC2E /* family-childcare.hi.md in Resources */,
+						6E17FD7CCED441B38A797B66 /* family-childcare.md in Resources */,
+						AEAF0EDB242D42EAB4F91D54 /* family-childcare.pa.md in Resources */,
+						BB4305E551C14A7F9E764692 /* family-immunisation.hi.md in Resources */,
+						7305A9A5E2A14D30A468498C /* family-immunisation.md in Resources */,
+						0CBE0C22B6464F1FB89BB524 /* family-immunisation.pa.md in Resources */,
+						A86C7474C2D549FE8440DD38 /* family-schools.hi.md in Resources */,
+						B9B4B59C3B744D1F9C4EFB45 /* family-schools.md in Resources */,
+						49033053E82C4182B706D759 /* family-schools.pa.md in Resources */,
+						F634495812AF42178D778196 /* first-month-budget.hi.md in Resources */,
+						0B6A269248BF43EF9872B346 /* first-month-budget.md in Resources */,
+						D4B3430F09114EF380D1C3B0 /* first-month-budget.pa.md in Resources */,
+						D2E63E5FCAF6410BBC6D2CFF /* housing-rent.hi.md in Resources */,
+						79EC539E7DE545C5A8F49FCF /* housing-rent.md in Resources */,
+						69C1406A50D043B5B040B552 /* housing-rent.pa.md in Resources */,
+						293FF3BBCCA34682B2EB01B9 /* inspection-condition-report.hi.md in Resources */,
+						9C62A7512A5E43F48A1D6002 /* inspection-condition-report.md in Resources */,
+						60E0F675E6E44B5DA25AA5C6 /* inspection-condition-report.pa.md in Resources */,
+						9629FB609E8143FDBC9E558F /* jobs-basics.hi.md in Resources */,
+						8FCD480D9673462CBC600E18 /* jobs-basics.md in Resources */,
+						8038400712F64C788CE1FBE1 /* jobs-basics.pa.md in Resources */,
+						A0B9C1DA79974194A0D72537 /* library-council.hi.md in Resources */,
+						9A55DF5F150E4069BAD2B458 /* library-council.md in Resources */,
+						DA6EE47C713647FCA291E7A8 /* library-council.pa.md in Resources */,
+						845974B6E518491FB4FDDC1D /* medicare-enrol.hi.md in Resources */,
+						B106EF808164449BB6961FA1 /* medicare-enrol.md in Resources */,
+						0AC0CC76FB6C43A88355B832 /* medicare-enrol.pa.md in Resources */,
+						9C55E6DE47B1477EAF758B77 /* medicare-gp.hi.md in Resources */,
+						FD0D5EA478D747A4991D1273 /* medicare-gp.md in Resources */,
+						894E6AEB1170418A93650755 /* medicare-gp.pa.md in Resources */,
+						3F7AACBEB0384E6199BA1E27 /* mygov-basics.hi.md in Resources */,
+						39E28D1F449F495F82203C3B /* mygov-basics.md in Resources */,
+						2DBE7720AD9649BEA209EB88 /* mygov-basics.pa.md in Resources */,
+						F026020EC68E4A45AAF96E82 /* ovhc-visitors.hi.md in Resources */,
+						64C5D27A70E04054932E3F5D /* ovhc-visitors.md in Resources */,
+						46820471F0CC435097D90D70 /* ovhc-visitors.pa.md in Resources */,
+						79AA067E382B476081E16C83 /* police-check-wwcc.hi.md in Resources */,
+						5E8CCD89CD464DEDB494FF30 /* police-check-wwcc.md in Resources */,
+						EB73D2B797944391A6109124 /* police-check-wwcc.pa.md in Resources */,
+						8706EE32ED9F405C94D93D20 /* private-health-waiting.hi.md in Resources */,
+						15922EFC57AE42699E51596B /* private-health-waiting.md in Resources */,
+						E8CABD41EC5A47548B29C066 /* private-health-waiting.pa.md in Resources */,
+						D49C2AE03CFB474BA3815973 /* rental-bond.hi.md in Resources */,
+						2810B86D406B4AA2B1C97AC9 /* rental-bond.md in Resources */,
+						1F2BF3422AEA45109D97728C /* rental-bond.pa.md in Resources */,
+						662ED6B86CCE49EB85991D80 /* scams-safety.hi.md in Resources */,
+						BA3B1E393BE94E58B10448DC /* scams-safety.md in Resources */,
+						57CC35A20B8047B284E784FA /* scams-safety.pa.md in Resources */,
+						8ED1D69F0CCE4A5EADBB79F2 /* shopping-essentials.hi.md in Resources */,
+						2524CD72802C43399847CFAE /* shopping-essentials.md in Resources */,
+						4D5A2368ED7046248A39ADAA /* shopping-essentials.pa.md in Resources */,
+						F0B4E3A09BAE47AEA4414ED4 /* sim-setup.hi.md in Resources */,
+						325E545F9ACE48679B97FD93 /* sim-setup.md in Resources */,
+						AF1A44C93D92477BB5FADA05 /* sim-setup.pa.md in Resources */,
+						30C8185120A0463D811353E3 /* student-concession.hi.md in Resources */,
+						528E0FB1106540AB97422BBB /* student-concession.md in Resources */,
+						F3A7177C16CF48A99B47569D /* student-concession.pa.md in Resources */,
+						DB9FD24CCDDF4A6291D5EC46 /* students-oshc.hi.md in Resources */,
+						F1F880BC7C9E45A083801F79 /* students-oshc.md in Resources */,
+						787CA778AE00482CA9A8B9D3 /* students-oshc.pa.md in Resources */,
+						67C893ABFC0644DDA2153C1C /* super-basics.hi.md in Resources */,
+						C4BA06D931824FD5922EBBB7 /* super-basics.md in Resources */,
+						0D1A877DDFF149DE8C1B9055 /* super-basics.pa.md in Resources */,
+						0B511729A84540C08235A9AA /* tax-return-basics.hi.md in Resources */,
+						BD1FDA59459C442F9185D23B /* tax-return-basics.md in Resources */,
+						1B144769916343A39D67DF80 /* tax-return-basics.pa.md in Resources */,
+						FAC4AA2FB8F74A138AF068DE /* tfn-apply.hi.md in Resources */,
+						6D725382BB0A440ABBE655AB /* tfn-apply.md in Resources */,
+						D94E219359E34CCF8068DE1B /* tfn-apply.pa.md in Resources */,
+						1CF63ED8D1CE4A28850402AE /* tolls-linkt.hi.md in Resources */,
+						8832DC4A7B3847C0B5D6513A /* tolls-linkt.md in Resources */,
+						5F84851F7BE7475AAFEC36BB /* tolls-linkt.pa.md in Resources */,
+						A2FE6D17BF894BD39790F18F /* transport-card.hi.md in Resources */,
+						41A5C86384D24FE0AED5A2C4 /* transport-card.md in Resources */,
+						B0246655861047A7BF8116E1 /* transport-card.pa.md in Resources */,
+						FF514F32058243A5923C83F1 /* used-car-ppsr.hi.md in Resources */,
+						31BD3697183D4F1D9AB18DC1 /* used-car-ppsr.md in Resources */,
+						64310C5339D044CFBF01DACF /* used-car-ppsr.pa.md in Resources */,
+						2648C262B1A34A168D66327C /* utilities-connect.hi.md in Resources */,
+						C4D8651B73464933BB6BD999 /* utilities-connect.md in Resources */,
+						42862D238F294CD19B6BE867 /* utilities-connect.pa.md in Resources */,
+						CEB846F542DF446C967585A6 /* visa-immiaccount.hi.md in Resources */,
+						660CD7D64991475CAE7605CD /* visa-immiaccount.md in Resources */,
+						5D204DF3802247E8A7D8A91E /* visa-immiaccount.pa.md in Resources */,
+						A287B842BA0A4C30BF984F53 /* visa-work-rights.hi.md in Resources */,
+						3D186293E99E4EACB8E6DC9E /* visa-work-rights.md in Resources */,
+						90B35D2BAE2A4C4984B8522D /* visa-work-rights.pa.md in Resources */,
+						A8CFD437523E47EEA1FD4D06 /* Localizable.strings in Resources */,
+						F8BA402A0AB84B2290B6C15E /* Localizable.strings in Resources */,
+						364F8183594F4602AA0BA12F /* Localizable.strings in Resources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		B9287C86A8E9423FBE6D6DC9 /* Resources */ = {
+		5F9F14E372464AE89BCFD624 /* Resources */ = {
 					isa = PBXResourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						84AD19F5A4A4447C8245E0C8 /* Products.storekit in Resources */
+						2D0450ED24904D64BF418EA5 /* Products.storekit in Resources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		D5E51F0D3ECC4479913AD4E6 /* Resources */ = {
+		F23B3713DD0E464FB8AA389C /* Resources */ = {
 					isa = PBXResourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						B3A66A4E84224A5A88D78DE5 /* Products.storekit in Resources */
+						4D2E6BD4CBCC40D4A61E5620 /* Products.storekit in Resources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B71A552716A491F844EA989 /* Sources */ = {
+		79FF52BE070D428BADDCAC2A /* Sources */ = {
 					isa = PBXSourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						0D35F22119304CD98D1D2887 /* AppStoreScreenshotScene.swift in Sources */,
-						730DF909E3A145A6ADF3D2C1 /* AppTheme.swift in Sources */,
-						D39170A58B39454CB4ABFFF8 /* AussieStartApp.swift in Sources */,
-						EB424288552044C2B625BA9B /* RootView.swift in Sources */,
-						FE9736F950604B588252A206 /* DestinationPhotoGallery.swift in Sources */,
-						8440A9272A56421B9C1B9EB1 /* MarkdownDocumentView.swift in Sources */,
-						C044B751ABD144F3B5C88206 /* SharedComponents.swift in Sources */,
-						FDB1089F0D544652ABE57B60 /* Foundation+AussieStart.swift in Sources */,
-						CCA176CA86D348979584EDD2 /* AboutView.swift in Sources */,
-						C1FC506D180D482299D9D746 /* PrivacyPolicyView.swift in Sources */,
-						2AEDD7A2416245659C23CA18 /* ArticleDetailView.swift in Sources */,
-						BCF7B367C4C2432E9ECE0D86 /* BookmarksView.swift in Sources */,
-						179FA9B0ACAC493B87BB44E9 /* CategoriesView.swift in Sources */,
-						7DBB69FB7FE84F39AD8A3C82 /* ChecklistView.swift in Sources */,
-						118A5A8DAC47498CACB8DBAC /* HomeView.swift in Sources */,
-						14E1CF3CF64649C1992298B3 /* JourneyView.swift in Sources */,
-						6A15CF31393E422DB89C3413 /* OnboardingFlowView.swift in Sources */,
-						5D4E77FE241F47A6A17851EC /* PaywallView.swift in Sources */,
-						8B4CFC5850064B33B048529A /* SearchView.swift in Sources */,
-						C1DB098995444073BA5AFF5F /* SettingsView.swift in Sources */,
-						B2D6365499904305BBBF36FA /* AppEnums.swift in Sources */,
-						FFBA4844E1C54BF1918171D8 /* ContentModels.swift in Sources */,
-						94CDB45E248E43CCB671B351 /* SwiftDataModels.swift in Sources */,
-						F7DAD62861624FC480D92A5A /* Repositories.swift in Sources */,
-						1F498C05D3724AF9990DFA88 /* ContentLoader.swift in Sources */,
-						39AA371676EA457589F96C12 /* JourneyReminderScheduler.swift in Sources */,
-						1F9FAFAF286F4F57AE4D84B3 /* LocalSearchEngine.swift in Sources */,
-						9D514904812849C5B57A7FCE /* StoreManager.swift in Sources */,
-						FC9AF73CC59B47BE9BFE628E /* UserPreferences.swift in Sources */,
-						F35135DED4954C2280FA8BCC /* AppCopy.swift in Sources */,
-						C958406EA7FD45C7B6F5B823 /* L10n.swift in Sources */
+						79391ED44F2A4A7FA95D75B0 /* AppStoreScreenshotScene.swift in Sources */,
+						46CC6E1B96424D3EB9D007FE /* AppTheme.swift in Sources */,
+						CB077E18CA6E418EB4EEA577 /* AussieStartApp.swift in Sources */,
+						4221693A45CA46C3B5883849 /* RootView.swift in Sources */,
+						F5F9AA0045E641FA975A4CEF /* DestinationPhotoGallery.swift in Sources */,
+						FE5F6745CB694006BDFC6018 /* MarkdownDocumentView.swift in Sources */,
+						6294023ADB2C4E61BED81EDF /* SharedComponents.swift in Sources */,
+						ECD2BEA500784DC28F78AE91 /* WelcomeScreenView.swift in Sources */,
+						6EE70EED6FDA4A80BCD35FF7 /* Foundation+AussieStart.swift in Sources */,
+						EEF4F084F78E491B9A1F0C72 /* AboutView.swift in Sources */,
+						53798DD7F4E94DD78F6815CA /* PrivacyPolicyView.swift in Sources */,
+						0FEEBC4A1D4B45A8A385F46A /* ArticleDetailView.swift in Sources */,
+						6162DE0E7ABB4A178EDA0824 /* BookmarksView.swift in Sources */,
+						DDD052FA8D42453890AC7D8E /* CategoriesView.swift in Sources */,
+						8695F6A6AA7A493BBB0D0F4B /* ChecklistView.swift in Sources */,
+						B1847D260F6849B38BE32B35 /* HomeView.swift in Sources */,
+						608E5F793C22413B98349C93 /* JourneyView.swift in Sources */,
+						02418BBB9D5B414383517018 /* OnboardingFlowView.swift in Sources */,
+						71C5BE00C4D940698CC3E96C /* PaywallView.swift in Sources */,
+						87B185E075284F9CBEC2B1B7 /* SearchView.swift in Sources */,
+						5724331CA4F1468C9B3C5347 /* SettingsView.swift in Sources */,
+						CBE479BBF1CC4A7380BD6959 /* AppEnums.swift in Sources */,
+						6EC469175DB545F6B23E5A0E /* ContentModels.swift in Sources */,
+						F4C17230F77B4B1688B3529D /* SwiftDataModels.swift in Sources */,
+						47E8CC1F400E44D1B434C713 /* Repositories.swift in Sources */,
+						9444E2AA64104F40BD129C13 /* ContentLoader.swift in Sources */,
+						6C59A0F19A964E0B9646FBCF /* JourneyReminderScheduler.swift in Sources */,
+						C3AF753AD18A4719943827CF /* LocalSearchEngine.swift in Sources */,
+						2DBDB2E5C4F2432FA3553599 /* StoreManager.swift in Sources */,
+						355DB785052D4938B2BBEC8A /* UserPreferences.swift in Sources */,
+						6E2D369A6CDE4D52A27A9F39 /* AppCopy.swift in Sources */,
+						4A7E72F00F8148F7BA9A0333 /* L10n.swift in Sources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		9880491EA18F486F8AFB2AEC /* Sources */ = {
+		F5F9003DB54F41178B990A9E /* Sources */ = {
 					isa = PBXSourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						1D69951403DF4857B532AE37 /* StoreKitIAPTests.swift in Sources */
+						9883B8C7183C49C6A5AF964C /* StoreKitIAPTests.swift in Sources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
-		11EF1AE4EDC14393AC9CDC97 /* Sources */ = {
+		19F58006DC744C51BC3BCBF2 /* Sources */ = {
 					isa = PBXSourcesBuildPhase;
 					buildActionMask = 2147483647;
 					files = (
-						2360320F7A804A619F6F342F /* AppStoreScreenshotTests.swift in Sources */
+						BB485E3495C54276A86DB0AE /* AppStoreScreenshotTests.swift in Sources */
 					);
 					runOnlyForDeploymentPostprocessing = 0;
 				};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C6D1365ADBE4CC38ABA8B5A /* PBXTargetDependency */ = {
+		DFFDE4CAA8BF4C9C98C64355 /* PBXTargetDependency */ = {
 					isa = PBXTargetDependency;
-					target = B2046126FB8C4F08B0DC2E5F /* AussieStart */;
-					targetProxy = C96048EB37A941F79EB9F27B /* PBXContainerItemProxy */;
+					target = E6857E6C5B294820BC8FD606 /* AussieStart */;
+					targetProxy = 3A24DCDF25E74B01BD401D58 /* PBXContainerItemProxy */;
 				};
-		D1DB1C135988443A9ECFD7D2 /* PBXTargetDependency */ = {
+		657715E04BD540CBA5EE79BA /* PBXTargetDependency */ = {
 					isa = PBXTargetDependency;
-					target = B2046126FB8C4F08B0DC2E5F /* AussieStart */;
-					targetProxy = 4E2D4CBEB875447DBA295934 /* PBXContainerItemProxy */;
+					target = E6857E6C5B294820BC8FD606 /* AussieStart */;
+					targetProxy = 25E3D4C0FCC64DC3AE54356E /* PBXContainerItemProxy */;
 				};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C3D348E552549E083C6688E /* Debug */ = {
+		4B9ED07462F7486CB770E773 /* Debug */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1291,7 +1295,7 @@
 					};
 					name = Debug;
 				};
-		43E55B1E2DBD45F89FC122BF /* Release */ = {
+		FD27503095474B658406AE62 /* Release */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1309,7 +1313,7 @@
 					};
 					name = Release;
 				};
-		3B4C8131A7644AC3BEE97F1F /* Debug */ = {
+		4FC9393EEDC94DB5BE89ED9A /* Debug */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1344,7 +1348,7 @@
 					};
 					name = Debug;
 				};
-		3929E4B5BD34439AA8428A6D /* Release */ = {
+		037DB9028A694FF687BD0D68 /* Release */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1379,7 +1383,7 @@
 					};
 					name = Release;
 				};
-		9220367682A8405C88118DE2 /* Debug */ = {
+		7D035D29F24841B58EBE477A /* Debug */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1399,7 +1403,7 @@
 					};
 					name = Debug;
 				};
-		76ECE50DD94443399A7F56D3 /* Release */ = {
+		ABA52CB35F334740B385AE54 /* Release */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1419,7 +1423,7 @@
 					};
 					name = Release;
 				};
-		5FEA323C7FED48049753FB2A /* Debug */ = {
+		628D630435104F01AF31E2D3 /* Debug */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						CODE_SIGN_STYLE = Automatic;
@@ -1438,7 +1442,7 @@
 					};
 					name = Debug;
 				};
-		12CB5EA5B8674B939F70ABC0 /* Release */ = {
+		7AE3BA21B0BC4FC3933256A1 /* Release */ = {
 					isa = XCBuildConfiguration;
 					buildSettings = {
 						CODE_SIGN_STYLE = Automatic;
@@ -1460,38 +1464,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF14AA686A2142B594043938 /* Build configuration list for PBXProject "AussieStart" */ = {
+		559C1C6225B147668658285E /* Build configuration list for PBXProject "AussieStart" */ = {
 					isa = XCConfigurationList;
 					buildConfigurations = (
-						1C3D348E552549E083C6688E /* Debug */,
-						43E55B1E2DBD45F89FC122BF /* Release */,
+						4B9ED07462F7486CB770E773 /* Debug */,
+						FD27503095474B658406AE62 /* Release */,
 					);
 					defaultConfigurationIsVisible = 0;
 					defaultConfigurationName = Release;
 				};
-		8A8D4CAD0AF240869C884CAA /* Build configuration list for PBXNativeTarget "AussieStart" */ = {
+		4AECB4F2172948CB81E3B465 /* Build configuration list for PBXNativeTarget "AussieStart" */ = {
 					isa = XCConfigurationList;
 					buildConfigurations = (
-						3B4C8131A7644AC3BEE97F1F /* Debug */,
-						3929E4B5BD34439AA8428A6D /* Release */,
+						4FC9393EEDC94DB5BE89ED9A /* Debug */,
+						037DB9028A694FF687BD0D68 /* Release */,
 					);
 					defaultConfigurationIsVisible = 0;
 					defaultConfigurationName = Release;
 				};
-		0D9E3481A00840639F1850AF /* Build configuration list for PBXNativeTarget "AussieStartTests" */ = {
+		6256500237B2452BB8F4967E /* Build configuration list for PBXNativeTarget "AussieStartTests" */ = {
 					isa = XCConfigurationList;
 					buildConfigurations = (
-						9220367682A8405C88118DE2 /* Debug */,
-						76ECE50DD94443399A7F56D3 /* Release */,
+						7D035D29F24841B58EBE477A /* Debug */,
+						ABA52CB35F334740B385AE54 /* Release */,
 					);
 					defaultConfigurationIsVisible = 0;
 					defaultConfigurationName = Release;
 				};
-		227A91D714D04CD4AFE412A8 /* Build configuration list for PBXNativeTarget "AussieStartUITests" */ = {
+		2476DD7B0C0F460F9A0A6514 /* Build configuration list for PBXNativeTarget "AussieStartUITests" */ = {
 					isa = XCConfigurationList;
 					buildConfigurations = (
-						5FEA323C7FED48049753FB2A /* Debug */,
-						12CB5EA5B8674B939F70ABC0 /* Release */,
+						628D630435104F01AF31E2D3 /* Debug */,
+						7AE3BA21B0BC4FC3933256A1 /* Release */,
 					);
 					defaultConfigurationIsVisible = 0;
 					defaultConfigurationName = Release;
@@ -1499,5 +1503,5 @@
 /* End XCConfigurationList section */
 
 	};
-	rootObject = 14E497B1B4074858BD6DF5F8 /* Project object */;
+	rootObject = C261959FC99E4E09B699BE60 /* Project object */;
 }

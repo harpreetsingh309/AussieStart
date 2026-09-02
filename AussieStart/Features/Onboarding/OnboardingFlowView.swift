@@ -13,32 +13,46 @@ struct OnboardingFlowView: View {
 
     var body: some View {
         NavigationStack {
-            VStack(spacing: 0) {
-                progressBar
-                Group {
-                    switch step {
-                    case 0: welcome
-                    case 1: languagePicker
-                    case 2: statePicker
-                    case 3: personaPicker
-                    default: roadmapPreview
+            Group {
+                if step == 0 {
+                    WelcomeScreenView(language: language) {
+                        withAnimation(.easeInOut(duration: 0.35)) {
+                            step = 1
+                        }
                     }
-                }
-                .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .id(language.rawValue)
+                } else {
+                    VStack(spacing: 0) {
+                        progressBar
+                        Group {
+                            switch step {
+                            case 1: languagePicker
+                            case 2: statePicker
+                            case 3: personaPicker
+                            default: roadmapPreview
+                            }
+                        }
+                        .padding()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .id(language.rawValue)
 
-                bottomBar
+                        bottomBar
+                    }
+                    .pageBackground()
+                }
             }
-            .background(
-                LinearGradient(
-                    colors: [AppTheme.sand, AppTheme.page],
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
-                .ignoresSafeArea()
-            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background {
+                if step == 0 {
+                    Color.black.ignoresSafeArea()
+                }
+            }
+            .toolbarBackground(.hidden, for: .navigationBar)
             .navigationBarHidden(true)
+        }
+        .background {
+            if step == 0 {
+                Color.black.ignoresSafeArea()
+            }
         }
         .environment(\.locale, language.locale)
     }
@@ -57,33 +71,6 @@ struct OnboardingFlowView: View {
         .padding(.horizontal)
         .padding(.top, 12)
         .accessibilityLabel(t("onboarding.step", step + 1))
-    }
-
-    private var welcome: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Spacer()
-
-            VStack(alignment: .leading, spacing: 18) {
-                Text("🇦🇺")
-                    .font(.system(size: 52))
-
-                Text(t("onboarding.welcome_title"))
-                    .font(AppTheme.titleFont)
-                    .foregroundStyle(.white)
-
-                Text(t("onboarding.welcome_body"))
-                    .font(.body)
-                    .foregroundStyle(.white.opacity(0.88))
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            .padding(24)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(AppTheme.heroGradient, in: RoundedRectangle(cornerRadius: AppTheme.Layout.heroRadius, style: .continuous))
-            .modifier(CardShadow(radius: 12, y: 6))
-
-            Spacer()
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     private var languagePicker: some View {

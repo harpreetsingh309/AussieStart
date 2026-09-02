@@ -106,6 +106,11 @@
 /* Onboarding */
 "onboarding.welcome_title" = "AussieStart ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ";
 "onboarding.welcome_body" = "ਨਵੇਂ ਪਰਵਾਸੀਆਂ ਲਈ ਭਰੋਸੇਯੋਗ, ਆਫ਼ਲਾਈਨ ਗਾਈਡਾਂ — ਸਧਾਰਨ ਭਾਸ਼ਾ ਵਿੱਚ, ਤੁਹਾਡੇ ਰਾਜ ਅਨੁਸਾਰ।";
+"onboarding.welcome_line1" = "ਖੋਜੋ";
+"onboarding.welcome_line2" = "ਆਸਟ੍ਰੇਲੀਆ";
+"onboarding.welcome_line3" = "ਵਿੱਚ ਜੀਵਨ";
+"onboarding.welcome_tagline" = "AussieStart ਤੁਹਾਡੀ ਰਾਹ ਦਿਖਾਵੇ";
+"onboarding.welcome_cta" = "ਆਪਣੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰੋ";
 "onboarding.choose_language" = "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ";
 "onboarding.choose_language_subtitle" = "MVP ਵਿੱਚ ਅੰਗਰੇਜ਼ੀ, ਹਿੰਦੀ ਅਤੇ ਪੰਜਾਬੀ ਸ਼ਾਮਲ ਹਨ। ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਅਨੁਵਾਦ ਨਾਲ ਖੁਲਣਗੀਆਂ।";
 "onboarding.choose_state" = "ਤੁਸੀਂ ਕਿੱਥੇ ਰਹੋਗੇ?";

@@ -9,3 +9,4 @@ xcuserdata/
 *.xcscmblueprint
 .derived-screenshots/
 .wrangler/
+.derivedData/

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2046126FB8C4F08B0DC2E5F"
+               BlueprintIdentifier = "E6857E6C5B294820BC8FD606"
                BuildableName = "AussieStart.app"
                BlueprintName = "AussieStart"
                ReferencedContainer = "container:AussieStart.xcodeproj">
@@ -34,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "139FFB42329A4507A721A60C"
+               BlueprintIdentifier = "8C7FF82DA1D1489696BE5AC5"
                BuildableName = "AussieStartTests.xctest"
                BlueprintName = "AussieStartTests"
                ReferencedContainer = "container:AussieStart.xcodeproj">
@@ -59,7 +59,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B2046126FB8C4F08B0DC2E5F"
+            BlueprintIdentifier = "E6857E6C5B294820BC8FD606"
             BuildableName = "AussieStart.app"
             BlueprintName = "AussieStart"
             ReferencedContainer = "container:AussieStart.xcodeproj">

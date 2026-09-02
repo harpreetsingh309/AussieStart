@@ -96,6 +96,10 @@ final class AppStoreScreenshotTests: XCTestCase {
         if app.tabBars.buttons["Home"].waitForExistence(timeout: 3) {
             return
         }
+        let begin = app.buttons["Begin your journey"]
+        if begin.waitForExistence(timeout: 4) {
+            begin.tap()
+        }
         let continueButton = app.buttons["Continue"]
         XCTAssertTrue(continueButton.waitForExistence(timeout: 8), "Onboarding should appear after splash")
         for _ in 0..<4 {

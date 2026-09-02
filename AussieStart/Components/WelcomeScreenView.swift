@@ -1,0 +1,105 @@
+import SwiftUI
+
+struct WelcomeScreenView: View {
+    let language: AppLanguage
+    let onContinue: () -> Void
+
+    @State private var appear = false
+
+    private func t(_ key: String) -> String { L10n.tr(key, language: language) }
+
+    var body: some View {
+        GeometryReader { geo in
+            ZStack(alignment: .leading) {
+                welcomeBackground(size: geo.size)
+
+                VStack(alignment: .leading, spacing: 0) {
+                    Spacer()
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(t("onboarding.welcome_line1"))
+                        Text(t("onboarding.welcome_line2"))
+                        Text(t("onboarding.welcome_line3"))
+                    }
+                    .font(.system(size: 44, weight: .bold, design: .serif))
+                    .foregroundStyle(.white)
+                    .minimumScaleFactor(0.75)
+                    .lineLimit(1)
+                    .opacity(appear ? 1 : 0)
+                    .offset(y: appear ? 0 : 18)
+
+                    Text(t("onboarding.welcome_tagline"))
+                        .font(.subheadline.weight(.medium))
+                        .foregroundStyle(.white.opacity(0.94))
+                        .padding(.horizontal, 14)
+                        .padding(.vertical, 8)
+                        .background(.ultraThinMaterial.opacity(0.55), in: Capsule())
+                        .overlay {
+                            Capsule()
+                                .strokeBorder(.white.opacity(0.28), lineWidth: 0.5)
+                        }
+                        .padding(.top, 18)
+                        .opacity(appear ? 1 : 0)
+                        .offset(y: appear ? 0 : 12)
+
+                    Spacer(minLength: 32)
+
+                    Button(action: onContinue) {
+                        HStack(spacing: 10) {
+                            Text(t("onboarding.welcome_cta"))
+                                .font(.headline.weight(.bold))
+                            Image(systemName: "arrow.right")
+                                .font(.subheadline.weight(.bold))
+                        }
+                        .foregroundStyle(AppTheme.brandNavy)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 17)
+                        .background(.white, in: Capsule())
+                    }
+                    .buttonStyle(.plain)
+                    .opacity(appear ? 1 : 0)
+                    .offset(y: appear ? 0 : 20)
+                }
+                .padding(.horizontal, 24)
+                .padding(.top, geo.safeAreaInsets.top)
+                .padding(.bottom, geo.safeAreaInsets.bottom + 12)
+                .frame(width: geo.size.width, height: geo.size.height, alignment: .leading)
+            }
+            .frame(width: geo.size.width, height: geo.size.height)
+            .clipped()
+        }
+        .ignoresSafeArea()
+        .onAppear {
+            withAnimation(.spring(response: 0.65, dampingFraction: 0.82)) {
+                appear = true
+            }
+        }
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("\(t("onboarding.welcome_line1")) \(t("onboarding.welcome_line2")) \(t("onboarding.welcome_line3")). \(t("onboarding.welcome_tagline"))")
+        .accessibilityAction(named: t("onboarding.welcome_cta"), onContinue)
+    }
+
+    private func welcomeBackground(size: CGSize) -> some View {
+        ZStack {
+            Color.black
+
+            Image("welcome-australia")
+                .resizable()
+                .scaledToFill()
+                .frame(width: size.width, height: size.height)
+                .clipped()
+
+            LinearGradient(
+                colors: [
+                    .black.opacity(0.18),
+                    .black.opacity(0.08),
+                    .black.opacity(0.55),
+                    .black.opacity(0.82)
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+        }
+        .frame(width: size.width, height: size.height)
+    }
+}
