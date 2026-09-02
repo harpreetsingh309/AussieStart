@@ -1,6 +1,9 @@
 import SwiftUI
 
-/// A vector Australian outback scene used behind the onboarding welcome.
+/// A vector Australian scene used behind the onboarding welcome, painted in
+/// the app's own palette — brand navy through the heroGradient teal into brand
+/// green, with a gold sun — rather than desert ochre, so the first screen sits
+/// alongside the splash and the rest of the app.
 ///
 /// Drawn rather than photographed so it stays sharp at every device size and
 /// aspect ratio, carries no image licensing, and composes correctly in
@@ -19,14 +22,14 @@ struct AustralianHorizonView: View {
                 sky
                 sun(width: w, horizon: horizon)
                 ridge(width: w, baseline: horizon, amplitude: h * 0.030, phase: 0.0)
-                    .fill(Color(hex: "8C4A2F").opacity(0.55))
+                    .fill(Color(hex: "16645C").opacity(0.55))
                 ridge(width: w, baseline: horizon + h * 0.038, amplitude: h * 0.022, phase: 1.7)
-                    .fill(Color(hex: "6B3524").opacity(0.75))
+                    .fill(Color(hex: "0E4A42").opacity(0.80))
 
                 Rectangle()
                     .fill(
                         LinearGradient(
-                            colors: [Color(hex: "5A2C1D"), Color(hex: "3A1B12")],
+                            colors: [Color(hex: "0A3128"), Color(hex: "05171A")],
                             startPoint: .top,
                             endPoint: .bottom
                         )
@@ -35,12 +38,12 @@ struct AustralianHorizonView: View {
                     .offset(y: horizon + h * 0.08)
 
                 KangarooShape()
-                    .fill(Color(hex: "2A120B"))
+                    .fill(Color(hex: "051318"))
                     .frame(width: w * 0.30, height: w * 0.30)
                     .offset(x: w * 0.56, y: horizon + h * 0.08 - w * 0.30 + 2)
 
                 gumTree(height: h * 0.20)
-                    .fill(Color(hex: "2A120B").opacity(0.9))
+                    .fill(Color(hex: "051318").opacity(0.92))
                     .frame(width: w * 0.22, height: h * 0.20)
                     .offset(x: -w * 0.02, y: horizon + h * 0.08 - h * 0.20 + 2)
 
@@ -58,10 +61,10 @@ struct AustralianHorizonView: View {
     private var sky: some View {
         LinearGradient(
             colors: [
-                Color(hex: "10243F"),
-                Color(hex: "3D3A63"),
-                Color(hex: "B85C38").opacity(0.35 + 0.65 * warmth),
-                Color(hex: "E8A15D").opacity(0.35 + 0.65 * warmth)
+                Color(hex: "0B1F33"),                                   // AppTheme.brandNavy
+                Color(hex: "10344A"),
+                Color(hex: "134E4A").opacity(0.55 + 0.45 * warmth),      // heroGradient teal
+                Color(hex: "0B6E4F").opacity(0.45 + 0.55 * warmth)       // AppTheme.brandGreenFixed
             ],
             startPoint: .top,
             endPoint: .bottom
@@ -72,7 +75,7 @@ struct AustralianHorizonView: View {
         Circle()
             .fill(
                 RadialGradient(
-                    colors: [Color(hex: "FFE9A8"), Color(hex: "F7B267").opacity(0.85), Color(hex: "F7B267").opacity(0)],
+                    colors: [Color(hex: "E0C07A"), Color(hex: "C4A35A").opacity(0.8), Color(hex: "C4A35A").opacity(0)],
                     center: .center,
                     startRadius: 0,
                     endRadius: width * 0.22

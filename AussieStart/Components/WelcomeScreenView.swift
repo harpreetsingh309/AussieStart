@@ -42,7 +42,11 @@ struct WelcomeScreenView: View {
                         .opacity(appear ? 1 : 0)
                         .offset(y: appear ? 0 : 12)
 
-                    Spacer(minLength: 32)
+                    // A fixed gap, not a flexible Spacer. Two flexible spacers
+                    // would share the free space and centre the text block over
+                    // the middle of the scene; with only the top one flexible
+                    // the copy settles at the bottom and leaves the horizon clear.
+                    Spacer().frame(height: 30)
 
                     Button(action: onContinue) {
                         HStack(spacing: 10) {
