@@ -133,6 +133,24 @@ struct PaywallView: View {
                 Task { await store.restore() }
             }
             .disabled(store.isLoading)
+
+            #if DEBUG || ALLOW_STORE_DIAGNOSTICS
+            // Debug builds only. Lets a physical device be diagnosed without
+            // being attached to Xcode — the same trace also goes to the console
+            // and to Console.app under subsystem com.aussiestart.app.
+            DisclosureGroup("StoreKit diagnostics") {
+                Text(store.diagnostics)
+                    .font(.system(.caption2, design: .monospaced))
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .textSelection(.enabled)
+                    .padding(.top, 6)
+            }
+            .font(.caption)
+            .tint(.secondary)
+            .padding(.top, 8)
+            #endif
         }
     }
 }

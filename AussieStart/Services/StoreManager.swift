@@ -1,10 +1,24 @@
 import Foundation
 import StoreKit
+import OSLog
 
 @MainActor
 @Observable
 final class StoreManager {
     static let proProductID = "com.aussiestart.app.pro"
+
+    private static let log = Logger(
+        subsystem: Bundle.main.bundleIdentifier ?? "com.aussiestart.app",
+        category: "StoreKit"
+    )
+
+    /// Emits to both the unified log (Console.app, filter subsystem
+    /// `com.aussiestart.app`) and stdout, so it shows in the Xcode console
+    /// whether the app is attached to the debugger or not.
+    private static func trace(_ message: String) {
+        log.notice("\(message, privacy: .public)")
+        print("[StoreKit] \(message)")
+    }
 
     private(set) var product: Product?
     private(set) var isPro = false
@@ -14,6 +28,11 @@ final class StoreManager {
     /// The Pro product did not come back from the App Store. Distinct from
     /// `lastError`: this is a quiet state, not something to shout about.
     private(set) var productUnavailable = false
+
+    /// A readable trace of the last store lookup — what was asked for, what
+    /// came back, and from which storefront. Shown on the paywall in Debug
+    /// builds so a device can be diagnosed without being tethered to Xcode.
+    private(set) var diagnostics = "No store lookup yet."
 
     init() {
         Task { await listenForTransactions() }
@@ -33,15 +52,44 @@ final class StoreManager {
         if surfacingErrors { lastError = nil }
         defer { isLoading = false }
 
+        let started = Date.now
+        let bundleID = Bundle.main.bundleIdentifier ?? "nil"
+        let canPay = AppStore.canMakePayments
+        let storefront = await Storefront.current
+        let front = storefront.map { "\($0.countryCode) (id \($0.id))" } ?? "nil — not reachable"
+
+        // The bundle identifier is the single most common cause of an empty
+        // result on a device: it must match the App Store Connect record
+        // exactly, and free provisioning quietly rewrites it.
+        Self.trace("lookup start · bundle=\(bundleID) · asking for=\(Self.proProductID) · storefront=\(front) · canMakePayments=\(canPay)")
+
         do {
             let products = try await Product.products(for: [Self.proProductID])
+            let elapsed = String(format: "%.2fs", Date.now.timeIntervalSince(started))
             product = products.first
             productUnavailable = product == nil
             await updateEntitlements()
 
+            let returned = products.isEmpty ? "none" : products.map(\.id).joined(separator: ", ")
+            Self.trace("lookup done in \(elapsed) · returned \(products.count) product(s): \(returned)")
+            for item in products {
+                Self.trace("  · \(item.id) — \(item.displayName) — \(item.displayPrice) — \(item.type)")
+            }
+
+            diagnostics = """
+            bundle: \(bundleID)
+            asked for: \(Self.proProductID)
+            storefront: \(front)
+            canMakePayments: \(canPay)
+            returned: \(products.count) — \(returned)
+            entitled: \(isPro)
+            took: \(elapsed)
+            """
+
             if product == nil {
                 // `Product.products(for:)` does NOT throw for an unknown or
                 // not-yet-purchasable identifier — it returns an empty array.
+                Self.trace("EMPTY RESULT. The id is unknown to this storefront, or the product is not yet purchasable. Check: bundle id matches App Store Connect; the IAP is Ready to Submit or Approved; the Paid Apps agreement is Active; and allow a few hours after any of those changed.")
                 if surfacingErrors { lastError = Self.unavailableMessage }
                 return false
             }
@@ -49,6 +97,15 @@ final class StoreManager {
         } catch {
             product = nil
             productUnavailable = true
+            // localizedDescription throws away the useful part of a StoreKitError.
+            Self.trace("LOOKUP THREW: \(String(describing: error))")
+            diagnostics = """
+            bundle: \(bundleID)
+            asked for: \(Self.proProductID)
+            storefront: \(front)
+            canMakePayments: \(canPay)
+            error: \(String(describing: error))
+            """
             if surfacingErrors {
                 lastError = "Could not reach the App Store: \(error.localizedDescription)"
             }
@@ -83,18 +140,23 @@ final class StoreManager {
         isLoading = true
         lastError = nil
         do {
+            Self.trace("purchase starting for \(product.id) at \(product.displayPrice)")
             let result = try await product.purchase()
             switch result {
             case .success(let verification):
                 let transaction = try checkVerified(verification)
+                Self.trace("purchase SUCCESS · transaction \(transaction.id) for \(transaction.productID)")
                 await transaction.finish()
                 await updateEntitlements()
-            case .userCancelled, .pending:
-                break
+            case .userCancelled:
+                Self.trace("purchase cancelled by the person")
+            case .pending:
+                Self.trace("purchase PENDING — awaiting approval (Ask to Buy, or SCA)")
             @unknown default:
-                break
+                Self.trace("purchase returned an unknown result")
             }
         } catch {
+            Self.trace("purchase THREW: \(String(describing: error))")
             lastError = error.localizedDescription
         }
         isLoading = false
@@ -132,6 +194,9 @@ final class StoreManager {
                 unlocked = true
                 break
             }
+        }
+        if isPro != unlocked {
+            Self.trace("entitlement changed: isPro=\(unlocked)")
         }
         isPro = unlocked
     }
