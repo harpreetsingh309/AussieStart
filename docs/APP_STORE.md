@@ -295,3 +295,65 @@ That boots iPhone 16 Plus and iPad Pro 13-inch (M4), screenshots Home / First 30
 ```bash
 python3 scripts/compose_app_store_screenshots.py
 ```
+
+---
+
+## 1.1.0 release runbook
+
+Work top to bottom. Steps 1-3 are gates: if one fails, stop rather than continuing.
+
+### 1. Gate — does Pro actually load?
+
+1.1.0 changes StoreManager. Do not ship a paywall that cannot sell.
+
+- Simulator, scheme StoreKit Configuration = `Products.storekit`. Open Settings > Unlock AussieStart Pro.
+- The price must read **A$9.99**, not the `$9.99` fallback. That difference is the whole test.
+- Tap Buy, complete the sheet, confirm a locked guide (for example myGov) opens.
+- Settings > Restore purchases still reports Pro as unlocked.
+- If the product does not load: Device > Erase All Content and Settings, quit Xcode fully, reopen, retry. Check Debug > StoreKit > Manage Transactions is selectable — if it is greyed out the config is not attached to the running process.
+
+### 2. Gate — sandbox on a physical device
+
+Proves the App Store Connect side, which the simulator never touches.
+
+- Scheme > Run > Options > StoreKit Configuration = **None**. Leaving it set means you are testing the local file again and learning nothing.
+- Settings app > Developer > Sandbox Apple Account > sign in with a sandbox tester (App Store Connect > Users and Access > Sandbox).
+- Buy, then delete and reinstall the app and Restore.
+- The Paid Apps agreement went Active on 2 September 2026; if sandbox returns nothing, allow a day for propagation before treating it as broken.
+- **Set StoreKit Configuration back to `None` before archiving.** Archive ignores it, but leaving it set invites confusion later.
+
+### 3. Gate — the rest of 1.1.0
+
+- **Arabic**: switch language and walk Home, a guide, Settings. Highest-risk item in this release — right-to-left exposes layout assumptions nothing else does.
+- **Welcome screen**: the drawn scene renders, and the headline sits below the horizon. Check on an iPhone SE, the tightest case.
+- **Onboarding**: six steps, Acknowledgement of Country after the language choice.
+- **What's New**: delete `releaseNotes.lastSeenVersion` from UserDefaults to re-trigger.
+- **Daily tip**: Settings > Daily tip, set a time two minutes out, background the app, confirm it fires.
+- **Task reminder**: Saved > Checklists > bell on a task (Pro only).
+- Two or three other languages for text overflow.
+- Run `AussieStartTests`.
+
+### 4. Archive and upload
+
+```bash
+cd ~/Desktop/AussieStart
+python3 scripts/generate_xcodeproj.py    # only if files changed
+```
+
+In Xcode: destination **Any iOS Device (arm64)** > Product > Archive > Distribute App > App Store Connect > Upload.
+
+Version 1.1.0, build 2. If build 2 is rejected as duplicate, bump `CURRENT_PROJECT_VERSION` at the top of `scripts/generate_xcodeproj.py` and regenerate.
+
+### 5. App Store Connect
+
+- New version **1.1.0**.
+- Paste the What's New text from this document.
+- Attach the build once processing finishes (10-30 minutes; you get an email).
+- Add the 1.1.0 review notes addendum.
+- Screenshots: existing 1.0.0 screenshots carry over. Only re-capture if you want the new welcome screen shown — `scripts/capture_app_store_screenshots.py`.
+- Localisations: adding App Store *listing* translations is optional and separate from in-app localisation. Shipping the listing in English only is fine.
+- Submit for review.
+
+### Rollback
+
+If 1.1.0 is rejected or a serious bug lands, `main` at `05ae479` is the 1.0.0 tree. Nothing in this release migrates stored data, so an older build reads existing UserDefaults and SwiftData without loss.
