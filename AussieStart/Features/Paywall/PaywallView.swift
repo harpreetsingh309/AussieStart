@@ -142,10 +142,10 @@ struct PaywallView: View {
             }
             .disabled(store.isLoading)
 
-            // TEMPORARY — visible in every build configuration while the
-            // sandbox purchase is being diagnosed, because a Release build on a
-            // device would otherwise hide the one thing we need to read.
-            // Re-gate behind `#if DEBUG` before shipping 1.1.0.
+            #if DEBUG || ALLOW_STORE_DIAGNOSTICS
+            // Never ships. Add ALLOW_STORE_DIAGNOSTICS to the Release
+            // configuration's Active Compilation Conditions if you need this in
+            // a TestFlight build, and take it out again before submitting.
             DisclosureGroup("StoreKit diagnostics · \(StoreLog.buildMarker)") {
                 Text(store.diagnostics + "\n\n--- event log ---\n" + StoreLog.transcript)
                     .font(.system(.caption2, design: .monospaced))
@@ -158,6 +158,7 @@ struct PaywallView: View {
             .font(.caption)
             .tint(.secondary)
             .padding(.top, 8)
+            #endif
         }
     }
 }

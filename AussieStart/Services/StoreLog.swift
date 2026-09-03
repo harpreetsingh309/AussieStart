@@ -32,9 +32,15 @@ enum StoreLog {
         events.append(line)
         if events.count > 80 { events.removeFirst(events.count - 80) }
 
+        // Logger is the only one kept in release builds: it is privacy-aware,
+        // filterable by subsystem, and costs nothing when nobody is listening.
+        // print and NSLog exist for debugging and have no consumer in a
+        // shipped app, so they are compiled out.
+        logger.notice("\(line, privacy: .public)")
+        #if DEBUG || ALLOW_STORE_DIAGNOSTICS
         print("🟣 [AussieStart/StoreKit] \(line)")
         NSLog("[AussieStart/StoreKit] %@", line)
-        logger.notice("\(line, privacy: .public)")
+        #endif
     }
 
     static func reset() {
