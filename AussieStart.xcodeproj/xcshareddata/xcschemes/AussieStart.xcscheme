@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1600"
-   version = "1.7">
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC1B54D8ADE9447F90D319D4"
+               BlueprintIdentifier = "7EC3DEC4356B4760BD1438FD"
                BuildableName = "AussieStart.app"
                BlueprintName = "AussieStart"
                ReferencedContainer = "container:AussieStart.xcodeproj">
@@ -34,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C618BC6FF1FC43A78C67B526"
+               BlueprintIdentifier = "BACE934DCAB84EEBAC7B6F82"
                BuildableName = "AussieStartTests.xctest"
                BlueprintName = "AussieStartTests"
                ReferencedContainer = "container:AussieStart.xcodeproj">
@@ -59,7 +59,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC1B54D8ADE9447F90D319D4"
+            BlueprintIdentifier = "7EC3DEC4356B4760BD1438FD"
             BuildableName = "AussieStart.app"
             BlueprintName = "AussieStart"
             ReferencedContainer = "container:AussieStart.xcodeproj">

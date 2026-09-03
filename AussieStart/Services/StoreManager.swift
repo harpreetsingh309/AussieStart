@@ -16,8 +16,7 @@ final class StoreManager {
     /// `com.aussiestart.app`) and stdout, so it shows in the Xcode console
     /// whether the app is attached to the debugger or not.
     private static func trace(_ message: String) {
-        log.notice("\(message, privacy: .public)")
-        print("[StoreKit] \(message)")
+        StoreLog.event(message)
     }
 
     private(set) var product: Product?
@@ -35,8 +34,10 @@ final class StoreManager {
     private(set) var diagnostics = "No store lookup yet."
 
     init() {
+        StoreLog.launchBanner()
+        Self.trace("StoreManager init — starting transaction listener and first lookup")
         Task { await listenForTransactions() }
-        Task { await refresh() }
+        Task { await refresh(surfacingErrors: false) }
     }
 
     /// Reloads the Pro product and entitlement state.
@@ -127,12 +128,19 @@ final class StoreManager {
     }
 
     func purchase() async {
+        Self.trace(">>> purchase() ENTERED · product currently \(product == nil ? "nil" : "loaded") · isPro=\(isPro) · isLoading=\(isLoading)")
+
         // Re-check once in case the first load raced the App Store.
         // `refresh()` sets `lastError` itself, so don't clobber it here.
         if product == nil {
-            guard await refresh() else { return }
+            Self.trace("purchase() has no product — re-running the lookup first")
+            guard await refresh() else {
+                Self.trace("<<< purchase() ABORTED · the lookup returned no product, so there is nothing to buy")
+                return
+            }
         }
         guard let product else {
+            Self.trace("<<< purchase() ABORTED · product still nil after the lookup")
             lastError = Self.unavailableMessage
             return
         }
@@ -160,14 +168,17 @@ final class StoreManager {
             lastError = error.localizedDescription
         }
         isLoading = false
+        Self.trace("<<< purchase() FINISHED · isPro=\(isPro)")
     }
 
     func restore() async {
+        Self.trace(">>> restore() ENTERED — this will ask for an Apple ID password")
         isLoading = true
         lastError = nil
         do {
             try await AppStore.sync()
             await updateEntitlements()
+            Self.trace("restore() sync complete · isPro=\(isPro)")
             if !isPro {
                 lastError = "No previous Pro purchase was found for this Apple ID."
             }

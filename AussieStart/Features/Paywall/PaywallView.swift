@@ -34,7 +34,11 @@ struct PaywallView: View {
                     }
                 }
             }
-            .task { await store.refresh(surfacingErrors: false) }
+            .task {
+                StoreLog.event("PaywallView appeared — running a background lookup")
+                await store.refresh(surfacingErrors: false)
+                StoreLog.event("PaywallView background lookup returned · price shown = \(store.displayPrice) · productLoaded = \(store.product != nil)")
+            }
         }
     }
 
@@ -112,6 +116,9 @@ struct PaywallView: View {
             }
 
             Button {
+                // Logged synchronously, before any async work, so a tap that
+                // goes nowhere is still visibly a tap.
+                StoreLog.event("*** BUY BUTTON TAPPED ***")
                 Task { await store.purchase() }
             } label: {
                 HStack {
@@ -130,16 +137,17 @@ struct PaywallView: View {
             .disabled(store.isLoading || store.isPro)
 
             Button(preferences.t("pro.restore")) {
+                StoreLog.event("*** RESTORE BUTTON TAPPED ***")
                 Task { await store.restore() }
             }
             .disabled(store.isLoading)
 
-            #if DEBUG || ALLOW_STORE_DIAGNOSTICS
-            // Debug builds only. Lets a physical device be diagnosed without
-            // being attached to Xcode — the same trace also goes to the console
-            // and to Console.app under subsystem com.aussiestart.app.
-            DisclosureGroup("StoreKit diagnostics") {
-                Text(store.diagnostics)
+            // TEMPORARY — visible in every build configuration while the
+            // sandbox purchase is being diagnosed, because a Release build on a
+            // device would otherwise hide the one thing we need to read.
+            // Re-gate behind `#if DEBUG` before shipping 1.1.0.
+            DisclosureGroup("StoreKit diagnostics · \(StoreLog.buildMarker)") {
+                Text(store.diagnostics + "\n\n--- event log ---\n" + StoreLog.transcript)
                     .font(.system(.caption2, design: .monospaced))
                     .foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
@@ -150,7 +158,6 @@ struct PaywallView: View {
             .font(.caption)
             .tint(.secondary)
             .padding(.top, 8)
-            #endif
         }
     }
 }
